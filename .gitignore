@@ -1,0 +1,19 @@
+# env files
+.env
+*.env
+.env.local
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Node
+node_modules/
+npm-debug.log*
