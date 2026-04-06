@@ -60,6 +60,21 @@ const LISTS = {
     url: "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/hosts.txt",
     format: "hosts",
   },
+  blp_ads: {
+    name: "Blocklist Project — Ads",
+    url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt",
+    format: "hosts",
+  },
+  blp_tracking: {
+    name: "Blocklist Project — Tracking",
+    url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
+    format: "hosts",
+  },
+  blp_crypto: {
+    name: "Blocklist Project — Crypto",
+    url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt",
+    format: "hosts",
+  },
 };
 
 // --- Fetch with redirect support -------------------------------------------
