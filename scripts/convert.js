@@ -55,6 +55,11 @@ const LISTS = {
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt",
     format: "domains",
   },
+  onehosts_lite: {
+    name: "1Hosts Lite",
+    url: "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/hosts.txt",
+    format: "hosts",
+  },
 };
 
 // --- Fetch with redirect support -------------------------------------------
