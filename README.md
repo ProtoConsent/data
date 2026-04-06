@@ -20,11 +20,16 @@ Enhanced protection lists - domain and path-based blocklists compiled from publi
 |---|---|---|---|---|
 | `easyprivacy.json` | [EasyPrivacy](https://easylist.to/) | GPL-3.0+ / CC BY-SA 3.0+ | ~46K | ~4K |
 | `easylist.json` | [EasyList](https://easylist.to/) | GPL-3.0+ / CC BY-SA 3.0+ | ~58K | ~1.6K |
-| `steven_black.json` | [Steven Black Unified](https://github.com/StevenBlack/hosts) | MIT | ~49K | - |
 | `adguard_dns.json` | [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | GPL-3.0 | ~165K | - |
+| `steven_black.json` | [Steven Black Unified](https://github.com/StevenBlack/hosts) | MIT | ~49K | - |
 | `oisd_small.json` | [OISD Small](https://oisd.nl/) | GPL-3.0 | ~56K | - |
 | `hagezi_pro.json` | [HaGeZi Pro](https://github.com/hagezi/dns-blocklists) | GPL-3.0 | ~190K | - |
 | `hagezi_tif.json` | [HaGeZi TIF](https://github.com/hagezi/dns-blocklists) | GPL-3.0 | ~966K | - |
+| `onehosts_lite.json` | [1Hosts Lite](https://github.com/badmojr/1Hosts) | MPL-2.0 | ~195K | - |
+| `blp_ads.json` | [Blocklist Project — Ads](https://github.com/blocklistproject/Lists) | Unlicense | ~155K | - |
+| `blp_tracking.json` | [Blocklist Project — Tracking](https://github.com/blocklistproject/Lists) | Unlicense | ~15K | - |
+| `blp_crypto.json` | [Blocklist Project — Crypto](https://github.com/blocklistproject/Lists) | Unlicense | ~24K | - |
+| `blp_phishing.json` | [Blocklist Project — Phishing](https://github.com/blocklistproject/Lists) | Unlicense | ~87K | - |
 
 Domain counts are approximate and change with each upstream update.
 

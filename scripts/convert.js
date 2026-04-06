@@ -75,6 +75,11 @@ const LISTS = {
     url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt",
     format: "hosts",
   },
+  blp_phishing: {
+    name: "Blocklist Project — Phishing",
+    url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
+    format: "hosts",
+  },
 };
 
 // --- Fetch with redirect support -------------------------------------------
