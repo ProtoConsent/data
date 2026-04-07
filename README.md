@@ -1,7 +1,7 @@
 # ProtoConsent - Data
 
 <p align="center">
-  <img src="assets/logo/protoconsent_logo.png" alt="ProtoConsent logo" width="160">
+  <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/logo/protoconsent_logo.png" alt="ProtoConsent logo" width="160">
 </p>
 
 <p align="center"><strong>Consent you can express, enforce and observe</strong></p>
