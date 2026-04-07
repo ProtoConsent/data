@@ -4,9 +4,9 @@
   <img src="assets/logo/protoconsent_logo.png" alt="ProtoConsent logo" width="160">
 </p>
 
-<p align="center"><strong>One place to control how every website uses your data.</strong></p>
+<p align="center"><strong>Consent you can express, enforce and observe</strong></p>
 
-<p align="center"><em>User‑side, purpose‑based consent for the web.</em></p>
+<p align="center"><em>User‑side, purpose‑based consent for the web</em></p>
 
 Pre-built data files consumed by the [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) browser extension. See the main repo for full documentation.
 
