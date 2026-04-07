@@ -26,26 +26,33 @@ Enhanced protection lists - domain and path-based blocklists compiled from publi
 | `hagezi_pro.json` | [HaGeZi Pro](https://github.com/hagezi/dns-blocklists) | GPL-3.0 | ~190K | - |
 | `hagezi_tif.json` | [HaGeZi TIF](https://github.com/hagezi/dns-blocklists) | GPL-3.0 | ~966K | - |
 | `onehosts_lite.json` | [1Hosts Lite](https://github.com/badmojr/1Hosts) | MPL-2.0 | ~195K | - |
-| `blp_ads.json` | [Blocklist Project — Ads](https://github.com/blocklistproject/Lists) | Unlicense | ~155K | - |
-| `blp_tracking.json` | [Blocklist Project — Tracking](https://github.com/blocklistproject/Lists) | Unlicense | ~15K | - |
-| `blp_crypto.json` | [Blocklist Project — Crypto](https://github.com/blocklistproject/Lists) | Unlicense | ~24K | - |
-| `blp_phishing.json` | [Blocklist Project — Phishing](https://github.com/blocklistproject/Lists) | Unlicense | ~87K | - |
+| `blp_ads.json` | [Blocklist Project - Ads](https://github.com/blocklistproject/Lists) | Unlicense | ~155K | - |
+| `blp_tracking.json` | [Blocklist Project - Tracking](https://github.com/blocklistproject/Lists) | Unlicense | ~15K | - |
+| `blp_crypto.json` | [Blocklist Project - Crypto](https://github.com/blocklistproject/Lists) | Unlicense | ~24K | - |
+| `blp_phishing.json` | [Blocklist Project - Phishing](https://github.com/blocklistproject/Lists) | Unlicense | ~87K | - |
 
 Domain counts are approximate and change with each upstream update.
 
+### `enhanced/cname_trackers.json`
+
+CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.com/AdguardTeam/cname-trackers) (MIT). Contains ~229K disguised domains mapped to their tracker destinations. This is an informational list: it does not generate blocking rules. The extension uses it to flag CNAME-cloaked domains in the Log tab.
+
 ### `scripts/`
 
-`convert.js` - Node.js script that fetches upstream blocklists, parses them (ABP, hosts, and plain domain formats), deduplicates, and outputs the JSON files used by the extension.
+`convert.js` fetches upstream blocklists, parses them (ABP, hosts, and plain domain formats), deduplicates, and outputs the JSON blocklist files.
+
+`convert-cname.js` fetches AdGuard's CNAME tracker lists, merges the 5 categories (trackers, ads, clickthroughs, mail_trackers, microsites), and outputs an indexed lookup map.
 
 ```bash
-node scripts/convert.js                    # fetch all, output to ./enhanced/
-node scripts/convert.js --list hagezi_pro  # fetch one list
+node scripts/convert.js                    # fetch all blocklists, output to ./enhanced/
+node scripts/convert.js --list hagezi_pro  # fetch one blocklist
 node scripts/convert.js --dry-run          # show stats without writing
+node scripts/convert-cname.js              # fetch CNAME list, output to ./enhanced/
 ```
 
-## JSON format
+## JSON formats
 
-Each file contains:
+### Blocklists
 
 ```json
 {
@@ -63,10 +70,26 @@ Each file contains:
 
 The extension reads `rules[].condition` and creates `declarativeNetRequest` dynamic rules from them.
 
+### CNAME lookup map
+
+```json
+{
+  "version": "2026-04-06",
+  "generated": "2026-04-06T...",
+  "domain_count": 229037,
+  "tracker_count": 244,
+  "trackers": ["adjust.com", "adobe.com", "..."],
+  "map": { "disguised.example.com": 0, "...": 1 }
+}
+```
+
+The `trackers` array stores tracker destination names once. The `map` uses numeric indices into `trackers` instead of repeating strings, reducing file size from ~10.7 MB to ~7.9 MB.
+
 ## Regenerating
 
 ```bash
 node scripts/convert.js --output ./enhanced
+node scripts/convert-cname.js --output ./enhanced
 ```
 
 Requires Node.js 18+. No dependencies.
