@@ -1,0 +1,76 @@
+# ProtoConsent browser extension
+# Copyright (C) 2026 ProtoConsent contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: Refresh enhanced lists
+
+on:
+  schedule:
+    - cron: "42 4 * * 2"   # Tuesday 04:42 UTC (off-round)
+  workflow_dispatch:
+    inputs:
+      list:
+        description: "Single list ID to refresh (blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh blocklists
+        id: convert
+        run: |
+          set +e
+          if [ -n "${{ github.event.inputs.list }}" ]; then
+            node scripts/convert.js --list "${{ github.event.inputs.list }}"
+          else
+            node scripts/convert.js
+          fi
+          CONVERT_EXIT=$?
+          echo "convert_exit=$CONVERT_EXIT" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh CNAME trackers
+        id: cname
+        if: github.event.inputs.list == '' || github.event.inputs.list == 'cname_trackers'
+        run: |
+          set +e
+          node scripts/convert-cname.js
+          echo "cname_exit=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Generate manifest
+        run: node scripts/generate-manifest.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add enhanced/ lists.json
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "data: refresh enhanced lists ($DATE)"
+          git push

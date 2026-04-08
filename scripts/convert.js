@@ -345,8 +345,14 @@ async function main() {
   }
   let totalLine = "  Total: " + totalDomains.toLocaleString() + " domains";
   if (totalPaths > 0) totalLine += " + " + totalPaths.toLocaleString() + " path rules";
-  totalLine += " across " + stats.filter(s => !s.error).length + " lists";
+  const succeeded = stats.filter(s => !s.error).length;
+  totalLine += " across " + succeeded + " lists";
   console.log(totalLine);
+
+  // Exit 1 only if every list failed (partial success is OK for CI)
+  if (succeeded === 0 && stats.length > 0) {
+    process.exit(1);
+  }
 }
 
 main().catch(err => {

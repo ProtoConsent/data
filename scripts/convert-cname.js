@@ -107,6 +107,12 @@ async function main() {
   }
   console.log("  Total (deduplicated): " + totalDomains.toLocaleString() + " domains");
 
+  // Exit 1 if every category failed (partial success is OK for CI)
+  const succeeded = stats.filter(s => !s.error).length;
+  if (succeeded === 0 && stats.length > 0) {
+    process.exit(1);
+  }
+
   if (!dryRun) {
     fs.mkdirSync(outputDir, { recursive: true });
     const outPath = path.join(outputDir, "cname_trackers.json");
