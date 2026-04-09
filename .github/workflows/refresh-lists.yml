@@ -81,4 +81,5 @@ jobs:
           git add enhanced/ lists.json
           DATE=$(date -u +%Y-%m-%d)
           git commit -m "data: refresh enhanced lists ($DATE)"
+          git pull --rebase
           git push
