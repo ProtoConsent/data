@@ -37,9 +37,15 @@ Domain counts are approximate and change with each upstream update.
 
 CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.com/AdguardTeam/cname-trackers) (MIT). Contains ~229K disguised domains mapped to their tracker destinations. This is an informational list: it does not generate blocking rules. The extension uses it to flag CNAME-cloaked domains in the Log tab.
 
+### `enhanced/easylist_cosmetic.json`
+
+Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GPL-3.0+ / CC BY-SA 3.0+). Contains ~13K generic and ~7.5K domain-specific CSS element-hiding selectors. This is a cosmetic list: it does not generate blocking rules. The extension compiles these selectors into CSS and injects them via a content script to hide ad containers and banners left empty after network-level blocking. A snapshot is also bundled in the extension package for first-install availability.
+
 ### `scripts/`
 
 `convert.js` fetches upstream blocklists, parses them (ABP, hosts, and plain domain formats), deduplicates, and outputs the JSON blocklist files.
+
+`convert-cosmetic.js` fetches EasyList, extracts `##` element-hiding rules (generic and domain-specific CSS selectors), filters out procedural selectors, and outputs a cosmetic JSON file.
 
 `convert-cname.js` fetches AdGuard's CNAME tracker lists, merges the 5 categories (trackers, ads, clickthroughs, mail_trackers, microsites), and outputs an indexed lookup map.
 
@@ -47,6 +53,7 @@ CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.
 node scripts/convert.js                    # fetch all blocklists, output to ./enhanced/
 node scripts/convert.js --list hagezi_pro  # fetch one blocklist
 node scripts/convert.js --dry-run          # show stats without writing
+node scripts/convert-cosmetic.js           # fetch EasyList cosmetic rules, output to ./enhanced/
 node scripts/convert-cname.js              # fetch CNAME list, output to ./enhanced/
 ```
 

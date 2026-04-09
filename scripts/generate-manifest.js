@@ -126,6 +126,15 @@ const LIST_CATALOG = {
     type: "informational",
     preset: "basic",
   },
+  easylist_cosmetic: {
+    name: "EasyList Cosmetic",
+    description: "Element hiding - hides ad containers and banners",
+    source: "https://easylist.to/",
+    license: "GPL-3.0+ / CC BY-SA 3.0+",
+    category: "ads",
+    type: "cosmetic",
+    preset: "basic",
+  },
 };
 
 // --- Read metadata from an enhanced JSON file ---
@@ -133,12 +142,17 @@ function readEnhancedMetadata(filePath) {
   try {
     const raw = fs.readFileSync(filePath, "utf-8");
     const data = JSON.parse(raw);
-    return {
+    const meta = {
       version: data.version || null,
       generated: data.generated || null,
       domain_count: data.domain_count || 0,
       path_rule_count: data.path_rule_count || 0,
     };
+    if (data.type === "cosmetic") {
+      meta.generic_count = data.generic_count || 0;
+      meta.domain_rule_count = data.domain_rule_count || 0;
+    }
+    return meta;
   } catch (e) {
     console.warn("  WARN: cannot read " + path.basename(filePath) + ": " + e.message);
     return null;
@@ -171,6 +185,8 @@ function buildManifest(enhancedDir) {
       entry.generated = meta.generated;
       entry.domain_count = meta.domain_count;
       entry.path_rule_count = meta.path_rule_count;
+      if (meta.generic_count !== undefined) entry.generic_count = meta.generic_count;
+      if (meta.domain_rule_count !== undefined) entry.domain_rule_count = meta.domain_rule_count;
     } else {
       entry.version = null;
       entry.generated = null;
@@ -212,8 +228,14 @@ function main() {
   for (const [id, entry] of Object.entries(manifest.lists)) {
     let line = "  " + entry.name + ": ";
     if (entry.version) {
-      line += entry.domain_count.toLocaleString() + " domains";
-      if (entry.path_rule_count > 0) line += " + " + entry.path_rule_count.toLocaleString() + " path rules";
+      if (entry.type === "cosmetic") {
+        line += (entry.generic_count || 0).toLocaleString() + " generic";
+        line += " + " + (entry.domain_rule_count || 0).toLocaleString() + " site rules";
+        line += " (" + (entry.domain_count || 0).toLocaleString() + " domains)";
+      } else {
+        line += entry.domain_count.toLocaleString() + " domains";
+        if (entry.path_rule_count > 0) line += " + " + entry.path_rule_count.toLocaleString() + " path rules";
+      }
       line += " (v" + entry.version + ")";
     } else {
       line += "NO DATA FILE";

@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-08T18:58:43.574Z",
+  "generated": "2026-04-09T15:37:59.017Z",
   "lists": {
     "easyprivacy": {
       "name": "EasyPrivacy",
@@ -171,6 +171,22 @@
       "generated": "2026-04-07T19:33:05.703Z",
       "domain_count": 229037,
       "path_rule_count": 0
+    },
+    "easylist_cosmetic": {
+      "name": "EasyList Cosmetic",
+      "description": "Element hiding - hides ad containers and banners",
+      "source": "https://easylist.to/",
+      "license": "GPL-3.0+ / CC BY-SA 3.0+",
+      "category": "ads",
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/easylist_cosmetic.json",
+      "type": "cosmetic",
+      "version": "2026-04-09",
+      "generated": "2026-04-09T15:37:00.755Z",
+      "domain_count": 7313,
+      "path_rule_count": 0,
+      "generic_count": 13662,
+      "domain_rule_count": 14994
     }
   }
 }
