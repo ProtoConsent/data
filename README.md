@@ -14,7 +14,19 @@ Pre-built data files consumed by the [ProtoConsent](https://github.com/ProtoCons
 
 ### `enhanced/`
 
-Enhanced protection lists - domain and path-based blocklists compiled from public sources. The extension fetches these JSON files at runtime when the user enables Enhanced Protection.
+Enhanced protection lists - domain and path-based blocklists compiled from public sources and ProtoConsent's own core lists. The extension fetches these JSON files at runtime when the user enables Enhanced Protection.
+
+**ProtoConsent Core** - purpose-based lists derived from the extension's static rulesets, enabling weekly updates via CDN independently of extension releases:
+
+| File | Category | License | Domains | Path rules |
+|---|---|---|---|---|
+| `protoconsent_analytics.json` | `analytics` | GPL-3.0-or-later | ~15.8K | 559 |
+| `protoconsent_ads.json` | `ads` | GPL-3.0-or-later | ~12.9K | 529 |
+| `protoconsent_personalization.json` | `personalization` | GPL-3.0-or-later | ~73 | 13 |
+| `protoconsent_third_parties.json` | `third_parties` | GPL-3.0-or-later | ~171 | 73 |
+| `protoconsent_advanced_tracking.json` | `advanced_tracking` | GPL-3.0-or-later | ~11.2K | 28 |
+
+**Third-party lists** - compiled from public blocklists:
 
 | File | Source | License | Domains | Path rules |
 |---|---|---|---|---|
@@ -49,13 +61,22 @@ Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GP
 
 `convert-cname.js` fetches AdGuard's CNAME tracker lists, merges the 5 categories (trackers, ads, clickthroughs, mail_trackers, microsites), and outputs an indexed lookup map.
 
+`generate-manifest.js` reads metadata from all `enhanced/*.json` files, merges it with the list catalog (names, descriptions, licenses, categories, presets), and outputs `lists.json` - the remote catalog consumed by the extension.
+
 ```bash
 node scripts/convert.js                    # fetch all blocklists, output to ./enhanced/
 node scripts/convert.js --list hagezi_pro  # fetch one blocklist
 node scripts/convert.js --dry-run          # show stats without writing
 node scripts/convert-cosmetic.js           # fetch EasyList cosmetic rules, output to ./enhanced/
 node scripts/convert-cname.js              # fetch CNAME list, output to ./enhanced/
+node scripts/generate-manifest.js          # rebuild lists.json from enhanced/ metadata
 ```
+
+### `lists.json`
+
+Remote catalog of all available Enhanced lists. The extension fetches this file to discover lists, their metadata (name, category, preset, version, domain count), and their `fetch_url` for downloading. It is regenerated automatically by `generate-manifest.js` after each list refresh.
+
+The extension merges this remote catalog with its local `enhanced-lists.json` on startup if the user accepts it. If the remote fetch fails, the local catalog is used as fallback.
 
 ## JSON formats
 
