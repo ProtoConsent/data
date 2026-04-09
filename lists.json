@@ -1,7 +1,72 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-09T15:37:59.017Z",
+  "generated": "2026-04-09T18:30:36.662Z",
   "lists": {
+    "protoconsent_analytics": {
+      "name": "ProtoConsent Analytics",
+      "description": "Core analytics and tracking domain blocklist",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": "analytics",
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_analytics.json",
+      "version": "2026-04-09",
+      "generated": "2026-04-09T18:14:30.845Z",
+      "domain_count": 15851,
+      "path_rule_count": 559
+    },
+    "protoconsent_ads": {
+      "name": "ProtoConsent Ads",
+      "description": "Core advertising domain blocklist",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": "ads",
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_ads.json",
+      "version": "2026-04-09",
+      "generated": "2026-04-09T18:14:30.845Z",
+      "domain_count": 12904,
+      "path_rule_count": 529
+    },
+    "protoconsent_personalization": {
+      "name": "ProtoConsent Personalization",
+      "description": "Core personalization domain blocklist",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": "personalization",
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_personalization.json",
+      "version": "2026-04-09",
+      "generated": "2026-04-09T18:14:30.845Z",
+      "domain_count": 73,
+      "path_rule_count": 13
+    },
+    "protoconsent_third_parties": {
+      "name": "ProtoConsent Third Parties",
+      "description": "Core third-party domain blocklist",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": "third_parties",
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_third_parties.json",
+      "version": "2026-04-09",
+      "generated": "2026-04-09T18:14:30.845Z",
+      "domain_count": 171,
+      "path_rule_count": 73
+    },
+    "protoconsent_advanced_tracking": {
+      "name": "ProtoConsent Advanced Tracking",
+      "description": "Core fingerprinting and advanced tracking domain blocklist",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": "advanced_tracking",
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_advanced_tracking.json",
+      "version": "2026-04-09",
+      "generated": "2026-04-09T18:14:30.845Z",
+      "domain_count": 11234,
+      "path_rule_count": 28
+    },
     "easyprivacy": {
       "name": "EasyPrivacy",
       "description": "Privacy and tracking protection filter list",

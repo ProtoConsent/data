@@ -21,6 +21,46 @@ const CDN_BASE = "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/";
 // Source of truth for display metadata. Mirrors the extension's
 // config/enhanced-lists.json and convert.js LISTS.
 const LIST_CATALOG = {
+  protoconsent_analytics: {
+    name: "ProtoConsent Analytics",
+    description: "Core analytics and tracking domain blocklist",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: "analytics",
+    preset: "basic",
+  },
+  protoconsent_ads: {
+    name: "ProtoConsent Ads",
+    description: "Core advertising domain blocklist",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: "ads",
+    preset: "basic",
+  },
+  protoconsent_personalization: {
+    name: "ProtoConsent Personalization",
+    description: "Core personalization domain blocklist",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: "personalization",
+    preset: "basic",
+  },
+  protoconsent_third_parties: {
+    name: "ProtoConsent Third Parties",
+    description: "Core third-party domain blocklist",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: "third_parties",
+    preset: "basic",
+  },
+  protoconsent_advanced_tracking: {
+    name: "ProtoConsent Advanced Tracking",
+    description: "Core fingerprinting and advanced tracking domain blocklist",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: "advanced_tracking",
+    preset: "basic",
+  },
   easyprivacy: {
     name: "EasyPrivacy",
     description: "Privacy and tracking protection filter list",
