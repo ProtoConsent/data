@@ -50,6 +50,14 @@ jobs:
           node scripts/convert-cname.js
           echo "cname_exit=$?" >> "$GITHUB_OUTPUT"
 
+      - name: Refresh cosmetic rules
+        id: cosmetic
+        if: github.event.inputs.list == '' || github.event.inputs.list == 'easylist_cosmetic'
+        run: |
+          set +e
+          node scripts/convert-cosmetic.js
+          echo "cosmetic_exit=$?" >> "$GITHUB_OUTPUT"
+
       - name: Generate manifest
         run: node scripts/generate-manifest.js
 
