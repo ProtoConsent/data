@@ -83,3 +83,10 @@ jobs:
           git commit -m "data: refresh enhanced lists ($DATE)"
           git pull --rebase
           git push
+
+      - name: Purge jsDelivr cache
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          for f in enhanced/*.json lists.json; do
+            curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/$f" > /dev/null && echo "Purged $f" || echo "Warning: $f failed"
+          done
