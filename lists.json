@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-10T01:06:51.680Z",
+  "generated": "2026-04-10T02:04:48.118Z",
   "lists": {
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -10,9 +10,9 @@
       "category": "analytics",
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_analytics.json",
-      "version": "2026-04-10",
-      "generated": "2026-04-10T01:06:44.463Z",
-      "domain_count": 97,
+      "version": "2026-04-11",
+      "generated": "2026-04-10T02:04:41.264Z",
+      "domain_count": 100,
       "path_rule_count": 562
     },
     "protoconsent_ads": {
