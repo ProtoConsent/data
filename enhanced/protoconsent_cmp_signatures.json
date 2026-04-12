@@ -2,7 +2,7 @@
   "version": "2026-04-12",
   "type": "cmp",
   "generated": "2026-04-12T19:41:43.988Z",
-  "cmp_count": 22,
+  "cmp_count": 23,
   "signatures": {
     "onetrust": {
       "cookie": [
@@ -323,6 +323,12 @@
         "msn"
       ],
       "note": "Microsoft/Bing consent banner. BCP cookie uses simple key=value pairs. Covers bing.com, microsoft.com, outlook.com, live.com, msn.com."
+    },
+    "usercentrics": {
+      "cookie": [],
+      "selector": "#usercentrics-root, #usercentrics-cmp-ui, #usercentrics-button, .uc-embedding-wrapper, #uc-center-container, uc-layer1, uc-layer2, [data-testid='uc-default-wall'], [data-testid='uc-banner-modal']",
+      "lockClass": null,
+      "note": "Usercentrics CMP (SDK v2/v4). Uses localStorage (uc_settings), not cookies. Standard SDK: #usercentrics-root (shadow DOM). Custom integrations (e.g. Porsche): uc-layer1/uc-layer2 custom elements (uc-p-modal is inside their shadow DOM, unreachable by CSS)."
     }
   },
   "autoconsent_augmented": 14
