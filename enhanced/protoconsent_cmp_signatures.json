@@ -1,8 +1,8 @@
 {
   "version": "2026-04-12",
   "type": "cmp",
-  "generated": "2026-04-12T15:49:23.904Z",
-  "cmp_count": 128,
+  "generated": "2026-04-12T16:17:07.136Z",
+  "cmp_count": 53,
   "signatures": {
     "onetrust": {
       "cookie": [
@@ -324,83 +324,17 @@
       ],
       "note": "Microsoft/Bing consent banner. BCP cookie uses simple key=value pairs. Covers bing.com, microsoft.com, outlook.com, live.com, msn.com."
     },
-    "etsy_com": {
-      "selector": "#gdpr-single-choice-overlay, #gdpr-privacy-settings, .wt-overlay__modal"
-    },
     "admiral": {
       "selector": ".a__sc-np32r2-0"
-    },
-    "affinity": {
-      "selector": ".c-modal__content, .c-modal, .c-modal__with-footer, .c-cookie-banner"
-    },
-    "airbnb": {
-      "selector": "[data-testid='modal-container'], ._1i0vjctk"
-    },
-    "allekringloopwinkels": {
-      "selector": ".cbar-overlay, .cbar-modal1, .cbar-modal2"
     },
     "almacmpv2": {
       "selector": ".almacmp-background-overlay"
     },
-    "ameli_connect": {
-      "selector": "#pageConsentement"
-    },
-    "asus": {
-      "selector": "#cookie-policy-info"
-    },
-    "autodesk": {
-      "selector": ".wape-gdpr-settings-MuiPaper-elevation1"
-    },
-    "autohero": {
-      "selector": ".backdrop___is1w-, .root___3ffa6"
-    },
-    "aws": {
-      "selector": "#awsccc-cs-container, #awsccc-cs-modalOverlay, #awsccc-cb-c"
-    },
-    "bankofscotland": {
-      "selector": "#lbganalyticsCookies"
-    },
-    "bauhaus_cz": {
-      "selector": ".modal, .overlay.fixed.w-100"
-    },
-    "bbc_fc": {
-      "selector": ".fc-consent-root, .bbccookies-banner"
-    },
-    "benq": {
-      "selector": "#cookie-bar-eu"
-    },
-    "bol": {
-      "selector": "wsp-modal-window, .modal__overlay"
-    },
-    "bouwinfo": {
-      "selector": ".bi-cookie-alert-background, .bi-cookie-alert-main-screen, .bi-cookie-alert-more-info-screen"
-    },
-    "britishairways": {
-      "selector": "#overlay, #ensNotifyBanner, #ensModalWrapper"
-    },
-    "canalplus": {
-      "selector": "#privacy-manager-popin"
-    },
-    "caseking": {
-      "selector": "#cookie_consent_modal, #ckLbOverlay"
-    },
     "cassie": {
       "selector": ".cassie-cookie-module"
     },
-    "cdiscountopen": {
-      "selector": "#tc-privacy-wrapper, #privacy-overlay, #privacy-container"
-    },
-    "channel4": {
-      "selector": "#cookie-consent-banner"
-    },
-    "check24": {
-      "selector": ".c24-cookie-consent-wrapper"
-    },
     "chefcookie": {
       "selector": "#cc-banner, .chefcookie__inner"
-    },
-    "chrysal_com": {
-      "selector": ".popup-content.info"
     },
     "clickio": {
       "selector": "#cl-consent"
@@ -423,23 +357,11 @@
     "cookiewow": {
       "selector": ".cwc-sdk-container"
     },
-    "deepl_com": {
-      "selector": ".dl_cookieBanner_container"
-    },
-    "deichman": {
-      "selector": "#cookie-consent-local, #cookie-consent-options"
-    },
     "designilpdpa": {
       "selector": ".dpdpa--alwayson, .dpdpa--popup-sidebar, .dpdpa--popup-bg"
     },
     "drupaleucc": {
       "selector": "#sliding-popup"
-    },
-    "elektroniklavpris": {
-      "selector": "#cookieconsent-modal"
-    },
-    "eurorepar": {
-      "selector": "#_psaihm_overlay, #_psaihm_main_div"
     },
     "evidonbanner": {
       "selector": "#evidon-prefdiag-background, #evidon-prefdiag-overlay, #_evidon_banner"
@@ -447,107 +369,29 @@
     "ezcookie": {
       "selector": "#ez-cookie-dialog-wrapper"
     },
-    "facebook": {
-      "selector": "[data-testid=\"cookie-policy-manage-dialog\"]"
-    },
-    "fanatical": {
-      "selector": "div.cookie-collapsible"
-    },
     "fastcmp": {
       "selector": "html"
-    },
-    "flysas": {
-      "selector": "[s4s-modal-id='privacyModal'], [s4s-modal-id='privacySettingsModal']"
     },
     "gdprmodal": {
       "selector": "#gdpr-modal"
     },
-    "gls": {
-      "selector": "#cm, #s-cnt, #cs-ov"
-    },
-    "gondola": {
-      "selector": ".cookie-notice-container"
-    },
     "gravito": {
       "selector": "[class^='gravito'][class*='CMP-background-overlay'], [class^='gravitoCMP-modal-layer']"
-    },
-    "hanseaticbusinessschool": {
-      "selector": ".cc-individual-cookie-settings, .cc-individual-cookie-settings-overlay"
-    },
-    "harvester": {
-      "selector": ".cookie-manager.cookie-manager__modal"
-    },
-    "hl_co_uk": {
-      "selector": "#cookie-banner-overlay, .cookieBanner__inner"
-    },
-    "i4wifi": {
-      "selector": "#CPrivacy-Modal, #CPrivacy-Panel"
-    },
-    "ionos": {
-      "selector": ".privacy-consent--modal, .privacy-consent--backdrop, #co"
     },
     "iubuenda": {
       "selector": "#iubenda-cs-banner, #iubenda-iframe"
     },
-    "jamsoftware": {
-      "selector": "#cookiehint"
-    },
     "june": {
       "selector": "#modal-tracking, #modal-overlay"
-    },
-    "justmusic": {
-      "selector": "#PrivacyCategoryAlert, .modal-backdrop"
-    },
-    "km_de": {
-      "selector": ".my_cookielayer_overlay, .my_cookielayer"
     },
     "klaro": {
       "selector": "#klaro"
     },
-    "lamarquezone": {
-      "selector": ".cookie-modal, .cookie-overlay, .cookie-header"
-    },
-    "landestheater": {
-      "selector": ".acccc-cookie-message, .acc-cookie-message-background"
-    },
-    "lego": {
-      "selector": "[class*='Modalstyles__Container']"
-    },
-    "lenovo": {
-      "selector": "#evidon-prefdiag-overlay, #evidon-prefdiag-background"
-    },
-    "lesatlantes": {
-      "selector": "#popin-cookies"
-    },
     "mediavine": {
       "selector": ".sc-gueYoa.kcKQPW"
     },
-    "metro_co_uk": {
-      "selector": ".container_riSbm, .overlay_QGo9N"
-    },
-    "mindfactory": {
-      "selector": "#cookieModalOverlay"
-    },
-    "mitid": {
-      "selector": "#mitid-shared--cookie-warning-popup-modal-wrapper, #mitid-shared--cookie-warning-popup-overlay"
-    },
-    "nationaltrust": {
-      "selector": ".cookie-preferences-forms"
-    },
-    "nd_nl": {
-      "selector": "#cookieconsent, .cookie-banner__inner"
-    },
-    "nl_hardware_info": {
-      "selector": "div#oreo"
-    },
-    "notion_so": {
-      "selector": ".jsx-539809080.visibility-partial.container"
-    },
     "oil": {
       "selector": "div.as-oil"
-    },
-    "onethemarket": {
-      "selector": "#ccc-overlay, #ccc-module"
     },
     "optanon": {
       "selector": "#optanon-popup-wrapper, #optanon-popup-bg, .optanon-alert-box-wrapper"
@@ -558,92 +402,24 @@
     "piwikproconsent": {
       "selector": "#ppms_cm_popup_overlay, #ppms_cm_bar_overlay"
     },
-    "poedb": {
-      "selector": "#ncmp__modal"
-    },
-    "pouch": {
-      "selector": ".cookie-notice, .modal.is-active"
-    },
     "pubtech": {
       "selector": "#pubtech-cmp"
-    },
-    "rsonline": {
-      "selector": "#ensModalWrapper, #ensModalBG, #ensNotifyBanner"
-    },
-    "saturn_de": {
-      "selector": ".sc-g0yhcr-0.fAIKwq"
-    },
-    "seb_eelvlt": {
-      "selector": "#cookiesMessage, .modal-backdrop"
     },
     "setono_sylius": {
       "selector": "form#ws-consent"
     },
-    "sfr": {
-      "selector": "#eTpi, #CkC"
-    },
-    "skyscanner": {
-      "selector": ".cookie-banner-wrapper"
-    },
     "snigel": {
       "selector": "#snigel-cmp-framework"
-    },
-    "moneysavingexpert": {
-      "selector": ".blackout, [data-testid='accept-our-cookies-dialog'], .preference-centre"
-    },
-    "svenskhalsokost": {
-      "selector": "#cookie-accept"
-    },
-    "svt_se": {
-      "selector": ".CookieConsent__root___3GjU8"
-    },
-    "synology": {
-      "selector": ".syno_cookie_element"
     },
     "tarteaucitron": {
       "selector": "#tarteaucitron"
     },
-    "terveyskirjasto": {
-      "selector": "#edit-cookies-modal, #edit-cookies-modal___BV_modal_backdrop_"
-    },
-    "theverge": {
-      "selector": ".duet--cta--cookie-banner"
-    },
-    "thomaskrenn": {
-      "selector": ".xtx-privacy-cookie, div, .xtxNavigationOffCanvasOverlay, #data-offcanvas-content, [data-offcanvas-content='']"
-    },
-    "transavia": {
-      "selector": "#transavia-consent-banner"
-    },
     "truendo": {
       "selector": "#truendo_container .truendo_panel"
-    },
-    "tui": {
-      "selector": "#cmNotifyBanner, #__tealiumGDPRcpPrefs"
-    },
-    "twitch_tv": {
-      "selector": ".consent-banner, .ReactModal__Overlay.ReactModal__Overlay--after-open.modal__backdrop.js-modal-backdrop"
-    },
-    "ubuntu_com": {
-      "selector": ".cookie-policy, .p-modal__dialog"
-    },
-    "visa": {
-      "selector": "#CookieReportsOverlay, #CookieReportsBanner"
-    },
-    "volkswagen": {
-      "selector": "#cookiemgmt #ensModalWrapper"
-    },
-    "wshop_com": {
-      "selector": "#shadCookie.actif, #cookiesLightbox.notAccepted"
-    },
-    "xe_com": {
-      "selector": ".fluid-container__BaseFluidContainer-qoidzu-0.gHjEXY.ConsentBannerstyles__Banner-smyzu-1.dGQMCW"
-    },
-    "yle_fi": {
-      "selector": "#yle-consent-sdk-container .ycd-background"
     }
   },
   "source_tree_hash": "9d88488e86b6b046",
   "com_augmented": 13,
-  "com_added": 106
+  "com_added": 106,
+  "com_sdk_added": 31
 }

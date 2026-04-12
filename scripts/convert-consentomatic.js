@@ -33,6 +33,7 @@ const GITHUB_RAW = "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/ma
 
 const SIGNATURES_FILE = "protoconsent_cmp_signatures.json";
 const DETECTORS_FILE = "protoconsent_cmp_detectors.json";
+const SITE_FILE = "protoconsent_cmp_signatures_site.json";
 
 // --- HTTP fetch ---
 function fetchUrl(url) {
@@ -83,6 +84,20 @@ function normalizeName(name) {
   if (NAME_MAP[name]) return NAME_MAP[name];
   return name.toLowerCase().replace(/[.\s]+/g, "_").replace(/[^a-z0-9_]/g, "");
 }
+
+// --- CMP SDK names (apply globally, no domains restriction) ---
+// These are consent management SDKs used across many websites.
+// Everything else is treated as site-specific and gets a domains field
+// derived from its normalized name, so selectors only apply on that site.
+const CMP_SDKS = new Set([
+  "admiral", "almacmpv2", "cassie", "chefcookie", "clickio",
+  "contentpass", "cookie_information", "cookiebar", "cookiescript",
+  "cookiesjsr", "cookiewow", "designilpdpa", "drupaleucc",
+  "evidonbanner", "ezcookie", "fastcmp", "gdprmodal", "gravito",
+  "iubuenda", "june", "klaro", "mediavine", "oil",
+  "optanon", "optanon_springernature", "piwikproconsent", "pubtech",
+  "setono_sylius", "snigel", "tarteaucitron", "truendo",
+]);
 
 // --- Extract HIDE_CMP selectors from a CMP's methods ---
 function extractHideSelectors(cmp) {
@@ -243,15 +258,29 @@ function extractAll(entries) {
 }
 
 // --- Merge C-O-M selectors into existing signatures ---
+// Only CMP SDKs (global consent tools) and overlapping CMPs are merged.
+// Site-specific CMPs are extracted to a separate file — their selectors
+// may be generic and need detection before applying (future feature 2.A).
 function mergeIntoSignatures(sigData, hideByName, treeHash) {
   const sigs = sigData.signatures;
-  const existingIds = new Set(Object.keys(sigs));
+  // Identify our hand-maintained entries (have cookie field)
+  const handMaintained = new Set();
+  for (const [id, entry] of Object.entries(sigs)) {
+    if (entry.cookie) handMaintained.add(id);
+  }
+
+  // Remove previous C-O-M-only entries (no cookie) so we rebuild fresh
+  for (const id of Object.keys(sigs)) {
+    if (!handMaintained.has(id)) delete sigs[id];
+  }
+
   let augmented = 0;
-  let added = 0;
+  let sdkAdded = 0;
+  const siteSpecific = {}; // name -> selectors[]
 
   for (const [comName, comSelectors] of Object.entries(hideByName)) {
-    if (existingIds.has(comName)) {
-      // Overlapping CMP: merge selectors into existing entry
+    if (handMaintained.has(comName)) {
+      // Overlapping CMP: merge selectors into existing hand-maintained entry
       const entry = sigs[comName];
       const existing = entry.selector
         ? entry.selector.split(",").map(s => s.trim()).filter(Boolean)
@@ -259,12 +288,15 @@ function mergeIntoSignatures(sigData, hideByName, treeHash) {
       const merged = dedup([...existing, ...comSelectors]);
       entry.selector = merged.join(", ");
       augmented++;
-    } else {
-      // New CMP from C-O-M: add entry with selector only
+    } else if (CMP_SDKS.has(comName)) {
+      // New CMP SDK: safe to apply globally
       sigs[comName] = {
         selector: comSelectors.join(", "),
       };
-      added++;
+      sdkAdded++;
+    } else {
+      // Site-specific: separate file, needs detection before applying
+      siteSpecific[comName] = comSelectors;
     }
   }
 
@@ -275,9 +307,36 @@ function mergeIntoSignatures(sigData, hideByName, treeHash) {
   sigData.cmp_count = Object.keys(sigs).length;
   sigData.source_tree_hash = treeHash || null;
   sigData.com_augmented = augmented;
-  sigData.com_added = added;
+  sigData.com_sdk_added = sdkAdded;
 
-  return { augmented, added };
+  return { augmented, sdkAdded, siteSpecific };
+}
+
+// --- Build standalone site-specific file ---
+function buildSiteSpecific(siteSpecific, detectorByName, treeHash) {
+  const now = new Date();
+  const out = {
+    version: now.toISOString().slice(0, 10),
+    type: "cmp_site",
+    generated: now.toISOString(),
+    source: "Consent-O-Matic (cavi-au/Consent-O-Matic)",
+    source_license: "MIT",
+    source_tree_hash: treeHash || null,
+    cmp_count: Object.keys(siteSpecific).length,
+    signatures: {},
+  };
+  for (const [name, selectors] of Object.entries(siteSpecific).sort(([a], [b]) => a.localeCompare(b))) {
+    const entry = { selector: selectors.join(", ") };
+    // Attach detectors if available (for future 2.A)
+    const det = detectorByName[name];
+    if (det && (det.present.length > 0 || det.showing.length > 0)) {
+      entry.detectors = {};
+      if (det.present.length > 0) entry.detectors.present = det.present;
+      if (det.showing.length > 0) entry.detectors.showing = det.showing;
+    }
+    out.signatures[name] = entry;
+  }
+  return out;
 }
 
 // --- Build standalone detectors file ---
@@ -358,11 +417,12 @@ async function main() {
   // Extract all C-O-M data
   const { hideByName, detectorByName } = extractAll(entries);
 
-  // Merge hide selectors into signatures
-  const { augmented, added } = mergeIntoSignatures(sigData, hideByName, treeHash);
+  // Merge SDK selectors into signatures, separate site-specific
+  const { augmented, sdkAdded, siteSpecific } = mergeIntoSignatures(sigData, hideByName, treeHash);
 
-  // Build standalone detectors
+  // Build standalone files
   const detectorsOut = buildDetectors(detectorByName, treeHash);
+  const siteSpecificOut = buildSiteSpecific(siteSpecific, detectorByName, treeHash);
 
   // Summary
   const totalHideSelectors = Object.values(hideByName).reduce((n, sels) => n + sels.length, 0);
@@ -372,21 +432,27 @@ async function main() {
   console.log("  C-O-M source files: " + entries.length);
   console.log("  C-O-M CMPs with hide selectors: " + Object.keys(hideByName).length + " (" + totalHideSelectors + " selectors)");
   console.log("  Augmented existing CMPs: " + augmented);
-  console.log("  New CMPs added: " + added);
+  console.log("  New SDK CMPs added to signatures: " + sdkAdded);
+  console.log("  Site-specific CMPs (separate file): " + Object.keys(siteSpecific).length);
   console.log("  Total CMPs in signatures: " + sigData.cmp_count + " (was " + originalCount + ")");
   console.log("  Detectors: " + detectorsOut.cmp_count + " CMPs, " + totalDetectors + " selectors");
 
   const sigJson = JSON.stringify(sigData, null, 2);
   const detectorsJson = JSON.stringify(detectorsOut, null, 2);
+  const siteSpecificJson = JSON.stringify(siteSpecificOut, null, 2);
 
   if (dryRun) {
     console.log("\n--- Dry run ---");
-    console.log("Signatures (" + (Buffer.byteLength(sigJson) / 1024).toFixed(1) + " KB):");
-    console.log("  New CMPs: " + Object.keys(sigData.signatures).filter(id => !["onetrust","cookiebot","sourcepoint","didomi","quantcast","trustarc","consentmanager","iab_tcf","iubenda","cookieyes","complianz","borlabs","termly","axeptio","osano","sirdata","civic","ccm19","amasty","wix","fides","bing","usercentrics","admiral","cookie_information"].includes(id)).slice(0, 15).join(", ") + "...");
+    console.log("Signatures (" + (Buffer.byteLength(sigJson) / 1024).toFixed(1) + " KB)");
+    console.log("Site-specific (" + (Buffer.byteLength(siteSpecificJson) / 1024).toFixed(1) + " KB, " + siteSpecificOut.cmp_count + " CMPs)");
     console.log("Detectors (" + (Buffer.byteLength(detectorsJson) / 1024).toFixed(1) + " KB)");
   } else {
     fs.writeFileSync(sigPath, sigJson + "\n", "utf-8");
     console.log("\n  -> " + sigPath + " (" + (Buffer.byteLength(sigJson) / 1024).toFixed(1) + " KB)");
+
+    const sitePath = path.join(outputDir, SITE_FILE);
+    fs.writeFileSync(sitePath, siteSpecificJson + "\n", "utf-8");
+    console.log("  -> " + sitePath + " (" + (Buffer.byteLength(siteSpecificJson) / 1024).toFixed(1) + " KB)");
 
     const detectorsPath = path.join(outputDir, DETECTORS_FILE);
     fs.writeFileSync(detectorsPath, detectorsJson + "\n", "utf-8");
