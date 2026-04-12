@@ -49,7 +49,7 @@ Domain counts are approximate and change with each upstream update.
 
 CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.com/AdguardTeam/cname-trackers) (MIT). Contains ~229K disguised domains mapped to their tracker destinations. This is an informational list: it does not generate blocking rules. The extension uses it to flag CNAME-cloaked domains in the Log tab.
 
-### `enhanced/cmp_signatures.json`
+### `enhanced/protoconsent_cmp_signatures.json`
 
 CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 22 banner handler signatures covering major CMPs (OneTrust, Cookiebot, TrustArc, Didomi, Quantcast, etc.). Each signature defines cookie injection values, cosmetic hiding selectors, and scroll-unlock rules. The extension injects these at `document_start` to dismiss consent banners according to the user's purpose preferences, without waiting for the CMP script to load. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.
 

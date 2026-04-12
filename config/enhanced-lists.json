@@ -272,14 +272,14 @@
       "generic_count": 13662,
       "domain_rule_count": 14991
     },
-    "cmp_signatures": {
+    "protoconsent_cmp_signatures": {
       "name": "ProtoConsent Banners",
       "description": "CMP auto-response templates - cookie injection, cosmetic hiding, scroll unlock",
       "source": "https://github.com/ProtoConsent/data",
       "license": "GPL-3.0-or-later",
       "category": null,
       "preset": "basic",
-      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/cmp_signatures.json",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_cmp_signatures.json",
       "type": "cmp",
       "order": 10,
       "version": "2026-04-12",

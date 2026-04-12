@@ -194,7 +194,7 @@ const LIST_CATALOG = {
     preset: "basic",
     order: 20,
   },
-  cmp_signatures: {
+  protoconsent_cmp_signatures: {
     name: "ProtoConsent Banners",
     description: "CMP auto-response templates - cookie injection, cosmetic hiding, scroll unlock",
     source: "https://github.com/ProtoConsent/data",
