@@ -58,13 +58,13 @@ jobs:
           node scripts/convert-cosmetic.js
           echo "cosmetic_exit=$?" >> "$GITHUB_OUTPUT"
 
-      - name: Refresh Consent-O-Matic data
-        id: consentomatic
+      - name: Refresh autoconsent CMP data
+        id: autoconsent
         if: github.event.inputs.list == '' || github.event.inputs.list == 'protoconsent_cmp_signatures'
         run: |
           set +e
-          node scripts/convert-consentomatic.js
-          echo "consentomatic_exit=$?" >> "$GITHUB_OUTPUT"
+          node scripts/convert-autoconsent.js
+          echo "autoconsent_exit=$?" >> "$GITHUB_OUTPUT"
 
       - name: Generate manifest
         run: node scripts/generate-manifest.js

@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-12T16:26:02.906Z",
+  "generated": "2026-04-12T17:47:50.049Z",
   "lists": {
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -283,10 +283,42 @@
       "type": "cmp",
       "order": 10,
       "version": "2026-04-12",
-      "generated": "2026-04-12T16:17:07.136Z",
+      "generated": "2026-04-12T17:47:42.305Z",
       "domain_count": 0,
       "path_rule_count": 0,
-      "cmp_count": 53
+      "cmp_count": 22
+    },
+    "protoconsent_cmp_detectors": {
+      "name": "ProtoConsent CMP Detectors",
+      "description": "CSS detection selectors for 175 CMPs - used by CMP detection",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": null,
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_cmp_detectors.json",
+      "type": "cmp_detectors",
+      "order": 11,
+      "version": "2026-04-12",
+      "generated": "2026-04-12T17:47:42.312Z",
+      "domain_count": 0,
+      "path_rule_count": 0,
+      "cmp_count": 464
+    },
+    "protoconsent_cmp_signatures_site": {
+      "name": "ProtoConsent Site Banners",
+      "description": "Site-specific CMP hiding selectors with detection - 75 CMPs",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": null,
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_cmp_signatures_site.json",
+      "type": "cmp_site",
+      "order": 12,
+      "version": "2026-04-12",
+      "generated": "2026-04-12T17:47:42.305Z",
+      "domain_count": 0,
+      "path_rule_count": 0,
+      "cmp_count": 337
     }
   }
 }
