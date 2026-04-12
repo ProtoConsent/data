@@ -1,7 +1,7 @@
 {
   "version": "2026-04-12",
   "type": "cmp",
-  "generated": "2026-04-12T03:46:47.844Z",
+  "generated": "2026-04-12T19:41:43.988Z",
   "cmp_count": 22,
   "signatures": {
     "onetrust": {
@@ -24,7 +24,7 @@
         "allow": "1",
         "deny": "0"
       },
-      "selector": "#onetrust-banner-sdk, #onetrust-consent-sdk, .onetrust-pc-dark-filter",
+      "selector": "#onetrust-banner-sdk, #onetrust-consent-sdk, .onetrust-pc-dark-filter, .js-consent-banner",
       "lockClass": "ot-sdk-show-settings"
     },
     "cookiebot": {
@@ -43,7 +43,7 @@
         "allow": "true",
         "deny": "false"
       },
-      "selector": "#CybotCookiebotDialog",
+      "selector": "#CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay, #dtcookie-container, #cookiebanner, #cb-cookieoverlay, .modal--cookie-banner, #cookiebanner_outer, #CookieBanner",
       "lockClass": "CybotCookiebotDialogBody"
     },
     "sourcepoint": {
@@ -53,7 +53,7 @@
           "template": "{UUID}"
         }
       ],
-      "selector": "[id^='sp_message_container'], .sp_message_open",
+      "selector": "[id^='sp_message_container'], .sp_message_open, div[id^='sp_message_container_'], .message-overlay, #sp_privacy_manager_container",
       "lockClass": "sp_message_open"
     },
     "didomi": {
@@ -63,7 +63,7 @@
           "siteSpecific": true
         }
       ],
-      "selector": "#didomi-popup, #didomi-notice, .didomi-popup-container",
+      "selector": "#didomi-popup, #didomi-notice, .didomi-popup-container, #didomi-consent-popup, .didomi-popup-view",
       "lockClass": "didomi-popup-open"
     },
     "quantcast": {
@@ -73,7 +73,7 @@
           "template": "2~"
         }
       ],
-      "selector": "#qc-cmp2-container, .qc-cmp2-container",
+      "selector": "#qc-cmp2-container, .qc-cmp2-container, #qc-cmp2-main, .qc-cmp-ui-container, #qc-cmp2-main,#qc-cmp2-container",
       "lockClass": "qc-cmp2-showing"
     },
     "trustarc": {
@@ -91,7 +91,7 @@
           "template": "{DATE_ISO}"
         }
       ],
-      "selector": ".truste_box_overlay, #truste-consent-track, .trustarc-banner-container",
+      "selector": ".truste_box_overlay, #truste-consent-track, .trustarc-banner-container, .truste_popframe, .truste_overlay",
       "lockClass": null
     },
     "consentmanager": {
@@ -172,7 +172,7 @@
         "allow": "yes",
         "deny": "no"
       },
-      "selector": ".cky-consent-container, #cky-consent",
+      "selector": ".cky-consent-container, #cky-consent, .cky-overlay, .cky-overlay,.cky-consent-container",
       "lockClass": null
     },
     "complianz": {
@@ -222,7 +222,7 @@
     },
     "axeptio": {
       "cookie": [],
-      "selector": ".axeptio_widget, #axeptio_overlay, .axeptio-widget",
+      "selector": ".axeptio_widget, #axeptio_overlay, .axeptio-widget, .axeptio_mount, .axeptio_widget,.axeptio_mount",
       "lockClass": null
     },
     "osano": {
@@ -232,12 +232,12 @@
           "template": ""
         }
       ],
-      "selector": ".osano-cm-dialog, .osano-cm-window",
+      "selector": ".osano-cm-dialog, .osano-cm-window, .osano-cm-window__dialog, .osano-cm-window__info-dialog, .osano-cm-window,.osano-cm-dialog",
       "lockClass": "osano-cm-dialog--open"
     },
     "sirdata": {
       "cookie": [],
-      "selector": "#sd-cmp, .sd-cmp-3WP4a",
+      "selector": "#sd-cmp, .sd-cmp-3WP4a, .sd-cmp-2riLW",
       "lockClass": null
     },
     "civic": {
@@ -293,7 +293,7 @@
           "template": "%7B%22consent%22%3A%7B%7D%2C%22identity%22%3A%7B%22fides_user_device_id%22%3A%22{UUID}%22%7D%2C%22fides_meta%22%3A%7B%22version%22%3A%220.9.0%22%2C%22createdAt%22%3A%22{DATE_ISO}%22%2C%22updatedAt%22%3A%22{DATE_ISO}%22%2C%22consentMethod%22%3A%22reject%22%7D%2C%22tcf_consent%22%3A%7B%22system_consent_preferences%22%3A%7B%7D%2C%22system_legitimate_interests_preferences%22%3A%7B%7D%7D%7D"
         }
       ],
-      "selector": "#fides-overlay, #fides-banner-container, #fides-banner-inner-container",
+      "selector": "#fides-overlay, #fides-banner-container, #fides-banner-inner-container, #fides-overlay-wrapper, #fides-overlay, #fides-overlay-wrapper",
       "lockClass": "fides-no-scroll",
       "note": "Ethyca Fides (open source). Cookie omits fides_string/non_applicable_notice_keys (site-specific). Falls back to cosmetic if cookie alone insufficient."
     },
@@ -313,7 +313,7 @@
         "allow": "1",
         "deny": "0"
       },
-      "selector": "#bnp_container, .bnp_overlay_wrapper",
+      "selector": "#bnp_container, .bnp_overlay_wrapper, #bnp_cookie_banner, #mcp_container",
       "lockClass": null,
       "domains": [
         "bing",
@@ -324,5 +324,6 @@
       ],
       "note": "Microsoft/Bing consent banner. BCP cookie uses simple key=value pairs. Covers bing.com, microsoft.com, outlook.com, live.com, msn.com."
     }
-  }
+  },
+  "autoconsent_augmented": 14
 }

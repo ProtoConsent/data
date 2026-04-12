@@ -1,0 +1,68 @@
+{
+  "_comment": "Safelist for CMP data pipeline. Shared across convert-autoconsent.js, generate-manifest.js, and future processes. Selectors or entries matching these rules are excluded from output.",
+
+  "banned_selectors": [
+    "title",
+    "html",
+    "body",
+    "div",
+    "span",
+    "p",
+    "header",
+    "footer",
+    "main",
+    "body > div",
+    "body > div:first-child",
+    "[role=\"dialog\"]",
+    "[class*=modal]",
+    ".modal",
+    ".modal-backdrop",
+    ".overlay",
+    ".bg-overlay",
+    ".content",
+    ".banner",
+    ".popup",
+    ".popup-text",
+    "button#save",
+    "button#accept-button",
+    "button#decline-button"
+  ],
+
+  "banned_selector_patterns": [
+    "^(body|div|span|p|header|footer|main|title|html|section|nav|aside|article)$",
+    "^body\\s*>\\s*div(:first-child)?$",
+    "^\\[role=[\"']?dialog[\"']?\\]$",
+    "^\\[class\\*=modal\\]$",
+    "^\\.(modal|overlay|content|banner|popup)$",
+    "^\\.modal-backdrop$",
+    "^\\.bg-overlay$"
+  ],
+
+  "banned_entries": [
+    "fastcmp",
+    "thomaskrenn",
+    "xhamstereu",
+    "bauhaus_cz",
+    "riadaljana",
+    "google_popup",
+    "pepper",
+    "leafly",
+    "povr",
+    "track_amazon_com"
+  ],
+
+  "domain_tld_pattern": "^([a-z0-9]+(?:_[a-z0-9]+)*)_(com|org|net|io|de|nl|uk|fr|es|it|pt|cz|dk|se|no|fi|be|at|ch|pl|ru|jp|kr|cn|au|nz|br|ca|co_uk|co_nz|co_kr)$",
+
+  "domain_tld_overrides": {
+    "airbnb": "airbnb.com",
+    "aliexpress": "aliexpress.com",
+    "ebay": "ebay.com",
+    "etsy": "etsy.com",
+    "facebook": "facebook.com",
+    "imdb": "imdb.com",
+    "openai": "openai.com",
+    "reddit_com": "reddit.com",
+    "twitter": "twitter.com",
+    "tesco": "tesco.com"
+  }
+}

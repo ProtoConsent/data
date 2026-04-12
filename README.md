@@ -51,7 +51,15 @@ CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.
 
 ### `enhanced/protoconsent_cmp_signatures.json`
 
-CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 128 banner handler signatures covering major CMPs. 22 are hand-maintained with full cookie injection, cosmetic hiding, and scroll-unlock support. The remaining 106 are cosmetic-only selectors extracted from [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic) (MIT, Aarhus University) - these hide the banner via CSS but do not inject cookies. The extension injects all signatures at `document_start` to dismiss consent banners according to the user's purpose preferences. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.
+CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 22 hand-maintained banner handler signatures covering major CMPs, with full cookie injection, cosmetic hiding, and scroll-unlock support. The pipeline augments these signatures with prehide CSS selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0, DuckDuckGo) for faster banner hiding. The extension injects all signatures at `document_start` to dismiss consent banners according to the user's purpose preferences. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.
+
+### `enhanced/protoconsent_cmp_detectors.json`
+
+CMP presence-detection selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~284 CMP detection rules with CSS selectors for `present` (CMP loaded) and `showing` (banner visible) states. Filtered through `config/cmp-safelist.json` to remove dangerous or overly generic selectors. Entries with site-specific names include a `domains` field for scoped matching. Used by the extension's CMP detection feature at `document_idle`. A snapshot is also bundled in the extension package.
+
+### `enhanced/protoconsent_cmp_signatures_site.json`
+
+Site-specific CMP hiding selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~235 CMP entries with CSS hiding selectors and detection selectors, scoped to specific websites via the `domains` field. These selectors are too generic to apply globally but safe when limited to their target site. Filtered through `config/cmp-safelist.json`. Applied by the extension only after CMP detection confirms the banner is present. A snapshot is also bundled in the extension package.
 
 ### `enhanced/easylist_cosmetic.json`
 
@@ -65,7 +73,7 @@ Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GP
 
 `convert-cname.js` fetches AdGuard's CNAME tracker lists, merges the 5 categories (trackers, ads, clickthroughs, mail_trackers, microsites), and outputs an indexed lookup map.
 
-`convert-consentomatic.js` fetches [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic) rule files from GitHub, extracts HIDE_CMP CSS selectors, and merges them into the existing `protoconsent_cmp_signatures.json`. Overlapping CMPs get additional selectors appended; new CMPs are added with cosmetic selectors only. Also generates a standalone `protoconsent_cmp_detectors.json` with CMP presence-detection selectors. Uses a tree hash cache to skip re-fetching when upstream hasn't changed.
+`convert-autoconsent.js` fetches [Autoconsent](https://github.com/duckduckgo/autoconsent) rule files from GitHub, extracts prehide selectors (cosmetic hiding), detectCmp/detectPopup selectors (CMP detection), and builds three output files: augmented `protoconsent_cmp_signatures.json` (prehide selectors merged into hand-maintained entries), `protoconsent_cmp_detectors.json` (standalone CMP detection), and `protoconsent_cmp_signatures_site.json` (site-specific hiding with detection). Applies `config/cmp-safelist.json` filtering and domain matching. Uses a tree hash cache to skip re-fetching when upstream hasn't changed.
 
 `generate-manifest.js` reads metadata from all `enhanced/*.json` files, merges it with the list catalog (names, descriptions, licenses, categories, presets), and outputs `config/enhanced-lists.json` - the remote catalog consumed by the extension.
 
@@ -75,7 +83,7 @@ node scripts/convert.js --list hagezi_pro  # fetch one blocklist
 node scripts/convert.js --dry-run          # show stats without writing
 node scripts/convert-cosmetic.js           # fetch EasyList cosmetic rules, output to ./enhanced/
 node scripts/convert-cname.js              # fetch CNAME list, output to ./enhanced/
-node scripts/convert-consentomatic.js      # merge C-O-M selectors into CMP signatures
+node scripts/convert-autoconsent.js         # build CMP signatures, detectors and site-specific from Autoconsent
 node scripts/generate-manifest.js          # rebuild config/enhanced-lists.json from enhanced/ metadata
 ```
 
@@ -127,7 +135,7 @@ The `trackers` array stores tracker destination names once. The `map` uses numer
   "version": "2026-04-12",
   "type": "cmp",
   "generated": "2026-04-12T...",
-  "cmp_count": 128,
+  "cmp_count": 22,
   "source_tree_hash": "9d88488e86b6b046",
   "signatures": {
     "onetrust": {
@@ -136,15 +144,12 @@ The `trackers` array stores tracker destination names once. The `map` uses numer
       "format": { "allow": "1", "deny": "0" },
       "selector": "#onetrust-banner-sdk, #onetrust-consent-sdk, ...",
       "lockClass": "ot-sdk-show-settings"
-    },
-    "airbnb": {
-      "selector": "[data-testid='modal-container'], ._1i0vjctk"
     }
   }
 }
 ```
 
-Signatures with `cookie`, `purposeMap`, `format`, and `lockClass` are hand-maintained and support all three layers: cookie injection, cosmetic hiding, and scroll unlock. Signatures with only `selector` (like `airbnb` above) are derived from Consent-O-Matic and provide cosmetic hiding only. Unlike blocklists and cosmetic rules, hand-maintained CMP signatures are not generated from upstream sources.
+Signatures with `cookie`, `purposeMap`, `format`, and `lockClass` are hand-maintained and support all three layers: cookie injection, cosmetic hiding, and scroll unlock. Hand-maintained signatures may also include prehide selectors from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0) merged into their `selector` field. Unlike blocklists and cosmetic rules, the core CMP signatures are not generated from upstream sources.
 
 ## Regenerating
 
@@ -152,7 +157,7 @@ Signatures with `cookie`, `purposeMap`, `format`, and `lockClass` are hand-maint
 node scripts/convert.js --output ./enhanced
 node scripts/convert-cosmetic.js --output ./enhanced
 node scripts/convert-cname.js --output ./enhanced
-node scripts/convert-consentomatic.js
+node scripts/convert-autoconsent.js
 node scripts/generate-manifest.js
 ```
 
@@ -162,4 +167,4 @@ Requires Node.js 18+. No dependencies.
 
 GPL-3.0-or-later - see [LICENSE](LICENSE).
 
-The generated JSON files contain data derived from upstream sources under their respective licenses (see table above and [CREDITS.md](CREDITS.md)). CMP cosmetic selectors from Consent-O-Matic are used under the MIT license.
+The generated JSON files contain data derived from upstream sources under their respective licenses (see table above and [CREDITS.md](CREDITS.md)). CMP detection and hiding selectors from Autoconsent are used under the MPL-2.0 license.
