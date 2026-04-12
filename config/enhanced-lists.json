@@ -9,6 +9,7 @@
       "license": "GPL-3.0-or-later",
       "category": "analytics",
       "preset": "basic",
+      "order": 30,
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent_analytics.json",
       "version": "2026-04-11",
       "generated": "2026-04-10T02:04:41.264Z",
@@ -26,7 +27,8 @@
       "version": "2026-04-10",
       "generated": "2026-04-10T01:06:44.468Z",
       "domain_count": 14623,
-      "path_rule_count": 533
+      "path_rule_count": 533,
+      "order": 31
     },
     "protoconsent_personalization": {
       "name": "ProtoConsent Personalization",
@@ -39,7 +41,8 @@
       "version": "2026-04-10",
       "generated": "2026-04-10T01:06:44.470Z",
       "domain_count": 10,
-      "path_rule_count": 14
+      "path_rule_count": 14,
+      "order": 32
     },
     "protoconsent_third_parties": {
       "name": "ProtoConsent Third Parties",
@@ -52,7 +55,8 @@
       "version": "2026-04-10",
       "generated": "2026-04-10T01:06:44.471Z",
       "domain_count": 16,
-      "path_rule_count": 110
+      "path_rule_count": 110,
+      "order": 33
     },
     "protoconsent_advanced_tracking": {
       "name": "ProtoConsent Advanced Tracking",
@@ -65,7 +69,8 @@
       "version": "2026-04-10",
       "generated": "2026-04-10T01:06:44.473Z",
       "domain_count": 3345,
-      "path_rule_count": 30
+      "path_rule_count": 30,
+      "order": 34
     },
     "easyprivacy": {
       "name": "EasyPrivacy",
@@ -78,7 +83,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:35.520Z",
       "domain_count": 46356,
-      "path_rule_count": 4035
+      "path_rule_count": 4035,
+      "order": 100
     },
     "easylist": {
       "name": "EasyList",
@@ -91,7 +97,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:35.700Z",
       "domain_count": 56692,
-      "path_rule_count": 1605
+      "path_rule_count": 1605,
+      "order": 110
     },
     "adguard_dns": {
       "name": "AdGuard DNS Filter",
@@ -104,7 +111,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:36.419Z",
       "domain_count": 163969,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 120
     },
     "steven_black": {
       "name": "Steven Black Unified",
@@ -117,7 +125,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:35.959Z",
       "domain_count": 49428,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 130
     },
     "oisd_small": {
       "name": "OISD Small",
@@ -130,7 +139,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:37.799Z",
       "domain_count": 56588,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 200
     },
     "hagezi_pro": {
       "name": "HaGeZi Pro",
@@ -143,7 +153,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:38.456Z",
       "domain_count": 186283,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 210
     },
     "hagezi_tif": {
       "name": "HaGeZi TIF",
@@ -156,7 +167,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:40.631Z",
       "domain_count": 915967,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 220
     },
     "onehosts_lite": {
       "name": "1Hosts Lite",
@@ -169,7 +181,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:41.051Z",
       "domain_count": 92780,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 230
     },
     "blp_ads": {
       "name": "Blocklist Project - Ads",
@@ -182,7 +195,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:41.289Z",
       "domain_count": 69744,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 240
     },
     "blp_tracking": {
       "name": "Blocklist Project - Tracking",
@@ -195,7 +209,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:41.311Z",
       "domain_count": 14935,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 250
     },
     "blp_crypto": {
       "name": "Blocklist Project - Crypto",
@@ -208,7 +223,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:41.345Z",
       "domain_count": 10402,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 260
     },
     "blp_phishing": {
       "name": "Blocklist Project - Phishing",
@@ -221,7 +237,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:41.658Z",
       "domain_count": 117996,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 270
     },
     "cname_trackers": {
       "name": "AdGuard CNAME Trackers",
@@ -235,7 +252,8 @@
       "version": "2026-04-09",
       "generated": "2026-04-09T20:01:42.725Z",
       "domain_count": 229037,
-      "path_rule_count": 0
+      "path_rule_count": 0,
+      "order": 300
     },
     "easylist_cosmetic": {
       "name": "EasyList Cosmetic",
@@ -251,7 +269,24 @@
       "domain_count": 7311,
       "path_rule_count": 0,
       "generic_count": 13662,
-      "domain_rule_count": 14983
+      "domain_rule_count": 14983,
+      "order": 20
+    },
+    "cmp_signatures": {
+      "name": "ProtoConsent Banners",
+      "description": "CMP auto-response templates - cookie injection, cosmetic hiding, scroll unlock",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": null,
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/cmp_signatures.json",
+      "type": "cmp",
+      "version": "2026-04-12",
+      "generated": "2026-04-12T00:00:00.000Z",
+      "domain_count": 0,
+      "path_rule_count": 0,
+      "cmp_count": 22,
+      "order": 10
     }
   }
 }

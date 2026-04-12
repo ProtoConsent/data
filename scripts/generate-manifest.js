@@ -4,11 +4,11 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 // Enhanced lists manifest generator
-// Reads enhanced/*.json metadata and produces lists.json for the extension
-// to fetch dynamically.
+// Reads enhanced/*.json metadata and produces config/enhanced-lists.json
+// for the extension to fetch dynamically.
 //
 // Usage:
-//   node scripts/generate-manifest.js                    # output lists.json to repo root
+//   node scripts/generate-manifest.js                    # output config/enhanced-lists.json
 //   node scripts/generate-manifest.js --output ./dir     # custom output directory
 //   node scripts/generate-manifest.js --dry-run          # print to stdout, don't write
 
@@ -28,6 +28,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0-or-later",
     category: "analytics",
     preset: "basic",
+    order: 30,
   },
   protoconsent_ads: {
     name: "ProtoConsent Ads",
@@ -36,6 +37,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0-or-later",
     category: "ads",
     preset: "basic",
+    order: 31,
   },
   protoconsent_personalization: {
     name: "ProtoConsent Personalization",
@@ -44,6 +46,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0-or-later",
     category: "personalization",
     preset: "basic",
+    order: 32,
   },
   protoconsent_third_parties: {
     name: "ProtoConsent Third Parties",
@@ -52,6 +55,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0-or-later",
     category: "third_parties",
     preset: "basic",
+    order: 33,
   },
   protoconsent_advanced_tracking: {
     name: "ProtoConsent Advanced Tracking",
@@ -60,6 +64,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0-or-later",
     category: "advanced_tracking",
     preset: "basic",
+    order: 34,
   },
   easyprivacy: {
     name: "EasyPrivacy",
@@ -68,6 +73,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0+ / CC BY-SA 3.0+",
     category: "analytics",
     preset: "basic",
+    order: 100,
   },
   easylist: {
     name: "EasyList",
@@ -76,6 +82,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0+ / CC BY-SA 3.0+",
     category: "ads",
     preset: "basic",
+    order: 110,
   },
   adguard_dns: {
     name: "AdGuard DNS Filter",
@@ -84,6 +91,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0",
     category: null,
     preset: "basic",
+    order: 120,
   },
   steven_black: {
     name: "Steven Black Unified",
@@ -92,6 +100,7 @@ const LIST_CATALOG = {
     license: "MIT",
     category: null,
     preset: "basic",
+    order: 130,
   },
   oisd_small: {
     name: "OISD Small",
@@ -100,6 +109,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0",
     category: null,
     preset: "full",
+    order: 200,
   },
   hagezi_pro: {
     name: "HaGeZi Pro",
@@ -108,6 +118,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0",
     category: null,
     preset: "full",
+    order: 210,
   },
   hagezi_tif: {
     name: "HaGeZi TIF",
@@ -116,6 +127,7 @@ const LIST_CATALOG = {
     license: "GPL-3.0",
     category: "advanced_tracking",
     preset: "full",
+    order: 220,
   },
   onehosts_lite: {
     name: "1Hosts Lite",
@@ -124,6 +136,7 @@ const LIST_CATALOG = {
     license: "MPL-2.0",
     category: null,
     preset: "full",
+    order: 230,
   },
   blp_ads: {
     name: "Blocklist Project - Ads",
@@ -132,6 +145,7 @@ const LIST_CATALOG = {
     license: "Unlicense",
     category: "ads",
     preset: "full",
+    order: 240,
   },
   blp_tracking: {
     name: "Blocklist Project - Tracking",
@@ -140,6 +154,7 @@ const LIST_CATALOG = {
     license: "Unlicense",
     category: "analytics",
     preset: "full",
+    order: 250,
   },
   blp_crypto: {
     name: "Blocklist Project - Crypto",
@@ -148,6 +163,7 @@ const LIST_CATALOG = {
     license: "Unlicense",
     category: "advanced_tracking",
     preset: "full",
+    order: 260,
   },
   blp_phishing: {
     name: "Blocklist Project - Phishing",
@@ -156,6 +172,7 @@ const LIST_CATALOG = {
     license: "Unlicense",
     category: "security",
     preset: "full",
+    order: 270,
   },
   cname_trackers: {
     name: "AdGuard CNAME Trackers",
@@ -165,6 +182,7 @@ const LIST_CATALOG = {
     category: null,
     type: "informational",
     preset: "basic",
+    order: 300,
   },
   easylist_cosmetic: {
     name: "EasyList Cosmetic",
@@ -174,6 +192,17 @@ const LIST_CATALOG = {
     category: "ads",
     type: "cosmetic",
     preset: "basic",
+    order: 20,
+  },
+  cmp_signatures: {
+    name: "ProtoConsent Banners",
+    description: "CMP auto-response templates - cookie injection, cosmetic hiding, scroll unlock",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: null,
+    type: "cmp",
+    preset: "basic",
+    order: 10,
   },
 };
 
@@ -191,6 +220,9 @@ function readEnhancedMetadata(filePath) {
     if (data.type === "cosmetic") {
       meta.generic_count = data.generic_count || 0;
       meta.domain_rule_count = data.domain_rule_count || 0;
+    }
+    if (data.type === "cmp") {
+      meta.cmp_count = data.cmp_count || 0;
     }
     return meta;
   } catch (e) {
@@ -219,6 +251,7 @@ function buildManifest(enhancedDir) {
     };
 
     if (catalogDef.type) entry.type = catalogDef.type;
+    if (catalogDef.order !== undefined) entry.order = catalogDef.order;
 
     if (meta) {
       entry.version = meta.version;
@@ -227,6 +260,7 @@ function buildManifest(enhancedDir) {
       entry.path_rule_count = meta.path_rule_count;
       if (meta.generic_count !== undefined) entry.generic_count = meta.generic_count;
       if (meta.domain_rule_count !== undefined) entry.domain_rule_count = meta.domain_rule_count;
+      if (meta.cmp_count !== undefined) entry.cmp_count = meta.cmp_count;
     } else {
       entry.version = null;
       entry.generated = null;
@@ -251,11 +285,11 @@ function buildManifest(enhancedDir) {
 // --- Main ---
 function main() {
   const args = process.argv.slice(2);
-  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..");
+  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "config");
   const dryRun = args.includes("--dry-run");
   const enhancedDir = path.join(__dirname, "..", "enhanced");
 
-  console.log("ProtoConsent — generate lists.json manifest");
+  console.log("ProtoConsent — generate config/enhanced-lists.json manifest");
   console.log("Enhanced dir:", enhancedDir);
   console.log();
 
@@ -272,6 +306,8 @@ function main() {
         line += (entry.generic_count || 0).toLocaleString() + " generic";
         line += " + " + (entry.domain_rule_count || 0).toLocaleString() + " site rules";
         line += " (" + (entry.domain_count || 0).toLocaleString() + " domains)";
+      } else if (entry.type === "cmp") {
+        line += (entry.cmp_count || 0).toLocaleString() + " banner templates";
       } else {
         line += entry.domain_count.toLocaleString() + " domains";
         if (entry.path_rule_count > 0) line += " + " + entry.path_rule_count.toLocaleString() + " path rules";
@@ -288,7 +324,7 @@ function main() {
     console.log("\n--- Dry run — manifest content ---");
     console.log(json);
   } else {
-    const outPath = path.join(outputDir, "lists.json");
+    const outPath = path.join(outputDir, "enhanced-lists.json");
     fs.writeFileSync(outPath, json + "\n", "utf-8");
     const sizeKb = (Buffer.byteLength(json) / 1024).toFixed(1);
     console.log("\n  → " + outPath + " (" + sizeKb + " KB)");

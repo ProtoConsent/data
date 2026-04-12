@@ -49,6 +49,10 @@ Domain counts are approximate and change with each upstream update.
 
 CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.com/AdguardTeam/cname-trackers) (MIT). Contains ~229K disguised domains mapped to their tracker destinations. This is an informational list: it does not generate blocking rules. The extension uses it to flag CNAME-cloaked domains in the Log tab.
 
+### `enhanced/cmp_signatures.json`
+
+CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 22 banner handler signatures covering major CMPs (OneTrust, Cookiebot, TrustArc, Didomi, Quantcast, etc.). Each signature defines cookie injection values, cosmetic hiding selectors, and scroll-unlock rules. The extension injects these at `document_start` to dismiss consent banners according to the user's purpose preferences, without waiting for the CMP script to load. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.
+
 ### `enhanced/easylist_cosmetic.json`
 
 Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GPL-3.0+ / CC BY-SA 3.0+). Contains ~13K generic and ~7.5K domain-specific CSS element-hiding selectors. This is a cosmetic list: it does not generate blocking rules. The extension compiles these selectors into CSS and injects them via a content script to hide ad containers and banners left empty after network-level blocking. A snapshot is also bundled in the extension package for first-install availability.
@@ -61,7 +65,7 @@ Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GP
 
 `convert-cname.js` fetches AdGuard's CNAME tracker lists, merges the 5 categories (trackers, ads, clickthroughs, mail_trackers, microsites), and outputs an indexed lookup map.
 
-`generate-manifest.js` reads metadata from all `enhanced/*.json` files, merges it with the list catalog (names, descriptions, licenses, categories, presets), and outputs `lists.json` - the remote catalog consumed by the extension.
+`generate-manifest.js` reads metadata from all `enhanced/*.json` files, merges it with the list catalog (names, descriptions, licenses, categories, presets), and outputs `config/enhanced-lists.json` - the remote catalog consumed by the extension.
 
 ```bash
 node scripts/convert.js                    # fetch all blocklists, output to ./enhanced/
@@ -69,10 +73,10 @@ node scripts/convert.js --list hagezi_pro  # fetch one blocklist
 node scripts/convert.js --dry-run          # show stats without writing
 node scripts/convert-cosmetic.js           # fetch EasyList cosmetic rules, output to ./enhanced/
 node scripts/convert-cname.js              # fetch CNAME list, output to ./enhanced/
-node scripts/generate-manifest.js          # rebuild lists.json from enhanced/ metadata
+node scripts/generate-manifest.js          # rebuild config/enhanced-lists.json from enhanced/ metadata
 ```
 
-### `lists.json`
+### `config/enhanced-lists.json`
 
 Remote catalog of all available Enhanced lists. The extension fetches this file to discover lists, their metadata (name, category, preset, version, domain count), and their `fetch_url` for downloading. It is regenerated automatically by `generate-manifest.js` after each list refresh.
 
@@ -112,6 +116,27 @@ The extension reads `rules[].condition` and creates `declarativeNetRequest` dyna
 ```
 
 The `trackers` array stores tracker destination names once. The `map` uses numeric indices into `trackers` instead of repeating strings, reducing file size from ~10.7 MB to ~7.9 MB.
+
+### CMP signatures
+
+```json
+{
+  "version": "2026-04-12",
+  "type": "cmp",
+  "generated": "2026-04-12T...",
+  "cmp_count": 22,
+  "signatures": {
+    "onetrust": {
+      "detect": ".onetrust-pc-dark-filter, #onetrust-consent-sdk",
+      "cookies": { "OptanonConsent": "..." },
+      "cosmetic": "#onetrust-consent-sdk { display:none!important }",
+      "scroll": "html.ot-overflow-hidden"
+    }
+  }
+}
+```
+
+Each signature key is a CMP identifier. `detect` is a CSS selector to identify the CMP on a page. `cookies` maps cookie names to template values (with `{{purpose}}` placeholders resolved at injection time). `cosmetic` hides the banner. `scroll` removes scroll-lock classes. Unlike blocklists and cosmetic rules, CMP signatures are manually curated and not generated from upstream sources.
 
 ## Regenerating
 
