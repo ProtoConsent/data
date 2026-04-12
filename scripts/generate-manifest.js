@@ -204,6 +204,26 @@ const LIST_CATALOG = {
     preset: "basic",
     order: 10,
   },
+  protoconsent_cmp_detectors: {
+    name: "ProtoConsent CMP Detectors",
+    description: "CSS detection selectors for 175 CMPs - used by CMP detection",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: null,
+    type: "cmp_detectors",
+    preset: "basic",
+    order: 11,
+  },
+  protoconsent_cmp_signatures_site: {
+    name: "ProtoConsent Site Banners",
+    description: "Site-specific CMP hiding selectors with detection - 75 CMPs",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: null,
+    type: "cmp_site",
+    preset: "basic",
+    order: 12,
+  },
 };
 
 // --- Read metadata from an enhanced JSON file ---
@@ -222,6 +242,12 @@ function readEnhancedMetadata(filePath) {
       meta.domain_rule_count = data.domain_rule_count || 0;
     }
     if (data.type === "cmp") {
+      meta.cmp_count = data.cmp_count || 0;
+    }
+    if (data.type === "cmp_detectors") {
+      meta.cmp_count = data.cmp_count || 0;
+    }
+    if (data.type === "cmp_site") {
       meta.cmp_count = data.cmp_count || 0;
     }
     return meta;
@@ -308,6 +334,10 @@ function main() {
         line += " (" + (entry.domain_count || 0).toLocaleString() + " domains)";
       } else if (entry.type === "cmp") {
         line += (entry.cmp_count || 0).toLocaleString() + " banner templates";
+      } else if (entry.type === "cmp_detectors") {
+        line += (entry.cmp_count || 0).toLocaleString() + " CMP detectors";
+      } else if (entry.type === "cmp_site") {
+        line += (entry.cmp_count || 0).toLocaleString() + " site-specific CMPs";
       } else {
         line += entry.domain_count.toLocaleString() + " domains";
         if (entry.path_rule_count > 0) line += " + " + entry.path_rule_count.toLocaleString() + " path rules";
