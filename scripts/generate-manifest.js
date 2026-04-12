@@ -206,7 +206,7 @@ const LIST_CATALOG = {
   },
   protoconsent_cmp_detectors: {
     name: "ProtoConsent CMP Detectors",
-    description: "CSS detection selectors for 175 CMPs - used by CMP detection",
+    description: "CSS detection selectors for CMP presence and visibility",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: null,
@@ -216,7 +216,7 @@ const LIST_CATALOG = {
   },
   protoconsent_cmp_signatures_site: {
     name: "ProtoConsent Site Banners",
-    description: "Site-specific CMP hiding selectors with detection - 75 CMPs",
+    description: "Site-specific CMP hiding selectors with detection",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: null,
