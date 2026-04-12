@@ -1,8 +1,8 @@
 {
   "version": "2026-04-12",
   "type": "cmp",
-  "generated": "2026-04-12T16:17:07.136Z",
-  "cmp_count": 53,
+  "generated": "2026-04-12T03:46:47.844Z",
+  "cmp_count": 22,
   "signatures": {
     "onetrust": {
       "cookie": [
@@ -24,7 +24,7 @@
         "allow": "1",
         "deny": "0"
       },
-      "selector": "#onetrust-banner-sdk, #onetrust-consent-sdk, .onetrust-pc-dark-filter, #onetrust-pc-sdk, #onetrust-banner-sdk [role=\"dialog\"], .js-consent-banner",
+      "selector": "#onetrust-banner-sdk, #onetrust-consent-sdk, .onetrust-pc-dark-filter",
       "lockClass": "ot-sdk-show-settings"
     },
     "cookiebot": {
@@ -43,7 +43,7 @@
         "allow": "true",
         "deny": "false"
       },
-      "selector": "#CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay, #cb-cookieoverlay, #cookiebanner",
+      "selector": "#CybotCookiebotDialog",
       "lockClass": "CybotCookiebotDialogBody"
     },
     "sourcepoint": {
@@ -53,7 +53,7 @@
           "template": "{UUID}"
         }
       ],
-      "selector": "[id^='sp_message_container'], .sp_message_open, .bg-overlay, .message.type-modal, .message-overlay",
+      "selector": "[id^='sp_message_container'], .sp_message_open",
       "lockClass": "sp_message_open"
     },
     "didomi": {
@@ -63,7 +63,7 @@
           "siteSpecific": true
         }
       ],
-      "selector": "#didomi-popup, #didomi-notice, .didomi-popup-container, #didomi-consent-popup, .didomi-popup-view",
+      "selector": "#didomi-popup, #didomi-notice, .didomi-popup-container",
       "lockClass": "didomi-popup-open"
     },
     "quantcast": {
@@ -73,7 +73,7 @@
           "template": "2~"
         }
       ],
-      "selector": "#qc-cmp2-container, .qc-cmp2-container, .qc-cmp-ui-container, .qc-cmp-cleanslate",
+      "selector": "#qc-cmp2-container, .qc-cmp2-container",
       "lockClass": "qc-cmp2-showing"
     },
     "trustarc": {
@@ -91,7 +91,7 @@
           "template": "{DATE_ISO}"
         }
       ],
-      "selector": ".truste_box_overlay, #truste-consent-track, .trustarc-banner-container, .truste_overlay, #trustarc-banner-overlay, .truste-consent-track-class",
+      "selector": ".truste_box_overlay, #truste-consent-track, .trustarc-banner-container",
       "lockClass": null
     },
     "consentmanager": {
@@ -212,7 +212,7 @@
     },
     "borlabs": {
       "cookie": [],
-      "selector": "#BorlabsCookieBox, .BorlabsCookie, #BorlabsCookieBox>.show-cookie-box",
+      "selector": "#BorlabsCookieBox, .BorlabsCookie",
       "lockClass": null
     },
     "termly": {
@@ -232,17 +232,17 @@
           "template": ""
         }
       ],
-      "selector": ".osano-cm-dialog, .osano-cm-window, .osano-cm-window__dialog, .osano-cm-window__info-dialog",
+      "selector": ".osano-cm-dialog, .osano-cm-window",
       "lockClass": "osano-cm-dialog--open"
     },
     "sirdata": {
       "cookie": [],
-      "selector": "#sd-cmp, .sd-cmp-3WP4a, .sd-cmp-2riLW",
+      "selector": "#sd-cmp, .sd-cmp-3WP4a",
       "lockClass": null
     },
     "civic": {
       "cookie": [],
-      "selector": "#ccc-module, .ccc-module--slideopen, #ccc-content",
+      "selector": "#ccc-module, .ccc-module--slideopen",
       "lockClass": null
     },
     "ccm19": {
@@ -313,7 +313,7 @@
         "allow": "1",
         "deny": "0"
       },
-      "selector": "#bnp_container, .bnp_overlay_wrapper, #bnp_cookie_banner, #mcp_container",
+      "selector": "#bnp_container, .bnp_overlay_wrapper",
       "lockClass": null,
       "domains": [
         "bing",
@@ -323,103 +323,6 @@
         "msn"
       ],
       "note": "Microsoft/Bing consent banner. BCP cookie uses simple key=value pairs. Covers bing.com, microsoft.com, outlook.com, live.com, msn.com."
-    },
-    "admiral": {
-      "selector": ".a__sc-np32r2-0"
-    },
-    "almacmpv2": {
-      "selector": ".almacmp-background-overlay"
-    },
-    "cassie": {
-      "selector": ".cassie-cookie-module"
-    },
-    "chefcookie": {
-      "selector": "#cc-banner, .chefcookie__inner"
-    },
-    "clickio": {
-      "selector": "#cl-consent"
-    },
-    "contentpass": {
-      "selector": ".privacy-cp-wall, #ac-notice, #ac-Overlay"
-    },
-    "cookiebar": {
-      "selector": "#cookie-bar, #cookie-bar-prompt, #cookie-dialog, #cookie-bar-eu"
-    },
-    "cookie_information": {
-      "selector": "#CoiBannerOverlay, #coiOverlay, #coiConsentBanner, #CI-consent-popup"
-    },
-    "cookiescript": {
-      "selector": "#cookiescript_wrapper"
-    },
-    "cookiesjsr": {
-      "selector": "#cookiesjsr"
-    },
-    "cookiewow": {
-      "selector": ".cwc-sdk-container"
-    },
-    "designilpdpa": {
-      "selector": ".dpdpa--alwayson, .dpdpa--popup-sidebar, .dpdpa--popup-bg"
-    },
-    "drupaleucc": {
-      "selector": "#sliding-popup"
-    },
-    "evidonbanner": {
-      "selector": "#evidon-prefdiag-background, #evidon-prefdiag-overlay, #_evidon_banner"
-    },
-    "ezcookie": {
-      "selector": "#ez-cookie-dialog-wrapper"
-    },
-    "fastcmp": {
-      "selector": "html"
-    },
-    "gdprmodal": {
-      "selector": "#gdpr-modal"
-    },
-    "gravito": {
-      "selector": "[class^='gravito'][class*='CMP-background-overlay'], [class^='gravitoCMP-modal-layer']"
-    },
-    "iubuenda": {
-      "selector": "#iubenda-cs-banner, #iubenda-iframe"
-    },
-    "june": {
-      "selector": "#modal-tracking, #modal-overlay"
-    },
-    "klaro": {
-      "selector": "#klaro"
-    },
-    "mediavine": {
-      "selector": ".sc-gueYoa.kcKQPW"
-    },
-    "oil": {
-      "selector": "div.as-oil"
-    },
-    "optanon": {
-      "selector": "#optanon-popup-wrapper, #optanon-popup-bg, .optanon-alert-box-wrapper"
-    },
-    "optanon_springernature": {
-      "selector": ".cc-banner[data-cc-banner], .cc-preferences[data-cc-preferences]"
-    },
-    "piwikproconsent": {
-      "selector": "#ppms_cm_popup_overlay, #ppms_cm_bar_overlay"
-    },
-    "pubtech": {
-      "selector": "#pubtech-cmp"
-    },
-    "setono_sylius": {
-      "selector": "form#ws-consent"
-    },
-    "snigel": {
-      "selector": "#snigel-cmp-framework"
-    },
-    "tarteaucitron": {
-      "selector": "#tarteaucitron"
-    },
-    "truendo": {
-      "selector": "#truendo_container .truendo_panel"
     }
-  },
-  "source_tree_hash": "9d88488e86b6b046",
-  "com_augmented": 13,
-  "com_added": 106,
-  "com_sdk_added": 31
+  }
 }
