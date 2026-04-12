@@ -60,7 +60,7 @@ jobs:
 
       - name: Refresh Consent-O-Matic data
         id: consentomatic
-        if: github.event.inputs.list == '' || github.event.inputs.list == 'protoconsent_cmp_cosmetic'
+        if: github.event.inputs.list == '' || github.event.inputs.list == 'protoconsent_cmp_signatures'
         run: |
           set +e
           node scripts/convert-consentomatic.js
@@ -89,7 +89,7 @@ jobs:
           git add enhanced/ config/enhanced-lists.json
           DATE=$(date -u +%Y-%m-%d)
           git commit -m "data: refresh enhanced lists ($DATE)"
-          git pull --rebase
+          git pull --rebase -X theirs
           git push
 
       - name: Purge jsDelivr cache
