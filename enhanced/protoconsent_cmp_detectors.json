@@ -1,10 +1,10 @@
 {
-  "version": "2026-04-12",
+  "version": "2026-04-14",
   "type": "cmp_detectors",
-  "generated": "2026-04-12T19:41:43.995Z",
+  "generated": "2026-04-14T06:21:04.570Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "773450743fa9e649",
-  "cmp_count": 284,
+  "autoconsent_tree_hash": "c890ffb474b371fc",
+  "cmp_count": 288,
   "detectors": {
     "abc": {
       "present": [
@@ -519,6 +519,14 @@
       ],
       "showing": []
     },
+    "consentmo": {
+      "present": [
+        "csm-cookie-consent"
+      ],
+      "showing": [
+        "csm-cookie-consent"
+      ]
+    },
     "conversant": {
       "present": [
         ".cmp-root .cmp-receptacle"
@@ -744,6 +752,14 @@
       ],
       "showing": [
         "[data-testid=cookieBanner] button"
+      ]
+    },
+    "didomi": {
+      "present": [
+        "#didomi-host"
+      ],
+      "showing": [
+        "#didomi-popup, #didomi-notice, .didomi-popup-notice, .didomi-notice-banner"
       ]
     },
     "dji": {
@@ -1862,6 +1878,14 @@
         ".snigel-cmp-framework"
       ]
     },
+    "squarespacecookiebanner": {
+      "present": [
+        ".cookie-banner-mount-point section[aria-label='Cookie banner']"
+      ],
+      "showing": [
+        ".cookie-banner-mount-point section[aria-label='Cookie banner']"
+      ]
+    },
     "squiz": {
       "present": [
         "#cookie-consent-banner #accept-cdp-cookie"
@@ -2229,6 +2253,14 @@
       "showing": [
         ".cookie-banner"
       ]
+    },
+    "usercentrics": {
+      "present": [
+        "#usercentrics-root",
+        "uc-layer1",
+        "uc-layer2"
+      ],
+      "showing": []
     },
     "usercentricsapi": {
       "present": [

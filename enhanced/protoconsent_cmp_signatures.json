@@ -1,7 +1,7 @@
 {
-  "version": "2026-04-12",
+  "version": "2026-04-14",
   "type": "cmp",
-  "generated": "2026-04-12T19:41:43.988Z",
+  "generated": "2026-04-14T06:21:04.546Z",
   "cmp_count": 23,
   "signatures": {
     "onetrust": {
@@ -63,7 +63,7 @@
           "siteSpecific": true
         }
       ],
-      "selector": "#didomi-popup, #didomi-notice, .didomi-popup-container, #didomi-consent-popup, .didomi-popup-view",
+      "selector": "#didomi-popup, #didomi-notice, .didomi-popup-container, #didomi-consent-popup, .didomi-popup-view, #didomi-popup,.didomi-popup-container,.didomi-popup-notice,.didomi-consent-popup-preferences,#didomi-notice,.didomi-popup-backdrop,.didomi-screen-medium",
       "lockClass": "didomi-popup-open"
     },
     "quantcast": {
@@ -331,5 +331,5 @@
       "note": "Usercentrics CMP (SDK v2/v4). Uses localStorage (uc_settings), not cookies. Standard SDK: #usercentrics-root (shadow DOM). Custom integrations (e.g. Porsche): uc-layer1/uc-layer2 custom elements (uc-p-modal is inside their shadow DOM, unreachable by CSS)."
     }
   },
-  "autoconsent_augmented": 14
+  "autoconsent_augmented": 16
 }

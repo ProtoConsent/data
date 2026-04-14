@@ -1,10 +1,10 @@
 {
-  "version": "2026-04-12",
+  "version": "2026-04-14",
   "type": "cmp_site",
-  "generated": "2026-04-12T19:41:43.988Z",
+  "generated": "2026-04-14T06:21:04.546Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "773450743fa9e649",
-  "cmp_count": 235,
+  "autoconsent_tree_hash": "c890ffb474b371fc",
+  "cmp_count": 237,
   "signatures": {
     "abconcerts_be": {
       "selector": "dialog.cookie-consent",
@@ -556,6 +556,17 @@
         ],
         "showing": [
           ".cc-type-opt-in[aria-describedby=\"cookieconsent:desc\"]"
+        ]
+      }
+    },
+    "consentmo": {
+      "selector": "csm-cookie-consent",
+      "detectors": {
+        "present": [
+          "csm-cookie-consent"
+        ],
+        "showing": [
+          "csm-cookie-consent"
         ]
       }
     },
@@ -2036,6 +2047,17 @@
         ],
         "showing": [
           "#cookieBannerContent"
+        ]
+      }
+    },
+    "squarespacecookiebanner": {
+      "selector": ".cookie-banner-mount-point",
+      "detectors": {
+        "present": [
+          ".cookie-banner-mount-point section[aria-label='Cookie banner']"
+        ],
+        "showing": [
+          ".cookie-banner-mount-point section[aria-label='Cookie banner']"
         ]
       }
     },
