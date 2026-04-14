@@ -66,6 +66,14 @@ jobs:
           node scripts/convert-autoconsent.js
           echo "autoconsent_exit=$?" >> "$GITHUB_OUTPUT"
 
+      - name: Refresh tracking params
+        id: trackparams
+        if: github.event.inputs.list == '' || github.event.inputs.list == 'adguard_tracking_params' || github.event.inputs.list == 'dandelion_tracking_params'
+        run: |
+          set +e
+          node scripts/convert-tracking-params.js
+          echo "trackparams_exit=$?" >> "$GITHUB_OUTPUT"
+
       - name: Generate manifest
         run: node scripts/generate-manifest.js
 

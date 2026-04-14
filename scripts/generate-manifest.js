@@ -224,6 +224,26 @@ const LIST_CATALOG = {
     preset: "basic",
     order: 12,
   },
+  adguard_tracking_params: {
+    name: "AdGuard Tracking Params",
+    description: "Global URL tracking parameter stripping (utm_*, fbclid, gclid...)",
+    source: "https://github.com/AdguardTeam/AdguardFilters",
+    license: "GPL-3.0",
+    category: null,
+    type: "tracking_params",
+    preset: "basic",
+    order: 15,
+  },
+  dandelion_tracking_params: {
+    name: "Dandelion Sprout Tracking Params",
+    description: "Per-site URL tracking parameter stripping (Amazon, Google, Facebook...)",
+    source: "https://github.com/DandelionSprout/adfilt",
+    license: "Dandelicence v1.4",
+    category: null,
+    type: "tracking_params_sites",
+    preset: "basic",
+    order: 16,
+  },
 };
 
 // --- Read metadata from an enhanced JSON file ---
@@ -249,6 +269,13 @@ function readEnhancedMetadata(filePath) {
     }
     if (data.type === "cmp_site") {
       meta.cmp_count = data.cmp_count || 0;
+    }
+    if (data.type === "tracking_params") {
+      meta.param_count = data.param_count || 0;
+    }
+    if (data.type === "tracking_params_sites") {
+      meta.param_count = data.param_count || 0;
+      meta.domain_count = data.domain_count || 0;
     }
     return meta;
   } catch (e) {
@@ -287,6 +314,7 @@ function buildManifest(enhancedDir) {
       if (meta.generic_count !== undefined) entry.generic_count = meta.generic_count;
       if (meta.domain_rule_count !== undefined) entry.domain_rule_count = meta.domain_rule_count;
       if (meta.cmp_count !== undefined) entry.cmp_count = meta.cmp_count;
+      if (meta.param_count !== undefined) entry.param_count = meta.param_count;
     } else {
       entry.version = null;
       entry.generated = null;
@@ -338,6 +366,10 @@ function main() {
         line += (entry.cmp_count || 0).toLocaleString() + " CMP detectors";
       } else if (entry.type === "cmp_site") {
         line += (entry.cmp_count || 0).toLocaleString() + " site-specific CMPs";
+      } else if (entry.type === "tracking_params") {
+        line += (entry.param_count || 0).toLocaleString() + " global params";
+      } else if (entry.type === "tracking_params_sites") {
+        line += (entry.param_count || 0).toLocaleString() + " params, " + (entry.domain_count || 0).toLocaleString() + " domains";
       } else {
         line += entry.domain_count.toLocaleString() + " domains";
         if (entry.path_rule_count > 0) line += " + " + entry.path_rule_count.toLocaleString() + " path rules";

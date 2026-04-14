@@ -17,3 +17,6 @@ desktop.ini
 # Node
 node_modules/
 npm-debug.log*
+
+# Generated DNR rulesets (local only, not committed)
+output/

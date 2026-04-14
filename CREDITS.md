@@ -30,6 +30,17 @@ projects. We are grateful to their maintainers and contributors.
 |--------|---------|---------|-------|
 | [Autoconsent](https://github.com/duckduckgo/autoconsent) | DuckDuckGo, Inc. | MPL-2.0 | `protoconsent_cmp_signatures.json` (prehide selectors), `protoconsent_cmp_detectors.json`, `protoconsent_cmp_signatures_site.json` |
 
+### URL tracking parameter stripping
+
+| Source | Authors | License | Files |
+|--------|---------|---------|-------|
+| [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) | AdGuard Team | GPL-3.0 | `adguard_tracking_params.json`, `dandelion_tracking_params.json` (per-site entries) |
+| [Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt) | Dandelion Sprout | Dandelicence v1.4 | `dandelion_tracking_params.json` (per-site entries) |
+
+AdGuard's TrackParamFilter general section provides the global parameter list. Per-site
+parameters in `dandelion_tracking_params.json` are merged from AdGuard's specific section
+and Dandelion Sprout's list, with global parameters excluded to avoid duplication.
+
 Autoconsent prehide selectors, CMP detection selectors (detectCmp/detectPopup), and
 site-specific hiding selectors are extracted by `convert-autoconsent.js` and filtered
 through `config/cmp-safelist.json`. Prehide selectors are merged into
@@ -77,3 +88,16 @@ The full license text is available at: https://www.mozilla.org/en-US/MPL/2.0/
 >
 > The above copyright notice and this permission notice shall be included in all
 > copies or substantial portions of the Software.
+
+## Dandelicence v1.4 notice (Dandelion Sprout)
+
+Dandelion Sprout's Legitimate URL Shortener Tool is distributed under the
+Dandelicence, version 1.4. The full license text is available at:
+https://github.com/DandelionSprout/Dandelicence
+
+> Redistribution and use in all forms, with or without modification or
+> commercial purpose, are permitted, provided that the following conditions
+> are met: near-unmodified redistributions must retain this licence text,
+> contributors' names cannot endorse forked products without written
+> permission, and near-unmodified redistributions shall be accessible in
+> ≥100 countries worldwide.

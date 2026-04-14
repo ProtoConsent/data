@@ -65,6 +65,14 @@ Site-specific CMP hiding selectors extracted from [Autoconsent](https://github.c
 
 Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GPL-3.0+ / CC BY-SA 3.0+). Contains ~13K generic and ~7.5K domain-specific CSS element-hiding selectors. This is a cosmetic list: it does not generate blocking rules. The extension compiles these selectors into CSS and injects them via a content script to hide ad containers and banners left empty after network-level blocking. A snapshot is also bundled in the extension package for first-install availability.
 
+### `enhanced/adguard_tracking_params.json`
+
+Global URL tracking parameter stripping compiled from [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) (GPL-3.0). Contains ~304 literal `$removeparam` parameter names (e.g. `utm_source`, `fbclid`, `gclid`, `msclkid`). The extension uses these to build a static DNR `redirect` ruleset with `queryTransform.removeParams`, stripping tracking parameters from navigation URLs without blocking the request.
+
+### `enhanced/dandelion_tracking_params.json`
+
+Per-site URL tracking parameter stripping compiled from [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) (GPL-3.0) and [Dandelion Sprout's Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt) (Dandelicence v1.4). Contains ~1,814 site-specific parameters across ~879 domains (e.g. Amazon, Google, Facebook). Parameters that already appear in the global list are excluded. The extension merges all per-site parameters into a single static DNR `redirect` ruleset scoped by `requestDomains`.
+
 ### `scripts/`
 
 `convert.js` fetches upstream blocklists, parses them (ABP, hosts, and plain domain formats), deduplicates, and outputs the JSON blocklist files.
@@ -75,6 +83,8 @@ Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GP
 
 `convert-autoconsent.js` fetches [Autoconsent](https://github.com/duckduckgo/autoconsent) rule files from GitHub, extracts prehide selectors (cosmetic hiding), detectCmp/detectPopup selectors (CMP detection), and builds three output files: augmented `protoconsent_cmp_signatures.json` (prehide selectors merged into hand-maintained entries), `protoconsent_cmp_detectors.json` (standalone CMP detection), and `protoconsent_cmp_signatures_site.json` (site-specific hiding with detection). Applies `config/cmp-safelist.json` filtering and domain matching. Uses a tree hash cache to skip re-fetching when upstream hasn't changed.
 
+`convert-tracking-params.js` fetches [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) (general + specific sections) and [Dandelion Sprout's Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt), extracts literal `$removeparam` names (skips regex patterns), separates global vs. per-site parameters, and outputs two enhanced JSON files. Global parameters come from AdGuard general only; per-site parameters are merged from all three sources with global params excluded.
+
 `generate-manifest.js` reads metadata from all `enhanced/*.json` files, merges it with the list catalog (names, descriptions, licenses, categories, presets), and outputs `config/enhanced-lists.json` - the remote catalog consumed by the extension.
 
 ```bash
@@ -83,7 +93,8 @@ node scripts/convert.js --list hagezi_pro  # fetch one blocklist
 node scripts/convert.js --dry-run          # show stats without writing
 node scripts/convert-cosmetic.js           # fetch EasyList cosmetic rules, output to ./enhanced/
 node scripts/convert-cname.js              # fetch CNAME list, output to ./enhanced/
-node scripts/convert-autoconsent.js         # build CMP signatures, detectors and site-specific from Autoconsent
+node scripts/convert-autoconsent.js        # build CMP signatures, detectors and site-specific from Autoconsent
+node scripts/convert-tracking-params.js    # fetch tracking param lists, output to ./enhanced/
 node scripts/generate-manifest.js          # rebuild config/enhanced-lists.json from enhanced/ metadata
 ```
 
@@ -112,6 +123,36 @@ The extension merges this remote catalog with its local `enhanced-lists.json` on
 ```
 
 The extension reads `rules[].condition` and creates `declarativeNetRequest` dynamic rules from them.
+
+### Tracking parameter lists
+
+Global (`tracking_params`):
+
+```json
+{
+  "version": "2026-04-14",
+  "type": "tracking_params",
+  "param_count": 304,
+  "params": ["_ga", "_gl", "fbclid", "gclid", "msclkid", "utm_campaign", "..."]
+}
+```
+
+Per-site (`tracking_params_sites`):
+
+```json
+{
+  "version": "2026-04-14",
+  "type": "tracking_params_sites",
+  "param_count": 1814,
+  "domain_count": 879,
+  "sites": {
+    "amazon.com": ["tag", "linkCode", "..."],
+    "google.com": ["ei", "gs_lcp", "..."]
+  }
+}
+```
+
+The extension uses these to build static DNR `redirect` rulesets with `queryTransform.removeParams`. Parameters are stripped from navigation URLs silently - no blocking, no badge increment.
 
 ### CNAME lookup map
 
@@ -158,6 +199,7 @@ node scripts/convert.js --output ./enhanced
 node scripts/convert-cosmetic.js --output ./enhanced
 node scripts/convert-cname.js --output ./enhanced
 node scripts/convert-autoconsent.js
+node scripts/convert-tracking-params.js
 node scripts/generate-manifest.js
 ```
 
