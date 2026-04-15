@@ -51,15 +51,15 @@ CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.
 
 ### `enhanced/protoconsent_cmp_signatures.json`
 
-CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 22 hand-maintained banner handler signatures covering major CMPs, with full cookie injection, cosmetic hiding, and scroll-unlock support. The pipeline augments these signatures with prehide CSS selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0, DuckDuckGo) for faster banner hiding. The extension injects all signatures at `document_start` to dismiss consent banners according to the user's purpose preferences. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.
+CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 31 banner handler signatures covering major CMPs (23 pipeline-generated + 8 hand-crafted for top sites: Facebook, TikTok, Amazon, Twitter/X, Reddit, LinkedIn, Yahoo, eBay), with full cookie injection, cosmetic hiding, and scroll-unlock support. The pipeline augments these signatures with prehide CSS selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0, DuckDuckGo) for faster banner hiding. The extension injects all signatures at `document_start` to dismiss consent banners according to the user's purpose preferences. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.
 
 ### `enhanced/protoconsent_cmp_detectors.json`
 
-CMP presence-detection selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~284 CMP detection rules with CSS selectors for `present` (CMP loaded) and `showing` (banner visible) states. Filtered through `config/cmp-safelist.json` to remove dangerous or overly generic selectors. Entries with site-specific names include a `domains` field for scoped matching. Used by the extension's CMP detection feature at `document_idle`. A snapshot is also bundled in the extension package.
+CMP presence-detection selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~290 CMP detection rules with CSS selectors for `present` (CMP loaded) and `showing` (banner visible) states. Filtered through `config/cmp-safelist.json` to remove dangerous or overly generic selectors. Entries with site-specific names include a `domains` field for scoped matching. Used by the extension's CMP detection feature at `document_idle`. A snapshot is also bundled in the extension package.
 
 ### `enhanced/protoconsent_cmp_signatures_site.json`
 
-Site-specific CMP hiding selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~235 CMP entries with CSS hiding selectors and detection selectors, scoped to specific websites via the `domains` field. These selectors are too generic to apply globally but safe when limited to their target site. Filtered through `config/cmp-safelist.json`. Applied by the extension only after CMP detection confirms the banner is present. A snapshot is also bundled in the extension package.
+Site-specific CMP hiding selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~237 CMP entries with CSS hiding selectors and detection selectors, scoped to specific websites via the `domains` field. These selectors are too generic to apply globally but safe when limited to their target site. Filtered through `config/cmp-safelist.json`. Applied by the extension only after CMP detection confirms the banner is present. A snapshot is also bundled in the extension package.
 
 ### `enhanced/easylist_cosmetic.json`
 
@@ -176,7 +176,7 @@ The `trackers` array stores tracker destination names once. The `map` uses numer
   "version": "2026-04-12",
   "type": "cmp",
   "generated": "2026-04-12T...",
-  "cmp_count": 22,
+  "cmp_count": 31,
   "source_tree_hash": "9d88488e86b6b046",
   "signatures": {
     "onetrust": {
