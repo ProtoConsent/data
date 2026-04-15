@@ -817,6 +817,17 @@
         "dunelm.com"
       ]
     },
+    "amazon": {
+      "present": [
+        "#cos-banner"
+      ],
+      "showing": [
+        "#cos-banner"
+      ],
+      "domains": [
+        "amazon"
+      ]
+    },
     "ebay": {
       "present": [
         "#gdpr-banner"
@@ -912,10 +923,10 @@
     },
     "facebook": {
       "present": [
-        "body > div:not([id]) > div:nth-child(1):not([id]) > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id]) > div:not([id]) > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:nth-child(1):not([id]) > div:nth-child(2):not([id])"
+        "div[role=\"dialog\"][aria-modal=\"true\"]"
       ],
       "showing": [
-        "body > div:not([id]) > div:nth-child(1):not([id]) > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id]) > div:not([id]) > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:nth-child(1):not([id]) > div:nth-child(2):not([id])"
+        "div[role=\"dialog\"][aria-modal=\"true\"]"
       ],
       "domains": [
         "facebook.com"
@@ -1716,6 +1727,17 @@
         "div[consent-skip-blocker=\"1\"][id][data-bg] > dialog > div > div > div > div > div > a[role=button][id]"
       ]
     },
+    "linkedin": {
+      "present": [
+        ".artdeco-global-alert--COOKIE_CONSENT"
+      ],
+      "showing": [
+        ".artdeco-global-alert--COOKIE_CONSENT"
+      ],
+      "domains": [
+        "linkedin.com"
+      ]
+    },
     "reddit_com": {
       "present": [
         "#data-protection-consent-dialog rpl-modal-card > button.button-primary"
@@ -2215,13 +2237,14 @@
     },
     "twitter": {
       "present": [
-        "body > div#react-root > div:not([id]) > div:not([id]) > div:nth-child(1)#layers > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id])[data-testid=BottomBar] > div:not([id]) > div:nth-child(2):not([id]) > button:nth-child(2):not([id])"
+        "[data-testid=\"BottomBar\"]"
       ],
       "showing": [
-        "body > div#react-root > div:not([id]) > div:not([id]) > div:nth-child(1)#layers > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id])[data-testid=BottomBar] > div:not([id]) > div:nth-child(2):not([id]) > button:nth-child(2):not([id])"
+        "[data-testid=\"BottomBar\"]"
       ],
       "domains": [
-        "twitter.com"
+        "twitter.com",
+        "x.com"
       ]
     },
     "u12dataprotectionnotice": {

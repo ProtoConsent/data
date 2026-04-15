@@ -2,7 +2,7 @@
   "version": "2026-04-14",
   "type": "cmp",
   "generated": "2026-04-14T22:46:18.042Z",
-  "cmp_count": 23,
+  "cmp_count": 31,
   "signatures": {
     "onetrust": {
       "cookie": [
@@ -323,6 +323,91 @@
         "msn"
       ],
       "note": "Microsoft/Bing consent banner. BCP cookie uses simple key=value pairs. Covers bing.com, microsoft.com, outlook.com, live.com, msn.com."
+    },
+    "amazon": {
+      "cookie": [],
+      "selector": "#cos-banner",
+      "lockClass": null,
+      "domains": ["amazon"],
+      "note": "Amazon custom CMP. Consent is server-side (POST /privacyprefs/retail/v3/banner). Cosmetic hide only. Covers all amazon.* TLDs."
+    },
+    "tiktok": {
+      "cookie": [
+        {
+          "name": "cookie-consent",
+          "template": "{%22optional%22:true%2C%22ga%22:{analytics}%2C%22af%22:{ads}%2C%22fbp%22:{ads}%2C%22lip%22:{ads}%2C%22bing%22:{ads}%2C%22ttads%22:{ads}%2C%22reddit%22:{ads}%2C%22hubspot%22:{ads}%2C%22version%22:%22v10%22}"
+        }
+      ],
+      "purposeMap": { "analytics": "ga", "ads": "af,fbp,lip,bing,ttads,reddit,hubspot" },
+      "format": { "allow": "true", "deny": "false" },
+      "selector": "tiktok-cookie-banner",
+      "lockClass": null,
+      "domains": ["tiktok.com"],
+      "note": "TikTok custom CMP. URL-encoded JSON cookie. optional=true signals user made a choice. ga=analytics, all others=ads."
+    },
+    "ebay": {
+      "cookie": [],
+      "selector": "#gdpr-banner",
+      "lockClass": null,
+      "domains": ["ebay.com", "ebay"],
+      "note": "eBay custom CMP. Consent via POST /gdpr/submitGDPRData. ds2/ebay cookies use opaque tokens. Cosmetic hide only."
+    },
+    "linkedin": {
+      "cookie": [],
+      "selector": ".artdeco-global-alert--COOKIE_CONSENT",
+      "lockClass": null,
+      "domains": ["linkedin.com"],
+      "note": "LinkedIn CMP. li_gc cookie is server-signed (HMAC hash). Cosmetic hide only."
+    },
+    "twitter": {
+      "cookie": [
+        {
+          "name": "d_prefs",
+          "template": "MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
+        }
+      ],
+      "format": { "allow": "0", "deny": "1" },
+      "selector": "[data-testid=\"BottomBar\"]",
+      "lockClass": null,
+      "domains": ["twitter.com", "x.com"],
+      "note": "Twitter/X CMP. d_prefs is base64(2:1,consent_version:2,text_version:1000). Static reject value (base64 prevents dynamic placeholders)."
+    },
+    "reddit": {
+      "cookie": [
+        {
+          "name": "eu_cookie",
+          "template": "{%22opted%22:true%2C%22nonessential%22:{ads}}"
+        }
+      ],
+      "purposeMap": { "ads": "nonessential" },
+      "format": { "allow": "true", "deny": "false" },
+      "selector": "#data-protection-consent-dialog",
+      "lockClass": null,
+      "domains": ["reddit.com"],
+      "note": "Reddit CMP. URL-encoded JSON. opted=true signals user chose. nonessential controls all optional cookies."
+    },
+    "facebook": {
+      "cookie": [],
+      "selector": "div[role=\"dialog\"][aria-modal=\"true\"]",
+      "lockClass": null,
+      "domains": ["facebook.com"],
+      "note": "Facebook/Meta custom CMP. Consent is server-side (no client cookie to inject). Cosmetic hide only."
+    },
+    "yahoo": {
+      "cookie": [
+        {
+          "name": "EuConsent",
+          "template": "{TC_STRING}"
+        },
+        {
+          "name": "cmp",
+          "template": "t={TIMESTAMP}&j=1&u=1---&v=129"
+        }
+      ],
+      "selector": "#consent-page",
+      "lockClass": null,
+      "domains": ["yahoo.com", "yahoo"],
+      "note": "Yahoo GUCE (consent.yahoo.com). IAB TCF v2 with 251 partners. EuConsent=TC String (authoritative). cmp cookie is static (u=1--- regardless of choice). Consent page is a redirect wall, not an overlay."
     },
     "usercentrics": {
       "cookie": [],
