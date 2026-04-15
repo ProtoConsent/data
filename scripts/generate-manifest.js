@@ -19,9 +19,20 @@ const CDN_BASE = "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/";
 
 // --- Read valid region codes from config/regional-languages.json ---
 const REGIONAL_LANGUAGES_PATH = path.join(__dirname, "..", "config", "regional-languages.json");
-const VALID_REGIONS = Object.keys(
-  JSON.parse(fs.readFileSync(REGIONAL_LANGUAGES_PATH, "utf-8"))
-);
+let VALID_REGIONS;
+try {
+  const rlData = JSON.parse(fs.readFileSync(REGIONAL_LANGUAGES_PATH, "utf-8"));
+  if (!rlData || typeof rlData !== "object" || Array.isArray(rlData)) {
+    throw new Error("expected a JSON object with region codes as keys");
+  }
+  VALID_REGIONS = Object.keys(rlData);
+  if (VALID_REGIONS.length === 0) {
+    throw new Error("no region codes found");
+  }
+} catch (e) {
+  console.error("ERROR: cannot read " + REGIONAL_LANGUAGES_PATH + ": " + e.message);
+  process.exit(1);
+}
 
 // --- List catalog definitions ---
 // Source of truth for display metadata. Mirrors the extension's
@@ -105,7 +116,7 @@ const LIST_CATALOG = {
     source: "https://github.com/StevenBlack/hosts",
     license: "MIT",
     category: null,
-    preset: "basic",
+    preset: "full",
     order: 130,
   },
   oisd_small: {
@@ -238,7 +249,7 @@ const LIST_CATALOG = {
     category: null,
     type: "tracking_params",
     preset: "basic",
-    order: 15,
+    order: 290,
   },
   dandelion_tracking_params: {
     name: "Dandelion Sprout Tracking Params",
@@ -248,7 +259,7 @@ const LIST_CATALOG = {
     category: null,
     type: "tracking_params_sites",
     preset: "basic",
-    order: 16,
+    order: 291,
   },
   // --- Regional lists (2 aggregated entries, extension fetches per-region files) ---
   regional_cosmetic: {
@@ -258,8 +269,8 @@ const LIST_CATALOG = {
     license: "GPL-3.0-or-later",
     category: null,
     type: "regional_cosmetic",
-    preset: null,
-    order: 500,
+    preset: "basic",       // matches extension bundled; skipped from CDN output for now
+    order: 21,
     regions: VALID_REGIONS,
     fetch_base: CDN_BASE + "regional/",
   },
@@ -270,8 +281,8 @@ const LIST_CATALOG = {
     license: "GPL-3.0-or-later",
     category: null,
     type: "regional_blocking",
-    preset: null,
-    order: 501,
+    preset: "basic",       // matches extension bundled; skipped from CDN output for now
+    order: 281,
     regions: VALID_REGIONS,
     fetch_base: CDN_BASE + "regional/",
   },
@@ -371,8 +382,15 @@ function buildManifest(enhancedDir) {
   let missing = 0;
 
   for (const [listId, catalogDef] of Object.entries(LIST_CATALOG)) {
-    // Regional entries: aggregate across all region files
+    // Skip regional entries from CDN output — they exist in the extension's
+    // bundled enhanced-lists.json only.  Old extension versions (<=0.5.0) don't
+    // have regional code; including these in the CDN catalog would show phantom
+    // cards and break preset resolution.  The extension's bundled copy has the
+    // correct preset/order; since the CDN merge can't overwrite what isn't
+    // present, the bundled values survive intact.
+    // TODO: Remove this skip once the minimum supported version has regional support.
     const isRegional = catalogDef.type === "regional_cosmetic" || catalogDef.type === "regional_blocking";
+    if (isRegional) continue;
     const meta = isRegional
       ? readRegionalAggregate(enhancedDir, listId === "regional_cosmetic" ? "_cosmetic" : "_blocking")
       : readEnhancedMetadata(path.join(enhancedDir, listId + ".json"));
