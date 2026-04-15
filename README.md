@@ -6,17 +6,30 @@
 
 <p align="center"><strong>Consent you can express, enforce and observe</strong></p>
 
-<p align="center"><em>User‑side, purpose‑based consent for the web</em></p>
+<p align="center"><em>User-side, purpose-based consent for the web</em></p>
 
 Pre-built data files consumed by the [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) browser extension. See the main repo for full documentation.
 
 ## Contents
 
-### `enhanced/`
+The `enhanced/` directory contains all list data, organized by function:
 
-Enhanced protection lists - domain and path-based blocklists compiled from public sources and ProtoConsent's own core lists. The extension fetches these JSON files at runtime when the user enables Enhanced Protection.
+| Group | Files | Description |
+|-------|-------|-------------|
+| [Blocking lists](#blocking-lists) | 17 JSON files | Domain and path-based request blocking (5 core + 12 third-party) |
+| [Cosmetic filtering](#cosmetic-filtering) | 1 JSON file | CSS element-hiding selectors from EasyList |
+| [CMP banner handling](#cmp-banner-handling) | 3 JSON files | Cookie consent banner auto-response, detection and hiding |
+| [CNAME tracker detection](#cname-tracker-detection) | 1 JSON file | Informational CNAME cloaking lookup map |
+| [URL tracking parameter stripping](#url-tracking-parameter-stripping) | 2 JSON files | Global and per-site tracking parameter removal |
+| [Regional lists](#regional-lists) | 26 JSON files | Region-specific blocking and cosmetic rules (13 regions x 2) |
 
-**ProtoConsent Core** - purpose-based lists derived from the extension's static rulesets, enabling weekly updates via CDN independently of extension releases:
+All files are served via jsDelivr CDN. The extension fetches them at runtime when the user enables Enhanced Protection.
+
+## Blocking lists
+
+### ProtoConsent Core
+
+Purpose-based lists derived from the extension's static rulesets, enabling weekly updates via CDN independently of extension releases.
 
 | File | Category | License | Domains | Path rules |
 |---|---|---|---|---|
@@ -26,7 +39,9 @@ Enhanced protection lists - domain and path-based blocklists compiled from publi
 | `protoconsent_third_parties.json` | `third_parties` | GPL-3.0-or-later | ~171 | 73 |
 | `protoconsent_advanced_tracking.json` | `advanced_tracking` | GPL-3.0-or-later | ~11.2K | 28 |
 
-**Third-party lists** - compiled from public blocklists:
+### Third-party blocking lists
+
+Compiled from public blocklists by the conversion pipeline.
 
 | File | Source | License | Domains | Path rules |
 |---|---|---|---|---|
@@ -45,64 +60,82 @@ Enhanced protection lists - domain and path-based blocklists compiled from publi
 
 Domain counts are approximate and change with each upstream update.
 
-### `enhanced/cname_trackers.json`
+## Cosmetic filtering
 
-CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.com/AdguardTeam/cname-trackers) (MIT). Contains ~229K disguised domains mapped to their tracker destinations. This is an informational list: it does not generate blocking rules. The extension uses it to flag CNAME-cloaked domains in the Log tab.
+**`enhanced/easylist_cosmetic.json`** - Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GPL-3.0+ / CC BY-SA 3.0+). Contains ~13K generic and ~7.5K domain-specific CSS element-hiding selectors. This is a cosmetic list: it does not generate blocking rules. The extension compiles these selectors into CSS and injects them via a content script to hide ad containers and banners left empty after network-level blocking. A snapshot is also bundled in the extension package for first-install availability.
 
-### `enhanced/protoconsent_cmp_signatures.json`
+## CMP banner handling
 
-CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 31 banner handler signatures covering major CMPs (23 pipeline-generated + 8 hand-crafted for top sites: Facebook, TikTok, Amazon, Twitter/X, Reddit, LinkedIn, Yahoo, eBay), with full cookie injection, cosmetic hiding, and scroll-unlock support. The pipeline augments these signatures with prehide CSS selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0, DuckDuckGo) for faster banner hiding. The extension injects all signatures at `document_start` to dismiss consent banners according to the user's purpose preferences. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.
+**`enhanced/protoconsent_cmp_signatures.json`** - CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 31 banner handler signatures covering major CMPs, with full cookie injection, cosmetic hiding, and scroll-unlock support. The pipeline augments these signatures with prehide CSS selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0, DuckDuckGo) for faster banner hiding. The extension injects all signatures at `document_start` to dismiss consent banners according to the user's purpose preferences. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.
 
-### `enhanced/protoconsent_cmp_detectors.json`
+**`enhanced/protoconsent_cmp_detectors.json`** - CMP presence-detection selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~290 CMP detection rules with CSS selectors for `present` (CMP loaded) and `showing` (banner visible) states. Filtered through `config/cmp-safelist.json` to remove dangerous or overly generic selectors. Entries with site-specific names include a `domains` field for scoped matching. Used by the extension's CMP detection feature at `document_idle`. A snapshot is also bundled in the extension package.
 
-CMP presence-detection selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~290 CMP detection rules with CSS selectors for `present` (CMP loaded) and `showing` (banner visible) states. Filtered through `config/cmp-safelist.json` to remove dangerous or overly generic selectors. Entries with site-specific names include a `domains` field for scoped matching. Used by the extension's CMP detection feature at `document_idle`. A snapshot is also bundled in the extension package.
+**`enhanced/protoconsent_cmp_signatures_site.json`** - Site-specific CMP hiding selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~237 CMP entries with CSS hiding selectors and detection selectors, scoped to specific websites via the `domains` field. These selectors are too generic to apply globally but safe when limited to their target site. Filtered through `config/cmp-safelist.json`. Applied by the extension only after CMP detection confirms the banner is present. A snapshot is also bundled in the extension package.
 
-### `enhanced/protoconsent_cmp_signatures_site.json`
+## CNAME tracker detection
 
-Site-specific CMP hiding selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0). Contains ~237 CMP entries with CSS hiding selectors and detection selectors, scoped to specific websites via the `domains` field. These selectors are too generic to apply globally but safe when limited to their target site. Filtered through `config/cmp-safelist.json`. Applied by the extension only after CMP detection confirms the banner is present. A snapshot is also bundled in the extension package.
+**`enhanced/cname_trackers.json`** - CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.com/AdguardTeam/cname-trackers) (MIT). Contains ~229K disguised domains mapped to their tracker destinations. This is an informational list: it does not generate blocking rules. The extension uses it to flag CNAME-cloaked domains in the Log tab.
 
-### `enhanced/easylist_cosmetic.json`
+## URL tracking parameter stripping
 
-Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GPL-3.0+ / CC BY-SA 3.0+). Contains ~13K generic and ~7.5K domain-specific CSS element-hiding selectors. This is a cosmetic list: it does not generate blocking rules. The extension compiles these selectors into CSS and injects them via a content script to hide ad containers and banners left empty after network-level blocking. A snapshot is also bundled in the extension package for first-install availability.
+**`enhanced/adguard_tracking_params.json`** - Global URL tracking parameter stripping compiled from [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) (GPL-3.0). Contains ~304 literal `$removeparam` parameter names (e.g. `utm_source`, `fbclid`, `gclid`, `msclkid`). The extension uses these to build a static DNR `redirect` ruleset with `queryTransform.removeParams`, stripping tracking parameters from navigation URLs without blocking the request.
 
-### `enhanced/adguard_tracking_params.json`
+**`enhanced/dandelion_tracking_params.json`** - Per-site URL tracking parameter stripping compiled from [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) (GPL-3.0) and [Dandelion Sprout's Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt) (Dandelicence v1.4). Contains ~1,814 site-specific parameters across ~879 domains (e.g. Amazon, Google, Facebook). Parameters that already appear in the global list are excluded. The extension merges all per-site parameters into a single static DNR `redirect` ruleset scoped by `requestDomains`.
 
-Global URL tracking parameter stripping compiled from [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) (GPL-3.0). Contains ~304 literal `$removeparam` parameter names (e.g. `utm_source`, `fbclid`, `gclid`, `msclkid`). The extension uses these to build a static DNR `redirect` ruleset with `queryTransform.removeParams`, stripping tracking parameters from navigation URLs without blocking the request.
+## Regional lists
 
-### `enhanced/dandelion_tracking_params.json`
+Regional cosmetic and blocking lists in `enhanced/regional/`, compiled from [EasyList](https://easylist.to/) regional supplements (GPL-3.0+) and [AdGuard](https://github.com/AdguardTeam/AdguardFilters) language-specific filters (GPL-3.0). Two files per region: `regional_<code>_cosmetic.json` (element hiding rules) and `regional_<code>_blocking.json` (domain and path blocking rules).
 
-Per-site URL tracking parameter stripping compiled from [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) (GPL-3.0) and [Dandelion Sprout's Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt) (Dandelicence v1.4). Contains ~1,814 site-specific parameters across ~879 domains (e.g. Amazon, Google, Facebook). Parameters that already appear in the global list are excluded. The extension merges all per-site parameters into a single static DNR `redirect` ruleset scoped by `requestDomains`.
+| Region | Code | Sources |
+|--------|------|---------|
+| Chinese | `cn` | EasyList China + AdGuard Chinese |
+| German | `de` | EasyList Germany + AdGuard German |
+| Dutch | `nl` | EasyList Dutch + AdGuard Dutch |
+| Spanish/Portuguese | `es` | EasyList Spanish + EasyList Portuguese + AdGuard Spanish/Portuguese |
+| French | `fr` | AdGuard French |
+| Hebrew | `he` | EasyList Hebrew |
+| Italian | `it` | EasyList Italy |
+| Japanese | `ja` | AdGuard Japanese |
+| Lithuanian | `lt` | EasyList Lithuania |
+| Polish | `pl` | EasyList Polish |
+| Russian | `ru` | AdGuard Russian |
+| Turkish | `tr` | AdGuard Turkish |
+| Ukrainian | `uk` | AdGuard Ukrainian |
 
-### `scripts/`
+Regional lists are not included in the bundled extension catalog. They appear only in the remote catalog and require the user to enable Enhanced Protection.
 
-`convert.js` fetches upstream blocklists, parses them (ABP, hosts, and plain domain formats), deduplicates, and outputs the JSON blocklist files.
+## Scripts
 
-`convert-cosmetic.js` fetches EasyList, extracts `##` element-hiding rules (generic and domain-specific CSS selectors), filters out procedural selectors, and outputs a cosmetic JSON file.
+All scripts are in `scripts/`. Requires Node.js 18+. No dependencies.
 
-`convert-cname.js` fetches AdGuard's CNAME tracker lists, merges the 5 categories (trackers, ads, clickthroughs, mail_trackers, microsites), and outputs an indexed lookup map.
-
-`convert-autoconsent.js` fetches [Autoconsent](https://github.com/duckduckgo/autoconsent) rule files from GitHub, extracts prehide selectors (cosmetic hiding), detectCmp/detectPopup selectors (CMP detection), and builds three output files: augmented `protoconsent_cmp_signatures.json` (prehide selectors merged into hand-maintained entries), `protoconsent_cmp_detectors.json` (standalone CMP detection), and `protoconsent_cmp_signatures_site.json` (site-specific hiding with detection). Applies `config/cmp-safelist.json` filtering and domain matching. Uses a tree hash cache to skip re-fetching when upstream hasn't changed.
-
-`convert-tracking-params.js` fetches [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) (general + specific sections) and [Dandelion Sprout's Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt), extracts literal `$removeparam` names (skips regex patterns), separates global vs. per-site parameters, and outputs two enhanced JSON files. Global parameters come from AdGuard general only; per-site parameters are merged from all three sources with global params excluded.
-
-`generate-manifest.js` reads metadata from all `enhanced/*.json` files, merges it with the list catalog (names, descriptions, licenses, categories, presets), and outputs `config/enhanced-lists.json` - the remote catalog consumed by the extension.
+| Script | Description |
+|--------|-------------|
+| `convert.js` | Fetches upstream blocklists, parses them (ABP, hosts, and plain domain formats), deduplicates, and outputs JSON blocking files. |
+| `convert-cosmetic.js` | Fetches EasyList, extracts `##` element-hiding rules (generic and domain-specific CSS selectors), filters out procedural selectors, and outputs a cosmetic JSON file. |
+| `convert-cname.js` | Fetches AdGuard's CNAME tracker lists, merges the 5 categories (trackers, ads, clickthroughs, mail_trackers, microsites), and outputs an indexed lookup map. |
+| `convert-autoconsent.js` | Fetches [Autoconsent](https://github.com/duckduckgo/autoconsent) rule files from GitHub, extracts prehide selectors, detectCmp/detectPopup selectors, and builds three output files. Applies `config/cmp-safelist.json` filtering and domain matching. Uses a tree hash cache to skip re-fetching when upstream hasn't changed. |
+| `convert-tracking-params.js` | Fetches [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) and [Dandelion Sprout's Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt), extracts literal `$removeparam` names (skips regex), separates global vs. per-site, and outputs two JSON files. |
+| `convert-regional.js` | Fetches EasyList regional supplements and AdGuard language-specific filters, extracts both blocking and cosmetic rules, merges sources per region, deduplicates, and outputs two JSON files per region to `enhanced/regional/`. |
+| `generate-manifest.js` | Reads metadata from all `enhanced/*.json` and `enhanced/regional/*.json` files, merges with the list catalog, and outputs `config/enhanced-lists.json` (full remote catalog including regional) and `config/enhanced-lists-bundled.json` (without regional entries, for extension packaging). |
 
 ```bash
 node scripts/convert.js                    # fetch all blocklists, output to ./enhanced/
 node scripts/convert.js --list hagezi_pro  # fetch one blocklist
 node scripts/convert.js --dry-run          # show stats without writing
-node scripts/convert-cosmetic.js           # fetch EasyList cosmetic rules, output to ./enhanced/
-node scripts/convert-cname.js              # fetch CNAME list, output to ./enhanced/
-node scripts/convert-autoconsent.js        # build CMP signatures, detectors and site-specific from Autoconsent
-node scripts/convert-tracking-params.js    # fetch tracking param lists, output to ./enhanced/
+node scripts/convert-cosmetic.js           # fetch EasyList cosmetic rules
+node scripts/convert-cname.js              # fetch CNAME list
+node scripts/convert-autoconsent.js        # build CMP signatures, detectors and site-specific
+node scripts/convert-tracking-params.js    # fetch tracking param lists
+node scripts/convert-regional.js           # fetch all regional lists
+node scripts/convert-regional.js --region es  # fetch one region
 node scripts/generate-manifest.js          # rebuild config/enhanced-lists.json from enhanced/ metadata
 ```
 
-### `config/enhanced-lists.json`
+## Configuration
 
-Remote catalog of all available Enhanced lists. The extension fetches this file to discover lists, their metadata (name, category, preset, version, domain count), and their `fetch_url` for downloading. It is regenerated automatically by `generate-manifest.js` after each list refresh.
+**`config/enhanced-lists.json`** - Remote catalog of all available Enhanced lists including regional entries. The extension fetches this file to discover lists, their metadata (name, category, preset, version, domain count, region), and their `fetch_url` for downloading. It is regenerated automatically by `generate-manifest.js` after each list refresh. The extension merges this remote catalog with its local `enhanced-lists.json` on startup if the user accepts it. If the remote fetch fails, the local catalog is used as fallback.
 
-The extension merges this remote catalog with its local `enhanced-lists.json` on startup if the user accepts it. If the remote fetch fails, the local catalog is used as fallback.
+**`config/enhanced-lists-bundled.json`** - Same as above but without regional entries. This file is copied to the extension as `extension/config/enhanced-lists.json` at release time. Regional lists only appear after the extension fetches the remote catalog.
 
 ## JSON formats
 
@@ -200,6 +233,7 @@ node scripts/convert-cosmetic.js --output ./enhanced
 node scripts/convert-cname.js --output ./enhanced
 node scripts/convert-autoconsent.js
 node scripts/convert-tracking-params.js
+node scripts/convert-regional.js
 node scripts/generate-manifest.js
 ```
 

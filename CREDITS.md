@@ -37,6 +37,17 @@ projects. We are grateful to their maintainers and contributors.
 | [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) | AdGuard Team | GPL-3.0 | `adguard_tracking_params.json`, `dandelion_tracking_params.json` (per-site entries) |
 | [Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt) | Dandelion Sprout | Dandelicence v1.4 | `dandelion_tracking_params.json` (per-site entries) |
 
+### Regional lists
+
+| Source | Authors | License | Files |
+|--------|---------|---------|-------|
+| [EasyList regional supplements](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `regional/regional_{cn,de,nl,es,he,it,lt,pl}_*.json` |
+| [AdGuard language filters](https://github.com/AdguardTeam/AdguardFilters) | AdGuard Team | GPL-3.0 | `regional/regional_{cn,de,nl,es,fr,ja,ru,tr,uk}_*.json` |
+
+Regions with both sources (CN, DE, NL, ES) merge EasyList and AdGuard rules into a single
+output per type. Each region produces two files: `*_cosmetic.json` (element hiding) and
+`*_blocking.json` (domain and path blocking).
+
 AdGuard's TrackParamFilter general section provides the global parameter list. Per-site
 parameters in `dandelion_tracking_params.json` are merged from AdGuard's specific section
 and Dandelion Sprout's list, with global parameters excluded to avoid duplication.
@@ -45,7 +56,7 @@ Autoconsent prehide selectors, CMP detection selectors (detectCmp/detectPopup), 
 site-specific hiding selectors are extracted by `convert-autoconsent.js` and filtered
 through `config/cmp-safelist.json`. Prehide selectors are merged into
 `protoconsent_cmp_signatures.json` alongside ProtoConsent's own hand-maintained CMP
-signatures. The 22 hand-maintained signatures (with cookie injection templates) are
+signatures. The 31 hand-maintained signatures (with cookie injection templates) are
 original to ProtoConsent. Detection and site-specific entries are output as separate files.
 
 ## MPL-2.0 license notice (Autoconsent)
