@@ -116,7 +116,7 @@ All scripts are in `scripts/`. Requires Node.js 18+. No dependencies.
 | `convert-autoconsent.js` | Fetches [Autoconsent](https://github.com/duckduckgo/autoconsent) rule files from GitHub, extracts prehide selectors, detectCmp/detectPopup selectors, and builds three output files. Applies `config/cmp-safelist.json` filtering and domain matching. Uses a tree hash cache to skip re-fetching when upstream hasn't changed. |
 | `convert-tracking-params.js` | Fetches [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) and [Dandelion Sprout's Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt), extracts literal `$removeparam` names (skips regex), separates global vs. per-site, and outputs two JSON files. |
 | `convert-regional.js` | Fetches EasyList regional supplements and AdGuard language-specific filters, extracts both blocking and cosmetic rules, merges sources per region, deduplicates, and outputs two JSON files per region to `enhanced/regional/`. |
-| `generate-manifest.js` | Reads metadata from all `enhanced/*.json` and `enhanced/regional/*.json` files, merges with the list catalog, and outputs `config/enhanced-lists.json` (full remote catalog including regional) and `config/enhanced-lists-bundled.json` (without regional entries, for extension packaging). |
+| `generate-manifest.js` | Reads metadata from all `enhanced/*.json` and `enhanced/regional/*.json` files, merges with the list catalog, and outputs `config/enhanced-lists.json` (full catalog for CDN and extension packaging). |
 
 ```bash
 node scripts/convert.js                    # fetch all blocklists, output to ./enhanced/
@@ -133,9 +133,7 @@ node scripts/generate-manifest.js          # rebuild config/enhanced-lists.json 
 
 ## Configuration
 
-**`config/enhanced-lists.json`** - Remote catalog of all available Enhanced lists including regional entries. The extension fetches this file to discover lists, their metadata (name, category, preset, version, domain count, region), and their `fetch_url` for downloading. It is regenerated automatically by `generate-manifest.js` after each list refresh. The extension merges this remote catalog with its local `enhanced-lists.json` on startup if the user accepts it. If the remote fetch fails, the local catalog is used as fallback.
-
-**`config/enhanced-lists-bundled.json`** - Same as above but without regional entries. This file is copied to the extension as `extension/config/enhanced-lists.json` at release time. Regional lists only appear after the extension fetches the remote catalog.
+**`config/enhanced-lists.json`** - Catalog of all available Enhanced lists including regional entries. The extension fetches this file from CDN to discover lists, their metadata (name, category, preset, version, domain count, region), and their `fetch_url` for downloading. It is regenerated automatically by `generate-manifest.js` after each list refresh. A copy of this file is also shipped inside the extension as `extension/config/enhanced-lists.json` for offline fallback. The extension merges the remote catalog on top of the local copy on startup if the user accepts it.
 
 ## JSON formats
 

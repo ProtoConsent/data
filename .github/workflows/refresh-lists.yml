@@ -107,7 +107,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add enhanced/ config/enhanced-lists.json config/enhanced-lists-bundled.json
+          git add enhanced/ config/enhanced-lists.json
           DATE=$(date -u +%Y-%m-%d)
           git commit -m "data: refresh enhanced lists ($DATE)"
           git pull --rebase -X theirs

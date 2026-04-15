@@ -682,18 +682,6 @@ function main() {
     fs.writeFileSync(outPath, json + "\n", "utf-8");
     const sizeKb = (Buffer.byteLength(json) / 1024).toFixed(1);
     console.log("\n  → " + outPath + " (" + sizeKb + " KB)");
-
-    // Generate bundled version without regional entries (for extension packaging)
-    const bundledLists = {};
-    for (const [id, entry] of Object.entries(manifest.lists)) {
-      if (!entry.region) bundledLists[id] = entry;
-    }
-    const bundledManifest = { manifest_version: manifest.manifest_version, generated: manifest.generated, lists: bundledLists };
-    const bundledJson = JSON.stringify(bundledManifest, null, 2);
-    const bundledPath = path.join(outputDir, "enhanced-lists-bundled.json");
-    fs.writeFileSync(bundledPath, bundledJson + "\n", "utf-8");
-    const bundledSizeKb = (Buffer.byteLength(bundledJson) / 1024).toFixed(1);
-    console.log("  → " + bundledPath + " (" + bundledSizeKb + " KB, no regional)");
   }
 
   if (missing > 0) {
