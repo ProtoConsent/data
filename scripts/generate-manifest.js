@@ -244,6 +244,293 @@ const LIST_CATALOG = {
     preset: "basic",
     order: 16,
   },
+  // --- Regional lists (cosmetic + blocking per region) ---
+  regional_cn_cosmetic: {
+    name: "Regional Cosmetic - Chinese",
+    description: "Element hiding rules for Chinese websites",
+    source: "https://easylist.to/ + https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "cn",
+    preset: null,
+    order: 500,
+  },
+  regional_cn_blocking: {
+    name: "Regional Blocking - Chinese",
+    description: "Request blocking rules for Chinese websites",
+    source: "https://easylist.to/ + https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "cn",
+    preset: null,
+    order: 501,
+  },
+  regional_de_cosmetic: {
+    name: "Regional Cosmetic - German",
+    description: "Element hiding rules for German websites",
+    source: "https://easylist.to/ + https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "de",
+    preset: null,
+    order: 502,
+  },
+  regional_de_blocking: {
+    name: "Regional Blocking - German",
+    description: "Request blocking rules for German websites",
+    source: "https://easylist.to/ + https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "de",
+    preset: null,
+    order: 503,
+  },
+  regional_nl_cosmetic: {
+    name: "Regional Cosmetic - Dutch",
+    description: "Element hiding rules for Dutch websites",
+    source: "https://easylist.to/ + https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "nl",
+    preset: null,
+    order: 504,
+  },
+  regional_nl_blocking: {
+    name: "Regional Blocking - Dutch",
+    description: "Request blocking rules for Dutch websites",
+    source: "https://easylist.to/ + https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "nl",
+    preset: null,
+    order: 505,
+  },
+  regional_es_cosmetic: {
+    name: "Regional Cosmetic - Spanish/Portuguese",
+    description: "Element hiding rules for Spanish and Portuguese websites",
+    source: "https://easylist.to/ + https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "es",
+    preset: null,
+    order: 506,
+  },
+  regional_es_blocking: {
+    name: "Regional Blocking - Spanish/Portuguese",
+    description: "Request blocking rules for Spanish and Portuguese websites",
+    source: "https://easylist.to/ + https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "es",
+    preset: null,
+    order: 507,
+  },
+  regional_fr_cosmetic: {
+    name: "Regional Cosmetic - French",
+    description: "Element hiding rules for French websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "fr",
+    preset: null,
+    order: 508,
+  },
+  regional_fr_blocking: {
+    name: "Regional Blocking - French",
+    description: "Request blocking rules for French websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "fr",
+    preset: null,
+    order: 509,
+  },
+  regional_he_cosmetic: {
+    name: "Regional Cosmetic - Hebrew",
+    description: "Element hiding rules for Hebrew websites",
+    source: "https://easylist.to/",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "he",
+    preset: null,
+    order: 510,
+  },
+  regional_he_blocking: {
+    name: "Regional Blocking - Hebrew",
+    description: "Request blocking rules for Hebrew websites",
+    source: "https://easylist.to/",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "he",
+    preset: null,
+    order: 511,
+  },
+  regional_it_cosmetic: {
+    name: "Regional Cosmetic - Italian",
+    description: "Element hiding rules for Italian websites",
+    source: "https://easylist.to/",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "it",
+    preset: null,
+    order: 512,
+  },
+  regional_it_blocking: {
+    name: "Regional Blocking - Italian",
+    description: "Request blocking rules for Italian websites",
+    source: "https://easylist.to/",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "it",
+    preset: null,
+    order: 513,
+  },
+  regional_ja_cosmetic: {
+    name: "Regional Cosmetic - Japanese",
+    description: "Element hiding rules for Japanese websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "ja",
+    preset: null,
+    order: 514,
+  },
+  regional_ja_blocking: {
+    name: "Regional Blocking - Japanese",
+    description: "Request blocking rules for Japanese websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "ja",
+    preset: null,
+    order: 515,
+  },
+  regional_lt_cosmetic: {
+    name: "Regional Cosmetic - Lithuanian",
+    description: "Element hiding rules for Lithuanian websites",
+    source: "https://easylist.to/",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "lt",
+    preset: null,
+    order: 516,
+  },
+  regional_lt_blocking: {
+    name: "Regional Blocking - Lithuanian",
+    description: "Request blocking rules for Lithuanian websites",
+    source: "https://easylist.to/",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "lt",
+    preset: null,
+    order: 517,
+  },
+  regional_pl_cosmetic: {
+    name: "Regional Cosmetic - Polish",
+    description: "Element hiding rules for Polish websites",
+    source: "https://easylist.to/",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "pl",
+    preset: null,
+    order: 518,
+  },
+  regional_pl_blocking: {
+    name: "Regional Blocking - Polish",
+    description: "Request blocking rules for Polish websites",
+    source: "https://easylist.to/",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "pl",
+    preset: null,
+    order: 519,
+  },
+  regional_ru_cosmetic: {
+    name: "Regional Cosmetic - Russian",
+    description: "Element hiding rules for Russian websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "ru",
+    preset: null,
+    order: 520,
+  },
+  regional_ru_blocking: {
+    name: "Regional Blocking - Russian",
+    description: "Request blocking rules for Russian websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "ru",
+    preset: null,
+    order: 521,
+  },
+  regional_tr_cosmetic: {
+    name: "Regional Cosmetic - Turkish",
+    description: "Element hiding rules for Turkish websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "tr",
+    preset: null,
+    order: 522,
+  },
+  regional_tr_blocking: {
+    name: "Regional Blocking - Turkish",
+    description: "Request blocking rules for Turkish websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "tr",
+    preset: null,
+    order: 523,
+  },
+  regional_uk_cosmetic: {
+    name: "Regional Cosmetic - Ukrainian",
+    description: "Element hiding rules for Ukrainian websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "cosmetic",
+    region: "uk",
+    preset: null,
+    order: 524,
+  },
+  regional_uk_blocking: {
+    name: "Regional Blocking - Ukrainian",
+    description: "Request blocking rules for Ukrainian websites",
+    source: "https://adguard.com",
+    license: "GPL-3.0",
+    category: null,
+    type: "regional_blocking",
+    region: "uk",
+    preset: null,
+    order: 525,
+  },
 };
 
 // --- Read metadata from an enhanced JSON file ---
@@ -290,7 +577,9 @@ function buildManifest(enhancedDir) {
   let missing = 0;
 
   for (const [listId, catalogDef] of Object.entries(LIST_CATALOG)) {
-    const filePath = path.join(enhancedDir, listId + ".json");
+    const filePath = catalogDef.region
+      ? path.join(enhancedDir, "regional", listId + ".json")
+      : path.join(enhancedDir, listId + ".json");
     const meta = readEnhancedMetadata(filePath);
 
     const entry = {
@@ -300,11 +589,14 @@ function buildManifest(enhancedDir) {
       license: catalogDef.license,
       category: catalogDef.category,
       preset: catalogDef.preset,
-      fetch_url: CDN_BASE + listId + ".json",
+      fetch_url: catalogDef.region
+        ? CDN_BASE + "regional/" + listId + ".json"
+        : CDN_BASE + listId + ".json",
     };
 
     if (catalogDef.type) entry.type = catalogDef.type;
     if (catalogDef.order !== undefined) entry.order = catalogDef.order;
+    if (catalogDef.region) entry.region = catalogDef.region;
 
     if (meta) {
       entry.version = meta.version;
@@ -390,6 +682,18 @@ function main() {
     fs.writeFileSync(outPath, json + "\n", "utf-8");
     const sizeKb = (Buffer.byteLength(json) / 1024).toFixed(1);
     console.log("\n  → " + outPath + " (" + sizeKb + " KB)");
+
+    // Generate bundled version without regional entries (for extension packaging)
+    const bundledLists = {};
+    for (const [id, entry] of Object.entries(manifest.lists)) {
+      if (!entry.region) bundledLists[id] = entry;
+    }
+    const bundledManifest = { manifest_version: manifest.manifest_version, generated: manifest.generated, lists: bundledLists };
+    const bundledJson = JSON.stringify(bundledManifest, null, 2);
+    const bundledPath = path.join(outputDir, "enhanced-lists-bundled.json");
+    fs.writeFileSync(bundledPath, bundledJson + "\n", "utf-8");
+    const bundledSizeKb = (Buffer.byteLength(bundledJson) / 1024).toFixed(1);
+    console.log("  → " + bundledPath + " (" + bundledSizeKb + " KB, no regional)");
   }
 
   if (missing > 0) {

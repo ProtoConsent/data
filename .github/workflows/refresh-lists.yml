@@ -74,6 +74,19 @@ jobs:
           node scripts/convert-tracking-params.js
           echo "trackparams_exit=$?" >> "$GITHUB_OUTPUT"
 
+      - name: Refresh regional lists
+        id: regional
+        if: github.event.inputs.list == '' || startsWith(github.event.inputs.list, 'regional_')
+        run: |
+          set +e
+          if [[ "${{ github.event.inputs.list }}" == regional_*_* ]]; then
+            REGION=$(echo "${{ github.event.inputs.list }}" | sed 's/regional_//' | sed 's/_cosmetic//' | sed 's/_blocking//')
+            node scripts/convert-regional.js --region "$REGION"
+          else
+            node scripts/convert-regional.js
+          fi
+          echo "regional_exit=$?" >> "$GITHUB_OUTPUT"
+
       - name: Generate manifest
         run: node scripts/generate-manifest.js
 
@@ -103,6 +116,6 @@ jobs:
       - name: Purge jsDelivr cache
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          for f in enhanced/*.json config/enhanced-lists.json; do
+          for f in enhanced/*.json enhanced/regional/*.json config/enhanced-lists.json; do
             curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/$f" > /dev/null && echo "Purged $f" || echo "Warning: $f failed"
           done
