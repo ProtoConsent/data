@@ -102,7 +102,7 @@ Regional cosmetic and blocking lists in `enhanced/regional/`, compiled from [Eas
 | Turkish | `tr` | AdGuard Turkish |
 | Ukrainian | `uk` | AdGuard Ukrainian |
 
-Regional lists are not included in the bundled extension catalog. They appear only in the remote catalog and require the user to enable Enhanced Protection.
+Regional lists appear in both the bundled and remote catalog as 2 aggregated entries (`regional_cosmetic` and `regional_blocking`) with `fetch_base` and `regions` fields instead of individual `fetch_url` entries. The extension's fetch handler reads the user's selected regions and downloads individual per-region files from `enhanced/regional/`, merging them at runtime. The user must enable Enhanced Protection and select regions.
 
 ## Scripts
 
@@ -116,7 +116,7 @@ All scripts are in `scripts/`. Requires Node.js 18+. No dependencies.
 | `convert-autoconsent.js` | Fetches [Autoconsent](https://github.com/duckduckgo/autoconsent) rule files from GitHub, extracts prehide selectors, detectCmp/detectPopup selectors, and builds three output files. Applies `config/cmp-safelist.json` filtering and domain matching. Uses a tree hash cache to skip re-fetching when upstream hasn't changed. |
 | `convert-tracking-params.js` | Fetches [AdGuard TrackParamFilter](https://github.com/AdguardTeam/AdguardFilters) and [Dandelion Sprout's Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt), extracts literal `$removeparam` names (skips regex), separates global vs. per-site, and outputs two JSON files. |
 | `convert-regional.js` | Fetches EasyList regional supplements and AdGuard language-specific filters, extracts both blocking and cosmetic rules, merges sources per region, deduplicates, and outputs two JSON files per region to `enhanced/regional/`. |
-| `generate-manifest.js` | Reads metadata from all `enhanced/*.json` and `enhanced/regional/*.json` files, merges with the list catalog, and outputs `config/enhanced-lists.json` (full catalog for CDN and extension packaging). |
+| `generate-manifest.js` | Reads metadata from all `enhanced/*.json` and `enhanced/regional/*.json` files, merges with the list catalog, aggregates per-region metadata into 2 catalog entries (`regional_cosmetic` and `regional_blocking`), and outputs `config/enhanced-lists.json` (full catalog for CDN and extension packaging). |
 
 ```bash
 node scripts/convert.js                    # fetch all blocklists, output to ./enhanced/
