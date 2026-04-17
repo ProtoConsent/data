@@ -1307,10 +1307,14 @@
     },
     "linkedin_com": {
       "present": [
-        ".artdeco-global-alert[type=COOKIE_CONSENT]"
+        ".artdeco-global-alert[type=COOKIE_CONSENT]",
+        ".artdeco-global-alert--COOKIE_CONSENT",
+        "[data-testid=\"global-alerts-title\"]"
       ],
       "showing": [
-        ".artdeco-global-alert[type=COOKIE_CONSENT]"
+        ".artdeco-global-alert[type=COOKIE_CONSENT]",
+        ".artdeco-global-alert--COOKIE_CONSENT",
+        "[data-testid=\"global-alerts-actions\"]"
       ],
       "domains": [
         "linkedin.com"
@@ -1725,17 +1729,6 @@
       ],
       "showing": [
         "div[consent-skip-blocker=\"1\"][id][data-bg] > dialog > div > div > div > div > div > a[role=button][id]"
-      ]
-    },
-    "linkedin": {
-      "present": [
-        ".artdeco-global-alert--COOKIE_CONSENT"
-      ],
-      "showing": [
-        ".artdeco-global-alert--COOKIE_CONSENT"
-      ],
-      "domains": [
-        "linkedin.com"
       ]
     },
     "reddit_com": {

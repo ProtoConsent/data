@@ -1411,13 +1411,17 @@
       }
     },
     "linkedin_com": {
-      "selector": ".artdeco-global-alert[type=COOKIE_CONSENT]",
+      "selector": ".artdeco-global-alert[type=COOKIE_CONSENT], .artdeco-global-alert--COOKIE_CONSENT",
       "detectors": {
         "present": [
-          ".artdeco-global-alert[type=COOKIE_CONSENT]"
+          ".artdeco-global-alert[type=COOKIE_CONSENT]",
+          ".artdeco-global-alert--COOKIE_CONSENT",
+          "[data-testid=\"global-alerts-title\"]"
         ],
         "showing": [
-          ".artdeco-global-alert[type=COOKIE_CONSENT]"
+          ".artdeco-global-alert[type=COOKIE_CONSENT]",
+          ".artdeco-global-alert--COOKIE_CONSENT",
+          "[data-testid=\"global-alerts-actions\"]"
         ]
       },
       "domains": [
