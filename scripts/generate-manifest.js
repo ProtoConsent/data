@@ -382,15 +382,10 @@ function buildManifest(enhancedDir) {
   let missing = 0;
 
   for (const [listId, catalogDef] of Object.entries(LIST_CATALOG)) {
-    // Skip regional entries from CDN output — they exist in the extension's
-    // bundled enhanced-lists.json only.  Old extension versions (<=0.5.0) don't
-    // have regional code; including these in the CDN catalog would show phantom
-    // cards and break preset resolution.  The extension's bundled copy has the
-    // correct preset/order; since the CDN merge can't overwrite what isn't
-    // present, the bundled values survive intact.
-    // TODO: Remove this skip once the minimum supported version has regional support.
+    // Regional lists: aggregate metadata from per-region files.
+    // Old extension versions (<=0.5.0) ignore unknown catalog entries,
+    // so including them in CDN is safe from v0.5.1 onward.
     const isRegional = catalogDef.type === "regional_cosmetic" || catalogDef.type === "regional_blocking";
-    if (isRegional) continue;
     const meta = isRegional
       ? readRegionalAggregate(enhancedDir, listId === "regional_cosmetic" ? "_cosmetic" : "_blocking")
       : readEnhancedMetadata(path.join(enhancedDir, listId + ".json"));
