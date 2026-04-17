@@ -1027,11 +1027,10 @@
     },
     "google_com": {
       "present": [
-        ".HTjtHe#xe7COe",
-        ".HTjtHe#xe7COe a[href^=\"https://policies.google.com/technologies/cookies\"]"
+        "a[href^=\"https://policies.google.com/technologies/cookies\"]"
       ],
       "showing": [
-        ".HTjtHe#xe7COe button#W0wltc"
+        "a[href^=\"https://policies.google.com/technologies/cookies\"]"
       ],
       "domains": [
         "google.com"
