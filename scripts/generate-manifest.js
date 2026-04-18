@@ -88,6 +88,15 @@ const LIST_CATALOG = {
     preset: "basic",
     order: 34,
   },
+  protoconsent_security: {
+    name: "ProtoConsent Security",
+    description: "Phishing, scam, and malicious domain blocklist",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: "security",
+    preset: "full",
+    order: 35,
+  },
   easyprivacy: {
     name: "EasyPrivacy",
     description: "Privacy and tracking protection filter list",

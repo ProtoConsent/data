@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-18T03:53:44.344Z",
+  "generated": "2026-04-18T04:38:18.310Z",
   "lists": {
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -12,9 +12,9 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_analytics.json",
       "order": 30,
       "version": "2026-04-18",
-      "generated": "2026-04-18T03:09:08.757Z",
+      "generated": "2026-04-18T04:15:21.341Z",
       "domain_count": 24481,
-      "path_rule_count": 562
+      "path_rule_count": 3431
     },
     "protoconsent_ads": {
       "name": "ProtoConsent Ads",
@@ -26,9 +26,9 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_ads.json",
       "order": 31,
       "version": "2026-04-18",
-      "generated": "2026-04-18T03:09:08.749Z",
+      "generated": "2026-04-18T04:15:21.330Z",
       "domain_count": 78532,
-      "path_rule_count": 533
+      "path_rule_count": 1117
     },
     "protoconsent_personalization": {
       "name": "ProtoConsent Personalization",
@@ -40,9 +40,9 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_personalization.json",
       "order": 32,
       "version": "2026-04-18",
-      "generated": "2026-04-18T03:09:08.759Z",
+      "generated": "2026-04-18T04:15:21.345Z",
       "domain_count": 212,
-      "path_rule_count": 14
+      "path_rule_count": 0
     },
     "protoconsent_third_parties": {
       "name": "ProtoConsent Third Parties",
@@ -54,9 +54,9 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_third_parties.json",
       "order": 33,
       "version": "2026-04-18",
-      "generated": "2026-04-18T03:09:08.760Z",
+      "generated": "2026-04-18T04:15:21.346Z",
       "domain_count": 486,
-      "path_rule_count": 110
+      "path_rule_count": 123
     },
     "protoconsent_advanced_tracking": {
       "name": "ProtoConsent Advanced Tracking",
@@ -68,9 +68,23 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_advanced_tracking.json",
       "order": 34,
       "version": "2026-04-18",
-      "generated": "2026-04-18T03:09:08.763Z",
+      "generated": "2026-04-18T04:15:21.347Z",
       "domain_count": 1576,
-      "path_rule_count": 30
+      "path_rule_count": 0
+    },
+    "protoconsent_security": {
+      "name": "ProtoConsent Security",
+      "description": "Phishing, scam, and malicious domain blocklist",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": "security",
+      "preset": "full",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_security.json",
+      "order": 35,
+      "version": "2026-04-18",
+      "generated": "2026-04-18T04:15:21.350Z",
+      "domain_count": 22382,
+      "path_rule_count": 0
     },
     "easyprivacy": {
       "name": "EasyPrivacy",
