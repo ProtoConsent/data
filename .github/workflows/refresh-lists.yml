@@ -116,6 +116,6 @@ jobs:
       - name: Purge jsDelivr cache
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          for f in enhanced/*.json enhanced/regional/*.json config/enhanced-lists.json; do
+          for f in enhanced/protoconsent/*.json enhanced/external/*.json enhanced/regional/*.json config/enhanced-lists.json; do
             curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/$f" > /dev/null && echo "Purged $f" || echo "Warning: $f failed"
           done

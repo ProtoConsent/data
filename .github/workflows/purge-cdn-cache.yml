@@ -1,0 +1,35 @@
+# ProtoConsent browser extension
+# Copyright (C) 2026 ProtoConsent contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: Purge jsDelivr cache
+
+on:
+  workflow_dispatch:
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Purge jsDelivr cache
+        run: |
+          OK=0
+          FAIL=0
+          for f in enhanced/protoconsent/*.json enhanced/external/*.json enhanced/regional/*.json config/enhanced-lists.json; do
+            if curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/$f" > /dev/null; then
+              echo "Purged $f"
+              OK=$((OK + 1))
+            else
+              echo "Warning: $f failed"
+              FAIL=$((FAIL + 1))
+            fi
+          done
+          echo ""
+          echo "--- Summary ---"
+          echo "Purged: $OK files"
+          [ "$FAIL" -gt 0 ] && echo "Failed: $FAIL files"
+          echo "Done."
