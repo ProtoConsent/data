@@ -12,11 +12,9 @@ projects. We are grateful to their maintainers and contributors.
 | [EasyList](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easylist.json`, `easylist_cosmetic.json` |
 | [EasyPrivacy](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easyprivacy.json` |
 | [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | AdGuard Team | GPL-3.0 | `adguard_dns.json` |
-| [Steven Black Unified Hosts](https://github.com/StevenBlack/hosts) | Steven Black | MIT | `steven_black.json` |
 | [OISD](https://oisd.nl/) | Stephan van Ruth | GPL-3.0 | `oisd_small.json` |
-| [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) | HaGeZi | GPL-3.0 | `hagezi_pro.json`, `hagezi_tif.json` |
-| [1Hosts](https://github.com/badmojr/1Hosts) | badmojr | MPL-2.0 | `onehosts_lite.json` |
-| [Blocklist Project](https://github.com/blocklistproject/Lists) | Blocklist Project | Unlicense | `blp_ads.json`, `blp_tracking.json`, `blp_crypto.json`, `blp_phishing.json` |
+| [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) | HaGeZi | GPL-3.0 | `hagezi_pro.json` |
+| [Blocklist Project](https://github.com/blocklistproject/Lists) | Blocklist Project | Unlicense | `blp_crypto.json`, `blp_phishing.json` |
 
 ### CNAME tracker detection
 
@@ -69,22 +67,6 @@ The full license text is available at: https://www.mozilla.org/en-US/MPL/2.0/
 > file, You can obtain one at https://mozilla.org/MPL/2.0/.
 >
 > Copyright (c) 2021 DuckDuckGo, Inc.
-
-## MIT license notice (Steven Black Unified Hosts)
-
-> The MIT License (MIT)
->
-> Copyright (c) 2023 Steven Black
->
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the "Software"), to deal
-> in the Software without restriction, including without limitation the rights
-> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-> copies of the Software, and to permit persons to whom the Software is
-> furnished to do so, subject to the following conditions:
->
-> The above copyright notice and this permission notice shall be included in all
-> copies or substantial portions of the Software.
 
 ## MIT license notice (AdGuard CNAME Trackers)
 

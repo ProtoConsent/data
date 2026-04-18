@@ -30,11 +30,6 @@ const LISTS = {
     url: "https://easylist.to/easylist/easylist.txt",
     format: "abp",
   },
-  steven_black: {
-    name: "Steven Black Unified",
-    url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-    format: "hosts",
-  },
   adguard_dns: {
     name: "AdGuard DNS Filter",
     url: "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
@@ -50,33 +45,13 @@ const LISTS = {
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt",
     format: "domains",
   },
-  hagezi_tif: {
-    name: "HaGeZi TIF",
-    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt",
-    format: "domains",
-  },
-  onehosts_lite: {
-    name: "1Hosts Lite",
-    url: "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/hosts.txt",
-    format: "hosts",
-  },
-  blp_ads: {
-    name: "Blocklist Project — Ads",
-    url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt",
-    format: "hosts",
-  },
-  blp_tracking: {
-    name: "Blocklist Project — Tracking",
-    url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
-    format: "hosts",
-  },
   blp_crypto: {
-    name: "Blocklist Project — Crypto",
+    name: "Blocklist Project - Crypto",
     url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt",
     format: "hosts",
   },
   blp_phishing: {
-    name: "Blocklist Project — Phishing",
+    name: "Blocklist Project - Phishing",
     url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
     format: "hosts",
   },

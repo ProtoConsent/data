@@ -128,20 +128,6 @@
       "domain_count": 165598,
       "path_rule_count": 0
     },
-    "steven_black": {
-      "name": "Steven Black Unified",
-      "description": "Aggregated hosts list from 15+ sources - ads, malware, tracking",
-      "source": "https://github.com/StevenBlack/hosts",
-      "license": "MIT",
-      "category": null,
-      "preset": "full",
-      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/steven_black.json",
-      "order": 130,
-      "version": "2026-04-15",
-      "generated": "2026-04-15T17:31:53.521Z",
-      "domain_count": 47166,
-      "path_rule_count": 0
-    },
     "oisd_small": {
       "name": "OISD Small",
       "description": "Composite domain blocklist - conservative variant",
@@ -168,62 +154,6 @@
       "version": "2026-04-15",
       "generated": "2026-04-15T17:31:56.188Z",
       "domain_count": 200004,
-      "path_rule_count": 0
-    },
-    "hagezi_tif": {
-      "name": "HaGeZi TIF",
-      "description": "Threat intelligence feeds - fingerprinting, cryptominers, malware",
-      "source": "https://github.com/hagezi/dns-blocklists",
-      "license": "GPL-3.0",
-      "category": "advanced_tracking",
-      "preset": "full",
-      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/hagezi_tif.json",
-      "order": 220,
-      "version": "2026-04-15",
-      "generated": "2026-04-15T17:31:58.769Z",
-      "domain_count": 995594,
-      "path_rule_count": 0
-    },
-    "onehosts_lite": {
-      "name": "1Hosts Lite",
-      "description": "Independent curation - ads, trackers, malware",
-      "source": "https://github.com/badmojr/1Hosts",
-      "license": "MPL-2.0",
-      "category": null,
-      "preset": "full",
-      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/onehosts_lite.json",
-      "order": 230,
-      "version": "2026-04-15",
-      "generated": "2026-04-15T17:31:59.189Z",
-      "domain_count": 94620,
-      "path_rule_count": 0
-    },
-    "blp_ads": {
-      "name": "Blocklist Project - Ads",
-      "description": "Ad servers - categorized blocklist",
-      "source": "https://github.com/blocklistproject/Lists",
-      "license": "Unlicense",
-      "category": "ads",
-      "preset": "full",
-      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/blp_ads.json",
-      "order": 240,
-      "version": "2026-04-15",
-      "generated": "2026-04-15T17:31:59.524Z",
-      "domain_count": 69744,
-      "path_rule_count": 0
-    },
-    "blp_tracking": {
-      "name": "Blocklist Project - Tracking",
-      "description": "Tracking and analytics servers - categorized blocklist",
-      "source": "https://github.com/blocklistproject/Lists",
-      "license": "Unlicense",
-      "category": "analytics",
-      "preset": "full",
-      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/blp_tracking.json",
-      "order": 250,
-      "version": "2026-04-15",
-      "generated": "2026-04-15T17:31:59.587Z",
-      "domain_count": 14935,
       "path_rule_count": 0
     },
     "blp_crypto": {
