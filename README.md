@@ -40,11 +40,11 @@ Purpose-based lists curated from 18 upstream sources via the classifier pipeline
 
 | File | Category | License | Domains | Path rules |
 |---|---|---|---|---|
-| `protoconsent_ads.json` | `ads` | GPL-3.0-or-later | 78,532 | 533 |
-| `protoconsent_analytics.json` | `analytics` | GPL-3.0-or-later | 24,481 | 562 |
-| `protoconsent_personalization.json` | `personalization` | GPL-3.0-or-later | 212 | 14 |
-| `protoconsent_third_parties.json` | `third_parties` | GPL-3.0-or-later | 486 | 110 |
-| `protoconsent_advanced_tracking.json` | `advanced_tracking` | GPL-3.0-or-later | 1,576 | 30 |
+| `protoconsent_ads.json` | `ads` | GPL-3.0-or-later | 78,532 | 1,117 |
+| `protoconsent_analytics.json` | `analytics` | GPL-3.0-or-later | 24,481 | 3,431 |
+| `protoconsent_personalization.json` | `personalization` | GPL-3.0-or-later | 212 | - |
+| `protoconsent_third_parties.json` | `third_parties` | GPL-3.0-or-later | 486 | 123 |
+| `protoconsent_advanced_tracking.json` | `advanced_tracking` | GPL-3.0-or-later | 1,576 | - |
 | `protoconsent_security.json` | `security` | GPL-3.0-or-later | 22,382 | - |
 
 ### Third-party blocking lists
