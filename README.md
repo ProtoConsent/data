@@ -36,16 +36,16 @@ All files are served via jsDelivr CDN. The extension fetches them at runtime whe
 
 ### ProtoConsent Core
 
-Purpose-based lists derived from the extension's static rulesets, enabling weekly updates via CDN independently of extension releases.
+Purpose-based lists curated from 18 upstream sources via the classifier pipeline. These are delta lists containing only domains not already in the extension's static rulesets (58,094 bundled domains). Combined with the bundle, they provide 185,763 total domain rules across 6 purpose categories.
 
 | File | Category | License | Domains | Path rules |
 |---|---|---|---|---|
-| `protoconsent_analytics.json` | `analytics` | GPL-3.0-or-later | ~89 | 562 |
-| `protoconsent_ads.json` | `ads` | GPL-3.0-or-later | ~14.5K | 533 |
-| `protoconsent_personalization.json` | `personalization` | GPL-3.0-or-later | ~10 | 14 |
-| `protoconsent_third_parties.json` | `third_parties` | GPL-3.0-or-later | ~15 | 110 |
-| `protoconsent_advanced_tracking.json` | `advanced_tracking` | GPL-3.0-or-later | ~3.2K | 30 |
-| `protoconsent_security.json` | `security` | GPL-3.0-or-later | ~10 | - |
+| `protoconsent_ads.json` | `ads` | GPL-3.0-or-later | 78,532 | 533 |
+| `protoconsent_analytics.json` | `analytics` | GPL-3.0-or-later | 24,481 | 562 |
+| `protoconsent_personalization.json` | `personalization` | GPL-3.0-or-later | 212 | 14 |
+| `protoconsent_third_parties.json` | `third_parties` | GPL-3.0-or-later | 486 | 110 |
+| `protoconsent_advanced_tracking.json` | `advanced_tracking` | GPL-3.0-or-later | 1,576 | 30 |
+| `protoconsent_security.json` | `security` | GPL-3.0-or-later | 22,382 | - |
 
 ### Third-party blocking lists
 
@@ -61,7 +61,7 @@ Compiled from public blocklists by the conversion pipeline.
 | `blp_crypto.json` | [Blocklist Project - Crypto](https://github.com/blocklistproject/Lists) | Unlicense | ~24K | - |
 | `blp_phishing.json` | [Blocklist Project - Phishing](https://github.com/blocklistproject/Lists) | Unlicense | ~87K | - |
 
-Domain counts are approximate and change with each upstream update.
+Domain counts are exact as of 2026-04-18 and change with each upstream update.
 
 ## Cosmetic filtering
 
