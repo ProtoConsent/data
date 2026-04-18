@@ -17,6 +17,11 @@ const path = require("path");
 
 const CDN_BASE = "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/";
 
+// Subdirectory for a list: protoconsent_* -> "protoconsent/", others -> "external/"
+function listSubdir(listId) {
+  return listId.startsWith("protoconsent_") ? "protoconsent/" : "external/";
+}
+
 // --- Read valid region codes from config/regional-languages.json ---
 const REGIONAL_LANGUAGES_PATH = path.join(__dirname, "..", "config", "regional-languages.json");
 let VALID_REGIONS;
@@ -388,7 +393,7 @@ function buildManifest(enhancedDir) {
     const isRegional = catalogDef.type === "regional_cosmetic" || catalogDef.type === "regional_blocking";
     const meta = isRegional
       ? readRegionalAggregate(enhancedDir, listId === "regional_cosmetic" ? "_cosmetic" : "_blocking")
-      : readEnhancedMetadata(path.join(enhancedDir, listId + ".json"));
+      : readEnhancedMetadata(path.join(enhancedDir, listSubdir(listId), listId + ".json"));
 
     const entry = {
       name: catalogDef.name,
@@ -403,7 +408,7 @@ function buildManifest(enhancedDir) {
       entry.fetch_base = catalogDef.fetch_base;
       entry.regions = catalogDef.regions;
     } else {
-      entry.fetch_url = CDN_BASE + listId + ".json";
+      entry.fetch_url = CDN_BASE + listSubdir(listId) + listId + ".json";
     }
 
     if (catalogDef.type) entry.type = catalogDef.type;

@@ -114,8 +114,9 @@ async function main() {
   }
 
   if (!dryRun) {
-    fs.mkdirSync(outputDir, { recursive: true });
-    const outPath = path.join(outputDir, "cname_trackers.json");
+    const extDir = path.join(outputDir, "external");
+    fs.mkdirSync(extDir, { recursive: true });
+    const outPath = path.join(extDir, "cname_trackers.json");
     fs.writeFileSync(outPath, output, "utf-8");
     const sizeMb = (Buffer.byteLength(output) / 1024 / 1024).toFixed(1);
     console.log("  → " + outPath + " (" + sizeMb + " MB)");

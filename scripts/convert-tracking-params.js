@@ -229,7 +229,7 @@ async function main() {
   }
 
   // --- Write enhanced JSONs ---
-  const enhancedDir = path.join(__dirname, "..", "enhanced");
+  const enhancedDir = path.join(__dirname, "..", "enhanced", "external");
   if (!fs.existsSync(enhancedDir)) fs.mkdirSync(enhancedDir, { recursive: true });
 
   const egPath = path.join(enhancedDir, "adguard_tracking_params.json");

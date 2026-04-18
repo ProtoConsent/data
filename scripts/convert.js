@@ -316,7 +316,8 @@ async function main() {
 
       if (!dryRun) {
         const json = generateJson(id, domains, pathRules);
-        const outPath = path.join(outputDir, id + ".json");
+        const outPath = path.join(outputDir, "external", id + ".json");
+        fs.mkdirSync(path.join(outputDir, "external"), { recursive: true });
         fs.writeFileSync(outPath, json, "utf-8");
         const sizeMb = (Buffer.byteLength(json) / 1024 / 1024).toFixed(1);
         console.log("  → " + outPath + " (" + sizeMb + " MB)");

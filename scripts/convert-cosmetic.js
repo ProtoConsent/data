@@ -163,7 +163,9 @@ async function main() {
     }
   } else {
     const json = JSON.stringify(output);
-    const outPath = path.join(outputDir, "easylist_cosmetic.json");
+    const extDir = path.join(outputDir, "external");
+    fs.mkdirSync(extDir, { recursive: true });
+    const outPath = path.join(extDir, "easylist_cosmetic.json");
     fs.writeFileSync(outPath, json, "utf-8");
     const sizeKb = (Buffer.byteLength(json) / 1024).toFixed(1);
     console.log("  -> " + outPath + " (" + sizeKb + " KB)");

@@ -481,7 +481,7 @@ async function main() {
   const args = process.argv.slice(2);
   const outputDir = args.includes("--output")
     ? args[args.indexOf("--output") + 1]
-    : path.join(__dirname, "..", "enhanced");
+    : path.join(__dirname, "..", "enhanced", "protoconsent");
   const dryRun = args.includes("--dry-run");
   const force = args.includes("--force");
   const localIdx = args.indexOf("--local");
