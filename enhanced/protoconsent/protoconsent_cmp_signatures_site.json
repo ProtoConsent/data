@@ -1,10 +1,10 @@
 {
-  "version": "2026-04-14",
+  "version": "2026-04-18",
   "type": "cmp_site",
-  "generated": "2026-04-14T22:46:18.042Z",
+  "generated": "2026-04-18T03:53:21.419Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "c890ffb474b371fc",
-  "cmp_count": 237,
+  "autoconsent_tree_hash": "c372282dfbc267af",
+  "cmp_count": 234,
   "signatures": {
     "abconcerts_be": {
       "selector": "dialog.cookie-consent",
@@ -906,20 +906,6 @@
         "dunelm.com"
       ]
     },
-    "ebay": {
-      "selector": "#gdpr-banner",
-      "detectors": {
-        "present": [
-          "#gdpr-banner"
-        ],
-        "showing": [
-          "#gdpr-banner"
-        ]
-      },
-      "domains": [
-        "ebay.com"
-      ]
-    },
     "ecosia": {
       "selector": ".cookie-wrapper",
       "detectors": {
@@ -1117,13 +1103,14 @@
       }
     },
     "google_com": {
-      "selector": null,
+      "selector": ".HTjtHe#xe7COe",
       "detectors": {
         "present": [
-          "a[href^=\"https://policies.google.com/technologies/cookies\"]"
+          ".HTjtHe#xe7COe",
+          ".HTjtHe#xe7COe a[href^=\"https://policies.google.com/technologies/cookies\"]"
         ],
         "showing": [
-          "a[href^=\"https://policies.google.com/technologies/cookies\"]"
+          ".HTjtHe#xe7COe button#W0wltc"
         ]
       },
       "domains": [
@@ -1410,17 +1397,13 @@
       }
     },
     "linkedin_com": {
-      "selector": ".artdeco-global-alert[type=COOKIE_CONSENT], .artdeco-global-alert--COOKIE_CONSENT",
+      "selector": ".artdeco-global-alert[type=COOKIE_CONSENT]",
       "detectors": {
         "present": [
-          ".artdeco-global-alert[type=COOKIE_CONSENT]",
-          ".artdeco-global-alert--COOKIE_CONSENT",
-          "[data-testid=\"global-alerts-title\"]"
+          ".artdeco-global-alert[type=COOKIE_CONSENT]"
         ],
         "showing": [
-          ".artdeco-global-alert[type=COOKIE_CONSENT]",
-          ".artdeco-global-alert--COOKIE_CONSENT",
-          "[data-testid=\"global-alerts-actions\"]"
+          ".artdeco-global-alert[type=COOKIE_CONSENT]"
         ]
       },
       "domains": [
@@ -2431,20 +2414,6 @@
         ]
       }
     },
-    "twitter": {
-      "selector": "[data-testid=\"BottomBar\"]",
-      "detectors": {
-        "present": [
-          "body > div#react-root > div:not([id]) > div:not([id]) > div:nth-child(1)#layers > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id])[data-testid=BottomBar] > div:not([id]) > div:nth-child(2):not([id]) > button:nth-child(2):not([id])"
-        ],
-        "showing": [
-          "body > div#react-root > div:not([id]) > div:not([id]) > div:nth-child(1)#layers > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id])[data-testid=BottomBar] > div:not([id]) > div:nth-child(2):not([id]) > button:nth-child(2):not([id])"
-        ]
-      },
-      "domains": [
-        "twitter.com"
-      ]
-    },
     "u12dataprotectionnotice": {
       "selector": ".u12-data-protection-notice",
       "detectors": {
@@ -2660,17 +2629,6 @@
         ],
         "showing": [
           "#cookies-use-alert"
-        ]
-      }
-    },
-    "yahoo": {
-      "selector": "#reject-all",
-      "detectors": {
-        "present": [
-          "#consent-page"
-        ],
-        "showing": [
-          "#consent-page"
         ]
       }
     },
