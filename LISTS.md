@@ -10,7 +10,12 @@ enhanced/
   external/               # Third-party lists (EasyList, AdGuard, etc.)
   regional/               # Region-specific blocking and cosmetic rules
 
-lists/                    # Full merged lists (bundle + delta) in JSON and hosts format
+lists/                    # Full merged lists (bundle + delta)
+  abp/                    # ABP filter syntax (uBlock Origin, Adblock Plus, Ghostery)
+  adguard/                # AdGuard filter syntax (AdGuard browser extension)
+  hosts/                  # 0.0.0.0 domain format (Pi-hole, AdGuard Home)
+  domains/                # Plain domain list (NextDNS, ControlD, RethinkDNS)
+  json/                   # Structured JSON with domains, paths, metadata (MV3 extensions)
 ```
 
 ## Blocking lists
@@ -127,7 +132,7 @@ The extension reads `rules[].condition` and creates `declarativeNetRequest` dyna
 }
 ```
 
-Flat domain and path arrays. Domains sorted, deduplicated. Paths as urlFilter strings. Also available as hosts format (`.txt`) for DNS blockers.
+Flat domain and path arrays. Domains sorted, deduplicated. Paths as urlFilter strings. Also available as ABP, AdGuard, hosts, and plain domain formats in `lists/`.
 
 ### Tracking parameter lists
 
