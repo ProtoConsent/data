@@ -12,19 +12,24 @@ Pre-built data files consumed by the [ProtoConsent](https://github.com/ProtoCons
 
 ## Full lists
 
-Complete domain blocklists in `lists/`, organized by purpose. Each purpose is available in two formats:
+Complete domain blocklists in `lists/`, organized by purpose. Each purpose is available in five formats:
 
-- **JSON** - structured format with domains, paths, and metadata
-- **Hosts** (`.txt`) - `0.0.0.0 domain` format for Pi-hole, AdGuard Home, NextDNS and other DNS blockers
+| Format | Path | Description |
+|--------|------|-------------|
+| ABP | `lists/abp/` | Adblock Plus filter syntax (uBlock Origin, Adblock Plus, Ghostery) |
+| AdGuard | `lists/adguard/` | AdGuard filter syntax (AdGuard browser extension) |
+| Hosts | `lists/hosts/` | `0.0.0.0 domain` format (Pi-hole, AdGuard Home) |
+| Domains | `lists/domains/` | Plain domain list (NextDNS, ControlD, RethinkDNS) |
+| JSON | `lists/json/` | Structured format with domains, paths, and metadata (MV3 extensions) |
 
-| Purpose | JSON | Hosts | Description |
-|---------|------|-------|-------------|
-| Ads | [`protoconsent_ads.json`](lists/protoconsent_ads.json) | [`protoconsent_ads.txt`](lists/protoconsent_ads.txt) | Advertising networks and ad servers |
-| Analytics | [`protoconsent_analytics.json`](lists/protoconsent_analytics.json) | [`protoconsent_analytics.txt`](lists/protoconsent_analytics.txt) | Analytics and measurement services |
-| Personalization | [`protoconsent_personalization.json`](lists/protoconsent_personalization.json) | [`protoconsent_personalization.txt`](lists/protoconsent_personalization.txt) | Personalization and A/B testing |
-| Third Parties | [`protoconsent_third_parties.json`](lists/protoconsent_third_parties.json) | [`protoconsent_third_parties.txt`](lists/protoconsent_third_parties.txt) | Third-party embeds and social widgets |
-| Advanced Tracking | [`protoconsent_advanced_tracking.json`](lists/protoconsent_advanced_tracking.json) | [`protoconsent_advanced_tracking.txt`](lists/protoconsent_advanced_tracking.txt) | Fingerprinting and advanced tracking |
-| Security | [`protoconsent_security.json`](lists/protoconsent_security.json) | [`protoconsent_security.txt`](lists/protoconsent_security.txt) | Phishing, scam and malware domains |
+| Purpose | ABP | AdGuard | Hosts | Domains | Description |
+|---------|-----|---------|-------|---------|-------------|
+| Ads | [abp](lists/abp/protoconsent_ads.txt) | [adguard](lists/adguard/protoconsent_ads.txt) | [hosts](lists/hosts/protoconsent_ads.txt) | [domains](lists/domains/protoconsent_ads.txt) | Advertising networks and ad servers |
+| Analytics | [abp](lists/abp/protoconsent_analytics.txt) | [adguard](lists/adguard/protoconsent_analytics.txt) | [hosts](lists/hosts/protoconsent_analytics.txt) | [domains](lists/domains/protoconsent_analytics.txt) | Analytics and measurement services |
+| Personalization | [abp](lists/abp/protoconsent_personalization.txt) | [adguard](lists/adguard/protoconsent_personalization.txt) | [hosts](lists/hosts/protoconsent_personalization.txt) | [domains](lists/domains/protoconsent_personalization.txt) | Personalization and A/B testing |
+| Third Parties | [abp](lists/abp/protoconsent_third_parties.txt) | [adguard](lists/adguard/protoconsent_third_parties.txt) | [hosts](lists/hosts/protoconsent_third_parties.txt) | [domains](lists/domains/protoconsent_third_parties.txt) | Third-party embeds and social widgets |
+| Advanced Tracking | [abp](lists/abp/protoconsent_advanced_tracking.txt) | [adguard](lists/adguard/protoconsent_advanced_tracking.txt) | [hosts](lists/hosts/protoconsent_advanced_tracking.txt) | [domains](lists/domains/protoconsent_advanced_tracking.txt) | Fingerprinting and advanced tracking |
+| Security | [abp](lists/abp/protoconsent_security.txt) | [adguard](lists/adguard/protoconsent_security.txt) | [hosts](lists/hosts/protoconsent_security.txt) | [domains](lists/domains/protoconsent_security.txt) | Phishing, scam and malware domains |
 
 These lists merge the extension's bundled rules with the enhanced delta, providing full domain coverage per purpose. Updated weekly. See [LISTS.md](LISTS.md) for format details.
 
@@ -50,7 +55,7 @@ All scripts are in `scripts/`. Requires Node.js 18+. No dependencies.
 
 | Script | Description |
 |--------|-------------|
-| `generate-full-lists.js` | Merges bundle (extension repo) + delta (enhanced/) into full lists. Outputs JSON and hosts format to `lists/`. |
+| `generate-full-lists.js` | Merges bundle (extension repo) + delta (enhanced/) into full lists. Outputs ABP, AdGuard, hosts, domains, and JSON to `lists/`. |
 | `convert.js` | Fetches upstream blocklists, parses them (ABP, hosts, and plain domain formats), deduplicates, and outputs JSON blocking files. |
 | `convert-cosmetic.js` | Fetches EasyList, extracts element-hiding rules, and outputs a cosmetic JSON file. |
 | `convert-cname.js` | Fetches AdGuard's CNAME tracker lists, merges categories, and outputs an indexed lookup map. |
