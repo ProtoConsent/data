@@ -1,9 +1,9 @@
 {
-  "version": "2026-04-18",
+  "version": "2026-04-14",
   "type": "cmp_detectors",
-  "generated": "2026-04-18T03:53:21.435Z",
+  "generated": "2026-04-14T22:46:18.053Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "c372282dfbc267af",
+  "autoconsent_tree_hash": "c890ffb474b371fc",
   "cmp_count": 288,
   "detectors": {
     "abc": {
@@ -817,6 +817,17 @@
         "dunelm.com"
       ]
     },
+    "amazon": {
+      "present": [
+        "#cos-banner"
+      ],
+      "showing": [
+        "#cos-banner"
+      ],
+      "domains": [
+        "amazon"
+      ]
+    },
     "ebay": {
       "present": [
         "#gdpr-banner"
@@ -912,10 +923,10 @@
     },
     "facebook": {
       "present": [
-        "body > div:not([id]) > div:nth-child(1):not([id]) > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id]) > div:not([id]) > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:nth-child(1):not([id]) > div:nth-child(2):not([id])"
+        "div[role=\"dialog\"][aria-modal=\"true\"]"
       ],
       "showing": [
-        "body > div:not([id]) > div:nth-child(1):not([id]) > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id]) > div:not([id]) > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:nth-child(1):not([id]) > div:nth-child(2):not([id])"
+        "div[role=\"dialog\"][aria-modal=\"true\"]"
       ],
       "domains": [
         "facebook.com"
@@ -1016,11 +1027,10 @@
     },
     "google_com": {
       "present": [
-        ".HTjtHe#xe7COe",
-        ".HTjtHe#xe7COe a[href^=\"https://policies.google.com/technologies/cookies\"]"
+        "a[href^=\"https://policies.google.com/technologies/cookies\"]"
       ],
       "showing": [
-        ".HTjtHe#xe7COe button#W0wltc"
+        "a[href^=\"https://policies.google.com/technologies/cookies\"]"
       ],
       "domains": [
         "google.com"
@@ -1296,10 +1306,14 @@
     },
     "linkedin_com": {
       "present": [
-        ".artdeco-global-alert[type=COOKIE_CONSENT]"
+        ".artdeco-global-alert[type=COOKIE_CONSENT]",
+        ".artdeco-global-alert--COOKIE_CONSENT",
+        "[data-testid=\"global-alerts-title\"]"
       ],
       "showing": [
-        ".artdeco-global-alert[type=COOKIE_CONSENT]"
+        ".artdeco-global-alert[type=COOKIE_CONSENT]",
+        ".artdeco-global-alert--COOKIE_CONSENT",
+        "[data-testid=\"global-alerts-actions\"]"
       ],
       "domains": [
         "linkedin.com"
@@ -2215,13 +2229,14 @@
     },
     "twitter": {
       "present": [
-        "body > div#react-root > div:not([id]) > div:not([id]) > div:nth-child(1)#layers > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id])[data-testid=BottomBar] > div:not([id]) > div:nth-child(2):not([id]) > button:nth-child(2):not([id])"
+        "[data-testid=\"BottomBar\"]"
       ],
       "showing": [
-        "body > div#react-root > div:not([id]) > div:not([id]) > div:nth-child(1)#layers > div:not([id]) > div:nth-child(2):not([id]) > div:not([id]) > div:not([id])[data-testid=BottomBar] > div:not([id]) > div:nth-child(2):not([id]) > button:nth-child(2):not([id])"
+        "[data-testid=\"BottomBar\"]"
       ],
       "domains": [
-        "twitter.com"
+        "twitter.com",
+        "x.com"
       ]
     },
     "u12dataprotectionnotice": {
