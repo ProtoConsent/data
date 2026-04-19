@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-18T04:54:38.047Z",
+  "generated": "2026-04-19T23:52:31.848Z",
   "lists": {
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -11,10 +11,10 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_analytics.json",
       "order": 30,
-      "version": "2026-04-18",
-      "generated": "2026-04-18T04:54:22.435Z",
-      "domain_count": 19153,
-      "path_rule_count": 3428
+      "version": "2026-04-19",
+      "generated": "2026-04-19T23:51:58.932Z",
+      "domain_count": 19177,
+      "path_rule_count": 3429
     },
     "protoconsent_ads": {
       "name": "ProtoConsent Ads",
@@ -25,10 +25,10 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_ads.json",
       "order": 31,
-      "version": "2026-04-18",
-      "generated": "2026-04-18T04:54:22.426Z",
-      "domain_count": 75767,
-      "path_rule_count": 1116
+      "version": "2026-04-19",
+      "generated": "2026-04-19T23:51:58.924Z",
+      "domain_count": 75683,
+      "path_rule_count": 1113
     },
     "protoconsent_personalization": {
       "name": "ProtoConsent Personalization",
@@ -39,8 +39,8 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_personalization.json",
       "order": 32,
-      "version": "2026-04-18",
-      "generated": "2026-04-18T04:54:22.438Z",
+      "version": "2026-04-19",
+      "generated": "2026-04-19T23:51:58.936Z",
       "domain_count": 181,
       "path_rule_count": 0
     },
@@ -53,9 +53,9 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_third_parties.json",
       "order": 33,
-      "version": "2026-04-18",
-      "generated": "2026-04-18T04:54:22.438Z",
-      "domain_count": 413,
+      "version": "2026-04-19",
+      "generated": "2026-04-19T23:51:58.936Z",
+      "domain_count": 408,
       "path_rule_count": 123
     },
     "protoconsent_advanced_tracking": {
@@ -67,9 +67,9 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_advanced_tracking.json",
       "order": 34,
-      "version": "2026-04-18",
-      "generated": "2026-04-18T04:54:22.439Z",
-      "domain_count": 1566,
+      "version": "2026-04-19",
+      "generated": "2026-04-19T23:51:58.937Z",
+      "domain_count": 1564,
       "path_rule_count": 0
     },
     "protoconsent_security": {
@@ -81,9 +81,9 @@
       "preset": "full",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_security.json",
       "order": 35,
-      "version": "2026-04-18",
-      "generated": "2026-04-18T04:54:22.441Z",
-      "domain_count": 22382,
+      "version": "2026-04-19",
+      "generated": "2026-04-19T23:51:58.939Z",
+      "domain_count": 19046,
       "path_rule_count": 0
     },
     "easyprivacy": {
@@ -242,8 +242,8 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_cmp_detectors.json",
       "type": "cmp_detectors",
       "order": 11,
-      "version": "2026-04-18",
-      "generated": "2026-04-18T03:53:21.435Z",
+      "version": "2026-04-14",
+      "generated": "2026-04-14T22:46:18.053Z",
       "domain_count": 0,
       "path_rule_count": 0,
       "cmp_count": 288
