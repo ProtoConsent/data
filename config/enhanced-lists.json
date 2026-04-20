@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-20T00:16:49.472Z",
+  "generated": "2026-04-20T00:32:41.014Z",
   "lists": {
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -12,7 +12,7 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_analytics.json",
       "order": 30,
       "version": "2026-04-20",
-      "generated": "2026-04-20T00:16:43.547Z",
+      "generated": "2026-04-20T00:31:39.809Z",
       "domain_count": 19177,
       "path_rule_count": 3429
     },
@@ -26,7 +26,7 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_ads.json",
       "order": 31,
       "version": "2026-04-20",
-      "generated": "2026-04-20T00:16:43.539Z",
+      "generated": "2026-04-20T00:31:39.796Z",
       "domain_count": 75680,
       "path_rule_count": 1113
     },
@@ -40,7 +40,7 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_personalization.json",
       "order": 32,
       "version": "2026-04-20",
-      "generated": "2026-04-20T00:16:43.550Z",
+      "generated": "2026-04-20T00:31:39.811Z",
       "domain_count": 181,
       "path_rule_count": 0
     },
@@ -54,7 +54,7 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_third_parties.json",
       "order": 33,
       "version": "2026-04-20",
-      "generated": "2026-04-20T00:16:43.551Z",
+      "generated": "2026-04-20T00:31:39.812Z",
       "domain_count": 408,
       "path_rule_count": 123
     },
@@ -68,7 +68,7 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_advanced_tracking.json",
       "order": 34,
       "version": "2026-04-20",
-      "generated": "2026-04-20T00:16:43.551Z",
+      "generated": "2026-04-20T00:31:39.815Z",
       "domain_count": 1564,
       "path_rule_count": 0
     },
@@ -82,7 +82,7 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_security.json",
       "order": 35,
       "version": "2026-04-20",
-      "generated": "2026-04-20T00:16:43.554Z",
+      "generated": "2026-04-20T00:31:39.819Z",
       "domain_count": 19046,
       "path_rule_count": 0
     },
