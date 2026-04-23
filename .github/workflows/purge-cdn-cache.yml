@@ -19,7 +19,7 @@ jobs:
         run: |
           OK=0
           FAIL=0
-          for f in enhanced/protoconsent/*.json enhanced/external/*.json enhanced/regional/*.json config/enhanced-lists.json config/regional-languages.json; do
+          for f in enhanced/protoconsent/*.json enhanced/external/*.json enhanced/regional/*.json config/enhanced-lists.json config/regional-languages.json lists/abp/*.txt lists/adguard/*.txt lists/domains/*.txt lists/hosts/*.txt lists/json/*.json; do
             if curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/$f" > /dev/null; then
               echo "Purged $f"
               OK=$((OK + 1))
