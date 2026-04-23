@@ -440,7 +440,8 @@
         "yahoo.com",
         "yahoo"
       ],
-      "note": "Yahoo GUCE (consent.yahoo.com). IAB TCF v2 with 251 partners. EuConsent=TC String (authoritative). cmp cookie is static (u=1--- regardless of choice). Consent page is a redirect wall, not an overlay."
+      "excludeHosts": ["consent.yahoo.com"],
+      "note": "Yahoo GUCE (consent.yahoo.com). IAB TCF v2 with 251 partners. EuConsent=TC String (authoritative). cmp cookie is static (u=1--- regardless of choice). Cosmetic hiding excluded on consent.yahoo.com (redirect wall, not overlay)."
     },
     "usercentrics": {
       "cookie": [],
