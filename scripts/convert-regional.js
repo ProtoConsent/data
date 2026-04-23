@@ -220,6 +220,8 @@ function isSimpleSelector(sel) {
     if (sel.includes(pat)) return false;
   }
   if (sel.includes("{") || sel.includes("}")) return false;
+  // Reject selectors containing commas (would break chunk split/join roundtrip)
+  if (sel.includes(",")) return false;
   return true;
 }
 

@@ -56,6 +56,8 @@ function isSimpleSelector(sel) {
   }
   // Reject selectors that could break out of CSS rule blocks
   if (sel.includes("{") || sel.includes("}")) return false;
+  // Reject selectors containing commas (would break chunk split/join roundtrip)
+  if (sel.includes(",")) return false;
   return true;
 }
 
