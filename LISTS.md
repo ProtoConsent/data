@@ -22,7 +22,7 @@ lists/                    # Full merged lists (bundle + delta)
 
 ### ProtoConsent Core (delta)
 
-Purpose-based lists curated from 18 upstream sources via the classifier pipeline. These are delta lists containing only domains not already in the extension's static rulesets (58,094 bundled domains). Combined with the bundle, they provide full coverage across 6 purpose categories.
+Purpose-based lists curated from 18 upstream sources via the classifier pipeline. These are delta lists containing only domains not already in the extension's static rulesets (~58K bundled domains). Combined with the bundle, they provide full coverage across 6 purpose categories. Exact counts are in each file's `domain_count` field.
 
 | File | Category | License | Description |
 |------|----------|---------|-------------|
