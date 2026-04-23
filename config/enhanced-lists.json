@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-21T06:23:47.116Z",
+  "generated": "2026-04-23T13:06:14.623Z",
   "lists": {
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -11,10 +11,10 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_analytics.json",
       "order": 30,
-      "version": "2026-04-20",
-      "generated": "2026-04-20T00:31:39.809Z",
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:05:43.726Z",
       "domain_count": 19177,
-      "path_rule_count": 3429
+      "path_rule_count": 3433
     },
     "protoconsent_ads": {
       "name": "ProtoConsent Ads",
@@ -25,8 +25,8 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_ads.json",
       "order": 31,
-      "version": "2026-04-20",
-      "generated": "2026-04-20T00:31:39.796Z",
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:05:43.700Z",
       "domain_count": 75680,
       "path_rule_count": 1113
     },
@@ -39,8 +39,8 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_personalization.json",
       "order": 32,
-      "version": "2026-04-20",
-      "generated": "2026-04-20T00:31:39.811Z",
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:05:43.752Z",
       "domain_count": 181,
       "path_rule_count": 0
     },
@@ -53,10 +53,10 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_third_parties.json",
       "order": 33,
-      "version": "2026-04-20",
-      "generated": "2026-04-20T00:31:39.812Z",
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:05:43.759Z",
       "domain_count": 408,
-      "path_rule_count": 123
+      "path_rule_count": 122
     },
     "protoconsent_advanced_tracking": {
       "name": "ProtoConsent Advanced Tracking",
@@ -67,8 +67,8 @@
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_advanced_tracking.json",
       "order": 34,
-      "version": "2026-04-20",
-      "generated": "2026-04-20T00:31:39.815Z",
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:05:43.773Z",
       "domain_count": 1564,
       "path_rule_count": 0
     },
@@ -81,8 +81,8 @@
       "preset": "full",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_security.json",
       "order": 35,
-      "version": "2026-04-20",
-      "generated": "2026-04-20T00:31:39.819Z",
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:05:43.793Z",
       "domain_count": 19046,
       "path_rule_count": 0
     },

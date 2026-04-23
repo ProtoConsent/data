@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Analytics, measurement and tracking services
-! Version: 2026-04-20
-! Last modified: 2026-04-21T06:24:23.091Z
-! Entries: 37558
+! Version: 2026-04-23
+! Last modified: 2026-04-23T13:06:14.762Z
+! Entries: 37562
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -34736,7 +34736,7 @@
 ||epimg.net/js/gdt/^
 ||epimg.net/js/vr/vrs.^
 ||episerver.net/ia.js^
-||epochtimes.de/mp/track/^
+||epochtimes.de/epoch-mp/epoch_mp.min.js^
 ||epoq.de/inbound-servletapi/event?^
 ||epromote.co.za/track/^
 ||er.sanoma-sndp.fi/stats/^
@@ -35461,6 +35461,7 @@
 ||kunduz.com/kunduzlytics.min.js^
 ||kustomerapp.com/c/v1/tracking/^
 ||kvartirant.ru/counter.php?^
+||kwizly.com/api/log/^
 ||kxcdn.com/actor/^
 ||kxcdn.com/assets/js/script.js^
 ||kxcdn.com/prj/^
@@ -36010,6 +36011,7 @@
 ||opendesktop.org/l/fp^
 ||openpanel.dev/op.js^
 ||openpanel.dev/op1.js^
+||operationsports.com/wp-json/navy/v1/tag?pid=^
 ||opinary.com/v1/events^
 ||oppo.com/api/country^
 ||optimizely.com/client_storage/^
@@ -37040,6 +37042,7 @@
 ||tower.jp/bundle/beacon^
 ||toyota.com/analytics/^
 ||tpcs.payu.in/pixelwithcookie.gif^
+||tpead.net/stat/^
 ||tra.scds.pmdstatic.net/sourcepoint/^
 ||tracemyip.org/vlg/^
 ||traceparts.com/logs^
@@ -37085,6 +37088,7 @@
 ||truthsocial.com/instance/innovid.js^
 ||trwl1.com/ascripts/gcrt.js^
 ||try.elevenlabs.io/pr/js^
+||trygravity.ai/ack?^
 ||ts.fi/Statistics/Log^
 ||tsite.jp/static/analytics/^
 ||tsmate.com/api/metrics^
