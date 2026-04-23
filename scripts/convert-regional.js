@@ -226,11 +226,26 @@ function isSimpleSelector(sel) {
 function parseAbpCosmetic(text) {
   const generic = [];
   const domains = {};
+  const exceptions = {};
 
   for (const line of text.split("\n")) {
     const trimmed = line.trim();
     if (!trimmed || trimmed.startsWith("!") || trimmed.startsWith("[")) continue;
-    if (trimmed.includes("#@#")) continue;
+
+    if (trimmed.includes("#@#")) {
+      const exIdx = trimmed.indexOf("#@#");
+      const exDomainPart = trimmed.slice(0, exIdx);
+      const exSelector = trimmed.slice(exIdx + 3).trim();
+      if (exSelector && exDomainPart && isSimpleSelector(exSelector)) {
+        for (const raw of exDomainPart.split(",")) {
+          const d = raw.trim();
+          if (!d || d.startsWith("~")) continue;
+          if (!exceptions[d]) exceptions[d] = new Set();
+          exceptions[d].add(exSelector);
+        }
+      }
+      continue;
+    }
     if (trimmed.includes("#?#")) continue;
     if (trimmed.includes("#$#")) continue;
 
@@ -253,7 +268,15 @@ function parseAbpCosmetic(text) {
     }
   }
 
-  return { generic, domains };
+  // Filter exceptions: only keep selectors that exist in the generic set
+  const genericSet = new Set(generic);
+  const filteredExceptions = {};
+  for (const [d, sels] of Object.entries(exceptions)) {
+    const relevant = [...sels].filter(s => genericSet.has(s));
+    if (relevant.length) filteredExceptions[d] = relevant;
+  }
+
+  return { generic, domains, exceptions: filteredExceptions };
 }
 
 // --- Output generators ---
@@ -279,13 +302,15 @@ function generateBlockingJson(listId, domains, pathRules) {
   }, null, 0);
 }
 
-function generateCosmeticJson(listId, generic, domains) {
+function generateCosmeticJson(listId, generic, domains, exceptions) {
   const today = new Date().toISOString().slice(0, 10);
   const domainCount = Object.keys(domains).length;
   let domainRuleCount = 0;
   for (const sels of Object.values(domains)) domainRuleCount += sels.length;
+  let exceptionCount = 0;
+  if (exceptions) for (const sels of Object.values(exceptions)) exceptionCount += sels.length;
 
-  return JSON.stringify({
+  const out = {
     version: today,
     list_id: listId,
     type: "cosmetic",
@@ -295,7 +320,12 @@ function generateCosmeticJson(listId, generic, domains) {
     domain_rule_count: domainRuleCount,
     generic,
     domains,
-  });
+  };
+  if (exceptionCount > 0) {
+    out.exception_count = exceptionCount;
+    out.exceptions = exceptions;
+  }
+  return JSON.stringify(out);
 }
 
 // --- Merge helpers ---
@@ -320,12 +350,19 @@ function mergeBlocking(allResults) {
 function mergeCosmetic(allResults) {
   const genericSet = new Set();
   const domainMap = {};
+  const exceptionMap = {};
 
   for (const r of allResults) {
     for (const sel of r.generic) genericSet.add(sel);
     for (const [d, sels] of Object.entries(r.domains)) {
       if (!domainMap[d]) domainMap[d] = new Set();
       for (const sel of sels) domainMap[d].add(sel);
+    }
+    if (r.exceptions) {
+      for (const [d, sels] of Object.entries(r.exceptions)) {
+        if (!exceptionMap[d]) exceptionMap[d] = new Set();
+        for (const sel of sels) exceptionMap[d].add(sel);
+      }
     }
   }
 
@@ -334,7 +371,13 @@ function mergeCosmetic(allResults) {
     domains[d] = [...selSet];
   }
 
-  return { generic: [...genericSet], domains };
+  const exceptions = {};
+  for (const [d, selSet] of Object.entries(exceptionMap)) {
+    const relevant = [...selSet].filter(s => genericSet.has(s));
+    if (relevant.length) exceptions[d] = relevant;
+  }
+
+  return { generic: [...genericSet], domains, exceptions };
 }
 
 // --- Main ---
@@ -414,7 +457,7 @@ async function main() {
       const cosmeticId = "regional_" + regionId + "_cosmetic";
 
       const blockingJson = generateBlockingJson(blockingId, blocking.domains, blocking.pathRules);
-      const cosmeticJson = generateCosmeticJson(cosmeticId, cosmetic.generic, cosmetic.domains);
+      const cosmeticJson = generateCosmeticJson(cosmeticId, cosmetic.generic, cosmetic.domains, cosmetic.exceptions);
 
       const blockingPath = path.join(outputDir, blockingId + ".json");
       const cosmeticPath = path.join(outputDir, cosmeticId + ".json");

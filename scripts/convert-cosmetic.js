@@ -63,13 +63,27 @@ function isSimpleSelector(sel) {
 function parseCosmeticRules(text) {
   const generic = [];
   const domains = {}; // domain -> selector[]
+  const exceptions = {}; // domain -> Set<selector> (cosmetic exceptions)
 
   for (const line of text.split("\n")) {
     const trimmed = line.trim();
     if (!trimmed || trimmed.startsWith("!") || trimmed.startsWith("[")) continue;
 
-    // Exception rules - skip
-    if (trimmed.includes("#@#")) continue;
+    // Cosmetic exception rules (domain#@#selector)
+    if (trimmed.includes("#@#")) {
+      const exIdx = trimmed.indexOf("#@#");
+      const exDomainPart = trimmed.slice(0, exIdx);
+      const exSelector = trimmed.slice(exIdx + 3).trim();
+      if (exSelector && exDomainPart && isSimpleSelector(exSelector)) {
+        for (const raw of exDomainPart.split(",")) {
+          const d = raw.trim();
+          if (!d || d.startsWith("~")) continue;
+          if (!exceptions[d]) exceptions[d] = new Set();
+          exceptions[d].add(exSelector);
+        }
+      }
+      continue;
+    }
     // Procedural/extended - skip
     if (trimmed.includes("#?#")) continue;
     // Snippet rules - skip
@@ -103,13 +117,21 @@ function parseCosmeticRules(text) {
 
   // Deduplicate generic
   const uniqueGeneric = [...new Set(generic)];
+  const genericSet = new Set(uniqueGeneric);
 
   // Deduplicate per-domain
   for (const d of Object.keys(domains)) {
     domains[d] = [...new Set(domains[d])];
   }
 
-  return { generic: uniqueGeneric, domains };
+  // Filter exceptions: only keep selectors that exist in the generic set
+  const filteredExceptions = {};
+  for (const [d, sels] of Object.entries(exceptions)) {
+    const relevant = [...sels].filter(s => genericSet.has(s));
+    if (relevant.length) filteredExceptions[d] = relevant;
+  }
+
+  return { generic: uniqueGeneric, domains, exceptions: filteredExceptions };
 }
 
 // --- Main ---
@@ -128,15 +150,20 @@ async function main() {
   console.log(rawLines.toLocaleString() + " lines");
 
   process.stdout.write("Parsing cosmetic rules... ");
-  const { generic, domains } = parseCosmeticRules(raw);
+  const { generic, domains, exceptions } = parseCosmeticRules(raw);
 
   const domainCount = Object.keys(domains).length;
   let domainRuleCount = 0;
   for (const sels of Object.values(domains)) domainRuleCount += sels.length;
+  const exceptionDomainCount = Object.keys(exceptions).length;
+  let exceptionCount = 0;
+  for (const sels of Object.values(exceptions)) exceptionCount += sels.length;
 
   console.log(generic.length.toLocaleString() + " generic + " +
     domainRuleCount.toLocaleString() + " domain-specific (" +
-    domainCount.toLocaleString() + " domains)");
+    domainCount.toLocaleString() + " domains) + " +
+    exceptionCount.toLocaleString() + " exceptions (" +
+    exceptionDomainCount.toLocaleString() + " domains)");
 
   const today = new Date().toISOString().slice(0, 10);
   const output = {
@@ -146,8 +173,10 @@ async function main() {
     generic_count: generic.length,
     domain_count: domainCount,
     domain_rule_count: domainRuleCount,
+    exception_count: exceptionCount,
     generic,
     domains,
+    exceptions,
   };
 
   if (dryRun) {

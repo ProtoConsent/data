@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-23T13:06:14.623Z",
+  "generated": "2026-04-23T13:57:39.372Z",
   "lists": {
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -209,12 +209,12 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/easylist_cosmetic.json",
       "type": "cosmetic",
       "order": 20,
-      "version": "2026-04-21",
-      "generated": "2026-04-21T06:23:32.259Z",
-      "domain_count": 7325,
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:57:16.172Z",
+      "domain_count": 7327,
       "path_rule_count": 0,
       "generic_count": 13663,
-      "domain_rule_count": 15022
+      "domain_rule_count": 15027
     },
     "protoconsent_cmp_signatures": {
       "name": "ProtoConsent Banners",
@@ -321,12 +321,12 @@
       ],
       "type": "regional_cosmetic",
       "order": 21,
-      "version": "2026-04-21",
-      "generated": "2026-04-21T06:23:46.774Z",
-      "domain_count": 36854,
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:57:34.131Z",
+      "domain_count": 36862,
       "path_rule_count": 0,
-      "generic_count": 19250,
-      "domain_rule_count": 86352,
+      "generic_count": 19253,
+      "domain_rule_count": 86375,
       "region_count": 13
     },
     "regional_blocking": {
@@ -354,10 +354,10 @@
       ],
       "type": "regional_blocking",
       "order": 281,
-      "version": "2026-04-21",
-      "generated": "2026-04-21T06:23:46.774Z",
-      "domain_count": 69656,
-      "path_rule_count": 17191,
+      "version": "2026-04-23",
+      "generated": "2026-04-23T13:57:34.131Z",
+      "domain_count": 70255,
+      "path_rule_count": 17193,
       "region_count": 13
     }
   }
