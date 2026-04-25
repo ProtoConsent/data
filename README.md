@@ -7,7 +7,7 @@
 <p align="center"><strong>Tracker blocklists organized by purpose</strong></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/domains-185K+-blue" alt="185K+ domains">
+  <img src="https://img.shields.io/badge/domains-250K+-blue" alt="250K+ domains">
   <img src="https://img.shields.io/badge/purposes-6-green" alt="6 purposes">
   <img src="https://img.shields.io/badge/formats-5-orange" alt="5 formats">
   <img src="https://img.shields.io/badge/updated-weekly-brightgreen" alt="Updated weekly">
