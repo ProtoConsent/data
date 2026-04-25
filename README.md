@@ -47,23 +47,31 @@ Updated weekly via GitHub Actions. See [LISTS.md](LISTS.md) for format details a
 
 **Pi-hole / AdGuard Home** (block ads + analytics):
 ```
-https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_ads.txt
-https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_analytics.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_ads.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_analytics.txt
 ```
 
 **uBlock Origin** (custom filter list):
 ```
-https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_ads.txt
-https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_analytics.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_ads.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_analytics.txt
+```
+
+**AdGuard** (custom filter):
+```
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_ads.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_analytics.txt
 ```
 
 **NextDNS / ControlD** (plain domains):
 ```
-https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_ads.txt
-https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_analytics.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_ads.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_analytics.txt
 ```
 
 Subscribe to the purposes you want to block. Each list works independently.
+
+Both `cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/...` (CDN, recommended) and `raw.githubusercontent.com/ProtoConsent/data/main/lists/...` (GitHub direct) work as subscription URLs.
 
 ## Why purpose-based lists?
 
