@@ -58,6 +58,14 @@ jobs:
           node scripts/convert-cosmetic.js
           echo "cosmetic_exit=$?" >> "$GITHUB_OUTPUT"
 
+      - name: Refresh cookie cosmetic rules
+        id: cookie_cosmetic
+        if: github.event.inputs.list == '' || github.event.inputs.list == 'easylist_cookie_cosmetic' || github.event.inputs.list == 'webannoyances_cosmetic'
+        run: |
+          set +e
+          node scripts/convert-cookie-cosmetic.js
+          echo "cookie_cosmetic_exit=$?" >> "$GITHUB_OUTPUT"
+
       - name: Refresh autoconsent CMP data
         id: autoconsent
         if: github.event.inputs.list == '' || github.event.inputs.list == 'protoconsent_cmp_signatures'

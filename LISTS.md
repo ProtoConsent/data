@@ -51,6 +51,10 @@ Compiled from public blocklists by the conversion pipeline.
 
 **`enhanced/external/easylist_cosmetic.json`** - Cosmetic filtering selectors extracted from [EasyList](https://easylist.to/) (GPL-3.0+ / CC BY-SA 3.0+). Contains ~13K generic and ~7.5K domain-specific CSS element-hiding selectors. This is a cosmetic list: it does not generate blocking rules. The extension compiles these selectors into CSS and injects them via a content script to hide ad containers and banners left empty after network-level blocking. A snapshot is also bundled in the extension package for first-install availability.
 
+**`enhanced/external/easylist_cookie_cosmetic.json`** - Cookie banner cosmetic hiding selectors extracted from [EasyList Cookie](https://easylist.to/) (GPL-3.0+ / CC BY-SA 3.0+). Contains ~15K generic and ~17K domain-specific CSS element-hiding selectors that hide cookie consent banners and overlays. Only cosmetic selectors (`##` rules) are extracted; network blocking rules that would conflict with ProtoConsent's CMP cookie injection are excluded. Full preset.
+
+**`enhanced/external/webannoyances_cosmetic.json`** - Annoyance cosmetic hiding selectors extracted from [Web Annoyances Ultralist](https://github.com/LanikSJ/webannoyances) (CC BY-SA 4.0). Contains ~2K generic and ~8K domain-specific CSS element-hiding selectors that hide cookie notices, newsletter popups, social widgets, and other annoyances. Full preset.
+
 ## CMP banner handling
 
 **`enhanced/protoconsent/protoconsent_cmp_signatures.json`** - CMP auto-response templates for cookie consent banners (GPL-3.0-or-later). Contains 31 banner handler signatures covering major CMPs, with full cookie injection, cosmetic hiding, and scroll-unlock support. The pipeline augments these signatures with prehide CSS selectors extracted from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0, DuckDuckGo) for faster banner hiding. The extension injects all signatures at `document_start` to dismiss consent banners according to the user's purpose preferences. A snapshot is also bundled in the extension package for first-install availability. Listed as **ProtoConsent Banners** in the UI.

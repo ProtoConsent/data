@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-25T04:43:16.644Z",
+  "generated": "2026-04-25T15:40:18.297Z",
   "lists": {
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -215,6 +215,40 @@
       "path_rule_count": 0,
       "generic_count": 13663,
       "domain_rule_count": 15019
+    },
+    "easylist_cookie_cosmetic": {
+      "name": "EasyList Cookie Cosmetic",
+      "description": "Element hiding - hides cookie consent banners and overlays",
+      "source": "https://easylist.to/",
+      "license": "GPL-3.0+ / CC BY-SA 3.0+",
+      "category": null,
+      "preset": "full",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/easylist_cookie_cosmetic.json",
+      "type": "cosmetic",
+      "order": 21,
+      "version": "2026-04-25",
+      "generated": "2026-04-25T15:29:28.524Z",
+      "domain_count": 15419,
+      "path_rule_count": 0,
+      "generic_count": 15273,
+      "domain_rule_count": 16780
+    },
+    "webannoyances_cosmetic": {
+      "name": "Web Annoyances Cosmetic",
+      "description": "Element hiding - hides cookie notices, newsletter popups, social widgets, and annoyances",
+      "source": "https://github.com/LanikSJ/webannoyances",
+      "license": "CC BY-SA 4.0",
+      "category": null,
+      "preset": "full",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/webannoyances_cosmetic.json",
+      "type": "cosmetic",
+      "order": 22,
+      "version": "2026-04-25",
+      "generated": "2026-04-25T15:29:28.525Z",
+      "domain_count": 4837,
+      "path_rule_count": 0,
+      "generic_count": 2106,
+      "domain_rule_count": 8035
     },
     "protoconsent_cmp_signatures": {
       "name": "ProtoConsent Banners",

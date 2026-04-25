@@ -9,12 +9,18 @@ projects. We are grateful to their maintainers and contributors.
 
 | Source | Authors | License | Files |
 |--------|---------|---------|-------|
-| [EasyList](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easylist.json`, `easylist_cosmetic.json` |
+| [EasyList](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easylist.json`, `easylist_cosmetic.json`, `easylist_cookie_cosmetic.json` |
 | [EasyPrivacy](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easyprivacy.json` |
 | [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | AdGuard Team | GPL-3.0 | `adguard_dns.json` |
 | [OISD](https://oisd.nl/) | Stephan van Ruth | GPL-3.0 | `oisd_small.json` |
 | [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) | HaGeZi | GPL-3.0 | `hagezi_pro.json` |
 | [Blocklist Project](https://github.com/blocklistproject/Lists) | Blocklist Project | Unlicense | `blp_crypto.json`, `blp_phishing.json` |
+
+### Cosmetic annoyance filtering
+
+| Source | Authors | License | Files |
+|--------|---------|---------|-------|
+| [Web Annoyances Ultralist](https://github.com/LanikSJ/webannoyances) | yourduskquibbles, LanikSJ | CC BY-SA 4.0 | `webannoyances_cosmetic.json` |
 
 ### CNAME tracker detection
 
@@ -94,3 +100,11 @@ https://github.com/DandelionSprout/Dandelicence
 > contributors' names cannot endorse forked products without written
 > permission, and near-unmodified redistributions shall be accessible in
 > ≥100 countries worldwide.
+
+## CC BY-SA 4.0 notice (Web Annoyances Ultralist)
+
+Web Annoyances Ultralist is distributed under the Creative Commons
+Attribution-ShareAlike 4.0 International license.
+The full license text is available at: https://creativecommons.org/licenses/by-sa/4.0/
+
+> Copyright (c) 2016-2024 by yourduskquibbles and LanikSJ
