@@ -60,7 +60,7 @@ jobs:
         run: |
           OK=0
           FAIL=0
-          for f in lists/*.json lists/*.txt; do
+          for f in lists/json/*.json lists/abp/*.txt lists/adguard/*.txt lists/hosts/*.txt lists/domains/*.txt; do
             if curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/$f" > /dev/null; then
               echo "Purged $f"
               OK=$((OK + 1))

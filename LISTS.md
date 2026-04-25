@@ -119,7 +119,18 @@ Regional lists appear in both the bundled and remote catalog as 2 aggregated ent
 
 The extension reads `rules[].condition` and creates `declarativeNetRequest` dynamic rules from them.
 
-### Full lists (`lists/`)
+### Profile lists (`lists/`)
+
+Pre-combined lists that merge multiple purposes into a single file. Available in all 5 formats (JSON, ABP, AdGuard, hosts, domains). Useful for Pi-hole, AdGuard Home, uBlock Origin, or any tool where subscribing to a single URL is simpler than combining individual purpose lists.
+
+| Profile | Included purposes | Description |
+|---------|-------------------|-------------|
+| Core (`protoconsent_core`) | ads, analytics, personalization, third_parties, advanced_tracking | All tracking-related purposes (mirrors extension's Balanced preset) |
+| Full (`protoconsent_full`) | ads, analytics, personalization, third_parties, advanced_tracking, security | All purposes including security (mirrors extension's Full preset) |
+
+Domains are deduplicated across purposes. The JSON format includes an `included_purposes` field listing which purposes were combined.
+
+### Per-purpose full lists (`lists/`)
 
 ```json
 {
@@ -133,6 +144,24 @@ The extension reads `rules[].condition` and creates `declarativeNetRequest` dyna
   "domain_count": 103328,
   "paths": ["||google.com/adsense/", "..."],
   "path_count": 1645
+}
+```
+
+### Profile lists (`lists/`)
+
+```json
+{
+  "name": "ProtoConsent Core",
+  "version": "2026-04-25",
+  "generated": "2026-04-25T...",
+  "description": "Full merged blocklist covering ads, analytics, personalization, third-party services, and advanced tracking",
+  "homepage": "https://github.com/ProtoConsent/data",
+  "license": "GPL-3.0-or-later",
+  "included_purposes": ["ads", "analytics", "personalization", "third_parties", "advanced_tracking"],
+  "domains": ["example-ad.com", "..."],
+  "domain_count": 156627,
+  "paths": ["||google.com/adsense/", "..."],
+  "path_count": 5870
 }
 ```
 
