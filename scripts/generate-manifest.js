@@ -45,7 +45,7 @@ try {
 const LIST_CATALOG = {
   protoconsent_analytics: {
     name: "ProtoConsent Analytics",
-    description: "Core analytics and tracking domain blocklist",
+    description: "Measurement, statistics and usage analytics, even when not directly linked to marketing",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: "analytics",
@@ -54,7 +54,7 @@ const LIST_CATALOG = {
   },
   protoconsent_ads: {
     name: "ProtoConsent Ads",
-    description: "Core advertising domain blocklist",
+    description: "Advertising, remarketing and affiliation campaigns; may include behavioural profiling",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: "ads",
@@ -63,7 +63,7 @@ const LIST_CATALOG = {
   },
   protoconsent_personalization: {
     name: "ProtoConsent Personalization",
-    description: "Core personalization domain blocklist",
+    description: "Content/UX personalization, recommendations, profiling and behavioural A/B testing",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: "personalization",
@@ -72,7 +72,7 @@ const LIST_CATALOG = {
   },
   protoconsent_third_parties: {
     name: "ProtoConsent Third Parties",
-    description: "Core third-party domain blocklist",
+    description: "Sharing or combining data with third parties, partners or group companies beyond the core service",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: "third_parties",
@@ -81,7 +81,7 @@ const LIST_CATALOG = {
   },
   protoconsent_advanced_tracking: {
     name: "ProtoConsent Advanced Tracking",
-    description: "Core fingerprinting and advanced tracking domain blocklist",
+    description: "Advanced or non-cookie techniques to identify or track devices across sites or sessions",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: "advanced_tracking",
@@ -90,7 +90,7 @@ const LIST_CATALOG = {
   },
   protoconsent_security: {
     name: "ProtoConsent Security",
-    description: "Phishing, scam, and malicious domain blocklist",
+    description: "Phishing, scam, malware and malicious domain blocklist",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: "security",

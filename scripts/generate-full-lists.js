@@ -58,11 +58,11 @@ const PURPOSE_LABELS = {
 };
 
 const PURPOSE_DESCRIPTIONS = {
-  ads: "Advertising networks, ad servers and ad-serving domains",
-  analytics: "Analytics, measurement and tracking services",
-  personalization: "Personalization, A/B testing and content recommendation",
-  third_parties: "Third-party embeds, social widgets and external services",
-  advanced_tracking: "Fingerprinting, canvas tracking and advanced tracking techniques",
+  ads: "Advertising, remarketing and affiliation campaigns; may include behavioural profiling",
+  analytics: "Measurement, statistics and usage analytics, even when not directly linked to marketing",
+  personalization: "Content/UX personalization, recommendations, profiling and behavioural A/B testing",
+  third_parties: "Sharing or combining data with third parties, partners or group companies beyond the core service",
+  advanced_tracking: "Advanced or non-cookie techniques to identify or track devices across sites or sessions",
   security: "Phishing, scam, malware and malicious domains",
 };
 
