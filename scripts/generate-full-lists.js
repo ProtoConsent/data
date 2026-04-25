@@ -26,6 +26,19 @@ const PURPOSES = [
   "security",
 ];
 
+const PROFILES = {
+  core: {
+    label: "Core",
+    description: "Full merged blocklist covering ads, analytics, personalization, third-party services, and advanced tracking",
+    purposes: ["ads", "analytics", "personalization", "third_parties", "advanced_tracking"],
+  },
+  full: {
+    label: "Full",
+    description: "Full merged blocklist covering all purposes including security (phishing, scam, malware)",
+    purposes: ["ads", "analytics", "personalization", "third_parties", "advanced_tracking", "security"],
+  },
+};
+
 const BUNDLE_BASE =
   "https://raw.githubusercontent.com/ProtoConsent/ProtoConsent/main/extension/rules";
 
@@ -183,6 +196,7 @@ async function main() {
 
   const now = new Date().toISOString();
   const summary = [];
+  const purposeResults = new Map();
 
   for (const purpose of PURPOSES) {
     const label = PURPOSE_LABELS[purpose];
@@ -221,6 +235,8 @@ async function main() {
 
     const sortedDomains = [...allDomains].sort();
     const sortedPaths = [...allPaths].sort();
+
+    purposeResults.set(purpose, { domains: sortedDomains, paths: sortedPaths, version: version || new Date().toISOString().slice(0, 10) });
 
     summary.push({
       purpose,
@@ -313,6 +329,95 @@ async function main() {
 
     console.log(
       `  ${purpose}: ${sortedDomains.length} domains, ${sortedPaths.length} paths -> json | hosts | domains | abp | adguard`
+    );
+  }
+
+  // --- Profile lists (combined across purposes) ---
+  console.log();
+  for (const [profileId, profile] of Object.entries(PROFILES)) {
+    const allDomains = new Set();
+    const allPaths = new Set();
+    for (const purpose of profile.purposes) {
+      const result = purposeResults.get(purpose);
+      if (!result) continue;
+      result.domains.forEach((d) => allDomains.add(d));
+      result.paths.forEach((p) => allPaths.add(p));
+    }
+    const sortedDomains = [...allDomains].sort();
+    const sortedPaths = [...allPaths].sort();
+    const version = new Date().toISOString().slice(0, 10);
+    const label = profile.label;
+
+    summary.push({
+      purpose: profileId,
+      domains: sortedDomains.length,
+      paths: sortedPaths.length,
+    });
+
+    if (DRY_RUN) {
+      console.log(
+        `  ${profileId}: ${sortedDomains.length} domains, ${sortedPaths.length} paths (${profile.purposes.join(" + ")})`
+      );
+      continue;
+    }
+
+    // --- JSON output ---
+    const jsonOut = {
+      name: `ProtoConsent ${label}`,
+      version,
+      generated: now,
+      description: profile.description,
+      homepage: "https://github.com/ProtoConsent/data",
+      license: "GPL-3.0-or-later",
+      included_purposes: profile.purposes,
+      domains: sortedDomains,
+      domain_count: sortedDomains.length,
+      paths: sortedPaths,
+      path_count: sortedPaths.length,
+    };
+
+    const jsonPath = path.join(OUT_DIR, "json", `protoconsent_${profileId}.json`);
+    fs.writeFileSync(jsonPath, JSON.stringify(jsonOut, null, 2) + "\n");
+
+    // --- Hosts output ---
+    const hostsHeader = [
+      `# Title: ProtoConsent ${label}`,
+      `# Description: ${profile.description}`,
+      `# Version: ${version}`,
+      `# Last modified: ${now}`,
+      `# Entries: ${sortedDomains.length}`,
+      `# Homepage: https://github.com/ProtoConsent/data`,
+      `# License: GPL-3.0-or-later`,
+      `#`,
+    ];
+    const hostsLines = sortedDomains.map((d) => `0.0.0.0 ${d}`);
+    const hostsContent = hostsHeader.concat(hostsLines).join("\n") + "\n";
+    fs.writeFileSync(path.join(OUT_DIR, "hosts", `protoconsent_${profileId}.txt`), hostsContent);
+
+    // --- Domains output ---
+    const domainsHeader = [
+      `# Title: ProtoConsent ${label}`,
+      `# Description: ${profile.description}`,
+      `# Version: ${version}`,
+      `# Last modified: ${now}`,
+      `# Entries: ${sortedDomains.length}`,
+      `# Homepage: https://github.com/ProtoConsent/data`,
+      `# License: GPL-3.0-or-later`,
+      `#`,
+    ];
+    const domainsContent = domainsHeader.concat(sortedDomains).join("\n") + "\n";
+    fs.writeFileSync(path.join(OUT_DIR, "domains", `protoconsent_${profileId}.txt`), domainsContent);
+
+    // --- ABP output ---
+    const abpContent = generateAbp(label, profile.description, version, now, sortedDomains, sortedPaths);
+    fs.writeFileSync(path.join(OUT_DIR, "abp", `protoconsent_${profileId}.txt`), abpContent);
+
+    // --- AdGuard output ---
+    const adgContent = generateAdguard(label, profile.description, version, now, sortedDomains, sortedPaths);
+    fs.writeFileSync(path.join(OUT_DIR, "adguard", `protoconsent_${profileId}.txt`), adgContent);
+
+    console.log(
+      `  ${profileId}: ${sortedDomains.length} domains, ${sortedPaths.length} paths -> json | hosts | domains | abp | adguard (${profile.purposes.join(" + ")})`
     );
   }
 

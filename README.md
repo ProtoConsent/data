@@ -22,7 +22,7 @@ Part of the [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) project
 
 ## Blocklists
 
-Each purpose is available in five formats:
+Available in five formats:
 
 | Format | Path | Compatible with |
 |--------|------|-----------------|
@@ -31,6 +31,19 @@ Each purpose is available in five formats:
 | Hosts | `lists/hosts/` | Pi-hole, AdGuard Home, /etc/hosts |
 | Domains | `lists/domains/` | NextDNS, ControlD, RethinkDNS |
 | JSON | `lists/json/` | MV3 browser extensions, custom tools |
+
+### Combined lists
+
+For most users, a single combined list is the easiest option. Domains are deduplicated across purposes.
+
+| Profile | ABP | AdGuard | Hosts | Domains | JSON | Included purposes |
+|---------|-----|---------|-------|---------|------|-------------------|
+| Core | [abp](lists/abp/protoconsent_core.txt) | [adguard](lists/adguard/protoconsent_core.txt) | [hosts](lists/hosts/protoconsent_core.txt) | [domains](lists/domains/protoconsent_core.txt) | [json](lists/json/protoconsent_core.json) | Ads + Analytics + Personalization + Third Parties + Advanced Tracking |
+| Full | [abp](lists/abp/protoconsent_full.txt) | [adguard](lists/adguard/protoconsent_full.txt) | [hosts](lists/hosts/protoconsent_full.txt) | [domains](lists/domains/protoconsent_full.txt) | [json](lists/json/protoconsent_full.json) | All 6 purposes including Security |
+
+### Per-purpose lists
+
+For granular control, subscribe only to the purposes you want to block.
 
 | Purpose | ABP | AdGuard | Hosts | Domains | JSON | Description |
 |---------|-----|---------|-------|---------|------|-------------|
@@ -45,31 +58,27 @@ Updated weekly via GitHub Actions. See [LISTS.md](LISTS.md) for format details a
 
 ### Quick start
 
-**Pi-hole / AdGuard Home** (block ads + analytics):
+**Pi-hole / AdGuard Home** (block all tracking):
 ```
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_ads.txt
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_analytics.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_core.txt
 ```
 
 **uBlock Origin** (custom filter list):
 ```
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_ads.txt
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_analytics.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_core.txt
 ```
 
 **AdGuard** (custom filter):
 ```
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_ads.txt
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_analytics.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_core.txt
 ```
 
 **NextDNS / ControlD** (plain domains):
 ```
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_ads.txt
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_analytics.txt
+https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_core.txt
 ```
 
-Subscribe to the purposes you want to block. Each list works independently.
+Replace `protoconsent_core` with `protoconsent_full` to include security (phishing/malware), or use individual purpose lists for granular control.
 
 Both `cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/...` (CDN, recommended) and `raw.githubusercontent.com/ProtoConsent/data/main/lists/...` (GitHub direct) work as subscription URLs.
 
