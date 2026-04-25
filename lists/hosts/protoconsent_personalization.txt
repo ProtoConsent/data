@@ -1,12 +1,16 @@
 # Title: ProtoConsent Personalization
 # Description: Personalization, A/B testing and content recommendation
-# Version: 2026-04-23
-# Last modified: 2026-04-23T13:57:45.782Z
-# Entries: 256
+# Version: 2026-04-25
+# Last modified: 2026-04-25T04:54:15.084Z
+# Entries: 277
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
+0.0.0.0 100016075.collect.igodigital.com
+0.0.0.0 10870841.collect.igodigital.com
+0.0.0.0 10907971.collect.igodigital.com
 0.0.0.0 1plusx.com
+0.0.0.0 7227272.collect.igodigital.com
 0.0.0.0 a.monetate.net
 0.0.0.0 academy.dynamicyield.com
 0.0.0.0 acxiom.com
@@ -15,9 +19,14 @@
 0.0.0.0 adm.dynamicyield.com
 0.0.0.0 af.monetate.net
 0.0.0.0 ag.tags.crwdcntrl.net
+0.0.0.0 alx-api.exponea.com
 0.0.0.0 amp.permutive.com
+0.0.0.0 amway-api.exponea.com
 0.0.0.0 an.reflektion.com
 0.0.0.0 analytics.bluekai.com
+0.0.0.0 api-bho.exponea.com
+0.0.0.0 api.eu1.exponea.com
+0.0.0.0 api.exponea.com
 0.0.0.0 api.monetate.net
 0.0.0.0 api.permutive.com
 0.0.0.0 api.personali.com
@@ -52,6 +61,7 @@
 0.0.0.0 buzzfeed.amp.permutive.com
 0.0.0.0 californiapsychicstrack.optimove.net
 0.0.0.0 cdn-eu.dynamicyield.com
+0.0.0.0 cdn-fallback.petametrics.com
 0.0.0.0 cdn.crwdcntrl.net
 0.0.0.0 cdn.dynamicyield.com
 0.0.0.0 cdn.granify.com
@@ -81,6 +91,7 @@
 0.0.0.0 crwdcntrl.net
 0.0.0.0 cuebiq.com
 0.0.0.0 culturetriptracksdk.optimove.net
+0.0.0.0 custom-api.exponea.com
 0.0.0.0 customer-profile-realtime-serving.optimove.net
 0.0.0.0 d.monetate.net
 0.0.0.0 dcetr4.segmentify.com
@@ -108,12 +119,15 @@
 0.0.0.0 eyeota.net
 0.0.0.0 f.monetate.net
 0.0.0.0 falcon.useinsider.com
+0.0.0.0 fcg-api.exponea.com
 0.0.0.0 filter.audiencedevelopers.com
+0.0.0.0 formulaonedigitalmedia.germany-2.evergage.com
 0.0.0.0 fotolog.crwdcntrl.net
 0.0.0.0 freshrelevance.com
 0.0.0.0 gaming.optimove.net
 0.0.0.0 geo.rlcdn.com
 0.0.0.0 getblueshift.com
+0.0.0.0 gnt-api.exponea.com
 0.0.0.0 granify.com
 0.0.0.0 guardian.amp.permutive.com
 0.0.0.0 gvcbetracksdk.optimove.net
@@ -161,6 +175,8 @@
 0.0.0.0 nbcu.tags.crwdcntrl.net
 0.0.0.0 neustar.biz
 0.0.0.0 nosto.com
+0.0.0.0 nvidiacorp.us-5.evergage.com
+0.0.0.0 nxi-api.exponea.com
 0.0.0.0 optimove.com
 0.0.0.0 optout.crwdcntrl.net
 0.0.0.0 oracleinfinity.io
@@ -178,11 +194,13 @@
 0.0.0.0 px-eu.dynamicyield.com
 0.0.0.0 px.dynamicyield.com
 0.0.0.0 quidcotracksdk.optimove.net
+0.0.0.0 raisin-api.exponea.com
 0.0.0.0 rc-ext-geo.rlcdn.com
 0.0.0.0 rc.rlcdn.com
 0.0.0.0 rcom-eu.dynamicyield.com
 0.0.0.0 rcom.dynamicyield.com
 0.0.0.0 recombee.com
+0.0.0.0 recommender-eu.scarabresearch.com
 0.0.0.0 recommender.scarabresearch.com
 0.0.0.0 recs.richrelevance.com
 0.0.0.0 report.personali.com
@@ -193,6 +211,7 @@
 0.0.0.0 richrelevance.com
 0.0.0.0 rlcdn.com
 0.0.0.0 rm.recs.richrelevance.com
+0.0.0.0 rozetka-api.exponea.com
 0.0.0.0 rtb2-useast.audienceads.io
 0.0.0.0 rtb2-useast.topshelfaudience.app
 0.0.0.0 sail-personalize.com
@@ -205,6 +224,7 @@
 0.0.0.0 se.monetate.net
 0.0.0.0 segmentify.com
 0.0.0.0 semasio.com
+0.0.0.0 sgtm.appcues.com
 0.0.0.0 sirdata.com
 0.0.0.0 siteground.dynamicyield.com
 0.0.0.0 so.rlcdn.com
@@ -233,6 +253,7 @@
 0.0.0.0 static.scarabresearch.com
 0.0.0.0 stats.sirdata.com
 0.0.0.0 stats.sirdata.eu
+0.0.0.0 suite61.emarsys.net
 0.0.0.0 superficial.crwdcntrl.net
 0.0.0.0 surge.bombora.com
 0.0.0.0 sync.crwdcntrl.net
