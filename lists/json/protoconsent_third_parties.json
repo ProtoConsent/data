@@ -1,8 +1,8 @@
 {
   "name": "ProtoConsent Third Parties",
-  "version": "2026-04-25",
-  "generated": "2026-04-25T16:47:45.143Z",
-  "description": "Third-party embeds, social widgets and external services",
+  "version": "2026-04-26",
+  "generated": "2026-04-26T05:22:20.781Z",
+  "description": "Sharing or combining data with third parties, partners or group companies beyond the core service",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
   "domains": [
@@ -536,7 +536,6 @@
     "snrtp1.marketo.com",
     "social-touch.com",
     "socialloginplus-apps.haravan.com",
-    "soundcloud.com",
     "speedshare.app",
     "speedyshare.com",
     "spot.im",
@@ -568,7 +567,6 @@
     "track-eu1.hubspot.com",
     "tracking.hubspot.com",
     "truepush.com",
-    "twitch.tv",
     "uefa.pushwoosh.com",
     "uk.marketo.com",
     "unbounce.com",
@@ -641,7 +639,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 634,
+  "domain_count": 632,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",
