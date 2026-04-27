@@ -146,6 +146,19 @@ CMP signature JSON format:
 
 Signatures with `cookie`, `purposeMap`, `format`, and `lockClass` are hand-maintained and support all three layers: cookie injection, cosmetic hiding, and scroll unlock. Hand-maintained signatures may also include prehide selectors from [Autoconsent](https://github.com/duckduckgo/autoconsent) (MPL-2.0) merged into their `selector` field. Unlike blocklists and cosmetic rules, the core CMP signatures are not generated from upstream sources.
 
+### ProtoConsent Hotfix
+
+**`enhanced/protoconsent/protoconsent_hotfix.json`** - Domains to exclude from blocking since the last extension release (GPL-3.0-or-later). Lists domains that should no longer be blocked but are still present in the frozen extension bundle. The extension creates a DNR allow rule (priority 3) that overrides static block rules (priority 1) for these domains. This is a core list: always active when downloaded, no UI toggle, no preset dependency. Listed as **ProtoConsent Hotfix** in the catalog.
+
+```json
+{
+  "version": "2026-04-27",
+  "generated": "2026-04-27T06:11:25.598Z",
+  "revocation_count": 1,
+  "revocations": ["example-domain.com"]
+}
+```
+
 ### CNAME tracker detection
 
 **`enhanced/external/cname_trackers.json`** - CNAME cloaking lookup map compiled from [AdGuard CNAME Trackers](https://github.com/AdguardTeam/cname-trackers) (MIT). Contains ~229K disguised domains mapped to their tracker destinations. This is an informational list: it does not generate blocking rules. The extension uses it to flag CNAME-cloaked domains in the Log tab.

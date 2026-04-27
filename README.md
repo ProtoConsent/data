@@ -80,7 +80,7 @@ Most blocklists are organized by source (EasyList, HaGeZi, OISD) or by threat ty
 
 ## ProtoConsent extension data
 
-The `enhanced/` directory contains runtime data for the [ProtoConsent browser extension](https://github.com/ProtoConsent/ProtoConsent): third-party blocking lists converted to JSON, cosmetic filtering rules, CMP banner signatures, CNAME tracker maps, URL parameter stripping data, and regional filters. The extension fetches these from CDN when the user enables Enhanced Protection.
+The `enhanced/` directory contains runtime data for the [ProtoConsent browser extension](https://github.com/ProtoConsent/ProtoConsent): third-party blocking lists converted to JSON, cosmetic filtering rules, CMP banner signatures, CNAME tracker maps, URL parameter stripping data, regional filters, and a hotfix list for domains removed between extension releases. The extension fetches these from CDN when the user enables Enhanced Protection.
 
 For per-file details, see [LISTS.md](LISTS.md).
 
