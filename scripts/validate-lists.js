@@ -253,19 +253,19 @@ function validateInputs() {
 
   console.log();
 
-  // Revoke file
-  const revokeFile = path.join(DELTA_DIR, "protoconsent_hotfix.json");
-  if (fs.existsSync(revokeFile)) {
-    const rv = readJSON(revokeFile);
+  // Hotfix file
+  const hotfixFile = path.join(DELTA_DIR, "protoconsent_hotfix.json");
+  if (fs.existsSync(hotfixFile)) {
+    const rv = readJSON(hotfixFile);
     if (!rv) {
-      fail("revoke", "invalid JSON");
+      fail("hotfix", "invalid JSON");
     } else {
       if (!Array.isArray(rv.revocations)) {
-        fail("revoke", "revocations is not an array");
+        fail("hotfix", "revocations is not an array");
       } else if (rv.revocation_count !== rv.revocations.length) {
-        fail("revoke", `count says ${rv.revocation_count} but array has ${rv.revocations.length}`);
+        fail("hotfix", `count says ${rv.revocation_count} but array has ${rv.revocations.length}`);
       } else {
-        ok("revoke", `${rv.revocations.length} revocations`);
+        ok("hotfix", `${rv.revocations.length} revocations`);
       }
     }
   }
