@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/domains-250K+-blue" alt="250K+ domains">
   <img src="https://img.shields.io/badge/purposes-6-green" alt="6 purposes">
   <img src="https://img.shields.io/badge/formats-5-orange" alt="5 formats">
-  <img src="https://img.shields.io/badge/updated-weekly-brightgreen" alt="Updated weekly">
+  <img src="https://img.shields.io/badge/updated-daily-brightgreen" alt="Updated daily">
   <img src="https://img.shields.io/github/license/ProtoConsent/data" alt="GPL-3.0+">
 </p>
 
