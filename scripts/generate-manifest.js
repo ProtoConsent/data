@@ -43,6 +43,16 @@ try {
 // Source of truth for display metadata. Mirrors the extension's
 // config/enhanced-lists.json and convert.js LISTS.
 const LIST_CATALOG = {
+  protoconsent_revoke: {
+    name: "ProtoConsent Hotfix",
+    description: "Blocking corrections applied between extension releases",
+    source: "https://github.com/ProtoConsent/data",
+    license: "GPL-3.0-or-later",
+    category: null,
+    preset: "basic",
+    type: "revoke",
+    order: 5,
+  },
   protoconsent_analytics: {
     name: "ProtoConsent Analytics",
     description: "Measurement, statistics and usage analytics, even when not directly linked to marketing",
@@ -308,6 +318,9 @@ function readEnhancedMetadata(filePath) {
       meta.param_count = data.param_count || 0;
       meta.domain_count = data.domain_count || 0;
     }
+    if (data.revocation_count !== undefined) {
+      meta.revocation_count = data.revocation_count || 0;
+    }
     return meta;
   } catch (e) {
     console.warn("  WARN: cannot read " + path.basename(filePath) + ": " + e.message);
@@ -408,6 +421,7 @@ function buildManifest(enhancedDir) {
       if (meta.cmp_count !== undefined) entry.cmp_count = meta.cmp_count;
       if (meta.param_count !== undefined) entry.param_count = meta.param_count;
       if (meta.region_count !== undefined) entry.region_count = meta.region_count;
+      if (meta.revocation_count !== undefined) entry.revocation_count = meta.revocation_count;
     } else {
       entry.version = null;
       entry.generated = null;
@@ -471,6 +485,8 @@ function main() {
         line += (entry.param_count || 0).toLocaleString() + " global params";
       } else if (entry.type === "tracking_params_sites") {
         line += (entry.param_count || 0).toLocaleString() + " params, " + (entry.domain_count || 0).toLocaleString() + " domains";
+      } else if (entry.type === "revoke") {
+        line += (entry.revocation_count || 0).toLocaleString() + " revocations";
       } else {
         line += entry.domain_count.toLocaleString() + " domains";
         if (entry.path_rule_count > 0) line += " + " + entry.path_rule_count.toLocaleString() + " path rules";

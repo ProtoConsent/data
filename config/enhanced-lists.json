@@ -2,6 +2,20 @@
   "manifest_version": 1,
   "generated": "2026-04-27T06:12:49.462Z",
   "lists": {
+    "protoconsent_revoke": {
+      "name": "ProtoConsent Hotfix",
+      "description": "Blocking corrections applied between extension releases",
+      "source": "https://github.com/ProtoConsent/data",
+      "license": "GPL-3.0-or-later",
+      "category": null,
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_revoke.json",
+      "type": "revoke",
+      "order": 5,
+      "version": "2026-04-27",
+      "generated": "2026-04-27T06:11:25.598Z",
+      "revocation_count": 1
+    },
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
       "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing",
