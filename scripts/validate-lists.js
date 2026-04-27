@@ -42,7 +42,7 @@ const ABP_MODIFIERS = {
   advanced_tracking: "$third-party",
   security: "$document",
   core: "$third-party",
-  full: null, // no modifier
+  full: "mixed", // per-domain: $third-party for trackers, $document for security
 };
 
 // Expected AdGuard modifiers per list ID.
@@ -54,7 +54,7 @@ const ADGUARD_MODIFIERS = {
   advanced_tracking: "$third-party",
   security: "$all",
   core: "$third-party",
-  full: null,
+  full: "mixed", // per-domain: $third-party for trackers, $all for security
 };
 
 // --- Reporting ---
@@ -371,15 +371,17 @@ function validateABP(filePath, label, expectedModifier) {
   }
 
   // Check modifier on domain lines (||domain^$modifier)
-  const domainLines = dataLines.filter((l) => l.startsWith("||"));
-  if (domainLines.length > 0) {
-    const sample = domainLines.slice(0, 20);
-    const suffix = expectedModifier || "";
-    const expectedEnd = `^${suffix}`;
-    const bad = sample.filter((l) => !l.endsWith(expectedEnd));
-    if (bad.length > 0) {
-      const got = bad[0].slice(-20);
-      fail(label, `modifier mismatch: expected '${expectedEnd}', sample ends with '${got}'`);
+  if (expectedModifier !== "mixed") {
+    const domainLines = dataLines.filter((l) => l.startsWith("||"));
+    if (domainLines.length > 0) {
+      const sample = domainLines.slice(0, 20);
+      const suffix = expectedModifier || "";
+      const expectedEnd = `^${suffix}`;
+      const bad = sample.filter((l) => !l.endsWith(expectedEnd));
+      if (bad.length > 0) {
+        const got = bad[0].slice(-20);
+        fail(label, `modifier mismatch: expected '${expectedEnd}', sample ends with '${got}'`);
+      }
     }
   }
 
@@ -404,15 +406,17 @@ function validateAdGuard(filePath, label, expectedModifier) {
   }
 
   // Check modifier on domain lines
-  const domainLines = dataLines.filter((l) => l.startsWith("||"));
-  if (domainLines.length > 0) {
-    const sample = domainLines.slice(0, 20);
-    const suffix = expectedModifier || "";
-    const expectedEnd = `^${suffix}`;
-    const bad = sample.filter((l) => !l.endsWith(expectedEnd));
-    if (bad.length > 0) {
-      const got = bad[0].slice(-20);
-      fail(label, `modifier mismatch: expected '${expectedEnd}', sample ends with '${got}'`);
+  if (expectedModifier !== "mixed") {
+    const domainLines = dataLines.filter((l) => l.startsWith("||"));
+    if (domainLines.length > 0) {
+      const sample = domainLines.slice(0, 20);
+      const suffix = expectedModifier || "";
+      const expectedEnd = `^${suffix}`;
+      const bad = sample.filter((l) => !l.endsWith(expectedEnd));
+      if (bad.length > 0) {
+        const got = bad[0].slice(-20);
+        fail(label, `modifier mismatch: expected '${expectedEnd}', sample ends with '${got}'`);
+      }
     }
   }
 

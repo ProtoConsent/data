@@ -142,7 +142,9 @@ const ADGUARD_MODIFIERS = {
 };
 
 // Generate ABP (Adblock Plus) format from domains and paths.
-function generateAbp(label, description, version, now, sortedDomains, sortedPaths, modifier) {
+// modifier: single modifier for all domains (string or null).
+// domainModifiers: optional Map<domain, modifier> for per-domain modifiers (overrides modifier).
+function generateAbp(label, description, version, now, sortedDomains, sortedPaths, modifier, domainModifiers) {
   const abpHeader = [
     `[Adblock Plus 2.0]`,
     `! Title: ProtoConsent ${label}`,
@@ -155,8 +157,10 @@ function generateAbp(label, description, version, now, sortedDomains, sortedPath
     `!`,
   ];
 
-  const suffix = modifier || "";
-  const domainLines = sortedDomains.map((d) => `||${d}^${suffix}`);
+  const domainLines = sortedDomains.map((d) => {
+    const m = domainModifiers ? (domainModifiers.get(d) || "") : (modifier || "");
+    return `||${d}^${m}`;
+  });
 
   const pathLines = sortedPaths.map((p) => {
     if (p.endsWith("^") || p.endsWith("|")) return p;
@@ -167,7 +171,9 @@ function generateAbp(label, description, version, now, sortedDomains, sortedPath
 }
 
 // Generate AdGuard format from domains and paths.
-function generateAdguard(label, description, version, now, sortedDomains, sortedPaths, modifier) {
+// modifier: single modifier for all domains (string or null).
+// domainModifiers: optional Map<domain, modifier> for per-domain modifiers (overrides modifier).
+function generateAdguard(label, description, version, now, sortedDomains, sortedPaths, modifier, domainModifiers) {
   const adgHeader = [
     `! Title: ProtoConsent ${label}`,
     `! Description: ${description}`,
@@ -179,8 +185,10 @@ function generateAdguard(label, description, version, now, sortedDomains, sorted
     `!`,
   ];
 
-  const suffix = modifier || "";
-  const domainLines = sortedDomains.map((d) => `||${d}^${suffix}`);
+  const domainLines = sortedDomains.map((d) => {
+    const m = domainModifiers ? (domainModifiers.get(d) || "") : (modifier || "");
+    return `||${d}^${m}`;
+  });
 
   const pathLines = sortedPaths.map((p) => {
     return p.endsWith("^") ? p : `${p}^`;
@@ -256,7 +264,7 @@ function writePurposeFiles(purpose, label, description, version, now, sortedDoma
 // Write all 5 format files for an aggregate profile.
 // suffix: "" for light (default), "_extended" for full.
 
-function writeProfileFiles(profileId, label, description, version, now, purposes, sortedDomains, sortedPaths, suffix, abpModifier, adguardModifier) {
+function writeProfileFiles(profileId, label, description, version, now, purposes, sortedDomains, sortedPaths, suffix, abpModifier, adguardModifier, abpDomainModifiers, adguardDomainModifiers) {
   const displayLabel = suffix ? `${label} Extended` : label;
   const displayDescription = suffix ? `${description} (extended - all sources)` : `${description} (curated - high-confidence sources)`;
 
@@ -308,11 +316,11 @@ function writeProfileFiles(profileId, label, description, version, now, purposes
   fs.writeFileSync(path.join(OUT_DIR, "domains", `protoconsent_${profileId}${suffix}.txt`), domainsContent);
 
   // ABP
-  const abpContent = generateAbp(displayLabel, displayDescription, version, now, sortedDomains, sortedPaths, abpModifier);
+  const abpContent = generateAbp(displayLabel, displayDescription, version, now, sortedDomains, sortedPaths, abpModifier, abpDomainModifiers);
   fs.writeFileSync(path.join(OUT_DIR, "abp", `protoconsent_${profileId}${suffix}.txt`), abpContent);
 
   // AdGuard
-  const adgContent = generateAdguard(displayLabel, displayDescription, version, now, sortedDomains, sortedPaths, adguardModifier);
+  const adgContent = generateAdguard(displayLabel, displayDescription, version, now, sortedDomains, sortedPaths, adguardModifier, adguardDomainModifiers);
   fs.writeFileSync(path.join(OUT_DIR, "adguard", `protoconsent_${profileId}${suffix}.txt`), adgContent);
 }
 
@@ -401,12 +409,15 @@ function main() {
     const lightPathSet = new Set();
     const extDomSet = new Set();
     const extPathSet = new Set();
+    // Track which purpose each domain belongs to (first match wins for dedup)
+    const lightDomPurpose = new Map();
+    const extDomPurpose = new Map();
     for (const purpose of profile.purposes) {
       const r = purposeResults.get(purpose);
       if (!r) continue;
-      r.lightDomains.forEach((d) => lightDomSet.add(d));
+      r.lightDomains.forEach((d) => { if (!lightDomSet.has(d)) lightDomPurpose.set(d, purpose); lightDomSet.add(d); });
       r.lightPaths.forEach((p) => lightPathSet.add(p));
-      r.extDomains.forEach((d) => extDomSet.add(d));
+      r.extDomains.forEach((d) => { if (!extDomSet.has(d)) extDomPurpose.set(d, purpose); extDomSet.add(d); });
       r.extPaths.forEach((p) => extPathSet.add(p));
     }
     const lightDomains = [...lightDomSet].sort();
@@ -415,6 +426,20 @@ function main() {
     const extPaths = [...extPathSet].sort();
     const version = new Date().toISOString().slice(0, 10);
     const label = profile.label;
+
+    // Build per-domain modifier maps for profiles with mixed purposes
+    const lightAbpMods = new Map();
+    const lightAdgMods = new Map();
+    const extAbpMods = new Map();
+    const extAdgMods = new Map();
+    for (const [d, purpose] of lightDomPurpose) {
+      lightAbpMods.set(d, ABP_MODIFIERS[purpose] || "");
+      lightAdgMods.set(d, ADGUARD_MODIFIERS[purpose] || "");
+    }
+    for (const [d, purpose] of extDomPurpose) {
+      extAbpMods.set(d, ABP_MODIFIERS[purpose] || "");
+      extAdgMods.set(d, ADGUARD_MODIFIERS[purpose] || "");
+    }
 
     summary.push({
       purpose: profileId,
@@ -428,8 +453,8 @@ function main() {
       continue;
     }
 
-    writeProfileFiles(profileId, label, profile.description, version, now, profile.purposes, lightDomains, lightPaths, "", profile.abpModifier, profile.adguardModifier);
-    writeProfileFiles(profileId, label, profile.description, version, now, profile.purposes, extDomains, extPaths, "_extended", profile.abpModifier, profile.adguardModifier);
+    writeProfileFiles(profileId, label, profile.description, version, now, profile.purposes, lightDomains, lightPaths, "", profile.abpModifier, profile.adguardModifier, lightAbpMods, lightAdgMods);
+    writeProfileFiles(profileId, label, profile.description, version, now, profile.purposes, extDomains, extPaths, "_extended", profile.abpModifier, profile.adguardModifier, extAbpMods, extAdgMods);
 
     console.log(`  ${profileId}: ${lightDomains.length} light + ${extDomains.length} extended, ${extPaths.length} paths -> json | hosts | domains | abp | adguard (${profile.purposes.join(" + ")})`);
   }
