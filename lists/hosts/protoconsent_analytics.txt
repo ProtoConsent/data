@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 # Version: 2026-04-27
-# Last modified: 2026-04-27T01:39:48.355Z
-# Entries: 5190
+# Last modified: 2026-04-27T02:46:57.845Z
+# Entries: 5180
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -662,6 +662,7 @@
 0.0.0.0 analyticsresults.datev.de
 0.0.0.0 analyticssec.overwolf.com
 0.0.0.0 analyticssystems.net
+0.0.0.0 analyze-82dfgsi2.m-w.com
 0.0.0.0 android-stat.acestream.net
 0.0.0.0 android-tv-beacons.xumo.com
 0.0.0.0 andyhoppe.com
@@ -1322,7 +1323,6 @@
 0.0.0.0 d-log.tv-asahi.co.jp
 0.0.0.0 d-markets.net
 0.0.0.0 d-stats.com
-0.0.0.0 d.adlpo.com
 0.0.0.0 d.haberler.com
 0.0.0.0 d.lilstts.com
 0.0.0.0 d.omsnative.de
@@ -1530,6 +1530,7 @@
 0.0.0.0 dmp.citynews.ovh
 0.0.0.0 dmpcdn.el-mundo.net
 0.0.0.0 dmpmetrics.rcsmetrics.it
+0.0.0.0 dmpprof.com
 0.0.0.0 dmw2pzbenclyd.cloudfront.net
 0.0.0.0 dmxhgf4zuwdvu.cloudfront.net
 0.0.0.0 dn34cbtcv9mef.cloudfront.net
@@ -1623,8 +1624,6 @@
 0.0.0.0 elasticchange.com
 0.0.0.0 elderlytown.com
 0.0.0.0 eloqua.com
-0.0.0.0 eloquatracking.iqvia.com
-0.0.0.0 elqtracking.strayer.edu
 0.0.0.0 email-match.com
 0.0.0.0 email-reflex.com
 0.0.0.0 emailretargeting.com
@@ -1789,6 +1788,7 @@
 0.0.0.0 fa5.dn4.it
 0.0.0.0 facil-iti.com
 0.0.0.0 fallback.attntags.com
+0.0.0.0 fallback.emtag.net
 0.0.0.0 farethief.com
 0.0.0.0 farmergoldfish.com
 0.0.0.0 fast-thinking.co.uk
@@ -1919,6 +1919,7 @@
 0.0.0.0 gi-client-tracking.goodgamestudios.com
 0.0.0.0 giddycoat.com
 0.0.0.0 giga-abs.de
+0.0.0.0 giocdn.com
 0.0.0.0 giraff.io
 0.0.0.0 gj.mmstat.com
 0.0.0.0 gjapplog.uc.cn
@@ -2069,7 +2070,6 @@
 0.0.0.0 idio.co
 0.0.0.0 idntfy.ru
 0.0.0.0 idot.cz
-0.0.0.0 ifactz.com
 0.0.0.0 igodigital.com
 0.0.0.0 igrid.org
 0.0.0.0 iguazu.doordash.com
@@ -2649,7 +2649,6 @@
 0.0.0.0 metrics.pico.tools
 0.0.0.0 metrics.politico.com
 0.0.0.0 metrics.post-gazette.com
-0.0.0.0 metrics.postoffice.co.uk
 0.0.0.0 metrics.ralphlauren.com
 0.0.0.0 metrics.rapidedge.io
 0.0.0.0 metrics.royalmail.com
@@ -2840,7 +2839,6 @@
 0.0.0.0 noflake-aggregator-http.narvar.com
 0.0.0.0 noibu.com
 0.0.0.0 nol.yahoo.com
-0.0.0.0 noowho.com
 0.0.0.0 notes-analytics-events.apple.com
 0.0.0.0 notmining.org
 0.0.0.0 nova.dice.net
@@ -2986,7 +2984,6 @@
 0.0.0.0 ping.hashnode.com
 0.0.0.0 ping.pdst.fm
 0.0.0.0 pingback.issuu.com
-0.0.0.0 pingclock.net
 0.0.0.0 pingdom.net
 0.0.0.0 pingjs.qq.com
 0.0.0.0 pings.vidpulse.com
@@ -3120,6 +3117,7 @@
 0.0.0.0 preview-collector.scopely.io
 0.0.0.0 prf.vagnt.com
 0.0.0.0 prfct.co
+0.0.0.0 privacy-analytics-proxy.cookiebot.com
 0.0.0.0 privacy.outdoorsg.com
 0.0.0.0 privatestats.whatsapp.net
 0.0.0.0 privymktg.com
@@ -3558,13 +3556,11 @@
 0.0.0.0 smetrics.atresplayer.com
 0.0.0.0 smetrics.att.com
 0.0.0.0 smetrics.autodesk.com
-0.0.0.0 smetrics.avalara.com
 0.0.0.0 smetrics.avnet.com
 0.0.0.0 smetrics.bankofamerica.com
 0.0.0.0 smetrics.bbb.org
 0.0.0.0 smetrics.bbva.es
 0.0.0.0 smetrics.bbva.mx
-0.0.0.0 smetrics.bcbsm.com
 0.0.0.0 smetrics.beatsbydre.com
 0.0.0.0 smetrics.binge.com.au
 0.0.0.0 smetrics.bmc.com
@@ -3624,7 +3620,6 @@
 0.0.0.0 smetrics.grundfos.com
 0.0.0.0 smetrics.ha.com
 0.0.0.0 smetrics.hbs.edu
-0.0.0.0 smetrics.hbsp.harvard.edu
 0.0.0.0 smetrics.hdfcbank.com
 0.0.0.0 smetrics.herbalife.com
 0.0.0.0 smetrics.hollisterco.com
@@ -3704,7 +3699,6 @@
 0.0.0.0 smetrics.shopmyexchange.com
 0.0.0.0 smetrics.sisal.it
 0.0.0.0 smetrics.sky.com
-0.0.0.0 smetrics.solarwinds.com
 0.0.0.0 smetrics.sony.jp
 0.0.0.0 smetrics.southwest.com
 0.0.0.0 smetrics.sportsmansguide.com
@@ -3713,7 +3707,6 @@
 0.0.0.0 smetrics.staplesadvantage.com
 0.0.0.0 smetrics.statefarm.com
 0.0.0.0 smetrics.suncorp.com.au
-0.0.0.0 smetrics.superiorhealthplan.com
 0.0.0.0 smetrics.te.com
 0.0.0.0 smetrics.telegraph.co.uk
 0.0.0.0 smetrics.tesco.com
@@ -4123,7 +4116,6 @@
 0.0.0.0 svtrd.com
 0.0.0.0 sw88.abc.com
 0.0.0.0 sweb.ulta.com
-0.0.0.0 swebanalytics.acs.org
 0.0.0.0 swordgoose.com
 0.0.0.0 sy.ameba.jp
 0.0.0.0 sync.adap.tv
@@ -4136,7 +4128,6 @@
 0.0.0.0 t.91syun.com
 0.0.0.0 t.9gag.com
 0.0.0.0 t.a3cloud.net
-0.0.0.0 t.adlpo.com
 0.0.0.0 t.auditedmedia.org.au
 0.0.0.0 t.bimvid.com
 0.0.0.0 t.blog.livedoor.jp
@@ -4839,7 +4830,6 @@
 0.0.0.0 truehits.in.th
 0.0.0.0 truehits.net
 0.0.0.0 truehits3.gits.net.th
-0.0.0.0 truenat.bid
 0.0.0.0 trueselfkeys.com
 0.0.0.0 trust.titanhq.com
 0.0.0.0 trusted-collector-bk.tmocce.com
@@ -4935,7 +4925,6 @@
 0.0.0.0 uue2.destinia.ir
 0.0.0.0 v-collector.dp.aws.charter.com
 0.0.0.0 v.oui.sncf
-0.0.0.0 v6analytics.htmedia.in.edgekey.net
 0.0.0.0 valencia-beacons.xumo.com
 0.0.0.0 valuedopinions.co.uk
 0.0.0.0 vamaker.com
@@ -5112,6 +5101,7 @@
 0.0.0.0 wpfc.ml
 0.0.0.0 wrapper.lemde.fr
 0.0.0.0 wrating.com
+0.0.0.0 writingcalls.com
 0.0.0.0 ws.audioeye.com
 0.0.0.0 ws3.smartp.com
 0.0.0.0 wsmcdn.audioeye.com
