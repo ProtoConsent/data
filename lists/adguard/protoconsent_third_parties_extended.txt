@@ -2,9 +2,9 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-04-27T06:13:37.537Z
+! Last modified: 2026-04-27T20:23:30.593Z
 ! Format: AdGuard
-! Entries: 704
+! Entries: 706
 !
 ||01e8b-7ffd2.api.pushwoosh.com^$third-party
 ||06cfa-f8925.api.pushwoosh.com^$third-party
@@ -36,6 +36,7 @@
 ||792fa-c6c2c.api.pushwoosh.com^$third-party
 ||837ac-53586.api.pushwoosh.com^$third-party
 ||8a537-af31e.api.pushwoosh.com^$third-party
+||8e479-a7f7f.api.pushwoosh.com^$third-party
 ||9170d-fac20.api.pushwoosh.com^$third-party
 ||94f56-b665f.api.pushwoosh.com^$third-party
 ||99863-61299.api.pushwoosh.com^$third-party
@@ -461,6 +462,7 @@
 ||rest.iad-03.braze.com^$third-party
 ||retainful.com^$third-party
 ||revsharecash.com^$third-party
+||rge.pushwoosh.com^$third-party
 ||richmedia.pushwoosh.com^$third-party
 ||rollworks.com^$third-party
 ||rotanev.iad-03.braze.com^$third-party

@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
   "version": "2026-04-27",
-  "generated": "2026-04-27T06:13:37.537Z",
+  "generated": "2026-04-27T20:23:30.593Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -36,6 +36,7 @@
     "792fa-c6c2c.api.pushwoosh.com",
     "837ac-53586.api.pushwoosh.com",
     "8a537-af31e.api.pushwoosh.com",
+    "8e479-a7f7f.api.pushwoosh.com",
     "9170d-fac20.api.pushwoosh.com",
     "94f56-b665f.api.pushwoosh.com",
     "99863-61299.api.pushwoosh.com",
@@ -461,6 +462,7 @@
     "rest.iad-03.braze.com",
     "retainful.com",
     "revsharecash.com",
+    "rge.pushwoosh.com",
     "richmedia.pushwoosh.com",
     "rollworks.com",
     "rotanev.iad-03.braze.com",
@@ -638,7 +640,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 631,
+  "domain_count": 633,
   "paths": [
     "||api.getdrip.com/",
     "||apis.google.com/js/platform.js",

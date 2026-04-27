@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-04-27T06:13:37.537Z
+! Last modified: 2026-04-27T20:23:30.593Z
 ! Format: AdGuard
-! Entries: 5739
+! Entries: 5745
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -879,6 +879,7 @@
 ||bid.run^$third-party
 ||bigcattracks.com^$third-party
 ||biggerbling.com^$third-party
+||bigmining.com^$third-party
 ||bigtracker.com^$third-party
 ||bisko.mall.tv^$third-party
 ||bitclub.network^$third-party
@@ -962,15 +963,18 @@
 ||calltrack.co^$third-party
 ||calltrackingmetrics.com^$third-party
 ||calvera-telemetry.polaris.me^$third-party
+||camelsfestival.com^$third-party
 ||campaign.fbot.me^$third-party
 ||canddi.com^$third-party
 ||capping.sirius.press^$third-party
 ||caprofitx.com^$third-party
 ||captify.co.uk^$third-party
 ||capture-api.ap3prod.com^$third-party
+||cartlug.com^$third-party
 ||cartx.cloud^$third-party
 ||cashcount.com^$third-party
 ||caspionlog.appspot.com^$third-party
+||catlanguage.net^$third-party
 ||cc.swiftype.com^$third-party
 ||cctvgb.com.cn^$third-party
 ||cdjbf8trk.com^$third-party
@@ -1061,6 +1065,7 @@
 ||client.perimeterx.net^$third-party
 ||clientlog.midomi.com^$third-party
 ||clientlog.perfectworldgames.com^$third-party
+||clientlog.pwsdk.com^$third-party
 ||clientmetrics-augmentum.kik.com^$third-party
 ||clientmetrics.kik.com^$third-party
 ||clixgalore.com^$third-party
@@ -1162,7 +1167,6 @@
 ||collector.schibsted.io^$third-party
 ||collector.sspinc.io^$third-party
 ||collector.superwall.me^$third-party
-||collector.szlcsc.com^$third-party
 ||collector.t-idr.com^$third-party
 ||collector.taoxh.life^$third-party
 ||collector.xhaccess.com^$third-party
@@ -1308,6 +1312,7 @@
 ||ctr.nmg.de^$third-party
 ||ctr.po-kaki-to.com^$third-party
 ||cts.vresp.com^$third-party
+||cubeglobal.net^$third-party
 ||culturaltracking.ru^$third-party
 ||curated.fieldtest.cc^$third-party
 ||curtaincows.com^$third-party
@@ -1512,7 +1517,6 @@
 ||dimml.io^$third-party
 ||direct-collect.dy-api.com^$third-party
 ||direct-collect.dy-api.eu^$third-party
-||directcrm.ru^$third-party
 ||discover-path.com^$third-party
 ||discreetfield.com^$third-party
 ||distillery.wistia.com^$third-party
@@ -1522,6 +1526,7 @@
 ||dl.episerver.net^$third-party
 ||dl1d2m8ri9v3j.cloudfront.net^$third-party
 ||dlog.perfectworldgames.com^$third-party
+||dlog.pwsdk.com^$third-party
 ||dls-account.di.atlas.samsung.com^$third-party
 ||dlt-beacon.dynatrace-managed.com^$third-party
 ||dlthst9q2beh8.cloudfront.net^$third-party
@@ -1530,7 +1535,6 @@
 ||dmp.citynews.ovh^$third-party
 ||dmpcdn.el-mundo.net^$third-party
 ||dmpmetrics.rcsmetrics.it^$third-party
-||dmpprof.com^$third-party
 ||dmw2pzbenclyd.cloudfront.net^$third-party
 ||dmxhgf4zuwdvu.cloudfront.net^$third-party
 ||dn34cbtcv9mef.cloudfront.net^$third-party
@@ -1787,6 +1791,7 @@
 ||f775.thehour.com^$third-party
 ||fa5.dn4.it^$third-party
 ||facil-iti.com^$third-party
+||fakeschool.com^$third-party
 ||fallback.attntags.com^$third-party
 ||fallback.emtag.net^$third-party
 ||farethief.com^$third-party
@@ -3602,7 +3607,6 @@
 ||smetrics.elsevier.com^$third-party
 ||smetrics.enelenergia.it^$third-party
 ||smetrics.enterprise.com^$third-party
-||smetrics.eversource.com^$third-party
 ||smetrics.express-scripts.com^$third-party
 ||smetrics.ey.com^$third-party
 ||smetrics.farnell.com^$third-party
@@ -3620,6 +3624,7 @@
 ||smetrics.grundfos.com^$third-party
 ||smetrics.ha.com^$third-party
 ||smetrics.hbs.edu^$third-party
+||smetrics.hbsp.harvard.edu^$third-party
 ||smetrics.hdfcbank.com^$third-party
 ||smetrics.herbalife.com^$third-party
 ||smetrics.hollisterco.com^$third-party
@@ -3641,7 +3646,6 @@
 ||smetrics.legalandgeneral.com^$third-party
 ||smetrics.los40.com^$third-party
 ||smetrics.lululemon.com^$third-party
-||smetrics.manheim.com^$third-party
 ||smetrics.marcus.com^$third-party
 ||smetrics.marketing.philips-hue.com^$third-party
 ||smetrics.marksandspencer.com^$third-party
@@ -3699,6 +3703,7 @@
 ||smetrics.shopmyexchange.com^$third-party
 ||smetrics.sisal.it^$third-party
 ||smetrics.sky.com^$third-party
+||smetrics.solarwinds.com^$third-party
 ||smetrics.sony.jp^$third-party
 ||smetrics.southwest.com^$third-party
 ||smetrics.sportsmansguide.com^$third-party
@@ -4925,6 +4930,7 @@
 ||uue2.destinia.ir^$third-party
 ||v-collector.dp.aws.charter.com^$third-party
 ||v.oui.sncf^$third-party
+||v6analytics.htmedia.in.edgekey.net^$third-party
 ||valencia-beacons.xumo.com^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vamaker.com^$third-party

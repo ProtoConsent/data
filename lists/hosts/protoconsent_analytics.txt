@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 # Version: 2026-04-27
-# Last modified: 2026-04-27T06:13:37.537Z
-# Entries: 5180
+# Last modified: 2026-04-27T20:23:30.593Z
+# Entries: 5186
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -879,6 +879,7 @@
 0.0.0.0 bid.run
 0.0.0.0 bigcattracks.com
 0.0.0.0 biggerbling.com
+0.0.0.0 bigmining.com
 0.0.0.0 bigtracker.com
 0.0.0.0 bisko.mall.tv
 0.0.0.0 bitclub.network
@@ -962,15 +963,18 @@
 0.0.0.0 calltrack.co
 0.0.0.0 calltrackingmetrics.com
 0.0.0.0 calvera-telemetry.polaris.me
+0.0.0.0 camelsfestival.com
 0.0.0.0 campaign.fbot.me
 0.0.0.0 canddi.com
 0.0.0.0 capping.sirius.press
 0.0.0.0 caprofitx.com
 0.0.0.0 captify.co.uk
 0.0.0.0 capture-api.ap3prod.com
+0.0.0.0 cartlug.com
 0.0.0.0 cartx.cloud
 0.0.0.0 cashcount.com
 0.0.0.0 caspionlog.appspot.com
+0.0.0.0 catlanguage.net
 0.0.0.0 cc.swiftype.com
 0.0.0.0 cctvgb.com.cn
 0.0.0.0 cdjbf8trk.com
@@ -1061,6 +1065,7 @@
 0.0.0.0 client.perimeterx.net
 0.0.0.0 clientlog.midomi.com
 0.0.0.0 clientlog.perfectworldgames.com
+0.0.0.0 clientlog.pwsdk.com
 0.0.0.0 clientmetrics-augmentum.kik.com
 0.0.0.0 clientmetrics.kik.com
 0.0.0.0 clixgalore.com
@@ -1162,7 +1167,6 @@
 0.0.0.0 collector.schibsted.io
 0.0.0.0 collector.sspinc.io
 0.0.0.0 collector.superwall.me
-0.0.0.0 collector.szlcsc.com
 0.0.0.0 collector.t-idr.com
 0.0.0.0 collector.taoxh.life
 0.0.0.0 collector.xhaccess.com
@@ -1308,6 +1312,7 @@
 0.0.0.0 ctr.nmg.de
 0.0.0.0 ctr.po-kaki-to.com
 0.0.0.0 cts.vresp.com
+0.0.0.0 cubeglobal.net
 0.0.0.0 culturaltracking.ru
 0.0.0.0 curated.fieldtest.cc
 0.0.0.0 curtaincows.com
@@ -1512,7 +1517,6 @@
 0.0.0.0 dimml.io
 0.0.0.0 direct-collect.dy-api.com
 0.0.0.0 direct-collect.dy-api.eu
-0.0.0.0 directcrm.ru
 0.0.0.0 discover-path.com
 0.0.0.0 discreetfield.com
 0.0.0.0 distillery.wistia.com
@@ -1522,6 +1526,7 @@
 0.0.0.0 dl.episerver.net
 0.0.0.0 dl1d2m8ri9v3j.cloudfront.net
 0.0.0.0 dlog.perfectworldgames.com
+0.0.0.0 dlog.pwsdk.com
 0.0.0.0 dls-account.di.atlas.samsung.com
 0.0.0.0 dlt-beacon.dynatrace-managed.com
 0.0.0.0 dlthst9q2beh8.cloudfront.net
@@ -1530,7 +1535,6 @@
 0.0.0.0 dmp.citynews.ovh
 0.0.0.0 dmpcdn.el-mundo.net
 0.0.0.0 dmpmetrics.rcsmetrics.it
-0.0.0.0 dmpprof.com
 0.0.0.0 dmw2pzbenclyd.cloudfront.net
 0.0.0.0 dmxhgf4zuwdvu.cloudfront.net
 0.0.0.0 dn34cbtcv9mef.cloudfront.net
@@ -1787,6 +1791,7 @@
 0.0.0.0 f775.thehour.com
 0.0.0.0 fa5.dn4.it
 0.0.0.0 facil-iti.com
+0.0.0.0 fakeschool.com
 0.0.0.0 fallback.attntags.com
 0.0.0.0 fallback.emtag.net
 0.0.0.0 farethief.com
@@ -3602,7 +3607,6 @@
 0.0.0.0 smetrics.elsevier.com
 0.0.0.0 smetrics.enelenergia.it
 0.0.0.0 smetrics.enterprise.com
-0.0.0.0 smetrics.eversource.com
 0.0.0.0 smetrics.express-scripts.com
 0.0.0.0 smetrics.ey.com
 0.0.0.0 smetrics.farnell.com
@@ -3620,6 +3624,7 @@
 0.0.0.0 smetrics.grundfos.com
 0.0.0.0 smetrics.ha.com
 0.0.0.0 smetrics.hbs.edu
+0.0.0.0 smetrics.hbsp.harvard.edu
 0.0.0.0 smetrics.hdfcbank.com
 0.0.0.0 smetrics.herbalife.com
 0.0.0.0 smetrics.hollisterco.com
@@ -3641,7 +3646,6 @@
 0.0.0.0 smetrics.legalandgeneral.com
 0.0.0.0 smetrics.los40.com
 0.0.0.0 smetrics.lululemon.com
-0.0.0.0 smetrics.manheim.com
 0.0.0.0 smetrics.marcus.com
 0.0.0.0 smetrics.marketing.philips-hue.com
 0.0.0.0 smetrics.marksandspencer.com
@@ -3699,6 +3703,7 @@
 0.0.0.0 smetrics.shopmyexchange.com
 0.0.0.0 smetrics.sisal.it
 0.0.0.0 smetrics.sky.com
+0.0.0.0 smetrics.solarwinds.com
 0.0.0.0 smetrics.sony.jp
 0.0.0.0 smetrics.southwest.com
 0.0.0.0 smetrics.sportsmansguide.com
@@ -4925,6 +4930,7 @@
 0.0.0.0 uue2.destinia.ir
 0.0.0.0 v-collector.dp.aws.charter.com
 0.0.0.0 v.oui.sncf
+0.0.0.0 v6analytics.htmedia.in.edgekey.net
 0.0.0.0 valencia-beacons.xumo.com
 0.0.0.0 valuedopinions.co.uk
 0.0.0.0 vamaker.com
