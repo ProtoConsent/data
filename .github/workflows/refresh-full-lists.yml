@@ -32,6 +32,9 @@ jobs:
       - name: Generate full lists
         run: node scripts/generate-full-lists.js
 
+      - name: Validate generated lists
+        run: node scripts/validate-lists.js
+
       - name: Check for changes
         id: changes
         run: |

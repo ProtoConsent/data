@@ -16,69 +16,57 @@
 
 Curated domain blocklists organized by data-processing purpose: **ads**, **analytics**, **personalization**, **third-party services**, **advanced tracking**, and **security**. Unlike traditional blocklists that combine everything into a single file, these lists let you choose what to block based on *why* a domain exists, not just *what* it is.
 
-Available in 5 formats for use with any ad blocker, DNS sinkhole, or browser extension.
-
 Part of the [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) project. Can be used independently.
 
-## Blocklists
+## Lists
 
-Available in five formats. Each cell has two subscription mirrors: **Link** (jsDelivr CDN) and **M2** (GitHub direct).
+1. [Core](#core---all-tracking-purposes) - Ads + Analytics + Personalization + Third Parties + Advanced Tracking
+2. [Full](#full---all-purposes-including-security) - Everything in Core plus phishing, scam and malware
+3. [Per-purpose](#per-purpose-lists) - Individual lists for granular control
 
-| Format | Compatible with |
-|--------|-----------------|
-| ABP | uBlock Origin, Adblock Plus, Ghostery |
-| AdGuard | AdGuard browser extension |
-| Hosts | Pi-hole, AdGuard Home, /etc/hosts |
-| Domains | NextDNS, ControlD, RethinkDNS |
-| JSON | MV3 browser extensions, custom tools |
+Each list comes in two versions:
 
-### Combined lists
+- **Standard** - Curated set with lower false-positive risk. Recommended for most users.
+- **Extended** - Broader coverage with more domains, but higher chance of overblocking.
 
-For most users, a single combined list is the easiest option. Domains are deduplicated across purposes.
+### Core - All tracking purposes
 
-| Profile | ABP | AdGuard | Hosts | Domains | JSON | Included purposes |
-|---------|-----|---------|-------|---------|------|-------------------|
-| Core | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_core.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_core.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_core.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_core.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_core.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_core.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_core.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_core.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_core.json) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_core.json) | Ads + Analytics + Personalization + Third Parties + Advanced Tracking |
-| Full | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_full.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_full.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_full.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_full.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_full.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_full.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_full.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_full.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_full.json) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_full.json) | All 6 purposes including Security |
+| Format | Standard | Extended | Use with |
+|--------|----------|----------|----------|
+| ABP | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_core.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_core_extended.txt) | uBlock Origin, Adblock Plus, Ghostery |
+| AdGuard | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_core.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_core_extended.txt) | AdGuard browser extension |
+| Hosts | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_core.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_core_extended.txt) | Pi-hole, AdGuard Home, /etc/hosts |
+| Domains | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_core.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_core_extended.txt) | Plain domain list, one per line |
+| JSON | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_core.json) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_core_extended.json) | Browser extensions, custom tools |
+
+### Full - All purposes including security
+
+Everything in Core plus phishing, scam and malware domains.
+
+| Format | Standard | Extended | Use with |
+|--------|----------|----------|----------|
+| ABP | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_full.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_full_extended.txt) | uBlock Origin, Adblock Plus, Ghostery |
+| AdGuard | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_full.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_full_extended.txt) | AdGuard browser extension |
+| Hosts | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_full.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_full_extended.txt) | Pi-hole, AdGuard Home, /etc/hosts |
+| Domains | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_full.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_full_extended.txt) | Plain domain list, one per line |
+| JSON | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_full.json) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_full_extended.json) | Browser extensions, custom tools |
 
 ### Per-purpose lists
 
-For granular control, subscribe only to the purposes you want to block.
+For granular control, subscribe only to the purposes you want to block. Same 5 formats, same Standard/Extended versions.
 
-| Purpose | ABP | AdGuard | Hosts | Domains | JSON | Description |
-|---------|-----|---------|-------|---------|------|-------------|
-| Ads | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_ads.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_ads.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_ads.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_ads.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_ads.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_ads.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_ads.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_ads.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_ads.json) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_ads.json) | Advertising, remarketing and affiliation campaigns; may include behavioural profiling |
-| Analytics | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_analytics.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_analytics.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_analytics.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_analytics.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_analytics.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_analytics.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_analytics.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_analytics.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_analytics.json) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_analytics.json) | Measurement, statistics and usage analytics, even when not directly linked to marketing |
-| Personalization | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_personalization.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_personalization.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_personalization.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_personalization.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_personalization.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_personalization.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_personalization.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_personalization.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_personalization.json) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_personalization.json) | Content/UX personalization, recommendations, profiling and behavioural A/B testing |
-| Third Parties | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_third_parties.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_third_parties.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_third_parties.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_third_parties.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_third_parties.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_third_parties.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_third_parties.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_third_parties.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_third_parties.json) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_third_parties.json) | Sharing or combining data with third parties, partners or group companies beyond the core service |
-| Advanced Tracking | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_advanced_tracking.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_advanced_tracking.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_advanced_tracking.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_advanced_tracking.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_advanced_tracking.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_advanced_tracking.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_advanced_tracking.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_advanced_tracking.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_advanced_tracking.json) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_advanced_tracking.json) | Advanced or non-cookie techniques to identify or track devices across sites or sessions |
-| Security | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_security.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_security.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_security.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_security.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_security.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_security.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_security.txt) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_security.txt) | [Link](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_security.json) \| [M2](https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_security.json) | Phishing, scam, malware and malicious domains |
+| Purpose | Standard | Extended | Description |
+|---------|----------|----------|-------------|
+| Ads | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_ads.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_ads.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_ads.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_ads.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_ads.json) | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_ads_extended.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_ads_extended.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_ads_extended.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_ads_extended.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_ads_extended.json) | Advertising, remarketing and affiliation campaigns |
+| Analytics | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_analytics.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_analytics.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_analytics.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_analytics.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_analytics.json) | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_analytics_extended.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_analytics_extended.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_analytics_extended.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_analytics_extended.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_analytics_extended.json) | Measurement, statistics and usage analytics |
+| Personalization | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_personalization.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_personalization.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_personalization.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_personalization.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_personalization.json) | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_personalization_extended.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_personalization_extended.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_personalization_extended.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_personalization_extended.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_personalization_extended.json) | Content/UX personalization, recommendations, A/B testing |
+| Third Parties | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_third_parties.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_third_parties.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_third_parties.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_third_parties.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_third_parties.json) | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_third_parties_extended.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_third_parties_extended.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_third_parties_extended.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_third_parties_extended.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_third_parties_extended.json) | Third-party data sharing beyond the core service |
+| Advanced Tracking | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_advanced_tracking.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_advanced_tracking.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_advanced_tracking.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_advanced_tracking.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_advanced_tracking.json) | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_advanced_tracking_extended.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_advanced_tracking_extended.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_advanced_tracking_extended.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_advanced_tracking_extended.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_advanced_tracking_extended.json) | Fingerprinting and cross-site device tracking |
+| Security | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_security.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_security.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_security.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_security.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_security.json) | [ABP](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_security_extended.txt) \| [AdGuard](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_security_extended.txt) \| [Hosts](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_security_extended.txt) \| [Domains](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_security_extended.txt) \| [JSON](https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_security_extended.json) | Phishing, scam, malware and malicious domains |
 
-Updated weekly via GitHub Actions. See [LISTS.md](LISTS.md) for format details and domain counts.
+See [LISTS.md](LISTS.md) for format details.
 
-### Quick start
-
-**Pi-hole / AdGuard Home** (block all tracking):
-```
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_core.txt
-```
-
-**uBlock Origin** (custom filter list):
-```
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_core.txt
-```
-
-**AdGuard** (custom filter):
-```
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_core.txt
-```
-
-**NextDNS / ControlD** (plain domains):
-```
-https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_core.txt
-```
-
-Replace `protoconsent_core` with `protoconsent_full` to include security (phishing/malware), or use individual purpose lists for granular control.
+ProtoConsent lists may overlap with other blocklists you already use (EasyList, HaGeZi, etc.). uBlock Origin deduplicates rules automatically; AdGuard does not. If you notice performance issues in AdGuard, consider removing lists that overlap.
 
 ## Why purpose-based lists?
 
@@ -88,7 +76,9 @@ Most blocklists are organized by source (EasyList, HaGeZi, OISD) or by threat ty
 - **Running a privacy-first setup?** Subscribe to all six.
 - **Building a consent-aware tool?** Use the JSON format with purpose metadata.
 
-## Enhanced data (ProtoConsent extension)
+---
+
+## ProtoConsent extension data
 
 The `enhanced/` directory contains runtime data for the [ProtoConsent browser extension](https://github.com/ProtoConsent/ProtoConsent): third-party blocking lists converted to JSON, cosmetic filtering rules, CMP banner signatures, CNAME tracker maps, URL parameter stripping data, and regional filters. The extension fetches these from CDN when the user enables Enhanced Protection.
 
@@ -100,7 +90,8 @@ All scripts are in `scripts/`. Requires Node.js 18+. No dependencies.
 
 | Script | Description |
 |--------|-------------|
-| `generate-full-lists.js` | Merges bundle (extension repo) + delta (enhanced/) into full lists. Outputs ABP, AdGuard, hosts, domains, and JSON to `lists/`. |
+| `generate-full-lists.js` | Generates all blocklists. Outputs ABP, AdGuard, hosts, domains, and JSON to `lists/`. |
+| `validate-lists.js` | Validates all inputs and outputs for correctness. Runs automatically before each commit in CI. |
 | `convert.js` | Fetches upstream blocklists, parses them (ABP, hosts, and plain domain formats), deduplicates, and outputs JSON blocking files. |
 | `convert-cosmetic.js` | Fetches EasyList, extracts element-hiding rules, and outputs a cosmetic JSON file. |
 | `convert-cname.js` | Fetches AdGuard's CNAME tracker lists, merges categories, and outputs an indexed lookup map. |
@@ -110,8 +101,9 @@ All scripts are in `scripts/`. Requires Node.js 18+. No dependencies.
 | `generate-manifest.js` | Reads metadata from all enhanced files and outputs `config/enhanced-lists.json`. |
 
 ```bash
-node scripts/generate-full-lists.js          # merge bundle + delta -> lists/
+node scripts/generate-full-lists.js          # generate all blocklists -> lists/
 node scripts/generate-full-lists.js --dry-run # show counts without writing
+node scripts/validate-lists.js               # validate all generated lists
 node scripts/convert.js                      # fetch all blocklists -> enhanced/external/
 node scripts/convert.js --list hagezi_pro    # fetch one blocklist
 node scripts/convert-cosmetic.js             # fetch EasyList cosmetic -> enhanced/external/

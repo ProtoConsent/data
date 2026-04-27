@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||logx.optimizely.com/",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "ping"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||crwdcntrl.net/5/c=",
+      "resourceTypes": [
+        "script",
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||tags.crwdcntrl.net/",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||bcp.crwdcntrl.net/",
+      "resourceTypes": [
+        "image",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ak.sail-horizon.com/",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||sdk.split.io/api/",
+      "resourceTypes": [
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||cdn.split.io/sdk/",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||suite.emarsys.net/predict/",
+      "resourceTypes": [
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||movableink-cdn.com/",
+      "resourceTypes": [
+        "script",
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||sddan.com/",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||biosolutions.tv/audience-proxy/",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "image",
+        "ping",
+        "other"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||indiatimes.com/personalisation/logdata/",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "image",
+        "ping",
+        "other"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||hatarako.net/api/recommend/analyze_logger",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "image",
+        "ping",
+        "other"
+      ]
+    }
+  }
+]
