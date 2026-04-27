@@ -104,7 +104,7 @@ const LIST_CATALOG = {
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: "security",
-    preset: "full",
+    preset: "basic",
     order: 35,
   },
   easyprivacy: {
@@ -122,7 +122,7 @@ const LIST_CATALOG = {
     source: "https://easylist.to/",
     license: "GPL-3.0+ / CC BY-SA 3.0+",
     category: "ads",
-    preset: "basic",
+    preset: "full",
     order: 110,
   },
   adguard_dns: {
@@ -177,7 +177,7 @@ const LIST_CATALOG = {
     license: "MIT",
     category: null,
     type: "informational",
-    preset: "basic",
+    preset: "full",
     order: 300,
   },
   easylist_cosmetic: {
