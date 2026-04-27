@@ -51,7 +51,7 @@ const LIST_CATALOG = {
     category: null,
     preset: "basic",
     type: "revoke",
-    order: 5,
+    order: 20,
   },
   protoconsent_analytics: {
     name: "ProtoConsent Analytics",
