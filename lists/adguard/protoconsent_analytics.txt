@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-04-27T01:39:48.355Z
+! Last modified: 2026-04-27T03:00:26.299Z
 ! Format: AdGuard
-! Entries: 5749
+! Entries: 5739
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -662,6 +662,7 @@
 ||analyticsresults.datev.de^$third-party
 ||analyticssec.overwolf.com^$third-party
 ||analyticssystems.net^$third-party
+||analyze-82dfgsi2.m-w.com^$third-party
 ||android-stat.acestream.net^$third-party
 ||android-tv-beacons.xumo.com^$third-party
 ||andyhoppe.com^$third-party
@@ -1322,7 +1323,6 @@
 ||d-log.tv-asahi.co.jp^$third-party
 ||d-markets.net^$third-party
 ||d-stats.com^$third-party
-||d.adlpo.com^$third-party
 ||d.haberler.com^$third-party
 ||d.lilstts.com^$third-party
 ||d.omsnative.de^$third-party
@@ -1530,6 +1530,7 @@
 ||dmp.citynews.ovh^$third-party
 ||dmpcdn.el-mundo.net^$third-party
 ||dmpmetrics.rcsmetrics.it^$third-party
+||dmpprof.com^$third-party
 ||dmw2pzbenclyd.cloudfront.net^$third-party
 ||dmxhgf4zuwdvu.cloudfront.net^$third-party
 ||dn34cbtcv9mef.cloudfront.net^$third-party
@@ -1623,8 +1624,6 @@
 ||elasticchange.com^$third-party
 ||elderlytown.com^$third-party
 ||eloqua.com^$third-party
-||eloquatracking.iqvia.com^$third-party
-||elqtracking.strayer.edu^$third-party
 ||email-match.com^$third-party
 ||email-reflex.com^$third-party
 ||emailretargeting.com^$third-party
@@ -1789,6 +1788,7 @@
 ||fa5.dn4.it^$third-party
 ||facil-iti.com^$third-party
 ||fallback.attntags.com^$third-party
+||fallback.emtag.net^$third-party
 ||farethief.com^$third-party
 ||farmergoldfish.com^$third-party
 ||fast-thinking.co.uk^$third-party
@@ -1919,6 +1919,7 @@
 ||gi-client-tracking.goodgamestudios.com^$third-party
 ||giddycoat.com^$third-party
 ||giga-abs.de^$third-party
+||giocdn.com^$third-party
 ||giraff.io^$third-party
 ||gj.mmstat.com^$third-party
 ||gjapplog.uc.cn^$third-party
@@ -2069,7 +2070,6 @@
 ||idio.co^$third-party
 ||idntfy.ru^$third-party
 ||idot.cz^$third-party
-||ifactz.com^$third-party
 ||igodigital.com^$third-party
 ||igrid.org^$third-party
 ||iguazu.doordash.com^$third-party
@@ -2649,7 +2649,6 @@
 ||metrics.pico.tools^$third-party
 ||metrics.politico.com^$third-party
 ||metrics.post-gazette.com^$third-party
-||metrics.postoffice.co.uk^$third-party
 ||metrics.ralphlauren.com^$third-party
 ||metrics.rapidedge.io^$third-party
 ||metrics.royalmail.com^$third-party
@@ -2840,7 +2839,6 @@
 ||noflake-aggregator-http.narvar.com^$third-party
 ||noibu.com^$third-party
 ||nol.yahoo.com^$third-party
-||noowho.com^$third-party
 ||notes-analytics-events.apple.com^$third-party
 ||notmining.org^$third-party
 ||nova.dice.net^$third-party
@@ -2986,7 +2984,6 @@
 ||ping.hashnode.com^$third-party
 ||ping.pdst.fm^$third-party
 ||pingback.issuu.com^$third-party
-||pingclock.net^$third-party
 ||pingdom.net^$third-party
 ||pingjs.qq.com^$third-party
 ||pings.vidpulse.com^$third-party
@@ -3120,6 +3117,7 @@
 ||preview-collector.scopely.io^$third-party
 ||prf.vagnt.com^$third-party
 ||prfct.co^$third-party
+||privacy-analytics-proxy.cookiebot.com^$third-party
 ||privacy.outdoorsg.com^$third-party
 ||privatestats.whatsapp.net^$third-party
 ||privymktg.com^$third-party
@@ -3558,13 +3556,11 @@
 ||smetrics.atresplayer.com^$third-party
 ||smetrics.att.com^$third-party
 ||smetrics.autodesk.com^$third-party
-||smetrics.avalara.com^$third-party
 ||smetrics.avnet.com^$third-party
 ||smetrics.bankofamerica.com^$third-party
 ||smetrics.bbb.org^$third-party
 ||smetrics.bbva.es^$third-party
 ||smetrics.bbva.mx^$third-party
-||smetrics.bcbsm.com^$third-party
 ||smetrics.beatsbydre.com^$third-party
 ||smetrics.binge.com.au^$third-party
 ||smetrics.bmc.com^$third-party
@@ -3624,7 +3620,6 @@
 ||smetrics.grundfos.com^$third-party
 ||smetrics.ha.com^$third-party
 ||smetrics.hbs.edu^$third-party
-||smetrics.hbsp.harvard.edu^$third-party
 ||smetrics.hdfcbank.com^$third-party
 ||smetrics.herbalife.com^$third-party
 ||smetrics.hollisterco.com^$third-party
@@ -3704,7 +3699,6 @@
 ||smetrics.shopmyexchange.com^$third-party
 ||smetrics.sisal.it^$third-party
 ||smetrics.sky.com^$third-party
-||smetrics.solarwinds.com^$third-party
 ||smetrics.sony.jp^$third-party
 ||smetrics.southwest.com^$third-party
 ||smetrics.sportsmansguide.com^$third-party
@@ -3713,7 +3707,6 @@
 ||smetrics.staplesadvantage.com^$third-party
 ||smetrics.statefarm.com^$third-party
 ||smetrics.suncorp.com.au^$third-party
-||smetrics.superiorhealthplan.com^$third-party
 ||smetrics.te.com^$third-party
 ||smetrics.telegraph.co.uk^$third-party
 ||smetrics.tesco.com^$third-party
@@ -4123,7 +4116,6 @@
 ||svtrd.com^$third-party
 ||sw88.abc.com^$third-party
 ||sweb.ulta.com^$third-party
-||swebanalytics.acs.org^$third-party
 ||swordgoose.com^$third-party
 ||sy.ameba.jp^$third-party
 ||sync.adap.tv^$third-party
@@ -4136,7 +4128,6 @@
 ||t.91syun.com^$third-party
 ||t.9gag.com^$third-party
 ||t.a3cloud.net^$third-party
-||t.adlpo.com^$third-party
 ||t.auditedmedia.org.au^$third-party
 ||t.bimvid.com^$third-party
 ||t.blog.livedoor.jp^$third-party
@@ -4839,7 +4830,6 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
-||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||trust.titanhq.com^$third-party
 ||trusted-collector-bk.tmocce.com^$third-party
@@ -4935,7 +4925,6 @@
 ||uue2.destinia.ir^$third-party
 ||v-collector.dp.aws.charter.com^$third-party
 ||v.oui.sncf^$third-party
-||v6analytics.htmedia.in.edgekey.net^$third-party
 ||valencia-beacons.xumo.com^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vamaker.com^$third-party
@@ -5112,6 +5101,7 @@
 ||wpfc.ml^$third-party
 ||wrapper.lemde.fr^$third-party
 ||wrating.com^$third-party
+||writingcalls.com^$third-party
 ||ws.audioeye.com^$third-party
 ||ws3.smartp.com^$third-party
 ||wsmcdn.audioeye.com^$third-party
