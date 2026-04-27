@@ -4,8 +4,6 @@
 name: Refresh enhanced lists
 
 on:
-  schedule:
-    - cron: "42 4 * * 2"   # Tuesday 04:42 UTC (off-round)
   workflow_dispatch:
     inputs:
       list:
