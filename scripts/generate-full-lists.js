@@ -459,10 +459,11 @@ function main() {
     console.log(`  ${profileId}: ${lightDomains.length} light + ${extDomains.length} extended, ${extPaths.length} paths -> json | hosts | domains | abp | adguard (${profile.purposes.join(" + ")})`);
   }
 
-  // --- Summary ---
-  const totalLight = summary.reduce((s, r) => s + r.light, 0);
-  const totalExt = summary.reduce((s, r) => s + r.extended, 0);
-  const totalPaths = summary.reduce((s, r) => s + r.paths, 0);
+  // --- Summary (per-purpose only, profiles overlap) ---
+  const purposeSummary = summary.filter((r) => PURPOSES.includes(r.purpose));
+  const totalLight = purposeSummary.reduce((s, r) => s + r.light, 0);
+  const totalExt = purposeSummary.reduce((s, r) => s + r.extended, 0);
+  const totalPaths = purposeSummary.reduce((s, r) => s + r.paths, 0);
   console.log(`\n  Total: ${totalLight} light, ${totalExt} extended, ${totalPaths} paths`);
   if (DRY_RUN) {
     console.log("  (dry run - no files written)");
