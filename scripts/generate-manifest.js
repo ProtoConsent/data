@@ -43,7 +43,7 @@ try {
 // Source of truth for display metadata. Mirrors the extension's
 // config/enhanced-lists.json and convert.js LISTS.
 const LIST_CATALOG = {
-  protoconsent_revoke: {
+  protoconsent_hotfix: {
     name: "ProtoConsent Hotfix",
     description: "Blocking corrections applied between extension releases",
     source: "https://github.com/ProtoConsent/data",

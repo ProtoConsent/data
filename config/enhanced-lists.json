@@ -2,14 +2,14 @@
   "manifest_version": 1,
   "generated": "2026-04-27T06:12:49.462Z",
   "lists": {
-    "protoconsent_revoke": {
+    "protoconsent_hotfix": {
       "name": "ProtoConsent Hotfix",
       "description": "Blocking corrections applied between extension releases",
       "source": "https://github.com/ProtoConsent/data",
       "license": "GPL-3.0-or-later",
       "category": null,
       "preset": "basic",
-      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_revoke.json",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_hotfix.json",
       "type": "revoke",
       "order": 5,
       "version": "2026-04-27",

@@ -254,7 +254,7 @@ function validateInputs() {
   console.log();
 
   // Revoke file
-  const revokeFile = path.join(DELTA_DIR, "protoconsent_revoke.json");
+  const revokeFile = path.join(DELTA_DIR, "protoconsent_hotfix.json");
   if (fs.existsSync(revokeFile)) {
     const rv = readJSON(revokeFile);
     if (!rv) {
