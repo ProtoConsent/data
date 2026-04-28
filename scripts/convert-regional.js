@@ -23,11 +23,29 @@ const http = require("http");
 // Each region has a label and one or more ABP-format source URLs.
 // Sources are merged per region: domains deduplicated, selectors merged.
 const REGIONS = {
+  ar: {
+    label: "Arabic",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/112.txt",
+    ],
+  },
+  bg: {
+    label: "Bulgarian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/103.txt",
+    ],
+  },
   cn: {
     label: "Chinese",
     sources: [
       "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "https://filters.adtidy.org/extension/chromium/filters/224.txt",
+    ],
+  },
+  cs: {
+    label: "Czech/Slovak",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/105.txt",
     ],
   },
   de: {
@@ -37,19 +55,30 @@ const REGIONS = {
       "https://filters.adtidy.org/extension/chromium/filters/6.txt",
     ],
   },
-  nl: {
-    label: "Dutch",
-    sources: [
-      "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
-      "https://filters.adtidy.org/extension/chromium/filters/8.txt",
-    ],
-  },
   es: {
     label: "Spanish/Portuguese",
     sources: [
       "https://easylist-downloads.adblockplus.org/easylistspanish.txt",
       "https://easylist-downloads.adblockplus.org/easylistportuguese.txt",
       "https://filters.adtidy.org/extension/chromium/filters/9.txt",
+    ],
+  },
+  et: {
+    label: "Estonian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/218.txt",
+    ],
+  },
+  fa: {
+    label: "Persian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/235.txt",
+    ],
+  },
+  fi: {
+    label: "Finnish",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/233.txt",
     ],
   },
   fr: {
@@ -64,6 +93,30 @@ const REGIONS = {
       "https://easylist-downloads.adblockplus.org/israellist+easylist.txt",
     ],
   },
+  hi: {
+    label: "Hindi",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/253.txt",
+    ],
+  },
+  hr: {
+    label: "Serbo-Croatian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/250.txt",
+    ],
+  },
+  hu: {
+    label: "Hungarian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/203.txt",
+    ],
+  },
+  id: {
+    label: "Indonesian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/120.txt",
+    ],
+  },
   it: {
     label: "Italian",
     sources: [
@@ -76,10 +129,41 @@ const REGIONS = {
       "https://filters.adtidy.org/extension/chromium/filters/7.txt",
     ],
   },
+  ko: {
+    label: "Korean",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/227.txt",
+    ],
+  },
   lt: {
     label: "Lithuanian",
     sources: [
       "https://easylist-downloads.adblockplus.org/easylistlithuania.txt",
+    ],
+  },
+  lv: {
+    label: "Latvian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/111.txt",
+    ],
+  },
+  mk: {
+    label: "Macedonian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/254.txt",
+    ],
+  },
+  nl: {
+    label: "Dutch",
+    sources: [
+      "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
+      "https://filters.adtidy.org/extension/chromium/filters/8.txt",
+    ],
+  },
+  no: {
+    label: "Nordic",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/249.txt",
     ],
   },
   pl: {
@@ -94,6 +178,18 @@ const REGIONS = {
       "https://filters.adtidy.org/extension/chromium/filters/1.txt",
     ],
   },
+  sv: {
+    label: "Swedish",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/243.txt",
+    ],
+  },
+  th: {
+    label: "Thai",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/202.txt",
+    ],
+  },
   tr: {
     label: "Turkish",
     sources: [
@@ -104,6 +200,12 @@ const REGIONS = {
     label: "Ukrainian",
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/23.txt",
+    ],
+  },
+  vi: {
+    label: "Vietnamese",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/214.txt",
     ],
   },
 };
