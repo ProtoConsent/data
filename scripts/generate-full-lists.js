@@ -78,7 +78,7 @@ function extractBundleDomains(json) {
   const domains = [];
   for (const rule of rules) {
     if (rule.condition && rule.condition.requestDomains) {
-      domains.push(...rule.condition.requestDomains);
+      for (const d of rule.condition.requestDomains) domains.push(d);
     }
   }
   return domains;
@@ -104,7 +104,7 @@ function extractDelta(filePath) {
   for (const rule of data.rules || []) {
     const cond = rule.condition || {};
     if (cond.requestDomains) {
-      domains.push(...cond.requestDomains);
+      for (const d of cond.requestDomains) domains.push(d);
     }
     if (cond.urlFilter) {
       paths.push(cond.urlFilter);
