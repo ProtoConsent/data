@@ -16,7 +16,7 @@
 
 Curated domain blocklists organized by data-processing purpose: **ads**, **analytics**, **personalization**, **third-party services**, **advanced tracking**, and **security**. Unlike traditional blocklists that combine everything into a single file, these lists let you choose what to block based on *why* a domain exists, not just *what* it is.
 
-Part of the [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) project. Can be used independently.
+Part of the [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) project. Available on the [Chrome Web Store](https://chromewebstore.google.com/detail/protoconsent/dkcdkdcclhofocmkecccmikkfmfgfdlb) and [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/protoconsent/djghmcahfjgmeiocpgkdgengofconfoo). Blocklists can be used independently.
 
 ## Lists
 
