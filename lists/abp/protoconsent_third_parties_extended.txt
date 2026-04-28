@@ -2,8 +2,8 @@
 ! Title: ProtoConsent Third Parties Extended
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Version: 2026-04-28
-! Last modified: 2026-04-28T06:17:36.071Z
-! Entries: 706
+! Last modified: 2026-04-28T21:08:00.859Z
+! Entries: 727
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -11,6 +11,7 @@
 ||06cfa-f8925.api.pushwoosh.com^$third-party
 ||08b03-2059a.api.pushwoosh.com^$third-party
 ||0ce3c-1fd43.api.pushwoosh.com^$third-party
+||0edfc-c4900.api.pushwoosh.com^$third-party
 ||13cfb-2f770.api.pushwoosh.com^$third-party
 ||1e2f6-98f50.api.pushwoosh.com^$third-party
 ||247bc-1324b.api.pushwoosh.com^$third-party
@@ -114,6 +115,7 @@
 ||app-abd.marketo.com^$third-party
 ||app-abj.marketo.com^$third-party
 ||app-abk.marketo.com^$third-party
+||app-abm.marketo.com^$third-party
 ||app-abq.marketo.com^$third-party
 ||app-e.marketo.com^$third-party
 ||app-lon02.marketo.com^$third-party
@@ -250,6 +252,7 @@
 ||daviik.iad-03.braze.com^$third-party
 ||dbs.pushwoosh.com^$third-party
 ||de.marketo.com^$third-party
+||delvenetworks.com^$third-party
 ||demandbase.com^$third-party
 ||disqus.com^$third-party
 ||dlx.addthis.com^$third-party
@@ -273,8 +276,13 @@
 ||event.api.drift.com^$third-party
 ||event.wondershare.com^$third-party
 ||events.marketo.com^$third-party
+||facebgook.com^$third-party
+||faceboak.com^$third-party
+||facebooik.com^$third-party
+||facedbook.com^$third-party
 ||fairfaxmedia.sharedcount.com^$third-party
 ||fast.a.klaviyo.com^$third-party
+||fbthirdpartypixel.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
 ||firepush.com^$third-party
 ||flowplayer.org^$third-party
@@ -283,6 +291,7 @@
 ||fr.marketo.com^$third-party
 ||fra-01.braze.eu^$third-party
 ||fra-02.braze.eu^$third-party
+||freebasics.com^$third-party
 ||freshchat.com^$third-party
 ||freshmarketer.com^$third-party
 ||friends2follow.com^$third-party
@@ -317,6 +326,7 @@
 ||iad-08.braze.com^$third-party
 ||ibilisk.iad-01.braze.com^$third-party
 ||ibis.iad-03.braze.com^$third-party
+||igsonar.com^$third-party
 ||images.response.demandbase.com^$third-party
 ||inari.iad-03.braze.com^$third-party
 ||indus.iad-01.braze.com^$third-party
@@ -381,6 +391,8 @@
 ||metrics-fe-na2.hubspot.com^$third-party
 ||metrics.api.drift.com^$third-party
 ||micro.marketo.com^$third-party
+||mixi.co.jp^$third-party
+||mixi.jp^$third-party
 ||mktg.feedbacknow.com^$third-party
 ||mobile-campaigns.avast.com^$third-party
 ||moosend.com^$third-party
@@ -409,6 +421,8 @@
 ||ns1.marketo.com^$third-party
 ||nwidget.networkedblogs.com^$third-party
 ||o.addthis.com^$third-party
+||odnoklassniki.ru^$third-party
+||ok.ru^$third-party
 ||okendo.io^$third-party
 ||olark.com^$third-party
 ||omnisend.com^$third-party
@@ -444,6 +458,7 @@
 ||preitem.wshareit.com^$third-party
 ||preview.pardot.com^$third-party
 ||privy.com^$third-party
+||pscp.tv^$third-party
 ||pushassist.com^$third-party
 ||pushengage.com^$third-party
 ||pushowl.com^$third-party
@@ -569,6 +584,9 @@
 ||track-eu1.hubspot.com^$third-party
 ||tracking.hubspot.com^$third-party
 ||truepush.com^$third-party
+||truthsocial.com^$third-party
+||twimg.com^$third-party
+||twitter.jp^$third-party
 ||uefa.pushwoosh.com^$third-party
 ||uk.marketo.com^$third-party
 ||unbounce.com^$third-party
@@ -583,7 +601,9 @@
 ||videoly.co^$third-party
 ||vimeocdn.com^$third-party
 ||vk.com^$third-party
+||vkcache.com^$third-party
 ||vkontakte.ru^$third-party
+||vkuservideo.net^$third-party
 ||w.sharethis.com^$third-party
 ||w.uptolike.com^$third-party
 ||wahacondrax.iad-03.braze.com^$third-party
@@ -634,6 +654,7 @@
 ||www.marketo.com^$third-party
 ||www2.pardot.com^$third-party
 ||www3.addthis.com^$third-party
+||wwwfacebook.com^$third-party
 ||x.dlx.addthis.com^$third-party
 ||xing-share.com^$third-party
 ||yandex.net^$third-party

@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization",
   "version": "2026-04-28",
-  "generated": "2026-04-28T06:17:36.071Z",
+  "generated": "2026-04-28T21:08:00.859Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -25,6 +25,7 @@
     "celebrus.com",
     "certona.com",
     "certona.net",
+    "clearbit.com",
     "counter.personyze.com",
     "crwdcntrl.net",
     "cuebiq.com",
@@ -88,7 +89,7 @@
     "useinsider.com",
     "zeotap.com"
   ],
-  "domain_count": 81,
+  "domain_count": 82,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",

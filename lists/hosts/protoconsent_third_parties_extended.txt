@@ -1,8 +1,8 @@
 # Title: ProtoConsent Third Parties Extended
 # Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 # Version: 2026-04-28
-# Last modified: 2026-04-28T06:17:36.071Z
-# Entries: 633
+# Last modified: 2026-04-28T21:08:00.859Z
+# Entries: 654
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -10,6 +10,7 @@
 0.0.0.0 06cfa-f8925.api.pushwoosh.com
 0.0.0.0 08b03-2059a.api.pushwoosh.com
 0.0.0.0 0ce3c-1fd43.api.pushwoosh.com
+0.0.0.0 0edfc-c4900.api.pushwoosh.com
 0.0.0.0 13cfb-2f770.api.pushwoosh.com
 0.0.0.0 1e2f6-98f50.api.pushwoosh.com
 0.0.0.0 247bc-1324b.api.pushwoosh.com
@@ -113,6 +114,7 @@
 0.0.0.0 app-abd.marketo.com
 0.0.0.0 app-abj.marketo.com
 0.0.0.0 app-abk.marketo.com
+0.0.0.0 app-abm.marketo.com
 0.0.0.0 app-abq.marketo.com
 0.0.0.0 app-e.marketo.com
 0.0.0.0 app-lon02.marketo.com
@@ -249,6 +251,7 @@
 0.0.0.0 daviik.iad-03.braze.com
 0.0.0.0 dbs.pushwoosh.com
 0.0.0.0 de.marketo.com
+0.0.0.0 delvenetworks.com
 0.0.0.0 demandbase.com
 0.0.0.0 disqus.com
 0.0.0.0 dlx.addthis.com
@@ -272,8 +275,13 @@
 0.0.0.0 event.api.drift.com
 0.0.0.0 event.wondershare.com
 0.0.0.0 events.marketo.com
+0.0.0.0 facebgook.com
+0.0.0.0 faceboak.com
+0.0.0.0 facebooik.com
+0.0.0.0 facedbook.com
 0.0.0.0 fairfaxmedia.sharedcount.com
 0.0.0.0 fast.a.klaviyo.com
+0.0.0.0 fbthirdpartypixel.com
 0.0.0.0 filamentapp.s3.amazonaws.com
 0.0.0.0 firepush.com
 0.0.0.0 flowplayer.org
@@ -282,6 +290,7 @@
 0.0.0.0 fr.marketo.com
 0.0.0.0 fra-01.braze.eu
 0.0.0.0 fra-02.braze.eu
+0.0.0.0 freebasics.com
 0.0.0.0 freshchat.com
 0.0.0.0 freshmarketer.com
 0.0.0.0 friends2follow.com
@@ -316,6 +325,7 @@
 0.0.0.0 iad-08.braze.com
 0.0.0.0 ibilisk.iad-01.braze.com
 0.0.0.0 ibis.iad-03.braze.com
+0.0.0.0 igsonar.com
 0.0.0.0 images.response.demandbase.com
 0.0.0.0 inari.iad-03.braze.com
 0.0.0.0 indus.iad-01.braze.com
@@ -380,6 +390,8 @@
 0.0.0.0 metrics-fe-na2.hubspot.com
 0.0.0.0 metrics.api.drift.com
 0.0.0.0 micro.marketo.com
+0.0.0.0 mixi.co.jp
+0.0.0.0 mixi.jp
 0.0.0.0 mktg.feedbacknow.com
 0.0.0.0 mobile-campaigns.avast.com
 0.0.0.0 moosend.com
@@ -408,6 +420,8 @@
 0.0.0.0 ns1.marketo.com
 0.0.0.0 nwidget.networkedblogs.com
 0.0.0.0 o.addthis.com
+0.0.0.0 odnoklassniki.ru
+0.0.0.0 ok.ru
 0.0.0.0 okendo.io
 0.0.0.0 olark.com
 0.0.0.0 omnisend.com
@@ -443,6 +457,7 @@
 0.0.0.0 preitem.wshareit.com
 0.0.0.0 preview.pardot.com
 0.0.0.0 privy.com
+0.0.0.0 pscp.tv
 0.0.0.0 pushassist.com
 0.0.0.0 pushengage.com
 0.0.0.0 pushowl.com
@@ -568,6 +583,9 @@
 0.0.0.0 track-eu1.hubspot.com
 0.0.0.0 tracking.hubspot.com
 0.0.0.0 truepush.com
+0.0.0.0 truthsocial.com
+0.0.0.0 twimg.com
+0.0.0.0 twitter.jp
 0.0.0.0 uefa.pushwoosh.com
 0.0.0.0 uk.marketo.com
 0.0.0.0 unbounce.com
@@ -582,7 +600,9 @@
 0.0.0.0 videoly.co
 0.0.0.0 vimeocdn.com
 0.0.0.0 vk.com
+0.0.0.0 vkcache.com
 0.0.0.0 vkontakte.ru
+0.0.0.0 vkuservideo.net
 0.0.0.0 w.sharethis.com
 0.0.0.0 w.uptolike.com
 0.0.0.0 wahacondrax.iad-03.braze.com
@@ -633,6 +653,7 @@
 0.0.0.0 www.marketo.com
 0.0.0.0 www2.pardot.com
 0.0.0.0 www3.addthis.com
+0.0.0.0 wwwfacebook.com
 0.0.0.0 x.dlx.addthis.com
 0.0.0.0 xing-share.com
 0.0.0.0 yandex.net

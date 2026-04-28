@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-04-28T06:17:36.071Z
+! Last modified: 2026-04-28T21:08:00.859Z
 ! Format: AdGuard
-! Entries: 5748
+! Entries: 5759
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -337,7 +337,6 @@
 ||analytics.castel.jp^$third-party
 ||analytics.cdn.live^$third-party
 ||analytics.ceneo.pl^$third-party
-||analytics.chase.com^$third-party
 ||analytics.chegg.com^$third-party
 ||analytics.churnzero.net^$third-party
 ||analytics.cincopa.com^$third-party
@@ -410,7 +409,6 @@
 ||analytics.global.sky.com^$third-party
 ||analytics.google.com^$third-party
 ||analytics.gooogol.com^$third-party
-||analytics.greenmountainenergy.com^$third-party
 ||analytics.groupe-seb.com^$third-party
 ||analytics.growthphysics.com^$third-party
 ||analytics.gtechgroup.it^$third-party
@@ -1030,6 +1028,7 @@
 ||clevertap-prod.com^$third-party
 ||clgserv.pro^$third-party
 ||click-performance.assets.rndtech.de^$third-party
+||click-url.com^$third-party
 ||click.appinthestore.com^$third-party
 ||click.bokecc.com^$third-party
 ||click.kataweb.it^$third-party
@@ -1147,6 +1146,7 @@
 ||collector.dgnet.ltd.uk^$third-party
 ||collector.ex.co^$third-party
 ||collector.fiverr.com^$third-party
+||collector.fullxh.com^$third-party
 ||collector.getyourguide.com^$third-party
 ||collector.github.com^$third-party
 ||collector.githubapp.com^$third-party
@@ -1535,7 +1535,6 @@
 ||dmp.citynews.ovh^$third-party
 ||dmpcdn.el-mundo.net^$third-party
 ||dmpmetrics.rcsmetrics.it^$third-party
-||dmpprof.com^$third-party
 ||dmw2pzbenclyd.cloudfront.net^$third-party
 ||dmxhgf4zuwdvu.cloudfront.net^$third-party
 ||dn34cbtcv9mef.cloudfront.net^$third-party
@@ -1945,9 +1944,12 @@
 ||goadservices.com^$third-party
 ||goat.tailspace.net^$third-party
 ||godpvqnszo.com^$third-party
+||google-analytics-cn.com^$third-party
 ||google-analytics.bi.owox.com^$third-party
 ||google-analytics.com^$third-party
+||googleoptimize-cn.com^$third-party
 ||googleoptimize.com^$third-party
+||googletagmanager-cn.com^$third-party
 ||gooo.al^$third-party
 ||gopjn.com^$third-party
 ||goprediction.com^$third-party
@@ -2100,7 +2102,6 @@
 ||indicative.com^$third-party
 ||infinity-tracking.net^$third-party
 ||infinityid.condenastdigital.com^$third-party
-||info.osufoundation.org^$third-party
 ||informer.yandex.ru^$third-party
 ||informers.sinoptik.ua^$third-party
 ||infostroy.nnov.ru^$third-party
@@ -2166,6 +2167,7 @@
 ||javascriptcounter.appspot.com^$third-party
 ||jiankongbao.com^$third-party
 ||jirafe.com^$third-party
+||jivosite.com^$third-party
 ||jly24aw29n5m-a.akamaihd.net^$third-party
 ||js-agent.newrelic.com^$third-party
 ||js-collector.icewood.net^$third-party
@@ -2517,7 +2519,6 @@
 ||mcs.tiktokw.us^$third-party
 ||mcs.zijieapi.com^$third-party
 ||mdstats.info^$third-party
-||measure.chase.com^$third-party
 ||measure.pti.com.vn^$third-party
 ||measure.vndirect.com.vn^$third-party
 ||measurementapi.com^$third-party
@@ -2656,6 +2657,7 @@
 ||metrics.pico.tools^$third-party
 ||metrics.politico.com^$third-party
 ||metrics.post-gazette.com^$third-party
+||metrics.postoffice.co.uk^$third-party
 ||metrics.ralphlauren.com^$third-party
 ||metrics.rapidedge.io^$third-party
 ||metrics.royalmail.com^$third-party
@@ -3398,6 +3400,7 @@
 ||say.ac^$third-party
 ||sayyac.net^$third-party
 ||sbeacon.sina.com.cn^$third-party
+||sbermarketing.ru^$third-party
 ||sc.sc-analytics.jp^$third-party
 ||sc.vmware.com^$third-party
 ||scarcesign.com^$third-party
@@ -3446,6 +3449,7 @@
 ||segment.io^$third-party
 ||segment.lalr.co^$third-party
 ||segmentapis.com^$third-party
+||segmenthub.com^$third-party
 ||segmentor.snowfox-ai.com^$third-party
 ||segments.adap.tv^$third-party
 ||selfcampaign.com^$third-party
@@ -3564,11 +3568,12 @@
 ||smetrics.atresplayer.com^$third-party
 ||smetrics.att.com^$third-party
 ||smetrics.autodesk.com^$third-party
+||smetrics.avalara.com^$third-party
 ||smetrics.avnet.com^$third-party
-||smetrics.bankofamerica.com^$third-party
 ||smetrics.bbb.org^$third-party
 ||smetrics.bbva.es^$third-party
 ||smetrics.bbva.mx^$third-party
+||smetrics.bcbsm.com^$third-party
 ||smetrics.beatsbydre.com^$third-party
 ||smetrics.binge.com.au^$third-party
 ||smetrics.bmc.com^$third-party
@@ -3610,6 +3615,7 @@
 ||smetrics.elsevier.com^$third-party
 ||smetrics.enelenergia.it^$third-party
 ||smetrics.enterprise.com^$third-party
+||smetrics.eversource.com^$third-party
 ||smetrics.express-scripts.com^$third-party
 ||smetrics.ey.com^$third-party
 ||smetrics.farnell.com^$third-party
@@ -3649,6 +3655,7 @@
 ||smetrics.legalandgeneral.com^$third-party
 ||smetrics.los40.com^$third-party
 ||smetrics.lululemon.com^$third-party
+||smetrics.manheim.com^$third-party
 ||smetrics.marcus.com^$third-party
 ||smetrics.marketing.philips-hue.com^$third-party
 ||smetrics.marksandspencer.com^$third-party
@@ -3715,6 +3722,7 @@
 ||smetrics.staplesadvantage.com^$third-party
 ||smetrics.statefarm.com^$third-party
 ||smetrics.suncorp.com.au^$third-party
+||smetrics.superiorhealthplan.com^$third-party
 ||smetrics.te.com^$third-party
 ||smetrics.telegraph.co.uk^$third-party
 ||smetrics.tesco.com^$third-party
@@ -3906,7 +3914,6 @@
 ||statistics.klicktel.de^$third-party
 ||statistics.rbi-nl.com^$third-party
 ||statistics.tattermedia.com^$third-party
-||statistics.wibiya.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
 ||statistik.simaja.de^$third-party
@@ -4110,6 +4117,7 @@
 ||stroeerdigitalmedia.de^$third-party
 ||stupendoussleet.com^$third-party
 ||sub2tech.com^$third-party
+||success.act-on.com^$third-party
 ||sugar.zhihu.com^$third-party
 ||sugs.m.sm.cn^$third-party
 ||summerhamster.com^$third-party
@@ -4124,6 +4132,7 @@
 ||svtrd.com^$third-party
 ||sw88.abc.com^$third-party
 ||sweb.ulta.com^$third-party
+||swebanalytics.acs.org^$third-party
 ||swordgoose.com^$third-party
 ||sy.ameba.jp^$third-party
 ||sync.adap.tv^$third-party
@@ -4396,6 +4405,7 @@
 ||trace.bluemonkey.jp^$third-party
 ||trace.qq.com^$third-party
 ||trace.swaven.com^$third-party
+||tracemyip.org^$third-party
 ||track-dark-bz.b-cdn.net^$third-party
 ||track-srv.vietnamnet.vn^$third-party
 ||track.91app.io^$third-party
@@ -5087,6 +5097,7 @@
 ||whiteclick.biz^$third-party
 ||whoisvisiting.com^$third-party
 ||wholituaten.com^$third-party
+||wibiya.com^$third-party
 ||widerplanet.com^$third-party
 ||widget.educationdynamics.com^$third-party
 ||wikia-beacon.com^$third-party

@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-04-28T06:17:36.071Z
+! Last modified: 2026-04-28T21:08:00.859Z
 ! Format: AdGuard
-! Entries: 34238
+! Entries: 34248
 !
 ||0.myikas.com^$third-party
 ||0.net.easyjet.com^$third-party
@@ -2701,7 +2701,6 @@
 ||analytics.certifriedit.com^$third-party
 ||analytics.ceu.com^$third-party
 ||analytics.changiairport.com^$third-party
-||analytics.chase.com^$third-party
 ||analytics.chegg.com^$third-party
 ||analytics.chilevision.cl^$third-party
 ||analytics.churchthemes.com^$third-party
@@ -2865,7 +2864,6 @@
 ||analytics.gorillanation.com^$third-party
 ||analytics.grape.media^$third-party
 ||analytics.greenmountain.com^$third-party
-||analytics.greenmountainenergy.com^$third-party
 ||analytics.greensender.pl^$third-party
 ||analytics.groupe-seb.com^$third-party
 ||analytics.growthphysics.com^$third-party
@@ -4616,6 +4614,7 @@
 ||beacon.gutefrage.net^$third-party
 ||beacon.klm.com^$third-party
 ||beacon.kmi-us.com^$third-party
+||beacon.lycos.com^$third-party
 ||beacon.my.salesforce.com^$third-party
 ||beacon.nc-net.or.jp^$third-party
 ||beacon.necotracks.jp^$third-party
@@ -5888,6 +5887,7 @@
 ||collector.sspinc.io^$third-party
 ||collector.stunvv.com^$third-party
 ||collector.superwall.me^$third-party
+||collector.szlcsc.com^$third-party
 ||collector.t-idr.com^$third-party
 ||collector.taoxh.life^$third-party
 ||collector.theconversation.com^$third-party
@@ -7767,6 +7767,7 @@
 ||direct-collect.dy-api.eu^$third-party
 ||directavenue.tech^$third-party
 ||directcounter.de^$third-party
+||directcrm.ru^$third-party
 ||discover-metrics.cloud.seek.com.au^$third-party
 ||discover-path.com^$third-party
 ||discover.absciex.com^$third-party
@@ -7852,7 +7853,6 @@
 ||dmpcdn.el-mundo.net^$third-party
 ||dmpcounter.com^$third-party
 ||dmpmetrics.rcsmetrics.it^$third-party
-||dmpprof.com^$third-party
 ||dmtag.jp^$third-party
 ||dmtgo.upc.biz^$third-party
 ||dmuwlm.fonteynspas.com^$third-party
@@ -10351,6 +10351,7 @@
 ||goprediction.com^$third-party
 ||gosquared.com^$third-party
 ||gostat.3g.cn^$third-party
+||gostats.cn^$third-party
 ||gostats.com^$third-party
 ||gostats.de^$third-party
 ||gostats.org^$third-party
@@ -10933,6 +10934,7 @@
 ||iesbpm.novasol.dk^$third-party
 ||ievdpg.humanscale.com^$third-party
 ||ifacelog.iqiyi.com^$third-party
+||ifactz.com^$third-party
 ||iffalh.y-aoyama.jp^$third-party
 ||ifi-trk.informa.com^$third-party
 ||ifkzro.llbean.co.jp^$third-party
@@ -11868,7 +11870,6 @@
 ||info.ohlogistics.com^$third-party
 ||info.onlinetech.com^$third-party
 ||info.osiriseducational.co.uk^$third-party
-||info.osufoundation.org^$third-party
 ||info.parivedasolutions.com^$third-party
 ||info.patientwise.com^$third-party
 ||info.paydashboardinfo.com^$third-party
@@ -13097,6 +13098,7 @@
 ||lighterthinnerstronger.fiber-line.com^$third-party
 ||lightstep.medium.systems^$third-party
 ||likemore-go.imgsmail.ru^$third-party
+||limelight.com^$third-party
 ||limone.iltrovatore.it^$third-party
 ||line-apps.com^$third-party
 ||line-scdn.net^$third-party
@@ -15335,7 +15337,6 @@
 ||me.coact.org.au^$third-party
 ||me.sigsauer.com^$third-party
 ||measure.ameblo.jp^$third-party
-||measure.chase.com^$third-party
 ||measure.ly^$third-party
 ||measure.pti.com.vn^$third-party
 ||measure.refinery89.com^$third-party
@@ -15729,7 +15730,6 @@
 ||metrics.bananarepublic.eu^$third-party
 ||metrics.bangbros.com^$third-party
 ||metrics.bankatfirst.com^$third-party
-||metrics.bankofamerica.com^$third-party
 ||metrics.banksa.com.au^$third-party
 ||metrics.bankwest.com.au^$third-party
 ||metrics.barclaycardus.com^$third-party
@@ -16437,6 +16437,7 @@
 ||metrics.polivy.com^$third-party
 ||metrics.popularwoodworking.com^$third-party
 ||metrics.post-gazette.com^$third-party
+||metrics.postoffice.co.uk^$third-party
 ||metrics.powerreviews.com^$third-party
 ||metrics.prd.base.be^$third-party
 ||metrics.prd.telenet.be^$third-party
@@ -17375,6 +17376,7 @@
 ||ncxxek.donedeal.ie^$third-party
 ||nczils.pristineauction.com^$third-party
 ||ndcywq.ullapopken.fr^$third-party
+||ndg.io^$third-party
 ||ndgrlo.visiondirect.com.au^$third-party
 ||ndi.nuance.com^$third-party
 ||ndroyp.gettingpersonal.co.uk^$third-party
@@ -17615,6 +17617,7 @@
 ||nom.lds.org^$third-party
 ||non.li^$third-party
 ||noodle.backmarket.io^$third-party
+||noowho.com^$third-party
 ||nordicresearch.com^$third-party
 ||norsk-medisinaldepot21.over-blog.com^$third-party
 ||northstartravelmedia.com^$third-party
@@ -18796,6 +18799,7 @@
 ||plans.ceteraretirement.com^$third-party
 ||plans.fundtherebuild.com^$third-party
 ||plas.imfeld.dev^$third-party
+||platform-api.newrelic.com^$third-party
 ||platform.iteratehq.com^$third-party
 ||platformpanda.com^$third-party
 ||plau.caisy.io^$third-party
@@ -22180,6 +22184,7 @@
 ||smetrics.automobilwoche.de^$third-party
 ||smetrics.autonews.com^$third-party
 ||smetrics.autotrader.com^$third-party
+||smetrics.avalara.com^$third-party
 ||smetrics.avancesenrespiratorio.com^$third-party
 ||smetrics.avastin-hcp.com^$third-party
 ||smetrics.avastin.com^$third-party
@@ -22210,7 +22215,6 @@
 ||smetrics.bankatfirst.com^$third-party
 ||smetrics.bankaustria.at^$third-party
 ||smetrics.bankinter.com^$third-party
-||smetrics.bankofamerica.com^$third-party
 ||smetrics.bankofmelbourne.com.au^$third-party
 ||smetrics.banksa.com.au^$third-party
 ||smetrics.bankwest.com.au^$third-party
@@ -22259,6 +22263,7 @@
 ||smetrics.bbvaresearch.com^$third-party
 ||smetrics.bbvaseguros.mx^$third-party
 ||smetrics.bcbsks.com^$third-party
+||smetrics.bcbsm.com^$third-party
 ||smetrics.bcbsnc.com^$third-party
 ||smetrics.bcbsnd.com^$third-party
 ||smetrics.bd.dk^$third-party
@@ -22769,6 +22774,7 @@
 ||smetrics.europafm.com^$third-party
 ||smetrics.eurowings.com^$third-party
 ||smetrics.evernorth.com^$third-party
+||smetrics.eversource.com^$third-party
 ||smetrics.evicore.com^$third-party
 ||smetrics.evine.com^$third-party
 ||smetrics.evivanlanschot.nl^$third-party
@@ -23317,6 +23323,7 @@
 ||smetrics.mandatumam.com^$third-party
 ||smetrics.mandatumlife.fi^$third-party
 ||smetrics.mandg.com^$third-party
+||smetrics.manheim.com^$third-party
 ||smetrics.mann-filter.com^$third-party
 ||smetrics.mann-hummel.com^$third-party
 ||smetrics.maplesoft.com^$third-party
@@ -23430,7 +23437,6 @@
 ||smetrics.melanom-wissen.ch^$third-party
 ||smetrics.memberdeals.com^$third-party
 ||smetrics.members.co.jp^$third-party
-||smetrics.merch.bankofamerica.com^$third-party
 ||smetrics.mercola.com^$third-party
 ||smetrics.mercolamarket.com^$third-party
 ||smetrics.mercy.net^$third-party
@@ -24305,6 +24311,7 @@
 ||smetrics.super8.com^$third-party
 ||smetrics.super99.com^$third-party
 ||smetrics.superfleet.net^$third-party
+||smetrics.superiorhealthplan.com^$third-party
 ||smetrics.supermarketnews.com^$third-party
 ||smetrics.suppliesguys.com^$third-party
 ||smetrics.sustainableplastics.com^$third-party
@@ -25733,6 +25740,7 @@
 ||staging-pt.ispot.tv^$third-party
 ||stalkoda.com^$third-party
 ||stan.xing.com^$third-party
+||stape.brascast.com^$third-party
 ||stapecdn.com^$third-party
 ||star-cntr-5.com^$third-party
 ||starget.aircanada.com^$third-party
@@ -26008,7 +26016,6 @@
 ||statistics.tattermedia.com^$third-party
 ||statistics.tuv.com^$third-party
 ||statistics.werkenntdenbesten.de^$third-party
-||statistics.wibiya.com^$third-party
 ||statisticsplatform.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
@@ -27216,6 +27223,7 @@
 ||swasc.thecompanystore.com^$third-party
 ||swdced.open32.nl^$third-party
 ||sweb.ulta.com^$third-party
+||swebanalytics.acs.org^$third-party
 ||swebanalytics.degulesider.dk^$third-party
 ||swebanalytics.gulesider.no^$third-party
 ||swebanalytics.krak.dk^$third-party
@@ -27447,6 +27455,7 @@
 ||t.chartwayarena.com^$third-party
 ||t.cincinnatiarts.org^$third-party
 ||t.classiccenter.com^$third-party
+||t.clic2buy.com^$third-party
 ||t.cofcsports.com^$third-party
 ||t.collectiveaudience.co^$third-party
 ||t.collinscenterforthearts.com^$third-party
@@ -30043,6 +30052,7 @@
 ||trackersimulator.org^$third-party
 ||trackertest.org^$third-party
 ||trackfeed.com^$third-party
+||trackhorizon.nnmtools.com^$third-party
 ||trackicollect.ibase.fr^$third-party
 ||trackid.globoid.globo.com^$third-party
 ||trackier.com^$third-party

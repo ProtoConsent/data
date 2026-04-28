@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 # Version: 2026-04-28
-# Last modified: 2026-04-28T06:17:36.071Z
-# Entries: 5189
+# Last modified: 2026-04-28T21:08:00.859Z
+# Entries: 5200
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -337,7 +337,6 @@
 0.0.0.0 analytics.castel.jp
 0.0.0.0 analytics.cdn.live
 0.0.0.0 analytics.ceneo.pl
-0.0.0.0 analytics.chase.com
 0.0.0.0 analytics.chegg.com
 0.0.0.0 analytics.churnzero.net
 0.0.0.0 analytics.cincopa.com
@@ -410,7 +409,6 @@
 0.0.0.0 analytics.global.sky.com
 0.0.0.0 analytics.google.com
 0.0.0.0 analytics.gooogol.com
-0.0.0.0 analytics.greenmountainenergy.com
 0.0.0.0 analytics.groupe-seb.com
 0.0.0.0 analytics.growthphysics.com
 0.0.0.0 analytics.gtechgroup.it
@@ -1030,6 +1028,7 @@
 0.0.0.0 clevertap-prod.com
 0.0.0.0 clgserv.pro
 0.0.0.0 click-performance.assets.rndtech.de
+0.0.0.0 click-url.com
 0.0.0.0 click.appinthestore.com
 0.0.0.0 click.bokecc.com
 0.0.0.0 click.kataweb.it
@@ -1147,6 +1146,7 @@
 0.0.0.0 collector.dgnet.ltd.uk
 0.0.0.0 collector.ex.co
 0.0.0.0 collector.fiverr.com
+0.0.0.0 collector.fullxh.com
 0.0.0.0 collector.getyourguide.com
 0.0.0.0 collector.github.com
 0.0.0.0 collector.githubapp.com
@@ -1535,7 +1535,6 @@
 0.0.0.0 dmp.citynews.ovh
 0.0.0.0 dmpcdn.el-mundo.net
 0.0.0.0 dmpmetrics.rcsmetrics.it
-0.0.0.0 dmpprof.com
 0.0.0.0 dmw2pzbenclyd.cloudfront.net
 0.0.0.0 dmxhgf4zuwdvu.cloudfront.net
 0.0.0.0 dn34cbtcv9mef.cloudfront.net
@@ -1945,9 +1944,12 @@
 0.0.0.0 goadservices.com
 0.0.0.0 goat.tailspace.net
 0.0.0.0 godpvqnszo.com
+0.0.0.0 google-analytics-cn.com
 0.0.0.0 google-analytics.bi.owox.com
 0.0.0.0 google-analytics.com
+0.0.0.0 googleoptimize-cn.com
 0.0.0.0 googleoptimize.com
+0.0.0.0 googletagmanager-cn.com
 0.0.0.0 gooo.al
 0.0.0.0 gopjn.com
 0.0.0.0 goprediction.com
@@ -2100,7 +2102,6 @@
 0.0.0.0 indicative.com
 0.0.0.0 infinity-tracking.net
 0.0.0.0 infinityid.condenastdigital.com
-0.0.0.0 info.osufoundation.org
 0.0.0.0 informer.yandex.ru
 0.0.0.0 informers.sinoptik.ua
 0.0.0.0 infostroy.nnov.ru
@@ -2166,6 +2167,7 @@
 0.0.0.0 javascriptcounter.appspot.com
 0.0.0.0 jiankongbao.com
 0.0.0.0 jirafe.com
+0.0.0.0 jivosite.com
 0.0.0.0 jly24aw29n5m-a.akamaihd.net
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js-collector.icewood.net
@@ -2517,7 +2519,6 @@
 0.0.0.0 mcs.tiktokw.us
 0.0.0.0 mcs.zijieapi.com
 0.0.0.0 mdstats.info
-0.0.0.0 measure.chase.com
 0.0.0.0 measure.pti.com.vn
 0.0.0.0 measure.vndirect.com.vn
 0.0.0.0 measurementapi.com
@@ -2656,6 +2657,7 @@
 0.0.0.0 metrics.pico.tools
 0.0.0.0 metrics.politico.com
 0.0.0.0 metrics.post-gazette.com
+0.0.0.0 metrics.postoffice.co.uk
 0.0.0.0 metrics.ralphlauren.com
 0.0.0.0 metrics.rapidedge.io
 0.0.0.0 metrics.royalmail.com
@@ -3398,6 +3400,7 @@
 0.0.0.0 say.ac
 0.0.0.0 sayyac.net
 0.0.0.0 sbeacon.sina.com.cn
+0.0.0.0 sbermarketing.ru
 0.0.0.0 sc.sc-analytics.jp
 0.0.0.0 sc.vmware.com
 0.0.0.0 scarcesign.com
@@ -3446,6 +3449,7 @@
 0.0.0.0 segment.io
 0.0.0.0 segment.lalr.co
 0.0.0.0 segmentapis.com
+0.0.0.0 segmenthub.com
 0.0.0.0 segmentor.snowfox-ai.com
 0.0.0.0 segments.adap.tv
 0.0.0.0 selfcampaign.com
@@ -3564,11 +3568,12 @@
 0.0.0.0 smetrics.atresplayer.com
 0.0.0.0 smetrics.att.com
 0.0.0.0 smetrics.autodesk.com
+0.0.0.0 smetrics.avalara.com
 0.0.0.0 smetrics.avnet.com
-0.0.0.0 smetrics.bankofamerica.com
 0.0.0.0 smetrics.bbb.org
 0.0.0.0 smetrics.bbva.es
 0.0.0.0 smetrics.bbva.mx
+0.0.0.0 smetrics.bcbsm.com
 0.0.0.0 smetrics.beatsbydre.com
 0.0.0.0 smetrics.binge.com.au
 0.0.0.0 smetrics.bmc.com
@@ -3610,6 +3615,7 @@
 0.0.0.0 smetrics.elsevier.com
 0.0.0.0 smetrics.enelenergia.it
 0.0.0.0 smetrics.enterprise.com
+0.0.0.0 smetrics.eversource.com
 0.0.0.0 smetrics.express-scripts.com
 0.0.0.0 smetrics.ey.com
 0.0.0.0 smetrics.farnell.com
@@ -3649,6 +3655,7 @@
 0.0.0.0 smetrics.legalandgeneral.com
 0.0.0.0 smetrics.los40.com
 0.0.0.0 smetrics.lululemon.com
+0.0.0.0 smetrics.manheim.com
 0.0.0.0 smetrics.marcus.com
 0.0.0.0 smetrics.marketing.philips-hue.com
 0.0.0.0 smetrics.marksandspencer.com
@@ -3715,6 +3722,7 @@
 0.0.0.0 smetrics.staplesadvantage.com
 0.0.0.0 smetrics.statefarm.com
 0.0.0.0 smetrics.suncorp.com.au
+0.0.0.0 smetrics.superiorhealthplan.com
 0.0.0.0 smetrics.te.com
 0.0.0.0 smetrics.telegraph.co.uk
 0.0.0.0 smetrics.tesco.com
@@ -3906,7 +3914,6 @@
 0.0.0.0 statistics.klicktel.de
 0.0.0.0 statistics.rbi-nl.com
 0.0.0.0 statistics.tattermedia.com
-0.0.0.0 statistics.wibiya.com
 0.0.0.0 statistiek.rijksoverheid.nl
 0.0.0.0 statistik-gallup.net
 0.0.0.0 statistik.simaja.de
@@ -4110,6 +4117,7 @@
 0.0.0.0 stroeerdigitalmedia.de
 0.0.0.0 stupendoussleet.com
 0.0.0.0 sub2tech.com
+0.0.0.0 success.act-on.com
 0.0.0.0 sugar.zhihu.com
 0.0.0.0 sugs.m.sm.cn
 0.0.0.0 summerhamster.com
@@ -4124,6 +4132,7 @@
 0.0.0.0 svtrd.com
 0.0.0.0 sw88.abc.com
 0.0.0.0 sweb.ulta.com
+0.0.0.0 swebanalytics.acs.org
 0.0.0.0 swordgoose.com
 0.0.0.0 sy.ameba.jp
 0.0.0.0 sync.adap.tv
@@ -4396,6 +4405,7 @@
 0.0.0.0 trace.bluemonkey.jp
 0.0.0.0 trace.qq.com
 0.0.0.0 trace.swaven.com
+0.0.0.0 tracemyip.org
 0.0.0.0 track-dark-bz.b-cdn.net
 0.0.0.0 track-srv.vietnamnet.vn
 0.0.0.0 track.91app.io
@@ -5087,6 +5097,7 @@
 0.0.0.0 whiteclick.biz
 0.0.0.0 whoisvisiting.com
 0.0.0.0 wholituaten.com
+0.0.0.0 wibiya.com
 0.0.0.0 widerplanet.com
 0.0.0.0 widget.educationdynamics.com
 0.0.0.0 wikia-beacon.com
