@@ -2,9 +2,9 @@
 ! Description: Full merged blocklist covering ads, analytics, personalization, third-party services, and advanced tracking (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-04-28T21:08:00.859Z
+! Last modified: 2026-04-28T21:38:11.821Z
 ! Format: AdGuard
-! Entries: 53491
+! Entries: 53419
 !
 ||0.myikas.com^$third-party
 ||000491b06a.com^$third-party
@@ -201,7 +201,6 @@
 ||1fd27fc99f.com^$third-party
 ||1fd92n6t8.de^$third-party
 ||1fwjpdwguvqs.com^$third-party
-||1g-profitsystem.com^$third-party
 ||1g46ls536.de^$third-party
 ||1gbjadpsq.de^$third-party
 ||1hkmr7jb0.de^$third-party
@@ -2161,6 +2160,7 @@
 ||adknowledge.com^$third-party
 ||adkontekst.pl^$third-party
 ||adkora.com^$third-party
+||adkwai.com^$third-party
 ||adl.mynetreklam.com^$third-party
 ||adlabs.ru^$third-party
 ||adlabsnetworks.com^$third-party
@@ -3838,7 +3838,6 @@
 ||agatarainpro.com^$third-party
 ||agathisdented.com^$third-party
 ||agattlaidvkmm.website^$third-party
-||agavecoin.io^$third-party
 ||agbfgatnhzdeb.online^$third-party
 ||agcdn.com^$third-party
 ||agcrkzkydt.com^$third-party
@@ -4330,7 +4329,6 @@
 ||alsowhirl.com^$third-party
 ||alt-ad.mail.ru^$third-party
 ||altcoin.care^$third-party
-||altcoinwealthpro.com^$third-party
 ||altema-log.com^$third-party
 ||alterassumeaggravate.com^$third-party
 ||alternatelicking.com^$third-party
@@ -4340,9 +4338,6 @@
 ||altitude-arena.com^$third-party
 ||altjtyjw.in^$third-party
 ||altpool.pro^$third-party
-||altrix-edge.com^$third-party
-||altrix-edge.org^$third-party
-||altrixprime.org^$third-party
 ||altruistic-departure.com^$third-party
 ||altruisticemergency.com^$third-party
 ||altynamoan.com^$third-party
@@ -4648,6 +4643,7 @@
 ||analytics.castel.jp^$third-party
 ||analytics.cdn.live^$third-party
 ||analytics.ceneo.pl^$third-party
+||analytics.chase.com^$third-party
 ||analytics.chegg.com^$third-party
 ||analytics.churnzero.net^$third-party
 ||analytics.cincopa.com^$third-party
@@ -5989,7 +5985,6 @@
 ||atkoxjrndvsct.online^$third-party
 ||atlas-upd.com^$third-party
 ||atlas1.krone.at^$third-party
-||atlasquantum.com^$third-party
 ||atlassolutions.com^$third-party
 ||atlastwo.com^$third-party
 ||atmalinks.com^$third-party
@@ -7066,6 +7061,7 @@
 ||beieiq.com^$third-party
 ||beigedevotedcockpit.com^$third-party
 ||beigestmesis.cyou^$third-party
+||beizi.biz^$third-party
 ||bejpjqutqwkll.com^$third-party
 ||bejwponulwdwx.online^$third-party
 ||bekpflllvuefn.website^$third-party
@@ -7375,7 +7371,6 @@
 ||bifdfzioylxdu.online^$third-party
 ||bifetfhzyqkgs.site^$third-party
 ||biffingmatina.com^$third-party
-||biffy.ai^$third-party
 ||bifocalacid.com^$third-party
 ||big-bang-ads.com^$third-party
 ||big-brief.com^$third-party
@@ -7471,71 +7466,40 @@
 ||bit-ad.com^$third-party
 ||bit-gpt-app.com^$third-party
 ||bit-gpt-app.org^$third-party
-||bit-indexai.net^$third-party
 ||bit-iq.io^$third-party
-||bit-qt.app^$third-party
-||bit-trader.io^$third-party
 ||bitadexchange.com^$third-party
 ||bitads.net^$third-party
-||bitalpha-ai.com^$third-party
-||bitalpha-ai.io^$third-party
-||bitalpha-ai.org^$third-party
 ||bitbeat7.com^$third-party
-||bitbot-app.com^$third-party
 ||bitclub.network^$third-party
 ||bitclubnetwork.com^$third-party
 ||bitcoadz.io^$third-party
-||bitcode-ai.live^$third-party
-||bitcode-method.me^$third-party
-||bitcodemethods.com^$third-party
-||bitcodes-ai.com^$third-party
 ||bitcoin-360-ai.com^$third-party
 ||bitcoin-360-ai.org^$third-party
-||bitcoin-apex.org^$third-party
 ||bitcoin-bankbreaker.com^$third-party
-||bitcoin-billionaire.com^$third-party
 ||bitcoin-cashcard.com^$third-party
 ||bitcoin-code.app^$third-party
 ||bitcoin-equaliser.com^$third-party
-||bitcoin-evolutionapp.com^$third-party
 ||bitcoin-mastery.app^$third-party
 ||bitcoin-millonario.com^$third-party
 ||bitcoin-motion.cloud^$third-party
-||bitcoin-motion.software^$third-party
-||bitcoin-pro.live^$third-party
 ||bitcoin-profitapp.com^$third-party
 ||bitcoin-revolution.software^$third-party
-||bitcoin-smarter.com^$third-party
 ||bitcoin-sprint.com^$third-party
-||bitcoin-storm.app^$third-party
-||bitcoinprime.software^$third-party
-||bitcoinrush.io^$third-party
-||bitcoins-era.io^$third-party
-||bitcoins-union.com^$third-party
 ||bitcoinscircuit.com^$third-party
 ||bitcoinsmarter.org^$third-party
-||bitcoinsprint.io^$third-party
-||bitcoinsup.org^$third-party
-||bitcoinsystem.app^$third-party
-||bitcointrader2.com^$third-party
 ||bitconnect.co^$third-party
 ||bitdefenderupdate.org^$third-party
 ||biteanxiously.com^$third-party
 ||bitemores.com^$third-party
 ||bitesized-king.com^$third-party
 ||bithow.com^$third-party
-||biti-codes.io^$third-party
-||biticode.org^$third-party
 ||bitindexai.me^$third-party
 ||bitiq.org^$third-party
 ||bitkwwjpgsdnh.space^$third-party
-||bitlq.app^$third-party
 ||bitmedia.io^$third-party
 ||bitmedianetwork.com^$third-party
 ||bitonclick.com^$third-party
 ||bitprime-gold.com^$third-party
-||bitprofit.software^$third-party
-||bitqt-app.com^$third-party
 ||bitseroralize.cyou^$third-party
 ||bittenevenreasoning.com^$third-party
 ||bitter-month.pro^$third-party
@@ -9536,7 +9500,6 @@
 ||cfcwqpwvdtwux.online^$third-party
 ||cfdfasdvrrfnj.online^$third-party
 ||cfdkxhkhrhbo.com^$third-party
-||cfds-trader.com^$third-party
 ||cffa3cb187.com^$third-party
 ||cfg.imtt.qq.com^$third-party
 ||cfgr1.com^$third-party
@@ -9587,7 +9550,6 @@
 ||chademocharge.com^$third-party
 ||chaerel.com^$third-party
 ||chaibsoacmo.com^$third-party
-||chain-reaction-trading.com^$third-party
 ||chainads.io^$third-party
 ||chainconnectivity.com^$third-party
 ||chaindisc.com^$third-party
@@ -11018,7 +10980,6 @@
 ||cor8ni3shwerex.com^$third-party
 ||coralcanarydepend.com^$third-party
 ||coralcranes.com^$third-party
-||coraldex.io^$third-party
 ||coralreverie.com^$third-party
 ||cordbraghare.com^$third-party
 ||cordclck.cc^$third-party
@@ -11612,12 +11573,10 @@
 ||cryptaloot.pro^$third-party
 ||crypto-ads.net^$third-party
 ||crypto-coins.com^$third-party
-||crypto-engineapp.com^$third-party
 ||crypto-loot.com^$third-party
 ||crypto-loot.org^$third-party
 ||crypto-pool.fr^$third-party
 ||crypto-superstar.io^$third-party
-||crypto-trader.cloud^$third-party
 ||crypto-webminer.com^$third-party
 ||cryptoatom.care^$third-party
 ||cryptobara.com^$third-party
@@ -11625,7 +11584,6 @@
 ||cryptobrowser.site^$third-party
 ||cryptobuffet.care^$third-party
 ||cryptocoinsad.com^$third-party
-||cryptodezire.com^$third-party
 ||cryptojimmy.care^$third-party
 ||cryptoloot.pro^$third-party
 ||cryptomaster.care^$third-party
@@ -11633,8 +11591,6 @@
 ||cryptominded.com^$third-party
 ||cryptonewsdom.care^$third-party
 ||cryptonoter.com^$third-party
-||cryptosoft.app^$third-party
-||cryptotrader.software^$third-party
 ||cryptotyc.care^$third-party
 ||cryptto470.com^$third-party
 ||cryrba.com^$third-party
@@ -11709,6 +11665,7 @@
 ||ctnetwork.hu^$third-party
 ||ctnsnet.com^$third-party
 ||ctnzjwecyluvg.online^$third-party
+||ctobsnssdk.com^$third-party
 ||ctosrd.com^$third-party
 ||ctozowsblyidt.website^$third-party
 ||ctp1.xyz^$third-party
@@ -14128,6 +14085,7 @@
 ||dimessing-parker.com^$third-party
 ||dimkfzxyvzhej.website^$third-party
 ||dimmerlingowashable.com^$third-party
+||dimmingtumming.com^$third-party
 ||dimml.io^$third-party
 ||dimmockvanglo.com^$third-party
 ||dimnessslatecosmetic.com^$third-party
@@ -16645,10 +16603,6 @@
 ||ethereallagoon.com^$third-party
 ||ethereum-cashcard.com^$third-party
 ||ethereum-pocket.com^$third-party
-||ethereum-proair.com^$third-party
-||ethereum-trader.app^$third-party
-||ethereum-trader.io^$third-party
-||ethereumcode.app^$third-party
 ||ethfw0370q.com^$third-party
 ||ethicalads.io^$third-party
 ||ethicalfootball.pro^$third-party
@@ -17452,7 +17406,6 @@
 ||fbarhjryimocq.website^$third-party
 ||fbbjzowgnryzw.site^$third-party
 ||fbbkmuul.com^$third-party
-||fbc-edge.com^$third-party
 ||fbcdn.xyz^$third-party
 ||fbcdn2.com^$third-party
 ||fbdata-edt.com^$third-party
@@ -20064,7 +20017,6 @@
 ||gpsdozor-pl.com^$third-party
 ||gpsecureads.com^$third-party
 ||gpsufuqviqkly.online^$third-party
-||gpt-definity.com^$third-party
 ||gpt.milftube.mobi^$third-party
 ||gpt.throatbulge.com^$third-party
 ||gpt.tubetruck.com^$third-party
@@ -20132,7 +20084,6 @@
 ||grandkingdom.com^$third-party
 ||grandshinyinsert.com^$third-party
 ||granify.com^$third-party
-||granimator.com^$third-party
 ||graniterelief.com^$third-party
 ||granlite.com^$third-party
 ||grantdk-1.online^$third-party
@@ -20686,7 +20637,6 @@
 ||hallucinatecognizance.com^$third-party
 ||hallwaysuspendbade.com^$third-party
 ||halocolor.com^$third-party
-||halodex.io^$third-party
 ||halogennetwork.com^$third-party
 ||haltingbadge.com^$third-party
 ||haltingdivision.com^$third-party
@@ -21851,6 +21801,7 @@
 ||hub.com.pl^$third-party
 ||hubailinks.com^$third-party
 ||hubbytelephonedetermine.com^$third-party
+||hubcloud.com.cn^$third-party
 ||hubhc.com^$third-party
 ||hubhubhub.name^$third-party
 ||hublosk.com^$third-party
@@ -22622,29 +22573,14 @@
 ||immaterial-garden.pro^$third-party
 ||immaterial-mother.com^$third-party
 ||immaterialentrance.pro^$third-party
-||immediate-alpha.com^$third-party
 ||immediate-apex.com^$third-party
-||immediate-bitcoin.com^$third-party
-||immediate-code.com^$third-party
 ||immediate-core.com^$third-party
-||immediate-definity-360.io^$third-party
-||immediate-edge.live^$third-party
-||immediate-enigma.org^$third-party
-||immediate-evex.org^$third-party
 ||immediate-experience.com^$third-party
-||immediate-ifex-ai.com^$third-party
 ||immediate-momentum.com^$third-party
-||immediate-profit.de^$third-party
-||immediate-revolution.org^$third-party
-||immediate-thorenext.com^$third-party
-||immediate-wealth.org^$third-party
 ||immediateedge.io^$third-party
 ||immediateequivalentstunning.com^$third-party
-||immediatefuture.io^$third-party
 ||immediategp.org^$third-party
 ||immediatelydoghead.com^$third-party
-||immediatepeak.com^$third-party
-||immediateprofit.app^$third-party
 ||immediatetradepro.com^$third-party
 ||immense-owner.com^$third-party
 ||immense-theme.pro^$third-party
@@ -28915,6 +28851,7 @@
 ||mobtop.ru^$third-party
 ||mobusi.com^$third-party
 ||mobvista.com^$third-party
+||mobwithad.com^$third-party
 ||mobylog.jp^$third-party
 ||mocean.mobi^$third-party
 ||mochiads.com^$third-party
@@ -30200,8 +30137,6 @@
 ||nfrdibffgpxoy.website^$third-party
 ||nfrluoaxmt.com^$third-party
 ||nfs8nsaf.xyz^$third-party
-||nft-code.io^$third-party
-||nft-profit.io^$third-party
 ||nftqcoenbehqu.online^$third-party
 ||nfts-opensea.web.app^$third-party
 ||nfvetkycvdkaw.life^$third-party
@@ -31501,9 +31436,7 @@
 ||oihjkobiyortd.space^$third-party
 ||oihqicgerrfoo.site^$third-party
 ||oijcphjwiabsg.online^$third-party
-||oil-profits.com^$third-party
 ||oilcontainsdisaster.com^$third-party
-||oiltrader.app^$third-party
 ||oilycoat.com^$third-party
 ||oimg.nbcuni.com^$third-party
 ||oinfvudfi.com^$third-party
@@ -32698,6 +32631,9 @@
 ||pangaeainfima.com^$third-party
 ||pangake.club^$third-party
 ||pangiuseable.com^$third-party
+||pangolin-sdk-toutiao-b.com^$third-party
+||pangolin-sdk-toutiao.com^$third-party
+||pangolin-sdk-toutiao1.com^$third-party
 ||pangsoundpayback.com^$third-party
 ||panhardware.com^$third-party
 ||panickypancake.com^$third-party
@@ -32882,7 +32818,6 @@
 ||patriot.cs.pp.cn^$third-party
 ||patrolsodium.com^$third-party
 ||patronagemaestroforestall.com^$third-party
-||pattern-trader.app^$third-party
 ||pattervigourblend.com^$third-party
 ||pattuemily.cfd^$third-party
 ||pattycolourful.com^$third-party
@@ -33314,6 +33249,7 @@
 ||pgfviujllriob.website^$third-party
 ||pghub.io^$third-party
 ||pgisdxbicrxqi.online^$third-party
+||pglstatp-toutiao.com^$third-party
 ||pglxfermxwuoyk.com^$third-party
 ||pgmediaserve.com^$third-party
 ||pgnasmcdn.click^$third-party
@@ -34750,7 +34686,6 @@
 ||profiler-collector.dalyfeds.com^$third-party
 ||profiler-collector.wshareit.com^$third-party
 ||profiling.avandor.com^$third-party
-||profit-builder.org^$third-party
 ||profit-edge.com^$third-party
 ||profitable-balance.com^$third-party
 ||profitablebutton.com^$third-party
@@ -35365,7 +35300,6 @@
 ||pushmejs.com^$third-party
 ||pushmenews.com^$third-party
 ||pushmobilenews.com^$third-party
-||pushmoney.app^$third-party
 ||pushmono.com^$third-party
 ||pushnami.com^$third-party
 ||pushnest.com^$third-party
@@ -36071,14 +36005,10 @@
 ||quantserve.com^$third-party
 ||quantumadblocker.com^$third-party
 ||quantumads.com^$third-party
-||quantumai.org^$third-party
-||quantumator.org^$third-party
 ||quantumlagoon.com^$third-party
 ||quantummetric.com^$third-party
-||quantumpro360.org^$third-party
 ||quantumshine.com^$third-party
 ||quantumsystem-pl.com^$third-party
-||quantumtradewave.com^$third-party
 ||quantumws.net^$third-party
 ||quarreljaggedloathe.com^$third-party
 ||quarrelsome-development.com^$third-party
@@ -36199,7 +36129,6 @@
 ||quotes.com^$third-party
 ||quotex.com^$third-party
 ||quotex.io^$third-party
-||quple.io^$third-party
 ||qupnxsdvarzew.site^$third-party
 ||qusbayitqhtjl.site^$third-party
 ||qusoznqtkabsj.space^$third-party
@@ -39770,6 +39699,7 @@
 ||shutloneliness.com^$third-party
 ||shuto.my^$third-party
 ||shuttlelikingcabinet.com^$third-party
+||shuzilm.cn^$third-party
 ||shvsrrpkgjcuk.life^$third-party
 ||shweeb.com^$third-party
 ||shwfxrbsrifhx.online^$third-party
@@ -39817,6 +39747,7 @@
 ||siga.com.pe^$third-party
 ||sighcontinenthover.com^$third-party
 ||sighhigherapprove.com^$third-party
+||sigmob.com^$third-party
 ||signaladsdirect.top^$third-party
 ||signalayer.com^$third-party
 ||signalbridgexz.pro^$third-party
@@ -40334,6 +40265,7 @@
 ||smetrics.autodesk.com^$third-party
 ||smetrics.avalara.com^$third-party
 ||smetrics.avnet.com^$third-party
+||smetrics.bankofamerica.com^$third-party
 ||smetrics.bbb.org^$third-party
 ||smetrics.bbva.es^$third-party
 ||smetrics.bbva.mx^$third-party
@@ -43649,7 +43581,6 @@
 ||thbfepqqqebde.online^$third-party
 ||the-adult-company.com^$third-party
 ||the-binary-trader.biz^$third-party
-||the-newsspy.app^$third-party
 ||the-ozone-project.com^$third-party
 ||theadex.com^$third-party
 ||theadgateway.com^$third-party
@@ -43668,7 +43599,6 @@
 ||thecoreadv.com^$third-party
 ||thecounter.com^$third-party
 ||thecrazychili.com^$third-party
-||thecryptogenius.software^$third-party
 ||thedoccloud.com^$third-party
 ||thedreamofus.xyz^$third-party
 ||theeptoah.com^$third-party
@@ -43689,7 +43619,6 @@
 ||themmatakeover.com^$third-party
 ||themoneytizer.com^$third-party
 ||themselvespresentationfavourable.com^$third-party
-||thenewsspy.technology^$third-party
 ||thenpreservationticket.com^$third-party
 ||theonecdn.com^$third-party
 ||theonesstoodtheirground.com^$third-party
@@ -45008,7 +44937,6 @@
 ||tradbypass.com^$third-party
 ||tradeadexchange.com^$third-party
 ||tradedoubler.com^$third-party
-||tradeedgeai.com^$third-party
 ||tradeexpert.net^$third-party
 ||tradegpt-app.net^$third-party
 ||tradehubcenter.net^$third-party
@@ -47800,6 +47728,7 @@
 ||vjyqsgzvps.com^$third-party
 ||vjzuklzdrejcs.online^$third-party
 ||vk-ads.ru^$third-party
+||vk-analytics.ru^$third-party
 ||vkaocbatfbux.com^$third-party
 ||vkatqrbcrdyta.site^$third-party
 ||vkcbvsebwei.com^$third-party
@@ -50954,6 +50883,7 @@
 ||yeyeyeye.xyz^$third-party
 ||yeyswxtehnave.site^$third-party
 ||yfaagzkhqcjxm.site^$third-party
+||yfanads.com^$third-party
 ||yfbjejhtaqtfx.site^$third-party
 ||yfbuocmci.com^$third-party
 ||yfdnza.com^$third-party
@@ -51407,8 +51337,6 @@
 ||ytzihf.com^$third-party
 ||ytzisjouiwwsg.site^$third-party
 ||yu0123456.com^$third-party
-||yuan-pay-group.net^$third-party
-||yuanprofit.com^$third-party
 ||yuastejdigmex.site^$third-party
 ||yuauqdgmehwrov.com^$third-party
 ||yubziosgvkweu.online^$third-party

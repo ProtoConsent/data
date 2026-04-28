@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Analytics",
   "version": "2026-04-28",
-  "generated": "2026-04-28T21:08:00.859Z",
+  "generated": "2026-04-28T21:38:11.821Z",
   "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -337,6 +337,7 @@
     "analytics.castel.jp",
     "analytics.cdn.live",
     "analytics.ceneo.pl",
+    "analytics.chase.com",
     "analytics.chegg.com",
     "analytics.churnzero.net",
     "analytics.cincopa.com",
@@ -3570,6 +3571,7 @@
     "smetrics.autodesk.com",
     "smetrics.avalara.com",
     "smetrics.avnet.com",
+    "smetrics.bankofamerica.com",
     "smetrics.bbb.org",
     "smetrics.bbva.es",
     "smetrics.bbva.mx",
@@ -5207,7 +5209,7 @@
     "zs.dhl.de",
     "zz.bdstatic.com"
   ],
-  "domain_count": 5200,
+  "domain_count": 5202,
   "paths": [
     "||105app.com/report/?",
     "||1worldsync.com/log?",
