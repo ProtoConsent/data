@@ -1,10 +1,16 @@
 {
-  "version": "2026-04-28",
-  "generated": "2026-04-28T21:36:40.976Z",
+  "version": "2026-04-29",
+  "generated": "2026-04-29T06:10:06.987Z",
   "type": "tracking_params_sites",
   "domain_count": 879,
-  "param_count": 1814,
+  "param_count": 1815,
   "sites": {
+    "change.org": [
+      "recruited_by_id",
+      "share_id",
+      "source_location",
+      "user_flow"
+    ],
     "kuper.ru": [
       "ads_identity_ads_promo_identity_placement_uid",
       "ads_identity_ads_promo_identity_site_uid"
@@ -1013,10 +1019,6 @@
     ],
     "rtrp.jp": [
       "p_s"
-    ],
-    "change.org": [
-      "source_location",
-      "user_flow"
     ],
     "p.liadm.com": [
       "_lc2_fpi",
