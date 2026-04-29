@@ -1,8 +1,8 @@
 # Title: ProtoConsent Third Parties Extended
 # Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-# Version: 2026-04-28
-# Last modified: 2026-04-28T21:38:11.821Z
-# Entries: 654
+# Version: 2026-04-29
+# Last modified: 2026-04-29T06:11:39.798Z
+# Entries: 622
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -51,7 +51,6 @@
 0.0.0.0 abrtp1.marketo.com
 0.0.0.0 act-on.com
 0.0.0.0 activecampaign.com
-0.0.0.0 ad.metanetwork.com
 0.0.0.0 ad8a8-97460.api.pushwoosh.com
 0.0.0.0 addnow.com
 0.0.0.0 addthis.com
@@ -64,7 +63,6 @@
 0.0.0.0 analytics-egain.com
 0.0.0.0 andromeda.iad-01.braze.com
 0.0.0.0 aooptout.zoominformation.com
-0.0.0.0 api-public.addthis.com
 0.0.0.0 api-v2.shareitgames.com
 0.0.0.0 api.addthis.com
 0.0.0.0 api.brightcove.com
@@ -183,26 +181,20 @@
 0.0.0.0 blucher.iad-03.braze.com
 0.0.0.0 boldchat.com
 0.0.0.0 bond.iad-03.braze.com
-0.0.0.0 boostervideo.ru
 0.0.0.0 braze.com
 0.0.0.0 braze.eu
 0.0.0.0 brevo.com
 0.0.0.0 brightcove.net
 0.0.0.0 browser-update.org
 0.0.0.0 bshare.cn
-0.0.0.0 button-share.zalo.me
 0.0.0.0 button.like.co
 0.0.0.0 buttons-config.sharethis.com
 0.0.0.0 buzzador.com
-0.0.0.0 c.sharethis.mgr.consensu.org
 0.0.0.0 c07f8-b5fb4.api.pushwoosh.com
 0.0.0.0 c4de5-69f80.api.pushwoosh.com
 0.0.0.0 c947b-ef6ee.api.pushwoosh.com
 0.0.0.0 cache-07.pushwoosh.com
-0.0.0.0 cache-dev.addthis.com
 0.0.0.0 cache-ha.pushwoosh.com
-0.0.0.0 cache.addthis.com
-0.0.0.0 cache.addthiscdn.com
 0.0.0.0 caesar.iad-03.braze.com
 0.0.0.0 campaign-remp.444.hu
 0.0.0.0 campaign.gitiho.com
@@ -219,9 +211,7 @@
 0.0.0.0 cdn.pushwoosh.com
 0.0.0.0 cdn.socialannex.com
 0.0.0.0 cdn.wibiya.com
-0.0.0.0 cdn4.wibbitz.com
 0.0.0.0 ceres.iad-03.braze.com
-0.0.0.0 cf.addthis.com
 0.0.0.0 chatbox-widget.botbanhang.vn
 0.0.0.0 chimpstatic.com
 0.0.0.0 clair.iad-03.braze.com
@@ -238,11 +228,9 @@
 0.0.0.0 crisp.chat
 0.0.0.0 crossingshare.com
 0.0.0.0 crowdynews.com
-0.0.0.0 ct1.addthis.com
 0.0.0.0 cursa.iad-03.braze.com
 0.0.0.0 customer.iad-03.braze.com
 0.0.0.0 customer.io
-0.0.0.0 cw.addthis.com
 0.0.0.0 d2786-8f9b1.api.pushwoosh.com
 0.0.0.0 d633b-9b5d9.api.pushwoosh.com
 0.0.0.0 d6c30-6de1a.api.pushwoosh.com
@@ -259,7 +247,6 @@
 0.0.0.0 driftt.com
 0.0.0.0 drip.com
 0.0.0.0 dsp-creative.demandbase.com
-0.0.0.0 e.dlx.addthis.com
 0.0.0.0 e1.addthis.com
 0.0.0.0 e1130-9ab44.api.pushwoosh.com
 0.0.0.0 e5783-e47dd.api.pushwoosh.com
@@ -362,16 +349,12 @@
 0.0.0.0 list.ru
 0.0.0.0 livechat.com
 0.0.0.0 liveperson.net
-0.0.0.0 livere.co.kr.cizion.ixcloud.net
 0.0.0.0 load.sumo.com
 0.0.0.0 log.storelocatorwidgets.com
 0.0.0.0 lon-mknodepub.marketo.com
 0.0.0.0 lonrtp1-cdn.marketo.com
 0.0.0.0 lonrtp1.marketo.com
 0.0.0.0 loox.io
-0.0.0.0 m.addthis.com
-0.0.0.0 m.addthisedge.com
-0.0.0.0 m.dlx.addthis.com
 0.0.0.0 mail.ru
 0.0.0.0 mailerlite.com
 0.0.0.0 mailjet.com
@@ -418,8 +401,6 @@
 0.0.0.0 nation.marketo.com
 0.0.0.0 newswidget.net
 0.0.0.0 ns1.marketo.com
-0.0.0.0 nwidget.networkedblogs.com
-0.0.0.0 o.addthis.com
 0.0.0.0 odnoklassniki.ru
 0.0.0.0 ok.ru
 0.0.0.0 okendo.io
@@ -432,7 +413,6 @@
 0.0.0.0 outreach.io
 0.0.0.0 p-euc-1.braze.eu
 0.0.0.0 p.addthis.com
-0.0.0.0 p.dlx.addthis.com
 0.0.0.0 page.widget.zalo.me
 0.0.0.0 pages2.marketo.com
 0.0.0.0 pardot.com
@@ -483,10 +463,6 @@
 0.0.0.0 rotanev.iad-03.braze.com
 0.0.0.0 rtp-static.marketo.com
 0.0.0.0 s.sharethis.com
-0.0.0.0 s5.addthis.com
-0.0.0.0 s7.addthis.com
-0.0.0.0 s8.addthis.com
-0.0.0.0 s9.addthis.com
 0.0.0.0 sagan.iad-03.braze.com
 0.0.0.0 salesloft.com
 0.0.0.0 sargas.iad-03.braze.com
@@ -501,7 +477,6 @@
 0.0.0.0 sdk.iad-06.braze.com
 0.0.0.0 sdk.iad-08.braze.com
 0.0.0.0 search.addthis.com
-0.0.0.0 secure.addthis.com
 0.0.0.0 seg.sharethis.com
 0.0.0.0 seginus.iad-03.braze.com
 0.0.0.0 sendinblue.com
@@ -514,14 +489,12 @@
 0.0.0.0 share.notizie.it
 0.0.0.0 shareaholic.com
 0.0.0.0 sharebang.com
-0.0.0.0 sharebar.addthiscdn.com
 0.0.0.0 sharedcount.com
 0.0.0.0 shareease.link
 0.0.0.0 sharefb.cnnd.vn
 0.0.0.0 sharepointads.com
 0.0.0.0 sharetally.co
 0.0.0.0 sharethis.com
-0.0.0.0 sharethis.mgr.consensu.org
 0.0.0.0 sharevault.cloud
 0.0.0.0 sharpay.io
 0.0.0.0 shpg.org
@@ -547,7 +520,6 @@
 0.0.0.0 sleeknote.com
 0.0.0.0 smile.io
 0.0.0.0 snackly.co
-0.0.0.0 snippet.minute.ly
 0.0.0.0 snrtp-cdn.marketo.com
 0.0.0.0 snrtp1.marketo.com
 0.0.0.0 social-touch.com
@@ -564,7 +536,6 @@
 0.0.0.0 statigr.am
 0.0.0.0 stumble-upon.com
 0.0.0.0 stumbleupon.com
-0.0.0.0 su.addthis.com
 0.0.0.0 sulake.pushwoosh.com
 0.0.0.0 svonm.com
 0.0.0.0 sync.sharethis.com
@@ -574,7 +545,6 @@
 0.0.0.0 targeting.api.drift.com
 0.0.0.0 taukibreez.iad-03.braze.com
 0.0.0.0 tawk.to
-0.0.0.0 telemetrics.klaviyo.com
 0.0.0.0 tempest.services.disqus.com
 0.0.0.0 templates.marketo.net
 0.0.0.0 terminus.com
@@ -600,7 +570,6 @@
 0.0.0.0 videoly.co
 0.0.0.0 vimeocdn.com
 0.0.0.0 vk.com
-0.0.0.0 vkcache.com
 0.0.0.0 vkontakte.ru
 0.0.0.0 vkuservideo.net
 0.0.0.0 w.sharethis.com
@@ -654,7 +623,6 @@
 0.0.0.0 www2.pardot.com
 0.0.0.0 www3.addthis.com
 0.0.0.0 wwwfacebook.com
-0.0.0.0 x.dlx.addthis.com
 0.0.0.0 xing-share.com
 0.0.0.0 yandex.net
 0.0.0.0 yildun.iad-03.braze.com

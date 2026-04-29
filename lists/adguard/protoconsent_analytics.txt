@@ -2,7 +2,7 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-04-28T21:38:11.821Z
+! Last modified: 2026-04-29T06:11:39.798Z
 ! Format: AdGuard
 ! Entries: 5761
 !
@@ -337,7 +337,6 @@
 ||analytics.castel.jp^$third-party
 ||analytics.cdn.live^$third-party
 ||analytics.ceneo.pl^$third-party
-||analytics.chase.com^$third-party
 ||analytics.chegg.com^$third-party
 ||analytics.churnzero.net^$third-party
 ||analytics.cincopa.com^$third-party
@@ -1955,6 +1954,7 @@
 ||gopjn.com^$third-party
 ||goprediction.com^$third-party
 ||gosquared.com^$third-party
+||gostats.cn^$third-party
 ||gostats.com^$third-party
 ||gostats.de^$third-party
 ||gostats.pl^$third-party
@@ -2103,6 +2103,7 @@
 ||indicative.com^$third-party
 ||infinity-tracking.net^$third-party
 ||infinityid.condenastdigital.com^$third-party
+||info.calnexsol.com^$third-party
 ||informer.yandex.ru^$third-party
 ||informers.sinoptik.ua^$third-party
 ||infostroy.nnov.ru^$third-party
@@ -3571,7 +3572,6 @@
 ||smetrics.autodesk.com^$third-party
 ||smetrics.avalara.com^$third-party
 ||smetrics.avnet.com^$third-party
-||smetrics.bankofamerica.com^$third-party
 ||smetrics.bbb.org^$third-party
 ||smetrics.bbva.es^$third-party
 ||smetrics.bbva.mx^$third-party
@@ -3916,6 +3916,7 @@
 ||statistics.klicktel.de^$third-party
 ||statistics.rbi-nl.com^$third-party
 ||statistics.tattermedia.com^$third-party
+||statistics.wibiya.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
 ||statistik.simaja.de^$third-party
@@ -4045,7 +4046,6 @@
 ||stats.screenresolution.org^$third-party
 ||stats.searchftps.net^$third-party
 ||stats.searchftps.org^$third-party
-||stats.sender.net^$third-party
 ||stats.senty.com.au^$third-party
 ||stats.sg-light-edge.com^$third-party
 ||stats.sharenet.co.za^$third-party
@@ -4850,6 +4850,7 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
+||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||trust.titanhq.com^$third-party
 ||trusted-collector-bk.tmocce.com^$third-party
@@ -5099,7 +5100,6 @@
 ||whiteclick.biz^$third-party
 ||whoisvisiting.com^$third-party
 ||wholituaten.com^$third-party
-||wibiya.com^$third-party
 ||widerplanet.com^$third-party
 ||widget.educationdynamics.com^$third-party
 ||wikia-beacon.com^$third-party

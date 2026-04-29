@@ -1,8 +1,8 @@
 # Title: ProtoConsent Personalization Extended
 # Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)
-# Version: 2026-04-28
-# Last modified: 2026-04-28T21:38:11.821Z
-# Entries: 277
+# Version: 2026-04-29
+# Last modified: 2026-04-29T06:11:39.798Z
+# Entries: 260
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -18,7 +18,6 @@
 0.0.0.0 ad.monetate.net
 0.0.0.0 adm.dynamicyield.com
 0.0.0.0 af.monetate.net
-0.0.0.0 ag.tags.crwdcntrl.net
 0.0.0.0 alx-api.exponea.com
 0.0.0.0 amp.permutive.com
 0.0.0.0 amway-api.exponea.com
@@ -46,7 +45,6 @@
 0.0.0.0 b.monetate.net
 0.0.0.0 barilliance.com
 0.0.0.0 barilliance.net
-0.0.0.0 bb.crwdcntrl.net
 0.0.0.0 bcp.crwdcntrl.net
 0.0.0.0 bebo.crwdcntrl.net
 0.0.0.0 blingee.crwdcntrl.net
@@ -72,7 +70,6 @@
 0.0.0.0 cdn.scarabresearch.com
 0.0.0.0 cdn.segmentify.com
 0.0.0.0 celebrus.com
-0.0.0.0 celebslam.tags.crwdcntrl.net
 0.0.0.0 certona.com
 0.0.0.0 certona.net
 0.0.0.0 circustrack.optimove.net
@@ -80,7 +77,6 @@
 0.0.0.0 clevertap.com
 0.0.0.0 cmp.sirdata.com
 0.0.0.0 cn.crwdcntrl.net
-0.0.0.0 cnnmoney.tags.crwdcntrl.net
 0.0.0.0 conde.amp.permutive.com
 0.0.0.0 cookie-matching.mediarithmics.com
 0.0.0.0 coop.crwdcntrl.net
@@ -94,8 +90,6 @@
 0.0.0.0 custom-api.exponea.com
 0.0.0.0 customer-profile-realtime-serving.optimove.net
 0.0.0.0 d.monetate.net
-0.0.0.0 dcetr4.segmentify.com
-0.0.0.0 dcetr8.segmentify.com
 0.0.0.0 deviantart.crwdcntrl.net
 0.0.0.0 di.rlcdn.com
 0.0.0.0 dmp.brand-display.com
@@ -153,7 +147,6 @@
 0.0.0.0 intentiq.com
 0.0.0.0 justjared.crwdcntrl.net
 0.0.0.0 kasamba-webtracksdk.optimove.net
-0.0.0.0 livejournal.tags.crwdcntrl.net
 0.0.0.0 log-dmp.suishenyun.cn
 0.0.0.0 lotame.com
 0.0.0.0 lottogotracksdk.optimove.net
@@ -172,7 +165,6 @@
 0.0.0.0 mxptint.net
 0.0.0.0 narrative.io
 0.0.0.0 navegg.com
-0.0.0.0 nbcu.tags.crwdcntrl.net
 0.0.0.0 neustar.biz
 0.0.0.0 nosto.com
 0.0.0.0 nvidiacorp.us-5.evergage.com
@@ -207,7 +199,6 @@
 0.0.0.0 responsys.com
 0.0.0.0 rest-eu.dynamicyield.com
 0.0.0.0 rest.dynamicyield.com
-0.0.0.0 rest.segmentify.com
 0.0.0.0 richrelevance.com
 0.0.0.0 rlcdn.com
 0.0.0.0 rm.recs.richrelevance.com
@@ -228,7 +219,6 @@
 0.0.0.0 sirdata.com
 0.0.0.0 siteground.dynamicyield.com
 0.0.0.0 so.rlcdn.com
-0.0.0.0 sociallitelife.tags.crwdcntrl.net
 0.0.0.0 somethingawful.crwdcntrl.net
 0.0.0.0 spl.zeotap.com
 0.0.0.0 sportingbetbrtracksdk.optimove.net
@@ -236,7 +226,6 @@
 0.0.0.0 sportingbetgrtracksdk.optimove.net
 0.0.0.0 sportingindextrack.optimove.net
 0.0.0.0 sportingtrack.optimove.net
-0.0.0.0 sportsillustrated.tags.crwdcntrl.net
 0.0.0.0 sportsnjtracksdk.optimove.net
 0.0.0.0 sr-weight.rlcdn.com
 0.0.0.0 sr.rlcdn.com
@@ -247,9 +236,7 @@
 0.0.0.0 ssd-bluekai-va5.everesttech.net
 0.0.0.0 st-eu.dynamicyield.com
 0.0.0.0 st.dynamicyield.com
-0.0.0.0 stags.bluekai.com
 0.0.0.0 static.audience.media
-0.0.0.0 static.dynamicyield.com
 0.0.0.0 static.scarabresearch.com
 0.0.0.0 stats.sirdata.com
 0.0.0.0 stats.sirdata.eu
@@ -257,7 +244,6 @@
 0.0.0.0 superficial.crwdcntrl.net
 0.0.0.0 surge.bombora.com
 0.0.0.0 sync.crwdcntrl.net
-0.0.0.0 tags.bluekai.com
 0.0.0.0 tags.bluekai.com.edgekey.net
 0.0.0.0 tags.cmp.tail.digital
 0.0.0.0 tags.crwdcntrl.net
@@ -272,14 +258,11 @@
 0.0.0.0 uipglob.semasio.net
 0.0.0.0 us.optimove.net
 0.0.0.0 useinsider.com
-0.0.0.0 videogum.tags.crwdcntrl.net
 0.0.0.0 vidilife.crwdcntrl.net
 0.0.0.0 vox.amp.permutive.com
-0.0.0.0 wwtdd.tags.crwdcntrl.net
 0.0.0.0 www.barilliance.net
 0.0.0.0 www.bombora.com
 0.0.0.0 www.lotame.com
 0.0.0.0 www.optimove.net
 0.0.0.0 xml.audiencedevelopers.com
-0.0.0.0 yardbarker.tags.crwdcntrl.net
 0.0.0.0 zeotap.com

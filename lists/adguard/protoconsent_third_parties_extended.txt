@@ -2,9 +2,9 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-04-28T21:38:11.821Z
+! Last modified: 2026-04-29T06:11:39.798Z
 ! Format: AdGuard
-! Entries: 727
+! Entries: 695
 !
 ||01e8b-7ffd2.api.pushwoosh.com^$third-party
 ||06cfa-f8925.api.pushwoosh.com^$third-party
@@ -51,7 +51,6 @@
 ||abrtp1.marketo.com^$third-party
 ||act-on.com^$third-party
 ||activecampaign.com^$third-party
-||ad.metanetwork.com^$third-party
 ||ad8a8-97460.api.pushwoosh.com^$third-party
 ||addnow.com^$third-party
 ||addthis.com^$third-party
@@ -64,7 +63,6 @@
 ||analytics-egain.com^$third-party
 ||andromeda.iad-01.braze.com^$third-party
 ||aooptout.zoominformation.com^$third-party
-||api-public.addthis.com^$third-party
 ||api-v2.shareitgames.com^$third-party
 ||api.addthis.com^$third-party
 ||api.brightcove.com^$third-party
@@ -183,26 +181,20 @@
 ||blucher.iad-03.braze.com^$third-party
 ||boldchat.com^$third-party
 ||bond.iad-03.braze.com^$third-party
-||boostervideo.ru^$third-party
 ||braze.com^$third-party
 ||braze.eu^$third-party
 ||brevo.com^$third-party
 ||brightcove.net^$third-party
 ||browser-update.org^$third-party
 ||bshare.cn^$third-party
-||button-share.zalo.me^$third-party
 ||button.like.co^$third-party
 ||buttons-config.sharethis.com^$third-party
 ||buzzador.com^$third-party
-||c.sharethis.mgr.consensu.org^$third-party
 ||c07f8-b5fb4.api.pushwoosh.com^$third-party
 ||c4de5-69f80.api.pushwoosh.com^$third-party
 ||c947b-ef6ee.api.pushwoosh.com^$third-party
 ||cache-07.pushwoosh.com^$third-party
-||cache-dev.addthis.com^$third-party
 ||cache-ha.pushwoosh.com^$third-party
-||cache.addthis.com^$third-party
-||cache.addthiscdn.com^$third-party
 ||caesar.iad-03.braze.com^$third-party
 ||campaign-remp.444.hu^$third-party
 ||campaign.gitiho.com^$third-party
@@ -219,9 +211,7 @@
 ||cdn.pushwoosh.com^$third-party
 ||cdn.socialannex.com^$third-party
 ||cdn.wibiya.com^$third-party
-||cdn4.wibbitz.com^$third-party
 ||ceres.iad-03.braze.com^$third-party
-||cf.addthis.com^$third-party
 ||chatbox-widget.botbanhang.vn^$third-party
 ||chimpstatic.com^$third-party
 ||clair.iad-03.braze.com^$third-party
@@ -238,11 +228,9 @@
 ||crisp.chat^$third-party
 ||crossingshare.com^$third-party
 ||crowdynews.com^$third-party
-||ct1.addthis.com^$third-party
 ||cursa.iad-03.braze.com^$third-party
 ||customer.iad-03.braze.com^$third-party
 ||customer.io^$third-party
-||cw.addthis.com^$third-party
 ||d2786-8f9b1.api.pushwoosh.com^$third-party
 ||d633b-9b5d9.api.pushwoosh.com^$third-party
 ||d6c30-6de1a.api.pushwoosh.com^$third-party
@@ -259,7 +247,6 @@
 ||driftt.com^$third-party
 ||drip.com^$third-party
 ||dsp-creative.demandbase.com^$third-party
-||e.dlx.addthis.com^$third-party
 ||e1.addthis.com^$third-party
 ||e1130-9ab44.api.pushwoosh.com^$third-party
 ||e5783-e47dd.api.pushwoosh.com^$third-party
@@ -362,16 +349,12 @@
 ||list.ru^$third-party
 ||livechat.com^$third-party
 ||liveperson.net^$third-party
-||livere.co.kr.cizion.ixcloud.net^$third-party
 ||load.sumo.com^$third-party
 ||log.storelocatorwidgets.com^$third-party
 ||lon-mknodepub.marketo.com^$third-party
 ||lonrtp1-cdn.marketo.com^$third-party
 ||lonrtp1.marketo.com^$third-party
 ||loox.io^$third-party
-||m.addthis.com^$third-party
-||m.addthisedge.com^$third-party
-||m.dlx.addthis.com^$third-party
 ||mail.ru^$third-party
 ||mailerlite.com^$third-party
 ||mailjet.com^$third-party
@@ -418,8 +401,6 @@
 ||nation.marketo.com^$third-party
 ||newswidget.net^$third-party
 ||ns1.marketo.com^$third-party
-||nwidget.networkedblogs.com^$third-party
-||o.addthis.com^$third-party
 ||odnoklassniki.ru^$third-party
 ||ok.ru^$third-party
 ||okendo.io^$third-party
@@ -432,7 +413,6 @@
 ||outreach.io^$third-party
 ||p-euc-1.braze.eu^$third-party
 ||p.addthis.com^$third-party
-||p.dlx.addthis.com^$third-party
 ||page.widget.zalo.me^$third-party
 ||pages2.marketo.com^$third-party
 ||pardot.com^$third-party
@@ -483,10 +463,6 @@
 ||rotanev.iad-03.braze.com^$third-party
 ||rtp-static.marketo.com^$third-party
 ||s.sharethis.com^$third-party
-||s5.addthis.com^$third-party
-||s7.addthis.com^$third-party
-||s8.addthis.com^$third-party
-||s9.addthis.com^$third-party
 ||sagan.iad-03.braze.com^$third-party
 ||salesloft.com^$third-party
 ||sargas.iad-03.braze.com^$third-party
@@ -501,7 +477,6 @@
 ||sdk.iad-06.braze.com^$third-party
 ||sdk.iad-08.braze.com^$third-party
 ||search.addthis.com^$third-party
-||secure.addthis.com^$third-party
 ||seg.sharethis.com^$third-party
 ||seginus.iad-03.braze.com^$third-party
 ||sendinblue.com^$third-party
@@ -514,14 +489,12 @@
 ||share.notizie.it^$third-party
 ||shareaholic.com^$third-party
 ||sharebang.com^$third-party
-||sharebar.addthiscdn.com^$third-party
 ||sharedcount.com^$third-party
 ||shareease.link^$third-party
 ||sharefb.cnnd.vn^$third-party
 ||sharepointads.com^$third-party
 ||sharetally.co^$third-party
 ||sharethis.com^$third-party
-||sharethis.mgr.consensu.org^$third-party
 ||sharevault.cloud^$third-party
 ||sharpay.io^$third-party
 ||shpg.org^$third-party
@@ -547,7 +520,6 @@
 ||sleeknote.com^$third-party
 ||smile.io^$third-party
 ||snackly.co^$third-party
-||snippet.minute.ly^$third-party
 ||snrtp-cdn.marketo.com^$third-party
 ||snrtp1.marketo.com^$third-party
 ||social-touch.com^$third-party
@@ -564,7 +536,6 @@
 ||statigr.am^$third-party
 ||stumble-upon.com^$third-party
 ||stumbleupon.com^$third-party
-||su.addthis.com^$third-party
 ||sulake.pushwoosh.com^$third-party
 ||svonm.com^$third-party
 ||sync.sharethis.com^$third-party
@@ -574,7 +545,6 @@
 ||targeting.api.drift.com^$third-party
 ||taukibreez.iad-03.braze.com^$third-party
 ||tawk.to^$third-party
-||telemetrics.klaviyo.com^$third-party
 ||tempest.services.disqus.com^$third-party
 ||templates.marketo.net^$third-party
 ||terminus.com^$third-party
@@ -600,7 +570,6 @@
 ||videoly.co^$third-party
 ||vimeocdn.com^$third-party
 ||vk.com^$third-party
-||vkcache.com^$third-party
 ||vkontakte.ru^$third-party
 ||vkuservideo.net^$third-party
 ||w.sharethis.com^$third-party
@@ -654,7 +623,6 @@
 ||www2.pardot.com^$third-party
 ||www3.addthis.com^$third-party
 ||wwwfacebook.com^$third-party
-||x.dlx.addthis.com^$third-party
 ||xing-share.com^$third-party
 ||yandex.net^$third-party
 ||yildun.iad-03.braze.com^$third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Advanced Tracking
 ! Description: Advanced or non-cookie techniques to identify or track devices across sites or sessions (curated - high-confidence sources)
-! Version: 2026-04-28
-! Last modified: 2026-04-28T21:38:11.821Z
-! Entries: 4083
+! Version: 2026-04-29
+! Last modified: 2026-04-29T06:11:39.798Z
+! Entries: 4059
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -51,7 +51,6 @@
 ||45eijvhgj2.com^$third-party
 ||4pc2.com^$third-party
 ||4pm2.com^$third-party
-||500-intal.com^$third-party
 ||50style.club^$third-party
 ||52mkk.com^$third-party
 ||595image.com^$third-party
@@ -205,6 +204,7 @@
 ||ads.salemall.vn^$third-party
 ||adsadminister.com^$third-party
 ||adsafeprotected.com^$third-party
+||adsb4track.com^$third-party
 ||adsbuyclick.com^$third-party
 ||adschill.com^$third-party
 ||adsco.re^$third-party
@@ -423,7 +423,6 @@
 ||apistatics.com^$third-party
 ||apologizepitfall.com^$third-party
 ||apostrophesubdued.com^$third-party
-||app-na1.hubspotdocuments.com^$third-party
 ||app.appzcvb.com^$third-party
 ||app.subiz.com.vn^$third-party
 ||apparelerupt.com^$third-party
@@ -620,30 +619,21 @@
 ||biquee.com^$third-party
 ||birchflarechurch.com^$third-party
 ||birthdaybelief.com^$third-party
-||bit-gpt-app.com^$third-party
 ||bit-gpt-app.org^$third-party
 ||bit-iq.io^$third-party
 ||bitads.net^$third-party
 ||bitcoin-360-ai.com^$third-party
 ||bitcoin-360-ai.org^$third-party
-||bitcoin-bankbreaker.com^$third-party
 ||bitcoin-cashcard.com^$third-party
 ||bitcoin-code.app^$third-party
 ||bitcoin-equaliser.com^$third-party
 ||bitcoin-mastery.app^$third-party
 ||bitcoin-millonario.com^$third-party
-||bitcoin-motion.cloud^$third-party
-||bitcoin-profitapp.com^$third-party
-||bitcoin-revolution.software^$third-party
-||bitcoin-sprint.com^$third-party
 ||bitcoinscircuit.com^$third-party
-||bitcoinsmarter.org^$third-party
 ||bitdefenderupdate.org^$third-party
 ||bitemores.com^$third-party
-||bitindexai.me^$third-party
 ||bitiq.org^$third-party
 ||bitmedia.io^$third-party
-||bitprime-gold.com^$third-party
 ||bitveda-flow-app.net^$third-party
 ||bj9zvb5ih.com^$third-party
 ||bjelgrimventaak.info^$third-party
@@ -848,7 +838,6 @@
 ||cd-jkd.com^$third-party
 ||cdn-net.com^$third-party
 ||cdn.710k.com^$third-party
-||cdn.appround.biz^$third-party
 ||cdn.doubleverify.com^$third-party
 ||cdn.falkloo.cloud^$third-party
 ||cdn.hhmop.cloud^$third-party
@@ -1889,13 +1878,6 @@
 ||imghost.pics^$third-party
 ||imgoss820.top^$third-party
 ||immakingallthisup.com^$third-party
-||immediate-apex.com^$third-party
-||immediate-core.com^$third-party
-||immediate-experience.com^$third-party
-||immediate-momentum.com^$third-party
-||immediateedge.io^$third-party
-||immediategp.org^$third-party
-||immediatetradepro.com^$third-party
 ||imminentshake.com^$third-party
 ||importantmeat.com^$third-party
 ||importedinsect.com^$third-party
@@ -2319,7 +2301,6 @@
 ||messyoranges.com^$third-party
 ||metajaws.com^$third-party
 ||metawelcome.com^$third-party
-||metrics.gocloudmaps.com^$third-party
 ||metrics.nsureapi.com^$third-party
 ||mfdaudubon.com^$third-party
 ||mfjegjqb.com^$third-party
@@ -2413,7 +2394,6 @@
 ||mybutleragency.com^$third-party
 ||mycleanpc.com^$third-party
 ||mydates.com^$third-party
-||mykings.top^$third-party
 ||myopiacreeper.com^$third-party
 ||myornamenti.com^$third-party
 ||myphamjapan.com^$third-party
@@ -2822,7 +2802,6 @@
 ||producepickle.com^$third-party
 ||productdownload.pro^$third-party
 ||productsurfer.com^$third-party
-||profit-edge.com^$third-party
 ||profitina-fundcore-app.com^$third-party
 ||promptaiamrix.com^$third-party
 ||propelalasas.com^$third-party
@@ -2894,7 +2873,6 @@
 ||quirkybliss.com^$third-party
 ||quitzon.net^$third-party
 ||quizzicalpartner.com^$third-party
-||quma-ai.com^$third-party
 ||quotex.com^$third-party
 ||quotex.io^$third-party
 ||qutexai.com^$third-party
@@ -3841,7 +3819,6 @@
 ||web.hearclear.com^$third-party
 ||webantenna.info^$third-party
 ||webcoreax.pro^$third-party
-||webdmonitor.io^$third-party
 ||webfluxxz.info^$third-party
 ||webmaghome.com^$third-party
 ||webmine.cz^$third-party
@@ -3953,7 +3930,6 @@
 ||xml-eu-v4.tenxads.com^$third-party
 ||xml-v4.mrgrprf.biz^$third-party
 ||xml.adopt.media^$third-party
-||xmlheads.com^$third-party
 ||xmrpool.net^$third-party
 ||xmrqo.2y2z3bpqp1trkh9k.cyou^$third-party
 ||xnemz1rc5j.com^$third-party

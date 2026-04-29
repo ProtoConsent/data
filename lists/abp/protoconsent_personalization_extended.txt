@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Personalization Extended
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)
-! Version: 2026-04-28
-! Last modified: 2026-04-28T21:38:11.821Z
-! Entries: 290
+! Version: 2026-04-29
+! Last modified: 2026-04-29T06:11:39.798Z
+! Entries: 273
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -19,7 +19,6 @@
 ||ad.monetate.net^$third-party
 ||adm.dynamicyield.com^$third-party
 ||af.monetate.net^$third-party
-||ag.tags.crwdcntrl.net^$third-party
 ||alx-api.exponea.com^$third-party
 ||amp.permutive.com^$third-party
 ||amway-api.exponea.com^$third-party
@@ -47,7 +46,6 @@
 ||b.monetate.net^$third-party
 ||barilliance.com^$third-party
 ||barilliance.net^$third-party
-||bb.crwdcntrl.net^$third-party
 ||bcp.crwdcntrl.net^$third-party
 ||bebo.crwdcntrl.net^$third-party
 ||blingee.crwdcntrl.net^$third-party
@@ -73,7 +71,6 @@
 ||cdn.scarabresearch.com^$third-party
 ||cdn.segmentify.com^$third-party
 ||celebrus.com^$third-party
-||celebslam.tags.crwdcntrl.net^$third-party
 ||certona.com^$third-party
 ||certona.net^$third-party
 ||circustrack.optimove.net^$third-party
@@ -81,7 +78,6 @@
 ||clevertap.com^$third-party
 ||cmp.sirdata.com^$third-party
 ||cn.crwdcntrl.net^$third-party
-||cnnmoney.tags.crwdcntrl.net^$third-party
 ||conde.amp.permutive.com^$third-party
 ||cookie-matching.mediarithmics.com^$third-party
 ||coop.crwdcntrl.net^$third-party
@@ -95,8 +91,6 @@
 ||custom-api.exponea.com^$third-party
 ||customer-profile-realtime-serving.optimove.net^$third-party
 ||d.monetate.net^$third-party
-||dcetr4.segmentify.com^$third-party
-||dcetr8.segmentify.com^$third-party
 ||deviantart.crwdcntrl.net^$third-party
 ||di.rlcdn.com^$third-party
 ||dmp.brand-display.com^$third-party
@@ -154,7 +148,6 @@
 ||intentiq.com^$third-party
 ||justjared.crwdcntrl.net^$third-party
 ||kasamba-webtracksdk.optimove.net^$third-party
-||livejournal.tags.crwdcntrl.net^$third-party
 ||log-dmp.suishenyun.cn^$third-party
 ||lotame.com^$third-party
 ||lottogotracksdk.optimove.net^$third-party
@@ -173,7 +166,6 @@
 ||mxptint.net^$third-party
 ||narrative.io^$third-party
 ||navegg.com^$third-party
-||nbcu.tags.crwdcntrl.net^$third-party
 ||neustar.biz^$third-party
 ||nosto.com^$third-party
 ||nvidiacorp.us-5.evergage.com^$third-party
@@ -208,7 +200,6 @@
 ||responsys.com^$third-party
 ||rest-eu.dynamicyield.com^$third-party
 ||rest.dynamicyield.com^$third-party
-||rest.segmentify.com^$third-party
 ||richrelevance.com^$third-party
 ||rlcdn.com^$third-party
 ||rm.recs.richrelevance.com^$third-party
@@ -229,7 +220,6 @@
 ||sirdata.com^$third-party
 ||siteground.dynamicyield.com^$third-party
 ||so.rlcdn.com^$third-party
-||sociallitelife.tags.crwdcntrl.net^$third-party
 ||somethingawful.crwdcntrl.net^$third-party
 ||spl.zeotap.com^$third-party
 ||sportingbetbrtracksdk.optimove.net^$third-party
@@ -237,7 +227,6 @@
 ||sportingbetgrtracksdk.optimove.net^$third-party
 ||sportingindextrack.optimove.net^$third-party
 ||sportingtrack.optimove.net^$third-party
-||sportsillustrated.tags.crwdcntrl.net^$third-party
 ||sportsnjtracksdk.optimove.net^$third-party
 ||sr-weight.rlcdn.com^$third-party
 ||sr.rlcdn.com^$third-party
@@ -248,9 +237,7 @@
 ||ssd-bluekai-va5.everesttech.net^$third-party
 ||st-eu.dynamicyield.com^$third-party
 ||st.dynamicyield.com^$third-party
-||stags.bluekai.com^$third-party
 ||static.audience.media^$third-party
-||static.dynamicyield.com^$third-party
 ||static.scarabresearch.com^$third-party
 ||stats.sirdata.com^$third-party
 ||stats.sirdata.eu^$third-party
@@ -258,7 +245,6 @@
 ||superficial.crwdcntrl.net^$third-party
 ||surge.bombora.com^$third-party
 ||sync.crwdcntrl.net^$third-party
-||tags.bluekai.com^$third-party
 ||tags.bluekai.com.edgekey.net^$third-party
 ||tags.cmp.tail.digital^$third-party
 ||tags.crwdcntrl.net^$third-party
@@ -273,16 +259,13 @@
 ||uipglob.semasio.net^$third-party
 ||us.optimove.net^$third-party
 ||useinsider.com^$third-party
-||videogum.tags.crwdcntrl.net^$third-party
 ||vidilife.crwdcntrl.net^$third-party
 ||vox.amp.permutive.com^$third-party
-||wwtdd.tags.crwdcntrl.net^$third-party
 ||www.barilliance.net^$third-party
 ||www.bombora.com^$third-party
 ||www.lotame.com^$third-party
 ||www.optimove.net^$third-party
 ||xml.audiencedevelopers.com^$third-party
-||yardbarker.tags.crwdcntrl.net^$third-party
 ||zeotap.com^$third-party
 ||ak.sail-horizon.com/^
 ||bcp.crwdcntrl.net/^
