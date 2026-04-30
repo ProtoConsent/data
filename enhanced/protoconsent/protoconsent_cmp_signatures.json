@@ -1,7 +1,7 @@
 {
   "version": "2026-04-30",
   "type": "cmp",
-  "generated": "2026-04-30T12:14:42.987Z",
+  "generated": "2026-04-30T12:32:21.318Z",
   "cmp_count": 31,
   "signatures": {
     "onetrust": {
@@ -416,12 +416,12 @@
     },
     "facebook": {
       "cookie": [],
-      "selector": "div[role=\"dialog\"][aria-modal=\"true\"]",
+      "selector": null,
       "lockClass": null,
       "domains": [
         "facebook.com"
       ],
-      "note": "Facebook/Meta custom CMP. Consent is server-side (no client cookie to inject). Cosmetic hide only."
+      "note": "Facebook/Meta custom CMP. Consent is server-side (no client cookie to inject). No cosmetic hiding - generic dialog selector causes backdrop overlay issues."
     },
     "yahoo": {
       "cookie": [

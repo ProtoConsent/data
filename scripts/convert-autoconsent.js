@@ -161,6 +161,12 @@ const TS_CMPS = {
   google_com: {
     prehide: [],
     detect: ["a[href^=\"https://policies.google.com/technologies/cookies\"]"],
+    showing: ["a[href^=\"https://policies.google.com/technologies/cookies\"]"],
+  },
+  facebook: {
+    prehide: [],
+    detect: ["div[role=\"dialog\"][aria-modal=\"true\"]"],
+    showing: ["div[role=\"dialog\"][aria-modal=\"true\"]"],
   },
 };
 
@@ -345,6 +351,10 @@ function extractAll(entries) {
     if (ts.detect.length > 0) {
       if (!detectByName[name]) detectByName[name] = { present: [], showing: [] };
       detectByName[name].present.push(...ts.detect);
+    }
+    if (ts.showing && ts.showing.length > 0) {
+      if (!detectByName[name]) detectByName[name] = { present: [], showing: [] };
+      detectByName[name].showing.push(...ts.showing);
     }
   }
 

@@ -1,10 +1,10 @@
 {
   "version": "2026-04-30",
   "type": "cmp_detectors",
-  "generated": "2026-04-30T12:14:42.995Z",
+  "generated": "2026-04-30T12:32:21.325Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
   "autoconsent_tree_hash": "c372282dfbc267af",
-  "cmp_count": 286,
+  "cmp_count": 287,
   "detectors": {
     "abc": {
       "present": [
@@ -902,6 +902,17 @@
         "#ez-cookie-dialog-wrapper"
       ]
     },
+    "facebook": {
+      "present": [
+        "div[role=\"dialog\"][aria-modal=\"true\"]"
+      ],
+      "showing": [
+        "div[role=\"dialog\"][aria-modal=\"true\"]"
+      ],
+      "domains": [
+        "facebook.com"
+      ]
+    },
     "fedex": {
       "present": [
         "fedex-gdpr"
@@ -999,7 +1010,9 @@
       "present": [
         "a[href^=\"https://policies.google.com/technologies/cookies\"]"
       ],
-      "showing": [],
+      "showing": [
+        "a[href^=\"https://policies.google.com/technologies/cookies\"]"
+      ],
       "domains": [
         "google.com"
       ]
