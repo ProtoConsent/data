@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-04-30T06:15:26.348Z",
+  "generated": "2026-04-30T12:14:59.784Z",
   "lists": {
     "protoconsent_hotfix": {
       "name": "ProtoConsent Hotfix",
@@ -276,8 +276,8 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_cmp_signatures.json",
       "type": "cmp",
       "order": 10,
-      "version": "2026-04-21",
-      "generated": "2026-04-21T06:23:36.030Z",
+      "version": "2026-04-30",
+      "generated": "2026-04-30T12:14:42.987Z",
       "domain_count": 0,
       "path_rule_count": 0,
       "cmp_count": 31
@@ -292,11 +292,11 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_cmp_detectors.json",
       "type": "cmp_detectors",
       "order": 11,
-      "version": "2026-04-21",
-      "generated": "2026-04-21T06:23:36.041Z",
+      "version": "2026-04-30",
+      "generated": "2026-04-30T12:14:42.995Z",
       "domain_count": 0,
       "path_rule_count": 0,
-      "cmp_count": 288
+      "cmp_count": 286
     },
     "protoconsent_cmp_signatures_site": {
       "name": "ProtoConsent Site Banners",
@@ -308,11 +308,11 @@
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_cmp_signatures_site.json",
       "type": "cmp_site",
       "order": 12,
-      "version": "2026-04-21",
-      "generated": "2026-04-21T06:23:36.031Z",
+      "version": "2026-04-30",
+      "generated": "2026-04-30T12:14:42.988Z",
       "domain_count": 0,
       "path_rule_count": 0,
-      "cmp_count": 234
+      "cmp_count": 233
     },
     "adguard_tracking_params": {
       "name": "AdGuard Tracking Params",

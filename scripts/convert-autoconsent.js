@@ -158,6 +158,10 @@ const TS_CMPS = {
     prehide: ["#usercentrics-root", "#usercentrics-cmp-ui", "#usercentrics-button", ".uc-embedding-wrapper", "#uc-center-container", "uc-layer1", "uc-layer2", "[data-testid='uc-default-wall']", "[data-testid='uc-banner-modal']"],
     detect: ["#usercentrics-root", "uc-layer1", "uc-layer2"],
   },
+  google_com: {
+    prehide: [],
+    detect: ["a[href^=\"https://policies.google.com/technologies/cookies\"]"],
+  },
 };
 
 // --- Name normalization ---

@@ -35,7 +35,9 @@
     "^\\[class\\*=modal\\]$",
     "^\\.(modal|overlay|content|banner|popup)$",
     "^\\.modal-backdrop$",
-    "^\\.bg-overlay$"
+    "^\\.bg-overlay$",
+    "\\.[A-Za-z0-9]{4,12}#[A-Za-z0-9]{4,12}",
+    "^body\\s*>\\s*div:not\\(\\[id\\]\\)\\s*>"
   ],
 
   "banned_entries": [
