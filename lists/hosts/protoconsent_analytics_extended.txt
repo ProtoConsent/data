@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics Extended
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-# Version: 2026-04-29
-# Last modified: 2026-04-29T06:11:39.798Z
-# Entries: 33689
+# Version: 2026-04-30
+# Last modified: 2026-04-30T06:16:30.425Z
+# Entries: 33680
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -2533,6 +2533,7 @@
 0.0.0.0 analytics-events.inshorts.com
 0.0.0.0 analytics-fe.digital-cloud-prem.medallia.com
 0.0.0.0 analytics-fe.digital-cloud-west.medallia.com
+0.0.0.0 analytics-fe.digital-cloud.medallia.ca
 0.0.0.0 analytics-fe.digital-cloud.medallia.com
 0.0.0.0 analytics-fe.digital-cloud.medallia.eu
 0.0.0.0 analytics-gateway.delta.dp.lightricks.com
@@ -2701,6 +2702,7 @@
 0.0.0.0 analytics.certifriedit.com
 0.0.0.0 analytics.ceu.com
 0.0.0.0 analytics.changiairport.com
+0.0.0.0 analytics.chase.com
 0.0.0.0 analytics.chegg.com
 0.0.0.0 analytics.chilevision.cl
 0.0.0.0 analytics.churchthemes.com
@@ -3147,7 +3149,6 @@
 0.0.0.0 analytics.qualityquestions.co
 0.0.0.0 analytics.qualityunit.com
 0.0.0.0 analytics.query.yahoo.com
-0.0.0.0 analytics.qushad.com
 0.0.0.0 analytics.radiatemedia.com
 0.0.0.0 analytics.rambla.be
 0.0.0.0 analytics.ramiyer.io
@@ -3569,7 +3570,6 @@
 0.0.0.0 api-analytics-us.zepp.com
 0.0.0.0 api-analytics-us3.zepp.com
 0.0.0.0 api-analytics.huami.com
-0.0.0.0 api-analytics.pelikan.sk
 0.0.0.0 api-analytics.prod.birdapp.com
 0.0.0.0 api-analytics.rozetka.com.ua
 0.0.0.0 api-analytics.zepp.com
@@ -4284,6 +4284,7 @@
 0.0.0.0 autozone.actonservice.com
 0.0.0.0 autspe.notino.hr
 0.0.0.0 auwdff.dyfashion.ro
+0.0.0.0 aux-log.bidmatic.io
 0.0.0.0 aux.lansator.ro
 0.0.0.0 av6fm8zw2cvz.furucombo.app
 0.0.0.0 avads.net
@@ -4520,6 +4521,7 @@
 0.0.0.0 backlinkdino.de
 0.0.0.0 backoffice.transmatico.com
 0.0.0.0 backoffice.verintsystemsinc.com
+0.0.0.0 backtension.com
 0.0.0.0 backupcat.com
 0.0.0.0 badwolf.open-election-compass.com
 0.0.0.0 baffae.alcott.eu
@@ -5049,6 +5051,8 @@
 0.0.0.0 bzlold.machi.to
 0.0.0.0 bznxqj.fiat.it
 0.0.0.0 bzqxze.remixshop.com
+0.0.0.0 bzr.openai.com
+0.0.0.0 bzrcdn.openai.com
 0.0.0.0 c-col.com
 0.0.0.0 c-o-u-n-t.com
 0.0.0.0 c-rings.net
@@ -8786,7 +8790,6 @@
 0.0.0.0 engage.shl.com
 0.0.0.0 engage.siriusdecisions.com
 0.0.0.0 engage.td.org
-0.0.0.0 engage.tines.com
 0.0.0.0 engage.unisa.edu.au
 0.0.0.0 engage.us.victorinsurance.com
 0.0.0.0 engage2demand.cisco.com
@@ -9266,7 +9269,6 @@
 0.0.0.0 f-log-at.grammarly.io
 0.0.0.0 f-log-test.grammarly.io
 0.0.0.0 f-tra.com
-0.0.0.0 f.pie.org
 0.0.0.0 f0nn.oney.fr
 0.0.0.0 f1.demo.np6.com
 0.0.0.0 f1.mailperf.com
@@ -9500,7 +9502,6 @@
 0.0.0.0 fly.caljetelite.com
 0.0.0.0 flyingpt.com
 0.0.0.0 flznib.weblio.jp
-0.0.0.0 fm-analytics-api.pocketfm.com
 0.0.0.0 fma7.aegon.es
 0.0.0.0 fmjgtp.dentalspeed.com
 0.0.0.0 fml-x.com
@@ -9973,7 +9974,6 @@
 0.0.0.0 geolocation.forbes.com
 0.0.0.0 geolocation.outreach.com
 0.0.0.0 geoplugin.net
-0.0.0.0 georiot.com
 0.0.0.0 geoservice.curse.com
 0.0.0.0 geotags.refinery89.com
 0.0.0.0 geotargetly-1a441.appspot.com
@@ -12218,6 +12218,7 @@
 0.0.0.0 intervigil.com
 0.0.0.0 intg.snapchat.com
 0.0.0.0 intrastats.com
+0.0.0.0 introjava.com
 0.0.0.0 inv3te.oui.sncf
 0.0.0.0 inventory-useast.rtbanalytica.com
 0.0.0.0 investment.lianest.co.jp
@@ -12566,7 +12567,6 @@
 0.0.0.0 jrxrit.europcar.de
 0.0.0.0 jrzgcz.ciociariaoggi.it
 0.0.0.0 jrzgcz.latinaoggi.eu
-0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js-collector.icewood.net
 0.0.0.0 js.clickrank.ai
 0.0.0.0 js.hs-analytics.net
@@ -17711,7 +17711,6 @@
 0.0.0.0 nu.esri.nl
 0.0.0.0 nucgsx.indestructibleshoes.com
 0.0.0.0 nuid.imrworldwide.com
-0.0.0.0 nullitics.com
 0.0.0.0 nuloox.com
 0.0.0.0 numbers.monthlyphotos.com
 0.0.0.0 numerino.cz
@@ -18816,7 +18815,6 @@
 0.0.0.0 plausible.ams.to
 0.0.0.0 plausible.app.kdojang.com
 0.0.0.0 plausible.app.tlschedule.com
-0.0.0.0 plausible.avris.it
 0.0.0.0 plausible.bablab.com
 0.0.0.0 plausible.beanti.me
 0.0.0.0 plausible.benscarblog.com
@@ -18889,7 +18887,6 @@
 0.0.0.0 plausible.yalepaprika.com
 0.0.0.0 plausible.zest.dev
 0.0.0.0 plausible.zorin.com
-0.0.0.0 plausibleio.workers.dev
 0.0.0.0 plavxml.com
 0.0.0.0 play.adtonos.com
 0.0.0.0 play.underdogfantasy.com
@@ -19482,7 +19479,6 @@
 0.0.0.0 questradeaffiliates.com
 0.0.0.0 questrominfo.bu.edu
 0.0.0.0 quick-counter.net
-0.0.0.0 quickkoala.io
 0.0.0.0 quickpcfixer.click
 0.0.0.0 quicksandear.com
 0.0.0.0 quillion.com
@@ -20551,7 +20547,6 @@
 0.0.0.0 sales.virtualpbx.com
 0.0.0.0 salesandmarketing.aitcfis.com
 0.0.0.0 saleslists.inform.equifax.com
-0.0.0.0 salesviewer.com
 0.0.0.0 salesviewer.org
 0.0.0.0 salto.freeto.jp
 0.0.0.0 sam.manager-magazin.de
@@ -21790,7 +21785,6 @@
 0.0.0.0 siteimproveanalytics.com
 0.0.0.0 siteimproveanalytics.io
 0.0.0.0 siteintercept.allegiancetech.com
-0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 siteinterceptco1.qualtrics.com
 0.0.0.0 sitelabweb.com
 0.0.0.0 sitelytics.tech
@@ -22215,6 +22209,7 @@
 0.0.0.0 smetrics.bankatfirst.com
 0.0.0.0 smetrics.bankaustria.at
 0.0.0.0 smetrics.bankinter.com
+0.0.0.0 smetrics.bankofamerica.com
 0.0.0.0 smetrics.bankofmelbourne.com.au
 0.0.0.0 smetrics.banksa.com.au
 0.0.0.0 smetrics.bankwest.com.au
@@ -25100,7 +25095,6 @@
 0.0.0.0 spider-tracker.xiaohongshu.com
 0.0.0.0 spiffymachine.com
 0.0.0.0 spigte.shopee.tw
-0.0.0.0 spinnaker-js.com
 0.0.0.0 spirebaboon.com
 0.0.0.0 splash-screen.net
 0.0.0.0 splicebook.com
@@ -27659,7 +27653,6 @@
 0.0.0.0 t.spbx.app
 0.0.0.0 t.sports.ru
 0.0.0.0 t.spot.im
-0.0.0.0 t.streetsblog.org
 0.0.0.0 t.strokeawareness.com
 0.0.0.0 t.syosetu.org
 0.0.0.0 t.tamiflu.com
@@ -30522,7 +30515,6 @@
 0.0.0.0 tracking.shopee.com.br
 0.0.0.0 tracking.shopping-flux.com
 0.0.0.0 tracking.shopstyle.co.uk
-0.0.0.0 tracking.shopstyle.com
 0.0.0.0 tracking.simpleaccess.com
 0.0.0.0 tracking.skyword.com
 0.0.0.0 tracking.smartbusiness.samsung.com
@@ -30823,7 +30815,6 @@
 0.0.0.0 trends.newsmaxwidget.com
 0.0.0.0 trends.privacywall.org
 0.0.0.0 trg.bosch-home.es
-0.0.0.0 trialfire.com
 0.0.0.0 tribl.io
 0.0.0.0 triboomedia.it
 0.0.0.0 trick17.it

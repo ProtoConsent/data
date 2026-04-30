@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
-  "version": "2026-04-29",
-  "generated": "2026-04-29T06:11:39.798Z",
+  "version": "2026-04-30",
+  "generated": "2026-04-30T06:16:30.425Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -206,7 +206,6 @@
     "cdn.bizible.com",
     "cdn.branch.io",
     "cdn.braze.eu",
-    "cdn.onesignal.com",
     "cdn.pardot.com",
     "cdn.pushwoosh.com",
     "cdn.socialannex.com",
@@ -344,7 +343,6 @@
     "lessbuttons.com",
     "likebtn.com",
     "links.services.disqus.com",
-    "links.truthsocial.com",
     "list-manage.com",
     "list.ru",
     "livechat.com",
@@ -629,7 +627,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 622,
+  "domain_count": 620,
   "paths": [
     "||api.getdrip.com/",
     "||apis.google.com/js/platform.js",

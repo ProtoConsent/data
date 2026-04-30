@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-04-29
-# Last modified: 2026-04-29T06:11:39.798Z
-# Entries: 5202
+# Version: 2026-04-30
+# Last modified: 2026-04-30T06:16:30.425Z
+# Entries: 5185
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -337,6 +337,7 @@
 0.0.0.0 analytics.castel.jp
 0.0.0.0 analytics.cdn.live
 0.0.0.0 analytics.ceneo.pl
+0.0.0.0 analytics.chase.com
 0.0.0.0 analytics.chegg.com
 0.0.0.0 analytics.churnzero.net
 0.0.0.0 analytics.cincopa.com
@@ -526,7 +527,6 @@
 0.0.0.0 analytics.qs-apps.com
 0.0.0.0 analytics.qualityunit.com
 0.0.0.0 analytics.query.yahoo.com
-0.0.0.0 analytics.qushad.com
 0.0.0.0 analytics.radiatemedia.com
 0.0.0.0 analytics.rechtslupe.org
 0.0.0.0 analytics.recruitics.com
@@ -676,7 +676,6 @@
 0.0.0.0 ape-tagit.timeinc.net
 0.0.0.0 apester.com
 0.0.0.0 api-analytics-prd.pelcro.com
-0.0.0.0 api-analytics.pelikan.sk
 0.0.0.0 api-analytics.prod.birdapp.com
 0.0.0.0 api-analytics.rozetka.com.ua
 0.0.0.0 api-js.mixpanel.com
@@ -1637,7 +1636,6 @@
 0.0.0.0 en-log.vietnamplus.vn
 0.0.0.0 enc-90128738.b-cdn.net
 0.0.0.0 energyfools.com
-0.0.0.0 engage.tines.com
 0.0.0.0 engagefront.theweathernetwork.com
 0.0.0.0 engagement-collector.mobify.net
 0.0.0.0 engagetosell.com
@@ -1787,7 +1785,6 @@
 0.0.0.0 f-emc.ngsp.gov.vn
 0.0.0.0 f-log-at.grammarly.io
 0.0.0.0 f-log-test.grammarly.io
-0.0.0.0 f.pie.org
 0.0.0.0 f775.thehour.com
 0.0.0.0 fa5.dn4.it
 0.0.0.0 facil-iti.com
@@ -1828,7 +1825,6 @@
 0.0.0.0 floodprincipal.com
 0.0.0.0 flx1.com
 0.0.0.0 flxpxl.com
-0.0.0.0 fm-analytics-api.pocketfm.com
 0.0.0.0 fn-pz.com
 0.0.0.0 fndrsp.net
 0.0.0.0 focusfitwear.com
@@ -1910,7 +1906,6 @@
 0.0.0.0 geolocation.forbes.com
 0.0.0.0 geolocation.outreach.com
 0.0.0.0 geoplugin.net
-0.0.0.0 georiot.com
 0.0.0.0 geotags.refinery89.com
 0.0.0.0 getclicky.com
 0.0.0.0 getconversion.net
@@ -2103,7 +2098,6 @@
 0.0.0.0 indicative.com
 0.0.0.0 infinity-tracking.net
 0.0.0.0 infinityid.condenastdigital.com
-0.0.0.0 info.calnexsol.com
 0.0.0.0 informer.yandex.ru
 0.0.0.0 informers.sinoptik.ua
 0.0.0.0 infostroy.nnov.ru
@@ -2171,7 +2165,6 @@
 0.0.0.0 jirafe.com
 0.0.0.0 jivosite.com
 0.0.0.0 jly24aw29n5m-a.akamaihd.net
-0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js-collector.icewood.net
 0.0.0.0 js.hs-analytics.net
 0.0.0.0 js.verisoul.ai
@@ -2863,7 +2856,6 @@
 0.0.0.0 nstat.headlines.pw
 0.0.0.0 nstracking.com
 0.0.0.0 ntracker-collector.naver.com
-0.0.0.0 nullitics.com
 0.0.0.0 numerino.cz
 0.0.0.0 nwr.static.mmcdn.com
 0.0.0.0 nws.naltis.com
@@ -3089,12 +3081,10 @@
 0.0.0.0 pla.fwdcdn.com
 0.0.0.0 platform.iteratehq.com
 0.0.0.0 plausible.ams.to
-0.0.0.0 plausible.avris.it
 0.0.0.0 plausible.citynews.ovh
 0.0.0.0 plausible.omgapi.org
 0.0.0.0 plausible.server.hakai.app
 0.0.0.0 plausible.simplelogin.io
-0.0.0.0 plausibleio.workers.dev
 0.0.0.0 play.adtonos.com
 0.0.0.0 player-analytics.mp.lura.live
 0.0.0.0 player-metrics.instaread.co
@@ -3218,7 +3208,6 @@
 0.0.0.0 query1.petametrics.com
 0.0.0.0 questionmarket.com
 0.0.0.0 quick-counter.net
-0.0.0.0 quickkoala.io
 0.0.0.0 quicksandear.com
 0.0.0.0 quintelligence.com
 0.0.0.0 quizzicalzephyr.com
@@ -3379,7 +3368,6 @@
 0.0.0.0 sageanalyst.net
 0.0.0.0 sagetrc.com
 0.0.0.0 sal.isanook.com
-0.0.0.0 salesviewer.com
 0.0.0.0 sanalytics.autozone.com
 0.0.0.0 sanalytics.box.com
 0.0.0.0 sanalytics.enterprise.spectrum.com
@@ -3529,7 +3517,6 @@
 0.0.0.0 siteimproveanalytics.com
 0.0.0.0 siteimproveanalytics.io
 0.0.0.0 siteintercept.allegiancetech.com
-0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 sitelabweb.com
 0.0.0.0 sitemapwizard.com
 0.0.0.0 siteperformancetest.net
@@ -3572,6 +3559,7 @@
 0.0.0.0 smetrics.autodesk.com
 0.0.0.0 smetrics.avalara.com
 0.0.0.0 smetrics.avnet.com
+0.0.0.0 smetrics.bankofamerica.com
 0.0.0.0 smetrics.bbb.org
 0.0.0.0 smetrics.bbva.es
 0.0.0.0 smetrics.bbva.mx
@@ -3805,7 +3793,6 @@
 0.0.0.0 spelar.org
 0.0.0.0 spider-tracker.xiaohongshu.com
 0.0.0.0 spiffymachine.com
-0.0.0.0 spinnaker-js.com
 0.0.0.0 spirebaboon.com
 0.0.0.0 splicebook.com
 0.0.0.0 spotlersearchanalytics.com
@@ -3988,6 +3975,7 @@
 0.0.0.0 stats.habr.com
 0.0.0.0 stats.hara.vn
 0.0.0.0 stats.harpercollins.com
+0.0.0.0 stats.hitwebcloud.de
 0.0.0.0 stats.how.wtf
 0.0.0.0 stats.hstatic.net
 0.0.0.0 stats.huuuge.net
@@ -4119,7 +4107,6 @@
 0.0.0.0 stroeerdigitalmedia.de
 0.0.0.0 stupendoussleet.com
 0.0.0.0 sub2tech.com
-0.0.0.0 success.act-on.com
 0.0.0.0 sugar.zhihu.com
 0.0.0.0 sugs.m.sm.cn
 0.0.0.0 summerhamster.com
@@ -4188,7 +4175,6 @@
 0.0.0.0 t.spbx.app
 0.0.0.0 t.sports.ru
 0.0.0.0 t.spot.im
-0.0.0.0 t.streetsblog.org
 0.0.0.0 t.syosetu.org
 0.0.0.0 t.themarketer.com
 0.0.0.0 t.vibe.co
@@ -4748,7 +4734,6 @@
 0.0.0.0 tracking.shopback.com
 0.0.0.0 tracking.shopee.com.br
 0.0.0.0 tracking.shopstyle.co.uk
-0.0.0.0 tracking.shopstyle.com
 0.0.0.0 tracking.skyword.com
 0.0.0.0 tracking.smartmeapp.com
 0.0.0.0 tracking.softwareprojects.com
@@ -4827,7 +4812,6 @@
 0.0.0.0 tremendoustime.com
 0.0.0.0 trendcounter.com
 0.0.0.0 trends.newsmaxwidget.com
-0.0.0.0 trialfire.com
 0.0.0.0 triggers.wfxtriggers.com
 0.0.0.0 triggertag.gorillanation.com
 0.0.0.0 triplewhale-pixel.web.app
@@ -4850,7 +4834,6 @@
 0.0.0.0 truehits.in.th
 0.0.0.0 truehits.net
 0.0.0.0 truehits3.gits.net.th
-0.0.0.0 truenat.bid
 0.0.0.0 trueselfkeys.com
 0.0.0.0 trust.titanhq.com
 0.0.0.0 trusted-collector-bk.tmocce.com
