@@ -1,12 +1,18 @@
 {
-  "version": "2026-04-29",
-  "generated": "2026-04-29T06:10:06.987Z",
+  "version": "2026-04-30",
+  "generated": "2026-04-30T06:15:00.228Z",
   "type": "tracking_params_sites",
-  "domain_count": 879,
-  "param_count": 1815,
+  "domain_count": 880,
+  "param_count": 1819,
   "sites": {
+    "ridibooks.com": [
+      "_rdt_arg",
+      "_rdt_idx",
+      "_rdt_sid"
+    ],
     "change.org": [
       "recruited_by_id",
+      "recruiter",
       "share_id",
       "source_location",
       "user_flow"
