@@ -46,11 +46,17 @@ jobs:
       - name: Generate DNR path rulesets
         run: node scripts/release/generate-external-paths.js
 
+      - name: Promote ProtoConsent path candidates
+        run: node scripts/release/promote-protoconsent-paths.js
+
       - name: Generate tracking param rulesets
         run: node scripts/daily/convert-tracking-params.js --enable-dnr
 
       - name: Generate cosmetic ruleset
         run: node scripts/daily/convert-cosmetic.js
+
+      - name: Validate release bundle
+        run: node scripts/release/validate-release.js
 
       - name: Commit bundle to data repo
         run: |
