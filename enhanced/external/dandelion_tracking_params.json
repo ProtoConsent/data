@@ -1,9 +1,9 @@
 {
-  "version": "2026-04-30",
-  "generated": "2026-04-30T06:15:00.228Z",
+  "version": "2026-05-01",
+  "generated": "2026-05-01T06:25:11.926Z",
   "type": "tracking_params_sites",
-  "domain_count": 880,
-  "param_count": 1819,
+  "domain_count": 881,
+  "param_count": 1820,
   "sites": {
     "ridibooks.com": [
       "_rdt_arg",
@@ -4130,6 +4130,9 @@
     ],
     "t.edm.bell.ca": [
       "ext"
+    ],
+    "publicmobile.ca": [
+      "p_id"
     ],
     "ikea.com": [
       "f"
