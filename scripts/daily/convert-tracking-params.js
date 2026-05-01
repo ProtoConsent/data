@@ -48,7 +48,7 @@ const SOURCES = {
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const enableDnr = args.includes("--enable-dnr");
-let outputDir = path.join(__dirname, "..", "bundle");
+let outputDir = path.join(__dirname, "..", "..", "bundle");
 
 for (let i = 0; i < args.length; i++) {
   if (args[i] === "--output" && args[i + 1]) outputDir = args[++i];
@@ -231,7 +231,7 @@ async function main() {
   }
 
   // --- Write enhanced JSONs ---
-  const enhancedDir = path.join(__dirname, "..", "enhanced", "external");
+  const enhancedDir = path.join(__dirname, "..", "..", "enhanced", "external");
   if (!fs.existsSync(enhancedDir)) fs.mkdirSync(enhancedDir, { recursive: true });
 
   const egPath = path.join(enhancedDir, "adguard_tracking_params.json");

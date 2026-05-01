@@ -229,7 +229,7 @@ function printStats(label, parsed) {
 // --- Main ---
 async function main() {
   var args = process.argv.slice(2);
-  var outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "enhanced");
+  var outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "..", "enhanced");
   var dryRun = args.includes("--dry-run");
 
   if (!dryRun) {

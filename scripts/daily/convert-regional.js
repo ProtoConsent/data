@@ -489,7 +489,7 @@ function mergeCosmetic(allResults) {
 async function main() {
   const args = process.argv.slice(2);
   const regionFilter = args.includes("--region") ? args[args.indexOf("--region") + 1] : null;
-  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "enhanced", "regional");
+  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "..", "enhanced", "regional");
   const dryRun = args.includes("--dry-run");
 
   if (!dryRun) {

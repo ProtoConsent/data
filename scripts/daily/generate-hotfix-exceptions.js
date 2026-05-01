@@ -17,9 +17,9 @@ const path = require("path");
 
 const LISTS = ["easyprivacy", "easylist"];
 
-const BUNDLE_DIR = path.join(__dirname, "..", "bundle");
-const ENHANCED_DIR = path.join(__dirname, "..", "enhanced", "external");
-const HOTFIX_PATH = path.join(__dirname, "..", "enhanced", "protoconsent", "protoconsent_hotfix.json");
+const BUNDLE_DIR = path.join(__dirname, "..", "..", "bundle");
+const ENHANCED_DIR = path.join(__dirname, "..", "..", "enhanced", "external");
+const HOTFIX_PATH = path.join(__dirname, "..", "..", "enhanced", "protoconsent", "protoconsent_hotfix.json");
 
 function extractPublishedAllowFilters(filePath) {
   const filters = new Set();

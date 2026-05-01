@@ -49,7 +49,7 @@ function fetchUrl(url, maxRedirects = 3) {
 // --- Main ---
 async function main() {
   const args = process.argv.slice(2);
-  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "enhanced");
+  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "..", "enhanced");
   const dryRun = args.includes("--dry-run");
 
   const map = {};

@@ -40,7 +40,7 @@ const GITHUB_RAW = "https://raw.githubusercontent.com/duckduckgo/autoconsent/mai
 const SIGNATURES_FILE = "protoconsent_cmp_signatures.json";
 const DETECTORS_FILE = "protoconsent_cmp_detectors.json";
 const SITE_FILE = "protoconsent_cmp_signatures_site.json";
-const SAFELIST_FILE = path.join(__dirname, "..", "config", "cmp-safelist.json");
+const SAFELIST_FILE = path.join(__dirname, "..", "..", "config", "cmp-safelist.json");
 
 // --- Safelist loading ---
 function loadSafelist() {
@@ -495,7 +495,7 @@ async function main() {
   const args = process.argv.slice(2);
   const outputDir = args.includes("--output")
     ? args[args.indexOf("--output") + 1]
-    : path.join(__dirname, "..", "enhanced", "protoconsent");
+    : path.join(__dirname, "..", "..", "enhanced", "protoconsent");
   const dryRun = args.includes("--dry-run");
   const force = args.includes("--force");
   const localIdx = args.indexOf("--local");

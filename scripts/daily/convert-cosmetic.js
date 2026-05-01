@@ -139,7 +139,7 @@ function parseCosmeticRules(text) {
 // --- Main ---
 async function main() {
   const args = process.argv.slice(2);
-  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "enhanced");
+  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "..", "enhanced");
   const dryRun = args.includes("--dry-run");
 
   if (!dryRun) {

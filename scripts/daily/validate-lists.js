@@ -14,7 +14,7 @@ const path = require("path");
 
 // --- Config ---
 
-const REPO_ROOT = path.resolve(__dirname, "..");
+const REPO_ROOT = path.resolve(__dirname, "..", "..");
 const BUNDLE_DIR = path.join(REPO_ROOT, "bundle");
 const DELTA_DIR = path.join(REPO_ROOT, "enhanced", "protoconsent");
 const LISTS_DIR = path.join(REPO_ROOT, "lists");

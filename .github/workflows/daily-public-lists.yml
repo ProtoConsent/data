@@ -1,12 +1,12 @@
 # ProtoConsent browser extension
 # Copyright (C) 2026 ProtoConsent contributors
 # SPDX-License-Identifier: GPL-3.0-or-later
-name: Refresh full lists
+name: "Daily: generate public lists"
 
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Refresh enhanced lists"]
+    workflows: ["Daily: refresh enhanced lists"]
     types: [completed]
 
 permissions:
@@ -30,10 +30,10 @@ jobs:
           node-version: "20"
 
       - name: Generate full lists
-        run: node scripts/generate-full-lists.js
+        run: node scripts/daily/generate-full-lists.js
 
       - name: Validate generated lists
-        run: node scripts/validate-lists.js
+        run: node scripts/daily/validate-lists.js
 
       - name: Check for changes
         id: changes

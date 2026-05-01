@@ -40,17 +40,17 @@ jobs:
 
       - name: Fetch and convert external lists
         run: |
-          node scripts/convert.js --list easyprivacy
-          node scripts/convert.js --list easylist
+          node scripts/daily/convert.js --list easyprivacy
+          node scripts/daily/convert.js --list easylist
 
       - name: Generate DNR path rulesets
         run: node scripts/release/generate-external-paths.js
 
       - name: Generate tracking param rulesets
-        run: node scripts/convert-tracking-params.js --enable-dnr
+        run: node scripts/daily/convert-tracking-params.js --enable-dnr
 
       - name: Generate cosmetic ruleset
-        run: node scripts/convert-cosmetic.js
+        run: node scripts/daily/convert-cosmetic.js
 
       - name: Commit bundle to data repo
         run: |

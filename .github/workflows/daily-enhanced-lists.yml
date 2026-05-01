@@ -1,7 +1,7 @@
 # ProtoConsent browser extension
 # Copyright (C) 2026 ProtoConsent contributors
 # SPDX-License-Identifier: GPL-3.0-or-later
-name: Refresh enhanced lists
+name: "Daily: refresh enhanced lists"
 
 on:
   workflow_dispatch:
@@ -33,9 +33,9 @@ jobs:
         run: |
           set +e
           if [ -n "${{ github.event.inputs.list }}" ]; then
-            node scripts/convert.js --list "${{ github.event.inputs.list }}"
+            node scripts/daily/convert.js --list "${{ github.event.inputs.list }}"
           else
-            node scripts/convert.js
+            node scripts/daily/convert.js
           fi
           CONVERT_EXIT=$?
           echo "convert_exit=$CONVERT_EXIT" >> "$GITHUB_OUTPUT"
@@ -45,7 +45,7 @@ jobs:
         if: github.event.inputs.list == '' || github.event.inputs.list == 'cname_trackers'
         run: |
           set +e
-          node scripts/convert-cname.js
+          node scripts/daily/convert-cname.js
           echo "cname_exit=$?" >> "$GITHUB_OUTPUT"
 
       - name: Refresh cosmetic rules
@@ -53,7 +53,7 @@ jobs:
         if: github.event.inputs.list == '' || github.event.inputs.list == 'easylist_cosmetic'
         run: |
           set +e
-          node scripts/convert-cosmetic.js
+          node scripts/daily/convert-cosmetic.js
           echo "cosmetic_exit=$?" >> "$GITHUB_OUTPUT"
 
       - name: Refresh cookie cosmetic rules
@@ -61,7 +61,7 @@ jobs:
         if: github.event.inputs.list == '' || github.event.inputs.list == 'easylist_cookie_cosmetic' || github.event.inputs.list == 'webannoyances_cosmetic'
         run: |
           set +e
-          node scripts/convert-cookie-cosmetic.js
+          node scripts/daily/convert-cookie-cosmetic.js
           echo "cookie_cosmetic_exit=$?" >> "$GITHUB_OUTPUT"
 
       - name: Refresh autoconsent CMP data
@@ -69,7 +69,7 @@ jobs:
         if: github.event.inputs.list == '' || github.event.inputs.list == 'protoconsent_cmp_signatures'
         run: |
           set +e
-          node scripts/convert-autoconsent.js
+          node scripts/daily/convert-autoconsent.js
           echo "autoconsent_exit=$?" >> "$GITHUB_OUTPUT"
 
       - name: Refresh tracking params
@@ -77,7 +77,7 @@ jobs:
         if: github.event.inputs.list == '' || github.event.inputs.list == 'adguard_tracking_params' || github.event.inputs.list == 'dandelion_tracking_params'
         run: |
           set +e
-          node scripts/convert-tracking-params.js
+          node scripts/daily/convert-tracking-params.js
           echo "trackparams_exit=$?" >> "$GITHUB_OUTPUT"
 
       - name: Refresh regional lists
@@ -87,18 +87,18 @@ jobs:
           set +e
           if [[ "${{ github.event.inputs.list }}" == regional_*_* ]]; then
             REGION=$(echo "${{ github.event.inputs.list }}" | sed 's/regional_//' | sed 's/_cosmetic//' | sed 's/_blocking//')
-            node scripts/convert-regional.js --region "$REGION"
+            node scripts/daily/convert-regional.js --region "$REGION"
           else
-            node scripts/convert-regional.js
+            node scripts/daily/convert-regional.js
           fi
           echo "regional_exit=$?" >> "$GITHUB_OUTPUT"
 
       - name: Update hotfix path exceptions
         if: github.event.inputs.list == '' || github.event.inputs.list == 'easyprivacy' || github.event.inputs.list == 'easylist'
-        run: node scripts/generate-hotfix-exceptions.js
+        run: node scripts/daily/generate-hotfix-exceptions.js
 
       - name: Generate manifest
-        run: node scripts/generate-manifest.js
+        run: node scripts/daily/generate-manifest.js
 
       - name: Check for changes
         id: changes

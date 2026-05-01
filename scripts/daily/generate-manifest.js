@@ -23,7 +23,7 @@ function listSubdir(listId) {
 }
 
 // --- Read valid region codes from config/regional-languages.json ---
-const REGIONAL_LANGUAGES_PATH = path.join(__dirname, "..", "config", "regional-languages.json");
+const REGIONAL_LANGUAGES_PATH = path.join(__dirname, "..", "..", "config", "regional-languages.json");
 let VALID_REGIONS;
 try {
   const rlData = JSON.parse(fs.readFileSync(REGIONAL_LANGUAGES_PATH, "utf-8"));
@@ -446,9 +446,9 @@ function buildManifest(enhancedDir) {
 // --- Main ---
 function main() {
   const args = process.argv.slice(2);
-  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "config");
+  const outputDir = args.includes("--output") ? args[args.indexOf("--output") + 1] : path.join(__dirname, "..", "..", "config");
   const dryRun = args.includes("--dry-run");
-  const enhancedDir = path.join(__dirname, "..", "enhanced");
+  const enhancedDir = path.join(__dirname, "..", "..", "enhanced");
 
   console.log("ProtoConsent — generate config/enhanced-lists.json manifest");
   console.log("Enhanced dir:", enhancedDir);
