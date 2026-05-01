@@ -267,6 +267,15 @@ function validateInputs() {
       } else {
         ok("hotfix", `${rv.revocations.length} revocations`);
       }
+      if (rv.path_exceptions !== undefined) {
+        if (!Array.isArray(rv.path_exceptions)) {
+          fail("hotfix", "path_exceptions is not an array");
+        } else if (rv.path_exception_count !== rv.path_exceptions.length) {
+          fail("hotfix", `path_exception count says ${rv.path_exception_count} but array has ${rv.path_exceptions.length}`);
+        } else {
+          ok("hotfix", `${rv.path_exceptions.length} path exceptions`);
+        }
+      }
     }
   }
 }

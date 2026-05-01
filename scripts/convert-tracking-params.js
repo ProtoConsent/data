@@ -10,14 +10,15 @@
 //   enhanced/adguard_tracking_params.json  — Enhanced list: global params (AdGuard general)
 //   enhanced/dandelion_tracking_params.json — Enhanced list: per-site params (specific + Dandelion)
 //
-// Also generates ready-to-use static rulesets for the extension:
-//   output/strip_tracking_params.json       — DNR ruleset: global
-//   output/strip_tracking_params_sites.json — DNR ruleset: per-site
+// Also generates ready-to-use static rulesets for the extension (opt-in):
+//   bundle/strip_tracking_params.json       — DNR ruleset: global
+//   bundle/strip_tracking_params_sites.json — DNR ruleset: per-site
 //
 // Usage:
-//   node convert-tracking-params.js                   # fetch + output to defaults
-//   node convert-tracking-params.js --output ../path  # custom DNR ruleset output dir
-//   node convert-tracking-params.js --dry-run         # show stats without writing
+//   node convert-tracking-params.js                        # CDN enhanced lists only
+//   node convert-tracking-params.js --enable-dnr           # also generate DNR static rulesets
+//   node convert-tracking-params.js --enable-dnr --output ../path  # custom DNR output dir
+//   node convert-tracking-params.js --dry-run              # show stats without writing
 
 const fs = require("fs");
 const path = require("path");
@@ -46,7 +47,8 @@ const SOURCES = {
 // --- CLI args ---
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
-let outputDir = path.join(__dirname, "..", "output");
+const enableDnr = args.includes("--enable-dnr");
+let outputDir = path.join(__dirname, "..", "bundle");
 
 for (let i = 0; i < args.length; i++) {
   if (args[i] === "--output" && args[i + 1]) outputDir = args[++i];
@@ -240,23 +242,25 @@ async function main() {
   const egSize = fs.statSync(egPath).size;
   const esSize = fs.statSync(esPath).size;
 
-  // --- Write DNR rulesets ---
-  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
-
-  const grPath = path.join(outputDir, "strip_tracking_params.json");
-  const srPath = path.join(outputDir, "strip_tracking_params_sites.json");
-  fs.writeFileSync(grPath, JSON.stringify(globalRule, null, 2) + "\n", "utf8");
-  fs.writeFileSync(srPath, JSON.stringify(siteRules, null, 2) + "\n", "utf8");
-
-  const grSize = fs.statSync(grPath).size;
-  const srSize = fs.statSync(srPath).size;
-
   console.log("\nWritten (enhanced lists):");
   console.log("  " + egPath + " (" + (egSize / 1024).toFixed(1) + " KB)");
   console.log("  " + esPath + " (" + (esSize / 1024).toFixed(1) + " KB)");
-  console.log("\nWritten (DNR rulesets):");
-  console.log("  " + grPath + " (" + (grSize / 1024).toFixed(1) + " KB)");
-  console.log("  " + srPath + " (" + (srSize / 1024).toFixed(1) + " KB)");
+
+  if (enableDnr) {
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+
+    const grPath = path.join(outputDir, "strip_tracking_params.json");
+    const srPath = path.join(outputDir, "strip_tracking_params_sites.json");
+    fs.writeFileSync(grPath, JSON.stringify(globalRule, null, 2) + "\n", "utf8");
+    fs.writeFileSync(srPath, JSON.stringify(siteRules, null, 2) + "\n", "utf8");
+
+    const grSize = fs.statSync(grPath).size;
+    const srSize = fs.statSync(srPath).size;
+
+    console.log("\nWritten (DNR rulesets):");
+    console.log("  " + grPath + " (" + (grSize / 1024).toFixed(1) + " KB)");
+    console.log("  " + srPath + " (" + (srSize / 1024).toFixed(1) + " KB)");
+  }
 }
 
 main().catch((e) => {

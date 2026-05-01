@@ -93,6 +93,10 @@ jobs:
           fi
           echo "regional_exit=$?" >> "$GITHUB_OUTPUT"
 
+      - name: Update hotfix path exceptions
+        if: github.event.inputs.list == '' || github.event.inputs.list == 'easyprivacy' || github.event.inputs.list == 'easylist'
+        run: node scripts/generate-hotfix-exceptions.js
+
       - name: Generate manifest
         run: node scripts/generate-manifest.js
 

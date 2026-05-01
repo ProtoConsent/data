@@ -164,14 +164,36 @@ function parseAbp(text) {
   const domains = [];
   const pathRules = [];
   const seenPaths = new Set();
+  const exceptions = [];
 
   for (const line of text.split("\n")) {
     const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith("!") || trimmed.startsWith("[") || trimmed.startsWith("@@")) continue;
+    if (!trimmed || trimmed.startsWith("!") || trimmed.startsWith("[")) continue;
     // Skip element hiding / cosmetic filters
     if (trimmed.includes("##") || trimmed.includes("#@#") || trimmed.includes("#?#")) continue;
     // Skip regex rules
     if (trimmed.startsWith("/") && trimmed.endsWith("/")) continue;
+
+    // Exception rules (@@)
+    if (trimmed.startsWith("@@")) {
+      const body = trimmed.slice(2);
+      const excPathMatch = body.match(pathRegex);
+      if (excPathMatch) {
+        const urlFilter = "||" + excPathMatch[1];
+        const dollarIdx = body.indexOf("$");
+        const options = dollarIdx !== -1 ? body.slice(dollarIdx + 1) : "";
+        const exc = { urlFilter };
+        const domainOpt = options.match(/(?:^|,)domain=([^,]+)/i);
+        if (domainOpt) {
+          exc.initiatorDomains = domainOpt[1].split("|").filter(d => !d.startsWith("~"));
+        }
+        if (/(?:^|,)~third-party(?:,|$)/i.test(options)) {
+          exc.firstParty = true;
+        }
+        exceptions.push(exc);
+      }
+      continue;
+    }
 
     // Check options — skip rules restricted to specific domains or types we can't enforce
     const dollarIdx = trimmed.indexOf("$");
@@ -206,11 +228,12 @@ function parseAbp(text) {
   return {
     domains: cleanDomains(domains),
     pathRules,
+    exceptions,
   };
 }
 
 // --- Output generation -------------------------------------------
-function generateJson(listId, domains, pathRules) {
+function generateJson(listId, domains, pathRules, exceptions) {
   const today = new Date().toISOString().slice(0, 10);
   const rules = [];
 
@@ -236,7 +259,9 @@ function generateJson(listId, domains, pathRules) {
     generated: new Date().toISOString(),
     domain_count: domains.length,
     path_rule_count: pathRules.length,
+    exception_count: exceptions ? exceptions.length : 0,
     rules,
+    exceptions: exceptions || [],
   }, null, 0);
 }
 
@@ -270,11 +295,13 @@ async function main() {
 
       let domains;
       let pathRules = [];
+      let exceptions = [];
 
       if (def.format === "abp") {
         const result = parseAbp(raw);
         domains = result.domains;
         pathRules = result.pathRules;
+        exceptions = result.exceptions;
       } else if (def.format === "hosts") {
         domains = parseHosts(raw);
       } else {
@@ -285,12 +312,15 @@ async function main() {
       if (pathRules.length > 0) {
         summary += " + " + pathRules.length.toLocaleString() + " path rules";
       }
+      if (exceptions.length > 0) {
+        summary += " + " + exceptions.length.toLocaleString() + " exceptions";
+      }
       console.log(summary);
 
-      stats.push({ id, name: def.name, rawLines, domains: domains.length, pathRules: pathRules.length });
+      stats.push({ id, name: def.name, rawLines, domains: domains.length, pathRules: pathRules.length, exceptions: exceptions.length });
 
       if (!dryRun) {
-        const json = generateJson(id, domains, pathRules);
+        const json = generateJson(id, domains, pathRules, exceptions);
         const outPath = path.join(outputDir, "external", id + ".json");
         fs.mkdirSync(path.join(outputDir, "external"), { recursive: true });
         fs.writeFileSync(outPath, json, "utf-8");

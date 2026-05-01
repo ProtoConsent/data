@@ -1,0 +1,87 @@
+# ProtoConsent browser extension
+# Copyright (C) 2026 ProtoConsent contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# Release: regenerate all bundled rulesets and push to extension repo.
+# Run this BEFORE tagging a new extension release.
+#
+# What it does:
+#   1. Fetches fresh EasyPrivacy + EasyList and generates DNR path rulesets
+#   2. Regenerates tracking param strip and cosmetic rulesets
+#   3. Commits updated bundle/ to this repo
+#   4. Copies all rulesets to extension repo and commits there
+#
+name: "Release: update bundled rulesets"
+
+on:
+  workflow_dispatch:
+    inputs:
+      extension_branch:
+        description: "Extension repo branch to push to (default: main)"
+        required: false
+        default: "main"
+
+permissions:
+  contents: write
+
+jobs:
+  update-paths:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch and convert external lists
+        run: |
+          node scripts/convert.js --list easyprivacy
+          node scripts/convert.js --list easylist
+
+      - name: Generate DNR path rulesets
+        run: node scripts/release/generate-external-paths.js
+
+      - name: Generate tracking param rulesets
+        run: node scripts/convert-tracking-params.js --enable-dnr
+
+      - name: Generate cosmetic ruleset
+        run: node scripts/convert-cosmetic.js
+
+      - name: Commit bundle to data repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bundle/ enhanced/external/
+          git diff --cached --quiet && echo "No changes to bundle" && exit 0
+          git commit -m "release: update bundled rulesets ($(date -u +%Y-%m-%d))"
+          git pull --rebase -X theirs
+          git push
+
+      - name: Checkout extension repo
+        uses: actions/checkout@v4
+        with:
+          repository: ProtoConsent/ProtoConsent
+          token: ${{ secrets.DATA_REPO_PAT }}
+          ref: ${{ github.event.inputs.extension_branch }}
+          path: extension-repo
+
+      - name: Copy rulesets to extension
+        run: |
+          cp bundle/*.json extension-repo/extension/rules/
+          cp enhanced/external/easylist_cosmetic.json extension-repo/extension/rules/
+
+      - name: Commit and push to extension repo
+        working-directory: extension-repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add extension/rules/
+          git diff --cached --quiet && echo "No changes to extension" && exit 0
+          git commit -m "data: update bundled rulesets ($(date -u +%Y-%m-%d))"
+          git pull --rebase -X theirs
+          git push
