@@ -5,9 +5,6 @@ name: "Daily: generate public lists"
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Daily: refresh enhanced lists"]
-    types: [completed]
 
 permissions:
   contents: write
@@ -16,9 +13,6 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'success'
 
     steps:
       - name: Checkout
