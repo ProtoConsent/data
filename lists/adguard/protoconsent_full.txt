@@ -2,9 +2,9 @@
 ! Description: Full merged blocklist covering all purposes including security (phishing, scam, malware) (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-01T21:01:30.887Z
+! Last modified: 2026-05-01T22:35:32.874Z
 ! Format: AdGuard
-! Entries: 101361
+! Entries: 101362
 !
 ||0-230-23.rest^$all
 ||0.myikas.com^$third-party
@@ -72890,6 +72890,7 @@
 ||roaddek.com^$all
 ||roaddel.best^$all
 ||roaddynamics.com^$third-party
+||roadflo.icu^$all
 ||roadforcalmwaters.com^$all
 ||roadgalaxy.eu^$all
 ||roadhammertoilet.com^$all

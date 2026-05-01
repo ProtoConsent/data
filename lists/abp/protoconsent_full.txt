@@ -2,8 +2,8 @@
 ! Title: ProtoConsent Full
 ! Description: Full merged blocklist covering all purposes including security (phishing, scam, malware) (curated - high-confidence sources)
 ! Version: 2026-05-01
-! Last modified: 2026-05-01T21:01:30.887Z
-! Entries: 101361
+! Last modified: 2026-05-01T22:35:32.874Z
+! Entries: 101362
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -72891,6 +72891,7 @@
 ||roaddek.com^$document
 ||roaddel.best^$document
 ||roaddynamics.com^$third-party
+||roadflo.icu^$document
 ||roadforcalmwaters.com^$document
 ||roadgalaxy.eu^$document
 ||roadhammertoilet.com^$document
