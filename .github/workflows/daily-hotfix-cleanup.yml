@@ -1,0 +1,61 @@
+# ProtoConsent browser extension
+# Copyright (C) 2026 ProtoConsent contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: "Daily: clean hotfix revocations"
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Daily: refresh enhanced lists"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "20"
+
+      - name: Clean hotfix revocations
+        run: node scripts/daily/clean-hotfix-revocations.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add enhanced/protoconsent/protoconsent_hotfix.json
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "data: clean hotfix revocations ($DATE)"
+          git pull --rebase -X theirs
+          git push
+
+      - name: Purge jsDelivr cache
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_hotfix.json" > /dev/null && echo "Purged hotfix" || echo "Warning: purge failed"
