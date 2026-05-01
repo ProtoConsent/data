@@ -1,9 +1,9 @@
 {
-  "version": "2026-04-30",
+  "version": "2026-05-01",
   "type": "cmp_detectors",
-  "generated": "2026-04-30T12:32:21.325Z",
+  "generated": "2026-05-01T20:38:48.713Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "c372282dfbc267af",
+  "autoconsent_tree_hash": "8c56f529f8fde728",
   "cmp_count": 287,
   "detectors": {
     "abc": {
@@ -553,9 +553,7 @@
       "present": [
         "#cc--main"
       ],
-      "showing": [
-        "#cm"
-      ]
+      "showing": []
     },
     "cookieconsent3": {
       "present": [
@@ -751,7 +749,7 @@
         "#didomi-host"
       ],
       "showing": [
-        "#didomi-popup, #didomi-notice, .didomi-popup-notice, .didomi-notice-banner"
+        "#didomi-popup, #didomi-notice, .didomi-popup-notice, .didomi-notice-banner, #didomi-host:not(:empty)"
       ]
     },
     "dji": {
