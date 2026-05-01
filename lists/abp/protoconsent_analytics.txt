@@ -2,8 +2,8 @@
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Version: 2026-05-01
-! Last modified: 2026-05-01T06:27:13.186Z
-! Entries: 5755
+! Last modified: 2026-05-01T20:40:19.642Z
+! Entries: 5762
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -343,7 +343,6 @@
 ||analytics.chegg.com^$third-party
 ||analytics.churnzero.net^$third-party
 ||analytics.cincopa.com^$third-party
-||analytics.claudelog.com^$third-party
 ||analytics.clic2buy.com^$third-party
 ||analytics.clientify.net^$third-party
 ||analytics.cloud.unity3d.com^$third-party
@@ -2657,6 +2656,7 @@
 ||metrics.oregonlive.com^$third-party
 ||metrics.pacsun.com^$third-party
 ||metrics.penton.com^$third-party
+||metrics.petsmart.com^$third-party
 ||metrics.pico.tools^$third-party
 ||metrics.politico.com^$third-party
 ||metrics.post-gazette.com^$third-party
@@ -3689,12 +3689,14 @@
 ||smetrics.pbteen.com^$third-party
 ||smetrics.petco.com^$third-party
 ||smetrics.politico.com^$third-party
+||smetrics.provincial.com^$third-party
 ||smetrics.proximus.be^$third-party
 ||smetrics.pulte.com^$third-party
 ||smetrics.puma.com^$third-party
 ||smetrics.qatarairways.com^$third-party
 ||smetrics.rac.co.uk^$third-party
 ||smetrics.rackroomshoes.com^$third-party
+||smetrics.ralphlauren.co.uk^$third-party
 ||smetrics.ralphlauren.com^$third-party
 ||smetrics.ray-ban.com^$third-party
 ||smetrics.realestate.com.au^$third-party
@@ -3702,6 +3704,7 @@
 ||smetrics.royalcaribbean.com^$third-party
 ||smetrics.rtl.nl^$third-party
 ||smetrics.ryanhomes.com^$third-party
+||smetrics.saksoff5th.com^$third-party
 ||smetrics.samsung.com^$third-party
 ||smetrics.sap.com^$third-party
 ||smetrics.sbs.com.au^$third-party
@@ -3726,7 +3729,6 @@
 ||smetrics.te.com^$third-party
 ||smetrics.telegraph.co.uk^$third-party
 ||smetrics.tesco.com^$third-party
-||smetrics.textbooks.com^$third-party
 ||smetrics.tfl.gov.uk^$third-party
 ||smetrics.tgw.com^$third-party
 ||smetrics.tiaa.org^$third-party
@@ -3744,6 +3746,7 @@
 ||smetrics.usbank.com^$third-party
 ||smetrics.virginatlantic.com^$third-party
 ||smetrics.virginaustralia.com^$third-party
+||smetrics.vitacost.com^$third-party
 ||smetrics.vodafone.co.uk^$third-party
 ||smetrics.vodafone.com.tr^$third-party
 ||smetrics.vodafone.in^$third-party
@@ -3792,7 +3795,6 @@
 ||sp.tinymce.com^$third-party
 ||sp.vtex.com^$third-party
 ||sp.welcometothejungle.com^$third-party
-||spa-tracker.spapi.io^$third-party
 ||spacepools.org^$third-party
 ||speedcount.de^$third-party
 ||speedcurve.com^$third-party
@@ -3826,6 +3828,8 @@
 ||ssp.seznam.cz^$third-party
 ||sst.colemanfurniture.com^$third-party
 ||sst.shopware.com^$third-party
+||sstats.condenast.com^$third-party
+||sstats.economist.com^$third-party
 ||sstats.teenvogue.com^$third-party
 ||st.hbrd.io^$third-party
 ||st.linkfire.com^$third-party
@@ -3961,6 +3965,7 @@
 ||stats.curds.io^$third-party
 ||stats.darkreader.app^$third-party
 ||stats.datawrapper.de^$third-party
+||stats.dice.com^$third-party
 ||stats.digital-natives.de^$third-party
 ||stats.dongphim.net^$third-party
 ||stats.economist.com^$third-party
@@ -4088,6 +4093,7 @@
 ||stats.zaloapp.com^$third-party
 ||stats.zmags.com^$third-party
 ||stats.zotabox.com^$third-party
+||stats2.golfdigest.com^$third-party
 ||stats2.newyorker.com^$third-party
 ||stats2.videonow.ru^$third-party
 ||stats4all.com^$third-party
@@ -4992,6 +4998,7 @@
 ||vivistats.com^$third-party
 ||vizisense.net^$third-party
 ||vizzit.se^$third-party
+||vm.target-video.com^$third-party
 ||vm5apis.com^$third-party
 ||vnn-tracking.vnncdn.net^$third-party
 ||voicefive.com^$third-party
