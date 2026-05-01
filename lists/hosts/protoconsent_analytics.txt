@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 # Version: 2026-05-01
-# Last modified: 2026-05-01T06:27:13.186Z
-# Entries: 5196
+# Last modified: 2026-05-01T20:40:19.642Z
+# Entries: 5203
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -342,7 +342,6 @@
 0.0.0.0 analytics.chegg.com
 0.0.0.0 analytics.churnzero.net
 0.0.0.0 analytics.cincopa.com
-0.0.0.0 analytics.claudelog.com
 0.0.0.0 analytics.clic2buy.com
 0.0.0.0 analytics.clientify.net
 0.0.0.0 analytics.cloud.unity3d.com
@@ -2656,6 +2655,7 @@
 0.0.0.0 metrics.oregonlive.com
 0.0.0.0 metrics.pacsun.com
 0.0.0.0 metrics.penton.com
+0.0.0.0 metrics.petsmart.com
 0.0.0.0 metrics.pico.tools
 0.0.0.0 metrics.politico.com
 0.0.0.0 metrics.post-gazette.com
@@ -3688,12 +3688,14 @@
 0.0.0.0 smetrics.pbteen.com
 0.0.0.0 smetrics.petco.com
 0.0.0.0 smetrics.politico.com
+0.0.0.0 smetrics.provincial.com
 0.0.0.0 smetrics.proximus.be
 0.0.0.0 smetrics.pulte.com
 0.0.0.0 smetrics.puma.com
 0.0.0.0 smetrics.qatarairways.com
 0.0.0.0 smetrics.rac.co.uk
 0.0.0.0 smetrics.rackroomshoes.com
+0.0.0.0 smetrics.ralphlauren.co.uk
 0.0.0.0 smetrics.ralphlauren.com
 0.0.0.0 smetrics.ray-ban.com
 0.0.0.0 smetrics.realestate.com.au
@@ -3701,6 +3703,7 @@
 0.0.0.0 smetrics.royalcaribbean.com
 0.0.0.0 smetrics.rtl.nl
 0.0.0.0 smetrics.ryanhomes.com
+0.0.0.0 smetrics.saksoff5th.com
 0.0.0.0 smetrics.samsung.com
 0.0.0.0 smetrics.sap.com
 0.0.0.0 smetrics.sbs.com.au
@@ -3725,7 +3728,6 @@
 0.0.0.0 smetrics.te.com
 0.0.0.0 smetrics.telegraph.co.uk
 0.0.0.0 smetrics.tesco.com
-0.0.0.0 smetrics.textbooks.com
 0.0.0.0 smetrics.tfl.gov.uk
 0.0.0.0 smetrics.tgw.com
 0.0.0.0 smetrics.tiaa.org
@@ -3743,6 +3745,7 @@
 0.0.0.0 smetrics.usbank.com
 0.0.0.0 smetrics.virginatlantic.com
 0.0.0.0 smetrics.virginaustralia.com
+0.0.0.0 smetrics.vitacost.com
 0.0.0.0 smetrics.vodafone.co.uk
 0.0.0.0 smetrics.vodafone.com.tr
 0.0.0.0 smetrics.vodafone.in
@@ -3791,7 +3794,6 @@
 0.0.0.0 sp.tinymce.com
 0.0.0.0 sp.vtex.com
 0.0.0.0 sp.welcometothejungle.com
-0.0.0.0 spa-tracker.spapi.io
 0.0.0.0 spacepools.org
 0.0.0.0 speedcount.de
 0.0.0.0 speedcurve.com
@@ -3825,6 +3827,8 @@
 0.0.0.0 ssp.seznam.cz
 0.0.0.0 sst.colemanfurniture.com
 0.0.0.0 sst.shopware.com
+0.0.0.0 sstats.condenast.com
+0.0.0.0 sstats.economist.com
 0.0.0.0 sstats.teenvogue.com
 0.0.0.0 st.hbrd.io
 0.0.0.0 st.linkfire.com
@@ -3960,6 +3964,7 @@
 0.0.0.0 stats.curds.io
 0.0.0.0 stats.darkreader.app
 0.0.0.0 stats.datawrapper.de
+0.0.0.0 stats.dice.com
 0.0.0.0 stats.digital-natives.de
 0.0.0.0 stats.dongphim.net
 0.0.0.0 stats.economist.com
@@ -4087,6 +4092,7 @@
 0.0.0.0 stats.zaloapp.com
 0.0.0.0 stats.zmags.com
 0.0.0.0 stats.zotabox.com
+0.0.0.0 stats2.golfdigest.com
 0.0.0.0 stats2.newyorker.com
 0.0.0.0 stats2.videonow.ru
 0.0.0.0 stats4all.com
@@ -4991,6 +4997,7 @@
 0.0.0.0 vivistats.com
 0.0.0.0 vizisense.net
 0.0.0.0 vizzit.se
+0.0.0.0 vm.target-video.com
 0.0.0.0 vm5apis.com
 0.0.0.0 vnn-tracking.vnncdn.net
 0.0.0.0 voicefive.com
