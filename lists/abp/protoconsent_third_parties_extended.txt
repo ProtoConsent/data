@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Third Parties Extended
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-! Version: 2026-04-30
-! Last modified: 2026-04-30T06:16:30.425Z
-! Entries: 693
+! Version: 2026-05-01
+! Last modified: 2026-05-01T06:27:13.186Z
+! Entries: 694
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -207,6 +207,7 @@
 ||cdn.bizible.com^$third-party
 ||cdn.branch.io^$third-party
 ||cdn.braze.eu^$third-party
+||cdn.onesignal.com^$third-party
 ||cdn.pardot.com^$third-party
 ||cdn.pushwoosh.com^$third-party
 ||cdn.socialannex.com^$third-party

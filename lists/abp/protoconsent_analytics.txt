@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-04-30
-! Last modified: 2026-04-30T06:16:30.425Z
-! Entries: 5744
+! Version: 2026-05-01
+! Last modified: 2026-05-01T06:27:13.186Z
+! Entries: 5755
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -261,6 +261,7 @@
 ||analytics-eu.tactilews.com^$third-party
 ||analytics-events.inshorts.com^$third-party
 ||analytics-fe.digital-cloud-prem.medallia.com^$third-party
+||analytics-fe.digital-cloud.medallia.ca^$third-party
 ||analytics-fe.digital-cloud.medallia.com^$third-party
 ||analytics-fe.digital-cloud.medallia.eu^$third-party
 ||analytics-gateway.delta.dp.lightricks.com^$third-party
@@ -771,7 +772,6 @@
 ||avenseo.com^$third-party
 ||averoconnector.com^$third-party
 ||awaps.yandex.net^$third-party
-||awesomelytics.com^$third-party
 ||awin1.com^$third-party
 ||aws-analytics.nmg.com.hk^$third-party
 ||awzbijw.com^$third-party
@@ -787,6 +787,7 @@
 ||b3mxnuvcer.com^$third-party
 ||b7tp47v2nb3x-a.akamaihd.net^$third-party
 ||babator.com^$third-party
+||backtension.com^$third-party
 ||baifendian.com^$third-party
 ||bam.nr-data.net^$third-party
 ||banana.le.com^$third-party
@@ -938,6 +939,8 @@
 ||bvr.ast.snva.jp^$third-party
 ||bvr.snva.jp^$third-party
 ||bzclk.baidu.com^$third-party
+||bzr.openai.com^$third-party
+||bzrcdn.openai.com^$third-party
 ||c-rings.net^$third-party
 ||c.amazinglybrilliant.com.au^$third-party
 ||c.bazo.io^$third-party
@@ -1430,7 +1433,6 @@
 ||d94qwxh6czci4.cloudfront.net^$third-party
 ||da.netease.com^$third-party
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^$third-party
-||dacounter.com^$third-party
 ||dadispapi.gmarket.co.kr^$third-party
 ||damdoor.com^$third-party
 ||dantocmiennui-log.baotintuc.vn^$third-party
@@ -1637,6 +1639,7 @@
 ||en-log.vietnamplus.vn^$third-party
 ||enc-90128738.b-cdn.net^$third-party
 ||energyfools.com^$third-party
+||engage.tines.com^$third-party
 ||engagefront.theweathernetwork.com^$third-party
 ||engagement-collector.mobify.net^$third-party
 ||engagetosell.com^$third-party
@@ -1786,6 +1789,7 @@
 ||f-emc.ngsp.gov.vn^$third-party
 ||f-log-at.grammarly.io^$third-party
 ||f-log-test.grammarly.io^$third-party
+||f.pie.org^$third-party
 ||f775.thehour.com^$third-party
 ||fa5.dn4.it^$third-party
 ||facil-iti.com^$third-party
@@ -1907,6 +1911,7 @@
 ||geolocation.forbes.com^$third-party
 ||geolocation.outreach.com^$third-party
 ||geoplugin.net^$third-party
+||georiot.com^$third-party
 ||geotags.refinery89.com^$third-party
 ||getclicky.com^$third-party
 ||getconversion.net^$third-party
@@ -2125,6 +2130,7 @@
 ||internal-analytics.odoo.com^$third-party
 ||interstat.hu^$third-party
 ||intg.snapchat.com^$third-party
+||introjava.com^$third-party
 ||invite.leanlab.co^$third-party
 ||invitejs.trustpilot.com^$third-party
 ||invoc.us^$third-party
@@ -2166,6 +2172,7 @@
 ||jirafe.com^$third-party
 ||jivosite.com^$third-party
 ||jly24aw29n5m-a.akamaihd.net^$third-party
+||js-agent.newrelic.com^$third-party
 ||js-collector.icewood.net^$third-party
 ||js.hs-analytics.net^$third-party
 ||js.verisoul.ai^$third-party
@@ -2855,8 +2862,8 @@
 ||ns.rvmkitt.com^$third-party
 ||nsm.dell.com^$third-party
 ||nstat.headlines.pw^$third-party
-||nstracking.com^$third-party
 ||ntracker-collector.naver.com^$third-party
+||nullitics.com^$third-party
 ||numerino.cz^$third-party
 ||nwr.static.mmcdn.com^$third-party
 ||nws.naltis.com^$third-party
@@ -2918,7 +2925,6 @@
 ||osimg.nbcuni.com^$third-party
 ||otclick-adv.ru^$third-party
 ||otel-mobile.doordash.com^$third-party
-||ournet-analytics.com^$third-party
 ||ourstats.de^$third-party
 ||owen.prolitteris.ch^$third-party
 ||owldata.com^$third-party
@@ -3082,10 +3088,12 @@
 ||pla.fwdcdn.com^$third-party
 ||platform.iteratehq.com^$third-party
 ||plausible.ams.to^$third-party
+||plausible.avris.it^$third-party
 ||plausible.citynews.ovh^$third-party
 ||plausible.omgapi.org^$third-party
 ||plausible.server.hakai.app^$third-party
 ||plausible.simplelogin.io^$third-party
+||plausibleio.workers.dev^$third-party
 ||play.adtonos.com^$third-party
 ||player-analytics.mp.lura.live^$third-party
 ||player-metrics.instaread.co^$third-party
@@ -3209,6 +3217,7 @@
 ||query1.petametrics.com^$third-party
 ||questionmarket.com^$third-party
 ||quick-counter.net^$third-party
+||quickkoala.io^$third-party
 ||quicksandear.com^$third-party
 ||quintelligence.com^$third-party
 ||quizzicalzephyr.com^$third-party
@@ -3371,7 +3380,6 @@
 ||sal.isanook.com^$third-party
 ||sanalytics.autozone.com^$third-party
 ||sanalytics.box.com^$third-party
-||sanalytics.enterprise.spectrum.com^$third-party
 ||sanalytics.express.de^$third-party
 ||sanalytics.hallmark.com^$third-party
 ||sanalytics.hottopic.com^$third-party
@@ -3518,6 +3526,7 @@
 ||siteimproveanalytics.com^$third-party
 ||siteimproveanalytics.io^$third-party
 ||siteintercept.allegiancetech.com^$third-party
+||siteintercept.qualtrics.com^$third-party
 ||sitelabweb.com^$third-party
 ||sitemapwizard.com^$third-party
 ||siteperformancetest.net^$third-party
@@ -3794,6 +3803,7 @@
 ||spelar.org^$third-party
 ||spider-tracker.xiaohongshu.com^$third-party
 ||spiffymachine.com^$third-party
+||spinnaker-js.com^$third-party
 ||spirebaboon.com^$third-party
 ||splicebook.com^$third-party
 ||spotlersearchanalytics.com^$third-party
@@ -4735,6 +4745,7 @@
 ||tracking.shopback.com^$third-party
 ||tracking.shopee.com.br^$third-party
 ||tracking.shopstyle.co.uk^$third-party
+||tracking.shopstyle.com^$third-party
 ||tracking.skyword.com^$third-party
 ||tracking.smartmeapp.com^$third-party
 ||tracking.softwareprojects.com^$third-party
@@ -4813,6 +4824,7 @@
 ||tremendoustime.com^$third-party
 ||trendcounter.com^$third-party
 ||trends.newsmaxwidget.com^$third-party
+||trialfire.com^$third-party
 ||triggers.wfxtriggers.com^$third-party
 ||triggertag.gorillanation.com^$third-party
 ||triplewhale-pixel.web.app^$third-party
@@ -4845,7 +4857,6 @@
 ||ts-analysis.shoalter.com^$third-party
 ||ts.delfi.lt^$third-party
 ||ts.tradetracker.net^$third-party
-||tscounter.com^$third-party
 ||ttmetrics.jcpenney.com^$third-party
 ||tver-metrics.streaks.jp^$third-party
 ||tvpage.com^$third-party

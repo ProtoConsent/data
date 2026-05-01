@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-04-30
-# Last modified: 2026-04-30T06:16:30.425Z
-# Entries: 5185
+# Version: 2026-05-01
+# Last modified: 2026-05-01T06:27:13.186Z
+# Entries: 5196
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -260,6 +260,7 @@
 0.0.0.0 analytics-eu.tactilews.com
 0.0.0.0 analytics-events.inshorts.com
 0.0.0.0 analytics-fe.digital-cloud-prem.medallia.com
+0.0.0.0 analytics-fe.digital-cloud.medallia.ca
 0.0.0.0 analytics-fe.digital-cloud.medallia.com
 0.0.0.0 analytics-fe.digital-cloud.medallia.eu
 0.0.0.0 analytics-gateway.delta.dp.lightricks.com
@@ -770,7 +771,6 @@
 0.0.0.0 avenseo.com
 0.0.0.0 averoconnector.com
 0.0.0.0 awaps.yandex.net
-0.0.0.0 awesomelytics.com
 0.0.0.0 awin1.com
 0.0.0.0 aws-analytics.nmg.com.hk
 0.0.0.0 awzbijw.com
@@ -786,6 +786,7 @@
 0.0.0.0 b3mxnuvcer.com
 0.0.0.0 b7tp47v2nb3x-a.akamaihd.net
 0.0.0.0 babator.com
+0.0.0.0 backtension.com
 0.0.0.0 baifendian.com
 0.0.0.0 bam.nr-data.net
 0.0.0.0 banana.le.com
@@ -937,6 +938,8 @@
 0.0.0.0 bvr.ast.snva.jp
 0.0.0.0 bvr.snva.jp
 0.0.0.0 bzclk.baidu.com
+0.0.0.0 bzr.openai.com
+0.0.0.0 bzrcdn.openai.com
 0.0.0.0 c-rings.net
 0.0.0.0 c.amazinglybrilliant.com.au
 0.0.0.0 c.bazo.io
@@ -1429,7 +1432,6 @@
 0.0.0.0 d94qwxh6czci4.cloudfront.net
 0.0.0.0 da.netease.com
 0.0.0.0 da29e6b8-f018-490f-b25f-39a887fc95e7.xyz
-0.0.0.0 dacounter.com
 0.0.0.0 dadispapi.gmarket.co.kr
 0.0.0.0 damdoor.com
 0.0.0.0 dantocmiennui-log.baotintuc.vn
@@ -1636,6 +1638,7 @@
 0.0.0.0 en-log.vietnamplus.vn
 0.0.0.0 enc-90128738.b-cdn.net
 0.0.0.0 energyfools.com
+0.0.0.0 engage.tines.com
 0.0.0.0 engagefront.theweathernetwork.com
 0.0.0.0 engagement-collector.mobify.net
 0.0.0.0 engagetosell.com
@@ -1785,6 +1788,7 @@
 0.0.0.0 f-emc.ngsp.gov.vn
 0.0.0.0 f-log-at.grammarly.io
 0.0.0.0 f-log-test.grammarly.io
+0.0.0.0 f.pie.org
 0.0.0.0 f775.thehour.com
 0.0.0.0 fa5.dn4.it
 0.0.0.0 facil-iti.com
@@ -1906,6 +1910,7 @@
 0.0.0.0 geolocation.forbes.com
 0.0.0.0 geolocation.outreach.com
 0.0.0.0 geoplugin.net
+0.0.0.0 georiot.com
 0.0.0.0 geotags.refinery89.com
 0.0.0.0 getclicky.com
 0.0.0.0 getconversion.net
@@ -2124,6 +2129,7 @@
 0.0.0.0 internal-analytics.odoo.com
 0.0.0.0 interstat.hu
 0.0.0.0 intg.snapchat.com
+0.0.0.0 introjava.com
 0.0.0.0 invite.leanlab.co
 0.0.0.0 invitejs.trustpilot.com
 0.0.0.0 invoc.us
@@ -2165,6 +2171,7 @@
 0.0.0.0 jirafe.com
 0.0.0.0 jivosite.com
 0.0.0.0 jly24aw29n5m-a.akamaihd.net
+0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js-collector.icewood.net
 0.0.0.0 js.hs-analytics.net
 0.0.0.0 js.verisoul.ai
@@ -2854,8 +2861,8 @@
 0.0.0.0 ns.rvmkitt.com
 0.0.0.0 nsm.dell.com
 0.0.0.0 nstat.headlines.pw
-0.0.0.0 nstracking.com
 0.0.0.0 ntracker-collector.naver.com
+0.0.0.0 nullitics.com
 0.0.0.0 numerino.cz
 0.0.0.0 nwr.static.mmcdn.com
 0.0.0.0 nws.naltis.com
@@ -2917,7 +2924,6 @@
 0.0.0.0 osimg.nbcuni.com
 0.0.0.0 otclick-adv.ru
 0.0.0.0 otel-mobile.doordash.com
-0.0.0.0 ournet-analytics.com
 0.0.0.0 ourstats.de
 0.0.0.0 owen.prolitteris.ch
 0.0.0.0 owldata.com
@@ -3081,10 +3087,12 @@
 0.0.0.0 pla.fwdcdn.com
 0.0.0.0 platform.iteratehq.com
 0.0.0.0 plausible.ams.to
+0.0.0.0 plausible.avris.it
 0.0.0.0 plausible.citynews.ovh
 0.0.0.0 plausible.omgapi.org
 0.0.0.0 plausible.server.hakai.app
 0.0.0.0 plausible.simplelogin.io
+0.0.0.0 plausibleio.workers.dev
 0.0.0.0 play.adtonos.com
 0.0.0.0 player-analytics.mp.lura.live
 0.0.0.0 player-metrics.instaread.co
@@ -3208,6 +3216,7 @@
 0.0.0.0 query1.petametrics.com
 0.0.0.0 questionmarket.com
 0.0.0.0 quick-counter.net
+0.0.0.0 quickkoala.io
 0.0.0.0 quicksandear.com
 0.0.0.0 quintelligence.com
 0.0.0.0 quizzicalzephyr.com
@@ -3370,7 +3379,6 @@
 0.0.0.0 sal.isanook.com
 0.0.0.0 sanalytics.autozone.com
 0.0.0.0 sanalytics.box.com
-0.0.0.0 sanalytics.enterprise.spectrum.com
 0.0.0.0 sanalytics.express.de
 0.0.0.0 sanalytics.hallmark.com
 0.0.0.0 sanalytics.hottopic.com
@@ -3517,6 +3525,7 @@
 0.0.0.0 siteimproveanalytics.com
 0.0.0.0 siteimproveanalytics.io
 0.0.0.0 siteintercept.allegiancetech.com
+0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 sitelabweb.com
 0.0.0.0 sitemapwizard.com
 0.0.0.0 siteperformancetest.net
@@ -3793,6 +3802,7 @@
 0.0.0.0 spelar.org
 0.0.0.0 spider-tracker.xiaohongshu.com
 0.0.0.0 spiffymachine.com
+0.0.0.0 spinnaker-js.com
 0.0.0.0 spirebaboon.com
 0.0.0.0 splicebook.com
 0.0.0.0 spotlersearchanalytics.com
@@ -4734,6 +4744,7 @@
 0.0.0.0 tracking.shopback.com
 0.0.0.0 tracking.shopee.com.br
 0.0.0.0 tracking.shopstyle.co.uk
+0.0.0.0 tracking.shopstyle.com
 0.0.0.0 tracking.skyword.com
 0.0.0.0 tracking.smartmeapp.com
 0.0.0.0 tracking.softwareprojects.com
@@ -4812,6 +4823,7 @@
 0.0.0.0 tremendoustime.com
 0.0.0.0 trendcounter.com
 0.0.0.0 trends.newsmaxwidget.com
+0.0.0.0 trialfire.com
 0.0.0.0 triggers.wfxtriggers.com
 0.0.0.0 triggertag.gorillanation.com
 0.0.0.0 triplewhale-pixel.web.app
@@ -4844,7 +4856,6 @@
 0.0.0.0 ts-analysis.shoalter.com
 0.0.0.0 ts.delfi.lt
 0.0.0.0 ts.tradetracker.net
-0.0.0.0 tscounter.com
 0.0.0.0 ttmetrics.jcpenney.com
 0.0.0.0 tver-metrics.streaks.jp
 0.0.0.0 tvpage.com
