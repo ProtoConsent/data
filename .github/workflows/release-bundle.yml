@@ -31,10 +31,10 @@ jobs:
 
     steps:
       - name: Checkout data repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: "20"
 
@@ -63,7 +63,7 @@ jobs:
           git push
 
       - name: Checkout extension repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ProtoConsent/ProtoConsent
           token: ${{ secrets.DATA_REPO_PAT }}
