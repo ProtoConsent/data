@@ -5,6 +5,23 @@ name: Purge jsDelivr cache
 
 on:
   workflow_dispatch:
+    inputs:
+      scope:
+        description: "What to purge"
+        type: choice
+        default: "all"
+        options:
+          - all
+          - enhanced-protoconsent
+          - enhanced-external
+          - enhanced-regional
+          - config
+          - public-lists
+          - public-abp
+          - public-adguard
+          - public-domains
+          - public-hosts
+          - public-json
 
 jobs:
   purge:
@@ -17,9 +34,48 @@ jobs:
 
       - name: Purge jsDelivr cache
         run: |
+          SCOPE="${{ inputs.scope }}"
+          FILES=""
+
+          case "$SCOPE" in
+            enhanced-protoconsent)
+              FILES="enhanced/protoconsent/*.json"
+              ;;
+            enhanced-external)
+              FILES="enhanced/external/*.json"
+              ;;
+            enhanced-regional)
+              FILES="enhanced/regional/*.json"
+              ;;
+            config)
+              FILES="config/enhanced-lists.json config/regional-languages.json"
+              ;;
+            public-lists)
+              FILES="lists/abp/*.txt lists/adguard/*.txt lists/domains/*.txt lists/hosts/*.txt lists/json/*.json"
+              ;;
+            public-abp)
+              FILES="lists/abp/*.txt"
+              ;;
+            public-adguard)
+              FILES="lists/adguard/*.txt"
+              ;;
+            public-domains)
+              FILES="lists/domains/*.txt"
+              ;;
+            public-hosts)
+              FILES="lists/hosts/*.txt"
+              ;;
+            public-json)
+              FILES="lists/json/*.json"
+              ;;
+            all)
+              FILES="enhanced/protoconsent/*.json enhanced/external/*.json enhanced/regional/*.json config/enhanced-lists.json config/regional-languages.json lists/abp/*.txt lists/adguard/*.txt lists/domains/*.txt lists/hosts/*.txt lists/json/*.json"
+              ;;
+          esac
+
           OK=0
           FAIL=0
-          for f in enhanced/protoconsent/*.json enhanced/external/*.json enhanced/regional/*.json config/enhanced-lists.json config/regional-languages.json lists/abp/*.txt lists/adguard/*.txt lists/domains/*.txt lists/hosts/*.txt lists/json/*.json; do
+          for f in $FILES; do
             if curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/$f" > /dev/null; then
               echo "Purged $f"
               OK=$((OK + 1))
@@ -29,7 +85,7 @@ jobs:
             fi
           done
           echo ""
-          echo "--- Summary ---"
+          echo "--- Summary: $SCOPE ---"
           echo "Purged: $OK files"
           [ "$FAIL" -gt 0 ] && echo "Failed: $FAIL files"
           echo "Done."
