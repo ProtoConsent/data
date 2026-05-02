@@ -14,8 +14,8 @@
 //
 // Outputs:
 //   - protoconsent_cmp_signatures.json (augments existing hand-maintained selectors)
-//   - protoconsent_cmp_signatures_site.json (new CMPs with detection + hiding)
-//   - protoconsent_cmp_detectors.json (all detectors for passive CMP detection)
+//   - autoconsent_cmp_signatures_site.json (new CMPs with detection + hiding)
+//   - autoconsent_cmp_detectors.json (all detectors for passive CMP detection)
 //
 // Applies cmp-safelist.json (config/cmp-safelist.json):
 //   - Bans dangerous entries and selectors
@@ -38,8 +38,8 @@ const GITHUB_API = "https://api.github.com/repos/duckduckgo/autoconsent/contents
 const GITHUB_RAW = "https://raw.githubusercontent.com/duckduckgo/autoconsent/main/rules/autoconsent/";
 
 const SIGNATURES_FILE = "protoconsent_cmp_signatures.json";
-const DETECTORS_FILE = "protoconsent_cmp_detectors.json";
-const SITE_FILE = "protoconsent_cmp_signatures_site.json";
+const DETECTORS_FILE = "autoconsent_cmp_detectors.json";
+const SITE_FILE = "autoconsent_cmp_signatures_site.json";
 const SAFELIST_FILE = path.join(__dirname, "..", "..", "config", "cmp-safelist.json");
 
 // --- Safelist loading ---
@@ -496,6 +496,9 @@ async function main() {
   const outputDir = args.includes("--output")
     ? args[args.indexOf("--output") + 1]
     : path.join(__dirname, "..", "..", "enhanced", "protoconsent");
+  const autoconsentOutputDir = args.includes("--output")
+    ? args[args.indexOf("--output") + 1]
+    : path.join(__dirname, "..", "..", "enhanced", "external");
   const dryRun = args.includes("--dry-run");
   const force = args.includes("--force");
   const localIdx = args.indexOf("--local");
@@ -527,7 +530,7 @@ async function main() {
   } else {
     if (!force) {
       const remoteHash = await getRemoteTreeHash();
-      const storedHash = getStoredTreeHash(outputDir);
+      const storedHash = getStoredTreeHash(autoconsentOutputDir);
       console.log("  Remote tree hash: " + remoteHash);
       console.log("  Stored tree hash: " + (storedHash || "(none)"));
       if (remoteHash === storedHash) {
@@ -579,11 +582,11 @@ async function main() {
     fs.writeFileSync(sigPath, sigJson + "\n", "utf-8");
     console.log("\n  -> " + sigPath + " (" + (Buffer.byteLength(sigJson) / 1024).toFixed(1) + " KB)");
 
-    const sitePath = path.join(outputDir, SITE_FILE);
+    const sitePath = path.join(autoconsentOutputDir, SITE_FILE);
     fs.writeFileSync(sitePath, siteJson + "\n", "utf-8");
     console.log("  -> " + sitePath + " (" + (Buffer.byteLength(siteJson) / 1024).toFixed(1) + " KB)");
 
-    const detectorsPath = path.join(outputDir, DETECTORS_FILE);
+    const detectorsPath = path.join(autoconsentOutputDir, DETECTORS_FILE);
     fs.writeFileSync(detectorsPath, detectorsJson + "\n", "utf-8");
     console.log("  -> " + detectorsPath + " (" + (Buffer.byteLength(detectorsJson) / 1024).toFixed(1) + " KB)");
   }

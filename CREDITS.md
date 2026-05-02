@@ -32,7 +32,7 @@ projects. We are grateful to their maintainers and contributors.
 
 | Source | Authors | License | Files |
 |--------|---------|---------|-------|
-| [Autoconsent](https://github.com/duckduckgo/autoconsent) | DuckDuckGo, Inc. | MPL-2.0 | `protoconsent_cmp_signatures.json` (prehide selectors), `protoconsent_cmp_detectors.json`, `protoconsent_cmp_signatures_site.json` |
+| [Autoconsent](https://github.com/duckduckgo/autoconsent) | DuckDuckGo, Inc. | MPL-2.0 | `protoconsent_cmp_signatures.json` (prehide selectors), `autoconsent_cmp_detectors.json`, `autoconsent_cmp_signatures_site.json` |
 
 ### URL tracking parameter stripping
 
