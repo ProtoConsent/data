@@ -212,7 +212,7 @@ const LIST_CATALOG = {
   },
   protoconsent_cmp_signatures: {
     name: "ProtoConsent Banners",
-    description: "CMP auto-response templates - cookie injection, cosmetic hiding, scroll unlock",
+    description: "CMP auto-response templates - cookie injection",
     source: "https://github.com/ProtoConsent/data",
     license: "GPL-3.0-or-later",
     category: null,
