@@ -20,6 +20,7 @@ const LISTS = ["easyprivacy", "easylist"];
 const BUNDLE_DIR = path.join(__dirname, "..", "..", "bundle");
 const ENHANCED_DIR = path.join(__dirname, "..", "..", "enhanced", "external");
 const HOTFIX_PATH = path.join(__dirname, "..", "..", "enhanced", "protoconsent", "protoconsent_hotfix.json");
+const MANUAL_EXCEPTIONS_PATH = path.join(__dirname, "..", "..", "config", "hotfix-exceptions.json");
 
 function extractPublishedAllowFilters(filePath) {
   const filters = new Set();
@@ -118,6 +119,40 @@ function main() {
   } else {
     delete hotfix.path_exceptions;
     delete hotfix.path_exception_count;
+  }
+
+  // Merge manual entries from config/hotfix-exceptions.json
+  let manualDomains = 0;
+  let manualPaths = 0;
+  if (fs.existsSync(MANUAL_EXCEPTIONS_PATH)) {
+    const manual = JSON.parse(fs.readFileSync(MANUAL_EXCEPTIONS_PATH, "utf-8"));
+
+    if (Array.isArray(manual.domains) && manual.domains.length > 0) {
+      const existing = new Set(hotfix.revocations || []);
+      for (const d of manual.domains) {
+        if (typeof d === "string" && d.length > 0 && !existing.has(d)) {
+          existing.add(d);
+          manualDomains++;
+        }
+      }
+      hotfix.revocations = [...existing].sort();
+      hotfix.revocation_count = hotfix.revocations.length;
+    }
+
+    if (Array.isArray(manual.path_exceptions) && manual.path_exceptions.length > 0) {
+      const existingFilters = new Set((hotfix.path_exceptions || []).map(e => e.urlFilter));
+      if (!hotfix.path_exceptions) hotfix.path_exceptions = [];
+      for (const pe of manual.path_exceptions) {
+        if (pe.urlFilter && !existingFilters.has(pe.urlFilter)) {
+          hotfix.path_exceptions.push(pe);
+          manualPaths++;
+        }
+      }
+      hotfix.path_exception_count = hotfix.path_exceptions.length;
+    }
+
+    console.log();
+    console.log("  Manual exceptions: " + manualDomains + " domains, " + manualPaths + " paths added");
   }
 
   if (dryRun) {
