@@ -283,10 +283,10 @@
       "cmp_count": 31
     },
     "protoconsent_cmp_detectors": {
-      "name": "ProtoConsent CMP Detectors",
-      "description": "CSS detection selectors for CMP presence and visibility",
-      "source": "https://github.com/ProtoConsent/data",
-      "license": "GPL-3.0-or-later",
+      "name": "Autoconsent CMP Detectors",
+      "description": "CSS detection selectors for CMP presence and visibility (from DuckDuckGo Autoconsent)",
+      "source": "https://github.com/duckduckgo/autoconsent",
+      "license": "MPL-2.0",
       "category": null,
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_cmp_detectors.json",
@@ -299,10 +299,10 @@
       "cmp_count": 287
     },
     "protoconsent_cmp_signatures_site": {
-      "name": "ProtoConsent Site Banners",
-      "description": "Site-specific CMP hiding selectors with detection",
-      "source": "https://github.com/ProtoConsent/data",
-      "license": "GPL-3.0-or-later",
+      "name": "Autoconsent Site Banners",
+      "description": "Site-specific CMP hiding selectors with detection (from DuckDuckGo Autoconsent)",
+      "source": "https://github.com/duckduckgo/autoconsent",
+      "license": "MPL-2.0",
       "category": null,
       "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/protoconsent/protoconsent_cmp_signatures_site.json",
