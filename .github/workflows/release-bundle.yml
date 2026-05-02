@@ -55,6 +55,12 @@ jobs:
       - name: Generate cosmetic ruleset
         run: node scripts/daily/convert-cosmetic.js
 
+      - name: Copy CMP and cosmetic snapshots to bundle
+        run: |
+          cp enhanced/external/autoconsent_cmp_detectors.json bundle/
+          cp enhanced/external/autoconsent_cmp_signatures_site.json bundle/
+          cp enhanced/protoconsent/protoconsent_cmp_signatures.json bundle/
+
       - name: Validate release bundle
         run: node scripts/release/validate-release.js
 
