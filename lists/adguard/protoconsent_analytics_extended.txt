@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-01T23:52:29.649Z
+! Last modified: 2026-05-02T05:46:43.312Z
 ! Format: AdGuard
-! Entries: 38143
+! Entries: 38159
 !
 ||0.myikas.com^$third-party
 ||0.net.easyjet.com^$third-party
@@ -1499,7 +1499,6 @@
 ||aa-metrics.salonboard.com^$third-party
 ||aa-metrics.tabroom.jp^$third-party
 ||aa-metrics.trip-ai.jp^$third-party
-||aa.analog.com^$third-party
 ||aa.athome.com^$third-party
 ||aa.avvo.com^$third-party
 ||aa.bathandbodyworks.com^$third-party
@@ -2714,6 +2713,7 @@
 ||analytics.cincopa.com^$third-party
 ||analytics.cirroenergy.com^$third-party
 ||analytics.citreamedia.com^$third-party
+||analytics.claudelog.com^$third-party
 ||analytics.clic2buy.com^$third-party
 ||analytics.clientify.net^$third-party
 ||analytics.cloud.unity3d.com^$third-party
@@ -2866,6 +2866,7 @@
 ||analytics.gorillanation.com^$third-party
 ||analytics.grape.media^$third-party
 ||analytics.greenmountain.com^$third-party
+||analytics.greenmountainenergy.com^$third-party
 ||analytics.greensender.pl^$third-party
 ||analytics.groupe-seb.com^$third-party
 ||analytics.growthphysics.com^$third-party
@@ -3149,6 +3150,7 @@
 ||analytics.qualityquestions.co^$third-party
 ||analytics.qualityunit.com^$third-party
 ||analytics.query.yahoo.com^$third-party
+||analytics.qushad.com^$third-party
 ||analytics.radiatemedia.com^$third-party
 ||analytics.rambla.be^$third-party
 ||analytics.ramiyer.io^$third-party
@@ -3570,6 +3572,7 @@
 ||api-analytics-us.zepp.com^$third-party
 ||api-analytics-us3.zepp.com^$third-party
 ||api-analytics.huami.com^$third-party
+||api-analytics.pelikan.sk^$third-party
 ||api-analytics.prod.birdapp.com^$third-party
 ||api-analytics.rozetka.com.ua^$third-party
 ||api-analytics.zepp.com^$third-party
@@ -4306,6 +4309,7 @@
 ||awaps.yandex.net^$third-party
 ||awasete.com^$third-party
 ||awbkht.verktygsproffsen.se^$third-party
+||awesomelytics.com^$third-party
 ||awfonts.com^$third-party
 ||awfzfs.kwantum.nl^$third-party
 ||awggij.wplay.co^$third-party
@@ -6835,6 +6839,7 @@
 ||da.rabobank.nl^$third-party
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^$third-party
 ||dabu.askmediagroup.com^$third-party
+||dacounter.com^$third-party
 ||dadalytics.it^$third-party
 ||dadi.technology^$third-party
 ||dadispapi.gmarket.co.kr^$third-party
@@ -7857,6 +7862,7 @@
 ||dmpcdn.el-mundo.net^$third-party
 ||dmpcounter.com^$third-party
 ||dmpmetrics.rcsmetrics.it^$third-party
+||dmpprof.com^$third-party
 ||dmtag.jp^$third-party
 ||dmtgo.upc.biz^$third-party
 ||dmuwlm.fonteynspas.com^$third-party
@@ -9504,6 +9510,7 @@
 ||fly.caljetelite.com^$third-party
 ||flyingpt.com^$third-party
 ||flznib.weblio.jp^$third-party
+||fm-analytics-api.pocketfm.com^$third-party
 ||fma7.aegon.es^$third-party
 ||fmjgtp.dentalspeed.com^$third-party
 ||fml-x.com^$third-party
@@ -11873,6 +11880,7 @@
 ||info.ohlogistics.com^$third-party
 ||info.onlinetech.com^$third-party
 ||info.osiriseducational.co.uk^$third-party
+||info.osufoundation.org^$third-party
 ||info.parivedasolutions.com^$third-party
 ||info.patientwise.com^$third-party
 ||info.paydashboardinfo.com^$third-party
@@ -12271,7 +12279,6 @@
 ||ipcount.net^$third-party
 ||ipcounter.de^$third-party
 ||ipdmlm.yoriso.com^$third-party
-||iper2.com^$third-party
 ||ipfind.com^$third-party
 ||ipfrom.com^$third-party
 ||ipgp.net^$third-party
@@ -17843,6 +17850,7 @@
 ||nsstatistics.calphalon.com^$third-party
 ||nstat.headlines.pw^$third-party
 ||nsteq.queensland.com^$third-party
+||nstracking.com^$third-party
 ||nt-es.imrworldwide.com^$third-party
 ||nt.vc^$third-party
 ||nthldc.europcar.co.uk^$third-party
@@ -18401,6 +18409,7 @@
 ||oulpli.bettybarclay.com^$third-party
 ||ounwut.thehappyplanner.com^$third-party
 ||our.sunshinecoast.qld.gov.au^$third-party
+||ournet-analytics.com^$third-party
 ||oursprivacy.com^$third-party
 ||ourstats.de^$third-party
 ||out.velpa.pl^$third-party
@@ -20712,6 +20721,7 @@
 ||sales.virtualpbx.com^$third-party
 ||salesandmarketing.aitcfis.com^$third-party
 ||saleslists.inform.equifax.com^$third-party
+||salesviewer.com^$third-party
 ||salesviewer.org^$third-party
 ||salto.freeto.jp^$third-party
 ||sam.manager-magazin.de^$third-party
@@ -20799,6 +20809,7 @@
 ||sanalytics.cnfanart.com^$third-party
 ||sanalytics.cnnchile.com^$third-party
 ||sanalytics.combatefreestyle.com^$third-party
+||sanalytics.enterprise.spectrum.com^$third-party
 ||sanalytics.esporteinterativo.com.br^$third-party
 ||sanalytics.ewz.ch^$third-party
 ||sanalytics.expomaritt.com^$third-party
@@ -24623,6 +24634,7 @@
 ||smetrics.tesco.com^$third-party
 ||smetrics.tescobank.com^$third-party
 ||smetrics.tetrapak.com^$third-party
+||smetrics.textbooks.com^$third-party
 ||smetrics.tfl.gov.uk^$third-party
 ||smetrics.tgw.com^$third-party
 ||smetrics.the-farmer.com^$third-party
@@ -25324,6 +25336,7 @@
 ||sp.vtex.com^$third-party
 ||sp.welcometothejungle.com^$third-party
 ||sp.wvoil.com^$third-party
+||spa-tracker.spapi.io^$third-party
 ||spa.admissions.ucdenver.edu^$third-party
 ||space-link.de^$third-party
 ||spacehits.net^$third-party
@@ -26985,6 +26998,7 @@
 ||stats.sebastiangale.ca^$third-party
 ||stats.sec.telefonica.com^$third-party
 ||stats.selectam.io^$third-party
+||stats.sender.net^$third-party
 ||stats.sendngnt.com^$third-party
 ||stats.senty.com.au^$third-party
 ||stats.seotraff.team^$third-party
@@ -28009,6 +28023,7 @@
 ||t.spbx.app^$third-party
 ||t.sports.ru^$third-party
 ||t.spot.im^$third-party
+||t.streetsblog.org^$third-party
 ||t.strokeawareness.com^$third-party
 ||t.syosetu.org^$third-party
 ||t.tamiflu.com^$third-party
@@ -31582,6 +31597,7 @@
 ||ts.tradetracker.net^$third-party
 ||tsbkht.puritan.com^$third-party
 ||tsbmkf.zonnebrillen.com^$third-party
+||tscounter.com^$third-party
 ||tse.telerama.fr^$third-party
 ||tsedvc.aboutyou.ch^$third-party
 ||tshuxi.bbqguys.com^$third-party
