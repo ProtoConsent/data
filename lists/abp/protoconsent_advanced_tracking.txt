@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Advanced Tracking
 ! Description: Advanced or non-cookie techniques to identify or track devices across sites or sessions (curated - high-confidence sources)
-! Version: 2026-05-01
-! Last modified: 2026-05-01T23:52:29.649Z
-! Entries: 4061
+! Version: 2026-05-02
+! Last modified: 2026-05-02T05:46:43.312Z
+! Entries: 4060
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -204,6 +204,7 @@
 ||ads.salemall.vn^$third-party
 ||adsadminister.com^$third-party
 ||adsafeprotected.com^$third-party
+||adsb4track.com^$third-party
 ||adsbuyclick.com^$third-party
 ||adschill.com^$third-party
 ||adsco.re^$third-party
@@ -423,6 +424,7 @@
 ||apistatics.com^$third-party
 ||apologizepitfall.com^$third-party
 ||apostrophesubdued.com^$third-party
+||app-na1.hubspotdocuments.com^$third-party
 ||app.appzcvb.com^$third-party
 ||app.subiz.com.vn^$third-party
 ||apparelerupt.com^$third-party
@@ -829,7 +831,6 @@
 ||cd-jkd.com^$third-party
 ||cdn-net.com^$third-party
 ||cdn.710k.com^$third-party
-||cdn.appround.biz^$third-party
 ||cdn.doubleverify.com^$third-party
 ||cdn.falkloo.cloud^$third-party
 ||cdn.hhmop.cloud^$third-party
@@ -1447,7 +1448,6 @@
 ||figurehunter.net^$third-party
 ||figureraisinupper.com^$third-party
 ||fiksu.com^$third-party
-||file.uhsea.com^$third-party
 ||filezilla.fr^$third-party
 ||fillthemap.com^$third-party
 ||filtercutter.com^$third-party
@@ -2291,7 +2291,6 @@
 ||messyoranges.com^$third-party
 ||metajaws.com^$third-party
 ||metawelcome.com^$third-party
-||metrics.gocloudmaps.com^$third-party
 ||metrics.nsureapi.com^$third-party
 ||mfdaudubon.com^$third-party
 ||mfjegjqb.com^$third-party
