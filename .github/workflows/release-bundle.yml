@@ -25,7 +25,7 @@ permissions:
   contents: write
 
 jobs:
-  update-paths:
+  update-bundle:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
