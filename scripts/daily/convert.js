@@ -60,6 +60,56 @@ const LISTS = {
     url: "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
     format: "abp",
   },
+  hagezi_light: {
+    name: "HaGeZi Light",
+    url: "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@main/domains/light.txt",
+    format: "domains",
+  },
+  hagezi_normal: {
+    name: "HaGeZi Normal",
+    url: "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@main/domains/multi.txt",
+    format: "domains",
+  },
+  hagezi_ultimate: {
+    name: "HaGeZi Ultimate",
+    url: "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@main/domains/ultimate.txt",
+    format: "domains",
+  },
+  oisd_big: {
+    name: "OISD Big",
+    url: "https://big.oisd.nl/domainswild2",
+    format: "domains",
+  },
+  blp_gambling: {
+    name: "Blocklist Project - Gambling",
+    url: "https://cdn.jsdelivr.net/gh/blocklistproject/Lists@master/gambling.txt",
+    format: "hosts",
+  },
+  blp_malware: {
+    name: "Blocklist Project - Malware",
+    url: "https://cdn.jsdelivr.net/gh/blocklistproject/Lists@master/malware.txt",
+    format: "hosts",
+  },
+  blp_fraud: {
+    name: "Blocklist Project - Fraud",
+    url: "https://cdn.jsdelivr.net/gh/blocklistproject/Lists@master/fraud.txt",
+    format: "hosts",
+  },
+  blp_scam: {
+    name: "Blocklist Project - Scam",
+    url: "https://cdn.jsdelivr.net/gh/blocklistproject/Lists@master/scam.txt",
+    format: "hosts",
+  },
+  stevenblack: {
+    name: "Steven Black Unified Hosts",
+    url: "https://cdn.jsdelivr.net/gh/StevenBlack/hosts@master/hosts",
+    format: "hosts",
+  },
+  onehosts_lite: {
+    name: "1Hosts Lite",
+    url: "https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Lite/domains.txt",
+    format: "domains",
+  },
 };
 
 // --- Fetch with redirect support -------------------------------------------
