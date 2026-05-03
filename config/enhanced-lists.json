@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-05-03T06:17:53.288Z",
+  "generated": "2026-05-03T17:18:31.303Z",
   "lists": {
     "protoconsent_hotfix": {
       "name": "ProtoConsent Hotfix",
@@ -16,7 +16,7 @@
       "generated": "2026-05-03T06:13:32.331Z",
       "domain_count": 0,
       "path_rule_count": 0,
-      "revocation_count": 64
+      "revocation_count": 62
     },
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -238,7 +238,7 @@
       "source": "https://easylist.to/",
       "license": "GPL-3.0+ / CC BY-SA 3.0+",
       "category": null,
-      "preset": "full",
+      "preset": "basic",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/easylist_cookie_cosmetic.json",
       "type": "cosmetic",
       "order": 21,
@@ -248,6 +248,20 @@
       "path_rule_count": 0,
       "generic_count": 15273,
       "domain_rule_count": 16800
+    },
+    "easylist_cookie_network": {
+      "name": "EasyList Cookie Network",
+      "description": "Network blocking - blocks cookie consent banner scripts and resources",
+      "source": "https://easylist.to/",
+      "license": "GPL-3.0+ / CC BY-SA 3.0+",
+      "category": null,
+      "preset": "basic",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/easylist_cookie_network.json",
+      "order": 112,
+      "version": "2026-05-03",
+      "generated": "2026-05-03T17:18:26.868Z",
+      "domain_count": 316,
+      "path_rule_count": 284
     },
     "webannoyances_cosmetic": {
       "name": "Web Annoyances Cosmetic",

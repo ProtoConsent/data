@@ -197,8 +197,17 @@ const LIST_CATALOG = {
     license: "GPL-3.0+ / CC BY-SA 3.0+",
     category: null,
     type: "cosmetic",
-    preset: "full",
+    preset: "basic",
     order: 21,
+  },
+  easylist_cookie_network: {
+    name: "EasyList Cookie Network",
+    description: "Network blocking - blocks cookie consent banner scripts and resources",
+    source: "https://easylist.to/",
+    license: "GPL-3.0+ / CC BY-SA 3.0+",
+    category: null,
+    preset: "basic",
+    order: 112,
   },
   webannoyances_cosmetic: {
     name: "Web Annoyances Cosmetic",

@@ -8,7 +8,7 @@
 // rules, and outputs JSON compatible with the extension's cosmetic injection system.
 //
 // Only cosmetic selectors are extracted. Network blocking rules (||domain^) are
-// ignored because they would conflict with ProtoConsent's CMP cookie injection.
+// handled separately by convert.js (easylist_cookie_network).
 //
 // Outputs:
 //   - enhanced/external/easylist_cookie_cosmetic.json

@@ -55,6 +55,11 @@ const LISTS = {
     url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
     format: "hosts",
   },
+  easylist_cookie_network: {
+    name: "EasyList Cookie Network",
+    url: "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
+    format: "abp",
+  },
 };
 
 // --- Fetch with redirect support -------------------------------------------
