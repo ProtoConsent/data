@@ -87,9 +87,22 @@ Compiled from public blocklists. Located in `enhanced/external/`.
 | `easylist.json` | [EasyList](https://easylist.to/) | GPL-3.0+ / CC BY-SA 3.0+ |
 | `adguard_dns.json` | [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | GPL-3.0 |
 | `oisd_small.json` | [OISD Small](https://oisd.nl/) | GPL-3.0 |
+| `oisd_big.json` | [OISD Big](https://oisd.nl/) | GPL-3.0 |
 | `hagezi_pro.json` | [HaGeZi Pro](https://github.com/hagezi/dns-blocklists) | GPL-3.0 |
-| `blp_crypto.json` | [Blocklist Project - Crypto](https://github.com/blocklistproject/Lists) | Unlicense |
-| `blp_phishing.json` | [Blocklist Project - Phishing](https://github.com/blocklistproject/Lists) | Unlicense |
+| `hagezi_light.json` | [HaGeZi Light](https://github.com/hagezi/dns-blocklists) | GPL-3.0 |
+| `hagezi_normal.json` | [HaGeZi Normal](https://github.com/hagezi/dns-blocklists) | GPL-3.0 |
+| `hagezi_ultimate.json` | [HaGeZi Ultimate](https://github.com/hagezi/dns-blocklists) | GPL-3.0 |
+| `hagezi_tif.json` | [HaGeZi TIF](https://github.com/hagezi/dns-blocklists) | GPL-3.0 |
+| `blp_crypto.json` | [BLP Crypto](https://github.com/blocklistproject/Lists) | Unlicense |
+| `blp_phishing.json` | [BLP Phishing](https://github.com/blocklistproject/Lists) | Unlicense |
+| `blp_gambling.json` | [BLP Gambling](https://github.com/blocklistproject/Lists) | Unlicense |
+| `blp_malware.json` | [BLP Malware](https://github.com/blocklistproject/Lists) | Unlicense |
+| `blp_fraud.json` | [BLP Fraud](https://github.com/blocklistproject/Lists) | Unlicense |
+| `blp_scam.json` | [BLP Scam](https://github.com/blocklistproject/Lists) | Unlicense |
+| `phishing_army.json` | [Phishing Army](https://phishing.army) | CC BY-NC 4.0 |
+| `phishing_army_extended.json` | [Phishing Army Extended](https://phishing.army) | CC BY-NC 4.0 |
+| `stevenblack.json` | [Steven Black Unified](https://github.com/StevenBlack/hosts) | MIT |
+| `onehosts_lite.json` | [1Hosts Lite](https://github.com/badmojr/1Hosts) | MPL-2.0 |
 
 JSON format:
 
@@ -197,19 +210,42 @@ Regional cosmetic and blocking lists in `enhanced/regional/`, compiled from [Eas
 
 | Region | Code | Sources |
 |--------|------|---------|
+| Albanian | `al` | Adblock List for Albania |
+| Arabic | `ar` | AdGuard Arabic |
+| Bulgarian | `bg` | AdGuard Bulgarian |
 | Chinese | `cn` | EasyList China + AdGuard Chinese |
+| Czech/Slovak | `cs` | AdGuard Czech/Slovak |
 | German | `de` | EasyList Germany + AdGuard German |
-| Dutch | `nl` | EasyList Dutch + AdGuard Dutch |
-| Spanish/Portuguese | `es` | EasyList Spanish + EasyList Portuguese + AdGuard Spanish/Portuguese |
+| Spanish | `es` | EasyList Spanish + AdGuard Spanish/Portuguese |
+| Estonian | `et` | AdGuard Estonian |
+| Persian | `fa` | AdGuard Persian |
+| Finnish | `fi` | AdGuard Finnish |
 | French | `fr` | AdGuard French |
+| Greek | `gr` | Greek AdBlock Filter |
 | Hebrew | `he` | EasyList Hebrew |
+| Indian | `hi` | AdGuard Hindi + IndianList |
+| Serbo-Croatian | `hr` | AdGuard Serbo-Croatian |
+| Hungarian | `hu` | AdGuard Hungarian |
+| Indonesian | `id` | AdGuard Indonesian |
+| Icelandic | `is` | Icelandic ABP List |
 | Italian | `it` | EasyList Italy |
 | Japanese | `ja` | AdGuard Japanese |
+| Korean | `ko` | AdGuard Korean + List-KR |
 | Lithuanian | `lt` | EasyList Lithuania |
+| Latvian | `lv` | AdGuard Latvian |
+| Macedonian | `mk` | AdGuard Macedonian |
+| Dutch | `nl` | EasyList Dutch + AdGuard Dutch |
+| Nordic | `no` | AdGuard Nordic + Dandelion Sprout's Nordic Filters |
 | Polish | `pl` | EasyList Polish |
-| Russian | `ru` | AdGuard Russian |
+| Portuguese | `pt` | EasyList Portuguese + AdGuard Spanish/Portuguese |
+| Romanian | `ro` | ROList (AdGuard) + ROad-Block |
+| Russian | `ru` | AdGuard Russian + RU AdList |
+| Slovenian | `si` | Slovenian List |
+| Swedish | `sv` | AdGuard Swedish |
+| Thai | `th` | AdGuard Thai |
 | Turkish | `tr` | AdGuard Turkish |
 | Ukrainian | `uk` | AdGuard Ukrainian |
+| Vietnamese | `vi` | AdGuard Vietnamese |
 
 Regional lists appear in both the bundled and remote catalog as 2 aggregated entries (`regional_cosmetic` and `regional_blocking`) with `fetch_base` and `regions` fields instead of individual `fetch_url` entries. The extension's fetch handler reads the user's selected regions and downloads individual per-region files from `enhanced/regional/`, merging them at runtime.
 

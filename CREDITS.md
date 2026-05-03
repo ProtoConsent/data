@@ -12,9 +12,12 @@ projects. We are grateful to their maintainers and contributors.
 | [EasyList](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easylist.json`, `easylist_cosmetic.json`, `easylist_cookie_cosmetic.json` |
 | [EasyPrivacy](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easyprivacy.json` |
 | [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | AdGuard Team | GPL-3.0 | `adguard_dns.json` |
-| [OISD](https://oisd.nl/) | Stephan van Ruth | GPL-3.0 | `oisd_small.json` |
-| [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) | HaGeZi | GPL-3.0 | `hagezi_pro.json` |
-| [Blocklist Project](https://github.com/blocklistproject/Lists) | Blocklist Project | Unlicense | `blp_crypto.json`, `blp_phishing.json` |
+| [OISD](https://oisd.nl/) | Stephan van Ruth | GPL-3.0 | `oisd_small.json`, `oisd_big.json` |
+| [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) | HaGeZi | GPL-3.0 | `hagezi_pro.json`, `hagezi_light.json`, `hagezi_normal.json`, `hagezi_ultimate.json`, `hagezi_tif.json` |
+| [Blocklist Project](https://github.com/blocklistproject/Lists) | Blocklist Project | Unlicense | `blp_crypto.json`, `blp_phishing.json`, `blp_gambling.json`, `blp_malware.json`, `blp_fraud.json`, `blp_scam.json` |
+| [Phishing Army](https://phishing.army) | Andrea Draghetti | CC BY-NC 4.0 | `phishing_army.json`, `phishing_army_extended.json` |
+| [Steven Black Unified Hosts](https://github.com/StevenBlack/hosts) | Steven Black | MIT | `stevenblack.json` |
+| [1Hosts Lite](https://github.com/badmojr/1Hosts) | badmojr | MPL-2.0 | `onehosts_lite.json` |
 
 ### Cosmetic annoyance filtering
 
