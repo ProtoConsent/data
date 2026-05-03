@@ -1,4 +1,12 @@
 {
+  "al": {
+    "label": "Albanian",
+    "flag": ["AL", "XK"],
+    "languages": ["sq"],
+    "sources": [
+      { "name": "Adblock List for Albania", "url": "https://github.com/AnXh3L0/blocklist" }
+    ]
+  },
   "ar": {
     "label": "Arabic",
     "languages": ["ar"],
@@ -82,20 +90,30 @@
       { "name": "AdGuard French", "url": "https://github.com/AdguardTeam/AdguardFilters" }
     ]
   },
+  "gr": {
+    "label": "Greek",
+    "flag": ["GR", "CY"],
+    "languages": ["el"],
+    "sources": [
+      { "name": "Greek AdBlock Filter", "url": "https://github.com/kargig/greek-adblockplus-filter" }
+    ]
+  },
   "he": {
     "label": "Hebrew",
     "flag": "IL",
     "languages": ["he", "iw"],
     "sources": [
-      { "name": "EasyList Hebrew", "url": "https://easylist.to/" }
+      { "name": "EasyList Hebrew", "url": "https://easylist.to/" },
+      { "name": "EasyList Hebrew uBO supplement", "url": "https://github.com/easylist/EasyListHebrew" }
     ]
   },
   "hi": {
-    "label": "Hindi",
+    "label": "Indian",
     "flag": "IN",
-    "languages": ["hi"],
+    "languages": ["hi", "as", "bn", "gu", "kn", "ml", "mr", "ne", "pa", "ta", "te"],
     "sources": [
-      { "name": "AdGuard Hindi", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+      { "name": "AdGuard Hindi", "url": "https://github.com/AdguardTeam/AdguardFilters" },
+      { "name": "IndianList", "url": "https://github.com/mediumkreation/IndianList" }
     ]
   },
   "hr": {
@@ -143,7 +161,8 @@
     "flag": "KR",
     "languages": ["ko"],
     "sources": [
-      { "name": "AdGuard Korean", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+      { "name": "AdGuard Korean", "url": "https://github.com/AdguardTeam/AdguardFilters" },
+      { "name": "List-KR", "url": "https://github.com/List-KR/List-KR" }
     ]
   },
   "lt": {
@@ -195,12 +214,22 @@
       { "name": "EasyList Polish", "url": "https://easylist.to/" }
     ]
   },
+  "ro": {
+    "label": "Romanian",
+    "flag": ["RO", "MD"],
+    "languages": ["ro"],
+    "sources": [
+      { "name": "ROList (AdGuard)", "url": "https://github.com/nicusorsr/rolist-adguard" },
+      { "name": "ROad-Block", "url": "https://github.com/tcptomato/ROad-Block" }
+    ]
+  },
   "ru": {
     "label": "Russian",
     "flag": "RU",
     "languages": ["ru"],
     "sources": [
-      { "name": "AdGuard Russian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+      { "name": "AdGuard Russian", "url": "https://github.com/AdguardTeam/AdguardFilters" },
+      { "name": "RU AdList", "url": "https://github.com/easylist/ruadlist" }
     ]
   },
   "sv": {
@@ -209,6 +238,14 @@
     "languages": ["sv"],
     "sources": [
       { "name": "AdGuard Swedish", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "si": {
+    "label": "Slovenian",
+    "flag": "SI",
+    "languages": ["sl"],
+    "sources": [
+      { "name": "Slovenian List", "url": "https://github.com/betterwebleon/slovenian-list" }
     ]
   },
   "th": {

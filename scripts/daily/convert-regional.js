@@ -23,6 +23,12 @@ const http = require("http");
 // Each region has a label and one or more ABP-format source URLs.
 // Sources are merged per region: domains deduplicated, selectors merged.
 const REGIONS = {
+  al: {
+    label: "Albanian",
+    sources: [
+      "https://raw.githubusercontent.com/AnXh3L0/blocklist/master/albanian-easylist-addition/Albania.txt",
+    ],
+  },
   ar: {
     label: "Arabic",
     sources: [
@@ -87,16 +93,24 @@ const REGIONS = {
       "https://filters.adtidy.org/extension/chromium/filters/16.txt",
     ],
   },
+  gr: {
+    label: "Greek",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/121.txt",
+    ],
+  },
   he: {
     label: "Hebrew",
     sources: [
-      "https://easylist-downloads.adblockplus.org/israellist+easylist.txt",
+      "https://easylist-downloads.adblockplus.org/israellist.txt",
+      "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew-uBO.txt",
     ],
   },
   hi: {
-    label: "Hindi",
+    label: "Indian",
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/253.txt",
+      "https://easylist-downloads.adblockplus.org/indianlist.txt",
     ],
   },
   hr: {
@@ -133,6 +147,7 @@ const REGIONS = {
     label: "Korean",
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/227.txt",
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-uBlockOrigin-classic.txt",
     ],
   },
   lt: {
@@ -172,16 +187,31 @@ const REGIONS = {
       "https://easylist-downloads.adblockplus.org/easylistpolish.txt",
     ],
   },
+  ro: {
+    label: "Romanian",
+    sources: [
+      "https://filters.adtidy.org/extension/chromium/filters/114.txt",
+      "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt",
+    ],
+  },
   ru: {
     label: "Russian",
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/1.txt",
+      "https://cdn.jsdelivr.net/gh/dimisa-RUAdList/RUAdListCDN@main/lists/ruadlist.ubo.min.txt",
+      "https://raw.githubusercontent.com/easylist/ruadlist/master/cntblock.txt",
     ],
   },
   sv: {
     label: "Swedish",
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/243.txt",
+    ],
+  },
+  si: {
+    label: "Slovenian",
+    sources: [
+      "https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt",
     ],
   },
   th: {
