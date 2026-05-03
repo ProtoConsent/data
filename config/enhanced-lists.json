@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-05-03T18:52:50.488Z",
+  "generated": "2026-05-03T19:07:42.218Z",
   "lists": {
     "protoconsent_hotfix": {
       "name": "ProtoConsent Hotfix",
@@ -173,8 +173,8 @@
       "path_rule_count": 0
     },
     "blp_crypto": {
-      "name": "Blocklist Project - Crypto",
-      "description": "Cryptojacking and crypto scams - categorized blocklist",
+      "name": "BLP Crypto",
+      "description": "Blocklist Project - Cryptojacking and crypto scams",
       "source": "https://github.com/blocklistproject/Lists",
       "license": "Unlicense",
       "category": "advanced_tracking",
@@ -187,8 +187,8 @@
       "path_rule_count": 0
     },
     "blp_phishing": {
-      "name": "Blocklist Project - Phishing",
-      "description": "Phishing sites - categorized blocklist",
+      "name": "BLP Phishing",
+      "description": "Blocklist Project - Phishing sites",
       "source": "https://github.com/blocklistproject/Lists",
       "license": "Unlicense",
       "category": "security",
@@ -417,8 +417,8 @@
       "path_rule_count": 0
     },
     "blp_gambling": {
-      "name": "Blocklist Project - Gambling",
-      "description": "Gambling sites - categorized blocklist",
+      "name": "BLP Gambling",
+      "description": "Blocklist Project - Gambling sites",
       "source": "https://github.com/blocklistproject/Lists",
       "license": "Unlicense",
       "category": null,
@@ -431,8 +431,8 @@
       "path_rule_count": 0
     },
     "blp_malware": {
-      "name": "Blocklist Project - Malware",
-      "description": "Malware distribution sites - categorized blocklist",
+      "name": "BLP Malware",
+      "description": "Blocklist Project - Malware distribution sites",
       "source": "https://github.com/blocklistproject/Lists",
       "license": "Unlicense",
       "category": "security",
@@ -445,8 +445,8 @@
       "path_rule_count": 0
     },
     "blp_fraud": {
-      "name": "Blocklist Project - Fraud",
-      "description": "Fraud sites - categorized blocklist",
+      "name": "BLP Fraud",
+      "description": "Blocklist Project - Fraud sites",
       "source": "https://github.com/blocklistproject/Lists",
       "license": "Unlicense",
       "category": "security",
@@ -459,8 +459,8 @@
       "path_rule_count": 0
     },
     "blp_scam": {
-      "name": "Blocklist Project - Scam",
-      "description": "Scam sites - categorized blocklist",
+      "name": "BLP Scam",
+      "description": "Blocklist Project - Scam sites",
       "source": "https://github.com/blocklistproject/Lists",
       "license": "Unlicense",
       "category": "security",
