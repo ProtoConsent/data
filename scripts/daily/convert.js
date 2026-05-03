@@ -110,6 +110,21 @@ const LISTS = {
     url: "https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Lite/domains.txt",
     format: "domains",
   },
+  phishing_army: {
+    name: "Phishing Army",
+    url: "https://phishing.army/download/phishing_army_blocklist.txt",
+    format: "domains",
+  },
+  phishing_army_extended: {
+    name: "Phishing Army Extended",
+    url: "https://phishing.army/download/phishing_army_blocklist_extended.txt",
+    format: "domains",
+  },
+  hagezi_tif: {
+    name: "HaGeZi TIF",
+    url: "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@main/domains/tif.txt",
+    format: "domains",
+  },
 };
 
 // --- Fetch with redirect support -------------------------------------------

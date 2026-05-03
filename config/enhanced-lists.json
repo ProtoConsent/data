@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated": "2026-05-03T19:28:09.153Z",
+  "generated": "2026-05-03T20:29:34.299Z",
   "lists": {
     "protoconsent_hotfix": {
       "name": "ProtoConsent Hotfix",
@@ -16,7 +16,7 @@
       "generated": "2026-05-03T06:13:32.331Z",
       "domain_count": 0,
       "path_rule_count": 0,
-      "revocation_count": 64
+      "revocation_count": 53
     },
     "protoconsent_analytics": {
       "name": "ProtoConsent Analytics",
@@ -178,9 +178,9 @@
       "source": "https://github.com/blocklistproject/Lists",
       "license": "Unlicense",
       "category": "advanced_tracking",
-      "preset": "full",
+      "preset": "optional",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/blp_crypto.json",
-      "order": 260,
+      "order": 444,
       "version": "2026-05-03",
       "generated": "2026-05-03T19:27:28.722Z",
       "domain_count": 10402,
@@ -192,12 +192,26 @@
       "source": "https://github.com/blocklistproject/Lists",
       "license": "Unlicense",
       "category": "security",
-      "preset": "full",
+      "preset": "optional",
       "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/blp_phishing.json",
-      "order": 270,
+      "order": 445,
       "version": "2026-05-03",
       "generated": "2026-05-03T19:27:29.184Z",
       "domain_count": 117996,
+      "path_rule_count": 0
+    },
+    "phishing_army": {
+      "name": "Phishing Army",
+      "description": "Phishing domain blocklist - community curated, daily updates",
+      "source": "https://phishing.army",
+      "license": "CC BY-NC 4.0",
+      "category": "security",
+      "preset": "full",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/phishing_army.json",
+      "order": 270,
+      "version": null,
+      "generated": null,
+      "domain_count": 0,
       "path_rule_count": 0
     },
     "cname_trackers": {
@@ -498,6 +512,34 @@
       "version": "2026-05-03",
       "generated": "2026-05-03T19:27:42.002Z",
       "domain_count": 93267,
+      "path_rule_count": 0
+    },
+    "phishing_army_extended": {
+      "name": "Phishing Army Extended",
+      "description": "Extended phishing blocklist with additional sources",
+      "source": "https://phishing.army",
+      "license": "CC BY-NC 4.0",
+      "category": "security",
+      "preset": "optional",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/phishing_army_extended.json",
+      "order": 446,
+      "version": null,
+      "generated": null,
+      "domain_count": 0,
+      "path_rule_count": 0
+    },
+    "hagezi_tif": {
+      "name": "HaGeZi TIF",
+      "description": "Threat Intelligence Feeds - combined threat data from multiple sources",
+      "source": "https://github.com/hagezi/dns-blocklists",
+      "license": "GPL-3.0",
+      "category": "security",
+      "preset": "optional",
+      "fetch_url": "https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/enhanced/external/hagezi_tif.json",
+      "order": 450,
+      "version": null,
+      "generated": null,
+      "domain_count": 0,
       "path_rule_count": 0
     },
     "regional_cosmetic": {
