@@ -49,12 +49,11 @@
     ]
   },
   "es": {
-    "label": "Spanish/Portuguese",
-    "flag": ["ES", "PT"],
-    "languages": ["es", "pt", "pt-BR", "pt-PT"],
+    "label": "Spanish",
+    "flag": ["ES", "AR", "MX", "CO"],
+    "languages": ["es"],
     "sources": [
       { "name": "EasyList Spanish", "url": "https://easylist.to/" },
-      { "name": "EasyList Portuguese", "url": "https://easylist.to/" },
       { "name": "AdGuard Spanish/Portuguese", "url": "https://github.com/AdguardTeam/AdguardFilters" }
     ]
   },
@@ -140,6 +139,14 @@
       { "name": "AdGuard Indonesian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
     ]
   },
+  "is": {
+    "label": "Icelandic",
+    "flag": "IS",
+    "languages": ["is"],
+    "sources": [
+      { "name": "Icelandic ABP List", "url": "https://github.com/brave/adblock-lists" }
+    ]
+  },
   "it": {
     "label": "Italian",
     "flag": "IT",
@@ -203,7 +210,8 @@
     "flag": ["NO", "DK", "IS"],
     "languages": ["no", "nb", "nn", "da", "is", "fo"],
     "sources": [
-      { "name": "AdGuard Nordic", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+      { "name": "AdGuard Nordic", "url": "https://github.com/AdguardTeam/AdguardFilters" },
+      { "name": "Dandelion Sprout's Nordic Filters", "url": "https://github.com/DandelionSprout/adfilt" }
     ]
   },
   "pl": {
@@ -212,6 +220,15 @@
     "languages": ["pl"],
     "sources": [
       { "name": "EasyList Polish", "url": "https://easylist.to/" }
+    ]
+  },
+  "pt": {
+    "label": "Portuguese",
+    "flag": ["PT", "BR"],
+    "languages": ["pt", "pt-BR", "pt-PT"],
+    "sources": [
+      { "name": "EasyList Portuguese", "url": "https://easylist.to/" },
+      { "name": "AdGuard Spanish/Portuguese", "url": "https://github.com/AdguardTeam/AdguardFilters" }
     ]
   },
   "ro": {

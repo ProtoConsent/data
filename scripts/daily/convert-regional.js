@@ -26,7 +26,7 @@ const REGIONS = {
   al: {
     label: "Albanian",
     sources: [
-      "https://raw.githubusercontent.com/AnXh3L0/blocklist/master/albanian-easylist-addition/Albania.txt",
+      "https://cdn.jsdelivr.net/gh/AnXh3L0/blocklist@master/albanian-easylist-addition/Albania.txt",
     ],
   },
   ar: {
@@ -62,10 +62,9 @@ const REGIONS = {
     ],
   },
   es: {
-    label: "Spanish/Portuguese",
+    label: "Spanish",
     sources: [
       "https://easylist-downloads.adblockplus.org/easylistspanish.txt",
-      "https://easylist-downloads.adblockplus.org/easylistportuguese.txt",
       "https://filters.adtidy.org/extension/chromium/filters/9.txt",
     ],
   },
@@ -103,7 +102,7 @@ const REGIONS = {
     label: "Hebrew",
     sources: [
       "https://easylist-downloads.adblockplus.org/israellist.txt",
-      "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew-uBO.txt",
+      "https://cdn.jsdelivr.net/gh/easylist/EasyListHebrew@master/EasyListHebrew-uBO.txt",
     ],
   },
   hi: {
@@ -129,6 +128,12 @@ const REGIONS = {
     label: "Indonesian",
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/120.txt",
+    ],
+  },
+  is: {
+    label: "Icelandic",
+    sources: [
+      "https://cdn.jsdelivr.net/gh/brave/adblock-lists@master/custom/is.txt",
     ],
   },
   it: {
@@ -179,6 +184,7 @@ const REGIONS = {
     label: "Nordic",
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/249.txt",
+      "https://cdn.jsdelivr.net/gh/DandelionSprout/adfilt@master/NorwegianList.txt",
     ],
   },
   pl: {
@@ -187,11 +193,18 @@ const REGIONS = {
       "https://easylist-downloads.adblockplus.org/easylistpolish.txt",
     ],
   },
+  pt: {
+    label: "Portuguese",
+    sources: [
+      "https://easylist-downloads.adblockplus.org/easylistportuguese.txt",
+      "https://filters.adtidy.org/extension/chromium/filters/9.txt",
+    ],
+  },
   ro: {
     label: "Romanian",
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/114.txt",
-      "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt",
+      "https://cdn.jsdelivr.net/gh/tcptomato/ROad-Block@master/road-block-filters-light.txt",
     ],
   },
   ru: {
@@ -199,7 +212,7 @@ const REGIONS = {
     sources: [
       "https://filters.adtidy.org/extension/chromium/filters/1.txt",
       "https://cdn.jsdelivr.net/gh/dimisa-RUAdList/RUAdListCDN@main/lists/ruadlist.ubo.min.txt",
-      "https://raw.githubusercontent.com/easylist/ruadlist/master/cntblock.txt",
+      "https://cdn.jsdelivr.net/gh/easylist/ruadlist@master/cntblock.txt",
     ],
   },
   sv: {
@@ -211,7 +224,7 @@ const REGIONS = {
   si: {
     label: "Slovenian",
     sources: [
-      "https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt",
+      "https://cdn.jsdelivr.net/gh/betterwebleon/slovenian-list@master/filters.txt",
     ],
   },
   th: {
@@ -258,6 +271,24 @@ function fetchUrl(url, maxRedirects = 3) {
       res.on("end", () => resolve(Buffer.concat(chunks).toString("utf-8")));
       res.on("error", reject);
     }).on("error", reject);
+  });
+}
+
+// jsDelivr gh → raw.githubusercontent.com fallback
+const JSDELIVR_GH_RE = /^https:\/\/cdn\.jsdelivr\.net\/gh\/([^@/]+)\/([^@/]+)@([^/]+)\/(.+)$/;
+
+function githubRawFallback(url) {
+  const m = url.match(JSDELIVR_GH_RE);
+  if (!m) return null;
+  return "https://raw.githubusercontent.com/" + m[1] + "/" + m[2] + "/" + m[3] + "/" + m[4];
+}
+
+function fetchWithFallback(url) {
+  return fetchUrl(url).catch(err => {
+    const fallback = githubRawFallback(url);
+    if (!fallback) throw err;
+    process.stdout.write("(jsdelivr failed, trying GitHub raw) ");
+    return fetchUrl(fallback);
   });
 }
 
@@ -547,7 +578,7 @@ async function main() {
       process.stdout.write("  Fetching " + shortUrl + "... ");
 
       try {
-        const raw = await fetchUrl(url);
+        const raw = await fetchWithFallback(url);
         const lines = raw.split("\n").length;
         totalLines += lines;
         process.stdout.write(lines.toLocaleString() + " lines\n");
