@@ -125,6 +125,11 @@ const LISTS = {
     url: "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@main/domains/tif.txt",
     format: "domains",
   },
+  fanboy_social: {
+    name: "Fanboy Social",
+    url: "https://easylist.to/easylist/fanboy-social.txt",
+    format: "abp",
+  },
 };
 
 // --- Fetch with redirect support -------------------------------------------

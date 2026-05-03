@@ -11,6 +11,7 @@ projects. We are grateful to their maintainers and contributors.
 |--------|---------|---------|-------|
 | [EasyList](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easylist.json`, `easylist_cosmetic.json`, `easylist_cookie_cosmetic.json` |
 | [EasyPrivacy](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `easyprivacy.json` |
+| [Fanboy Social](https://easylist.to/) | EasyList authors | GPL-3.0+ / CC BY-SA 3.0+ | `fanboy_social.json` |
 | [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | AdGuard Team | GPL-3.0 | `adguard_dns.json` |
 | [OISD](https://oisd.nl/) | Stephan van Ruth | GPL-3.0 | `oisd_small.json`, `oisd_big.json` |
 | [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) | HaGeZi | GPL-3.0 | `hagezi_pro.json`, `hagezi_light.json`, `hagezi_normal.json`, `hagezi_ultimate.json`, `hagezi_tif.json` |

@@ -179,6 +179,15 @@ const LIST_CATALOG = {
     preset: "full",
     order: 270,
   },
+  fanboy_social: {
+    name: "Fanboy Social",
+    description: "Social widget and share button blocking - Facebook, Twitter, LinkedIn embeds",
+    source: "https://easylist.to/",
+    license: "GPL-3.0+ / CC BY-SA 3.0+",
+    category: "third_parties",
+    preset: "full",
+    order: 280,
+  },
   cname_trackers: {
     name: "AdGuard CNAME Trackers",
     description: "CNAME-cloaked tracker detection (\u21C9 in Log), informational only",

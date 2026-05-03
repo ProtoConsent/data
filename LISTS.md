@@ -85,6 +85,7 @@ Compiled from public blocklists. Located in `enhanced/external/`.
 |------|--------|---------|
 | `easyprivacy.json` | [EasyPrivacy](https://easylist.to/) | GPL-3.0+ / CC BY-SA 3.0+ |
 | `easylist.json` | [EasyList](https://easylist.to/) | GPL-3.0+ / CC BY-SA 3.0+ |
+| `fanboy_social.json` | [Fanboy Social](https://easylist.to/) | GPL-3.0+ / CC BY-SA 3.0+ |
 | `adguard_dns.json` | [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | GPL-3.0 |
 | `oisd_small.json` | [OISD Small](https://oisd.nl/) | GPL-3.0 |
 | `oisd_big.json` | [OISD Big](https://oisd.nl/) | GPL-3.0 |
