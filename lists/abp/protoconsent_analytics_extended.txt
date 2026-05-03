@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-05-02
-! Last modified: 2026-05-02T11:58:38.458Z
-! Entries: 38154
+! Version: 2026-05-03
+! Last modified: 2026-05-03T06:14:29.284Z
+! Entries: 38158
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -4950,6 +4950,7 @@
 ||browser-updater.yandex.net^$third-party
 ||browser.covatic.io^$third-party
 ||browser.pipe.aria.microsoft.com^$third-party
+||browserguides.net^$third-party
 ||brqory.notino.sk^$third-party
 ||brrmpm.skanskin.kr^$third-party
 ||bruny.net.anwalt.de^$third-party
@@ -5176,6 +5177,7 @@
 ||calvera-telemetry.polaris.me^$third-party
 ||camel.headfarming.com^$third-party
 ||camelsfestival.com^$third-party
+||camelspark.com^$third-party
 ||campaign-direct.eisai.jp^$third-party
 ||campaign.amadeus.com^$third-party
 ||campaign.bbmbonnier.se^$third-party
@@ -12279,6 +12281,7 @@
 ||ipcount.net^$third-party
 ||ipcounter.de^$third-party
 ||ipdmlm.yoriso.com^$third-party
+||iper2.com^$third-party
 ||ipfind.com^$third-party
 ||ipfrom.com^$third-party
 ||ipgp.net^$third-party
@@ -25764,6 +25767,7 @@
 ||sst.bwt.com^$third-party
 ||sst.colemanfurniture.com^$third-party
 ||sst.cooperativa.cl^$third-party
+||sst.fdiintelligence.com^$third-party
 ||sst.shopware.com^$third-party
 ||sst.vrijopnaam.nl^$third-party
 ||sstat.3pagen.at^$third-party
@@ -26313,7 +26317,6 @@
 ||statistics.tattermedia.com^$third-party
 ||statistics.tuv.com^$third-party
 ||statistics.werkenntdenbesten.de^$third-party
-||statistics.wibiya.com^$third-party
 ||statisticsplatform.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
@@ -30276,6 +30279,7 @@
 ||tracker-aa.pafbetscore.lv^$third-party
 ||tracker-api.my.com^$third-party
 ||tracker-beam.aktuality.sk^$third-party
+||tracker-beam.tempo.co^$third-party
 ||tracker-dot-dfty-optimeeze-leroymerlinfr.appspot.com^$third-party
 ||tracker-dot-optimeeze.appspot.com^$third-party
 ||tracker-mw-zlivestream.zapps.vn^$third-party

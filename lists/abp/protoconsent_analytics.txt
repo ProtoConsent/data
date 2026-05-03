@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-05-02
-! Last modified: 2026-05-02T11:58:38.458Z
-! Entries: 9214
+! Version: 2026-05-03
+! Last modified: 2026-05-03T06:14:29.284Z
+! Entries: 9219
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -1539,6 +1539,7 @@
 ||dmp.citynews.ovh^$third-party
 ||dmpcdn.el-mundo.net^$third-party
 ||dmpmetrics.rcsmetrics.it^$third-party
+||dmpprof.com^$third-party
 ||dmw2pzbenclyd.cloudfront.net^$third-party
 ||dmxhgf4zuwdvu.cloudfront.net^$third-party
 ||dn34cbtcv9mef.cloudfront.net^$third-party
@@ -2106,6 +2107,7 @@
 ||indicative.com^$third-party
 ||infinity-tracking.net^$third-party
 ||infinityid.condenastdigital.com^$third-party
+||info.osufoundation.org^$third-party
 ||informer.yandex.ru^$third-party
 ||informers.sinoptik.ua^$third-party
 ||infostroy.nnov.ru^$third-party
@@ -2148,6 +2150,7 @@
 ||ipcheck.blogsys.jp^$third-party
 ||ipcount.net^$third-party
 ||ipcounter.de^$third-party
+||iper2.com^$third-party
 ||ipfrom.com^$third-party
 ||ipinfodb.com^$third-party
 ||ipinyou.com^$third-party
@@ -2998,6 +3001,7 @@
 ||ping.hashnode.com^$third-party
 ||ping.pdst.fm^$third-party
 ||pingback.issuu.com^$third-party
+||pingclock.net^$third-party
 ||pingdom.net^$third-party
 ||pingjs.qq.com^$third-party
 ||pings.vidpulse.com^$third-party
@@ -3920,7 +3924,6 @@
 ||statistics.klicktel.de^$third-party
 ||statistics.rbi-nl.com^$third-party
 ||statistics.tattermedia.com^$third-party
-||statistics.wibiya.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
 ||statistik.simaja.de^$third-party
@@ -4902,6 +4905,7 @@
 ||umbel.com^$third-party
 ||umeng.com^$third-party
 ||umi.cloudful.de^$third-party
+||un.kumparan.com^$third-party
 ||unarmedindustry.com^$third-party
 ||undom.net^$third-party
 ||uniqodo.com^$third-party
@@ -5104,6 +5108,7 @@
 ||whiteclick.biz^$third-party
 ||whoisvisiting.com^$third-party
 ||wholituaten.com^$third-party
+||wibiya.com^$third-party
 ||widerplanet.com^$third-party
 ||widget.educationdynamics.com^$third-party
 ||wikia-beacon.com^$third-party
