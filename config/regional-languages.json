@@ -1,32 +1,246 @@
 {
-  "ar": { "label": "Arabic", "languages": ["ar"] },
-  "bg": { "label": "Bulgarian", "flag": "BG", "languages": ["bg"] },
-  "cn": { "label": "Chinese", "flag": "CN", "languages": ["zh", "zh-CN", "zh-TW"] },
-  "cs": { "label": "Czech/Slovak", "flag": ["CZ", "SK"], "languages": ["cs", "sk"] },
-  "de": { "label": "German", "flag": "DE", "languages": ["de"] },
-  "es": { "label": "Spanish/Portuguese", "flag": ["ES", "PT"], "languages": ["es", "pt", "pt-BR", "pt-PT"] },
-  "et": { "label": "Estonian", "flag": "EE", "languages": ["et"] },
-  "fa": { "label": "Persian", "flag": "IR", "languages": ["fa"] },
-  "fi": { "label": "Finnish", "flag": "FI", "languages": ["fi"] },
-  "fr": { "label": "French", "flag": "FR", "languages": ["fr"] },
-  "he": { "label": "Hebrew", "flag": "IL", "languages": ["he", "iw"] },
-  "hi": { "label": "Hindi", "flag": "IN", "languages": ["hi"] },
-  "hr": { "label": "Serbo-Croatian", "flag": ["RS", "HR"], "languages": ["sr", "hr", "bs"] },
-  "hu": { "label": "Hungarian", "flag": "HU", "languages": ["hu"] },
-  "id": { "label": "Indonesian", "flag": "ID", "languages": ["id"] },
-  "it": { "label": "Italian", "flag": "IT", "languages": ["it"] },
-  "ja": { "label": "Japanese", "flag": "JP", "languages": ["ja"] },
-  "ko": { "label": "Korean", "flag": "KR", "languages": ["ko"] },
-  "lt": { "label": "Lithuanian", "flag": "LT", "languages": ["lt"] },
-  "lv": { "label": "Latvian", "flag": "LV", "languages": ["lv"] },
-  "mk": { "label": "Macedonian", "flag": "MK", "languages": ["mk"] },
-  "nl": { "label": "Dutch", "flag": "NL", "languages": ["nl"] },
-  "no": { "label": "Nordic", "flag": ["NO", "DK", "IS"], "languages": ["no", "nb", "nn", "da", "is", "fo"] },
-  "pl": { "label": "Polish", "flag": "PL", "languages": ["pl"] },
-  "ru": { "label": "Russian", "flag": "RU", "languages": ["ru"] },
-  "sv": { "label": "Swedish", "flag": "SE", "languages": ["sv"] },
-  "th": { "label": "Thai", "flag": "TH", "languages": ["th"] },
-  "tr": { "label": "Turkish", "flag": "TR", "languages": ["tr"] },
-  "uk": { "label": "Ukrainian", "flag": "UA", "languages": ["uk"] },
-  "vi": { "label": "Vietnamese", "flag": "VN", "languages": ["vi"] }
+  "ar": {
+    "label": "Arabic",
+    "languages": ["ar"],
+    "sources": [
+      { "name": "AdGuard Arabic", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "bg": {
+    "label": "Bulgarian",
+    "flag": "BG",
+    "languages": ["bg"],
+    "sources": [
+      { "name": "AdGuard Bulgarian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "cn": {
+    "label": "Chinese",
+    "flag": "CN",
+    "languages": ["zh", "zh-CN", "zh-TW"],
+    "sources": [
+      { "name": "EasyList China", "url": "https://easylist.to/" },
+      { "name": "AdGuard Chinese", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "cs": {
+    "label": "Czech/Slovak",
+    "flag": ["CZ", "SK"],
+    "languages": ["cs", "sk"],
+    "sources": [
+      { "name": "AdGuard Czech/Slovak", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "de": {
+    "label": "German",
+    "flag": "DE",
+    "languages": ["de"],
+    "sources": [
+      { "name": "EasyList Germany", "url": "https://easylist.to/" },
+      { "name": "AdGuard German", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "es": {
+    "label": "Spanish/Portuguese",
+    "flag": ["ES", "PT"],
+    "languages": ["es", "pt", "pt-BR", "pt-PT"],
+    "sources": [
+      { "name": "EasyList Spanish", "url": "https://easylist.to/" },
+      { "name": "EasyList Portuguese", "url": "https://easylist.to/" },
+      { "name": "AdGuard Spanish/Portuguese", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "et": {
+    "label": "Estonian",
+    "flag": "EE",
+    "languages": ["et"],
+    "sources": [
+      { "name": "AdGuard Estonian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "fa": {
+    "label": "Persian",
+    "flag": "IR",
+    "languages": ["fa"],
+    "sources": [
+      { "name": "AdGuard Persian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "fi": {
+    "label": "Finnish",
+    "flag": "FI",
+    "languages": ["fi"],
+    "sources": [
+      { "name": "AdGuard Finnish", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "fr": {
+    "label": "French",
+    "flag": "FR",
+    "languages": ["fr"],
+    "sources": [
+      { "name": "AdGuard French", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "he": {
+    "label": "Hebrew",
+    "flag": "IL",
+    "languages": ["he", "iw"],
+    "sources": [
+      { "name": "EasyList Hebrew", "url": "https://easylist.to/" }
+    ]
+  },
+  "hi": {
+    "label": "Hindi",
+    "flag": "IN",
+    "languages": ["hi"],
+    "sources": [
+      { "name": "AdGuard Hindi", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "hr": {
+    "label": "Serbo-Croatian",
+    "flag": ["RS", "HR"],
+    "languages": ["sr", "hr", "bs"],
+    "sources": [
+      { "name": "AdGuard Serbo-Croatian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "hu": {
+    "label": "Hungarian",
+    "flag": "HU",
+    "languages": ["hu"],
+    "sources": [
+      { "name": "AdGuard Hungarian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "id": {
+    "label": "Indonesian",
+    "flag": "ID",
+    "languages": ["id"],
+    "sources": [
+      { "name": "AdGuard Indonesian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "it": {
+    "label": "Italian",
+    "flag": "IT",
+    "languages": ["it"],
+    "sources": [
+      { "name": "EasyList Italy", "url": "https://easylist.to/" }
+    ]
+  },
+  "ja": {
+    "label": "Japanese",
+    "flag": "JP",
+    "languages": ["ja"],
+    "sources": [
+      { "name": "AdGuard Japanese", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "ko": {
+    "label": "Korean",
+    "flag": "KR",
+    "languages": ["ko"],
+    "sources": [
+      { "name": "AdGuard Korean", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "lt": {
+    "label": "Lithuanian",
+    "flag": "LT",
+    "languages": ["lt"],
+    "sources": [
+      { "name": "EasyList Lithuania", "url": "https://easylist.to/" }
+    ]
+  },
+  "lv": {
+    "label": "Latvian",
+    "flag": "LV",
+    "languages": ["lv"],
+    "sources": [
+      { "name": "AdGuard Latvian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "mk": {
+    "label": "Macedonian",
+    "flag": "MK",
+    "languages": ["mk"],
+    "sources": [
+      { "name": "AdGuard Macedonian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "nl": {
+    "label": "Dutch",
+    "flag": "NL",
+    "languages": ["nl"],
+    "sources": [
+      { "name": "EasyList Dutch", "url": "https://easylist.to/" },
+      { "name": "AdGuard Dutch", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "no": {
+    "label": "Nordic",
+    "flag": ["NO", "DK", "IS"],
+    "languages": ["no", "nb", "nn", "da", "is", "fo"],
+    "sources": [
+      { "name": "AdGuard Nordic", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "pl": {
+    "label": "Polish",
+    "flag": "PL",
+    "languages": ["pl"],
+    "sources": [
+      { "name": "EasyList Polish", "url": "https://easylist.to/" }
+    ]
+  },
+  "ru": {
+    "label": "Russian",
+    "flag": "RU",
+    "languages": ["ru"],
+    "sources": [
+      { "name": "AdGuard Russian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "sv": {
+    "label": "Swedish",
+    "flag": "SE",
+    "languages": ["sv"],
+    "sources": [
+      { "name": "AdGuard Swedish", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "th": {
+    "label": "Thai",
+    "flag": "TH",
+    "languages": ["th"],
+    "sources": [
+      { "name": "AdGuard Thai", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "tr": {
+    "label": "Turkish",
+    "flag": "TR",
+    "languages": ["tr"],
+    "sources": [
+      { "name": "AdGuard Turkish", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "uk": {
+    "label": "Ukrainian",
+    "flag": "UA",
+    "languages": ["uk"],
+    "sources": [
+      { "name": "AdGuard Ukrainian", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  },
+  "vi": {
+    "label": "Vietnamese",
+    "flag": "VN",
+    "languages": ["vi"],
+    "sources": [
+      { "name": "AdGuard Vietnamese", "url": "https://github.com/AdguardTeam/AdguardFilters" }
+    ]
+  }
 }
