@@ -7,6 +7,12 @@
 <p align="center"><strong>Tracker blocklists organized by purpose</strong></p>
 
 <p align="center">
+  <a href="https://github.com/ProtoConsent/ProtoConsent"><strong>Browser extension</strong></a> &middot;
+  <a href="https://github.com/ProtoConsent/data"><strong>Blocklists</strong></a> &middot;
+  <a href="https://protoconsent.org"><strong>Website</strong></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/domains-250K+-blue" alt="250K+ domains">
   <img src="https://img.shields.io/badge/purposes-6-green" alt="6 purposes">
   <img src="https://img.shields.io/badge/formats-5-orange" alt="5 formats">
