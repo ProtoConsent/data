@@ -1,6 +1,8 @@
 name: Filter issue
 description: Report wrong classification, missing domains, or a broken website
 labels: ["filter"]
+# Label "filter" must exist in the repo with description:
+# "Issues with blocklist content: wrong classification, missing domains, broken websites"
 body:
   - type: input
     id: url
