@@ -1,0 +1,50 @@
+name: Filter issue
+description: Report wrong classification, missing domains, or a broken website
+labels: ["filter"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Website URL
+      description: The site where you noticed the issue
+      placeholder: "https://example.com"
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Website is broken (false positive)
+        - Tracker not blocked (missing domain)
+        - Wrong purpose classification
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe what you see. Include the domain if you know which one is affected.
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Affected domain
+      description: "Optional: the specific domain that is wrongly blocked or missing"
+      placeholder: "tracker.example.com"
+  - type: dropdown
+    id: purpose
+    attributes:
+      label: Expected purpose
+      description: "Optional: what purpose should this domain belong to?"
+      options:
+        - Ads
+        - Analytics
+        - Personalization
+        - Third parties
+        - Advanced tracking
+        - Security
+        - Functional (should not be blocked)
+        - Not sure
