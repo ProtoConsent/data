@@ -29002,5 +29002,41 @@
         "other"
       ]
     }
+  },
+  {
+    "id": 1651,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||xcity.org/wp-content/themes/NewsPulse/images/banner300.jpg",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "image",
+        "sub_frame",
+        "ping",
+        "other"
+      ]
+    }
+  },
+  {
+    "id": 1652,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||xcitypass.com/wp-content/themes/NewsPulse/images/banner728.jpg",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "image",
+        "sub_frame",
+        "ping",
+        "other"
+      ]
+    }
   }
 ]
