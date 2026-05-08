@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
-  "version": "2026-05-07",
-  "generated": "2026-05-07T04:48:15.335Z",
+  "version": "2026-05-08",
+  "generated": "2026-05-08T04:28:05.873Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -35,6 +35,7 @@
     "6sc.co",
     "6sense.com",
     "70f2d-05987.api.pushwoosh.com",
+    "78e4a-fa2ba.api.pushwoosh.com",
     "792fa-c6c2c.api.pushwoosh.com",
     "837ac-53586.api.pushwoosh.com",
     "8a537-af31e.api.pushwoosh.com",
@@ -42,6 +43,7 @@
     "9170d-fac20.api.pushwoosh.com",
     "94f56-b665f.api.pushwoosh.com",
     "99863-61299.api.pushwoosh.com",
+    "9ea79-8994b.api.pushwoosh.com",
     "a.klaviyo.com",
     "a12ff-4c09a.api.pushwoosh.com",
     "a1c62-495ab.api.pushwoosh.com",
@@ -113,6 +115,7 @@
     "app-abd.marketo.com",
     "app-abj.marketo.com",
     "app-abk.marketo.com",
+    "app-abm.marketo.com",
     "app-abq.marketo.com",
     "app-e.marketo.com",
     "app-lon02.marketo.com",
@@ -629,7 +632,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 622,
+  "domain_count": 625,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",

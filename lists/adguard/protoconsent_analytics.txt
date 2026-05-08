@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-07T04:48:15.335Z
+! Last modified: 2026-05-08T04:28:05.873Z
 ! Format: AdGuard
-! Entries: 9212
+! Entries: 9213
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -229,7 +229,6 @@
 ||analitik.bik.gov.tr^$third-party
 ||analysis.aws.locondo.jp^$third-party
 ||analysis.fi^$third-party
-||analysis.sooplive.co.kr^$third-party
 ||analytic-client.adult-chess.com^$third-party
 ||analytic-client.blitzmightyparty.com^$third-party
 ||analytic-client.chickgoddess.com^$third-party
@@ -2014,7 +2013,6 @@
 ||helix.bitformations.ca^$third-party
 ||hello.staticstuff.net^$third-party
 ||hemnes.win^$third-party
-||heroesdom.com^$third-party
 ||hexagon-analytics.com^$third-party
 ||highway.cablecar.sph.com.sg^$third-party
 ||hilariouszinc.com^$third-party
@@ -3477,7 +3475,6 @@
 ||server-stockh.imrworldwide.com^$third-party
 ||server-uk.imrworldwide.com^$third-party
 ||server-us.imrworldwide.com^$third-party
-||serviceo.comcast.net^$third-party
 ||session.timecommerce.net^$third-party
 ||sessioncam.com^$third-party
 ||sessions.embeddables.com^$third-party
@@ -4851,7 +4848,6 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
-||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||trust.titanhq.com^$third-party
 ||trusted-collector-bk.tmocce.com^$third-party
@@ -5714,6 +5710,7 @@
 ||biggylabs.com.br/track-api/v2/track/site?^
 ||bigw.com.au/api/event/^
 ||bigw.com.au/events/^
+||bikemag.com/.api/admiral^
 ||bin.cartwire.co/js/analytics.js^
 ||bing.com/bat.js^
 ||bing.com/fd/ls/GLinkPing.aspx?^
@@ -7347,6 +7344,7 @@
 ||meebo.com/cim/sandbox.php?^
 ||mehrwertdienstekompetenz.de/cp/^
 ||melhorplano.net/scripts/tracker/^
+||mensjournal.com/.api/admiral^
 ||mensjournal.com/.bootscripts/analytics.min.js^
 ||mentimeter.com/performance-metrics^
 ||mercadolibre.com/tracks^
@@ -7642,6 +7640,7 @@
 ||online.marketing/a.js^
 ||onlinepresse.info/counter.php?^
 ||onnetwork.tv/cnt/^
+||onrender.com/health^
 ||onsugar.com/static/ck.php?^
 ||ontraport.com/opt_assets/static/js/logging.js^
 ||ontraport.com/track.php^
@@ -7712,6 +7711,7 @@
 ||pan.baidu.com/api/report/^
 ||pan.baidu.com/pcloud/counter/refreshcount?^
 ||pan.baidu.com/recent/report?^
+||paradehomeandgarden.com/.api/admiral^
 ||paramount.tech/lookup/^
 ||pardot.com/pd.js^
 ||parkwhiz.com/events/^
@@ -8415,6 +8415,7 @@
 ||static.myshlf.us/Affiliates/sms_aff_clicktrack-deciem.js^
 ||static.qiyi.com/js/pingback/^
 ||static.republika.co.id/js/tracker.js^
+||static.shopmy.us/Affiliates/sms_aff_clicktrack.js^
 ||staticasset.amarujala.com/handler/recomUserEvent.js^
 ||staticmoly.me/metric.php^
 ||statig.com.br/pub/setCookie.js?^

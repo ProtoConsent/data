@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics Extended
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-# Version: 2026-05-07
-# Last modified: 2026-05-07T04:48:15.335Z
-# Entries: 34158
+# Version: 2026-05-08
+# Last modified: 2026-05-08T04:28:05.873Z
+# Entries: 34168
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -1789,7 +1789,6 @@
 0.0.0.0 ad.ichiban-boshi.com
 0.0.0.0 ad.ichiru.net
 0.0.0.0 ad.jibunde-esute.com
-0.0.0.0 ad.kddi-fs.com
 0.0.0.0 ad.kirara-support.jp
 0.0.0.0 ad.magokoro-care-shoku.com
 0.0.0.0 ad.ordersuit.info
@@ -2467,7 +2466,6 @@
 0.0.0.0 analysis.aws.locondo.jp
 0.0.0.0 analysis.fi
 0.0.0.0 analysis.prod.joyfru.jiji.com
-0.0.0.0 analysis.sooplive.co.kr
 0.0.0.0 analyt.ir
 0.0.0.0 analytic-client.adult-chess.com
 0.0.0.0 analytic-client.blitzmightyparty.com
@@ -3652,6 +3650,7 @@
 0.0.0.0 app-analytics.huami.com
 0.0.0.0 app-cdn.moengage.com
 0.0.0.0 app-eu.moengage.com
+0.0.0.0 app-link.republik.gg
 0.0.0.0 app-qa.moengage.com
 0.0.0.0 app-static-prod.posthog.com
 0.0.0.0 app-static.eu.posthog.com
@@ -5398,6 +5397,7 @@
 0.0.0.0 ch.credithypo.com
 0.0.0.0 ch0p.darty.com
 0.0.0.0 chairscrack.com
+0.0.0.0 chalkdream.com
 0.0.0.0 chanalytics.merchantadvantage.com
 0.0.0.0 channel-analysis-js.gmw.cn
 0.0.0.0 channel.cummins.com
@@ -5867,6 +5867,7 @@
 0.0.0.0 collector.cint.com
 0.0.0.0 collector.clareity.net
 0.0.0.0 collector.contentexchange.me
+0.0.0.0 collector.dgnet.ltd.uk
 0.0.0.0 collector.ex.co
 0.0.0.0 collector.fiverr.com
 0.0.0.0 collector.fullxh.com
@@ -6343,6 +6344,7 @@
 0.0.0.0 counter.proxycrawl.com
 0.0.0.0 counter.rambler.ru
 0.0.0.0 counter.reddigital.ru
+0.0.0.0 counter.scribblelive.com
 0.0.0.0 counter.sibnet.ru
 0.0.0.0 counter.smotrim.ru
 0.0.0.0 counter.subtitlebee.com
@@ -6477,6 +6479,7 @@
 0.0.0.0 cruntn.receno.com
 0.0.0.0 crvayw.kagunosato.com
 0.0.0.0 cryo.socialblade.com
+0.0.0.0 crypticgenius.com
 0.0.0.0 crypto-coins.com
 0.0.0.0 crypto-coins.info
 0.0.0.0 crypto-pool.fr
@@ -7858,6 +7861,7 @@
 0.0.0.0 dmdgdu.atmosphera.com
 0.0.0.0 dmdi.pl
 0.0.0.0 dmepyodjotcuks.com
+0.0.0.0 dmg-libs.anm.co.uk
 0.0.0.0 dmndfrcstng.com
 0.0.0.0 dmp.citynews.ovh
 0.0.0.0 dmpcdn.el-mundo.net
@@ -7922,6 +7926,7 @@
 0.0.0.0 dot.wp.pl
 0.0.0.0 dotaki.com
 0.0.0.0 dotaudiences.com
+0.0.0.0 dotshellmain.com
 0.0.0.0 doubleclick.uk.net
 0.0.0.0 doublestat.info
 0.0.0.0 doubletag.run
@@ -10070,6 +10075,7 @@
 0.0.0.0 giddycoat.com
 0.0.0.0 giddyuptrk.com
 0.0.0.0 giftplanning.westmont.edu
+0.0.0.0 giga-abs.de
 0.0.0.0 gigya.com
 0.0.0.0 gim.co.il
 0.0.0.0 giocdn.com
@@ -10612,7 +10618,6 @@
 0.0.0.0 helsehjelp.over-blog.com
 0.0.0.0 hemblx.vans.cl
 0.0.0.0 hemnes.win
-0.0.0.0 heroesdom.com
 0.0.0.0 herpes2.pa-ruit.jp
 0.0.0.0 hertechlife.com
 0.0.0.0 hesprh.sony.jp
@@ -10636,6 +10641,7 @@
 0.0.0.0 hi.koalendar.com
 0.0.0.0 hi.streetworkoutlist.com
 0.0.0.0 hidjoi.perfumesclub.com
+0.0.0.0 hif.to
 0.0.0.0 higherengine.com
 0.0.0.0 highlight.io
 0.0.0.0 highlight.run
@@ -13138,6 +13144,7 @@
 0.0.0.0 link.lloydsbank.com
 0.0.0.0 link.mbna.co.uk
 0.0.0.0 link.messaging.usnews.com
+0.0.0.0 link.meumulti.com.br
 0.0.0.0 link.myjewishpage.com
 0.0.0.0 link.realself.com
 0.0.0.0 link.resy.com
@@ -13396,6 +13403,7 @@
 0.0.0.0 log.klook.com
 0.0.0.0 log.kmplayer.com
 0.0.0.0 log.kroffle.net
+0.0.0.0 log.krs-ix.ru
 0.0.0.0 log.kuwo.cn
 0.0.0.0 log.lichviet.org
 0.0.0.0 log.lnk.events
@@ -13424,6 +13432,7 @@
 0.0.0.0 log.olark.com
 0.0.0.0 log.oto.com.vn
 0.0.0.0 log.particlenews.com
+0.0.0.0 log.pdfreaders.net
 0.0.0.0 log.perfecttitspics.com
 0.0.0.0 log.photorecoverypicturerecovery.com
 0.0.0.0 log.pinterest.com
@@ -16650,6 +16659,7 @@
 0.0.0.0 metrics.sciencemag.org
 0.0.0.0 metrics.scopus.com
 0.0.0.0 metrics.scottrade.com
+0.0.0.0 metrics.scribblelive.com
 0.0.0.0 metrics.sdcvisit.com
 0.0.0.0 metrics.seabourn.com
 0.0.0.0 metrics.seb.se
@@ -21343,6 +21353,7 @@
 0.0.0.0 secure.jody0sora.com
 0.0.0.0 secure.josh7cuba.com
 0.0.0.0 secure.keet1liod.com
+0.0.0.0 secure.kick1pore.com
 0.0.0.0 secure.kilo6alga.com
 0.0.0.0 secure.kota3chat.com
 0.0.0.0 secure.kpr2exp21.com
@@ -21793,7 +21804,6 @@
 0.0.0.0 service.hcob-bank.de
 0.0.0.0 service.techzine.eu
 0.0.0.0 service.trustpid.com
-0.0.0.0 serviceo.comcast.net
 0.0.0.0 serviceo.xfinity.com
 0.0.0.0 serviceos.comcast.net
 0.0.0.0 serviceos.xfinity.com
@@ -30406,6 +30416,7 @@
 0.0.0.0 tracker.stileo.it
 0.0.0.0 tracker.str-nrg.com
 0.0.0.0 tracker.swedish.org
+0.0.0.0 tracker.thichxemphim.net
 0.0.0.0 tracker.thinkermail.com
 0.0.0.0 tracker.thinkindot.com
 0.0.0.0 tracker.timesgroup.com
@@ -31574,7 +31585,6 @@
 0.0.0.0 truehits.in.th
 0.0.0.0 truehits.net
 0.0.0.0 truehits3.gits.net.th
-0.0.0.0 truenat.bid
 0.0.0.0 trueselfkeys.com
 0.0.0.0 truffle.one
 0.0.0.0 trugaze.io

@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Analytics",
-  "version": "2026-05-07",
-  "generated": "2026-05-07T04:48:15.335Z",
+  "version": "2026-05-08",
+  "generated": "2026-05-08T04:28:05.873Z",
   "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -229,7 +229,6 @@
     "analitik.bik.gov.tr",
     "analysis.aws.locondo.jp",
     "analysis.fi",
-    "analysis.sooplive.co.kr",
     "analytic-client.adult-chess.com",
     "analytic-client.blitzmightyparty.com",
     "analytic-client.chickgoddess.com",
@@ -2014,7 +2013,6 @@
     "helix.bitformations.ca",
     "hello.staticstuff.net",
     "hemnes.win",
-    "heroesdom.com",
     "hexagon-analytics.com",
     "highway.cablecar.sph.com.sg",
     "hilariouszinc.com",
@@ -3477,7 +3475,6 @@
     "server-stockh.imrworldwide.com",
     "server-uk.imrworldwide.com",
     "server-us.imrworldwide.com",
-    "serviceo.comcast.net",
     "session.timecommerce.net",
     "sessioncam.com",
     "sessions.embeddables.com",
@@ -4851,7 +4848,6 @@
     "truehits.in.th",
     "truehits.net",
     "truehits3.gits.net.th",
-    "truenat.bid",
     "trueselfkeys.com",
     "trust.titanhq.com",
     "trusted-collector-bk.tmocce.com",
@@ -5210,7 +5206,7 @@
     "zs.dhl.de",
     "zz.bdstatic.com"
   ],
-  "domain_count": 5203,
+  "domain_count": 5199,
   "paths": [
     "||01net.com/track/",
     "||1024tera.com/api/analytics?",
@@ -5717,6 +5713,7 @@
     "||biggylabs.com.br/track-api/v2/track/site?",
     "||bigw.com.au/api/event/",
     "||bigw.com.au/events/",
+    "||bikemag.com/.api/admiral",
     "||bin.cartwire.co/js/analytics.js",
     "||bing.com/bat.js",
     "||bing.com/fd/ls/GLinkPing.aspx?",
@@ -7350,6 +7347,7 @@
     "||meebo.com/cim/sandbox.php?",
     "||mehrwertdienstekompetenz.de/cp/",
     "||melhorplano.net/scripts/tracker/",
+    "||mensjournal.com/.api/admiral",
     "||mensjournal.com/.bootscripts/analytics.min.js",
     "||mentimeter.com/performance-metrics",
     "||mercadolibre.com/tracks",
@@ -7645,6 +7643,7 @@
     "||online.marketing/a.js",
     "||onlinepresse.info/counter.php?",
     "||onnetwork.tv/cnt/",
+    "||onrender.com/health",
     "||onsugar.com/static/ck.php?",
     "||ontraport.com/opt_assets/static/js/logging.js",
     "||ontraport.com/track.php",
@@ -7715,6 +7714,7 @@
     "||pan.baidu.com/api/report/",
     "||pan.baidu.com/pcloud/counter/refreshcount?",
     "||pan.baidu.com/recent/report?",
+    "||paradehomeandgarden.com/.api/admiral",
     "||paramount.tech/lookup/",
     "||pardot.com/pd.js",
     "||parkwhiz.com/events/",
@@ -8418,6 +8418,7 @@
     "||static.myshlf.us/Affiliates/sms_aff_clicktrack-deciem.js",
     "||static.qiyi.com/js/pingback/",
     "||static.republika.co.id/js/tracker.js",
+    "||static.shopmy.us/Affiliates/sms_aff_clicktrack.js",
     "||staticasset.amarujala.com/handler/recomUserEvent.js",
     "||staticmoly.me/metric.php",
     "||statig.com.br/pub/setCookie.js?",
@@ -9222,5 +9223,5 @@
     "||zumper.com/events",
     "||zynga.com/track/"
   ],
-  "path_count": 4009
+  "path_count": 4014
 }

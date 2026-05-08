@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-07T04:48:15.335Z
+! Last modified: 2026-05-08T04:28:05.873Z
 ! Format: AdGuard
-! Entries: 38172
+! Entries: 38183
 !
 ||0.myikas.com^$third-party
 ||0.net.easyjet.com^$third-party
@@ -1789,7 +1789,6 @@
 ||ad.ichiban-boshi.com^$third-party
 ||ad.ichiru.net^$third-party
 ||ad.jibunde-esute.com^$third-party
-||ad.kddi-fs.com^$third-party
 ||ad.kirara-support.jp^$third-party
 ||ad.magokoro-care-shoku.com^$third-party
 ||ad.ordersuit.info^$third-party
@@ -2467,7 +2466,6 @@
 ||analysis.aws.locondo.jp^$third-party
 ||analysis.fi^$third-party
 ||analysis.prod.joyfru.jiji.com^$third-party
-||analysis.sooplive.co.kr^$third-party
 ||analyt.ir^$third-party
 ||analytic-client.adult-chess.com^$third-party
 ||analytic-client.blitzmightyparty.com^$third-party
@@ -3652,6 +3650,7 @@
 ||app-analytics.huami.com^$third-party
 ||app-cdn.moengage.com^$third-party
 ||app-eu.moengage.com^$third-party
+||app-link.republik.gg^$third-party
 ||app-qa.moengage.com^$third-party
 ||app-static-prod.posthog.com^$third-party
 ||app-static.eu.posthog.com^$third-party
@@ -5398,6 +5397,7 @@
 ||ch.credithypo.com^$third-party
 ||ch0p.darty.com^$third-party
 ||chairscrack.com^$third-party
+||chalkdream.com^$third-party
 ||chanalytics.merchantadvantage.com^$third-party
 ||channel-analysis-js.gmw.cn^$third-party
 ||channel.cummins.com^$third-party
@@ -5867,6 +5867,7 @@
 ||collector.cint.com^$third-party
 ||collector.clareity.net^$third-party
 ||collector.contentexchange.me^$third-party
+||collector.dgnet.ltd.uk^$third-party
 ||collector.ex.co^$third-party
 ||collector.fiverr.com^$third-party
 ||collector.fullxh.com^$third-party
@@ -6343,6 +6344,7 @@
 ||counter.proxycrawl.com^$third-party
 ||counter.rambler.ru^$third-party
 ||counter.reddigital.ru^$third-party
+||counter.scribblelive.com^$third-party
 ||counter.sibnet.ru^$third-party
 ||counter.smotrim.ru^$third-party
 ||counter.subtitlebee.com^$third-party
@@ -6477,6 +6479,7 @@
 ||cruntn.receno.com^$third-party
 ||crvayw.kagunosato.com^$third-party
 ||cryo.socialblade.com^$third-party
+||crypticgenius.com^$third-party
 ||crypto-coins.com^$third-party
 ||crypto-coins.info^$third-party
 ||crypto-pool.fr^$third-party
@@ -7858,6 +7861,7 @@
 ||dmdgdu.atmosphera.com^$third-party
 ||dmdi.pl^$third-party
 ||dmepyodjotcuks.com^$third-party
+||dmg-libs.anm.co.uk^$third-party
 ||dmndfrcstng.com^$third-party
 ||dmp.citynews.ovh^$third-party
 ||dmpcdn.el-mundo.net^$third-party
@@ -7922,6 +7926,7 @@
 ||dot.wp.pl^$third-party
 ||dotaki.com^$third-party
 ||dotaudiences.com^$third-party
+||dotshellmain.com^$third-party
 ||doubleclick.uk.net^$third-party
 ||doublestat.info^$third-party
 ||doubletag.run^$third-party
@@ -10070,6 +10075,7 @@
 ||giddycoat.com^$third-party
 ||giddyuptrk.com^$third-party
 ||giftplanning.westmont.edu^$third-party
+||giga-abs.de^$third-party
 ||gigya.com^$third-party
 ||gim.co.il^$third-party
 ||giocdn.com^$third-party
@@ -10612,7 +10618,6 @@
 ||helsehjelp.over-blog.com^$third-party
 ||hemblx.vans.cl^$third-party
 ||hemnes.win^$third-party
-||heroesdom.com^$third-party
 ||herpes2.pa-ruit.jp^$third-party
 ||hertechlife.com^$third-party
 ||hesprh.sony.jp^$third-party
@@ -10636,6 +10641,7 @@
 ||hi.koalendar.com^$third-party
 ||hi.streetworkoutlist.com^$third-party
 ||hidjoi.perfumesclub.com^$third-party
+||hif.to^$third-party
 ||higherengine.com^$third-party
 ||highlight.io^$third-party
 ||highlight.run^$third-party
@@ -13138,6 +13144,7 @@
 ||link.lloydsbank.com^$third-party
 ||link.mbna.co.uk^$third-party
 ||link.messaging.usnews.com^$third-party
+||link.meumulti.com.br^$third-party
 ||link.myjewishpage.com^$third-party
 ||link.realself.com^$third-party
 ||link.resy.com^$third-party
@@ -13396,6 +13403,7 @@
 ||log.klook.com^$third-party
 ||log.kmplayer.com^$third-party
 ||log.kroffle.net^$third-party
+||log.krs-ix.ru^$third-party
 ||log.kuwo.cn^$third-party
 ||log.lichviet.org^$third-party
 ||log.lnk.events^$third-party
@@ -13424,6 +13432,7 @@
 ||log.olark.com^$third-party
 ||log.oto.com.vn^$third-party
 ||log.particlenews.com^$third-party
+||log.pdfreaders.net^$third-party
 ||log.perfecttitspics.com^$third-party
 ||log.photorecoverypicturerecovery.com^$third-party
 ||log.pinterest.com^$third-party
@@ -16650,6 +16659,7 @@
 ||metrics.sciencemag.org^$third-party
 ||metrics.scopus.com^$third-party
 ||metrics.scottrade.com^$third-party
+||metrics.scribblelive.com^$third-party
 ||metrics.sdcvisit.com^$third-party
 ||metrics.seabourn.com^$third-party
 ||metrics.seb.se^$third-party
@@ -21343,6 +21353,7 @@
 ||secure.jody0sora.com^$third-party
 ||secure.josh7cuba.com^$third-party
 ||secure.keet1liod.com^$third-party
+||secure.kick1pore.com^$third-party
 ||secure.kilo6alga.com^$third-party
 ||secure.kota3chat.com^$third-party
 ||secure.kpr2exp21.com^$third-party
@@ -21793,7 +21804,6 @@
 ||service.hcob-bank.de^$third-party
 ||service.techzine.eu^$third-party
 ||service.trustpid.com^$third-party
-||serviceo.comcast.net^$third-party
 ||serviceo.xfinity.com^$third-party
 ||serviceos.comcast.net^$third-party
 ||serviceos.xfinity.com^$third-party
@@ -30406,6 +30416,7 @@
 ||tracker.stileo.it^$third-party
 ||tracker.str-nrg.com^$third-party
 ||tracker.swedish.org^$third-party
+||tracker.thichxemphim.net^$third-party
 ||tracker.thinkermail.com^$third-party
 ||tracker.thinkindot.com^$third-party
 ||tracker.timesgroup.com^$third-party
@@ -31574,7 +31585,6 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
-||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||truffle.one^$third-party
 ||trugaze.io^$third-party
@@ -36321,6 +36331,7 @@
 ||metka.ru/counter/^
 ||metro.co.uk/base/rta/^
 ||metro.co.uk/cvx/client/sync/fpc?^
+||metro.co.uk/wp-content/client-mu-plugins/dist/metro-analytics/^
 ||metrobyt-mobile.com/self-service-metro/v1/logging^
 ||metroweekly.com/tools/blog_add_visitor/^
 ||mewe.com/ubk4jrxn.js^
