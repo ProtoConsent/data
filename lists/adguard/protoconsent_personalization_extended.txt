@@ -2,9 +2,9 @@
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-04T21:45:55.991Z
+! Last modified: 2026-05-09T04:36:44.034Z
 ! Format: AdGuard
-! Entries: 273
+! Entries: 258
 !
 ||100016075.collect.igodigital.com^$third-party
 ||10870841.collect.igodigital.com^$third-party
@@ -14,14 +14,12 @@
 ||a.monetate.net^$third-party
 ||academy.dynamicyield.com^$third-party
 ||acxiom.com^$third-party
-||ad.crwdcntrl.net^$third-party
 ||ad.monetate.net^$third-party
 ||adm.dynamicyield.com^$third-party
 ||af.monetate.net^$third-party
 ||alx-api.exponea.com^$third-party
 ||amp.permutive.com^$third-party
 ||amway-api.exponea.com^$third-party
-||an.reflektion.com^$third-party
 ||analytics.bluekai.com^$third-party
 ||api-bho.exponea.com^$third-party
 ||api.eu1.exponea.com^$third-party
@@ -30,15 +28,11 @@
 ||api.permutive.com^$third-party
 ||api.personali.com^$third-party
 ||api.rlcdn.com^$third-party
-||api.sail-personalize.com^$third-party
-||api.trueaudience.io^$third-party
 ||api4.optimove.net^$third-party
 ||assets.emarsys.net^$third-party
 ||async-px-eu.dynamicyield.com^$third-party
 ||async-px.dynamicyield.com^$third-party
 ||ats.rlcdn.com^$third-party
-||audience-pccw.viu.com^$third-party
-||audience.acpm.fr^$third-party
 ||audienceye.com^$third-party
 ||audigent.com^$third-party
 ||aws-api.sail-personalize.com^$third-party
@@ -112,7 +106,6 @@
 ||eyeota.com^$third-party
 ||eyeota.net^$third-party
 ||f.monetate.net^$third-party
-||falcon.useinsider.com^$third-party
 ||fcg-api.exponea.com^$third-party
 ||filter.audiencedevelopers.com^$third-party
 ||formulaonedigitalmedia.germany-2.evergage.com^$third-party
@@ -155,7 +148,6 @@
 ||me-device-event-api-glb.gservice.emarsys.net^$third-party
 ||media.richrelevance.com^$third-party
 ||mediarithmics.com^$third-party
-||mobile-events.eservice.emarsys.net^$third-party
 ||monetate.com^$third-party
 ||monetate.net^$third-party
 ||movableink.com^$third-party
@@ -189,8 +181,6 @@
 ||raisin-api.exponea.com^$third-party
 ||rc-ext-geo.rlcdn.com^$third-party
 ||rc.rlcdn.com^$third-party
-||rcom-eu.dynamicyield.com^$third-party
-||rcom.dynamicyield.com^$third-party
 ||recombee.com^$third-party
 ||recommender-eu.scarabresearch.com^$third-party
 ||recommender.scarabresearch.com^$third-party
@@ -209,7 +199,6 @@
 ||sailthru.com^$third-party
 ||sb.monetate.net^$third-party
 ||scarabresearch.com^$third-party
-||sdk-cdn.optimove.net^$third-party
 ||sdk.optimove.net^$third-party
 ||sdkuaservice.optimove.net^$third-party
 ||se.monetate.net^$third-party
@@ -229,12 +218,10 @@
 ||sportsnjtracksdk.optimove.net^$third-party
 ||sr-weight.rlcdn.com^$third-party
 ||sr.rlcdn.com^$third-party
-||srv.dynamicyield.com^$third-party
 ||ssd-bluekai-hk2.everesttech.net^$third-party
 ||ssd-bluekai-lon5.everesttech.net^$third-party
 ||ssd-bluekai-or1.everesttech.net^$third-party
 ||ssd-bluekai-va5.everesttech.net^$third-party
-||st-eu.dynamicyield.com^$third-party
 ||st.dynamicyield.com^$third-party
 ||static.audience.media^$third-party
 ||static.scarabresearch.com^$third-party
@@ -245,13 +232,11 @@
 ||surge.bombora.com^$third-party
 ||sync.crwdcntrl.net^$third-party
 ||tags.bluekai.com.edgekey.net^$third-party
-||tags.cmp.tail.digital^$third-party
 ||tags.crwdcntrl.net^$third-party
 ||tail.digital^$third-party
 ||talkspacetracksdk.optimove.net^$third-party
 ||td.crwdcntrl.net^$third-party
 ||td2.crwdcntrl.net^$third-party
-||telemetry.split.io^$third-party
 ||tv.rlcdn.com^$third-party
 ||ui-analytics.gservice.emarsys.net^$third-party
 ||uip.semasio.net^$third-party
