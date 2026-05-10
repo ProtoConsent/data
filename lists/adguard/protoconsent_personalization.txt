@@ -2,14 +2,20 @@
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-09T04:36:44.034Z
+! Last modified: 2026-05-10T04:57:03.948Z
 ! Format: AdGuard
-! Entries: 78
+! Entries: 93
 !
 ||1plusx.com^$third-party
 ||acxiom.com^$third-party
+||ad.crwdcntrl.net^$third-party
+||an.reflektion.com^$third-party
+||api.sail-personalize.com^$third-party
+||api.trueaudience.io^$third-party
 ||async-px-eu.dynamicyield.com^$third-party
 ||async-px.dynamicyield.com^$third-party
+||audience-pccw.viu.com^$third-party
+||audience.acpm.fr^$third-party
 ||audigent.com^$third-party
 ||barilliance.com^$third-party
 ||barilliance.net^$third-party
@@ -32,6 +38,7 @@
 ||eyeota-sync.dotomi.com^$third-party
 ||eyeota.com^$third-party
 ||eyeota.net^$third-party
+||falcon.useinsider.com^$third-party
 ||freshrelevance.com^$third-party
 ||getblueshift.com^$third-party
 ||granify.com^$third-party
@@ -41,6 +48,7 @@
 ||intentiq.com^$third-party
 ||maxymiser.net^$third-party
 ||mediarithmics.com^$third-party
+||mobile-events.eservice.emarsys.net^$third-party
 ||monetate.com^$third-party
 ||monetate.net^$third-party
 ||movableink.com^$third-party
@@ -53,22 +61,29 @@
 ||personalizer.io^$third-party
 ||personyze.com^$third-party
 ||px.dynamicyield.com^$third-party
+||rcom-eu.dynamicyield.com^$third-party
+||rcom.dynamicyield.com^$third-party
 ||recombee.com^$third-party
 ||richrelevance.com^$third-party
 ||rlcdn.com^$third-party
 ||sail-personalize.com^$third-party
 ||sailthru.com^$third-party
 ||scarabresearch.com^$third-party
+||sdk-cdn.optimove.net^$third-party
 ||segmentify.com^$third-party
 ||semasio.com^$third-party
 ||sirdata.com^$third-party
+||srv.dynamicyield.com^$third-party
 ||ssd-bluekai-hk2.everesttech.net^$third-party
 ||ssd-bluekai-lon5.everesttech.net^$third-party
 ||ssd-bluekai-or1.everesttech.net^$third-party
 ||ssd-bluekai-va5.everesttech.net^$third-party
+||st-eu.dynamicyield.com^$third-party
 ||st.dynamicyield.com^$third-party
 ||tags.bluekai.com.edgekey.net^$third-party
+||tags.cmp.tail.digital^$third-party
 ||tail.digital^$third-party
+||telemetry.split.io^$third-party
 ||useinsider.com^$third-party
 ||zeotap.com^$third-party
 ||ak.sail-horizon.com/^

@@ -1,8 +1,8 @@
 # Title: ProtoConsent Personalization Extended
 # Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)
-# Version: 2026-05-09
-# Last modified: 2026-05-09T04:36:44.034Z
-# Entries: 245
+# Version: 2026-05-10
+# Last modified: 2026-05-10T04:57:03.948Z
+# Entries: 260
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -14,12 +14,14 @@
 0.0.0.0 a.monetate.net
 0.0.0.0 academy.dynamicyield.com
 0.0.0.0 acxiom.com
+0.0.0.0 ad.crwdcntrl.net
 0.0.0.0 ad.monetate.net
 0.0.0.0 adm.dynamicyield.com
 0.0.0.0 af.monetate.net
 0.0.0.0 alx-api.exponea.com
 0.0.0.0 amp.permutive.com
 0.0.0.0 amway-api.exponea.com
+0.0.0.0 an.reflektion.com
 0.0.0.0 analytics.bluekai.com
 0.0.0.0 api-bho.exponea.com
 0.0.0.0 api.eu1.exponea.com
@@ -28,11 +30,15 @@
 0.0.0.0 api.permutive.com
 0.0.0.0 api.personali.com
 0.0.0.0 api.rlcdn.com
+0.0.0.0 api.sail-personalize.com
+0.0.0.0 api.trueaudience.io
 0.0.0.0 api4.optimove.net
 0.0.0.0 assets.emarsys.net
 0.0.0.0 async-px-eu.dynamicyield.com
 0.0.0.0 async-px.dynamicyield.com
 0.0.0.0 ats.rlcdn.com
+0.0.0.0 audience-pccw.viu.com
+0.0.0.0 audience.acpm.fr
 0.0.0.0 audienceye.com
 0.0.0.0 audigent.com
 0.0.0.0 aws-api.sail-personalize.com
@@ -106,6 +112,7 @@
 0.0.0.0 eyeota.com
 0.0.0.0 eyeota.net
 0.0.0.0 f.monetate.net
+0.0.0.0 falcon.useinsider.com
 0.0.0.0 fcg-api.exponea.com
 0.0.0.0 filter.audiencedevelopers.com
 0.0.0.0 formulaonedigitalmedia.germany-2.evergage.com
@@ -148,6 +155,7 @@
 0.0.0.0 me-device-event-api-glb.gservice.emarsys.net
 0.0.0.0 media.richrelevance.com
 0.0.0.0 mediarithmics.com
+0.0.0.0 mobile-events.eservice.emarsys.net
 0.0.0.0 monetate.com
 0.0.0.0 monetate.net
 0.0.0.0 movableink.com
@@ -181,6 +189,8 @@
 0.0.0.0 raisin-api.exponea.com
 0.0.0.0 rc-ext-geo.rlcdn.com
 0.0.0.0 rc.rlcdn.com
+0.0.0.0 rcom-eu.dynamicyield.com
+0.0.0.0 rcom.dynamicyield.com
 0.0.0.0 recombee.com
 0.0.0.0 recommender-eu.scarabresearch.com
 0.0.0.0 recommender.scarabresearch.com
@@ -199,6 +209,7 @@
 0.0.0.0 sailthru.com
 0.0.0.0 sb.monetate.net
 0.0.0.0 scarabresearch.com
+0.0.0.0 sdk-cdn.optimove.net
 0.0.0.0 sdk.optimove.net
 0.0.0.0 sdkuaservice.optimove.net
 0.0.0.0 se.monetate.net
@@ -218,10 +229,12 @@
 0.0.0.0 sportsnjtracksdk.optimove.net
 0.0.0.0 sr-weight.rlcdn.com
 0.0.0.0 sr.rlcdn.com
+0.0.0.0 srv.dynamicyield.com
 0.0.0.0 ssd-bluekai-hk2.everesttech.net
 0.0.0.0 ssd-bluekai-lon5.everesttech.net
 0.0.0.0 ssd-bluekai-or1.everesttech.net
 0.0.0.0 ssd-bluekai-va5.everesttech.net
+0.0.0.0 st-eu.dynamicyield.com
 0.0.0.0 st.dynamicyield.com
 0.0.0.0 static.audience.media
 0.0.0.0 static.scarabresearch.com
@@ -232,11 +245,13 @@
 0.0.0.0 surge.bombora.com
 0.0.0.0 sync.crwdcntrl.net
 0.0.0.0 tags.bluekai.com.edgekey.net
+0.0.0.0 tags.cmp.tail.digital
 0.0.0.0 tags.crwdcntrl.net
 0.0.0.0 tail.digital
 0.0.0.0 talkspacetracksdk.optimove.net
 0.0.0.0 td.crwdcntrl.net
 0.0.0.0 td2.crwdcntrl.net
+0.0.0.0 telemetry.split.io
 0.0.0.0 tv.rlcdn.com
 0.0.0.0 ui-analytics.gservice.emarsys.net
 0.0.0.0 uip.semasio.net
