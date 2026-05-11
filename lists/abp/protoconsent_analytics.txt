@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-05-10
-! Last modified: 2026-05-10T04:57:03.948Z
-! Entries: 9219
+! Version: 2026-05-11
+! Last modified: 2026-05-11T05:10:29.361Z
+! Entries: 9216
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -479,7 +479,6 @@
 ||analytics.myshoptago.com^$third-party
 ||analytics.navyfederal.org^$third-party
 ||analytics.neoogilvy.uy^$third-party
-||analytics.netronline.dev^$third-party
 ||analytics.newscred.com^$third-party
 ||analytics.newsifier.nl^$third-party
 ||analytics.nextopia.net^$third-party
@@ -1103,6 +1102,7 @@
 ||codata.ru^$third-party
 ||coin-have.com^$third-party
 ||coinnebula.com^$third-party
+||coinwebmining.com^$third-party
 ||coinzillatag.com^$third-party
 ||collect-ap2.attraqt.io^$third-party
 ||collect-eu.attraqt.io^$third-party
@@ -1333,7 +1333,6 @@
 ||d-log.tv-asahi.co.jp^$third-party
 ||d-markets.net^$third-party
 ||d-stats.com^$third-party
-||d.adlpo.com^$third-party
 ||d.haberler.com^$third-party
 ||d.lilstts.com^$third-party
 ||d.omsnative.de^$third-party
@@ -2817,7 +2816,6 @@
 ||netcounter.de^$third-party
 ||netdebit-counter.de^$third-party
 ||netgraviton.net^$third-party
-||netlify-rum.netlify.app^$third-party
 ||netlog.ru^$third-party
 ||netmarbleslog.netmarble.com^$third-party
 ||netminers.dk^$third-party
@@ -2937,6 +2935,7 @@
 ||p.skimresources.com^$third-party
 ||p.tryretool.com^$third-party
 ||p0.raasnet.com^$third-party
+||p0y.cn^$third-party
 ||p24.hu^$third-party
 ||p7cloud.net^$third-party
 ||pa-cd.com^$third-party
@@ -4151,8 +4150,6 @@
 ||t.91syun.com^$third-party
 ||t.9gag.com^$third-party
 ||t.a3cloud.net^$third-party
-||t.adlpo.com^$third-party
-||t.arcade.show^$third-party
 ||t.auditedmedia.org.au^$third-party
 ||t.bimvid.com^$third-party
 ||t.blog.livedoor.jp^$third-party
