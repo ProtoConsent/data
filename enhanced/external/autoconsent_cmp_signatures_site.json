@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-04",
+  "version": "2026-05-12",
   "type": "cmp_site",
-  "generated": "2026-05-04T21:10:25.981Z",
+  "generated": "2026-05-12T06:29:14.729Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "b75ba8a8d877d9e9",
-  "cmp_count": 234,
+  "autoconsent_tree_hash": "2af0523f7ffc2499",
+  "cmp_count": 235,
   "signatures": {
     "abconcerts_be": {
       "selector": "dialog.cookie-consent",
@@ -1137,6 +1137,17 @@
       "detectors": {
         "present": [
           "#modal-host > div.no-hash > div.window-wrapper, div[data-testid=qualtrics-container]"
+        ]
+      }
+    },
+    "hearstus": {
+      "selector": "div[role=\"dialog\"][aria-label^=\"Privacy Disclosure\"]",
+      "detectors": {
+        "present": [
+          "div[role=\"dialog\"][aria-label^=\"Privacy Disclosure\"]"
+        ],
+        "showing": [
+          "div[role=\"dialog\"][aria-label^=\"Privacy Disclosure\"]"
         ]
       }
     },
@@ -2484,6 +2495,17 @@
         "vodafone.de"
       ]
     },
+    "volvocarscom": {
+      "selector": "cookie-banner#cookie-banner-host",
+      "detectors": {
+        "present": [
+          "cookie-banner#cookie-banner-host"
+        ],
+        "showing": [
+          "cookie-banner#cookie-banner-host"
+        ]
+      }
+    },
     "waitrose_com": {
       "selector": "div[aria-labelledby=CookieAlertModalHeading], section[data-test=initial-waitrose-cookie-consent-banner], section[data-test=cookie-consent-modal]",
       "detectors": {
@@ -2529,17 +2551,6 @@
         ],
         "showing": [
           "[class^=cookie_wrapper]"
-        ]
-      }
-    },
-    "womenshealthmagus": {
-      "selector": "[status=open]:has([aria-label=\"Privacy Disclosure\"])",
-      "detectors": {
-        "present": [
-          "[status=open]:has([aria-label=\"Privacy Disclosure\"])"
-        ],
-        "showing": [
-          "[status=open]:has([aria-label=\"Privacy Disclosure\"])"
         ]
       }
     },

@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-04",
+  "version": "2026-05-12",
   "type": "cmp_detectors",
-  "generated": "2026-05-04T21:10:26.001Z",
+  "generated": "2026-05-12T06:29:14.740Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "b75ba8a8d877d9e9",
-  "cmp_count": 288,
+  "autoconsent_tree_hash": "2af0523f7ffc2499",
+  "cmp_count": 289,
   "detectors": {
     "abc": {
       "present": [
@@ -1070,6 +1070,14 @@
         "#modal-host > div.no-hash > div.window-wrapper, div[data-testid=qualtrics-container]"
       ],
       "showing": []
+    },
+    "hearstus": {
+      "present": [
+        "div[role=\"dialog\"][aria-label^=\"Privacy Disclosure\"]"
+      ],
+      "showing": [
+        "div[role=\"dialog\"][aria-label^=\"Privacy Disclosure\"]"
+      ]
     },
     "hema": {
       "present": [
@@ -2298,6 +2306,14 @@
         "vodafone.de"
       ]
     },
+    "volvocarscom": {
+      "present": [
+        "cookie-banner#cookie-banner-host"
+      ],
+      "showing": [
+        "cookie-banner#cookie-banner-host"
+      ]
+    },
     "waitrose_com": {
       "present": [
         "section[data-test=initial-waitrose-cookie-consent-banner]"
@@ -2352,14 +2368,6 @@
       ],
       "showing": [
         "[data-comp-type=cookie-banner-root-wix],[data-hook=ccsu-banner-wrapper]"
-      ]
-    },
-    "womenshealthmagus": {
-      "present": [
-        "[status=open]:has([aria-label=\"Privacy Disclosure\"])"
-      ],
-      "showing": [
-        "[status=open]:has([aria-label=\"Privacy Disclosure\"])"
       ]
     },
     "woocommercecom": {
