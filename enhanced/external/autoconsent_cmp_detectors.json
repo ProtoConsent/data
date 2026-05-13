@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-12",
+  "version": "2026-05-13",
   "type": "cmp_detectors",
-  "generated": "2026-05-12T06:29:14.740Z",
+  "generated": "2026-05-13T06:49:09.457Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "2af0523f7ffc2499",
-  "cmp_count": 289,
+  "autoconsent_tree_hash": "44fbeba56692f538",
+  "cmp_count": 288,
   "detectors": {
     "abc": {
       "present": [
@@ -1244,14 +1244,6 @@
       ],
       "showing": [
         ".kc-dialog"
-      ]
-    },
-    "ketch": {
-      "present": [
-        "#lanyard_root div[role='dialog']"
-      ],
-      "showing": [
-        "#lanyard_root div[role='dialog']"
       ]
     },
     "kickstarter_com": {

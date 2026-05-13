@@ -1,9 +1,9 @@
 {
-  "version": "2026-05-12",
+  "version": "2026-05-13",
   "type": "cmp_site",
-  "generated": "2026-05-12T06:29:14.729Z",
+  "generated": "2026-05-13T06:49:09.446Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "2af0523f7ffc2499",
+  "autoconsent_tree_hash": "44fbeba56692f538",
   "cmp_count": 235,
   "signatures": {
     "abconcerts_be": {
@@ -1329,15 +1329,7 @@
       }
     },
     "ketch": {
-      "selector": "#lanyard_root div[role='dialog']",
-      "detectors": {
-        "present": [
-          "#lanyard_root div[role='dialog']"
-        ],
-        "showing": [
-          "#lanyard_root div[role='dialog']"
-        ]
-      }
+      "selector": "#lanyard_root div[role='dialog'], #ketch-banner, #ketch-modal"
     },
     "kickstarter_com": {
       "selector": "#react-consent-modal",
