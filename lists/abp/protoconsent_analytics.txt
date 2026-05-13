@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-05-12
-! Last modified: 2026-05-12T04:51:54.905Z
-! Entries: 9219
+! Version: 2026-05-13
+! Last modified: 2026-05-13T05:01:59.152Z
+! Entries: 9224
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -789,6 +789,7 @@
 ||bam.nr-data.net^$third-party
 ||banana.le.com^$third-party
 ||banner.appsflyersdk.com^$third-party
+||banstat.nadavi.net^$third-party
 ||barium.cheezdev.com^$third-party
 ||basilic.io^$third-party
 ||basketballbelieve.com^$third-party
@@ -936,6 +937,7 @@
 ||burstbeacon.com^$third-party
 ||burt.io^$third-party
 ||busuanzi.ibruce.info^$third-party
+||buzzdeck.com^$third-party
 ||bvr.ast.snva.jp^$third-party
 ||bvr.snva.jp^$third-party
 ||bzclk.baidu.com^$third-party
@@ -1558,6 +1560,7 @@
 ||doppler-client-events.cbsivideo.com^$third-party
 ||doppler-reporting.cbsivideo.com^$third-party
 ||dot.wp.pl^$third-party
+||dotshellmain.com^$third-party
 ||doubleclick.uk.net^$third-party
 ||download-stats.mozilla.org^$third-party
 ||dpbolvw.net^$third-party
@@ -1609,6 +1612,7 @@
 ||easyhash.io^$third-party
 ||easyhitcounters.com^$third-party
 ||easyresearch.se^$third-party
+||easysyncnews.com^$third-party
 ||ebis.ne.jp^$third-party
 ||ec-concier.com^$third-party
 ||ec.moengage.com^$third-party
@@ -1668,6 +1672,7 @@
 ||es-log.vietnamplus.vn^$third-party
 ||esearchvision.com^$third-party
 ||esomniture.com^$third-party
+||esoterictools.com^$third-party
 ||essential-apps-analytics.herokuapp.com^$third-party
 ||estadisticas.lanacion.com.ar^$third-party
 ||estat.com^$third-party
@@ -2150,7 +2155,6 @@
 ||ipcheck.blogsys.jp^$third-party
 ||ipcount.net^$third-party
 ||ipcounter.de^$third-party
-||iper2.com^$third-party
 ||ipfrom.com^$third-party
 ||ipinfodb.com^$third-party
 ||ipinyou.com^$third-party
@@ -2964,6 +2968,7 @@
 ||pco-sm-log.tantanapp.com^$third-party
 ||pcspeedup.com^$third-party
 ||pds.auction.co.kr^$third-party
+||peakcreator.com^$third-party
 ||pearpouch.com^$third-party
 ||peerius.com^$third-party
 ||pegasus.unifygroup.com^$third-party
@@ -3629,6 +3634,7 @@
 ||smetrics.foxbusiness.com^$third-party
 ||smetrics.fpl.com^$third-party
 ||smetrics.gcimetrics.com^$third-party
+||smetrics.global.nba.com^$third-party
 ||smetrics.globalnews.ca^$third-party
 ||smetrics.goindigo.in^$third-party
 ||smetrics.grainger.com^$third-party
@@ -3714,7 +3720,6 @@
 ||smetrics.seguro.mediaset.es^$third-party
 ||smetrics.sephora.com^$third-party
 ||smetrics.shinseibank.com^$third-party
-||smetrics.shopmyexchange.com^$third-party
 ||smetrics.sisal.it^$third-party
 ||smetrics.sky.com^$third-party
 ||smetrics.solarwinds.com^$third-party
