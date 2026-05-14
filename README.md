@@ -121,6 +121,17 @@ node scripts/convert-regional.js --region es # fetch one region
 node scripts/generate-manifest.js            # rebuild config/enhanced-lists.json
 ```
 
+## History
+
+This repository receives multiple automated commits per day (list updates, CDN refreshes). To keep the repo size manageable, git history is periodically squashed — old commits are compressed into a single base commit while recent history is preserved. A backup tag is created before each squash.
+
+If you have a fork and see "unrelated histories" after a squash, run:
+
+```bash
+git fetch upstream
+git reset --hard upstream/main
+```
+
 ## License
 
 GPL-3.0-or-later - see [LICENSE](LICENSE).

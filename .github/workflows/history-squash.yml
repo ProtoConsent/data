@@ -1,0 +1,194 @@
+# ProtoConsent data repo
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: "Maintenance: history squash"
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run (preview) or apply (force-push rewrite)"
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run
+          - apply
+      keep_days:
+        description: "Keep full commit history for the last N days"
+        required: true
+        default: "7"
+        type: string
+      create_backup_tag:
+        description: "Create backup tag before rewrite"
+        required: true
+        default: true
+        type: boolean
+      confirm_phrase:
+        description: "Type 'I UNDERSTAND HISTORY REWRITE' to apply"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: history-squash
+  cancel-in-progress: false
+
+jobs:
+  squash-history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Validate inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! [[ "${{ inputs.keep_days }}" =~ ^[0-9]+$ ]] || [[ "${{ inputs.keep_days }}" -lt 1 ]]; then
+            echo "::error::keep_days must be a positive integer"
+            exit 1
+          fi
+          if [[ "${{ inputs.mode }}" == "apply" ]] && [[ "${{ inputs.confirm_phrase }}" != "I UNDERSTAND HISTORY REWRITE" ]]; then
+            echo "::error::Missing or invalid confirm phrase for apply mode"
+            exit 1
+          fi
+
+      - name: Checkout full history
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check open PRs (apply mode)
+        if: inputs.mode == 'apply'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          OPEN_COUNT=$(gh pr list --base main --state open --json number --jq 'length')
+          echo "Open PRs targeting main: ${OPEN_COUNT}"
+          if [[ "$OPEN_COUNT" -gt 0 ]]; then
+            echo "::error::Refusing history rewrite while open PRs exist"
+            exit 1
+          fi
+
+      - name: Analyze rewrite plan
+        id: plan
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          KEEP_DAYS="${{ inputs.keep_days }}"
+          CUTOFF_UTC=$(date -u -d "-${KEEP_DAYS} days" +"%Y-%m-%dT%H:%M:%SZ")
+
+          TOTAL_COMMITS=$(git rev-list --count HEAD)
+          KEEP_START=$(git rev-list --reverse --since="$CUTOFF_UTC" HEAD | head -n1 || true)
+
+          if [[ -z "$KEEP_START" ]]; then
+            KEEP_COUNT=0
+            SQUASH_COUNT=$TOTAL_COMMITS
+            REWRITE="true"
+            MODE="none"
+          else
+            KEEP_COUNT=$(git rev-list --count "${KEEP_START}^..HEAD" 2>/dev/null || echo "$TOTAL_COMMITS")
+            SQUASH_COUNT=$((TOTAL_COMMITS - KEEP_COUNT))
+            if [[ $SQUASH_COUNT -le 1 ]]; then
+              REWRITE="false"
+              MODE="full"
+            else
+              REWRITE="true"
+              MODE="partial"
+            fi
+          fi
+
+          echo "cutoff=$CUTOFF_UTC" >> "$GITHUB_OUTPUT"
+          echo "total=$TOTAL_COMMITS" >> "$GITHUB_OUTPUT"
+          echo "keep=$KEEP_COUNT" >> "$GITHUB_OUTPUT"
+          echo "squash=$SQUASH_COUNT" >> "$GITHUB_OUTPUT"
+          echo "keep_start=$KEEP_START" >> "$GITHUB_OUTPUT"
+          echo "rewrite=$REWRITE" >> "$GITHUB_OUTPUT"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+
+          echo "Plan: $TOTAL_COMMITS total, squash $SQUASH_COUNT into 1, keep $KEEP_COUNT recent"
+
+      - name: Summary
+        shell: bash
+        run: |
+          {
+            echo "## History squash — ${{ inputs.mode }}"
+            echo ""
+            echo "| | |"
+            echo "|---|---|"
+            echo "| Branch | main |"
+            echo "| Cutoff | ${{ steps.plan.outputs.cutoff }} |"
+            echo "| Total commits | ${{ steps.plan.outputs.total }} |"
+            echo "| Squash into 1 | ${{ steps.plan.outputs.squash }} |"
+            echo "| Keep individual | ${{ steps.plan.outputs.keep }} |"
+            echo "| Rewrite needed | ${{ steps.plan.outputs.rewrite }} |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Rewrite history
+        if: inputs.mode == 'apply' && steps.plan.outputs.rewrite == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          MODE="${{ steps.plan.outputs.mode }}"
+          KEEP_START="${{ steps.plan.outputs.keep_start }}"
+          CUTOFF="${{ steps.plan.outputs.cutoff }}"
+          ORIGINAL_HEAD=$(git rev-parse HEAD)
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Backup tag
+          if [[ "${{ inputs.create_backup_tag }}" == "true" ]]; then
+            TAG="backup/pre-squash-$(date -u +%Y%m%d-%H%M%S)"
+            git tag -a "$TAG" "$ORIGINAL_HEAD" -m "Backup before history squash"
+            git push origin "$TAG"
+            echo "Backup tag: $TAG"
+          fi
+
+          # Create orphan with squashed base
+          TMP="rewrite-$(date +%s)"
+          git checkout --orphan "$TMP"
+          git rm -rf . >/dev/null 2>&1 || true
+
+          if [[ "$MODE" == "none" ]]; then
+            git checkout "$ORIGINAL_HEAD" -- .
+            git add -A
+            git commit -m "chore(history): squash all commits before ${CUTOFF}"
+          else
+            SQUASH_TIP=$(git rev-parse "${KEEP_START}^")
+            git checkout "$SQUASH_TIP" -- .
+            git add -A
+            git commit -m "chore(history): squash commits before ${CUTOFF}"
+            git cherry-pick --allow-empty --allow-empty-message "${KEEP_START}^..${ORIGINAL_HEAD}"
+          fi
+
+          # Verify final tree matches original
+          ORIGINAL_TREE=$(git rev-parse "${ORIGINAL_HEAD}^{tree}")
+          NEW_TREE=$(git rev-parse "HEAD^{tree}")
+          if [[ "$ORIGINAL_TREE" != "$NEW_TREE" ]]; then
+            echo "::error::Tree mismatch after rewrite! Aborting. Original: $ORIGINAL_TREE, New: $NEW_TREE"
+            exit 1
+          fi
+
+          git branch -f main HEAD
+          git push origin "+main:main"
+          echo "Pushed rewritten main (${{ steps.plan.outputs.squash }} commits squashed)"
+
+      - name: Result
+        if: inputs.mode == 'apply'
+        shell: bash
+        run: |
+          {
+            if [[ "${{ steps.plan.outputs.rewrite }}" == "true" ]]; then
+              echo "History rewrite applied. Squashed ${{ steps.plan.outputs.squash }} old commits."
+            else
+              echo "No rewrite needed — all commits within keep window."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
