@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a bug with the data pipeline, list conversion, or generated files
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly
+    validations:
+      required: true
+  - type: input
+    id: list
+    attributes:
+      label: Affected list
+      description: "Optional: which list or file is affected"
+      placeholder: "protoconsent_ads.json"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior

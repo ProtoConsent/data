@@ -1,0 +1,38 @@
+# ProtoConsent browser extension
+# Copyright (C) 2026 ProtoConsent contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: "Daily (ext): purge enhanced + hotfix lists (jsDelivr cache)"
+
+on:
+  workflow_run:
+    workflows:
+      - "Daily (ext): clean hotfix revocations"
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 10
+
+      - name: Purge changed files
+        run: |
+          BASE=$(git rev-list HEAD | tail -1)
+          FILES=$(git diff --name-only "$BASE" HEAD -- enhanced/ config/ | sort -u)
+          if [ -z "$FILES" ]; then
+            echo "No enhanced/config changes to purge"
+            exit 0
+          fi
+          echo "$FILES" | while read f; do
+            curl -sf "https://purge.jsdelivr.net/gh/ProtoConsent/data@main/$f" > /dev/null && echo "Purged $f" || echo "Warning: $f failed"
+          done
+          echo "Done: $(echo "$FILES" | wc -l) files purged"

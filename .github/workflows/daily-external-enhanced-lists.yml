@@ -1,0 +1,159 @@
+# ProtoConsent browser extension
+# Copyright (C) 2026 ProtoConsent contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: "Daily (ext): refresh enhanced lists"
+
+on:
+  schedule:
+    - cron: '42 3 * * *'
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: "What to refresh"
+        type: choice
+        default: "all"
+        options:
+          - all
+          - blocklists
+          - cname
+          - cosmetic
+          - cookie-cosmetic
+          - autoconsent
+          - tracking-params
+          - regional
+          - manifest-only
+      list:
+        description: "Single list ID (overrides scope if set)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "20"
+
+      - name: Refresh blocklists
+        id: convert
+        if: >-
+          github.event.inputs.list != '' ||
+          github.event.inputs.scope == 'all' || github.event.inputs.scope == 'blocklists' ||
+          github.event.inputs.scope == ''
+        run: |
+          set +e
+          if [ -n "${{ github.event.inputs.list }}" ]; then
+            node scripts/daily/convert.js --list "${{ github.event.inputs.list }}"
+          else
+            node scripts/daily/convert.js
+          fi
+          CONVERT_EXIT=$?
+          echo "convert_exit=$CONVERT_EXIT" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh CNAME trackers
+        id: cname
+        if: >-
+          github.event.inputs.list == 'cname_trackers' ||
+          (github.event.inputs.list == '' && (github.event.inputs.scope == 'all' || github.event.inputs.scope == 'cname' || github.event.inputs.scope == ''))
+        run: |
+          set +e
+          node scripts/daily/convert-cname.js
+          echo "cname_exit=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh cosmetic rules
+        id: cosmetic
+        if: >-
+          github.event.inputs.list == 'easylist_cosmetic' ||
+          (github.event.inputs.list == '' && (github.event.inputs.scope == 'all' || github.event.inputs.scope == 'cosmetic' || github.event.inputs.scope == ''))
+        run: |
+          set +e
+          node scripts/daily/convert-cosmetic.js
+          echo "cosmetic_exit=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh cookie cosmetic rules
+        id: cookie_cosmetic
+        if: >-
+          github.event.inputs.list == 'easylist_cookie_cosmetic' || github.event.inputs.list == 'webannoyances_cosmetic' ||
+          (github.event.inputs.list == '' && (github.event.inputs.scope == 'all' || github.event.inputs.scope == 'cookie-cosmetic' || github.event.inputs.scope == ''))
+        run: |
+          set +e
+          node scripts/daily/convert-cookie-cosmetic.js
+          echo "cookie_cosmetic_exit=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh autoconsent CMP data
+        id: autoconsent
+        if: >-
+          github.event.inputs.list == 'protoconsent_cmp_signatures' ||
+          (github.event.inputs.list == '' && (github.event.inputs.scope == 'all' || github.event.inputs.scope == 'autoconsent' || github.event.inputs.scope == ''))
+        run: |
+          set +e
+          node scripts/daily/convert-autoconsent.js
+          echo "autoconsent_exit=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh tracking params
+        id: trackparams
+        if: >-
+          github.event.inputs.list == 'adguard_tracking_params' || github.event.inputs.list == 'dandelion_tracking_params' ||
+          (github.event.inputs.list == '' && (github.event.inputs.scope == 'all' || github.event.inputs.scope == 'tracking-params' || github.event.inputs.scope == ''))
+        run: |
+          set +e
+          node scripts/daily/convert-tracking-params.js
+          echo "trackparams_exit=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh regional lists
+        id: regional
+        if: >-
+          startsWith(github.event.inputs.list, 'regional_') ||
+          (github.event.inputs.list == '' && (github.event.inputs.scope == 'all' || github.event.inputs.scope == 'regional' || github.event.inputs.scope == ''))
+        run: |
+          set +e
+          if [[ "${{ github.event.inputs.list }}" == regional_*_* ]]; then
+            REGION=$(echo "${{ github.event.inputs.list }}" | sed 's/regional_//' | sed 's/_cosmetic//' | sed 's/_blocking//')
+            node scripts/daily/convert-regional.js --region "$REGION"
+          else
+            node scripts/daily/convert-regional.js
+          fi
+          echo "regional_exit=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Update hotfix path exceptions
+        if: >-
+          github.event.inputs.list == 'easyprivacy' || github.event.inputs.list == 'easylist' ||
+          (github.event.inputs.list == '' && (github.event.inputs.scope == 'all' || github.event.inputs.scope == 'blocklists' || github.event.inputs.scope == ''))
+        run: node scripts/daily/generate-hotfix-exceptions.js
+
+      - name: Generate manifest
+        run: node scripts/daily/generate-manifest.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add enhanced/ config/enhanced-lists.json config/regional-languages.json
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "data: refresh enhanced lists ($DATE)"
+          git pull --rebase -X theirs
+          git push
+

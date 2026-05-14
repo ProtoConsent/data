@@ -1,0 +1,456 @@
+{
+  "version": "2026-05-01",
+  "type": "cmp",
+  "generated": "2026-05-01T20:38:48.706Z",
+  "cmp_count": 31,
+  "signatures": {
+    "onetrust": {
+      "cookie": [
+        {
+          "name": "OptanonConsent",
+          "template": "isGpcEnabled={gpc}&datestamp={DATESTAMP_ENCODED}&version=202408.1.0&browserGpcFlag={gpc}&isIABGlobal=false&hosts=&consentId={UUID}&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C2%3A{analytics}%2C3%3A{personalization}%2C4%3A{ads}&intType=6"
+        },
+        {
+          "name": "OptanonAlertBoxClosed",
+          "template": "{DATE_ISO}"
+        }
+      ],
+      "purposeMap": {
+        "analytics": "2",
+        "personalization": "3",
+        "ads": "4"
+      },
+      "format": {
+        "allow": "1",
+        "deny": "0"
+      },
+      "selector": "#onetrust-banner-sdk, #onetrust-consent-sdk, .onetrust-pc-dark-filter, .js-consent-banner",
+      "lockClass": "ot-sdk-show-settings"
+    },
+    "cookiebot": {
+      "cookie": [
+        {
+          "name": "CookieConsent",
+          "template": "{stamp:'{STAMP}',necessary:true,preferences:{personalization},statistics:{analytics},marketing:{ads},method:'explicit',ver:1,utc:{TIMESTAMP},region:'es'}"
+        }
+      ],
+      "purposeMap": {
+        "analytics": "statistics",
+        "personalization": "preferences",
+        "ads": "marketing"
+      },
+      "format": {
+        "allow": "true",
+        "deny": "false"
+      },
+      "selector": "#CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay, #dtcookie-container, #cookiebanner, #cb-cookieoverlay, .modal--cookie-banner, #cookiebanner_outer, #CookieBanner",
+      "lockClass": "CybotCookiebotDialogBody"
+    },
+    "sourcepoint": {
+      "cookie": [
+        {
+          "name": "consentUUID",
+          "template": "{UUID}"
+        }
+      ],
+      "selector": "[id^='sp_message_container'], .sp_message_open, div[id^='sp_message_container_'], .message-overlay, #sp_privacy_manager_container",
+      "lockClass": "sp_message_open"
+    },
+    "didomi": {
+      "cookie": [
+        {
+          "name": "didomi_token",
+          "siteSpecific": true
+        }
+      ],
+      "selector": "#didomi-popup, #didomi-notice, .didomi-popup-container, #didomi-consent-popup, .didomi-popup-view, .didomi-popup-notice, .didomi-consent-popup-preferences, .didomi-popup-backdrop, .didomi-screen-medium, #didomi-popup,.didomi-popup-container,.didomi-popup-notice,.didomi-consent-popup-preferences,#didomi-notice,.didomi-popup-backdrop,.didomi-screen-medium",
+      "lockClass": "didomi-popup-open"
+    },
+    "quantcast": {
+      "cookie": [
+        {
+          "name": "addtl_consent",
+          "template": "2~"
+        }
+      ],
+      "selector": "#qc-cmp2-container, .qc-cmp2-container, #qc-cmp2-main, .qc-cmp-ui-container, #qc-cmp2-main,#qc-cmp2-container",
+      "lockClass": "qc-cmp2-showing"
+    },
+    "trustarc": {
+      "cookie": [
+        {
+          "name": "notice_preferences",
+          "template": "2:"
+        },
+        {
+          "name": "cmapi_cookie_privacy",
+          "template": "permit 1 required"
+        },
+        {
+          "name": "notice_gdpr_pr498",
+          "template": "{DATE_ISO}"
+        }
+      ],
+      "selector": ".truste_box_overlay, #truste-consent-track, .trustarc-banner-container, .truste_popframe, .truste_overlay",
+      "lockClass": null
+    },
+    "consentmanager": {
+      "cookie": [
+        {
+          "name": "cmpvendorconsent",
+          "template": ""
+        },
+        {
+          "name": "cmpconsent",
+          "template": ""
+        }
+      ],
+      "selector": "#cmpbox, #cmpbox2, .cmpboxBG",
+      "lockClass": null
+    },
+    "iab_tcf": {
+      "cookie": [
+        {
+          "name": "euconsent-v2",
+          "template": "{TC_STRING}"
+        }
+      ],
+      "selector": null,
+      "lockClass": null
+    },
+    "iubenda": {
+      "cookie": [
+        {
+          "name": "_iub_cs-s",
+          "template": ""
+        }
+      ],
+      "selector": "#iubenda-cs-banner, .iubenda-cs-container",
+      "lockClass": "iubenda-cs-visible-full"
+    },
+    "cookieyes": {
+      "cookie": [
+        {
+          "name": "cookieyes-consent",
+          "template": "{consentid:{UUID},consent:yes,action:yes,necessary:yes,functional:{personalization},analytics:{analytics},performance:{analytics},advertisement:{ads}}"
+        },
+        {
+          "name": "wt_consent",
+          "template": "consent:yes,action:yes,necessary:yes,functional:{personalization},analytics:{analytics},performance:{analytics},advertisement:{ads},others:no,cookie_path:/,consentid:{UUID},consent_time:{TIMESTAMP}"
+        },
+        {
+          "name": "cookielawinfo-checkbox-necessary",
+          "template": "yes"
+        },
+        {
+          "name": "cookielawinfo-checkbox-functional",
+          "template": "{personalization}"
+        },
+        {
+          "name": "cookielawinfo-checkbox-analytics",
+          "template": "{analytics}"
+        },
+        {
+          "name": "cookielawinfo-checkbox-performance",
+          "template": "{analytics}"
+        },
+        {
+          "name": "cookielawinfo-checkbox-others",
+          "template": "no"
+        },
+        {
+          "name": "viewed_cookie_policy",
+          "template": "yes"
+        }
+      ],
+      "purposeMap": {
+        "analytics": "analytics",
+        "personalization": "functional",
+        "ads": "advertisement"
+      },
+      "format": {
+        "allow": "yes",
+        "deny": "no"
+      },
+      "selector": ".cky-consent-container, #cky-consent, .cky-overlay, .cky-overlay,.cky-consent-container",
+      "lockClass": null
+    },
+    "complianz": {
+      "cookie": [
+        {
+          "name": "cmplz_functional",
+          "template": "allow"
+        },
+        {
+          "name": "cmplz_statistics",
+          "template": "{analytics}"
+        },
+        {
+          "name": "cmplz_marketing",
+          "template": "{ads}"
+        },
+        {
+          "name": "cmplz_preferences",
+          "template": "{personalization}"
+        },
+        {
+          "name": "cmplz_banner-status",
+          "template": "dismissed"
+        }
+      ],
+      "purposeMap": {
+        "analytics": "statistics",
+        "personalization": "preferences",
+        "ads": "marketing"
+      },
+      "format": {
+        "allow": "allow",
+        "deny": "deny"
+      },
+      "selector": ".cmplz-cookiebanner, #cmplz-cookiebanner-container",
+      "lockClass": null
+    },
+    "borlabs": {
+      "cookie": [],
+      "selector": "#BorlabsCookieBox, .BorlabsCookie",
+      "lockClass": null
+    },
+    "termly": {
+      "cookie": [],
+      "selector": "#termly-code-snippet-support",
+      "lockClass": null
+    },
+    "axeptio": {
+      "cookie": [],
+      "selector": ".axeptio_widget, #axeptio_overlay, .axeptio-widget, .axeptio_mount, .axeptio_widget,.axeptio_mount",
+      "lockClass": null
+    },
+    "osano": {
+      "cookie": [
+        {
+          "name": "osano_consentmanager",
+          "template": ""
+        }
+      ],
+      "selector": ".osano-cm-dialog, .osano-cm-window, .osano-cm-window__dialog, .osano-cm-window__info-dialog, .osano-cm-window,.osano-cm-dialog",
+      "lockClass": "osano-cm-dialog--open"
+    },
+    "sirdata": {
+      "cookie": [],
+      "selector": "#sd-cmp, .sd-cmp-3WP4a, .sd-cmp-2riLW",
+      "lockClass": null
+    },
+    "civic": {
+      "cookie": [],
+      "selector": "#ccc-module, .ccc-module--slideopen",
+      "lockClass": null
+    },
+    "ccm19": {
+      "cookie": [],
+      "selector": ".ccm-modal-inner",
+      "lockClass": null,
+      "note": "localStorage-based (ccm_consent). Cookie injection not possible from ISOLATED world."
+    },
+    "amasty": {
+      "cookie": [
+        {
+          "name": "amcookie_policy_restriction",
+          "template": "allowed"
+        },
+        {
+          "name": "amcookie_allowed",
+          "template": "-1"
+        }
+      ],
+      "selector": "[x-ref='am-cookie-bar']",
+      "lockClass": null,
+      "note": "Magento 2 GDPR module."
+    },
+    "wix": {
+      "cookie": [
+        {
+          "name": "consent-policy",
+          "template": "%7B%22ess%22%3A1%2C%22func%22%3A{personalization}%2C%22anl%22%3A{analytics}%2C%22adv%22%3A{ads}%2C%22dt3%22%3A{third_parties}%2C%22ts%22%3A{TIMESTAMP}%7D"
+        }
+      ],
+      "purposeMap": {
+        "analytics": "anl",
+        "personalization": "func",
+        "ads": "adv",
+        "third_parties": "dt3"
+      },
+      "format": {
+        "allow": "1",
+        "deny": "0"
+      },
+      "selector": null,
+      "lockClass": null
+    },
+    "fides": {
+      "cookie": [
+        {
+          "name": "fides_consent",
+          "template": "%7B%22consent%22%3A%7B%7D%2C%22identity%22%3A%7B%22fides_user_device_id%22%3A%22{UUID}%22%7D%2C%22fides_meta%22%3A%7B%22version%22%3A%220.9.0%22%2C%22createdAt%22%3A%22{DATE_ISO}%22%2C%22updatedAt%22%3A%22{DATE_ISO}%22%2C%22consentMethod%22%3A%22reject%22%7D%2C%22tcf_consent%22%3A%7B%22system_consent_preferences%22%3A%7B%7D%2C%22system_legitimate_interests_preferences%22%3A%7B%7D%7D%7D"
+        }
+      ],
+      "selector": "#fides-overlay, #fides-banner-container, #fides-banner-inner-container, #fides-overlay-wrapper, #fides-overlay, #fides-overlay-wrapper",
+      "lockClass": "fides-no-scroll",
+      "note": "Ethyca Fides (open source). Cookie omits fides_string/non_applicable_notice_keys (site-specific). Falls back to cosmetic if cookie alone insufficient."
+    },
+    "bing": {
+      "cookie": [
+        {
+          "name": "BCP",
+          "template": "AD={ads}&AL={analytics}&SM={personalization}"
+        }
+      ],
+      "purposeMap": {
+        "analytics": "AL",
+        "personalization": "SM",
+        "ads": "AD"
+      },
+      "format": {
+        "allow": "1",
+        "deny": "0"
+      },
+      "selector": "#bnp_container, .bnp_overlay_wrapper, #bnp_cookie_banner, #mcp_container",
+      "lockClass": null,
+      "domains": [
+        "bing",
+        "microsoft",
+        "outlook",
+        "live",
+        "msn"
+      ],
+      "note": "Microsoft/Bing consent banner. BCP cookie uses simple key=value pairs. Covers bing.com, microsoft.com, outlook.com, live.com, msn.com."
+    },
+    "amazon": {
+      "cookie": [],
+      "selector": "#cos-banner",
+      "lockClass": null,
+      "domains": [
+        "amazon"
+      ],
+      "note": "Amazon custom CMP. Consent is server-side (POST /privacyprefs/retail/v3/banner). Cosmetic hide only. Covers all amazon.* TLDs."
+    },
+    "tiktok": {
+      "cookie": [
+        {
+          "name": "cookie-consent",
+          "template": "{%22optional%22:true%2C%22ga%22:{analytics}%2C%22af%22:{ads}%2C%22fbp%22:{ads}%2C%22lip%22:{ads}%2C%22bing%22:{ads}%2C%22ttads%22:{ads}%2C%22reddit%22:{ads}%2C%22hubspot%22:{ads}%2C%22version%22:%22v10%22}"
+        }
+      ],
+      "purposeMap": {
+        "analytics": "ga",
+        "ads": "af,fbp,lip,bing,ttads,reddit,hubspot"
+      },
+      "format": {
+        "allow": "true",
+        "deny": "false"
+      },
+      "selector": "tiktok-cookie-banner",
+      "lockClass": null,
+      "domains": [
+        "tiktok.com"
+      ],
+      "note": "TikTok custom CMP. URL-encoded JSON cookie. optional=true signals user made a choice. ga=analytics, all others=ads."
+    },
+    "ebay": {
+      "cookie": [],
+      "selector": "#gdpr-banner",
+      "lockClass": null,
+      "domains": [
+        "ebay.com",
+        "ebay"
+      ],
+      "note": "eBay custom CMP. Consent via POST /gdpr/submitGDPRData. ds2/ebay cookies use opaque tokens. Cosmetic hide only."
+    },
+    "linkedin": {
+      "cookie": [],
+      "selector": ".artdeco-global-alert--COOKIE_CONSENT, .artdeco-global-alert[type=COOKIE_CONSENT]",
+      "lockClass": null,
+      "domains": [
+        "linkedin.com"
+      ],
+      "note": "LinkedIn CMP. li_gc cookie is server-signed (HMAC). Cosmetic hide only."
+    },
+    "twitter": {
+      "cookie": [
+        {
+          "name": "d_prefs",
+          "template": "MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
+        }
+      ],
+      "format": {
+        "allow": "0",
+        "deny": "1"
+      },
+      "selector": "[data-testid=\"BottomBar\"]",
+      "lockClass": null,
+      "domains": [
+        "twitter.com",
+        "x.com"
+      ],
+      "note": "Twitter/X CMP. d_prefs is base64(2:1,consent_version:2,text_version:1000). Static reject value (base64 prevents dynamic placeholders)."
+    },
+    "reddit": {
+      "cookie": [
+        {
+          "name": "eu_cookie",
+          "template": "{%22opted%22:true%2C%22nonessential%22:{ads}}"
+        }
+      ],
+      "purposeMap": {
+        "ads": "nonessential"
+      },
+      "format": {
+        "allow": "true",
+        "deny": "false"
+      },
+      "selector": "#data-protection-consent-dialog",
+      "lockClass": null,
+      "domains": [
+        "reddit.com"
+      ],
+      "note": "Reddit CMP. URL-encoded JSON. opted=true signals user chose. nonessential controls all optional cookies."
+    },
+    "facebook": {
+      "cookie": [],
+      "selector": null,
+      "lockClass": null,
+      "domains": [
+        "facebook.com"
+      ],
+      "note": "Facebook/Meta custom CMP. Consent is server-side (no client cookie to inject). No cosmetic hiding - generic dialog selector causes backdrop overlay issues."
+    },
+    "yahoo": {
+      "cookie": [
+        {
+          "name": "EuConsent",
+          "template": "{TC_STRING}"
+        },
+        {
+          "name": "cmp",
+          "template": "t={TIMESTAMP}&j=1&u=1---&v=129"
+        }
+      ],
+      "selector": "#consent-page, #reject-all",
+      "lockClass": null,
+      "domains": [
+        "yahoo.com",
+        "yahoo"
+      ],
+      "excludeHosts": [
+        "consent.yahoo.com"
+      ],
+      "note": "Yahoo GUCE (consent.yahoo.com). IAB TCF v2 with 251 partners. EuConsent=TC String (authoritative). cmp cookie is static (u=1--- regardless of choice). Cosmetic hiding excluded on consent.yahoo.com (redirect wall, not overlay)."
+    },
+    "usercentrics": {
+      "cookie": [],
+      "selector": "#usercentrics-root, #usercentrics-cmp-ui, #usercentrics-button, .uc-embedding-wrapper, #uc-center-container, uc-layer1, uc-layer2, [data-testid='uc-default-wall'], [data-testid='uc-banner-modal']",
+      "lockClass": null,
+      "note": "Usercentrics CMP (SDK v2/v4). Uses localStorage (uc_settings), not cookies. Standard SDK: #usercentrics-root (shadow DOM). Custom integrations (e.g. Porsche): uc-layer1/uc-layer2 custom elements (uc-p-modal is inside their shadow DOM, unreachable by CSS)."
+    }
+  },
+  "autoconsent_augmented": 19
+}
