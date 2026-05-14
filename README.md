@@ -123,13 +123,15 @@ node scripts/generate-manifest.js            # rebuild config/enhanced-lists.jso
 
 ## History
 
-This repository receives multiple automated commits per day (list updates, CDN refreshes). To keep the repo size manageable, git history is periodically squashed — old commits are compressed into a single base commit while recent history is preserved. A backup tag is created before each squash.
+This repository receives multiple automated commits per day (list updates, CDN refreshes). To keep the repo size manageable, git history is periodically squashed: old commits are compressed into a single base commit while recent history is preserved.
 
-If you have a fork and see "unrelated histories" after a squash, run:
+If you have a fork and see "unrelated histories" after a squash, the simplest fix is to re-clone. Alternatively:
 
 ```bash
+git remote add upstream https://github.com/ProtoConsent/data.git  # only once
 git fetch upstream
 git reset --hard upstream/main
+git push origin main --force
 ```
 
 ## License
