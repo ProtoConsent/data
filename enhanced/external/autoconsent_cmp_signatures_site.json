@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-13",
+  "version": "2026-05-14",
   "type": "cmp_site",
-  "generated": "2026-05-13T06:49:09.446Z",
+  "generated": "2026-05-14T06:39:03.273Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "44fbeba56692f538",
-  "cmp_count": 235,
+  "autoconsent_tree_hash": "b91a7b4860ec33dd",
+  "cmp_count": 237,
   "signatures": {
     "abconcerts_be": {
       "selector": "dialog.cookie-consent",
@@ -914,6 +914,17 @@
         ]
       }
     },
+    "edpbedps": {
+      "selector": "#edp-cookies-banner",
+      "detectors": {
+        "present": [
+          "#edp-cookies-banner .edp-cookies-refuse"
+        ],
+        "showing": [
+          "#edp-cookies-banner"
+        ]
+      }
+    },
     "efccpa": {
       "selector": "#ef-ccpa",
       "detectors": {
@@ -1302,6 +1313,17 @@
           ".cookie-bar .cookie-bar__message,.cookie-bar .cookie-bar__buttons"
         ]
       }
+    },
+    "justgiving_com": {
+      "selector": "#cookiebanner-popup",
+      "detectors": {
+        "showing": [
+          "#cookiebanner-popup"
+        ]
+      },
+      "domains": [
+        "justgiving.com"
+      ]
     },
     "justwatch_com": {
       "selector": ".consent-banner",
