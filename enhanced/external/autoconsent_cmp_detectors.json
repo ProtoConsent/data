@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-14",
+  "version": "2026-05-15",
   "type": "cmp_detectors",
-  "generated": "2026-05-14T06:39:03.293Z",
+  "generated": "2026-05-15T06:47:42.681Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "b91a7b4860ec33dd",
-  "cmp_count": 290,
+  "autoconsent_tree_hash": "3ec350bc0fc55cdd",
+  "cmp_count": 291,
   "detectors": {
     "abc": {
       "present": [
@@ -917,6 +917,14 @@
       ],
       "domains": [
         "facebook.com"
+      ]
+    },
+    "facebookmobile": {
+      "present": [
+        "[data-testid=\"cookie-policy-manage-dialog\"]"
+      ],
+      "showing": [
+        "[data-testid=\"cookie-policy-manage-dialog\"]"
       ]
     },
     "fedex": {

@@ -1,10 +1,40 @@
 {
-  "version": "2026-05-14",
-  "generated": "2026-05-14T06:39:03.450Z",
+  "version": "2026-05-15",
+  "generated": "2026-05-15T06:47:43.182Z",
   "type": "tracking_params_sites",
   "domain_count": 885,
-  "param_count": 1824,
+  "param_count": 1834,
   "sites": {
+    "bestbuycreators.7tiv.net": [
+      "adcampaignid",
+      "sharedid",
+      "subId1",
+      "subId2",
+      "subId3",
+      "svlink"
+    ],
+    "bestbuy.7tiv.net": [
+      "subid1",
+      "subid2",
+      "subid3"
+    ],
+    "www.bestbuy.com": [
+      "acampid",
+      "id",
+      "mpid"
+    ],
+    "artlist.io": [
+      "artlist_aid"
+    ],
+    "newegg.com": [
+      "ACRID",
+      "AFFID",
+      "AFFNAME",
+      "ASID",
+      "ASUBID",
+      "nm_mc",
+      "quicklink"
+    ],
     "taboolanews.com": [
       "dc_data"
     ],
@@ -1057,8 +1087,6 @@
       "lc",
       "ocid",
       "quot",
-      "ranEAID",
-      "ranSiteID",
       "refPage",
       "refSource",
       "srcref"
@@ -1381,11 +1409,6 @@
       "km_adgroup",
       "km_matchtype",
       "km_partner"
-    ],
-    "nuuvem.com": [
-      "ranEAID",
-      "ranMID",
-      "ranSiteID"
     ],
     "gog.com": [
       "pp"
@@ -1829,11 +1852,6 @@
     "go.skimresources.com": [
       "id",
       "xcust"
-    ],
-    "chemistwarehouse.com.au": [
-      "ranEAID",
-      "ranMID",
-      "ranSiteID"
     ],
     "playstation.com": [
       "emcid"
@@ -3409,10 +3427,6 @@
     "ting.com": [
       "lpn"
     ],
-    "newegg.com": [
-      "nm_mc",
-      "quicklink"
-    ],
     "expedia.com": [
       "my_ad"
     ],
@@ -3420,8 +3434,7 @@
       "ADDITIONAL_AFFID",
       "ADDITIONAL_x-source",
       "guard",
-      "x-affid",
-      "x-source"
+      "x-affid"
     ],
     "sitepoint.com": [
       "fromBlog"
@@ -4090,12 +4103,6 @@
     ],
     "tubebuddy.com": [
       "a"
-    ],
-    "artlist.io": [
-      "artlist_aid"
-    ],
-    "parallels.com": [
-      "x-source"
     ],
     "twitch.tv": [
       "device-metadata"
