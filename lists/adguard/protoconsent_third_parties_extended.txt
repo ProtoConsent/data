@@ -2,9 +2,9 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-14T16:10:21.963Z
+! Last modified: 2026-05-16T04:43:03.578Z
 ! Format: AdGuard
-! Entries: 824
+! Entries: 826
 !
 ||01e8b-7ffd2.api.pushwoosh.com^$third-party
 ||06cfa-f8925.api.pushwoosh.com^$third-party
@@ -190,6 +190,8 @@
 ||brightcove.net^$third-party
 ||browser-update.org^$third-party
 ||bshare.cn^$third-party
+||bsky.app^$third-party
+||bsky.social^$third-party
 ||button.like.co^$third-party
 ||buttons-config.sharethis.com^$third-party
 ||buzzador.com^$third-party

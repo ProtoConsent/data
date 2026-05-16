@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-15T05:03:52.553Z
+! Last modified: 2026-05-16T04:43:03.578Z
 ! Format: AdGuard
-! Entries: 38277
+! Entries: 38280
 !
 ||0.myikas.com^$third-party
 ||0.net.easyjet.com^$third-party
@@ -2757,7 +2757,6 @@
 ||analytics.dap-networks.de^$third-party
 ||analytics.data.lloydsbankinggroup.com^$third-party
 ||analytics.data.visenze.com^$third-party
-||analytics.datahc.com^$third-party
 ||analytics.datasavannah.com^$third-party
 ||analytics.dealmoon.com^$third-party
 ||analytics.denimdream.com^$third-party
@@ -5002,7 +5001,6 @@
 ||bunchbox.co^$third-party
 ||bundle.9gtb.com^$third-party
 ||bundle.dyn-rev.app^$third-party
-||bundle.ppas.monster^$third-party
 ||bup.bankofamerica.com^$third-party
 ||burlywhistle.com^$third-party
 ||burstbeacon.com^$third-party
@@ -5313,6 +5311,7 @@
 ||ccrtvi.com^$third-party
 ||cctrkom.creditcards.com^$third-party
 ||cctvgb.com.cn^$third-party
+||cctyly.com^$third-party
 ||ccztgy.elgiganten.dk^$third-party
 ||cd.chemistanddruggist.co.uk^$third-party
 ||cdapi.collegedunia.com^$third-party
@@ -26400,7 +26399,6 @@
 ||statistics.tattermedia.com^$third-party
 ||statistics.tuv.com^$third-party
 ||statistics.werkenntdenbesten.de^$third-party
-||statistics.wibiya.com^$third-party
 ||statisticsplatform.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
@@ -31732,6 +31730,7 @@
 ||turboeagle.co^$third-party
 ||turbolion.io^$third-party
 ||turner.com^$third-party
+||turtleface.net^$third-party
 ||turtlemobile.com.tw^$third-party
 ||tutbc1.www.tapmyback.com^$third-party
 ||tuvevx.agent-sana.com^$third-party
@@ -32947,6 +32946,7 @@
 ||wavrlh.cedok.cz^$third-party
 ||wavzlt.michaelstars.com^$third-party
 ||way2traffic.com^$third-party
+||waylowrates.net^$third-party
 ||wayyaj8t094u.www.kodalia.com^$third-party
 ||wb-analytics.onecruiter.com^$third-party
 ||wbcygu.wardow.com^$third-party
@@ -35450,6 +35450,8 @@
 ||estrelaapps.com/collect^
 ||eternalmangas.com/api/analytics/^
 ||eternalmangas.com/api/track-visit^
+||etfstream.com/api/analytics/^
+||etfstream.com/api/proxy/get-search-sponsor^
 ||eticaret.pro/pixel/^
 ||etoro.com/tradesmonitor/^
 ||etsy.com/bcn/beacon^
@@ -37152,6 +37154,7 @@
 ||s.pixfs.net/visitor.pixplug.in/^
 ||s.smallpdf.com/static/track-js-^
 ||s.sofoot.com/script.js^
+||s.yimg.com/rx/ev/*/pframe.html^
 ||s.yimg.com/ss/analytics-^
 ||s.yimg.jp/images/listing/tool/cv/ytag.js^
 ||s3.amazonaws.com/downloads.mailchimp.com/^
