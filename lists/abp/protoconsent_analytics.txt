@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-05-16
-! Last modified: 2026-05-16T04:43:03.578Z
-! Entries: 9235
+! Version: 2026-05-17
+! Last modified: 2026-05-17T05:04:16.378Z
+! Entries: 9236
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -102,7 +102,6 @@
 ||ad.aceplanet.co.kr^$third-party
 ||ad.aloodo.com^$third-party
 ||ad.daum.net^$third-party
-||ad7.bigmir.net^$third-party
 ||ad7.com^$third-party
 ||adactive.cz^$third-party
 ||adap.tv^$third-party
@@ -1444,6 +1443,7 @@
 ||dapxl.com^$third-party
 ||dash.getsitecontrol.com^$third-party
 ||dashapi.chartbeat.com^$third-party
+||dashingdrop.com^$third-party
 ||data-collector.wefi.com^$third-party
 ||data.circulate.com^$third-party
 ||data.digitalks.az^$third-party
@@ -2153,7 +2153,6 @@
 ||ipcheck.blogsys.jp^$third-party
 ||ipcount.net^$third-party
 ||ipcounter.de^$third-party
-||iper2.com^$third-party
 ||ipfrom.com^$third-party
 ||ipinfodb.com^$third-party
 ||ipinyou.com^$third-party
@@ -3931,6 +3930,7 @@
 ||statistics.klicktel.de^$third-party
 ||statistics.rbi-nl.com^$third-party
 ||statistics.tattermedia.com^$third-party
+||statistics.wibiya.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
 ||statistik.simaja.de^$third-party
@@ -4344,6 +4344,7 @@
 ||terriblethumb.com^$third-party
 ||test.legitcode.ws^$third-party
 ||test.takedwn.ws^$third-party
+||testedtouch.com^$third-party
 ||testingmetriksbre.ru^$third-party
 ||tf.360.cn^$third-party
 ||tgknt.com^$third-party
@@ -4880,6 +4881,7 @@
 ||ts.tradetracker.net^$third-party
 ||tscounter.com^$third-party
 ||ttmetrics.jcpenney.com^$third-party
+||turtleface.net^$third-party
 ||tver-metrics.streaks.jp^$third-party
 ||tvpage.com^$third-party
 ||tw.reppublika.com^$third-party
@@ -4933,7 +4935,6 @@
 ||urbanairship.com^$third-party
 ||us-central1-markuphero.cloudfunctions.net^$third-party
 ||us-tracking.nextdoor.com^$third-party
-||usa.cc^$third-party
 ||usabilla.com^$third-party
 ||usage.centsdonations.com^$third-party
 ||usbrowserspeed.com^$third-party
@@ -5045,6 +5046,7 @@
 ||waudit.cz^$third-party
 ||waust.at^$third-party
 ||way2traffic.com^$third-party
+||waylowrates.net^$third-party
 ||wbtrk.net^$third-party
 ||wcfbc.net^$third-party
 ||wco.crownpeak.com^$third-party
@@ -5119,7 +5121,6 @@
 ||whiteclick.biz^$third-party
 ||whoisvisiting.com^$third-party
 ||wholituaten.com^$third-party
-||wibiya.com^$third-party
 ||widerplanet.com^$third-party
 ||widget.educationdynamics.com^$third-party
 ||wikia-beacon.com^$third-party
