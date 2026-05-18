@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-17T05:04:16.378Z
+! Last modified: 2026-05-18T05:20:33.060Z
 ! Format: AdGuard
-! Entries: 9236
+! Entries: 9234
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -101,6 +101,7 @@
 ||ad.aceplanet.co.kr^$third-party
 ||ad.aloodo.com^$third-party
 ||ad.daum.net^$third-party
+||ad7.bigmir.net^$third-party
 ||ad7.com^$third-party
 ||adactive.cz^$third-party
 ||adap.tv^$third-party
@@ -1331,7 +1332,6 @@
 ||d-log.tv-asahi.co.jp^$third-party
 ||d-markets.net^$third-party
 ||d-stats.com^$third-party
-||d.adlpo.com^$third-party
 ||d.haberler.com^$third-party
 ||d.lilstts.com^$third-party
 ||d.omsnative.de^$third-party
@@ -1878,6 +1878,7 @@
 ||fyrsbckgi-c.global.ssl.fastly.net^$third-party
 ||g-stats.openhost.es^$third-party
 ||g.ign.com^$third-party
+||g1782759015.co^$third-party
 ||g1thub.com^$third-party
 ||g2insights-cdn.azureedge.net^$third-party
 ||ga-beacon.appspot.com^$third-party
@@ -2017,7 +2018,6 @@
 ||heartbeat.pmd.444.hu^$third-party
 ||heatmap-events-collector.instapage.com^$third-party
 ||heatmap.it^$third-party
-||heatmaps.lcisoft.it^$third-party
 ||helix.bitformations.ca^$third-party
 ||hello.staticstuff.net^$third-party
 ||hemnes.win^$third-party
@@ -2152,6 +2152,7 @@
 ||ipcheck.blogsys.jp^$third-party
 ||ipcount.net^$third-party
 ||ipcounter.de^$third-party
+||iper2.com^$third-party
 ||ipfrom.com^$third-party
 ||ipinfodb.com^$third-party
 ||ipinyou.com^$third-party
@@ -2396,6 +2397,7 @@
 ||log.strawpoll.com^$third-party
 ||log.strm.yandex.ru^$third-party
 ||log.suddenclean.com^$third-party
+||log.sweepycleanplus.com^$third-party
 ||log.tapatalk.com^$third-party
 ||log.tapchimattran.vn^$third-party
 ||log.tbs.qq.com^$third-party
@@ -4134,7 +4136,6 @@
 ||stroeerdigitalmedia.de^$third-party
 ||stupendoussleet.com^$third-party
 ||sub2tech.com^$third-party
-||success.act-on.com^$third-party
 ||sugar.zhihu.com^$third-party
 ||sugs.m.sm.cn^$third-party
 ||summerhamster.com^$third-party
@@ -4150,7 +4151,6 @@
 ||svtrd.com^$third-party
 ||sw88.abc.com^$third-party
 ||sweb.ulta.com^$third-party
-||swebanalytics.acs.org^$third-party
 ||swordgoose.com^$third-party
 ||sy.ameba.jp^$third-party
 ||sync.adap.tv^$third-party
@@ -4163,7 +4163,6 @@
 ||t.91syun.com^$third-party
 ||t.9gag.com^$third-party
 ||t.a3cloud.net^$third-party
-||t.adlpo.com^$third-party
 ||t.auditedmedia.org.au^$third-party
 ||t.bimvid.com^$third-party
 ||t.blog.livedoor.jp^$third-party
@@ -4217,7 +4216,6 @@
 ||t4ft.de^$third-party
 ||t570.wiltonbulletin.com^$third-party
 ||t810.ctpost.com^$third-party
-||ta.sanook.com^$third-party
 ||ta.trs.cn^$third-party
 ||taboolasyndication.com^$third-party
 ||tag.atom.gamedistribution.com^$third-party

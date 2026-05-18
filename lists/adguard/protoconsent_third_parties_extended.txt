@@ -2,9 +2,9 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-17T05:04:16.378Z
+! Last modified: 2026-05-18T05:20:33.060Z
 ! Format: AdGuard
-! Entries: 827
+! Entries: 825
 !
 ||01e8b-7ffd2.api.pushwoosh.com^$third-party
 ||06cfa-f8925.api.pushwoosh.com^$third-party
@@ -378,6 +378,7 @@
 ||metrics-eu.cometchat.io^$third-party
 ||metrics-fe-ap1.hubspot.com^$third-party
 ||metrics-fe-na2.hubspot.com^$third-party
+||metrics-nobroker.cometchat.io^$third-party
 ||metrics.api.drift.com^$third-party
 ||micro.marketo.com^$third-party
 ||mixi.co.jp^$third-party
@@ -504,7 +505,6 @@
 ||sharepointads.com^$third-party
 ||sharetally.co^$third-party
 ||sharethis.com^$third-party
-||sharevault.cloud^$third-party
 ||sharpay.io^$third-party
 ||shpg.org^$third-party
 ||simplesharebuttons.com^$third-party
@@ -529,8 +529,6 @@
 ||sleeknote.com^$third-party
 ||smile.io^$third-party
 ||snackly.co^$third-party
-||snippet.minute.ly^$third-party
-||snrtp-cdn.marketo.com^$third-party
 ||snrtp1.marketo.com^$third-party
 ||social-touch.com^$third-party
 ||socialloginplus-apps.haravan.com^$third-party
