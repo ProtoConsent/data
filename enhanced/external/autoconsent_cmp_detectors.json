@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-15",
+  "version": "2026-05-19",
   "type": "cmp_detectors",
-  "generated": "2026-05-15T06:47:42.681Z",
+  "generated": "2026-05-19T07:03:11.333Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "3ec350bc0fc55cdd",
-  "cmp_count": 291,
+  "autoconsent_tree_hash": "50204bf024fe2ae2",
+  "cmp_count": 292,
   "detectors": {
     "abc": {
       "present": [
@@ -848,6 +848,17 @@
       ],
       "showing": [
         "[data-qa='accept-all-button']"
+      ]
+    },
+    "escaparium_ca": {
+      "present": [
+        "div#klaro"
+      ],
+      "showing": [
+        "xpath///div[contains(@class,'pointer-events-none')]//button[normalize-space()='Accept all' or normalize-space()='Tout accepter']"
+      ],
+      "domains": [
+        "escaparium.ca"
       ]
     },
     "espacepersonnel_agircarrco_fr": {
