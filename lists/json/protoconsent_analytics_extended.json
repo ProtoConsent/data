@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Analytics Extended",
-  "version": "2026-05-18",
-  "generated": "2026-05-18T05:20:33.060Z",
+  "version": "2026-05-19",
+  "generated": "2026-05-19T05:16:20.722Z",
   "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -7852,6 +7852,7 @@
     "dl-rms.com",
     "dl.amazonmusic.com",
     "dl.episerver.net",
+    "dl.purplle.com",
     "dl1d2m8ri9v3j.cloudfront.net",
     "dl8.me",
     "dldotl.ouestfrance-auto.com",
@@ -10642,6 +10643,7 @@
     "heartbeat.pmd.444.hu",
     "heatmap-events-collector.instapage.com",
     "heatmap.it",
+    "heatmaps.lcisoft.it",
     "hebiichigo.com",
     "hekhnn.turnkeyvr.com",
     "helix.bitformations.ca",
@@ -17872,6 +17874,7 @@
     "nr.noelleeming.co.nz",
     "nr.static.mmcdn.com",
     "nra.locktonaffinity.net",
+    "nresystems.com",
     "nrg.red-by-sfr.fr",
     "nrrgyk.hair-gallery.it",
     "nrstxi.envieshoes.gr",
@@ -33362,6 +33365,7 @@
     "wigkxx.jetcost.com",
     "wikia-beacon.com",
     "wikiquotations.com",
+    "wildpetalfarm.com",
     "win.staticstuff.net",
     "windbeetle.com",
     "windsurf-telemetry.codeium.com",
@@ -33416,6 +33420,7 @@
     "womtp.com",
     "wonder-ma.com",
     "woodpeckerlog.com",
+    "woofweather.com",
     "woolstapler.com",
     "woomy.me",
     "woopra-ns.com",
@@ -34265,7 +34270,7 @@
     "zzqyxd.smartpozyczka.pl",
     "zzsqqx.shopjapan.co.jp"
   ],
-  "domain_count": 34258,
+  "domain_count": 34263,
   "paths": [
     "||01net.com/track/",
     "||1024tera.com/api/analytics?",
@@ -34522,6 +34527,7 @@
     "||api-v3.findify.io/v3/feedback",
     "||api.audio.com/analytics/event",
     "||api.axept.io/v1/analytics/evts",
+    "||api.begenuin.com/goservices/data/",
     "||api.beleggersbelangen.nl//api/statistics/",
     "||api.bit.ly/*/clicks?",
     "||api.blink.net/a/",
@@ -34774,6 +34780,7 @@
     "||bigw.com.au/events/",
     "||bikemag.com/.api/admiral",
     "||bin.cartwire.co/js/analytics.js",
+    "||bing.com/AdsFetch",
     "||bing.com/bat.js",
     "||bing.com/fd/ls/GLinkPing.aspx?",
     "||bing.com/fd/ls/l?IG=",
@@ -38291,5 +38298,5 @@
     "||zumper.com/events",
     "||zynga.com/track/"
   ],
-  "path_count": 4023
+  "path_count": 4025
 }

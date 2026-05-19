@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-05-18
-! Last modified: 2026-05-18T05:20:33.060Z
-! Entries: 38281
+! Version: 2026-05-19
+! Last modified: 2026-05-19T05:16:20.722Z
+! Entries: 38288
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -7853,6 +7853,7 @@
 ||dl-rms.com^$third-party
 ||dl.amazonmusic.com^$third-party
 ||dl.episerver.net^$third-party
+||dl.purplle.com^$third-party
 ||dl1d2m8ri9v3j.cloudfront.net^$third-party
 ||dl8.me^$third-party
 ||dldotl.ouestfrance-auto.com^$third-party
@@ -10643,6 +10644,7 @@
 ||heartbeat.pmd.444.hu^$third-party
 ||heatmap-events-collector.instapage.com^$third-party
 ||heatmap.it^$third-party
+||heatmaps.lcisoft.it^$third-party
 ||hebiichigo.com^$third-party
 ||hekhnn.turnkeyvr.com^$third-party
 ||helix.bitformations.ca^$third-party
@@ -17873,6 +17875,7 @@
 ||nr.noelleeming.co.nz^$third-party
 ||nr.static.mmcdn.com^$third-party
 ||nra.locktonaffinity.net^$third-party
+||nresystems.com^$third-party
 ||nrg.red-by-sfr.fr^$third-party
 ||nrrgyk.hair-gallery.it^$third-party
 ||nrstxi.envieshoes.gr^$third-party
@@ -33363,6 +33366,7 @@
 ||wigkxx.jetcost.com^$third-party
 ||wikia-beacon.com^$third-party
 ||wikiquotations.com^$third-party
+||wildpetalfarm.com^$third-party
 ||win.staticstuff.net^$third-party
 ||windbeetle.com^$third-party
 ||windsurf-telemetry.codeium.com^$third-party
@@ -33417,6 +33421,7 @@
 ||womtp.com^$third-party
 ||wonder-ma.com^$third-party
 ||woodpeckerlog.com^$third-party
+||woofweather.com^$third-party
 ||woolstapler.com^$third-party
 ||woomy.me^$third-party
 ||woopra-ns.com^$third-party
@@ -34520,6 +34525,7 @@
 ||api-v3.findify.io/v3/feedback^
 ||api.audio.com/analytics/event^
 ||api.axept.io/v1/analytics/evts^
+||api.begenuin.com/goservices/data/^
 ||api.beleggersbelangen.nl//api/statistics/^
 ||api.bit.ly/*/clicks?^
 ||api.blink.net/a/^
@@ -34772,6 +34778,7 @@
 ||bigw.com.au/events/^
 ||bikemag.com/.api/admiral^
 ||bin.cartwire.co/js/analytics.js^
+||bing.com/AdsFetch^
 ||bing.com/bat.js^
 ||bing.com/fd/ls/GLinkPing.aspx?^
 ||bing.com/fd/ls/l?IG=^
