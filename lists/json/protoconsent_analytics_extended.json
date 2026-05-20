@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Analytics Extended",
-  "version": "2026-05-19",
-  "generated": "2026-05-19T05:16:20.722Z",
+  "version": "2026-05-20",
+  "generated": "2026-05-20T05:19:01.159Z",
   "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -17562,6 +17562,7 @@
     "nats.xing.com",
     "natsp.xing.com",
     "naturaltracking.com",
+    "naturebeans.com",
     "navfja.answear.hu",
     "navigation-timing.meinestadt.de",
     "navigator-analytics.tweakwise.com",
@@ -27515,6 +27516,7 @@
     "subsequentswim.com",
     "substantialcarpenter.com",
     "substation.confection.io",
+    "success.act-on.com",
     "success.azzure-it.com",
     "success.benico.com",
     "success.coface.com",
@@ -27684,6 +27686,7 @@
     "swasc.thecompanystore.com",
     "swdced.open32.nl",
     "sweb.ulta.com",
+    "swebanalytics.acs.org",
     "swebanalytics.degulesider.dk",
     "swebanalytics.gulesider.no",
     "swebanalytics.krak.dk",
@@ -34270,7 +34273,7 @@
     "zzqyxd.smartpozyczka.pl",
     "zzsqqx.shopjapan.co.jp"
   ],
-  "domain_count": 34263,
+  "domain_count": 34266,
   "paths": [
     "||01net.com/track/",
     "||1024tera.com/api/analytics?",
@@ -34572,6 +34575,7 @@
     "||api.tv.de/*/tracking/",
     "||api.vk.com/method/statEvents.",
     "||api.vp.rambler.ru/events/",
+    "||api.x.com/live_pipeline/events?",
     "||api2.amplitude.com/",
     "||api2.ma.ru/analytics.js",
     "||apibaza.com/pixel/",
@@ -38298,5 +38302,5 @@
     "||zumper.com/events",
     "||zynga.com/track/"
   ],
-  "path_count": 4025
+  "path_count": 4026
 }
