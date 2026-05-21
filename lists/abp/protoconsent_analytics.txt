@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-05-20
-! Last modified: 2026-05-20T05:19:01.159Z
-! Entries: 9241
+! Version: 2026-05-21
+! Last modified: 2026-05-21T05:39:36.874Z
+! Entries: 9236
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -97,6 +97,7 @@
 ||active-trk7.com^$third-party
 ||activity-flow.vtex.com^$third-party
 ||actuallysnake.com^$third-party
+||acustomizedgift.com^$third-party
 ||acxiom-online.com^$third-party
 ||ad-bls-tracking.lemino.docomo.ne.jp^$third-party
 ||ad.aceplanet.co.kr^$third-party
@@ -964,18 +965,15 @@
 ||calltrack.co^$third-party
 ||calltrackingmetrics.com^$third-party
 ||calvera-telemetry.polaris.me^$third-party
-||camelsfestival.com^$third-party
 ||campaign.fbot.me^$third-party
 ||canddi.com^$third-party
 ||capping.sirius.press^$third-party
 ||caprofitx.com^$third-party
 ||captify.co.uk^$third-party
 ||capture-api.ap3prod.com^$third-party
-||cartlug.com^$third-party
 ||cartx.cloud^$third-party
 ||cashcount.com^$third-party
 ||caspionlog.appspot.com^$third-party
-||catlanguage.net^$third-party
 ||cc.swiftype.com^$third-party
 ||cctvgb.com.cn^$third-party
 ||cdjbf8trk.com^$third-party
@@ -1317,7 +1315,6 @@
 ||ctr.nmg.de^$third-party
 ||ctr.po-kaki-to.com^$third-party
 ||cts.vresp.com^$third-party
-||cubeglobal.net^$third-party
 ||culturaltracking.ru^$third-party
 ||curated.fieldtest.cc^$third-party
 ||curtaincows.com^$third-party
@@ -1399,7 +1396,6 @@
 ||d2wa5sea6guof0.cloudfront.net^$third-party
 ||d2wu036mkcz52n.cloudfront.net^$third-party
 ||d2wy8f7a9ursnm.cloudfront.net^$third-party
-||d2zd0wa1vpt7j9.cloudfront.net^$third-party
 ||d31y97ze264gaa.cloudfront.net^$third-party
 ||d34ko97cxuv4p7.cloudfront.net^$third-party
 ||d34r8q7sht0t9k.cloudfront.net^$third-party
@@ -1800,7 +1796,6 @@
 ||f775.thehour.com^$third-party
 ||fa5.dn4.it^$third-party
 ||facil-iti.com^$third-party
-||fakeschool.com^$third-party
 ||fallback.attntags.com^$third-party
 ||fallback.emtag.net^$third-party
 ||farethief.com^$third-party
@@ -2720,7 +2715,6 @@
 ||midnightmead.com^$third-party
 ||minexmr.com^$third-party
 ||mitself.net^$third-party
-||mixedreading.com^$third-party
 ||mixpanel-proxy.ted.com^$third-party
 ||mixpanel.com^$third-party
 ||mj-snowplow-static-js.s3.amazonaws.com^$third-party
@@ -2809,6 +2803,7 @@
 ||native-log-collect.gryphline.com^$third-party
 ||natpal.com^$third-party
 ||naturaltracking.com^$third-party
+||naturebeans.com^$third-party
 ||navigator-analytics.tweakwise.com^$third-party
 ||navrcholu.cz^$third-party
 ||nbcollect.kugou.com^$third-party

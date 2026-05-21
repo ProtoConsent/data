@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-05-20
-! Last modified: 2026-05-20T05:19:01.159Z
-! Entries: 38292
+! Version: 2026-05-21
+! Last modified: 2026-05-21T05:39:36.874Z
+! Entries: 38289
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -5182,7 +5182,6 @@
 ||calltrackingmetrics.com^$third-party
 ||calvera-telemetry.polaris.me^$third-party
 ||camel.headfarming.com^$third-party
-||camelsfestival.com^$third-party
 ||camelspark.com^$third-party
 ||campaign-direct.eisai.jp^$third-party
 ||campaign.amadeus.com^$third-party
@@ -5263,7 +5262,6 @@
 ||cars.smartleasing.com.au^$third-party
 ||carscannon.com^$third-party
 ||carstat.bitauto.com^$third-party
-||cartlug.com^$third-party
 ||cartx.cloud^$third-party
 ||cascadion.thermo.com^$third-party
 ||cascadion.thermofisher.com^$third-party
@@ -5282,7 +5280,6 @@
 ||caterpillarsigns.coversandall.com^$third-party
 ||caterpillarsigns.coversandall.com.au^$third-party
 ||caterpillarsigns.coversandall.eu^$third-party
-||catlanguage.net^$third-party
 ||catracking.cubiq.com^$third-party
 ||catracking.finning.com^$third-party
 ||catsys.jp^$third-party
@@ -6568,7 +6565,6 @@
 ||ctx.citiservi.es^$third-party
 ||ctyjsf.cellphones.com.vn^$third-party
 ||ctyojp.kibek.de^$third-party
-||cubeglobal.net^$third-party
 ||cuberoot.co^$third-party
 ||cudgoz.mifcom.de^$third-party
 ||cudrqv.sts.pl^$third-party
@@ -6808,7 +6804,6 @@
 ||d2wu036mkcz52n.cloudfront.net^$third-party
 ||d2wy8f7a9ursnm.cloudfront.net^$third-party
 ||d2z0bn1jv8xwtk.cloudfront.net^$third-party
-||d2zd0wa1vpt7j9.cloudfront.net^$third-party
 ||d31y97ze264gaa.cloudfront.net^$third-party
 ||d335luupugsy2.cloudfront.net^$third-party
 ||d34ko97cxuv4p7.cloudfront.net^$third-party
@@ -9345,7 +9340,6 @@
 ||faibl.org^$third-party
 ||failedforks.com^$third-party
 ||fairanalytics.de^$third-party
-||fakeschool.com^$third-party
 ||fakexa-post.mno.link^$third-party
 ||faktor.io^$third-party
 ||fal2.carrefour-banque.fr^$third-party
@@ -17141,7 +17135,6 @@
 ||mitour.de^$third-party
 ||mitself.net^$third-party
 ||mix-omniture.rbs.com^$third-party
-||mixedreading.com^$third-party
 ||mixi.mn^$third-party
 ||mixomniture.rbs.com^$third-party
 ||mixpanel-proxy.coingecko.com^$third-party
@@ -35508,6 +35501,7 @@
 ||facebook.com/tr/^
 ||factors.ai/sdk/event/^
 ||fairfax.com.au/js/track/^
+||fairprice.com.sg/VZl2n4/^
 ||falco.studio/api/track^
 ||falkenbergtorget.se/sc.gif?^
 ||fanatics.com/api/track^
@@ -36081,6 +36075,7 @@
 ||jotform.io/getReferrer/^
 ||js-agent.newrelic.com/^
 ||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js^
+||js.dashfi.net/dashfinet-analytics.js^
 ||js.dsp.bance.jp/bncdmp.js^
 ||js.ea3w.com/pv.js^
 ||js.go2sdk.com/v2/tune.js^
@@ -37255,6 +37250,7 @@
 ||seesaa.jp/ot_square.pl?^
 ||seesaawiki.jp/img/rainman.gif?^
 ||segment.com/analytics.js/^
+||segmentapis.com/v1/t^
 ||selectika.com/selectika-pixel.min.js^
 ||seloger.com/cdp-bff/analytics^
 ||sembox.it/js/sembox-tracking.js^
@@ -38071,6 +38067,7 @@
 ||webmasters.ksalsocial.online/pixel/^
 ||webmd.com/static/v/c?^
 ||webreseau.com/impression.asp?^
+||website-api.omni.fairprice.com.sg/api/tracking/^
 ||websolutions.it/statistiche/^
 ||websuccess-data.com/tracker.js^
 ||webtutoriaux.com/services/compteur-visiteurs/index.php?^
