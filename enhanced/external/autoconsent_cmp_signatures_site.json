@@ -1,9 +1,9 @@
 {
-  "version": "2026-05-19",
+  "version": "2026-05-22",
   "type": "cmp_site",
-  "generated": "2026-05-19T07:03:11.316Z",
+  "generated": "2026-05-22T07:03:17.779Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "50204bf024fe2ae2",
+  "autoconsent_tree_hash": "45e4720b24ce474e",
   "cmp_count": 238,
   "signatures": {
     "abconcerts_be": {
@@ -2240,7 +2240,7 @@
       }
     },
     "tesco": {
-      "selector": "[class*=CookieBanner__Sizer]",
+      "selector": "[aria-label=consent-banner]",
       "detectors": {
         "present": [
           "[aria-label=consent-banner]"
