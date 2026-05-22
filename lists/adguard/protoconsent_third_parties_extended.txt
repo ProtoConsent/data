@@ -2,9 +2,9 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-19T05:16:20.722Z
+! Last modified: 2026-05-22T05:16:47.300Z
 ! Format: AdGuard
-! Entries: 826
+! Entries: 731
 !
 ||01e8b-7ffd2.api.pushwoosh.com^$third-party
 ||06cfa-f8925.api.pushwoosh.com^$third-party
@@ -75,33 +75,8 @@
 ||api.widget.zalo.me^$third-party
 ||api2.wshareit.com^$third-party
 ||apollo.io^$third-party
-||app-ab01.marketo.com^$third-party
-||app-ab02.marketo.com^$third-party
-||app-ab03.marketo.com^$third-party
-||app-ab04.marketo.com^$third-party
 ||app-ab05.marketo.com^$third-party
-||app-ab06.marketo.com^$third-party
-||app-ab07.marketo.com^$third-party
-||app-ab08.marketo.com^$third-party
 ||app-ab09.marketo.com^$third-party
-||app-ab10.marketo.com^$third-party
-||app-ab11.marketo.com^$third-party
-||app-ab12.marketo.com^$third-party
-||app-ab13.marketo.com^$third-party
-||app-ab14.marketo.com^$third-party
-||app-ab15.marketo.com^$third-party
-||app-ab16.marketo.com^$third-party
-||app-ab17.marketo.com^$third-party
-||app-ab18.marketo.com^$third-party
-||app-ab19.marketo.com^$third-party
-||app-ab20.marketo.com^$third-party
-||app-ab21.marketo.com^$third-party
-||app-ab22.marketo.com^$third-party
-||app-ab23.marketo.com^$third-party
-||app-ab24.marketo.com^$third-party
-||app-ab25.marketo.com^$third-party
-||app-ab26.marketo.com^$third-party
-||app-ab27.marketo.com^$third-party
 ||app-ab28.marketo.com^$third-party
 ||app-ab29.marketo.com^$third-party
 ||app-ab30.marketo.com^$third-party
@@ -109,58 +84,20 @@
 ||app-ab32.marketo.com^$third-party
 ||app-ab33.marketo.com^$third-party
 ||app-ab34.marketo.com^$third-party
-||app-aba.marketo.com^$third-party
-||app-abb.marketo.com^$third-party
-||app-abc.marketo.com^$third-party
-||app-abd.marketo.com^$third-party
 ||app-abj.marketo.com^$third-party
-||app-abk.marketo.com^$third-party
 ||app-abm.marketo.com^$third-party
 ||app-abq.marketo.com^$third-party
-||app-e.marketo.com^$third-party
-||app-lon02.marketo.com^$third-party
-||app-lon03.marketo.com^$third-party
-||app-lon04.marketo.com^$third-party
-||app-lon05.marketo.com^$third-party
-||app-lon06.marketo.com^$third-party
-||app-lon07.marketo.com^$third-party
-||app-lon08.marketo.com^$third-party
-||app-sj01.marketo.com^$third-party
-||app-sj02.marketo.com^$third-party
-||app-sj03.marketo.com^$third-party
 ||app-sj04.marketo.com^$third-party
-||app-sj05.marketo.com^$third-party
-||app-sj06.marketo.com^$third-party
-||app-sj07.marketo.com^$third-party
-||app-sj08.marketo.com^$third-party
-||app-sj09.marketo.com^$third-party
-||app-sj10.marketo.com^$third-party
 ||app-sj11.marketo.com^$third-party
-||app-sj13.marketo.com^$third-party
 ||app-sj14.marketo.com^$third-party
-||app-sj15.marketo.com^$third-party
-||app-sj16.marketo.com^$third-party
-||app-sj17.marketo.com^$third-party
-||app-sj19.marketo.com^$third-party
-||app-sj20.marketo.com^$third-party
 ||app-sj21.marketo.com^$third-party
 ||app-sj22.marketo.com^$third-party
 ||app-sj24.marketo.com^$third-party
 ||app-sj25.marketo.com^$third-party
 ||app-sj28.marketo.com^$third-party
-||app-sjf.marketo.com^$third-party
-||app-sjg.marketo.com^$third-party
-||app-sjh.marketo.com^$third-party
-||app-sji.marketo.com^$third-party
 ||app-sjl.marketo.com^$third-party
-||app-sjn.marketo.com^$third-party
-||app-sjo.marketo.com^$third-party
-||app-sjp.marketo.com^$third-party
-||app-sjqe.marketo.com^$third-party
 ||app-sjst.marketo.com^$third-party
-||app-sn01.marketo.com^$third-party
 ||app.harasocial.com^$third-party
-||app.marketo.com^$third-party
 ||appdev.addthis.com^$third-party
 ||asia.marketo.com^$third-party
 ||askfm.pushwoosh.com^$third-party
@@ -172,7 +109,6 @@
 ||autopilot.io^$third-party
 ||b.6sc.co^$third-party
 ||b2c-mlm.marketo.com^$third-party
-||b2c-msm.marketo.com^$third-party
 ||ba.commentcamarche.net^$third-party
 ||badge.facebook.com^$third-party
 ||badges.instagram.com^$third-party
@@ -200,7 +136,6 @@
 ||c6450-cea51.api.pushwoosh.com^$third-party
 ||c947b-ef6ee.api.pushwoosh.com^$third-party
 ||cache-07.pushwoosh.com^$third-party
-||cache-ha.pushwoosh.com^$third-party
 ||caesar.iad-03.braze.com^$third-party
 ||campaign-remp.444.hu^$third-party
 ||campaign.gitiho.com^$third-party
@@ -214,8 +149,6 @@
 ||cdn.braze.eu^$third-party
 ||cdn.onesignal.com^$third-party
 ||cdn.pardot.com^$third-party
-||cdn.pushwoosh.com^$third-party
-||cdn.socialannex.com^$third-party
 ||cdn.wibiya.com^$third-party
 ||ceres.iad-03.braze.com^$third-party
 ||chatbox-widget.botbanhang.vn^$third-party
@@ -273,7 +206,6 @@
 ||facebooik.com^$third-party
 ||facedbook.com^$third-party
 ||fairfaxmedia.sharedcount.com^$third-party
-||fast.a.klaviyo.com^$third-party
 ||fbthirdpartypixel.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
 ||firepush.com^$third-party
@@ -302,7 +234,6 @@
 ||gudja.iad-02.braze.com^$third-party
 ||h0.t.hubspotemail.net^$third-party
 ||ha-api.pushwoosh.com^$third-party
-||ha.pushwoosh.com^$third-party
 ||haaretz.pushwoosh.com^$third-party
 ||handll.com^$third-party
 ||hassaleh.iad-03.braze.com^$third-party
@@ -359,8 +290,6 @@
 ||load.sumo.com^$third-party
 ||log.storelocatorwidgets.com^$third-party
 ||lon-mknodepub.marketo.com^$third-party
-||lonrtp1-cdn.marketo.com^$third-party
-||lonrtp1.marketo.com^$third-party
 ||loox.io^$third-party
 ||mail.ru^$third-party
 ||mailerlite.com^$third-party
@@ -468,18 +397,14 @@
 ||retainful.com^$third-party
 ||revsharecash.com^$third-party
 ||rge.pushwoosh.com^$third-party
-||richmedia.pushwoosh.com^$third-party
 ||rollworks.com^$third-party
 ||rotanev.iad-03.braze.com^$third-party
-||rtp-static.marketo.com^$third-party
-||s.sharethis.com^$third-party
 ||sagan.iad-03.braze.com^$third-party
 ||salesloft.com^$third-party
 ||sargas.iad-03.braze.com^$third-party
 ||scoop.it^$third-party
 ||screenshare.pics^$third-party
 ||scripts.demandbase.com^$third-party
-||sd.sharethis.com^$third-party
 ||sdk.fra-01.braze.eu^$third-party
 ||sdk.iad-01.braze.com^$third-party
 ||sdk.iad-02.braze.com^$third-party
@@ -510,27 +435,11 @@
 ||simplesharebuttons.com^$third-party
 ||sirius.iad-03.braze.com^$third-party
 ||sj-mknodepub.marketo.com^$third-party
-||sjrtp-cdn.marketo.com^$third-party
-||sjrtp1.marketo.com^$third-party
-||sjrtp2-cdn.marketo.com^$third-party
-||sjrtp2.marketo.com^$third-party
-||sjrtp3-cdn.marketo.com^$third-party
 ||sjrtp3.marketo.com^$third-party
 ||sjrtp4-cdn.marketo.com^$third-party
-||sjrtp4.marketo.com^$third-party
-||sjrtp5-cdn.marketo.com^$third-party
-||sjrtp5.marketo.com^$third-party
-||sjrtp6-cdn.marketo.com^$third-party
-||sjrtp6.marketo.com^$third-party
-||sjrtp7-cdn.marketo.com^$third-party
-||sjrtp7.marketo.com^$third-party
-||sjrtp8-cdn.marketo.com^$third-party
-||sjrtp8.marketo.com^$third-party
 ||sleeknote.com^$third-party
 ||smile.io^$third-party
 ||snackly.co^$third-party
-||snrtp-cdn.marketo.com^$third-party
-||snrtp1.marketo.com^$third-party
 ||social-touch.com^$third-party
 ||socialloginplus-apps.haravan.com^$third-party
 ||speedshare.app^$third-party
@@ -547,7 +456,6 @@
 ||stumbleupon.com^$third-party
 ||sulake.pushwoosh.com^$third-party
 ||svonm.com^$third-party
-||sync.sharethis.com^$third-party
 ||t.sharethis.com^$third-party
 ||tag.demandbase.com^$third-party
 ||tali.iad-03.braze.com^$third-party
@@ -565,7 +473,6 @@
 ||truthsocial.com^$third-party
 ||twimg.com^$third-party
 ||twitter.jp^$third-party
-||uefa.pushwoosh.com^$third-party
 ||uk.marketo.com^$third-party
 ||unbounce.com^$third-party
 ||upsell.alphwidget.com^$third-party
@@ -588,7 +495,6 @@
 ||wd.sharethis.com^$third-party
 ||weasel.sharethegoods.ca^$third-party
 ||webpushr.com^$third-party
-||wetter.pushwoosh.com^$third-party
 ||widget-api.dmm.co.jp^$third-party
 ||widget-api.dmm.com^$third-party
 ||widget-social-proof-api.one.store^$third-party
@@ -602,7 +508,6 @@
 ||widget.headlines.pw^$third-party
 ||widget.justwatch.com^$third-party
 ||widget.kyna.vn^$third-party
-||widget.manychat.com^$third-party
 ||widget.marktjagd.de^$third-party
 ||widget.onlinetv.ru^$third-party
 ||widget.sparrow.ru^$third-party

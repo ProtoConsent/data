@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization",
-  "version": "2026-05-10",
-  "generated": "2026-05-10T04:57:03.948Z",
+  "version": "2026-05-22",
+  "generated": "2026-05-22T05:16:47.300Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -61,8 +61,6 @@
     "personalizer.io",
     "personyze.com",
     "px.dynamicyield.com",
-    "rcom-eu.dynamicyield.com",
-    "rcom.dynamicyield.com",
     "recombee.com",
     "richrelevance.com",
     "rlcdn.com",
@@ -87,7 +85,7 @@
     "useinsider.com",
     "zeotap.com"
   ],
-  "domain_count": 80,
+  "domain_count": 78,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",
