@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-22",
+  "version": "2026-05-23",
   "type": "cmp_site",
-  "generated": "2026-05-22T07:03:17.779Z",
+  "generated": "2026-05-23T06:24:10.682Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "45e4720b24ce474e",
-  "cmp_count": 238,
+  "autoconsent_tree_hash": "af14c9b8ef822457",
+  "cmp_count": 242,
   "signatures": {
     "abconcerts_be": {
       "selector": "dialog.cookie-consent",
@@ -944,6 +944,17 @@
         ],
         "showing": [
           "[data-qa='accept-all-button']"
+        ]
+      }
+    },
+    "eltaxltagojp": {
+      "selector": ".modal:has(> .modal-content > .cookie-consent)",
+      "detectors": {
+        "present": [
+          ".cookie-consent #cookieDisagree"
+        ],
+        "showing": [
+          ".cookie-consent #cookieDisagree"
         ]
       }
     },
@@ -2068,6 +2079,20 @@
         ]
       }
     },
+    "sostereo_com": {
+      "selector": "app-cookie-consent",
+      "detectors": {
+        "present": [
+          "app-cookie-consent"
+        ],
+        "showing": [
+          "app-cookie-consent"
+        ]
+      },
+      "domains": [
+        "sostereo.com"
+      ]
+    },
     "squarespacecookiebanner": {
       "selector": ".cookie-banner-mount-point",
       "detectors": {
@@ -2405,6 +2430,17 @@
         ]
       }
     },
+    "trustarcnewcm": {
+      "selector": ".truste_popframe.trustarc_newcm_container",
+      "detectors": {
+        "present": [
+          ".truste_popframe.trustarc_newcm_container"
+        ],
+        "showing": [
+          ".truste_popframe.trustarc_newcm_container"
+        ]
+      }
+    },
     "truyo": {
       "selector": "#truyo-consent-module",
       "detectors": {
@@ -2413,6 +2449,17 @@
         ],
         "showing": [
           "#truyo-consent-module"
+        ]
+      }
+    },
+    "trybe": {
+      "selector": ".react-cookie-policy",
+      "detectors": {
+        "present": [
+          ".react-cookie-policy"
+        ],
+        "showing": [
+          ".react-cookie-policy #cookie-policy"
         ]
       }
     },

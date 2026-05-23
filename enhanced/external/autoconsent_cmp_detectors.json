@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-22",
+  "version": "2026-05-23",
   "type": "cmp_detectors",
-  "generated": "2026-05-22T07:03:17.794Z",
+  "generated": "2026-05-23T06:24:10.693Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "45e4720b24ce474e",
-  "cmp_count": 292,
+  "autoconsent_tree_hash": "af14c9b8ef822457",
+  "cmp_count": 296,
   "detectors": {
     "abc": {
       "present": [
@@ -848,6 +848,14 @@
       ],
       "showing": [
         "[data-qa='accept-all-button']"
+      ]
+    },
+    "eltaxltagojp": {
+      "present": [
+        ".cookie-consent #cookieDisagree"
+      ],
+      "showing": [
+        ".cookie-consent #cookieDisagree"
       ]
     },
     "escaparium_ca": {
@@ -1914,6 +1922,17 @@
         ".snigel-cmp-framework"
       ]
     },
+    "sostereo_com": {
+      "present": [
+        "app-cookie-consent"
+      ],
+      "showing": [
+        "app-cookie-consent"
+      ],
+      "domains": [
+        "sostereo.com"
+      ]
+    },
     "squarespacecookiebanner": {
       "present": [
         ".cookie-banner-mount-point section[aria-label='Cookie banner']"
@@ -2219,12 +2238,28 @@
       ],
       "showing": []
     },
+    "trustarcnewcm": {
+      "present": [
+        ".truste_popframe.trustarc_newcm_container"
+      ],
+      "showing": [
+        ".truste_popframe.trustarc_newcm_container"
+      ]
+    },
     "truyo": {
       "present": [
         "#truyo-cookieBarContent"
       ],
       "showing": [
         "#truyo-consent-module"
+      ]
+    },
+    "trybe": {
+      "present": [
+        ".react-cookie-policy"
+      ],
+      "showing": [
+        ".react-cookie-policy #cookie-policy"
       ]
     },
     "tumblr": {
