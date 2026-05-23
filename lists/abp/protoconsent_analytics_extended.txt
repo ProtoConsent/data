@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-05-22
-! Last modified: 2026-05-22T05:16:47.300Z
-! Entries: 38238
+! Version: 2026-05-23
+! Last modified: 2026-05-23T04:54:39.969Z
+! Entries: 38239
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -4299,7 +4299,6 @@
 ||awaps.yandex.net^$third-party
 ||awasete.com^$third-party
 ||awbkht.verktygsproffsen.se^$third-party
-||awesomelytics.com^$third-party
 ||awfonts.com^$third-party
 ||awfzfs.kwantum.nl^$third-party
 ||awggij.wplay.co^$third-party
@@ -6490,6 +6489,7 @@
 ||cs43.pikabu.ru^$third-party
 ||csalhh.okay.cz^$third-party
 ||csbmey.viherpeukalot.fi^$third-party
+||cscsexam.quantresear.ch^$third-party
 ||cse3.chausport.com^$third-party
 ||csghyg.reginaclinic.jp^$third-party
 ||cshield.io^$third-party
@@ -6834,7 +6834,6 @@
 ||da.rabobank.nl^$third-party
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^$third-party
 ||dabu.askmediagroup.com^$third-party
-||dacounter.com^$third-party
 ||dadalytics.it^$third-party
 ||dadi.technology^$third-party
 ||dadispapi.gmarket.co.kr^$third-party
@@ -17867,7 +17866,6 @@
 ||nsstatistics.calphalon.com^$third-party
 ||nstat.headlines.pw^$third-party
 ||nsteq.queensland.com^$third-party
-||nstracking.com^$third-party
 ||nt-es.imrworldwide.com^$third-party
 ||nt.vc^$third-party
 ||nthldc.europcar.co.uk^$third-party
@@ -18428,7 +18426,6 @@
 ||oulpli.bettybarclay.com^$third-party
 ||ounwut.thehappyplanner.com^$third-party
 ||our.sunshinecoast.qld.gov.au^$third-party
-||ournet-analytics.com^$third-party
 ||oursprivacy.com^$third-party
 ||ourstats.de^$third-party
 ||out.velpa.pl^$third-party
@@ -21051,7 +21048,6 @@
 ||sci.intuit.ca^$third-party
 ||sci.intuit.com^$third-party
 ||sci.quickbooks.com^$third-party
-||science.ctf.gg^$third-party
 ||science.schoolspecialtynews.com^$third-party
 ||sciencerevenue.com^$third-party
 ||scispg.smu.edu.sg^$third-party
@@ -21265,6 +21261,7 @@
 ||secure.bali6nora.com^$third-party
 ||secure.barn5bake.com^$third-party
 ||secure.benn8bord.com^$third-party
+||secure.boat3deer.com^$third-party
 ||secure.bolt8snap.com^$third-party
 ||secure.brie5jiff.com^$third-party
 ||secure.burn5tilt.com^$third-party
@@ -26067,6 +26064,7 @@
 ||st.wir-entdecken-bayern.de^$third-party
 ||st1.lg.avendrealouer.fr^$third-party
 ||stadig.ifeng.com^$third-party
+||stadiumzoo.net^$third-party
 ||stageschine.com^$third-party
 ||staging-pt.ispot.tv^$third-party
 ||stalkoda.com^$third-party
@@ -26357,7 +26355,6 @@
 ||statistics.tattermedia.com^$third-party
 ||statistics.tuv.com^$third-party
 ||statistics.werkenntdenbesten.de^$third-party
-||statistics.wibiya.com^$third-party
 ||statisticsplatform.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
@@ -28140,6 +28137,7 @@
 ||t9h2.ricardocuisine.com^$third-party
 ||t9k3a.jeanpaulfortin.com^$third-party
 ||ta-collector.centurygame.com^$third-party
+||ta.sanook.com^$third-party
 ||ta.sbird.xyz^$third-party
 ||ta.trs.cn^$third-party
 ||taboolasyndication.com^$third-party
@@ -30970,7 +30968,6 @@
 ||tracking.shopee.com.br^$third-party
 ||tracking.shopping-flux.com^$third-party
 ||tracking.shopstyle.co.uk^$third-party
-||tracking.shopstyle.com^$third-party
 ||tracking.simpleaccess.com^$third-party
 ||tracking.skyword.com^$third-party
 ||tracking.smartbusiness.samsung.com^$third-party
@@ -31648,7 +31645,6 @@
 ||ts.tradetracker.net^$third-party
 ||tsbkht.puritan.com^$third-party
 ||tsbmkf.zonnebrillen.com^$third-party
-||tscounter.com^$third-party
 ||tse.telerama.fr^$third-party
 ||tsedvc.aboutyou.ch^$third-party
 ||tshuxi.bbqguys.com^$third-party
@@ -34574,6 +34570,8 @@
 ||arclk.net/trax?^
 ||arcpublishing.com/beacon^
 ||arcteryx.com/943r4Fb8/init.js^
+||arena.ai/rpc/e/^
+||arena.ai/rpc/i/v0/e/^
 ||arena.im/v2/collect^
 ||arkoselabs.com/metrics/^
 ||arlt.com/analytics/^
@@ -37532,6 +37530,7 @@
 ||support.github.com/session/user^
 ||support.google.com/apis/logjourney^
 ||surace-jujitsu.fr/outils/compteur_php/^
+||surfer.com/.api/admiral^
 ||surfside.io/event/^
 ||surveymonkey.com/resp/api/metrics^
 ||svc.dynamics.com/f/m/^
@@ -37623,6 +37622,8 @@
 ||theconversation.com/javascripts/lib/content_tracker_hook.js^
 ||thedailybeast.com/static/js/thirdparty.^
 ||thefreedictionary.com/_/tr.ashx?^
+||thehackernews.com/ga/c^
+||thehackernews.com/ga4/c^
 ||thehackernews.com/zscripts/^
 ||thehill.com/6zcfGH4h/init.js^
 ||thehour.com/413gkwMT/init.js^

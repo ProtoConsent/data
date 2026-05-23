@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Core
 ! Description: Full merged blocklist covering ads, analytics, personalization, third-party services, and advanced tracking (curated - high-confidence sources)
-! Version: 2026-05-22
-! Last modified: 2026-05-22T05:16:47.300Z
-! Entries: 55483
+! Version: 2026-05-23
+! Last modified: 2026-05-23T04:54:39.969Z
+! Entries: 55900
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -70,7 +70,6 @@
 ||0fe5096a4c.com^$third-party
 ||0gw7e6s3wrao9y3q.pro^$third-party
 ||0i0i0i0.com^$third-party
-||0network.com^$third-party
 ||0sntp7dnrr.com^$third-party
 ||0stats.com^$third-party
 ||0sywjs4r1x.com^$third-party
@@ -118,6 +117,7 @@
 ||123date.me^$third-party
 ||123found.com^$third-party
 ||123stat.com^$third-party
+||123vidz.com^$third-party
 ||124d138eac.com^$third-party
 ||125700.shop^$third-party
 ||12b500858d.com^$third-party
@@ -170,6 +170,7 @@
 ||19515bia.de^$third-party
 ||19706903.xyz^$third-party
 ||197c4632ea.com^$third-party
+||19vnyxxp611kxbhqm.cfd^$third-party
 ||1a0b76c793.com^$third-party
 ||1a8f9rq9c.de^$third-party
 ||1aacb6bb9f.com^$third-party
@@ -345,6 +346,7 @@
 ||2759c90491.com^$third-party
 ||27aa17ec94.com^$third-party
 ||27igqr8b.de^$third-party
+||27pgck2eqzc7it.cfd^$third-party
 ||2830022a41.com^$third-party
 ||2837e2d3e4.com^$third-party
 ||2838a86e6c.com^$third-party
@@ -403,6 +405,7 @@
 ||2lqcd8s9.de^$third-party
 ||2m3gdt0gc.de^$third-party
 ||2m55gqleg.de^$third-party
+||2makestorage.com^$third-party
 ||2mdn-cn.net^$third-party
 ||2mdn.net^$third-party
 ||2mf9kkbhab31.com^$third-party
@@ -435,6 +438,7 @@
 ||2ts55ek00.de^$third-party
 ||2vcb9onxjm.com^$third-party
 ||2xclick.ru^$third-party
+||2xeibjlqyxu8m4zq7lob3qyknpl2.cfd^$third-party
 ||2yrlx4lem82wqehq.cfd^$third-party
 ||2znp09oa.com^$third-party
 ||300daytravel.com^$third-party
@@ -524,6 +528,7 @@
 ||3g25ko2.de^$third-party
 ||3gbqdci2.de^$third-party
 ||3gl.net^$third-party
+||3h4f2h8rziloe3.cfd^$third-party
 ||3iynb949cfrurtvhvm6gf59.cfd^$third-party
 ||3j0pw4ed7uac-a.akamaihd.net^$third-party
 ||3j8c56p9.de^$third-party
@@ -611,6 +616,7 @@
 ||4info.com^$third-party
 ||4jnzhl0d0.com^$third-party
 ||4mxmfuf6q2gx5fthb9myujbnp.cfd^$third-party
+||4nkpg756vvh6tq.cfd^$third-party
 ||4p74i5b6.de^$third-party
 ||4pnoo6qi5f2x9zzmrouxhmeo.cfd^$third-party
 ||4seeresults.com^$third-party
@@ -649,6 +655,7 @@
 ||55yy56n7p2ug15lrwz.cfd^$third-party
 ||5608c7633c.com^$third-party
 ||564executors.com^$third-party
+||567bets10.com^$third-party
 ||5692y28yxgtwmj7qkc9tnnlmrg5iyu.cfd^$third-party
 ||56bfc388bf12.com^$third-party
 ||56gbgkvtd.xyz^$third-party
@@ -691,6 +698,7 @@
 ||5ivy3ikkt.com^$third-party
 ||5kov1f2o.xyz^$third-party
 ||5leosgto.xyz^$third-party
+||5ln2vl94rl576p39t7xe.cfd^$third-party
 ||5lz3n3y4ztroby.cfd^$third-party
 ||5mn7cf73.xyz^$third-party
 ||5nfc.net^$third-party
@@ -749,6 +757,7 @@
 ||6b8051dfcc.com^$third-party
 ||6b902da043.com^$third-party
 ||6bgaput9ullc.com^$third-party
+||6boj1v8nbf6c2feuw9giitbehme1qeemf52up.cfd^$third-party
 ||6by30.com^$third-party
 ||6c32ad026d.com^$third-party
 ||6cfc27c30d.com^$third-party
@@ -777,6 +786,7 @@
 ||6r1hwgpxbm8fhqnpy.cfd^$third-party
 ||6ru92m5g.xyz^$third-party
 ||6sc.co^$third-party
+||6tnqomxm6pjoxrihbzcnb.cfd^$third-party
 ||6ujk8x9soxhm.com^$third-party
 ||6v41p4bsq.com^$third-party
 ||6zy9yqe1ew.com^$third-party
@@ -804,8 +814,11 @@
 ||766935bca8.com^$third-party
 ||76e3d5200b.com^$third-party
 ||76ec5a61ac.com^$third-party
+||777-partner.com^$third-party
+||777-partners.com^$third-party
 ||777ebfeef8.com^$third-party
 ||777partner.com^$third-party
+||777partners.com^$third-party
 ||777seo.com^$third-party
 ||77c63c73bc.com^$third-party
 ||77faf458f4.com^$third-party
@@ -846,6 +859,7 @@
 ||7f89d90c6f.com^$third-party
 ||7fkm2r4pzi.com^$third-party
 ||7fva8algp45k.com^$third-party
+||7gtxgmym3yh8y9m7xt.cfd^$third-party
 ||7imgl76f9cgpbgnh7ik.fxc5fklv2b43juz3hr35h.cyou^$third-party
 ||7jn1iq4k45u4m5qzw4onwqzciv88j12vzm8j8mz.cfd^$third-party
 ||7jrahgc.de^$third-party
@@ -933,7 +947,9 @@
 ||8tip5whk.xyz^$third-party
 ||8ttxeoz8cfk3cxbvnqf7bth.cfd^$third-party
 ||8ww4mtxh9lioib.cfd^$third-party
+||8yigbkjbi62e2bb.cfd^$third-party
 ||8yqqgn5g.xyz^$third-party
+||900bets10.com^$third-party
 ||900f44159b.com^$third-party
 ||903e9c75f6.com^$third-party
 ||905trk.com^$third-party
@@ -943,6 +959,7 @@
 ||91842100df.com^$third-party
 ||91cd3khn.de^$third-party
 ||91damimi.com^$third-party
+||91yudao.com^$third-party
 ||92a98a2163.com^$third-party
 ||92orb.com^$third-party
 ||92yp.com^$third-party
@@ -993,6 +1010,7 @@
 ||9f0e7c5370.com^$third-party
 ||9f91b59591.com^$third-party
 ||9fcd0e3ecc.com^$third-party
+||9flq9e2q5bgjn5u9m2.cfd^$third-party
 ||9h6wuyen6kmm6rptqujjm2mkuij3bbpo6.cfd^$third-party
 ||9l3s3fnhl.com^$third-party
 ||9l5ss9l.de^$third-party
@@ -1033,6 +1051,7 @@
 ||a.emea01.idio.episerver.net^$third-party
 ||a.farlex.com^$third-party
 ||a.fox.com^$third-party
+||a.gemen.site^$third-party
 ||a.getflowbox.com^$third-party
 ||a.gsmarena.com^$third-party
 ||a.hcaptcha.com^$third-party
@@ -1160,7 +1179,6 @@
 ||abacho.net^$third-party
 ||abackdamstubborn.com^$third-party
 ||abackmentor.com^$third-party
-||abadit5rckd.com^$third-party
 ||abaolokyjmlvj.top^$third-party
 ||abaolokyjmryv.top^$third-party
 ||abaryoyidjcso.store^$third-party
@@ -1198,8 +1216,10 @@
 ||abgligarchan.com^$third-party
 ||abhmancnvqweb.site^$third-party
 ||abidebrokestow.com^$third-party
+||abilityscale.com^$third-party
 ||abiraf.com^$third-party
 ||abixvrdblyakx.website^$third-party
+||abjectattempt.com^$third-party
 ||abjmkkoavoaor.top^$third-party
 ||abjmkkoavooow.top^$third-party
 ||abjpilgpouqhm.website^$third-party
@@ -1423,6 +1443,7 @@
 ||acictsjxqbsob.website^$third-party
 ||acidcostunnatural.com^$third-party
 ||acidicgreen.com^$third-party
+||acidicstraw.com^$third-party
 ||acidityrappist.qpon^$third-party
 ||acidpigs.com^$third-party
 ||acidprolific.com^$third-party
@@ -1494,6 +1515,7 @@
 ||active-tracking.de^$third-party
 ||active-trk7.com^$third-party
 ||activeconversion.com^$third-party
+||activedancer.com^$third-party
 ||activejavgg124.fun^$third-party
 ||activelymoonlight.com^$third-party
 ||activemeter.com^$third-party
@@ -1640,6 +1662,7 @@
 ||ad.duga.jp^$third-party
 ||ad.edugram.com^$third-party
 ||ad.eloan.co.jp^$third-party
+||ad.empressleak.biz^$third-party
 ||ad.epochtimes.com^$third-party
 ||ad.ettoday.net^$third-party
 ||ad.eva.vn^$third-party
@@ -1662,7 +1685,6 @@
 ||ad.hyena.cz^$third-party
 ||ad.icheck.com.vn^$third-party
 ||ad.iinfo.cz^$third-party
-||ad.imediaaudiences.com^$third-party
 ||ad.imp.joins.com^$third-party
 ||ad.infoseek.com^$third-party
 ||ad.inston.ltd^$third-party
@@ -1696,6 +1718,7 @@
 ||ad.livere.co.kr^$third-party
 ||ad.lupa.cz^$third-party
 ||ad.mail.ru^$third-party
+||ad.mdmd.info^$third-party
 ||ad.mediamixer.co.kr^$third-party
 ||ad.mediaprimaplus.com.my^$third-party
 ||ad.mediastorm.hu^$third-party
@@ -1727,6 +1750,7 @@
 ||ad.petel.bg^$third-party
 ||ad.phaserep.com^$third-party
 ||ad.phunuxuavanay.vn^$third-party
+||ad.pickple.net^$third-party
 ||ad.plus^$third-party
 ||ad.pornimg.xyz^$third-party
 ||ad.pr.ameba.jp^$third-party
@@ -1894,6 +1918,7 @@
 ||adblock-zen.com^$third-party
 ||adblock.fr^$third-party
 ||adblockanalytics.com^$third-party
+||adblocker-sentinel.net^$third-party
 ||adblockermax.com^$third-party
 ||adblockeromega.com^$third-party
 ||adblockerprofessional.com^$third-party
@@ -1929,6 +1954,7 @@
 ||adc-serv.net^$third-party
 ||adc.nine.com.au^$third-party
 ||adc.xxxlshop.de^$third-party
+||adca.st^$third-party
 ||adcalls.nl^$third-party
 ||adcalm.com^$third-party
 ||adcamp.ru^$third-party
@@ -2008,6 +2034,7 @@
 ||addthiscdn.com^$third-party
 ||addthisedge.com^$third-party
 ||addtoany.com^$third-party
+||addynamix.com^$third-party
 ||addynamo.com^$third-party
 ||addynamo.net^$third-party
 ||ade.clmbtech.com^$third-party
@@ -2166,6 +2193,7 @@
 ||adknowledge.com^$third-party
 ||adkontekst.pl^$third-party
 ||adkora.com^$third-party
+||adkova.com^$third-party
 ||adkwai.com^$third-party
 ||adl.mynetreklam.com^$third-party
 ||adlabs.ru^$third-party
@@ -2235,6 +2263,7 @@
 ||admediatex.net^$third-party
 ||admedit.net^$third-party
 ||admedo.com^$third-party
+||admeerkat.com^$third-party
 ||admeking.com^$third-party
 ||admeld.com^$third-party
 ||admeridianads.com^$third-party
@@ -2344,6 +2373,7 @@
 ||adolescentzone.com^$third-party
 ||adomic.com^$third-party
 ||adomik.com^$third-party
+||adone.com^$third-party
 ||adonly.com^$third-party
 ||adonnews.com^$third-party
 ||adonspot.com^$third-party
@@ -2387,6 +2417,7 @@
 ||adpay.com^$third-party
 ||adpays.net^$third-party
 ||adpeepshosted.com^$third-party
+||adpenguin.biz^$third-party
 ||adpepper.dk^$third-party
 ||adpepper.nl^$third-party
 ||adperfect.com^$third-party
@@ -2658,7 +2689,6 @@
 ||ads.ecrush.com^$third-party
 ||ads.edadeal.ru^$third-party
 ||ads.edbindex.dk^$third-party
-||ads.egrana.com.br^$third-party
 ||ads.einmedia.com^$third-party
 ||ads.elcarado.com^$third-party
 ||ads.electrocelt.com^$third-party
@@ -2686,6 +2716,7 @@
 ||ads.fox.com^$third-party
 ||ads.fpt.vn^$third-party
 ||ads.fptplay.net.vn^$third-party
+||ads.free-to.download^$third-party
 ||ads.freeonlinegames.com^$third-party
 ||ads.freshmeat.net^$third-party
 ||ads.friendfinder.com^$third-party
@@ -2831,6 +2862,7 @@
 ||ads.nicovideo.jp^$third-party
 ||ads.nordichardware.com^$third-party
 ||ads.nordichardware.se^$third-party
+||ads.northjersey.com^$third-party
 ||ads.nyi.net^$third-party
 ||ads.nytimes.com^$third-party
 ||ads.nyx.cz^$third-party
@@ -2840,17 +2872,22 @@
 ||ads.okcimg.com^$third-party
 ||ads.ole.com^$third-party
 ||ads.olx.com^$third-party
+||ads.omaha.com^$third-party
 ||ads.one.co.il^$third-party
 ||ads.oneplace.com^$third-party
+||ads.opensubtitles.org^$third-party
 ||ads.oppomobile.com^$third-party
 ||ads.optusnet.com.au^$third-party
 ||ads.osdn.com^$third-party
+||ads.oxyshop.cz^$third-party
 ||ads.passion.com^$third-party
 ||ads.pdbarea.com^$third-party
 ||ads.pennet.com^$third-party
 ||ads.people-group.net^$third-party
 ||ads.people.com.cn^$third-party
 ||ads.periodistadigital.com^$third-party
+||ads.persgroep.net^$third-party
+||ads.phillipsdata.us^$third-party
 ||ads.phonepe.com^$third-party
 ||ads.phpclasses.org^$third-party
 ||ads.phunuonline.com.vn^$third-party
@@ -2858,10 +2895,12 @@
 ||ads.phunuvagiadinh.vn^$third-party
 ||ads.pinger.com^$third-party
 ||ads.pinterest.com^$third-party
+||ads.pitchforkmedia.com^$third-party
 ||ads.planet.nl^$third-party
 ||ads.platform.zalo.me^$third-party
 ||ads.playground.xyz^$third-party
 ||ads.pni.com^$third-party
+||ads.poconorecord.com^$third-party
 ||ads.pof.com^$third-party
 ||ads.powweb.com^$third-party
 ||ads.printscr.com^$third-party
@@ -2870,12 +2909,18 @@
 ||ads.proxibid.com^$third-party
 ||ads.psd2html.com^$third-party
 ||ads.pubmatic.com^$third-party
+||ads.q1media.com^$third-party
+||ads.queendom.com^$third-party
 ||ads.quoka.de^$third-party
 ||ads.radio1.lv^$third-party
+||ads.realcities.com^$third-party
 ||ads.recoletos.es^$third-party
 ||ads.resoom.de^$third-party
+||ads.roblox.com^$third-party
+||ads.rohea.com^$third-party
 ||ads.roku.com^$third-party
 ||ads.rubiconproject.com^$third-party
+||ads.ruralpress.com^$third-party
 ||ads.salemall.vn^$third-party
 ||ads.saymedia.com^$third-party
 ||ads.scifi.com^$third-party
@@ -2886,23 +2931,28 @@
 ||ads.seniorfriendfinder.com^$third-party
 ||ads.servebom.com^$third-party
 ||ads.service.kugou.com^$third-party
+||ads.sexvideos.rodeo^$third-party
 ||ads.sexyland.vn^$third-party
 ||ads.shizmoo.com^$third-party
 ||ads.shopstyle.com^$third-party
 ||ads.silverdisc.co.uk^$third-party
 ||ads.sina.com^$third-party
+||ads.sjon.info^$third-party
 ||ads.smartclick.com^$third-party
 ||ads.smrtbid.com^$third-party
 ||ads.snapchat.com^$third-party
 ||ads.socialtheater.com^$third-party
 ||ads.soft32.com^$third-party
 ||ads.sohu.com^$third-party
+||ads.sonataplatform.com^$third-party
 ||ads.sondakika.com^$third-party
 ||ads.songmoi.vn^$third-party
+||ads.soweb.gr^$third-party
 ||ads.sparkflow.net^$third-party
 ||ads.spilgames.com^$third-party
 ||ads.sportradar.com^$third-party
 ||ads.sportslocalmedia.com^$third-party
+||ads.stileproject.com^$third-party
 ||ads.stoiximan.gr^$third-party
 ||ads.suckhoegiadinh.com.vn^$third-party
 ||ads.sun.com^$third-party
@@ -2910,10 +2960,12 @@
 ||ads.superawesome.tv^$third-party
 ||ads.supplyframe.com^$third-party
 ||ads.svnt.com^$third-party
+||ads.syscdn.de^$third-party
 ||ads.talksport.com^$third-party
 ||ads.techtv.com^$third-party
 ||ads.terra.es^$third-party
 ||ads.themovienation.com^$third-party
+||ads.theolympian.com^$third-party
 ||ads.thesaigontimes.vn^$third-party
 ||ads.thestar.com^$third-party
 ||ads.thitruongtaichinhtiente.vn^$third-party
@@ -2922,8 +2974,10 @@
 ||ads.tiki.vn^$third-party
 ||ads.tiktok.com^$third-party
 ||ads.tmcs.net^$third-party
+||ads.todoti.com.br^$third-party
 ||ads.toplayaffiliates.com^$third-party
 ||ads.topwam.com^$third-party
+||ads.toronto.com^$third-party
 ||ads.townhall.com^$third-party
 ||ads.tracfonewireless.com^$third-party
 ||ads.travelaudience.com^$third-party
@@ -2933,20 +2987,26 @@
 ||ads.tripod.lycos.it^$third-party
 ||ads.tripod.lycos.nl^$third-party
 ||ads.tso.dennisnet.co.uk^$third-party
+||ads.tunein.com^$third-party
 ||ads.tvmnews.mt^$third-party
 ||ads.tvp.pl^$third-party
 ||ads.twdcgrid.com^$third-party
+||ads.uigc.net^$third-party
 ||ads.ultimate-guitar.com^$third-party
 ||ads.ultraviewer.net^$third-party
 ||ads.uncrate.com^$third-party
 ||ads.univision.com^$third-party
 ||ads.usatoday.com^$third-party
+||ads.uxs.at^$third-party
+||ads.vcnc.co.kr^$third-party
+||ads.vegas.com^$third-party
 ||ads.verticalresponse.com^$third-party
 ||ads.vgchartz.com^$third-party
 ||ads.viber.com^$third-party
 ||ads.viralize.tv^$third-party
 ||ads.virtual-nights.com^$third-party
 ||ads.virtualcountries.com^$third-party
+||ads.virtuopolitan.com^$third-party
 ||ads.vishare.vn^$third-party
 ||ads.vlr.vn^$third-party
 ||ads.vnumedia.com^$third-party
@@ -2956,9 +3016,12 @@
 ||ads.watson.ch^$third-party
 ||ads.weather.ca^$third-party
 ||ads.web.de^$third-party
+||ads.web21.com^$third-party
 ||ads.webhosting.info^$third-party
+||ads.webinak.sk^$third-party
 ||ads.webindia123.com^$third-party
 ||ads.webmasterpoint.org^$third-party
+||ads.webmd.com^$third-party
 ||ads.webme.com^$third-party
 ||ads.websiteservices.com^$third-party
 ||ads.whoishostingthis.com^$third-party
@@ -2979,9 +3042,12 @@
 ||ads.zalo.me^$third-party
 ||ads.zaloapp.com^$third-party
 ||ads.zunia.vn^$third-party
+||ads01.com^$third-party
 ||ads1-adnow.com^$third-party
+||ads1.ami-admin.com^$third-party
 ||ads1.canoe.ca^$third-party
 ||ads1.msn.com^$third-party
+||ads1.speedbit.com^$third-party
 ||ads1.virtual-nights.com^$third-party
 ||ads10.speedbit.com^$third-party
 ||ads180.com^$third-party
@@ -2990,6 +3056,7 @@
 ||ads2.gamecity.net^$third-party
 ||ads2.hsoub.com^$third-party
 ||ads2.msn.com^$third-party
+||ads2.speedbit.com^$third-party
 ||ads2.virtual-nights.com^$third-party
 ||ads2.weblogssl.com^$third-party
 ||ads2.xnet.cz^$third-party
@@ -2999,8 +3066,10 @@
 ||ads2ads.net^$third-party
 ||ads3-adnow.com^$third-party
 ||ads3.gamecity.net^$third-party
+||ads3.speedbit.com^$third-party
 ||ads3.virtual-nights.com^$third-party
 ||ads4.gamecity.net^$third-party
+||ads4.speedbit.com^$third-party
 ||ads4.virtual-nights.com^$third-party
 ||ads4g.pl^$third-party
 ||ads4homes.com^$third-party
@@ -3008,11 +3077,16 @@
 ||ads5-adnow.com^$third-party
 ||ads5-noneu.truecaller.com^$third-party
 ||ads5.canoe.ca^$third-party
+||ads5.speedbit.com^$third-party
 ||ads5.virtual-nights.com^$third-party
 ||ads6-adnow.com^$third-party
 ||ads6.gamecity.net^$third-party
+||ads6.speedbit.com^$third-party
 ||ads7-adnow.com^$third-party
 ||ads7.gamecity.net^$third-party
+||ads7.speedbit.com^$third-party
+||ads8.speedbit.com^$third-party
+||ads9.speedbit.com^$third-party
 ||adsadminister.com^$third-party
 ||adsafeprotected.com^$third-party
 ||adsafety.net^$third-party
@@ -3031,10 +3105,12 @@
 ||adsbetnet.com^$third-party
 ||adsblockersentinel.info^$third-party
 ||adsbookie.com^$third-party
+||adsbreak.com^$third-party
 ||adsbtrack.com^$third-party
 ||adsbtrk.com^$third-party
 ||adsbuddy.net^$third-party
 ||adsby.bidtheatre.com^$third-party
+||adsbydelema.com^$third-party
 ||adsbyt1.titus.one^$third-party
 ||adscale.de^$third-party
 ||adschill.com^$third-party
@@ -3056,37 +3132,52 @@
 ||adsend.de^$third-party
 ||adsensecamp.com^$third-party
 ||adsensecustomsearchads.com^$third-party
+||adserv.postbulletin.com^$third-party
 ||adserv2.suumo.jp^$third-party
 ||adserve.ams.rhythmxchange.com^$third-party
 ||adserve.com^$third-party
 ||adserve.donanimhaber.com^$third-party
+||adserve.jbs.org^$third-party
 ||adserve.lasentinelle.mu^$third-party
 ||adserve.ph^$third-party
+||adserve.shopzilla.com^$third-party
 ||adserver-e7.com^$third-party
 ||adserver.71i.de^$third-party
 ||adserver.a24.com.tr^$third-party
 ||adserver.adtechus.com^$third-party
 ||adserver.adultfriendfinder.com^$third-party
 ||adserver.adverty.com^$third-party
+||adserver.airmiles.ca^$third-party
+||adserver.ariase.org^$third-party
+||adserver.asiantb.com^$third-party
 ||adserver.bafrahaber.com^$third-party
 ||adserver.betandwin.de^$third-party
 ||adserver.bing.com^$third-party
+||adserver.bizedge.com^$third-party
 ||adserver.bizhat.com^$third-party
 ||adserver.break-even.it^$third-party
 ||adserver.bridgebase.com^$third-party
 ||adserver.cams.com^$third-party
 ||adserver.cdnstream.com^$third-party
+||adserver.click4cash.de^$third-party
 ||adserver.com^$third-party
+||adserver.dbusiness.com^$third-party
 ||adserver.diariodosertao.com.br^$third-party
 ||adserver.digitoday.com^$third-party
+||adserver.echdk.pl^$third-party
 ||adserver.fa-mag.com^$third-party
+||adserver.filefront.com^$third-party
+||adserver.finditquick.com^$third-party
 ||adserver.friendfinder.com^$third-party
+||adserver.harktheherald.com^$third-party
 ||adserver.hwupgrade.it^$third-party
 ||adserver.icimedias.ca^$third-party
 ||adserver.irishwebmasterforum.com^$third-party
+||adserver.ision.de^$third-party
 ||adserver.janes.com^$third-party
 ||adserver.kimia.es^$third-party
 ||adserver.lag.vn^$third-party
+||adserver.lanacion.com.ar^$third-party
 ||adserver.magazyn.pl^$third-party
 ||adserver.mobi^$third-party
 ||adserver.muaban.net^$third-party
@@ -3096,6 +3187,8 @@
 ||adserver.o2.pl^$third-party
 ||adserver.oddschecker.com^$third-party
 ||adserver.onwisconsin.com^$third-party
+||adserver.otthonom.hu^$third-party
+||adserver.pampa.com.br^$third-party
 ||adserver.pandora.com^$third-party
 ||adserver.piksel.mk^$third-party
 ||adserver.pl^$third-party
@@ -3109,10 +3202,18 @@
 ||adserver.sniffies.com^$third-party
 ||adserver.spankaway.com^$third-party
 ||adserver.swiatobrazu.pl^$third-party
+||adserver.tactilews.com^$third-party
+||adserver.tappsgames.com^$third-party
+||adserver.terra.com.br^$third-party
+||adserver.theknot.com^$third-party
+||adserver.trader.ca^$third-party
+||adserver.trojaner-info.de^$third-party
 ||adserver.twitpic.com^$third-party
 ||adserver.virginmedia.com^$third-party
+||adserver.x3.hu^$third-party
 ||adserver.yahoo.com^$third-party
 ||adserver01.de^$third-party
+||adserver1.sonymusiceurope.com^$third-party
 ||adserver2.creative.com^$third-party
 ||adserverplus.com^$third-party
 ||adserverpub.com^$third-party
@@ -3121,6 +3222,7 @@
 ||adservice.google.com^$third-party
 ||adservice.tohsoft.com^$third-party
 ||adservices.brandcdn.com^$third-party
+||adserving.fyi-marketing.com^$third-party
 ||adserving.unibet.com^$third-party
 ||adservingfactory.com^$third-party
 ||adservingfront.com^$third-party
@@ -3130,13 +3232,13 @@
 ||adsession.com^$third-party
 ||adsessionserv.com^$third-party
 ||adsethimdown.org^$third-party
+||adsexse.com^$third-party
 ||adsfac.eu^$third-party
 ||adsfac.net^$third-party
 ||adsfac.us^$third-party
 ||adsfast.com^$third-party
 ||adsfcdn.com^$third-party
 ||adsfile.qq.com^$third-party
-||adsfloow.net^$third-party
 ||adsforallmedia.com^$third-party
 ||adsfs.oppomobile.com^$third-party
 ||adsfuse.com^$third-party
@@ -3190,6 +3292,7 @@
 ||adspirit.de^$third-party
 ||adspirit.net^$third-party
 ||adsplay.net^$third-party
+||adsplex.com^$third-party
 ||adsplus.vn^$third-party
 ||adsponse.de^$third-party
 ||adspop.me^$third-party
@@ -3209,11 +3312,14 @@
 ||adsrv.deviantart.com^$third-party
 ||adsrv.eacdn.com^$third-party
 ||adsrv.iol.co.za^$third-party
+||adsrv.kobi.tv^$third-party
 ||adsrv.lua.pl^$third-party
 ||adsrv2.swidnica24.pl^$third-party
+||adsrv4k.com^$third-party
 ||adsrvmedia.com^$third-party
 ||adsrvr.org^$third-party
 ||adsstat.com^$third-party
+||adstacks.in^$third-party
 ||adstanding.com^$third-party
 ||adstargeting.com^$third-party
 ||adstat.4u.pl^$third-party
@@ -3252,6 +3358,7 @@
 ||adsys.townnews.com^$third-party
 ||adsystem.simplemachines.org^$third-party
 ||adt.com.vn^$third-party
+||adt.m7z.net^$third-party
 ||adt567.net^$third-party
 ||adt598.com^$third-party
 ||adtag.cc^$third-party
@@ -3276,6 +3383,7 @@
 ||adtelligence.de^$third-party
 ||adtelligent.com^$third-party
 ||adten.eu^$third-party
+||adteractive.com^$third-party
 ||adtheorent.com^$third-party
 ||adthis.com^$third-party
 ||adthrive.com^$third-party
@@ -3339,6 +3447,8 @@
 ||adv-analytics-collector.videograph.ai^$third-party
 ||adv-ettoday.cdn.hinet.net^$third-party
 ||adv-sv-stat.focus.cn^$third-party
+||adv.440network.com^$third-party
+||adv.all-free-download.com^$third-party
 ||adv.drtuber.com^$third-party
 ||adv.ettoday.net^$third-party
 ||adv.freeonline.it^$third-party
@@ -3398,6 +3508,7 @@
 ||advertising.aol.com^$third-party
 ||advertising.com^$third-party
 ||advertising.goldseek.com^$third-party
+||advertising.illinimedia.com^$third-party
 ||advertising.microsoft.com^$third-party
 ||advertising.paltalk.com^$third-party
 ||advertising.yahoo.com^$third-party
@@ -3593,7 +3704,6 @@
 ||aff-track.net^$third-party
 ||aff.biz^$third-party
 ||aff.bstatic.com^$third-party
-||aff.mclick.mobi^$third-party
 ||aff1xstavka.com^$third-party
 ||affableindigestionstruggling.com^$third-party
 ||affablelabel.com^$third-party
@@ -3755,6 +3865,7 @@
 ||afternoonpregnantgetting.com^$third-party
 ||afternoonreeds.com^$third-party
 ||afutfjyhihsdy.space^$third-party
+||afvbfylw.in^$third-party
 ||afwfwhqmvjgmo.online^$third-party
 ||afxuyhvmoyccf.site^$third-party
 ||afy.agency^$third-party
@@ -4010,6 +4121,7 @@
 ||ajfnee.com^$third-party
 ||ajggnilcptlgz.site^$third-party
 ||ajgsadialtyzq.store^$third-party
+||ajifvfpngvdd.com^$third-party
 ||ajjac.club^$third-party
 ||ajjfmuwuxn.in^$third-party
 ||ajjlasruwwrlt.store^$third-party
@@ -4033,6 +4145,7 @@
 ||ak-tracker.com^$third-party
 ||ak0gsh40.com^$third-party
 ||aka-cdn.adtechus.com^$third-party
+||akabo.ru^$third-party
 ||akaflieg-sb.de^$third-party
 ||akahpvdbdmwdu.website^$third-party
 ||akanoo.com^$third-party
@@ -4194,6 +4307,7 @@
 ||allsports4free.online^$third-party
 ||allsprang.com^$third-party
 ||allstat-pp.ru^$third-party
+||alltizer.ru^$third-party
 ||alludedeagle.com^$third-party
 ||alludedrusty.com^$third-party
 ||allurefaintest.com^$third-party
@@ -4246,6 +4360,7 @@
 ||altcoin.care^$third-party
 ||altema-log.com^$third-party
 ||alterassumeaggravate.com^$third-party
+||alternads.info^$third-party
 ||alternatelicking.com^$third-party
 ||alternatewavyrid.com^$third-party
 ||alternativecpmgate.com^$third-party
@@ -4433,6 +4548,7 @@
 ||analytic-client.blitzmightyparty.com^$third-party
 ||analytic-client.chickgoddess.com^$third-party
 ||analytic-client.panowars.com^$third-party
+||analytic.337.com^$third-party
 ||analytic.angiang.gov.vn^$third-party
 ||analytic.baodantoc.vn^$third-party
 ||analytic.proxyme.link^$third-party
@@ -4737,6 +4853,7 @@
 ||analytics.purelovers.com^$third-party
 ||analytics.pyksid.com^$third-party
 ||analytics.python.org^$third-party
+||analytics.qoqa.ninja^$third-party
 ||analytics.qs-apps.com^$third-party
 ||analytics.qualityunit.com^$third-party
 ||analytics.query.yahoo.com^$third-party
@@ -4905,6 +5022,7 @@
 ||andcomemunicateth.com^$third-party
 ||andmlb.kshwtj.com^$third-party
 ||andomedia.com^$third-party
+||andrebadi.top^$third-party
 ||android-stat.acestream.net^$third-party
 ||android.bugly.qq.com^$third-party
 ||androidduvetscribble.com^$third-party
@@ -4915,6 +5033,7 @@
 ||anewfeedliberty.com^$third-party
 ||anftakba.in^$third-party
 ||anfzdatekjeck.space^$third-party
+||angege.com^$third-party
 ||angelabedsautopsy.com^$third-party
 ||angelaencouraging.com^$third-party
 ||angelesfoldingpatsy.com^$third-party
@@ -4996,6 +5115,7 @@
 ||anrfvqiycrybr.store^$third-party
 ||ans.avast.com^$third-party
 ||ans.mlb.com^$third-party
+||ansarpooch.shop^$third-party
 ||ansionscor.com^$third-party
 ||ansnxnkxsagnp.website^$third-party
 ||anstrex.com^$third-party
@@ -5120,7 +5240,6 @@
 ||api-analytics.rozetka.com.ua^$third-party
 ||api-js.mixpanel.com^$third-party
 ||api-static.com^$third-party
-||api-v2.shareitgames.com^$third-party
 ||api.140proof.com^$third-party
 ||api.ad-locus.com^$third-party
 ||api.addthis.com^$third-party
@@ -5417,6 +5536,7 @@
 ||architecturediscussdifferently.com^$third-party
 ||archivescane.com^$third-party
 ||archswimming.com^$third-party
+||arclet.net^$third-party
 ||arcmocbztwfsu.space^$third-party
 ||arcoseijo.com^$third-party
 ||arcspire.io^$third-party
@@ -5535,7 +5655,9 @@
 ||arwdcrdpiwinc.site^$third-party
 ||arwqwawwlo.com^$third-party
 ||arwriptatfwe.in^$third-party
+||arwzyuzkblj.com^$third-party
 ||arxonmumfexiqyc.com^$third-party
+||as.adfonic.net^$third-party
 ||as.hobby.porn^$third-party
 ||as.webmd.com^$third-party
 ||as3.hotasiangirl.xyz^$third-party
@@ -5607,6 +5729,7 @@
 ||asiafriendfinder.com^$third-party
 ||asiangfsex.com^$third-party
 ||asianxhub.com^$third-party
+||asifhclod.com^$third-party
 ||asinlovewiththem.org^$third-party
 ||asjitqwjvodhr.site^$third-party
 ||askdomainad.com^$third-party
@@ -5729,6 +5852,7 @@
 ||atampharosom.com^$third-party
 ||atanx.alicdn.com^$third-party
 ||atarbiyahpulpen.online^$third-party
+||atas.io^$third-party
 ||atax.teamxbox.com^$third-party
 ||ataykgrzwrplt.site^$third-party
 ||atdeerlinga.com^$third-party
@@ -5806,6 +5930,7 @@
 ||attempttipsrye.com^$third-party
 ||attendanceoffvow.com^$third-party
 ||attendantentertainmentmotorway.com^$third-party
+||attendchase.com^$third-party
 ||attendedlickhorizontally.com^$third-party
 ||attendingpets.com^$third-party
 ||attendsdeewan.com^$third-party
@@ -6061,7 +6186,6 @@
 ||awept.com^$third-party
 ||aweresolve.com^$third-party
 ||awesome-blocker.com^$third-party
-||awesomelytics.com^$third-party
 ||awesomeststuff.com^$third-party
 ||awesomewash.pro^$third-party
 ||awestatic.com^$third-party
@@ -6097,6 +6221,7 @@
 ||awrrujbcua.in^$third-party
 ||aws-analytics.nmg.com.hk^$third-party
 ||aws-itcloud.net^$third-party
+||awsclic.com^$third-party
 ||awsoszfpeag.in^$third-party
 ||awsurveys.com^$third-party
 ||awsync.yandex.ru^$third-party
@@ -6200,6 +6325,7 @@
 ||aztumqassickf.space^$third-party
 ||azuarxvhpsibt.online^$third-party
 ||azulcw7.com^$third-party
+||azuredeploystore.com^$third-party
 ||azuremystique.com^$third-party
 ||azurestealth.com^$third-party
 ||azwzivzabnh.in^$third-party
@@ -6237,6 +6363,7 @@
 ||b35fc2842a.com^$third-party
 ||b3beca4e4a.com^$third-party
 ||b3c8e0896a.com^$third-party
+||b3juuqn64of6fx12x81ipcw.cfd^$third-party
 ||b3mxnuvcer.com^$third-party
 ||b3stcond1tions.com^$third-party
 ||b40d52efb7.com^$third-party
@@ -6358,6 +6485,7 @@
 ||bam.nr-data.net^$third-party
 ||ban.etherscan.com^$third-party
 ||ban.mirorgazma.ru^$third-party
+||ban.su^$third-party
 ||ban.zab.ru^$third-party
 ||banana.le.com^$third-party
 ||bananasadvocate.com^$third-party
@@ -6454,6 +6582,7 @@
 ||banners.sys-con.com^$third-party
 ||banners.tempobet.com^$third-party
 ||banners.videosecrets.com^$third-party
+||banners.virtuagirlhd.com^$third-party
 ||banners5html2.com^$third-party
 ||bannerserver.com^$third-party
 ||bannersgomlm.com^$third-party
@@ -6507,6 +6636,7 @@
 ||barren-unit.pro^$third-party
 ||barrenhead.pro^$third-party
 ||barsshrug.com^$third-party
+||bartender.cc^$third-party
 ||bartererfaxtingling.com^$third-party
 ||bartonpriority.com^$third-party
 ||baseballletters.com^$third-party
@@ -6917,6 +7047,7 @@
 ||bestonlinecasino.club^$third-party
 ||bestonlinecoupons.com^$third-party
 ||bestowmeasurement.com^$third-party
+||bestplaceforall.com^$third-party
 ||bestproducttesters.com^$third-party
 ||bestrevenuenetwork.com^$third-party
 ||bestsmartvpn.com^$third-party
@@ -6931,6 +7062,7 @@
 ||beta-log.anninhthudo.vn^$third-party
 ||betads.xyz^$third-party
 ||betahit.click^$third-party
+||betazebra.com^$third-party
 ||betemolgar.com^$third-party
 ||beterrakionan.com^$third-party
 ||betgorebysson.club^$third-party
@@ -6971,6 +7103,7 @@
 ||bexekgjjxxrs.com^$third-party
 ||beyanmaan.com^$third-party
 ||beydomfaucet.shop^$third-party
+||beyondcompare.cc^$third-party
 ||beyondpayors.com^$third-party
 ||beyondpongid.cyou^$third-party
 ||beyourxfriend.com^$third-party
@@ -7089,6 +7222,7 @@
 ||bidtimize.com^$third-party
 ||bidvance.com^$third-party
 ||bidverdrd.com^$third-party
+||bidverdrs.com^$third-party
 ||bidvertiser.com^$third-party
 ||bidvopmeican.com^$third-party
 ||biehuljjsllzf.website^$third-party
@@ -7130,6 +7264,7 @@
 ||bijgvzdzwlvny.online^$third-party
 ||bikechokedattic.com^$third-party
 ||bikeexerciser.com^$third-party
+||bikesboard.com^$third-party
 ||bilalorasa.qpon^$third-party
 ||bilingualgeek.com^$third-party
 ||billboard.cz^$third-party
@@ -7153,6 +7288,7 @@
 ||binancecash.com^$third-party
 ||binarce.com^$third-party
 ||binarybusiness.de^$third-party
+||binaryoptionsgame.com^$third-party
 ||bincatracs.com^$third-party
 ||bindirect.click^$third-party
 ||bingads.microsoft.com^$third-party
@@ -7329,7 +7465,6 @@
 ||bleedmarrow.com^$third-party
 ||bleepgizmorecital.com^$third-party
 ||blehcourt.com^$third-party
-||blekko.com^$third-party
 ||blendedbird.com^$third-party
 ||blender3d.fr^$third-party
 ||blendortenacle.cfd^$third-party
@@ -7358,6 +7493,7 @@
 ||bliqjhstabiqd.space^$third-party
 ||blis.com^$third-party
 ||blismedia.com^$third-party
+||blisscalendar.com^$third-party
 ||blissfuldes.com^$third-party
 ||blistereasily.com^$third-party
 ||blisterpompey.com^$third-party
@@ -7374,11 +7510,11 @@
 ||blockadsnot.com^$third-party
 ||blockchain-ads.com^$third-party
 ||blockchaintop.nl^$third-party
+||blockdial.com^$third-party
 ||blockmetrics.com^$third-party
 ||blocksfeathers.com^$third-party
 ||blockslurk.com^$third-party
 ||blocksly.org^$third-party
-||blog.livelog.biz^$third-party
 ||blogads.com^$third-party
 ||blogclans.com^$third-party
 ||blogcounter.com^$third-party
@@ -7414,8 +7550,10 @@
 ||bluecava.com^$third-party
 ||blueconic.com^$third-party
 ||blueconic.net^$third-party
+||blueeyedblow.com^$third-party
 ||blueflowerfield.com^$third-party
 ||bluekai.com^$third-party
+||bluelionlabs.net^$third-party
 ||bluelithium.com^$third-party
 ||bluenest.net^$third-party
 ||blueoyster.click^$third-party
@@ -7494,6 +7632,7 @@
 ||bmxavtdjqvdqn.store^$third-party
 ||bn.ohah.ru^$third-party
 ||bn.orthodoxy.ru^$third-party
+||bn.profiwin.de^$third-party
 ||bn.take-profit.org^$third-party
 ||bnastskoaol.com^$third-party
 ||bnbgdqjurxsoo.site^$third-party
@@ -7538,6 +7677,7 @@
 ||boatcontinuing.com^$third-party
 ||boatjadeinconsistency.com^$third-party
 ||boatpaper.com^$third-party
+||boatsvest.com^$third-party
 ||bobabillydirect.org^$third-party
 ||bobapsoabauns.com^$third-party
 ||bobbledspillet.com^$third-party
@@ -7604,6 +7744,7 @@
 ||bonnettaking.com^$third-party
 ||bonnieradnetwork.se^$third-party
 ||bonosbevvy.com^$third-party
+||bontent.powvideo.net^$third-party
 ||bonuscake.ru^$third-party
 ||bonusgew.com^$third-party
 ||bonusmaniac.com^$third-party
@@ -7651,6 +7792,7 @@
 ||boredcrown.com^$third-party
 ||boredhippie.com^$third-party
 ||boredomcuff.com^$third-party
+||borersunbuilt.shop^$third-party
 ||borghjism.com^$third-party
 ||boringegotistical.com^$third-party
 ||boringherbalprewashed.com^$third-party
@@ -7864,6 +8006,7 @@
 ||brflwpffv.com^$third-party
 ||brfpinjy.com^$third-party
 ||brgnthxurfpzf.space^$third-party
+||briarygimellegroom.cfd^$third-party
 ||brick.xhamster.com^$third-party
 ||brick.xhamster.desi^$third-party
 ||brick.xhamster2.com^$third-party
@@ -8122,6 +8265,7 @@
 ||budgeencodeunions.com^$third-party
 ||budsinc.com^$third-party
 ||budsminepatent.com^$third-party
+||budurl.com^$third-party
 ||buevafbtqeaaz.website^$third-party
 ||buf.lemonde.fr^$third-party
 ||buffet.identityservices.io^$third-party
@@ -8220,6 +8364,7 @@
 ||bushpoutquest.com^$third-party
 ||bushsurprising.com^$third-party
 ||busilycarnival.com^$third-party
+||businessbells.com^$third-party
 ||businessclick.com^$third-party
 ||businessessities.com^$third-party
 ||busterry.com^$third-party
@@ -8286,6 +8431,7 @@
 ||bvyhpxikzylmn.space^$third-party
 ||bvyptevtmkdul.store^$third-party
 ||bvzutesvywyk.com^$third-party
+||bw95vpjda.ru^$third-party
 ||bwcvzbjbrbolk.site^$third-party
 ||bwdsnvwtnvuhl.store^$third-party
 ||bwfsgfzl.com^$third-party
@@ -8539,6 +8685,7 @@
 ||cam-lolita.net^$third-party
 ||cam4flat.com^$third-party
 ||camadmin.ru^$third-party
+||camcrush.com^$third-party
 ||camduty.com^$third-party
 ||cameoutofthecatey.com^$third-party
 ||camliveshow.xyz^$third-party
@@ -8612,10 +8759,12 @@
 ||caperedlevi.com^$third-party
 ||caphitetaroc.qpon^$third-party
 ||capitalistsplitting.com^$third-party
+||capkinaculeus.cfd^$third-party
 ||capndr.com^$third-party
 ||capping.sirius.press^$third-party
 ||capriceawelessaweless.com^$third-party
 ||capriciouscorn.com^$third-party
+||caprisalipedslhota.cyou^$third-party
 ||caprizecaprizeflagfur.com^$third-party
 ||caprofitx.com^$third-party
 ||captainbicycle.com^$third-party
@@ -8624,6 +8773,9 @@
 ||captifymedia.com^$third-party
 ||captionconjecture.com^$third-party
 ||captivatingcanyon.com^$third-party
+||captivatingillusion.com^$third-party
+||captivatingpanorama.com^$third-party
+||captivatingperformance.com^$third-party
 ||captiveimpossibleimport.com^$third-party
 ||capture-api.ap3prod.com^$third-party
 ||captureinsolenceexamine.com^$third-party
@@ -8645,6 +8797,7 @@
 ||cardiganpalmreconcile.com^$third-party
 ||cardiumdevote.qpon^$third-party
 ||cardmethod.com^$third-party
+||careerjournalonline.com^$third-party
 ||careerunderstatement.com^$third-party
 ||careewituhi.org^$third-party
 ||careewituhin.org^$third-party
@@ -8776,6 +8929,7 @@
 ||cb.baidu.com^$third-party
 ||cb3a316b81.com^$third-party
 ||cba-fed-igh.com^$third-party
+||cbanners.virtuagirlhd.com^$third-party
 ||cbbvi.com^$third-party
 ||cbce918a9d.com^$third-party
 ||cbckftoaakcye.website^$third-party
@@ -8901,6 +9055,7 @@
 ||cdn.optimizely.com^$third-party
 ||cdn.optmn.cloud^$third-party
 ||cdn.polarbyte.com^$third-party
+||cdn.rgrd.xyz^$third-party
 ||cdn.rlets.com^$third-party
 ||cdn.segment.com^$third-party
 ||cdn.sphinxtube.com^$third-party
@@ -9055,6 +9210,7 @@
 ||cerineas.com^$third-party
 ||certainwolveshonestly.com^$third-party
 ||certifica.com^$third-party
+||certified-toolbar.com^$third-party
 ||certifiedblob.com^$third-party
 ||certona.com^$third-party
 ||certona.net^$third-party
@@ -9169,6 +9325,7 @@
 ||changenow.ing^$third-party
 ||changepowder.xyz^$third-party
 ||chango.com^$third-party
+||channelcamp.com^$third-party
 ||channelintelligence.com^$third-party
 ||chapturnjut.com^$third-party
 ||characteristicattractcheeky.com^$third-party
@@ -9251,6 +9408,7 @@
 ||cherriesprospectsfaith.com^$third-party
 ||chessbranch.com^$third-party
 ||chesscolor.com^$third-party
+||chessquery.com^$third-party
 ||chesssorrydescend.com^$third-party
 ||chestgoingpunch.com^$third-party
 ||chethgentman.live^$third-party
@@ -9405,6 +9563,7 @@
 ||civilactually.com^$third-party
 ||civilchop.com^$third-party
 ||ciwswcooilzwj.space^$third-party
+||ciwvcyquvosr.in^$third-party
 ||ciyxejfqrtvqq.site^$third-party
 ||cj.com^$third-party
 ||cj2550.com^$third-party
@@ -9475,6 +9634,7 @@
 ||clannotillortale.com^$third-party
 ||claria.com^$third-party
 ||clarice.streema.com^$third-party
+||clarifyverse.com^$third-party
 ||clarinmeanest.com^$third-party
 ||clarity.abacast.com^$third-party
 ||clarity.ms^$third-party
@@ -9487,6 +9647,7 @@
 ||claudiamesion.cfd^$third-party
 ||clb.yahoo.co.jp^$third-party
 ||clbaf.com^$third-party
+||clbanners16.com^$third-party
 ||clbjmp.com^$third-party
 ||clc.stackoverflow.com^$third-party
 ||clck.yandex.com^$third-party
@@ -9838,9 +9999,11 @@
 ||cmluvhnnxwlw.com^$third-party
 ||cmmeglobal.com^$third-party
 ||cmmwpkihpyefy.website^$third-party
+||cmnb7ew57uu38o.cfd^$third-party
 ||cmorautniwdao.space^$third-party
 ||cmp.dreamlab.pl^$third-party
 ||cmpamyyqdgth.com^$third-party
+||cmptch.com^$third-party
 ||cmptphyupeflf.site^$third-party
 ||cmrdr.com^$third-party
 ||cms.grandcloud.cn^$third-party
@@ -9965,6 +10128,7 @@
 ||coinhive.com^$third-party
 ||coinimp.com^$third-party
 ||coinimp.net^$third-party
+||coinlab.biz^$third-party
 ||coinnebula.com^$third-party
 ||coinpirate.cf^$third-party
 ||coinpot.co^$third-party
@@ -10147,6 +10311,7 @@
 ||common-sing.com^$third-party
 ||common-smile.pro^$third-party
 ||common.duapps.com^$third-party
+||commonalmanac.com^$third-party
 ||commonvivacious.com^$third-party
 ||commonwealthgroovemadam.com^$third-party
 ||commonwealthproficient.com^$third-party
@@ -10232,6 +10397,7 @@
 ||conditioncrush.com^$third-party
 ||conditioneavesdroppingbarter.com^$third-party
 ||condles-temark.com^$third-party
+||condolencessumcomics.com^$third-party
 ||conds.ru^$third-party
 ||conductmassage.com^$third-party
 ||conductrics.com^$third-party
@@ -10313,6 +10479,7 @@
 ||consistspouchrowan.com^$third-party
 ||console.uxlens.com^$third-party
 ||consolevolcano.com^$third-party
+||consortcyclist.cfd^$third-party
 ||constantlyauthoritativegradually.com^$third-party
 ||constellation3x.fun^$third-party
 ||consternationeffaceearlier.com^$third-party
@@ -10360,7 +10527,6 @@
 ||contentclick.co.uk^$third-party
 ||contentexchange.me^$third-party
 ||contentinsights.com^$third-party
-||contentlockingnetworks.com^$third-party
 ||contentmayinterest.com^$third-party
 ||contentproxy10.cz^$third-party
 ||contents-search-windows.com^$third-party
@@ -10511,6 +10677,7 @@
 ||corporateeveningsyawn.com^$third-party
 ||corpsenoodleflakes.com^$third-party
 ||corpulentperjury.com^$third-party
+||correctdialperch.com^$third-party
 ||correctdilutetrophy.com^$third-party
 ||correctlynow.com^$third-party
 ||correlationcocktailinevitably.com^$third-party
@@ -10651,6 +10818,7 @@
 ||cowardlydefinite.com^$third-party
 ||cowardlyvitaljoggle.com^$third-party
 ||cowardsagrias.com^$third-party
+||cowbaneklepticvet.qpon^$third-party
 ||cowbelltime.com^$third-party
 ||cowerretortnineteen.com^$third-party
 ||coxiesthubble.com^$third-party
@@ -10661,6 +10829,7 @@
 ||cozbxsxralcxd.website^$third-party
 ||coziesmaltman.com^$third-party
 ||cozigplpxpcih.site^$third-party
+||cozydusk.com^$third-party
 ||cozyforestglade.com^$third-party
 ||cozyhillside.com^$third-party
 ||cozytryst.com^$third-party
@@ -10792,6 +10961,7 @@
 ||crashlytics.163.com^$third-party
 ||crashlytics.com^$third-party
 ||cratecamera.com^$third-party
+||craterbox.com^$third-party
 ||cratestable.com^$third-party
 ||craurxxwkhbup.space^$third-party
 ||crawlability.com^$third-party
@@ -10962,6 +11132,7 @@
 ||crowdscience.com^$third-party
 ||crowdstrike0day.com^$third-party
 ||crowdstrikefix.zip^$third-party
+||crowdstrikeupdate.com^$third-party
 ||crowdsubsequentadmire.com^$third-party
 ||crowdsuitcaseuntwist.com^$third-party
 ||crowdsynonym.com^$third-party
@@ -11199,6 +11370,7 @@
 ||curiositycognition.com^$third-party
 ||curiositycow.com^$third-party
 ||curious-contraptions.com^$third-party
+||curiouschalk.com^$third-party
 ||curioushingefast.com^$third-party
 ||curiouslyplanning.com^$third-party
 ||curiousmetal.com^$third-party
@@ -11212,6 +11384,7 @@
 ||currentreared.com^$third-party
 ||curriculture.com^$third-party
 ||curriculumoutcry.com^$third-party
+||curryfielddistribution.com^$third-party
 ||cursednomad.com^$third-party
 ||cursorpreach.com^$third-party
 ||curtaincows.com^$third-party
@@ -11344,7 +11517,6 @@
 ||cygnus.com^$third-party
 ||cyhanjealyojs.space^$third-party
 ||cyiihoobjuxlx.space^$third-party
-||cylenceprotect.com^$third-party
 ||cylindrical-inevitable.pro^$third-party
 ||cylindrical-leg.pro^$third-party
 ||cylindrical-occasion.com^$third-party
@@ -12525,7 +12697,6 @@
 ||daboovip.xyz^$third-party
 ||dabyhxomoomivf.com^$third-party
 ||daccroi.com^$third-party
-||dacounter.com^$third-party
 ||daddyobesity.com^$third-party
 ||dadispapi.gmarket.co.kr^$third-party
 ||dadqcuxqdnecx.space^$third-party
@@ -12538,7 +12709,6 @@
 ||daftarfilles.shop^$third-party
 ||dagcoin.org^$third-party
 ||dagd0kz7sipfl.cloudfront.net^$third-party
-||dagnar.com^$third-party
 ||dagrtenihca.in^$third-party
 ||dahkexes.com^$third-party
 ||daicoaky.net^$third-party
@@ -12994,6 +13164,7 @@
 ||deepretainer.com^$third-party
 ||deepsathegoh.com^$third-party
 ||deepz.cyou^$third-party
+||deerbeginner.com^$third-party
 ||deerflybeefier.cfd^$third-party
 ||def-platform.com^$third-party
 ||defeatedbadge.com^$third-party
@@ -13057,7 +13228,6 @@
 ||deliriousglowing.com^$third-party
 ||deliriumswarthybeginner.com^$third-party
 ||deliv12.com^$third-party
-||deliver.ads2.iid.jp^$third-party
 ||deliver.ptgncdn.com^$third-party
 ||deliverancesurveillance.com^$third-party
 ||delivercolkept.com^$third-party
@@ -13079,6 +13249,7 @@
 ||delqphfqgnrty.online^$third-party
 ||deltaction.com^$third-party
 ||deltadna.net^$third-party
+||deltafault.com^$third-party
 ||deltraff.com^$third-party
 ||delugerefluxunpinned.com^$third-party
 ||delusionalrevolt.com^$third-party
@@ -13150,6 +13321,7 @@
 ||depleterefutation.com^$third-party
 ||deployads.com^$third-party
 ||depmestiza.com^$third-party
+||deponedyakin.cfd^$third-party
 ||depreciatorybollocksupkitchen.com^$third-party
 ||deprivationperkcorrectly.com^$third-party
 ||depriverippledecadence.com^$third-party
@@ -13416,6 +13588,7 @@
 ||digitaloptout.com^$third-party
 ||digitaltarget.ru^$third-party
 ||digitalthrottle.com^$third-party
+||digitechbilisim.com^$third-party
 ||digitru.st^$third-party
 ||digreality.com^$third-party
 ||digubpgjkdmsl.website^$third-party
@@ -13956,6 +14129,7 @@
 ||dolarkurum.com^$third-party
 ||doledbasalts.qpon^$third-party
 ||dolekaraokeoversleep.com^$third-party
+||dollarthrill.com^$third-party
 ||dollishreman.com^$third-party
 ||dollshuttlebirthday.com^$third-party
 ||dollylarkjeweller.com^$third-party
@@ -14073,8 +14247,10 @@
 ||dovecyton.com^$third-party
 ||dovishliegier.com^$third-party
 ||dowarmhugo.com^$third-party
+||dowdenphotography.com^$third-party
 ||dowerlesssightseehow.com^$third-party
 ||dowerycleared.com^$third-party
+||down1oads.com^$third-party
 ||downknottily.com^$third-party
 ||download-stats.mozilla.org^$third-party
 ||downloadboutique.com^$third-party
@@ -14166,7 +14342,9 @@
 ||dr6su5ow3i7eo.cloudfront.net^$third-party
 ||dr6vcclmzwk74.cloudfront.net^$third-party
 ||dra.amazon-adsystem.com^$third-party
+||drab-week.com^$third-party
 ||drabimprovement.com^$third-party
+||dradvice.in^$third-party
 ||dragonarmaturedisguise.com^$third-party
 ||dragonbats.com^$third-party
 ||dragonflyproblemsubway.com^$third-party
@@ -14453,6 +14631,7 @@
 ||dumedia.ru^$third-party
 ||dumkrizshgtse.website^$third-party
 ||dummyimpostorluke.com^$third-party
+||dungsfilmer.qpon^$third-party
 ||dunkashtraycolloquial.com^$third-party
 ||dunkersslavian.cfd^$third-party
 ||duntsariste.qpon^$third-party
@@ -14468,6 +14647,7 @@
 ||duregqgfvravp.space^$third-party
 ||durhbvlfkhnln.store^$third-party
 ||duringcereal.com^$third-party
+||durinsmine.com^$third-party
 ||dusfolzrshwgf.online^$third-party
 ||dust-0001.delorazahnow.workers.dev^$third-party
 ||dustexhibition.com^$third-party
@@ -14754,6 +14934,7 @@
 ||ea.millet.fr^$third-party
 ||ea.rentacar.fr^$third-party
 ||ea.venta-unica.com^$third-party
+||ea.vente-unique.be^$third-party
 ||ea.vente-unique.ch^$third-party
 ||ea.vente-unique.com^$third-party
 ||ea.warnerbros.fr^$third-party
@@ -14769,6 +14950,7 @@
 ||eadv.it^$third-party
 ||eadziukwqzeeb.space^$third-party
 ||eaeiacjiwsufg.site^$third-party
+||eagerflame.com^$third-party
 ||eagerknight.com^$third-party
 ||eagerlycuisinecast.com^$third-party
 ||eagerpossibility.pro^$third-party
@@ -14834,6 +15016,7 @@
 ||easyhits4u.com^$third-party
 ||easyjoy.me^$third-party
 ||easylummos.com^$third-party
+||easyrecoverychina.com^$third-party
 ||easyresearch.se^$third-party
 ||easysemblyjusti.com^$third-party
 ||easysemblyjusti.info^$third-party
@@ -14860,6 +15043,7 @@
 ||ebdyinhalj.com^$third-party
 ||ebeca096c8caf9bd59163307d4237176.com^$third-party
 ||ebemgieytjkxb.space^$third-party
+||ebenayes.shop^$third-party
 ||ebesucher.de^$third-party
 ||ebetoni.com^$third-party
 ||ebevdidgdjmhf.website^$third-party
@@ -14935,6 +15119,7 @@
 ||ecstasycluttergnat.com^$third-party
 ||ecstaticreveal.pro^$third-party
 ||ectedithconsuk.com^$third-party
+||ectozoaquagga.top^$third-party
 ||ectsofcukorpor.com^$third-party
 ||ectuklyeconen.com^$third-party
 ||ecustomeropinions.com^$third-party
@@ -15074,6 +15259,7 @@
 ||effectuallyconceptcontinuous.com^$third-party
 ||effeminatefilletlively.com^$third-party
 ||effervescentcoral.com^$third-party
+||efficaciouscactus.com^$third-party
 ||efficientorbit.co^$third-party
 ||effluveputting.com^$third-party
 ||efforlessefforlessunited.com^$third-party
@@ -15095,6 +15281,7 @@
 ||efully.info^$third-party
 ||efwukoulnhdluki.org^$third-party
 ||efyufxhdgwbkg.online^$third-party
+||eg719pc8yiruec.cfd^$third-party
 ||egamingonline.com^$third-party
 ||egamiplatform.tv^$third-party
 ||egaxybiqeramc.space^$third-party
@@ -15113,6 +15300,7 @@
 ||egoismillogicaldegradation.com^$third-party
 ||egopiyqfyhuvf.site^$third-party
 ||egori.xyz^$third-party
+||egotisticexcavateplywood.com^$third-party
 ||egpdbp6e.de^$third-party
 ||egpealygnhgue.online^$third-party
 ||egpjxotlbzauy.online^$third-party
@@ -15237,6 +15425,7 @@
 ||ekvoffgfhdtoj.website^$third-party
 ||ekxtrafcewyww.store^$third-party
 ||ekxuwignogvdd.site^$third-party
+||ekylehxfxqgb.com^$third-party
 ||ekyngoyzuutls.website^$third-party
 ||ekzyqldtqnnth.online^$third-party
 ||elaborate-fan.pro^$third-party
@@ -15274,6 +15463,7 @@
 ||elegancecharacter.com^$third-party
 ||elegant-plate.pro^$third-party
 ||elegant-twist.pro^$third-party
+||elegantboulevard.com^$third-party
 ||elegantdescription.com^$third-party
 ||elegantimpose.com^$third-party
 ||elegantstatus.pro^$third-party
@@ -15309,8 +15499,10 @@
 ||elogiado.info^$third-party
 ||elonreptiloid.com^$third-party
 ||eloqua.com^$third-party
+||eloquatracking.iqvia.com^$third-party
 ||eloquentgossipold.com^$third-party
 ||elpsirftovofi.space^$third-party
+||elqtracking.strayer.edu^$third-party
 ||elrbdrumbzgpx.online^$third-party
 ||elsaidthecharit.com^$third-party
 ||elsdtrjtgmohro.com^$third-party
@@ -15346,6 +15538,7 @@
 ||embeddedoxide.com^$third-party
 ||embedone.com^$third-party
 ||embedx.name^$third-party
+||embellishedmeadow.com^$third-party
 ||embezzlementclearedbake.com^$third-party
 ||embitterlorrycar.com^$third-party
 ||emblemexceptionscorer.com^$third-party
@@ -15377,6 +15570,7 @@
 ||eminentconsideringdestructive.com^$third-party
 ||eminentcopy.pro^$third-party
 ||eminentdetail.com^$third-party
+||eminentend.com^$third-party
 ||emissionidiompolygon.com^$third-party
 ||emitprocured.com^$third-party
 ||emjcd.com^$third-party
@@ -15549,6 +15743,7 @@
 ||enraged-moment.pro^$third-party
 ||enrageobesejan.com^$third-party
 ||enrageperplexparable.com^$third-party
+||enraptureminims.com^$third-party
 ||enrtx.com^$third-party
 ||enryiblhcp.com^$third-party
 ||ensaidhethisi.org^$third-party
@@ -15568,6 +15763,7 @@
 ||enthronediscovering.com^$third-party
 ||enthusiasticfibreassembly.com^$third-party
 ||enthusiasticinsanity.com^$third-party
+||enthusiastictemper.com^$third-party
 ||entire-positive.com^$third-party
 ||entiremain.com^$third-party
 ||entitlements.jwplayer.com^$third-party
@@ -15738,6 +15934,7 @@
 ||ergonomicparadeupstroke.com^$third-party
 ||erhkyebogpkfk.online^$third-party
 ||erhlyvjhetcad.online^$third-party
+||erhmonnbkxg.com^$third-party
 ||erionoxcintene.com^$third-party
 ||eriuregkbzrbf.online^$third-party
 ||eriverwasquitefu.com^$third-party
@@ -15878,6 +16075,7 @@
 ||ethecityonatallcolu.org^$third-party
 ||ethena.online^$third-party
 ||etheniccoarsen.com^$third-party
+||etherealbamboo.com^$third-party
 ||ethereum-cashcard.com^$third-party
 ||ethereum-pocket.com^$third-party
 ||ethfw0370q.com^$third-party
@@ -16127,9 +16325,9 @@
 ||evokehomeforge.com^$third-party
 ||evokeinexpedientfastened.com^$third-party
 ||evolvemediallc.com^$third-party
-||evolvemediametrics.com^$third-party
 ||evolvenation.com^$third-party
 ||evopmncakdrrg.site^$third-party
+||evoxkfhgcg.com^$third-party
 ||evrqojoallxal.com^$third-party
 ||evs.sgmt.loom.com^$third-party
 ||evt-api.ntm.eu^$third-party
@@ -16203,6 +16401,7 @@
 ||exchange.bg^$third-party
 ||exchangead.com^$third-party
 ||exchangeclicksonline.com^$third-party
+||excidekombu.com^$third-party
 ||excitableknee.com^$third-party
 ||excitableminor.com^$third-party
 ||excitablepass.com^$third-party
@@ -16324,6 +16523,7 @@
 ||ext-offer.com^$third-party
 ||ext.goguardian.com^$third-party
 ||ext.host-tracker.com^$third-party
+||ext.movixhub.com^$third-party
 ||extend.tv^$third-party
 ||extendedcontaminaterigorous.com^$third-party
 ||extendingreversionmotorcycle.com^$third-party
@@ -16599,6 +16799,7 @@
 ||farmergoldfish.com^$third-party
 ||farnessowenian.cyou^$third-party
 ||farriercategoryidentifier.com^$third-party
+||farshake.com^$third-party
 ||faselsdoilies.cfd^$third-party
 ||fashionedstrengthen.com^$third-party
 ||faskaxpmuwzooo.com^$third-party
@@ -16730,6 +16931,7 @@
 ||fczlatan.net^$third-party
 ||fd.bawag.at^$third-party
 ||fd2722b11f.com^$third-party
+||fd5237eac5.com^$third-party
 ||fdbdzwnpffxcg.space^$third-party
 ||fdbepwymahhfi.website^$third-party
 ||fdbxvbmowcgxu.space^$third-party
@@ -16752,6 +16954,7 @@
 ||fe8171c761.com^$third-party
 ||feableandworld.com^$third-party
 ||feadrope.net^$third-party
+||fearfulfish.com^$third-party
 ||fearinvulnerablediagnosis.com^$third-party
 ||fearless-discipline.com^$third-party
 ||fearlessfaucet.com^$third-party
@@ -17003,7 +17206,7 @@
 ||filament-stats.herokuapp.com^$third-party
 ||filamentthree.com^$third-party
 ||filasofighit.com^$third-party
-||file.uhsea.com^$third-party
+||file.autoads.asia^$third-party
 ||filetarget.com^$third-party
 ||filetarget.net^$third-party
 ||filezilla.fr^$third-party
@@ -17029,6 +17232,7 @@
 ||fimwawolgc.in^$third-party
 ||fin.ovh^$third-party
 ||finalizeforce.com^$third-party
+||finance-hot-news.com^$third-party
 ||financialfadinglobster.com^$third-party
 ||financiallyawelessaweless.com^$third-party
 ||financialwagerepel.com^$third-party
@@ -17078,11 +17282,13 @@
 ||fireworkadservices.com^$third-party
 ||fireworkadservices1.com^$third-party
 ||fireworkanalytics.com^$third-party
+||fireworkapi1.com^$third-party
 ||fireworkswad.com^$third-party
 ||firm-twist.com^$third-party
 ||firmnasty.pro^$third-party
 ||firmwarrior.com^$third-party
 ||first-rate.com^$third-party
+||firstclass-download.com^$third-party
 ||firstclick.pro^$third-party
 ||firsthandhall.com^$third-party
 ||firsthandlake.com^$third-party
@@ -17094,6 +17300,7 @@
 ||firvmamosigpu.website^$third-party
 ||fisddlapfuife.website^$third-party
 ||fishermanwithavenge.com^$third-party
+||fishersfinds.com^$third-party
 ||fishfulraylet.com^$third-party
 ||fishinghandcuff.com^$third-party
 ||fishingslaplobby.com^$third-party
@@ -17278,6 +17485,7 @@
 ||flmpufjijzyua.store^$third-party
 ||floatingpresentedshopping.com^$third-party
 ||flocfusxiquiz.store^$third-party
+||floitcarites.com^$third-party
 ||floodinglivestock.com^$third-party
 ||floodingonion.com^$third-party
 ||floodprincipal.com^$third-party
@@ -17289,9 +17497,11 @@
 ||flossiegorcrow.com^$third-party
 ||flounderaway.com^$third-party
 ||flourishexcellent.com^$third-party
+||flourishingendeavor.com^$third-party
 ||flourishinginnovation.com^$third-party
 ||flourishingscreencousin.com^$third-party
 ||flourpeacefully.com^$third-party
+||flowersornament.com^$third-party
 ||flowerstreatment.com^$third-party
 ||floweryfact.com^$third-party
 ||floweryflavor.com^$third-party
@@ -17307,6 +17517,7 @@
 ||flrdra.com^$third-party
 ||fls.doubleclick.net^$third-party
 ||flsrv.net^$third-party
+||flstudiochina.com^$third-party
 ||flteenqcxtpsv.online^$third-party
 ||fltncahdyfesx.online^$third-party
 ||fluavildemist.com^$third-party
@@ -17338,7 +17549,6 @@
 ||flx1.com^$third-party
 ||flxpxl.com^$third-party
 ||flycast.com^$third-party
-||flyermobi.com^$third-party
 ||flygame.io^$third-party
 ||flygo.ru^$third-party
 ||flyingadvert.com^$third-party
@@ -17390,6 +17600,7 @@
 ||foabswdfevcae.site^$third-party
 ||foaglaid.xyz^$third-party
 ||foaltax.com^$third-party
+||foambench.com^$third-party
 ||foapsovi.net^$third-party
 ||focas.jp^$third-party
 ||focusedcountry.pro^$third-party
@@ -17450,6 +17661,7 @@
 ||foomaque.net^$third-party
 ||footbathmockerpurse.com^$third-party
 ||footerfont.com^$third-party
+||footfulsprier.qpon^$third-party
 ||footholdmummifytwig.com^$third-party
 ||footingtrustworthynominal.com^$third-party
 ||footnote.com^$third-party
@@ -17487,6 +17699,7 @@
 ||forestsdilapidation.com^$third-party
 ||foreststobaccodecember.com^$third-party
 ||foretasteailnod.com^$third-party
+||foretellfifth.com^$third-party
 ||forethema.com^$third-party
 ||forevergears.com^$third-party
 ||forex-affiliate.net^$third-party
@@ -17743,7 +17956,9 @@
 ||frhaelmqfuudc.website^$third-party
 ||frhcqkaqcqldu.space^$third-party
 ||fridayrefractscorer.com^$third-party
+||friendlycrayon.com^$third-party
 ||friendlyduck.com^$third-party
+||friendlyfold.com^$third-party
 ||friendlyraise.com^$third-party
 ||friendsfrozen.com^$third-party
 ||friendshipclumsy.com^$third-party
@@ -18000,6 +18215,7 @@
 ||fuwin.cyou^$third-party
 ||fuwin.sbs^$third-party
 ||fuwn782kk.alphaporno.com^$third-party
+||fuxebyuppui.com^$third-party
 ||fuybwvvhmdtrh.website^$third-party
 ||fuzzy-witness.pro^$third-party
 ||fuzzybasketball.com^$third-party
@@ -18100,7 +18316,6 @@
 ||fywejdwwxuygc.website^$third-party
 ||fyxhvdyjwyilg.space^$third-party
 ||fyxkcsmxg.com^$third-party
-||fyxm.net^$third-party
 ||fyxxmiwaavpqa.com^$third-party
 ||fyzoqppdyllsr.store^$third-party
 ||fzaatqzkent.com^$third-party
@@ -18122,7 +18337,6 @@
 ||fzysfcwetnwid.site^$third-party
 ||fzyvvgyd.com^$third-party
 ||g--o.info^$third-party
-||g-content.bid^$third-party
 ||g-stats.openhost.es^$third-party
 ||g.adspeed.net^$third-party
 ||g.doubleclick.net^$third-party
@@ -18530,6 +18744,7 @@
 ||getsthis.com^$third-party
 ||gettraffnews.com^$third-party
 ||getui.com^$third-party
+||getwagtail.com^$third-party
 ||getwptag.org^$third-party
 ||getxmlisi.com^$third-party
 ||getyourapp.info^$third-party
@@ -18549,6 +18764,7 @@
 ||gfarjbjemnjog.space^$third-party
 ||gfbjcjdbfh.com^$third-party
 ||gfbxsoxbywqvp.store^$third-party
+||gfdfhdh5t5453.com^$third-party
 ||gfdpjfngu.com^$third-party
 ||gff660fg.xyz^$third-party
 ||gffoycbmmfptr.space^$third-party
@@ -18629,6 +18845,7 @@
 ||gi-client-tracking.goodgamestudios.com^$third-party
 ||gialamebxneob.space^$third-party
 ||giantaffiliates.com^$third-party
+||gianthypes.com^$third-party
 ||giaythethaonuhcm.com^$third-party
 ||giberedaub.cyou^$third-party
 ||gicovqmuh.in^$third-party
@@ -18687,6 +18904,7 @@
 ||giswygovfhdym.online^$third-party
 ||git55share.autos^$third-party
 ||gitajwl.com^$third-party
+||gitcrumbs.com^$third-party
 ||gitoku.com^$third-party
 ||gitoxgmnnauiz.space^$third-party
 ||givawknyjaexj.online^$third-party
@@ -18760,6 +18978,7 @@
 ||glaiwhee.net^$third-party
 ||glam.com^$third-party
 ||glamipixel.com^$third-party
+||glamorous-mail.com^$third-party
 ||glamorousconditionsattempt.com^$third-party
 ||glamoroustangiblematching.com^$third-party
 ||glance.inmobi.com^$third-party
@@ -18827,6 +19046,7 @@
 ||gloaphoo.net^$third-party
 ||gloatqueen.com^$third-party
 ||globaladblocker.com^$third-party
+||globaladblocker.net^$third-party
 ||globaladmedia.com^$third-party
 ||globaladmedia.net^$third-party
 ||globaladsales.com^$third-party
@@ -18869,6 +19089,7 @@
 ||gloutanacard.com^$third-party
 ||glovedmenaced.shop^$third-party
 ||glowdot.com^$third-party
+||glowingmeadow.com^$third-party
 ||glowingnews.com^$third-party
 ||glqmnlrtncjni.website^$third-party
 ||glqomjkpepqam.site^$third-party
@@ -18993,6 +19214,7 @@
 ||goagpwzflvpnx.online^$third-party
 ||goaserv.com^$third-party
 ||goasrv.com^$third-party
+||goat.cx^$third-party
 ||goat.tailspace.net^$third-party
 ||goathaga.top^$third-party
 ||goatsalmighty.com^$third-party
@@ -19074,6 +19296,7 @@
 ||googie-anaiytics.com^$third-party
 ||googjfbg.com^$third-party
 ||google-ads.hara.vn^$third-party
+||google-analyticals.com^$third-party
 ||google-analytics-cn.com^$third-party
 ||google-analytics.bi.owox.com^$third-party
 ||google-analytics.com^$third-party
@@ -19267,6 +19490,7 @@
 ||gravenesswomanlesszestfully.com^$third-party
 ||graveuniversalapologies.com^$third-party
 ||gravitationtaxpayer.com^$third-party
+||gravitykick.com^$third-party
 ||gravyhuman.com^$third-party
 ||grayedmellit.com^$third-party
 ||grayfelicity.com^$third-party
@@ -19312,6 +19536,7 @@
 ||grepeiros.com^$third-party
 ||gretalimbas.com^$third-party
 ||greyaxgqpraqj.website^$third-party
+||greygrid.net^$third-party
 ||greystripe.com^$third-party
 ||grfhpefgerqijoj.com^$third-party
 ||grfpr.com^$third-party
@@ -19426,6 +19651,7 @@
 ||grumphylocn.shop^$third-party
 ||grumpkali.com^$third-party
 ||grumpyhopesucceeding.com^$third-party
+||grupif.com^$third-party
 ||gruponn.com^$third-party
 ||gruvfidud.in^$third-party
 ||grvayuaccatti.space^$third-party
@@ -19511,6 +19737,7 @@
 ||gudinni-cortina.com^$third-party
 ||guecqeemconot.online^$third-party
 ||guehsgqmawega.online^$third-party
+||guessdetail.com^$third-party
 ||guestconspiracy.com^$third-party
 ||gugcxdrdxe.com^$third-party
 ||gughkbhwynapy.website^$third-party
@@ -19526,7 +19753,9 @@
 ||guiltymince.com^$third-party
 ||guitarinterim.com^$third-party
 ||guitarmist.com^$third-party
+||guitarpro.cc^$third-party
 ||guiwoavjwwovp.online^$third-party
+||gujarkyanisenetbush.cyou^$third-party
 ||gujqjoqszgwkv.online^$third-party
 ||gukahdbam.com^$third-party
 ||gukzebkckkvxv.website^$third-party
@@ -19823,6 +20052,7 @@
 ||harassingknack.com^$third-party
 ||harassmentparttimenail.com^$third-party
 ||harborcaption.com^$third-party
+||harborcub.com^$third-party
 ||harborjavgg124.fun^$third-party
 ||harbourbreederdump.com^$third-party
 ||hard-midnight.com^$third-party
@@ -19861,6 +20091,7 @@
 ||hashing.win^$third-party
 ||hashnest.com^$third-party
 ||hashzone.io^$third-party
+||hasteb.in^$third-party
 ||hastediminutiondoes.com^$third-party
 ||hasteinternaladulatory.com^$third-party
 ||hastenassume.com^$third-party
@@ -20091,6 +20322,7 @@
 ||helmsuction.com^$third-party
 ||helpcollar.com^$third-party
 ||helpertesthome.com^$third-party
+||helpflame.com^$third-party
 ||helplessdecision.pro^$third-party
 ||helvellreest.com^$third-party
 ||hem41xm47.com^$third-party
@@ -20112,6 +20344,7 @@
 ||heqipjkwjhnnn.online^$third-party
 ||herbalaffiliateprogram.com^$third-party
 ||herdessdefacto.cfd^$third-party
+||herdethi.net^$third-party
 ||herdpiteousextensive.com^$third-party
 ||herdutmostslush.com^$third-party
 ||heremstethal.cfd^$third-party
@@ -20238,6 +20471,7 @@
 ||hibids10.com^$third-party
 ||hiboowbrkegop.site^$third-party
 ||hiconversion.com^$third-party
+||hicpm10.com^$third-party
 ||hicrqskneechm.website^$third-party
 ||hidcolouredclink.com^$third-party
 ||hidden-fortune.pro^$third-party
@@ -20319,6 +20553,7 @@
 ||hipals.com^$third-party
 ||hippaqueans.qpon^$third-party
 ||hippobulse.com^$third-party
+||hippojump.com^$third-party
 ||hiprofitnetworks.com^$third-party
 ||hiqjgqdjkv.com^$third-party
 ||hireaphotostudio.com^$third-party
@@ -20499,6 +20734,7 @@
 ||hnfuvjqpmzzey.website^$third-party
 ||hnhgbcod.com^$third-party
 ||hnhmwvomvllai.website^$third-party
+||hnixr.com^$third-party
 ||hnizzwyxyqcfa.online^$third-party
 ||hnkiigrfygpcw.space^$third-party
 ||hnmonkedguxxl.website^$third-party
@@ -20573,7 +20809,6 @@
 ||hollowdoodleevent.com^$third-party
 ||hollowsuspicion.com^$third-party
 ||hollymediaa.biz^$third-party
-||holm.ru^$third-party
 ||holtonrobotics.org^$third-party
 ||holuagency.top^$third-party
 ||homeeshbecom.org^$third-party
@@ -20602,6 +20837,7 @@
 ||honeywhyvowel.com^$third-party
 ||honorable-responsibility.pro^$third-party
 ||honorablegiven.com^$third-party
+||honorablehydrant.com^$third-party
 ||honorableland.com^$third-party
 ||honoredcandy.pro^$third-party
 ||honourcountry.com^$third-party
@@ -20699,6 +20935,7 @@
 ||hotloss.com^$third-party
 ||hotrank.com.tw^$third-party
 ||hotsoz.com^$third-party
+||hottest-girls-online.com^$third-party
 ||hottiecwm.shop^$third-party
 ||hotwords.com^$third-party
 ||hotwords.es^$third-party
@@ -20906,15 +21143,18 @@
 ||hugysoral.digital^$third-party
 ||huhwryctykitp.space^$third-party
 ||huichuan.sm.cn^$third-party
+||huishenghuiying.com.cn^$third-party
 ||huiwiw.hit.gemius.pl^$third-party
 ||hujvbvdwewxmwe.com^$third-party
 ||hukelpfulinotaherer.org^$third-party
 ||hukxatzhoxsa.com^$third-party
 ||huldahimpends.com^$third-party
+||huluads.info^$third-party
 ||humanitydisciplinaryhire.com^$third-party
 ||humble-gap.com^$third-party
 ||humblemotor.pro^$third-party
 ||humblestress.com^$third-party
+||humdrumhobbies.com^$third-party
 ||humflingenmity.com^$third-party
 ||humhpdxpqau.com^$third-party
 ||humiliatedbreeches.com^$third-party
@@ -21245,6 +21485,7 @@
 ||icmxqeeivfzgo.site^$third-party
 ||icoccxiqkf.com^$third-party
 ||icon.cnzz.com^$third-party
+||iconworkshop.cn^$third-party
 ||icowhojcnqnuz.space^$third-party
 ||icptrack.com^$third-party
 ||icqpgnbeifefi.website^$third-party
@@ -21493,6 +21734,7 @@
 ||ikikigxywqcrf.site^$third-party
 ||ikkakvnicwguw.store^$third-party
 ||iklandenpasar.com^$third-party
+||iklanoke.com^$third-party
 ||iklantext.com^$third-party
 ||ikquaycaaygib.space^$third-party
 ||ikqvpmwq.com^$third-party
@@ -21563,6 +21805,7 @@
 ||imageadvantage.net^$third-party
 ||imagecash.net^$third-party
 ||imagecutie.com^$third-party
+||imagehost.pics^$third-party
 ||imagehub.fun^$third-party
 ||imagenest.site^$third-party
 ||images-pw.secureserver.net^$third-party
@@ -21584,8 +21827,10 @@
 ||imcdn.pro^$third-party
 ||imdprmebrbbbq.space^$third-party
 ||imedia.cz^$third-party
+||imediaaudiences.com^$third-party
 ||imeto.site^$third-party
 ||imfuuvpqartcd.space^$third-party
+||img.clicksagent.com^$third-party
 ||img.prohardver.hu^$third-party
 ||img1.126.net^$third-party
 ||imgfeedget.com^$third-party
@@ -21609,6 +21854,7 @@
 ||imitrk.com^$third-party
 ||imjprkvybgfdw.space^$third-party
 ||imkirh.com^$third-party
+||imllsarrrcrw.com^$third-party
 ||immaculatehighlight.com^$third-party
 ||immakingallthisup.com^$third-party
 ||immanalytics.com^$third-party
@@ -21720,6 +21966,7 @@
 ||impseeineclots.com^$third-party
 ||impugkpbilveh.website^$third-party
 ||impulscrescente-fr.com^$third-party
+||impulsejewel.com^$third-party
 ||impurehomework.pro^$third-party
 ||impureleg.com^$third-party
 ||impurepath.com^$third-party
@@ -21736,6 +21983,7 @@
 ||imvhdbrqenr.com^$third-party
 ||imwppbluqkaql.space^$third-party
 ||imyanmarads.com^$third-party
+||imzahrwl.xyz^$third-party
 ||in-appadvertising.com^$third-party
 ||in-page-push.com^$third-party
 ||in-page-push.net^$third-party
@@ -22191,6 +22439,7 @@
 ||intricatewhilevertically.com^$third-party
 ||introductionnorthern.com^$third-party
 ||introjava.com^$third-party
+||intrudeimpolitetortoise.com^$third-party
 ||intrustedzone.site^$third-party
 ||intuitionlastly.com^$third-party
 ||inumbreonr.com^$third-party
@@ -22203,6 +22452,7 @@
 ||invariableapathy.com^$third-party
 ||invasiondiscipleburglary.com^$third-party
 ||invduqcmezfzv.online^$third-party
+||inventtango.com^$third-party
 ||investalepregnancy.com^$third-party
 ||investbooking.de^$third-party
 ||investhash.com^$third-party
@@ -22310,6 +22560,8 @@
 ||ipiujzmrpltid.site^$third-party
 ||ipjwhkkpeoxk.com^$third-party
 ||ipkdrprroqqzj.website^$third-party
+||iplogger.com^$third-party
+||iplogger.ru^$third-party
 ||iplrzphyynhbe.website^$third-party
 ||ipmoyu.com^$third-party
 ||ipmwxckqtnapb.website^$third-party
@@ -22328,12 +22580,14 @@
 ||iptautup.com^$third-party
 ||iptnljjxlqe.com^$third-party
 ||iptvqiahamw.com^$third-party
+||ipvhrmk5toxhur659kte.cfd^$third-party
 ||ipvosaljgwqkeh.com^$third-party
 ||ipwfxgwjrlrfa.site^$third-party
 ||ipyolmutfxlsv.website^$third-party
 ||iq.sixaxisllc.com^$third-party
 ||iqcontentplatform.de^$third-party
 ||iqdlhrulwhnzt.space^$third-party
+||iqdugnedxinf.com^$third-party
 ||iqfhjvwzpqg.com^$third-party
 ||iqfhydrurclkp.space^$third-party
 ||iqgblqeihwhvw.website^$third-party
@@ -22366,6 +22620,7 @@
 ||irhngzxlaxjrs.space^$third-party
 ||irhqvzwgldygv.space^$third-party
 ||irhsymtcvduze.website^$third-party
+||iridescentdusk.com^$third-party
 ||iridium.services^$third-party
 ||irj2vs6p.xyz^$third-party
 ||irksomegrateindustrious.com^$third-party
@@ -22501,6 +22756,7 @@
 ||itngonicaebll.website^$third-party
 ||itnnzkipjcxxt.space^$third-party
 ||itnwcttnwedtk.site^$third-party
+||itnwqrroaqvbbs.com^$third-party
 ||itop.cz^$third-party
 ||itponytaa.com^$third-party
 ||itpsfqhnjlkwl.space^$third-party
@@ -22542,6 +22798,7 @@
 ||iunmrmdyetjbe.website^$third-party
 ||iuoaonwqyavnrfq.com^$third-party
 ||iuoeohryvobhc.com^$third-party
+||iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com^$third-party
 ||iuqkrdnldzsth.online^$third-party
 ||iuqtmoblgqkgq.site^$third-party
 ||iurjdgqphesic.website^$third-party
@@ -22573,6 +22830,7 @@
 ||ivykiosk.com^$third-party
 ||ivynjtsidwnqh.online^$third-party
 ||ivyprolonginstalment.com^$third-party
+||ivywortcacajao.qpon^$third-party
 ||iwalujwa.com^$third-party
 ||iwanttodeliver.com^$third-party
 ||iwantuonly.com^$third-party
@@ -22858,6 +23116,7 @@
 ||jdhxvjrildzjt.site^$third-party
 ||jdjiuhwooalvp.website^$third-party
 ||jdkdzhvgqnecz.online^$third-party
+||jdlog.uu.cc^$third-party
 ||jdlqivqfhiyjz.site^$third-party
 ||jdmikhfxhabez.com^$third-party
 ||jdmzkxry.com^$third-party
@@ -22997,6 +23256,7 @@
 ||jigsawlucky.com^$third-party
 ||jigsawthirsty.com^$third-party
 ||jihaxrndufelb.online^$third-party
+||jihehuaban.com.cn^$third-party
 ||jijeahjtjzpxr.space^$third-party
 ||jijrafocr.com^$third-party
 ||jijswitreaqv.in^$third-party
@@ -23096,6 +23356,7 @@
 ||jlcdpxvbrjxgk.online^$third-party
 ||jlecgcsdbleti.online^$third-party
 ||jlfdfodxejpxt.space^$third-party
+||jlguoe9nqg3eyqbqqvr4eoc.cfd^$third-party
 ||jlhkumsptbwuz.site^$third-party
 ||jlhmxduyftkae.site^$third-party
 ||jlhoefzaqqbsz.online^$third-party
@@ -23998,6 +24259,7 @@
 ||kitbit.net^$third-party
 ||kitchen.juicer.cc^$third-party
 ||kitchiepreppie.com^$third-party
+||kitopr.com^$third-party
 ||kitrigthy.com^$third-party
 ||kittentacos.com^$third-party
 ||kittoolhogo.com^$third-party
@@ -24282,6 +24544,7 @@
 ||kqejazglxkwta.space^$third-party
 ||kqftc.com^$third-party
 ||kqgohxbrqclyo.online^$third-party
+||kqhdbvyexmp.com^$third-party
 ||kqhfuovkrmhkz.online^$third-party
 ||kqhi97lf.de^$third-party
 ||kqhzkvhcafxwn.website^$third-party
@@ -24525,6 +24788,7 @@
 ||l.sharethis.com^$third-party
 ||l.typesquare.com^$third-party
 ||l0-secure.videohub.tv^$third-party
+||l0cpto94.xyz^$third-party
 ||l0lz.co^$third-party
 ||l0nrjph1.xyz^$third-party
 ||l1.britannica.com^$third-party
@@ -24548,6 +24812,7 @@
 ||laceokay.com^$third-party
 ||lacerateclimaxthrow.com^$third-party
 ||lacessateens.com^$third-party
+||lackadaisicalkite.com^$third-party
 ||lackeysmuscids.cfd^$third-party
 ||lackingcompare.com^$third-party
 ||lacklong.com^$third-party
@@ -24576,6 +24841,7 @@
 ||lahsxicxicuvp.store^$third-party
 ||laidgreens.com^$third-party
 ||laihtsfmbrmog.site^$third-party
+||laim.tv^$third-party
 ||laimroll.ru^$third-party
 ||lairpurposelyremainder.com^$third-party
 ||laivue.com^$third-party
@@ -24939,6 +25205,7 @@
 ||letminimalvacancy.com^$third-party
 ||letopreseyna.org^$third-party
 ||letsbegin.online^$third-party
+||letshareus.com^$third-party
 ||lettermechanism.com^$third-party
 ||letterrecoveryunplanted.com^$third-party
 ||letterwolves.com^$third-party
@@ -25108,6 +25375,7 @@
 ||liepottensify.com^$third-party
 ||lieutenantvealelongated.com^$third-party
 ||lifeboatlegalalleviate.com^$third-party
+||lifeimpressions.net^$third-party
 ||lifemoodmichelle.com^$third-party
 ||lifeporn.net^$third-party
 ||lifesoonersoar.org^$third-party
@@ -25212,6 +25480,7 @@
 ||linker.hr^$third-party
 ||linkev.com^$third-party
 ||linkexchange.com^$third-party
+||linkexchange.ru^$third-party
 ||linkhaitao.com^$third-party
 ||linkoffers.net^$third-party
 ||linkonclick.com^$third-party
@@ -25373,6 +25642,7 @@
 ||lkeqdkckbgnbf.online^$third-party
 ||lkfiyeddqehyj.site^$third-party
 ||lkg6g644.de^$third-party
+||lkgivcvr8ir252by63znjc2.cfd^$third-party
 ||lkibircmuq.in^$third-party
 ||lkijvrrofszzz.online^$third-party
 ||lkixslmthwwdf.online^$third-party
@@ -25777,6 +26047,7 @@
 ||loiqssylk.com^$third-party
 ||lojsuarokgyxv.space^$third-party
 ||lojusypsa.com^$third-party
+||lokalfed.gq^$third-party
 ||lokalwerben.t-online.de^$third-party
 ||lokcdn.com^$third-party
 ||lokglfvlixcei.online^$third-party
@@ -25785,6 +26056,7 @@
 ||loktrk.com^$third-party
 ||lolco.net^$third-party
 ||lolsefti.com^$third-party
+||lolvfndt.com^$third-party
 ||lomadee.com^$third-party
 ||lominglaes.com^$third-party
 ||loneinner.com^$third-party
@@ -25814,6 +26086,7 @@
 ||loopme.com^$third-party
 ||loopme.me^$third-party
 ||loosebelt.com^$third-party
+||loosecase.com^$third-party
 ||looseloaf.com^$third-party
 ||looserate.pro^$third-party
 ||loosometime.com^$third-party
@@ -25825,6 +26098,7 @@
 ||loqnomgwbsiel.site^$third-party
 ||lordhelpuswithssl.com^$third-party
 ||lordtroublessounding.com^$third-party
+||lorenzourban.com^$third-party
 ||lorgtbzlfxixd.online^$third-party
 ||lorryurban.com^$third-party
 ||lorymo.online^$third-party
@@ -25877,10 +26151,12 @@
 ||lowboyrehair.qpon^$third-party
 ||lowercases.com^$third-party
 ||loweststernhaunting.com^$third-party
+||lowkeypalmtree.com^$third-party
 ||lowlifewhateverspotless.com^$third-party
 ||lowlyikfeaco.com^$third-party
 ||lowmothandhadb.org^$third-party
 ||loworiginatepalette.com^$third-party
+||lowrihouston.pro^$third-party
 ||lowseelor.com^$third-party
 ||lowtrainer.com^$third-party
 ||loxitdat.com^$third-party
@@ -26054,6 +26330,7 @@
 ||luhmdpvtncllt.website^$third-party
 ||luhoysvkxsewc.xyz^$third-party
 ||luhzoywwssycd.online^$third-party
+||luisardo.com^$third-party
 ||luizsycwgzmkg.website^$third-party
 ||lujtncrtupnq.com^$third-party
 ||lukfagmuxbud.in^$third-party
@@ -26106,6 +26383,7 @@
 ||luwrzuro.com^$third-party
 ||luxadv.com^$third-party
 ||luxatenowness.com^$third-party
+||luxcash.ru^$third-party
 ||luxcdn.com^$third-party
 ||luxformula.com^$third-party
 ||luxins.net^$third-party
@@ -26191,6 +26469,7 @@
 ||lxtitfmmhbhtehc.com^$third-party
 ||lxwmazdgleyxy.website^$third-party
 ||lxylxwxvhffvm.vip^$third-party
+||ly242w6qvjitmkz.cfd^$third-party
 ||lyaauumakulfq.site^$third-party
 ||lychnisscopone.com^$third-party
 ||lyconery-readset.com^$third-party
@@ -26276,6 +26555,7 @@
 ||m6r.eu^$third-party
 ||m81jmqmn.ru^$third-party
 ||m8ix4fqk.xyz^$third-party
+||m9n6nht2evwh6h.cfd^$third-party
 ||ma-tag.com^$third-party
 ||ma.wp.pl^$third-party
 ||ma3ion.com^$third-party
@@ -26345,9 +26625,11 @@
 ||magento-recs-sdk.adobe.net^$third-party
 ||maghoutwell.com^$third-party
 ||magic.prism.gg^$third-party
+||magicads.nl^$third-party
 ||magicaljoin.com^$third-party
 ||magicallyitalian.com^$third-party
 ||magicallypenitentiary.com^$third-party
+||magicalpiano.com^$third-party
 ||magicianboundary.com^$third-party
 ||magicianmost.com^$third-party
 ||magictag.digislots.in^$third-party
@@ -26415,6 +26697,7 @@
 ||makethebusiness.com^$third-party
 ||makeuppillow.com^$third-party
 ||makgnxce.com^$third-party
+||making.party^$third-party
 ||makingnude.com^$third-party
 ||makumva.all-usanomination.com^$third-party
 ||malatiswirled.com^$third-party
@@ -26471,6 +26754,7 @@
 ||mapcawing.com^$third-party
 ||mapcommand.com^$third-party
 ||mapdevelopcleverness.com^$third-party
+||maper.info^$third-party
 ||mapixl.com^$third-party
 ||maploco.com^$third-party
 ||mapwisemulder.qpon^$third-party
@@ -26542,6 +26826,7 @@
 ||marsads.com^$third-party
 ||marshalcurve.com^$third-party
 ||marshcooperative.com^$third-party
+||marsnextdoor.com^$third-party
 ||martencrippled.com^$third-party
 ||martenforthwith.com^$third-party
 ||martialrecessioninformant.com^$third-party
@@ -26816,7 +27101,6 @@
 ||mediamgr.ugo.com^$third-party
 ||mediamond.it^$third-party
 ||mediapalmtree.com^$third-party
-||mediapays.info^$third-party
 ||mediaplazza.com^$third-party
 ||mediaplex.com^$third-party
 ||mediarithmics.com^$third-party
@@ -26868,9 +27152,11 @@
 ||meetingactual.com^$third-party
 ||meetrics.net^$third-party
 ||meets-love-connection.com^$third-party
+||meetsexygirls.org^$third-party
 ||meetstorages.com^$third-party
 ||mefkkezojxnzn.website^$third-party
 ||megaad.nz^$third-party
+||megabanners.cf^$third-party
 ||megacash.de^$third-party
 ||megadata.co.kr^$third-party
 ||megadeliveryn.com^$third-party
@@ -26898,6 +27184,7 @@
 ||melodiouschorus.com^$third-party
 ||melodiouscomposition.com^$third-party
 ||melodramaticquery.com^$third-party
+||melodyglobe.com^$third-party
 ||melongatesdexterity.com^$third-party
 ||meltmilk.com^$third-party
 ||meltonosse.qpon^$third-party
@@ -26914,6 +27201,7 @@
 ||menacehabit.com^$third-party
 ||menacing-rain.com^$third-party
 ||menacingtrick.pro^$third-party
+||menepe.com^$third-party
 ||menrdrxjpdvky.space^$third-party
 ||mensasavara.qpon^$third-party
 ||mentallyissue.com^$third-party
@@ -27257,6 +27545,7 @@
 ||miaozhen.com^$third-party
 ||miayarus.com^$third-party
 ||mibamebrnupqk.vip^$third-party
+||mibbpersonales.com^$third-party
 ||mibsyoxjdxilxqj.com^$third-party
 ||micfagmbbtwda.website^$third-party
 ||michiganrobotflower.com^$third-party
@@ -27323,6 +27612,7 @@
 ||milestoneintegerathletics.com^$third-party
 ||milioner2023.pl^$third-party
 ||militantrelieve.com^$third-party
+||militaryverse.com^$third-party
 ||milky-direction.pro^$third-party
 ||milky-major.pro^$third-party
 ||milkyepic.com^$third-party
@@ -27346,6 +27636,7 @@
 ||mimicromax.com^$third-party
 ||mimilcnf.pro^$third-party
 ||mimlcyasgnw.in^$third-party
+||mimosaavior.top^$third-party
 ||mincxhboupoee.space^$third-party
 ||mindedenhance.com^$third-party
 ||mindedonly.com^$third-party
@@ -27505,6 +27796,7 @@
 ||mjxrcnuntghni.space^$third-party
 ||mjymhibmdwqlk.online^$third-party
 ||mkacyblu.com^$third-party
+||mkaff.com^$third-party
 ||mkbgzaxkwyilk.online^$third-party
 ||mkcmuoujzgsxv.online^$third-party
 ||mkehaniyybtru.online^$third-party
@@ -27691,7 +27983,6 @@
 ||mobileapptracking.com^$third-party
 ||mobilebanner.ru^$third-party
 ||mobilecore.com^$third-party
-||mobiledl.adboe.com^$third-party
 ||mobilefuse.com^$third-party
 ||mobilelog.kugou.com^$third-party
 ||mobilelog.upqzfile.com^$third-party
@@ -27711,6 +28002,7 @@
 ||mobpowertech.com^$third-party
 ||mobreach.com^$third-party
 ||mobshark.net^$third-party
+||mobsuitem.com^$third-party
 ||mobtop.com^$third-party
 ||mobtop.ru^$third-party
 ||mobusi.com^$third-party
@@ -27747,6 +28039,7 @@
 ||modulepush.com^$third-party
 ||moegryuzufczg.space^$third-party
 ||moengage.com^$third-party
+||mof78ole44mm85fn.cfd^$third-party
 ||mofox.com^$third-party
 ||moghulnash.com^$third-party
 ||mogointeractive.com^$third-party
@@ -27953,6 +28246,7 @@
 ||mousheen.net^$third-party
 ||moustachemailboxdesirable.com^$third-party
 ||moustacheoverloadwar.com^$third-party
+||mov43zcm93zim84ul.cfd^$third-party
 ||movableink.com^$third-party
 ||movad.de^$third-party
 ||movad.net^$third-party
@@ -28165,6 +28459,7 @@
 ||mtypitea.net^$third-party
 ||mtyxmamrsjxyr.space^$third-party
 ||mu5bfngkp9lwjtnxyvirk5.cfd^$third-party
+||muddledaftermath.com^$third-party
 ||muddy-bad.pro^$third-party
 ||muddy-distance.com^$third-party
 ||muddyclassic.com^$third-party
@@ -28264,6 +28559,7 @@
 ||mutinedgunster.com^$third-party
 ||mutinousburyquestionable.com^$third-party
 ||muuxrbdsheuhg.space^$third-party
+||muvflix.com^$third-party
 ||muwmedia.com^$third-party
 ||muxieboupdbbg.space^$third-party
 ||muxozrjut.in^$third-party
@@ -28357,6 +28653,7 @@
 ||my.trackjs.com^$third-party
 ||myad.vn^$third-party
 ||myadcash.com^$third-party
+||myads.ru^$third-party
 ||myads.telkomsel.com^$third-party
 ||myaffiliateprogram.com^$third-party
 ||myafriend.com^$third-party
@@ -28369,6 +28666,7 @@
 ||mycamlover.com^$third-party
 ||mycasinoaccounts.com^$third-party
 ||mycelesterno.com^$third-party
+||mycleanmymac.com^$third-party
 ||mycleanpc.com^$third-party
 ||mycounter.com.ua^$third-party
 ||mycounter.ua^$third-party
@@ -28772,6 +29070,7 @@
 ||nend.net^$third-party
 ||nenobfwtzuiuj.space^$third-party
 ||nentsyshruggl.com^$third-party
+||neoban.su^$third-party
 ||neobasnet.timeout.ru^$third-party
 ||neocounter.neoworx-blog-tools.net^$third-party
 ||neodatagroup.com^$third-party
@@ -28956,6 +29255,7 @@
 ||nfliiqxnaadkx.online^$third-party
 ||nfmnrvmgujczf.website^$third-party
 ||nfnxhsdoby.com^$third-party
+||nfogpeot.in^$third-party
 ||nfpesradolijc.com^$third-party
 ||nfpxrhlnxtbpx.space^$third-party
 ||nfqlihferbg.com^$third-party
@@ -29033,6 +29333,7 @@
 ||niaumxovmqpur.online^$third-party
 ||nicatethebene.info^$third-party
 ||nicecartrigezip.com^$third-party
+||nicehuh.com^$third-party
 ||nicelyclangbitterness.com^$third-party
 ||nicelypull.com^$third-party
 ||niceremployer.com^$third-party
@@ -29392,7 +29693,6 @@
 ||notify-bugs-fra1.rtl.de^$third-party
 ||notify.bugsnag.com^$third-party
 ||notify6.com^$third-party
-||notifyhubss.net^$third-party
 ||notifypicture.info^$third-party
 ||notifysrv.com^$third-party
 ||notifyvisitors.com^$third-party
@@ -29581,7 +29881,6 @@
 ||nssvtq4w.xyz^$third-party
 ||nstat.headlines.pw^$third-party
 ||nster.net^$third-party
-||nstracking.com^$third-party
 ||nstytzmbwuylf.site^$third-party
 ||ntcfrzpzmeite.site^$third-party
 ||ntdcfmssnmx.com^$third-party
@@ -29589,6 +29888,7 @@
 ||nteqanqudxl.com^$third-party
 ||ntewpiodbt.in^$third-party
 ||ntfhgbirvp.com^$third-party
+||ntfsformac.cn^$third-party
 ||nthvlfevepo.com^$third-party
 ||ntiljustetyerec.org^$third-party
 ||ntjumvumqzufo.space^$third-party
@@ -29638,6 +29938,7 @@
 ||nueyowipxyuok.store^$third-party
 ||nufafsrupf.in^$third-party
 ||nufajfnntuyot.site^$third-party
+||nuffnang.com^$third-party
 ||nuffnang.com.my^$third-party
 ||nuggad.net^$third-party
 ||nughaitsoudri.xyz^$third-party
@@ -29787,6 +30088,7 @@
 ||nyvzocirybwts.website^$third-party
 ||nywsiugsbup.com^$third-party
 ||nyxsatfpppyye.online^$third-party
+||nyyed.com^$third-party
 ||nyywscncfpfzn.website^$third-party
 ||nyzmvpwdxkxdk.online^$third-party
 ||nzavmqooblmpl.site^$third-party
@@ -29931,6 +30233,7 @@
 ||observeshaken.com^$third-party
 ||obsesscaptured.com^$third-party
 ||obseu.netgreencolumn.com^$third-party
+||obsidiangems.com^$third-party
 ||obsktxfspu.com^$third-party
 ||obsoletepaddlevehicular.com^$third-party
 ||obsoletepersistalec.com^$third-party
@@ -30037,6 +30340,7 @@
 ||odeuwdapukoxz.website^$third-party
 ||odewcqwls.com^$third-party
 ||odeybruslekoq.website^$third-party
+||odfadkfryokt.in^$third-party
 ||odfqwsrz.com^$third-party
 ||odfuwbdguqkrj.site^$third-party
 ||odgmxwepbbfwe.online^$third-party
@@ -30126,6 +30430,7 @@
 ||offeringchewjean.com^$third-party
 ||offerlink.co^$third-party
 ||offermatica.com^$third-party
+||offerniche.com^$third-party
 ||offernow24.com^$third-party
 ||offerreality.com^$third-party
 ||offershub.net^$third-party
@@ -30134,6 +30439,7 @@
 ||offerwall.yandex.net^$third-party
 ||offevasionrecruit.com^$third-party
 ||offfurreton.com^$third-party
+||offgridcrops.com^$third-party
 ||officecornsoftware.com^$third-party
 ||officerpersonalimmersed.com^$third-party
 ||official-importance.pro^$third-party
@@ -30483,7 +30789,6 @@
 ||onclicksuper.com^$third-party
 ||onclicktop.com^$third-party
 ||onclkds.com^$third-party
-||onclklnd.com^$third-party
 ||one-new-message.com^$third-party
 ||oneclck.net^$third-party
 ||onedmp.com^$third-party
@@ -30518,10 +30823,12 @@
 ||ongmansuchc.com^$third-party
 ||ongorhorzt.in^$third-party
 ||oniamcurrentl.org^$third-party
+||onionetatretic.cfd^$third-party
 ||oniqjeyyebgmv.online^$third-party
 ||oniyyrgezoanj.website^$third-party
 ||onjhecwdboxld.online^$third-party
 ||onkkumsmuaw.in^$third-party
+||onklipda.com^$third-party
 ||onlidex.com^$third-party
 ||online-adnetwork.com^$third-party
 ||online-casino.webpark.pl^$third-party
@@ -30640,7 +30947,6 @@
 ||openads.friendfinder.com^$third-party
 ||openads.org^$third-party
 ||openadserving.com^$third-party
-||opencandy.com^$third-party
 ||openclick.com^$third-party
 ||openerclassify.com^$third-party
 ||openercompetent.com^$third-party
@@ -30699,6 +31005,7 @@
 ||oppressiveindifferent.com^$third-party
 ||oppuz.com^$third-party
 ||opskiwzwtvfic.store^$third-party
+||opskln.com^$third-party
 ||opt-intelligence.com^$third-party
 ||opt8.co^$third-party
 ||optad360.io^$third-party
@@ -30988,7 +31295,9 @@
 ||ouiwfrtqcwjeu.online^$third-party
 ||oulsools.com^$third-party
 ||ounbiwssqohds.online^$third-party
+||oundhertobeconsist.org^$third-party
 ||oungimuk.net^$third-party
+||ouniywykip.com^$third-party
 ||ouowhjhuekcnar.com^$third-party
 ||oupgcgnevtqjm.site^$third-party
 ||ouphouch.com^$third-party
@@ -30996,7 +31305,6 @@
 ||ouqnsrtmguuyd.site^$third-party
 ||ourdreamstaticpages.pages.dev^$third-party
 ||ourlittlenews.com^$third-party
-||ournet-analytics.com^$third-party
 ||oursrestrict.com^$third-party
 ||ourstats.de^$third-party
 ||ourtecads.com^$third-party
@@ -31086,8 +31394,8 @@
 ||overlookedlock.pro^$third-party
 ||overnightabroadcraftsman.com^$third-party
 ||overnighttendon.com^$third-party
-||overninetalesor.com^$third-party
 ||overprotectiverecreatebrush.com^$third-party
+||overratedchalk.com^$third-party
 ||overseastellsotherwise.com^$third-party
 ||overseaswhoop.com^$third-party
 ||oversightpauserefreshment.com^$third-party
@@ -31145,6 +31453,7 @@
 ||owldata.com^$third-party
 ||owlerydominos.cam^$third-party
 ||owlkswgtbygtu.site^$third-party
+||owlreporter.com^$third-party
 ||owlsr.us^$third-party
 ||owlunimmvn.com^$third-party
 ||owndangle.com^$third-party
@@ -31314,6 +31623,7 @@
 ||pachegaimax.net^$third-party
 ||pacifictuckercloak.com^$third-party
 ||packagebellysmoothly.com^$third-party
+||packeryshellacchacmas.cfd^$third-party
 ||packeteagle.com^$third-party
 ||packlenseavesdrop.com^$third-party
 ||packouabain.cfd^$third-party
@@ -31336,6 +31646,7 @@
 ||padskis.com^$third-party
 ||padslims.com^$third-party
 ||padspms.com^$third-party
+||padssup.com^$third-party
 ||paeastei.net^$third-party
 ||paeglsnbrp.com^$third-party
 ||paehakooyuygo.website^$third-party
@@ -31423,6 +31734,7 @@
 ||pallorsmitefungus.com^$third-party
 ||pallrutul.in^$third-party
 ||palpartiallybricks.com^$third-party
+||palpatecricketmajesty.com^$third-party
 ||palpateshakedecoy.com^$third-party
 ||palsybecamedislike.com^$third-party
 ||palsybrush.com^$third-party
@@ -31570,6 +31882,7 @@
 ||passingcounselrueful.com^$third-party
 ||passion-4.net^$third-party
 ||passionatenormally.com^$third-party
+||passionfruitads.com^$third-party
 ||passirdrowns.com^$third-party
 ||passivealexis.com^$third-party
 ||passivecollaboratefrontier.com^$third-party
@@ -31585,6 +31898,7 @@
 ||pastelelection.pro^$third-party
 ||pastelentirely.com^$third-party
 ||pastelskill.com^$third-party
+||pastoralroad.com^$third-party
 ||pastrevolution.pro^$third-party
 ||pasttable.com^$third-party
 ||pasttrust.com^$third-party
@@ -31665,6 +31979,7 @@
 ||pbnet.ru^$third-party
 ||pbokotlibvpet.website^$third-party
 ||pbolnoomselab.online^$third-party
+||pbouefrublnvtj.com^$third-party
 ||pbpbcriabaaay.website^$third-party
 ||pbpnfdxyhs.com^$third-party
 ||pbqhjgkueppwm.online^$third-party
@@ -31942,6 +32257,7 @@
 ||pesgyihbyblaf.website^$third-party
 ||pesky-sandwich.pro^$third-party
 ||peskycrash.com^$third-party
+||peskyinvestment.com^$third-party
 ||pessimisticextra.com^$third-party
 ||pestilentberrysincere.com^$third-party
 ||pestilenttidefilth.org^$third-party
@@ -31963,6 +32279,7 @@
 ||pewfeafvlaiwe.online^$third-party
 ||pexcsvjiecyoi.site^$third-party
 ||pexmjwvdpjjdd.space^$third-party
+||pexu.com^$third-party
 ||pezksldjeasrv.website^$third-party
 ||pezpjhmpwqksw.online^$third-party
 ||pezwjfoozrpiv.online^$third-party
@@ -32118,6 +32435,7 @@
 ||picklesbureaucracyconvene.com^$third-party
 ||picmega.com^$third-party
 ||pictela.net^$third-party
+||pictureshosierygauntlet.com^$third-party
 ||picturespushfulrookie.com^$third-party
 ||picturesqueundercover.com^$third-party
 ||pidifudzt.com^$third-party
@@ -32136,6 +32454,7 @@
 ||pigeonside.com^$third-party
 ||pigeonsresourcefulretired.com^$third-party
 ||piggyquarterbackascension.com^$third-party
+||pigmiespercher.qpon^$third-party
 ||pigtre.com^$third-party
 ||pihbtihzpfshm.com^$third-party
 ||pihovvawvovv.in^$third-party
@@ -32157,6 +32476,7 @@
 ||pimqacihydhna.site^$third-party
 ||pinacleengage.cfd^$third-party
 ||pinchingrapacitydragged.com^$third-party
+||pinchsquirrel.com^$third-party
 ||pinchunnecessaryaggregate.com^$third-party
 ||pineegypt.com^$third-party
 ||pinemonumentssaxophone.com^$third-party
@@ -32347,6 +32667,7 @@
 ||pjtaxoejiicilsd.com^$third-party
 ||pjtra.com^$third-party
 ||pjvcbvjfrzniy.site^$third-party
+||pjxnjswqkn.com^$third-party
 ||pjzftkxmyzuat.space^$third-party
 ||pk910324e.com^$third-party
 ||pkacasjaz.in^$third-party
@@ -32379,6 +32700,7 @@
 ||pl.elements.video^$third-party
 ||pla.fwdcdn.com^$third-party
 ||placardrepentanceshoes.com^$third-party
+||placcolionic.com^$third-party
 ||placeframe.com^$third-party
 ||placeiq.com^$third-party
 ||placetobeforever.com^$third-party
@@ -32639,6 +32961,8 @@
 ||pointyglareproven.com^$third-party
 ||poiqvjvfigtej.space^$third-party
 ||poisedarmy.com^$third-party
+||poisedfuel.com^$third-party
+||poisedpig.com^$third-party
 ||poisism.com^$third-party
 ||pojeyfymvpbww.space^$third-party
 ||pojnejmzcmbyj.online^$third-party
@@ -32716,6 +33040,7 @@
 ||popcash.net^$third-party
 ||popcent.net^$third-party
 ||popclck.org^$third-party
+||popcornvod.com^$third-party
 ||popcpm.com^$third-party
 ||popdemission.com^$third-party
 ||poperblocker.com^$third-party
@@ -32723,6 +33048,7 @@
 ||popexhale.com^$third-party
 ||pophandler.net^$third-party
 ||popin.cc^$third-party
+||popinads.com^$third-party
 ||popjanuary.shop^$third-party
 ||poplardealtcarrying.com^$third-party
 ||poplartenth.com^$third-party
@@ -32734,6 +33060,7 @@
 ||popmonetizer.net^$third-party
 ||popmyads.com^$third-party
 ||popmycash.com^$third-party
+||popped.biz^$third-party
 ||popplantation.com^$third-party
 ||poppysol.com^$third-party
 ||poprtb.com^$third-party
@@ -32881,6 +33208,7 @@
 ||pphieftkuwccw.site^$third-party
 ||ppkafjqvlvawu.space^$third-party
 ||pplwjjpkrxcqm.site^$third-party
+||ppmxp.com^$third-party
 ||ppncppfhlakb.com^$third-party
 ||ppoi.org^$third-party
 ||pppbr.com^$third-party
@@ -33018,6 +33346,7 @@
 ||pregnantlasting.com^$third-party
 ||pregnantskipper.com^$third-party
 ||preitem.wshareit.com^$third-party
+||premium-members.com^$third-party
 ||premium-offers.com^$third-party
 ||premiumads.net^$third-party
 ||premiumcrack.com^$third-party
@@ -33026,7 +33355,6 @@
 ||prendreheft.cfd^$third-party
 ||preoccupydestiny.com^$third-party
 ||preoccupyray.com^$third-party
-||preonesetro.com^$third-party
 ||preparationsovertimesixteen.com^$third-party
 ||preparecommands.com^$third-party
 ||prepareplanes.com^$third-party
@@ -33287,6 +33615,7 @@
 ||promdidna.com^$third-party
 ||promerycergerful.com^$third-party
 ||prominentpray.com^$third-party
+||promiseair.com^$third-party
 ||promisespreepanic.com^$third-party
 ||promo-bc.com^$third-party
 ||promo-reklama.ru^$third-party
@@ -33321,6 +33650,7 @@
 ||propellerpops.com^$third-party
 ||proper.io^$third-party
 ||propertyofnews.com^$third-party
+||propertypotato.com^$third-party
 ||propertyswordmuttering.com^$third-party
 ||propgoservice.com^$third-party
 ||prophet.heise.de^$third-party
@@ -33641,6 +33971,7 @@
 ||pummelstarish.cyou^$third-party
 ||pumopgsuhacs.in^$third-party
 ||pumpbead.com^$third-party
+||pumpedpurpose.com^$third-party
 ||pumpkin.abine.com^$third-party
 ||punchpantherwhip.com^$third-party
 ||punctualbut.com^$third-party
@@ -33786,6 +34117,7 @@
 ||pv.hd.sohu.com^$third-party
 ||pv.kuaizhan.com^$third-party
 ||pvasidywstera.website^$third-party
+||pvbjoeu734uhzbk.cfd^$third-party
 ||pvclouds.com^$third-party
 ||pvcnhlmuvgrcc.space^$third-party
 ||pvcubbshnlzys.space^$third-party
@@ -33986,6 +34318,7 @@
 ||qc-static.coccoc.com^$third-party
 ||qc.coccoc.com^$third-party
 ||qc.coccoc.vn^$third-party
+||qcavrasarod.in^$third-party
 ||qccoccocmedia.vn^$third-party
 ||qceoqfolwri.in^$third-party
 ||qcgdmncatgybd.site^$third-party
@@ -34044,6 +34377,7 @@
 ||qepytatzudtum.life^$third-party
 ||qeqyswhipqrgu.space^$third-party
 ||qernnbahzjdjf.online^$third-party
+||qertewrt.com^$third-party
 ||qesrnpogpignd.store^$third-party
 ||qeujnihdvzsnv.online^$third-party
 ||qeuvhpxmqzson.space^$third-party
@@ -34255,6 +34589,7 @@
 ||qobpxugcqtsk.com^$third-party
 ||qoclick.com^$third-party
 ||qocoll.com^$third-party
+||qodsrphkv.com^$third-party
 ||qoebdgzpnonpu.online^$third-party
 ||qofzpsdexjmbw.site^$third-party
 ||qogcteumntijn.site^$third-party
@@ -34380,6 +34715,7 @@
 ||qsvdftnuckecq.site^$third-party
 ||qsvsvtdcxiovjfc.com^$third-party
 ||qswqmdejpptbp.space^$third-party
+||qswvsopehc.com^$third-party
 ||qsydjlvebcnhs.site^$third-party
 ||qszftkiylgowv.site^$third-party
 ||qtbqqrypghmme.store^$third-party
@@ -34602,6 +34938,7 @@
 ||qxanfanfhkpxp.space^$third-party
 ||qxawczrzwjrfg.space^$third-party
 ||qxbkmxojrqwkb.online^$third-party
+||qxbvqxqqo5rkhh.cfd^$third-party
 ||qxc4ftk638jznzliyxb6offlh.cfd^$third-party
 ||qxcqurvolreou.space^$third-party
 ||qxdownload.com^$third-party
@@ -34674,6 +35011,7 @@
 ||r2.visualwebsiteoptimizer.com^$third-party
 ||r3.visualwebsiteoptimizer.com^$third-party
 ||r4uj20yt2u.com^$third-party
+||r63engo6xw8jtkpze.cfd^$third-party
 ||r66net.com^$third-party
 ||r66net.net^$third-party
 ||r7ls.net^$third-party
@@ -34883,6 +35221,7 @@
 ||raymondtoaster.com^$third-party
 ||rayvirtual.com^$third-party
 ||razorcommentdisprove.com^$third-party
+||razzweb.com^$third-party
 ||rb.rfn.ru^$third-party
 ||rbbosjoi.com^$third-party
 ||rbdata.boostymark.com^$third-party
@@ -35018,6 +35357,7 @@
 ||realclever.com^$third-party
 ||realclick.co.kr^$third-party
 ||realclix.com^$third-party
+||realignmichabo.shop^$third-party
 ||realisechewing.com^$third-party
 ||realiserecognize.com^$third-party
 ||realisticprint.pro^$third-party
@@ -35164,6 +35504,7 @@
 ||red-series.pro^$third-party
 ||red-shopping.com^$third-party
 ||redamgdzdedoe.site^$third-party
+||redarianman.com^$third-party
 ||redbasketball.com^$third-party
 ||redbuckzincate.com^$third-party
 ||redcounter.net^$third-party
@@ -35301,6 +35642,7 @@
 ||reklamcsere.hu^$third-party
 ||reklamstore.com^$third-party
 ||reklamstore.cubecdn.net^$third-party
+||reklamz.com^$third-party
 ||rel-s.com^$third-party
 ||relaamlrijdxq.site^$third-party
 ||relap.io^$third-party
@@ -35308,6 +35650,7 @@
 ||relapsebandage.com^$third-party
 ||relatedgrouptest.com^$third-party
 ||relatepermanentlyminimum.com^$third-party
+||relationrest.com^$third-party
 ||relationshipcourseably.com^$third-party
 ||relationshipspotted.com^$third-party
 ||relativelylast.com^$third-party
@@ -35423,6 +35766,8 @@
 ||repentant-youth.pro^$third-party
 ||repetitiousfontmonopoly.com^$third-party
 ||replacementgoodwilljunkie.com^$third-party
+||replaceroute.com^$third-party
+||replaysmit.cfd^$third-party
 ||replyhawinvest.com^$third-party
 ||replytangerine.com^$third-party
 ||repocket.com^$third-party
@@ -35508,6 +35853,7 @@
 ||respectivegentlecontinual.com^$third-party
 ||respectrain.com^$third-party
 ||respiratorcontainssomeday.com^$third-party
+||responsad1.space^$third-party
 ||responsedifferencegrate.com^$third-party
 ||responseremainrust.com^$third-party
 ||responserver.com^$third-party
@@ -35691,6 +36037,7 @@
 ||rhdhtuoci.com^$third-party
 ||rheneapfg.com^$third-party
 ||rheofepltxbqt.space^$third-party
+||rhetoricalactivity.com^$third-party
 ||rhetoricalloss.com^$third-party
 ||rhetoricsolder.com^$third-party
 ||rhgpdgjof.com^$third-party
@@ -35743,6 +36090,7 @@
 ||richmetrics.com^$third-party
 ||richrelevance.com^$third-party
 ||richstring.com^$third-party
+||richthof.com^$third-party
 ||richwebmaster.com^$third-party
 ||richwebmedia.com^$third-party
 ||riddancemanufacturerextraction.com^$third-party
@@ -36056,7 +36404,6 @@
 ||rollserver.xyz^$third-party
 ||rolltrk9.com^$third-party
 ||romakpmpxiobxaf.com^$third-party
-||romance-datepark.com^$third-party
 ||romance-net.com^$third-party
 ||romancedaters.com^$third-party
 ||romancefever.com^$third-party
@@ -36124,6 +36471,7 @@
 ||rouwhapt.com^$third-party
 ||roveearnesttablets.com^$third-party
 ||roveraffluence.com^$third-party
+||roverinvolv.bid^$third-party
 ||rovingllanero.com^$third-party
 ||rovno.xyz^$third-party
 ||rovomghrtungt.online^$third-party
@@ -36136,6 +36484,7 @@
 ||roxzvswektnzy.website^$third-party
 ||royal-green.pro^$third-party
 ||royalbread.pro^$third-party
+||royalespring.com^$third-party
 ||royaltyfig.com^$third-party
 ||royaltystimulatepen.com^$third-party
 ||roywiowmbo.com^$third-party
@@ -36475,6 +36824,7 @@
 ||ruucfywqzswee.website^$third-party
 ||ruuzqjaoattkl.site^$third-party
 ||ruwcnaoiqkznm.online^$third-party
+||ruxqpaxuxo.in^$third-party
 ||rvaedusnx.com^$third-party
 ||rvahgdrvko.com^$third-party
 ||rvbmvjzymhmai.website^$third-party
@@ -36617,7 +36967,6 @@
 ||s.dspbw7.com^$third-party
 ||s.everydayporn.co^$third-party
 ||s.frida.vse42.ru^$third-party
-||s.hisp.in^$third-party
 ||s.infogram.com^$third-party
 ||s.kenh14.vn^$third-party
 ||s.ntv.io^$third-party
@@ -36671,6 +37020,7 @@
 ||sabbatsslighty.cfd^$third-party
 ||sabdljzmuakkt.space^$third-party
 ||sabergood.com^$third-party
+||sabingvia.shop^$third-party
 ||sabio.us^$third-party
 ||sableshelf.com^$third-party
 ||sablesong.com^$third-party
@@ -36693,6 +37043,7 @@
 ||sadexperience.pro^$third-party
 ||sadfile.pro^$third-party
 ||sadloaf.com^$third-party
+||sadspacekitty.com^$third-party
 ||safebk.shop^$third-party
 ||safebrowsdv.com^$third-party
 ||safeglimmerlongitude.com^$third-party
@@ -36700,6 +37051,7 @@
 ||safelistextreme.com^$third-party
 ||safeoffers.pro^$third-party
 ||safeonlinetips.com^$third-party
+||safesearchguard.com^$third-party
 ||safestcaterer.com^$third-party
 ||safestcontentgate.com^$third-party
 ||safestgatetocontent.com^$third-party
@@ -36771,6 +37123,7 @@
 ||same-building.com^$third-party
 ||same-replacement.pro^$third-party
 ||samepresume.com^$third-party
+||samesticks.com^$third-party
 ||samiana.com^$third-party
 ||samktxppegfqo.website^$third-party
 ||samoalive.com^$third-party
@@ -36859,6 +37212,7 @@
 ||sasinator.realestate.com.au^$third-party
 ||sasinsetuid.com^$third-party
 ||sasmetotreatwit.org^$third-party
+||sasontnwc.net^$third-party
 ||sat.soluall.net^$third-party
 ||satellitefetidtelegraph.com^$third-party
 ||satephooeynab.com^$third-party
@@ -36997,7 +37351,6 @@
 ||scholarshipexplosivepopular.com^$third-party
 ||scholarsslate.com^$third-party
 ||schouwloto.com^$third-party
-||science.ctf.gg^$third-party
 ||sciencerevenue.com^$third-party
 ||scientific-doubt.com^$third-party
 ||scientific-husband.com^$third-party
@@ -37056,6 +37409,7 @@
 ||screechingstocking.com^$third-party
 ||screechingstove.com^$third-party
 ||screenhurtfuldelicatessen.com^$third-party
+||screenshare.pics^$third-party
 ||screenshots.goguardian.com^$third-party
 ||screensnaps.top^$third-party
 ||scribblestring.com^$third-party
@@ -37159,7 +37513,6 @@
 ||searchinquire.com^$third-party
 ||searchmagnified.com^$third-party
 ||searchmarketing.com^$third-party
-||searchmarquis.com^$third-party
 ||searchmulty.com^$third-party
 ||searchramp.com^$third-party
 ||searchresultsadblocker.com^$third-party
@@ -37250,6 +37603,7 @@
 ||seedapp-creative.s3.amazonaws.com^$third-party
 ||seedlingneurotic.com^$third-party
 ||seedlingsaudacious.com^$third-party
+||seedscissors.com^$third-party
 ||seedtag.com^$third-party
 ||seefiouewvgfl.space^$third-party
 ||seehewasde.org^$third-party
@@ -37396,6 +37750,7 @@
 ||sereendipit.com^$third-party
 ||serendipityecho.com^$third-party
 ||serene-pace.pro^$third-party
+||serenecascade.com^$third-party
 ||serenechapter.pro^$third-party
 ||serenepebble.com^$third-party
 ||serenitymareaffection.com^$third-party
@@ -37531,6 +37886,7 @@
 ||sexlist.com^$third-party
 ||sexmoney.com^$third-party
 ||sexmotors.com^$third-party
+||sexpennyauctions.com^$third-party
 ||sexsearch.com^$third-party
 ||sextf.com^$third-party
 ||sextracker.com^$third-party
@@ -37610,6 +37966,7 @@
 ||shadowyproduce.pro^$third-party
 ||shady-name.com^$third-party
 ||shaggysinner.com^$third-party
+||shaggytank.com^$third-party
 ||shaiwourtijogno.net^$third-party
 ||shakamech.com^$third-party
 ||shakegoldfish.com^$third-party
@@ -37936,6 +38293,7 @@
 ||singledatetime.com^$third-party
 ||singlefeed.com^$third-party
 ||singlegirlsfinder.com^$third-party
+||singlesexdates.com^$third-party
 ||singlesgetmatched.com^$third-party
 ||singlewomenmeet.com^$third-party
 ||singoutbalancevisitation.com^$third-party
@@ -37988,11 +38346,13 @@
 ||sitetag.us^$third-party
 ||sitetracker.com^$third-party
 ||sitewithg.com^$third-party
+||sithensnowhit.cyou^$third-party
 ||sitsneezerefreshing.com^$third-party
 ||situateddivine.com^$third-party
 ||situationsparkler.com^$third-party
 ||situduiacvaek.site^$third-party
 ||situratite.com^$third-party
+||siuyextz.com^$third-party
 ||sivietrremwoa.site^$third-party
 ||siwashfetcher.top^$third-party
 ||sixdespise.com^$third-party
@@ -38019,11 +38379,11 @@
 ||sjkigukddtknz.store^$third-party
 ||sjnsiuqhjmugz.store^$third-party
 ||sjobmfxcchbad.online^$third-party
+||sjotvxodthe.com^$third-party
 ||sjowkktmatgny.site^$third-party
 ||sjqgmtyxlrjlc.top^$third-party
 ||sjqvpjbcffhbv.site^$third-party
 ||sjremetrics.java.com^$third-party
-||sjsmartcontent.org^$third-party
 ||sjtqduaggooyp.website^$third-party
 ||sjucxifhymhdr.space^$third-party
 ||sjvkakxoq.com^$third-party
@@ -38648,6 +39008,7 @@
 ||soamelxvleduv.space^$third-party
 ||soargeiazhbti.site^$third-party
 ||sobakenchmaphk.com^$third-party
+||sobbingalchemy.cfd^$third-party
 ||sobbingvarypainting.com^$third-party
 ||soberanvil.com^$third-party
 ||socacdojdbfiy.com^$third-party
@@ -38799,6 +39160,7 @@
 ||sophi.io^$third-party
 ||sophisticated-blow.com^$third-party
 ||sophisticatedappearance.com^$third-party
+||sophisticatedstove.com^$third-party
 ||sophomorelink.com^$third-party
 ||sophus3.com^$third-party
 ||sopwmgdtpscnd.space^$third-party
@@ -38839,6 +39201,7 @@
 ||sourceauditoriumassure.com^$third-party
 ||sourcecode.pro^$third-party
 ||sourcecodeapp.com^$third-party
+||sourcecodeinfo.com^$third-party
 ||sourcerealisejeopardy.com^$third-party
 ||sourelevationregion.com^$third-party
 ||sourshaped.com^$third-party
@@ -38857,6 +39220,7 @@
 ||soviettreasures.com^$third-party
 ||sovrn.com^$third-party
 ||sovuyibacinnb.space^$third-party
+||sowlettuce.com^$third-party
 ||sowpoint.com^$third-party
 ||soxfokwppwqpm.website^$third-party
 ||soxhyxhugzwez.website^$third-party
@@ -39094,6 +39458,7 @@
 ||spicyram.com^$third-party
 ||spicytask.pro^$third-party
 ||spider-tracker.xiaohongshu.com^$third-party
+||spidersboats.com^$third-party
 ||spiffyboy.com^$third-party
 ||spiffymachine.com^$third-party
 ||spikesandcurrant.com^$third-party
@@ -39120,6 +39485,7 @@
 ||spitefuldecision.com^$third-party
 ||spitefulleapraspberry.com^$third-party
 ||spitefulmotor.com^$third-party
+||spitefulriver.com^$third-party
 ||spitepaperworkaway.com^$third-party
 ||spitfulcapelet.com^$third-party
 ||spitter.pauk.ru^$third-party
@@ -39184,6 +39550,7 @@
 ||spotofspawn.com^$third-party
 ||spotscenered.info^$third-party
 ||spotsconcealedunlikely.com^$third-party
+||spotsniper.ru^$third-party
 ||spotted-alternative.com^$third-party
 ||spotted-speech.com^$third-party
 ||spottednoise.com^$third-party
@@ -39203,6 +39570,7 @@
 ||springolive.com^$third-party
 ||springrakija.cfd^$third-party
 ||springserve.com^$third-party
+||springsister.com^$third-party
 ||sprinklecontent.com^$third-party
 ||sprinlof.com^$third-party
 ||sprintrade.com^$third-party
@@ -39224,6 +39592,7 @@
 ||sptrkr.com^$third-party
 ||spunkycash.com^$third-party
 ||spurioussquirrel.com^$third-party
+||spurioussteam.com^$third-party
 ||spuriousstranger.com^$third-party
 ||spurtshrubvending.com^$third-party
 ||spurtvastsummer.com^$third-party
@@ -39433,6 +39802,7 @@
 ||stallsubscribe.com^$third-party
 ||stampbesidescontrived.com^$third-party
 ||stampstallionpalpable.com^$third-party
+||standadv.com^$third-party
 ||standardcable.pro^$third-party
 ||standingbreederpitiful.com^$third-party
 ||standpointbluffybluffy.com^$third-party
@@ -39604,9 +39974,9 @@
 ||statistics.rbi-nl.com^$third-party
 ||statistics.ro^$third-party
 ||statistics.tattermedia.com^$third-party
-||statistics.wibiya.com^$third-party
 ||statisticsaccent.com^$third-party
 ||statisticsnail.com^$third-party
+||statisticsoutneutral.com^$third-party
 ||statistiek.rijksoverheid.nl^$third-party
 ||statistik-gallup.net^$third-party
 ||statistik.simaja.de^$third-party
@@ -39845,6 +40215,7 @@
 ||steadfastsystem.com^$third-party
 ||steakeffort.com^$third-party
 ||steakordeal.com^$third-party
+||stealsteel.com^$third-party
 ||steamabundanceslope.com^$third-party
 ||steamunlocked.one^$third-party
 ||steedgodful.com^$third-party
@@ -39857,6 +40228,7 @@
 ||steep-square.pro^$third-party
 ||steeplederivedinattentive.com^$third-party
 ||steeplereconciliation.com^$third-party
+||steepsister.com^$third-party
 ||steepsquirrel.com^$third-party
 ||steeptheme.com^$third-party
 ||steepto.com^$third-party
@@ -39976,6 +40348,7 @@
 ||storyunicornupper.com^$third-party
 ||stoutjangle.com^$third-party
 ||stoutyear.com^$third-party
+||stovenbased.qpon^$third-party
 ||stowagegentil.com^$third-party
 ||stowbilateral.com^$third-party
 ||stowhiwhothu.com^$third-party
@@ -40146,6 +40519,7 @@
 ||subjectmelodramaticsoil.com^$third-party
 ||subjectthree.com^$third-party
 ||subjecttimberinspiration.com^$third-party
+||subloader.cf^$third-party
 ||submergepremierehibernate.com^$third-party
 ||submissionthemecolonialism.com^$third-party
 ||submissive-horror.com^$third-party
@@ -40159,10 +40533,12 @@
 ||subscriptionfolk.com^$third-party
 ||subseacare.com^$third-party
 ||subsequenthysterical.com^$third-party
+||subsequentstew.com^$third-party
 ||subsidedjudgement.com^$third-party
 ||substantialbabjuxtapose.com^$third-party
 ||substantialconcentration.com^$third-party
 ||substantialequilibrium.com^$third-party
+||substantialgrade.com^$third-party
 ||substantialmutinousfrecklessfreckless.com^$third-party
 ||substantialprecarious.com^$third-party
 ||substituteyonder.com^$third-party
@@ -40200,6 +40576,7 @@
 ||suffocateinnhandling.com^$third-party
 ||sufhhgnwrvgyq.space^$third-party
 ||sugar.zhihu.com^$third-party
+||sugarcurtain.com^$third-party
 ||sugarruse.com^$third-party
 ||suggestbingo.com^$third-party
 ||suggesthometown.com^$third-party
@@ -40445,6 +40822,7 @@
 ||swbrhcewtgxiv.website^$third-party
 ||swdjsnhtwoqp.com^$third-party
 ||swdqortugmmrj.online^$third-party
+||sweatdatee.com^$third-party
 ||sweaterwarmly.com^$third-party
 ||sweatycymous.qpon^$third-party
 ||sweatypositive.com^$third-party
@@ -40464,8 +40842,10 @@
 ||sweetnessbrisk.com^$third-party
 ||sweetnessnewest.com^$third-party
 ||sweetnessspeaksintimidate.com^$third-party
+||sweetslope.com^$third-party
 ||sweetuse.pro^$third-party
 ||swelen.com^$third-party
+||swellstocking.com^$third-party
 ||swelteringcatch.com^$third-party
 ||swervemunchfibber.com^$third-party
 ||swesomepop.com^$third-party
@@ -40711,6 +41091,8 @@
 ||t84c3srgclc9.com^$third-party
 ||t85itha3nitde.com^$third-party
 ||t95xfj43ol1162lcb3qzv75t6xkcgxew21.cfd^$third-party
+||t9q8bo5unem8to5.cfd^$third-party
+||ta.sanook.com^$third-party
 ||ta.trs.cn^$third-party
 ||ta3nfsordd.com^$third-party
 ||tablhtwrkoo.xyz^$third-party
@@ -40795,6 +41177,7 @@
 ||tags.pw.adn.cloud^$third-party
 ||tags.refinery89.com^$third-party
 ||tags.soloway.ru^$third-party
+||tagsd.com^$third-party
 ||tagservice.maximus.mobkoi.com^$third-party
 ||tagsoviet.com^$third-party
 ||tagsrvcs.com^$third-party
@@ -40841,6 +41224,7 @@
 ||talliedpurring.com^$third-party
 ||tallmentally.com^$third-party
 ||tallthirsty.com^$third-party
+||talltouch.com^$third-party
 ||talroebnwhbif.space^$third-party
 ||tamealongpast.com^$third-party
 ||tamgrt.com^$third-party
@@ -40968,6 +41352,7 @@
 ||taxissunroom.com^$third-party
 ||taxisubsea.com^$third-party
 ||taxitesgyal.top^$third-party
+||taxpkkuu.com^$third-party
 ||tayladanismanlik.com^$third-party
 ||taypwqoprmcap.space^$third-party
 ||tazlo.cloud^$third-party
@@ -41025,6 +41410,7 @@
 ||tcwgmjsjgtsrm.space^$third-party
 ||tcxjkoekoqvkj.website^$third-party
 ||tcxoatcplzqai.website^$third-party
+||td-everest.biz^$third-party
 ||td.doubleclick.net^$third-party
 ||td5xffxsx4.com^$third-party
 ||tdbcctiulenif.site^$third-party
@@ -41147,6 +41533,7 @@
 ||telemetry.v.dropbox.com^$third-party
 ||telemetry.vtex.com^$third-party
 ||telemetrydeck.com^$third-party
+||telephoneapparatus.com^$third-party
 ||teleport.soom.la^$third-party
 ||televisiongrownupcrowd.com^$third-party
 ||teliad.de^$third-party
@@ -41330,6 +41717,7 @@
 ||thedoccloud.com^$third-party
 ||theeptoah.com^$third-party
 ||theetheks.com^$third-party
+||theextensionexpert.com^$third-party
 ||thefacux.com^$third-party
 ||thefenceanddeckguys.com^$third-party
 ||thefishstops.com^$third-party
@@ -41602,12 +41990,12 @@
 ||titanads2.com^$third-party
 ||titanads3.com^$third-party
 ||titanads4.com^$third-party
-||titanpoker.com^$third-party
 ||tiurll.com^$third-party
 ||tiuyamhwqljgm.site^$third-party
 ||tivqggcgnqlom.space^$third-party
 ||tiwoxxmrugfzh.online^$third-party
 ||tiwvdreabxtath.com^$third-party
+||tixuilhf.com^$third-party
 ||tiymvltgbllto.site^$third-party
 ||tizadgwa.in^$third-party
 ||tizerclik.com^$third-party
@@ -41796,6 +42184,7 @@
 ||toiletpaper.life^$third-party
 ||toilunfaithful.com^$third-party
 ||toioptqrfyztj.website^$third-party
+||tojinr.com^$third-party
 ||token.rubiconproject.com^$third-party
 ||tokenads.com^$third-party
 ||tokensguggled.com^$third-party
@@ -41975,6 +42364,7 @@
 ||toxtysjglzklk.site^$third-party
 ||toyerbuyable.qpon^$third-party
 ||toyrtbjntbrvi.com^$third-party
+||toytakeover.com^$third-party
 ||tp88trk.com^$third-party
 ||tpaytpewgktro.online^$third-party
 ||tpazitwbrpwwt.online^$third-party
@@ -42149,7 +42539,6 @@
 ||track.libii.cn^$third-party
 ||track.linksynergy.com^$third-party
 ||track.list-finder.jp^$third-party
-||track.lookerpets.com^$third-party
 ||track.mailerlite.com^$third-party
 ||track.mdsmatch.com^$third-party
 ||track.miro.com^$third-party
@@ -42163,6 +42552,7 @@
 ||track.nopaperforms.com^$third-party
 ||track.oasis.magictavern.com^$third-party
 ||track.opentable.com^$third-party
+||track.peavoidud.com^$third-party
 ||track.pnj.com.vn^$third-party
 ||track.popsww.com^$third-party
 ||track.price.ru^$third-party
@@ -42360,6 +42750,7 @@
 ||tracking.appwifi.com^$third-party
 ||tracking.atreemo.com^$third-party
 ||tracking.audio.thisisdax.com^$third-party
+||tracking.autoads.asia^$third-party
 ||tracking.b-cdn.net^$third-party
 ||tracking.bababam.com^$third-party
 ||tracking.banner.g6.zing.vn^$third-party
@@ -42473,10 +42864,10 @@
 ||tracking.sezzle.com^$third-party
 ||tracking.shaadi.com^$third-party
 ||tracking.sharplink.us^$third-party
+||tracking.shinycolors.enza.fun^$third-party
 ||tracking.shopback.com^$third-party
 ||tracking.shopee.com.br^$third-party
 ||tracking.shopstyle.co.uk^$third-party
-||tracking.shopstyle.com^$third-party
 ||tracking.skyword.com^$third-party
 ||tracking.smartmeapp.com^$third-party
 ||tracking.softwareprojects.com^$third-party
@@ -42566,6 +42957,7 @@
 ||traffer.net^$third-party
 ||traffic-c.com^$third-party
 ||traffic-exchange.com^$third-party
+||traffic-media.co^$third-party
 ||traffic-media.co.uk^$third-party
 ||traffic.acwebconnecting.com^$third-party
 ||traffic.askrella.de^$third-party
@@ -42609,12 +43001,14 @@
 ||trafficstrategies.com^$third-party
 ||trafficswarm.com^$third-party
 ||traffictrack.de^$third-party
+||trafficundercontrol.com^$third-party
 ||trafficz.com^$third-party
 ||traffiq.com^$third-party
 ||traffly.net^$third-party
 ||traffmgnt.name^$third-party
 ||traffmovie.com^$third-party
 ||trafforsrv.com^$third-party
+||traffrout.com^$third-party
 ||trafic.ro^$third-party
 ||trafmag.com^$third-party
 ||trafogon.com^$third-party
@@ -42688,6 +43082,7 @@
 ||trck.digiteka.com^$third-party
 ||trck.house^$third-party
 ||trck.spoteffects.net^$third-party
+||trcklks.com^$third-party
 ||trckng.dainese.com^$third-party
 ||trckr.nordiskemedier.dk^$third-party
 ||trcktr.com^$third-party
@@ -42942,7 +43337,6 @@
 ||tsb-protect.pro^$third-party
 ||tsbo.company^$third-party
 ||tscnwyvxzsfzv.online^$third-party
-||tscounter.com^$third-party
 ||tscprts.com^$third-party
 ||tsdmxbhvbznxq.online^$third-party
 ||tseconomousw.org^$third-party
@@ -43115,6 +43509,7 @@
 ||tuxagthadn.in^$third-party
 ||tuyexdwuboyuw.top^$third-party
 ||tuzoufxhjnejx.online^$third-party
+||tvas-b.pw^$third-party
 ||tvbstxxdrtw.com^$third-party
 ||tvdsuaia.com^$third-party
 ||tvdvhytyenydf.space^$third-party
@@ -43256,6 +43651,7 @@
 ||tyjitvdujivma.space^$third-party
 ||tykgdewf.com^$third-party
 ||tylulewe.com^$third-party
+||tyn69cn72yx8qpo343.cfd^$third-party
 ||tynt.com^$third-party
 ||tyouqyiehilym.online^$third-party
 ||typhuseuphon.cyou^$third-party
@@ -43584,6 +43980,7 @@
 ||ujlqgbvetzjmf.space^$third-party
 ||ujpqiykehtfry.online^$third-party
 ||ujpyowbdxe.com^$third-party
+||ujttflpjfev.com^$third-party
 ||ujtvxvmkmncua.online^$third-party
 ||ujuxnscdxrb.com^$third-party
 ||ujvschqrq.com^$third-party
@@ -43659,6 +44056,7 @@
 ||ultracdn.top^$third-party
 ||ultramercial.com^$third-party
 ||ultraoranges.com^$third-party
+||ultrapay.net^$third-party
 ||ultrasoundpurchase.com^$third-party
 ||ultravalid.com^$third-party
 ||uluuggxnhrxord.com^$third-party
@@ -43713,6 +44111,7 @@
 ||unacceptabledemand.pro^$third-party
 ||unacceptableheavy.pro^$third-party
 ||unaccountablepie.com^$third-party
+||unacteyl.cfd^$third-party
 ||unagedsarcous.com^$third-party
 ||unakinloggin.com^$third-party
 ||unampharostor.com^$third-party
@@ -44109,6 +44508,7 @@
 ||uptimecdn.com^$third-party
 ||uptjtciycieat.online^$third-party
 ||uptolike.com^$third-party
+||uptopopunder.com^$third-party
 ||uptracs.com^$third-party
 ||uptyzxegbsprx.space^$third-party
 ||upu.samsungelectronics.com^$third-party
@@ -44438,6 +44838,7 @@
 ||uywfpprhavyog.site^$third-party
 ||uyxjpapnudvhd.space^$third-party
 ||uyybspugtnmit.website^$third-party
+||uyyluttqoh.com^$third-party
 ||uyzosjiuslcop.online^$third-party
 ||uzapgolabdiyl.site^$third-party
 ||uzasjoeoqwruj.site^$third-party
@@ -44521,6 +44922,7 @@
 ||valuablemarch.com^$third-party
 ||valuablenumber.com^$third-party
 ||valuead.com^$third-party
+||valuebuttons.com^$third-party
 ||valueclick.cc^$third-party
 ||valueclick.com^$third-party
 ||valueclick.jp^$third-party
@@ -44559,6 +44961,7 @@
 ||variabilitydonor.com^$third-party
 ||variablehour.com^$third-party
 ||variablesthirdtransparent.com^$third-party
+||variationbelovedsplit.com^$third-party
 ||variationconfused.com^$third-party
 ||varietyofdisplayformats.com^$third-party
 ||varietyproduction.com^$third-party
@@ -44676,6 +45079,7 @@
 ||vdxsvladcihnm.online^$third-party
 ||vebejgenfzchn.space^$third-party
 ||vebv8me7q.com^$third-party
+||vecjjpptcohjbld.com^$third-party
 ||vectoine.net^$third-party
 ||vedqxliyxcqkl.space^$third-party
 ||veertua.com^$third-party
@@ -44741,6 +45145,7 @@
 ||venturyremove.com^$third-party
 ||venueexpanded.com^$third-party
 ||venueitemmagic.com^$third-party
+||venusgloria.com^$third-party
 ||venwkbkyh.com^$third-party
 ||veodccuvtympn.space^$third-party
 ||veopoluoxfvtc.online^$third-party
@@ -44751,6 +45156,7 @@
 ||verbsponsor.com^$third-party
 ||vercel-insights.com^$third-party
 ||vercel-vitals.axiom.co^$third-party
+||verdantanswer.com^$third-party
 ||verdantlabyrinth.com^$third-party
 ||verdantsculpture.com^$third-party
 ||verdepromo.info^$third-party
@@ -44908,6 +45314,7 @@
 ||victorious-relation.com^$third-party
 ||victoriousinspireinept.com^$third-party
 ||victoriousmansion.com^$third-party
+||victoryideas.com^$third-party
 ||vid-adblocker.com^$third-party
 ||vid.me^$third-party
 ||vidazoo.com^$third-party
@@ -44964,7 +45371,6 @@
 ||vietphatjsc.xyz^$third-party
 ||vieva.xyz^$third-party
 ||view.adjust.com^$third-party
-||view.binlayer.com^$third-party
 ||view.fujitv.co.jp^$third-party
 ||view4cash.de^$third-party
 ||viewablemedia.net^$third-party
@@ -45228,6 +45634,7 @@
 ||vmkcgpjvhfifb.space^$third-party
 ||vmkcrlvtprhfa.online^$third-party
 ||vmkebqorunsod.site^$third-party
+||vmkkebsovkhfjs.com^$third-party
 ||vmkxwzvxlexlm.site^$third-party
 ||vmmcdn.com^$third-party
 ||vmmpxl.com^$third-party
@@ -45368,7 +45775,6 @@
 ||vpybshgjidxzt.space^$third-party
 ||vpzdnfciapiux.online^$third-party
 ||vqalqvxvevcdo.com^$third-party
-||vqbmxyzda.icu^$third-party
 ||vqdqbloehwafw.online^$third-party
 ||vqelkqlaavjmm.top^$third-party
 ||vqfdpwwodstou.space^$third-party
@@ -45411,6 +45817,7 @@
 ||vrssptskkihvn.site^$third-party
 ||vrstnadgljwiy.space^$third-party
 ||vrtbeoeqofw.com^$third-party
+||vrtcal.com^$third-party
 ||vrtzads.com^$third-party
 ||vruddhtkholk.com^$third-party
 ||vrukwwkeszzfg.space^$third-party
@@ -45523,6 +45930,7 @@
 ||vvwskuuryf.com^$third-party
 ||vvxxqpvylixke.store^$third-party
 ||vvyoskuzroudl.website^$third-party
+||vw4k8o3bcknl462ru16u38ux9732.cfd^$third-party
 ||vwbbphonljgrr.website^$third-party
 ||vwbjalrunlqrl.site^$third-party
 ||vwcbazbnsbpng.site^$third-party
@@ -46397,6 +46805,7 @@
 ||whoppercreaky.com^$third-party
 ||whopping-click.com^$third-party
 ||whoppngzrzsyz.online^$third-party
+||whortsiddat.com^$third-party
 ||whoseabacus.com^$third-party
 ||whosfmnqwci.com^$third-party
 ||whoshovotsaim.net^$third-party
@@ -46428,6 +46837,7 @@
 ||whywolveshowl.com^$third-party
 ||whzcfgbrzaljw.site^$third-party
 ||wi0z.com^$third-party
+||wibiya.com^$third-party
 ||wibksulpblipjkb.com^$third-party
 ||wicdn.cloud^$third-party
 ||wickedsetup.com^$third-party
@@ -46948,7 +47358,6 @@
 ||wpbioervnvxdv.online^$third-party
 ||wpbtyebtypph.com^$third-party
 ||wpcklpeseoivx.online^$third-party
-||wpconnect.org^$third-party
 ||wpdieifpq.net^$third-party
 ||wpewsnqnlxvhx.com^$third-party
 ||wpfc.ml^$third-party
@@ -47071,6 +47480,7 @@
 ||wry-boss.com^$third-party
 ||wry-chicken.pro^$third-party
 ||wryentrance.pro^$third-party
+||wryspiqywpe.com^$third-party
 ||wrzkmjrbjvoae.website^$third-party
 ||ws-goguardian.pusher.com^$third-party
 ||ws.audioeye.com^$third-party
@@ -47382,6 +47792,7 @@
 ||xbsnsisymkjxc.site^$third-party
 ||xbuggishbecom.org^$third-party
 ||xbvcjreg.com^$third-party
+||xbxftidubqfagfc.com^$third-party
 ||xbxyymigpvwbx.space^$third-party
 ||xbzcorkefbfrl.site^$third-party
 ||xcbaaofcfwrhc.website^$third-party
@@ -47541,11 +47952,13 @@
 ||xhxqxgxcbdpsx.website^$third-party
 ||xhxyavsrvc.com^$third-party
 ||xhycijgihf.in^$third-party
+||xhylcyossd.in^$third-party
 ||xhzlgrectlvsp.website^$third-party
 ||xhzrzyxlvuzpq.online^$third-party
 ||xhzwyppwkmudx.site^$third-party
 ||xiailvhqrdoml.website^$third-party
 ||xibflsqkdhsxiu.com^$third-party
+||xibijryda.com^$third-party
 ||xidxktydwzica.website^$third-party
 ||xihoqsajpap.com^$third-party
 ||xihpfehwez.in^$third-party
@@ -48076,6 +48489,7 @@
 ||yabagaisiityc.site^$third-party
 ||yabidos.com^$third-party
 ||yabuka.com^$third-party
+||yachtloft.com^$third-party
 ||yacnbvkmpxerf.com^$third-party
 ||yacsvdpiqyrza.site^$third-party
 ||yadmarmizuogr.website^$third-party
@@ -48526,6 +48940,7 @@
 ||ynurfigldblbt.online^$third-party
 ||ynvtepiimtshs.store^$third-party
 ||ynvvjirmwalx.com^$third-party
+||ynxgsfiimr.com^$third-party
 ||ynzziedpiyeyy.space^$third-party
 ||yoads.net^$third-party
 ||yobrfvmtaqrxe.website^$third-party
@@ -48597,6 +49012,7 @@
 ||youramigo.com^$third-party
 ||yourblocksite.com^$third-party
 ||yourcdnjs.com^$third-party
+||yourfirstfunnelchallenge.com^$third-party
 ||yourjsdelivery.com^$third-party
 ||yourlifedream.com^$third-party
 ||yourluckydates.com^$third-party
@@ -48758,6 +49174,7 @@
 ||yunshipei.com^$third-party
 ||yupcaziotekll.online^$third-party
 ||yupkenaklidnw.site^$third-party
+||yuppads.com^$third-party
 ||yuppyads.com^$third-party
 ||yurekbkmhoadl.net^$third-party
 ||yurivideo.com^$third-party
@@ -48783,7 +49200,6 @@
 ||yvshjwqvannfc.space^$third-party
 ||yvynnzvpp.com^$third-party
 ||yvywmoezamcsk.space^$third-party
-||yvzgazds6d.com^$third-party
 ||yvzpacgrjzrra.site^$third-party
 ||yvzrzqpgzralh.online^$third-party
 ||ywbgytjjqxl.com^$third-party
@@ -48847,6 +49263,7 @@
 ||yywflujrcwrcrio.net^$third-party
 ||yyxpearkrincp.site^$third-party
 ||yyxwdvaqngiqn.online^$third-party
+||yz6mh5m9j1fbkz3q8yg9p7j1xv.cfd^$third-party
 ||yzccdzhpooakp.store^$third-party
 ||yzdkhftbkynua.site^$third-party
 ||yzgivpmjib.com^$third-party
@@ -48870,12 +49287,12 @@
 ||z-ostatniej-chwili.com.pl^$third-party
 ||z.5xntkn9je414bv.cyou^$third-party
 ||z11.cnzz.com^$third-party
+||z13.cnzz.com^$third-party
 ||z2.cnzz.com^$third-party
 ||z210.manisteenews.com^$third-party
 ||z211.yourconroenews.com^$third-party
 ||z2ny961rqc3qiig.cfd^$third-party
 ||z32zl64equighu.cfd^$third-party
-||z4.cnzz.com^$third-party
 ||z492.ctinsider.com^$third-party
 ||z4q4lg98hgwcg6g87nncp38g6ff891ee.cfd^$third-party
 ||z5x.net^$third-party
@@ -48899,6 +49316,7 @@
 ||zacxppiaefnun.site^$third-party
 ||zacygnygluawn.site^$third-party
 ||zacyncoewayan.site^$third-party
+||zadaqwwza.in^$third-party
 ||zaevoqatiyylf.online^$third-party
 ||zafsayaexptas.online^$third-party
 ||zagkozkvrqojx.online^$third-party
@@ -48994,7 +49412,6 @@
 ||zdbuagetodumy.website^$third-party
 ||zddfupohzurso.website^$third-party
 ||zddipepgvdwfp.online^$third-party
-||zddsnuxow.icu^$third-party
 ||zdfwmkfxwrlht.online^$third-party
 ||zdiykdcxbwsvn.site^$third-party
 ||zdmxehlpvvtta.site^$third-party

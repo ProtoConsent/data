@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
-  "version": "2026-05-22",
-  "generated": "2026-05-22T05:16:47.300Z",
+  "version": "2026-05-23",
+  "generated": "2026-05-23T04:54:39.969Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -66,7 +66,6 @@
     "analytics-egain.com",
     "andromeda.iad-01.braze.com",
     "aooptout.zoominformation.com",
-    "api-v2.shareitgames.com",
     "api.addthis.com",
     "api.brightcove.com",
     "api.demandbase.com",
@@ -543,7 +542,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 536,
+  "domain_count": 535,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",
