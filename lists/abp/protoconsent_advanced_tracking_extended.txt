@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Advanced Tracking Extended
 ! Description: Advanced or non-cookie techniques to identify or track devices across sites or sessions (extended - all sources)
-! Version: 2026-05-23
-! Last modified: 2026-05-23T04:54:39.969Z
-! Entries: 15605
+! Version: 2026-05-24
+! Last modified: 2026-05-24T05:15:56.682Z
+! Entries: 15615
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -3709,6 +3709,7 @@
 ||cdn-google-tag.info^$third-party
 ||cdn-net.com^$third-party
 ||cdn-wps.hl.cn^$third-party
+||cdn.710k.com^$third-party
 ||cdn.al-adtech.com^$third-party
 ||cdn.brand-display.com^$third-party
 ||cdn.choicely.com^$third-party
@@ -4641,6 +4642,7 @@
 ||cydaree.com^$third-party
 ||cyg2016.xyz^$third-party
 ||cykahax.net^$third-party
+||cylenceprotect.com^$third-party
 ||cynicalalmighty.com^$third-party
 ||cypressbygone.com^$third-party
 ||czasnakino.pl^$third-party
@@ -5546,7 +5548,6 @@
 ||emaratghajari.com^$third-party
 ||emasculatesnap.com^$third-party
 ||emaze.me^$third-party
-||embedone.com^$third-party
 ||embellishedmeadow.com^$third-party
 ||embemy.com^$third-party
 ||emc.demdex.net^$third-party
@@ -6252,6 +6253,7 @@
 ||fluxvioon.com^$third-party
 ||flybox.my^$third-party
 ||flyerfuzzy.com^$third-party
+||flyermobi.com^$third-party
 ||flygame.io^$third-party
 ||flykuailian.com.cn^$third-party
 ||flyroutes.info^$third-party
@@ -9594,7 +9596,6 @@
 ||mon-fra-2.inf.nimiq.network^$third-party
 ||mon-gbr-1.inf.nimiq.network^$third-party
 ||monacojack-casino.fr^$third-party
-||monadportal.click^$third-party
 ||monarchdisregard.com^$third-party
 ||monbitnex-ai.com^$third-party
 ||monchoruspro.fr^$third-party
@@ -9729,6 +9730,7 @@
 ||muddyhonorarymy.com^$third-party
 ||muexli.baby^$third-party
 ||mugen-online.com^$third-party
+||muledo.com^$third-party
 ||mullvadd.com^$third-party
 ||multiadblock.com^$third-party
 ||multibankcash.com^$third-party
@@ -10464,6 +10466,7 @@
 ||optimism-lab.network^$third-party
 ||optionsnomad.com^$third-party
 ||optnmnstr.com^$third-party
+||optout.exelator.com^$third-party
 ||optumads.com^$third-party
 ||opyatet.com^$third-party
 ||oq.stealthtooting.com^$third-party
@@ -11788,7 +11791,6 @@
 ||red1r.xyz^$third-party
 ||red1r2.xyz^$third-party
 ||redactedapparelco.com^$third-party
-||redarianman.com^$third-party
 ||redbullfrance.fr^$third-party
 ||redeemhunter.online^$third-party
 ||redfcerghg4rgbtr.com^$third-party
@@ -12126,6 +12128,7 @@
 ||s.baidu.com^$third-party
 ||s.go.sohu.com^$third-party
 ||s.go2yd.com^$third-party
+||s.hisp.in^$third-party
 ||s.img.mix.sina.com.cn^$third-party
 ||s.nitropay.com^$third-party
 ||s.qhupdate.com^$third-party
@@ -13818,6 +13821,7 @@
 ||track.aptitudemedia.co^$third-party
 ||track.careweigh.com^$third-party
 ||track.dragonparking.com^$third-party
+||track.lookerpets.com^$third-party
 ||track.rbfcu.org^$third-party
 ||track.svalleys.com^$third-party
 ||track.sweet-lemon.xyz^$third-party
@@ -13913,6 +13917,7 @@
 ||tritravlife.xyz^$third-party
 ||trk.4gmarketing.co.uk^$third-party
 ||trk.aldtellafriends.com^$third-party
+||trk.in25app.com^$third-party
 ||trk.miltonroy.com.cn^$third-party
 ||trkepcs.com^$third-party
 ||trmdo.com^$third-party
@@ -14518,6 +14523,7 @@
 ||vq-kuailian.hl.cn^$third-party
 ||vq.vacuistkalian.com^$third-party
 ||vqbdd.com^$third-party
+||vqbmxyzda.icu^$third-party
 ||vqydliiyda.net^$third-party
 ||vrbanking-secure.com^$third-party
 ||vrbrothers.com^$third-party
@@ -14618,6 +14624,7 @@
 ||wavsp.com^$third-party
 ||wavyp.com^$third-party
 ||wawahrsdfrhfsdfh.com^$third-party
+||waxsirens.com^$third-party
 ||wb.gtimg.com^$third-party
 ||wbapp.uve.weibo.com^$third-party
 ||wcjindscijnsdcinsdcdhfhd.com^$third-party
@@ -14693,6 +14700,7 @@
 ||weita-wps.com.cn^$third-party
 ||weixin.hl.cn^$third-party
 ||welatera.com^$third-party
+||wellgroomedapparel.com^$third-party
 ||wellsfargobankna.demdex.net^$third-party
 ||wemineltc.com^$third-party
 ||wep-google.com.cn^$third-party
@@ -14731,6 +14739,7 @@
 ||whetherprovided-485.com^$third-party
 ||whibp.com^$third-party
 ||whilegadzooks-242.com^$third-party
+||whimsicalzenith.com^$third-party
 ||whiningconfessed.com^$third-party
 ||whiskeywealthclub.com^$third-party
 ||whisperingcascade.com^$third-party
@@ -15439,6 +15448,7 @@
 ||zcwjs.com^$third-party
 ||zd.tubabardy.com^$third-party
 ||zdash.cloud^$third-party
+||zddsnuxow.icu^$third-party
 ||zdkuailian.com.cn^$third-party
 ||ze-deliveryaberto24h.shop^$third-party
 ||zeddexexchange.live^$third-party

@@ -1,8 +1,8 @@
 # Title: ProtoConsent Third Parties Extended
 # Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-# Version: 2026-05-23
-# Last modified: 2026-05-23T04:54:39.969Z
-# Entries: 535
+# Version: 2026-05-24
+# Last modified: 2026-05-24T05:15:56.682Z
+# Entries: 631
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -74,8 +74,33 @@ api.pushwoosh.com
 api.widget.zalo.me
 api2.wshareit.com
 apollo.io
+app-ab01.marketo.com
+app-ab02.marketo.com
+app-ab03.marketo.com
+app-ab04.marketo.com
 app-ab05.marketo.com
+app-ab06.marketo.com
+app-ab07.marketo.com
+app-ab08.marketo.com
 app-ab09.marketo.com
+app-ab10.marketo.com
+app-ab11.marketo.com
+app-ab12.marketo.com
+app-ab13.marketo.com
+app-ab14.marketo.com
+app-ab15.marketo.com
+app-ab16.marketo.com
+app-ab17.marketo.com
+app-ab18.marketo.com
+app-ab19.marketo.com
+app-ab20.marketo.com
+app-ab21.marketo.com
+app-ab22.marketo.com
+app-ab23.marketo.com
+app-ab24.marketo.com
+app-ab25.marketo.com
+app-ab26.marketo.com
+app-ab27.marketo.com
 app-ab28.marketo.com
 app-ab29.marketo.com
 app-ab30.marketo.com
@@ -83,20 +108,58 @@ app-ab31.marketo.com
 app-ab32.marketo.com
 app-ab33.marketo.com
 app-ab34.marketo.com
+app-aba.marketo.com
+app-abb.marketo.com
+app-abc.marketo.com
+app-abd.marketo.com
 app-abj.marketo.com
+app-abk.marketo.com
 app-abm.marketo.com
 app-abq.marketo.com
+app-e.marketo.com
+app-lon02.marketo.com
+app-lon03.marketo.com
+app-lon04.marketo.com
+app-lon05.marketo.com
+app-lon06.marketo.com
+app-lon07.marketo.com
+app-lon08.marketo.com
+app-sj01.marketo.com
+app-sj02.marketo.com
+app-sj03.marketo.com
 app-sj04.marketo.com
+app-sj05.marketo.com
+app-sj06.marketo.com
+app-sj07.marketo.com
+app-sj08.marketo.com
+app-sj09.marketo.com
+app-sj10.marketo.com
 app-sj11.marketo.com
+app-sj13.marketo.com
 app-sj14.marketo.com
+app-sj15.marketo.com
+app-sj16.marketo.com
+app-sj17.marketo.com
+app-sj19.marketo.com
+app-sj20.marketo.com
 app-sj21.marketo.com
 app-sj22.marketo.com
 app-sj24.marketo.com
 app-sj25.marketo.com
 app-sj28.marketo.com
+app-sjf.marketo.com
+app-sjg.marketo.com
+app-sjh.marketo.com
+app-sji.marketo.com
 app-sjl.marketo.com
+app-sjn.marketo.com
+app-sjo.marketo.com
+app-sjp.marketo.com
+app-sjqe.marketo.com
 app-sjst.marketo.com
+app-sn01.marketo.com
 app.harasocial.com
+app.marketo.com
 appdev.addthis.com
 asia.marketo.com
 askfm.pushwoosh.com
@@ -108,6 +171,7 @@ autocomplete.demandbase.com
 autopilot.io
 b.6sc.co
 b2c-mlm.marketo.com
+b2c-msm.marketo.com
 ba.commentcamarche.net
 badge.facebook.com
 badges.instagram.com
@@ -135,6 +199,7 @@ c4de5-69f80.api.pushwoosh.com
 c6450-cea51.api.pushwoosh.com
 c947b-ef6ee.api.pushwoosh.com
 cache-07.pushwoosh.com
+cache-ha.pushwoosh.com
 caesar.iad-03.braze.com
 campaign-remp.444.hu
 campaign.gitiho.com
@@ -148,6 +213,8 @@ cdn.branch.io
 cdn.braze.eu
 cdn.onesignal.com
 cdn.pardot.com
+cdn.pushwoosh.com
+cdn.socialannex.com
 cdn.wibiya.com
 ceres.iad-03.braze.com
 chatbox-widget.botbanhang.vn
@@ -205,6 +272,7 @@ faceboak.com
 facebooik.com
 facedbook.com
 fairfaxmedia.sharedcount.com
+fast.a.klaviyo.com
 fbthirdpartypixel.com
 filamentapp.s3.amazonaws.com
 firepush.com
@@ -233,6 +301,7 @@ gravitec.net
 gudja.iad-02.braze.com
 h0.t.hubspotemail.net
 ha-api.pushwoosh.com
+ha.pushwoosh.com
 haaretz.pushwoosh.com
 handll.com
 hassaleh.iad-03.braze.com
@@ -289,6 +358,8 @@ liveperson.net
 load.sumo.com
 log.storelocatorwidgets.com
 lon-mknodepub.marketo.com
+lonrtp1-cdn.marketo.com
+lonrtp1.marketo.com
 loox.io
 mail.ru
 mailerlite.com
@@ -333,6 +404,7 @@ na-sj14.marketo.com
 na-sj20.marketo.com
 na-sj23.marketo.com
 na-sjn.marketo.com
+nai.sharethis.com
 nashira.iad-06.braze.com
 nation.marketo.com
 newsharecounts.com
@@ -396,14 +468,18 @@ rest.sharethis.com
 retainful.com
 revsharecash.com
 rge.pushwoosh.com
+richmedia.pushwoosh.com
 rollworks.com
 rotanev.iad-03.braze.com
+rtp-static.marketo.com
+s.sharethis.com
 sagan.iad-03.braze.com
 salesloft.com
 sargas.iad-03.braze.com
 scoop.it
 screenshare.pics
 scripts.demandbase.com
+sd.sharethis.com
 sdk.fra-01.braze.eu
 sdk.iad-01.braze.com
 sdk.iad-02.braze.com
@@ -434,11 +510,27 @@ shpg.org
 simplesharebuttons.com
 sirius.iad-03.braze.com
 sj-mknodepub.marketo.com
+sjrtp-cdn.marketo.com
+sjrtp1.marketo.com
+sjrtp2-cdn.marketo.com
+sjrtp2.marketo.com
+sjrtp3-cdn.marketo.com
 sjrtp3.marketo.com
 sjrtp4-cdn.marketo.com
+sjrtp4.marketo.com
+sjrtp5-cdn.marketo.com
+sjrtp5.marketo.com
+sjrtp6-cdn.marketo.com
+sjrtp6.marketo.com
+sjrtp7-cdn.marketo.com
+sjrtp7.marketo.com
+sjrtp8-cdn.marketo.com
+sjrtp8.marketo.com
 sleeknote.com
 smile.io
 snackly.co
+snrtp-cdn.marketo.com
+snrtp1.marketo.com
 social-touch.com
 socialloginplus-apps.haravan.com
 speedshare.app
@@ -455,6 +547,7 @@ stumble-upon.com
 stumbleupon.com
 sulake.pushwoosh.com
 svonm.com
+sync.sharethis.com
 t.sharethis.com
 tag.demandbase.com
 tali.iad-03.braze.com
@@ -472,6 +565,7 @@ truepush.com
 truthsocial.com
 twimg.com
 twitter.jp
+uefa.pushwoosh.com
 uk.marketo.com
 unbounce.com
 upsell.alphwidget.com
@@ -494,6 +588,7 @@ wd-edge.sharethis.com
 wd.sharethis.com
 weasel.sharethegoods.ca
 webpushr.com
+wetter.pushwoosh.com
 widget-api.dmm.co.jp
 widget-api.dmm.com
 widget-social-proof-api.one.store
@@ -507,6 +602,7 @@ widget.ezprice.com.tw
 widget.headlines.pw
 widget.justwatch.com
 widget.kyna.vn
+widget.manychat.com
 widget.marktjagd.de
 widget.onlinetv.ru
 widget.sparrow.ru

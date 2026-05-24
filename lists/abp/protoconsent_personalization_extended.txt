@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Personalization Extended
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)
-! Version: 2026-05-22
-! Last modified: 2026-05-22T05:16:47.300Z
-! Entries: 271
+! Version: 2026-05-24
+! Last modified: 2026-05-24T05:15:56.682Z
+! Entries: 273
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -190,6 +190,8 @@
 ||raisin-api.exponea.com^$third-party
 ||rc-ext-geo.rlcdn.com^$third-party
 ||rc.rlcdn.com^$third-party
+||rcom-eu.dynamicyield.com^$third-party
+||rcom.dynamicyield.com^$third-party
 ||recombee.com^$third-party
 ||recommender-eu.scarabresearch.com^$third-party
 ||recommender.scarabresearch.com^$third-party
