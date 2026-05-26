@@ -1,20 +1,24 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-05-25
-! Last modified: 2026-05-25T05:53:08.112Z
-! Entries: 9261
+! Version: 2026-05-26
+! Last modified: 2026-05-26T05:18:12.274Z
+! Entries: 9262
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
 ||103bees.com^$third-party
+||123compteur.com^$third-party
 ||123count.com^$third-party
 ||123stat.com^$third-party
+||15gifts.com^$third-party
 ||1l-hit.mail.ru^$third-party
 ||1to1.bbva.com^$third-party
 ||200summit.com^$third-party
+||206solutions.com^$third-party
+||2222.ro^$third-party
 ||2467april2024.com^$third-party
 ||247-inc.com^$third-party
 ||2495may2024.com^$third-party
@@ -582,7 +586,6 @@
 ||analytics.tactilews.com^$third-party
 ||analytics.tbs.com^$third-party
 ||analytics.tebilisim.com^$third-party
-||analytics.teespring.com^$third-party
 ||analytics.teko.vn^$third-party
 ||analytics.test.cheggnet.com^$third-party
 ||analytics.thekrazycouponlady.com^$third-party
@@ -2124,6 +2127,7 @@
 ||indicative.com^$third-party
 ||infinity-tracking.net^$third-party
 ||infinityid.condenastdigital.com^$third-party
+||info.calnexsol.com^$third-party
 ||informer.yandex.ru^$third-party
 ||informers.sinoptik.ua^$third-party
 ||infostroy.nnov.ru^$third-party
@@ -2389,6 +2393,7 @@
 ||log.olark.com^$third-party
 ||log.oto.com.vn^$third-party
 ||log.particlenews.com^$third-party
+||log.pdfreaders.net^$third-party
 ||log.perfecttitspics.com^$third-party
 ||log.photorecoverypicturerecovery.com^$third-party
 ||log.pinterest.com^$third-party
@@ -2844,6 +2849,7 @@
 ||netcounter.de^$third-party
 ||netdebit-counter.de^$third-party
 ||netgraviton.net^$third-party
+||netlify-rum.netlify.app^$third-party
 ||netlog.ru^$third-party
 ||netmarbleslog.netmarble.com^$third-party
 ||netminers.dk^$third-party
@@ -3118,7 +3124,6 @@
 ||plausible.citynews.ovh^$third-party
 ||plausible.omgapi.org^$third-party
 ||plausible.server.hakai.app^$third-party
-||plausible.simplelogin.io^$third-party
 ||plausibleio.workers.dev^$third-party
 ||play.adtonos.com^$third-party
 ||player-analytics.mp.lura.live^$third-party
@@ -3809,6 +3814,7 @@
 ||sombersea.com^$third-party
 ||sombersquirrel.com^$third-party
 ||sombersurprise.com^$third-party
+||sometrics.netapp.com^$third-party
 ||somt.honda.com^$third-party
 ||sophi.io^$third-party
 ||sourcecode.pro^$third-party
@@ -3962,7 +3968,6 @@
 ||stats-messages.gifs.com^$third-party
 ||stats-newyork1.bloxcms.com^$third-party
 ||stats-real-clients.zentech.gr^$third-party
-||stats.123c.vn^$third-party
 ||stats.abbi.io^$third-party
 ||stats.addtoany.com^$third-party
 ||stats.administrarweb.es^$third-party
@@ -4171,7 +4176,6 @@
 ||svtrd.com^$third-party
 ||sw88.abc.com^$third-party
 ||sweb.ulta.com^$third-party
-||sweetslope.com^$third-party
 ||swordgoose.com^$third-party
 ||sy.ameba.jp^$third-party
 ||sync.adap.tv^$third-party
@@ -4733,7 +4737,6 @@
 ||tracking.hsn.com^$third-party
 ||tracking.hubs.vn^$third-party
 ||tracking.hyros.com^$third-party
-||tracking.i2w.io^$third-party
 ||tracking.immobilienscout24.de^$third-party
 ||tracking.intentsify.io^$third-party
 ||tracking.internetstores.de^$third-party
@@ -4789,7 +4792,6 @@
 ||tracking.shinycolors.enza.fun^$third-party
 ||tracking.shopback.com^$third-party
 ||tracking.shopee.com.br^$third-party
-||tracking.shopstyle.co.uk^$third-party
 ||tracking.skyword.com^$third-party
 ||tracking.smartmeapp.com^$third-party
 ||tracking.softwareprojects.com^$third-party
@@ -4879,7 +4881,6 @@
 ||trk.decido.io^$third-party
 ||trk.fensi.plus^$third-party
 ||trk.playitviral.com^$third-party
-||trk.staging.123c.vn^$third-party
 ||trk.storyly.io^$third-party
 ||trk.tirto.id^$third-party
 ||trk2-wtb.swaven.com^$third-party
@@ -4903,6 +4904,7 @@
 ||ts.tradetracker.net^$third-party
 ||tscounter.com^$third-party
 ||ttmetrics.jcpenney.com^$third-party
+||tuplebar.com^$third-party
 ||turtleface.net^$third-party
 ||tver-metrics.streaks.jp^$third-party
 ||tvpage.com^$third-party
@@ -4988,7 +4990,6 @@
 ||uue2.destinia.ir^$third-party
 ||v-collector.dp.aws.charter.com^$third-party
 ||v.oui.sncf^$third-party
-||v6analytics.htmedia.in.edgekey.net^$third-party
 ||valencia-beacons.xumo.com^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vamaker.com^$third-party

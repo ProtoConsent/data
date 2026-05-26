@@ -1,19 +1,23 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-05-25
-# Last modified: 2026-05-25T05:53:08.112Z
-# Entries: 5247
+# Version: 2026-05-26
+# Last modified: 2026-05-26T05:18:12.274Z
+# Entries: 5248
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
 0.0.0.0 0.myikas.com
 0.0.0.0 0stats.com
 0.0.0.0 103bees.com
+0.0.0.0 123compteur.com
 0.0.0.0 123count.com
 0.0.0.0 123stat.com
+0.0.0.0 15gifts.com
 0.0.0.0 1l-hit.mail.ru
 0.0.0.0 1to1.bbva.com
 0.0.0.0 200summit.com
+0.0.0.0 206solutions.com
+0.0.0.0 2222.ro
 0.0.0.0 2467april2024.com
 0.0.0.0 247-inc.com
 0.0.0.0 2495may2024.com
@@ -581,7 +585,6 @@
 0.0.0.0 analytics.tactilews.com
 0.0.0.0 analytics.tbs.com
 0.0.0.0 analytics.tebilisim.com
-0.0.0.0 analytics.teespring.com
 0.0.0.0 analytics.teko.vn
 0.0.0.0 analytics.test.cheggnet.com
 0.0.0.0 analytics.thekrazycouponlady.com
@@ -2123,6 +2126,7 @@
 0.0.0.0 indicative.com
 0.0.0.0 infinity-tracking.net
 0.0.0.0 infinityid.condenastdigital.com
+0.0.0.0 info.calnexsol.com
 0.0.0.0 informer.yandex.ru
 0.0.0.0 informers.sinoptik.ua
 0.0.0.0 infostroy.nnov.ru
@@ -2388,6 +2392,7 @@
 0.0.0.0 log.olark.com
 0.0.0.0 log.oto.com.vn
 0.0.0.0 log.particlenews.com
+0.0.0.0 log.pdfreaders.net
 0.0.0.0 log.perfecttitspics.com
 0.0.0.0 log.photorecoverypicturerecovery.com
 0.0.0.0 log.pinterest.com
@@ -2843,6 +2848,7 @@
 0.0.0.0 netcounter.de
 0.0.0.0 netdebit-counter.de
 0.0.0.0 netgraviton.net
+0.0.0.0 netlify-rum.netlify.app
 0.0.0.0 netlog.ru
 0.0.0.0 netmarbleslog.netmarble.com
 0.0.0.0 netminers.dk
@@ -3117,7 +3123,6 @@
 0.0.0.0 plausible.citynews.ovh
 0.0.0.0 plausible.omgapi.org
 0.0.0.0 plausible.server.hakai.app
-0.0.0.0 plausible.simplelogin.io
 0.0.0.0 plausibleio.workers.dev
 0.0.0.0 play.adtonos.com
 0.0.0.0 player-analytics.mp.lura.live
@@ -3808,6 +3813,7 @@
 0.0.0.0 sombersea.com
 0.0.0.0 sombersquirrel.com
 0.0.0.0 sombersurprise.com
+0.0.0.0 sometrics.netapp.com
 0.0.0.0 somt.honda.com
 0.0.0.0 sophi.io
 0.0.0.0 sourcecode.pro
@@ -3961,7 +3967,6 @@
 0.0.0.0 stats-messages.gifs.com
 0.0.0.0 stats-newyork1.bloxcms.com
 0.0.0.0 stats-real-clients.zentech.gr
-0.0.0.0 stats.123c.vn
 0.0.0.0 stats.abbi.io
 0.0.0.0 stats.addtoany.com
 0.0.0.0 stats.administrarweb.es
@@ -4170,7 +4175,6 @@
 0.0.0.0 svtrd.com
 0.0.0.0 sw88.abc.com
 0.0.0.0 sweb.ulta.com
-0.0.0.0 sweetslope.com
 0.0.0.0 swordgoose.com
 0.0.0.0 sy.ameba.jp
 0.0.0.0 sync.adap.tv
@@ -4732,7 +4736,6 @@
 0.0.0.0 tracking.hsn.com
 0.0.0.0 tracking.hubs.vn
 0.0.0.0 tracking.hyros.com
-0.0.0.0 tracking.i2w.io
 0.0.0.0 tracking.immobilienscout24.de
 0.0.0.0 tracking.intentsify.io
 0.0.0.0 tracking.internetstores.de
@@ -4788,7 +4791,6 @@
 0.0.0.0 tracking.shinycolors.enza.fun
 0.0.0.0 tracking.shopback.com
 0.0.0.0 tracking.shopee.com.br
-0.0.0.0 tracking.shopstyle.co.uk
 0.0.0.0 tracking.skyword.com
 0.0.0.0 tracking.smartmeapp.com
 0.0.0.0 tracking.softwareprojects.com
@@ -4878,7 +4880,6 @@
 0.0.0.0 trk.decido.io
 0.0.0.0 trk.fensi.plus
 0.0.0.0 trk.playitviral.com
-0.0.0.0 trk.staging.123c.vn
 0.0.0.0 trk.storyly.io
 0.0.0.0 trk.tirto.id
 0.0.0.0 trk2-wtb.swaven.com
@@ -4902,6 +4903,7 @@
 0.0.0.0 ts.tradetracker.net
 0.0.0.0 tscounter.com
 0.0.0.0 ttmetrics.jcpenney.com
+0.0.0.0 tuplebar.com
 0.0.0.0 turtleface.net
 0.0.0.0 tver-metrics.streaks.jp
 0.0.0.0 tvpage.com
@@ -4987,7 +4989,6 @@
 0.0.0.0 uue2.destinia.ir
 0.0.0.0 v-collector.dp.aws.charter.com
 0.0.0.0 v.oui.sncf
-0.0.0.0 v6analytics.htmedia.in.edgekey.net
 0.0.0.0 valencia-beacons.xumo.com
 0.0.0.0 valuedopinions.co.uk
 0.0.0.0 vamaker.com
