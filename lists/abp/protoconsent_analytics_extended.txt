@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-05-26
-! Last modified: 2026-05-26T05:18:12.274Z
-! Entries: 38162
+! Version: 2026-05-27
+! Last modified: 2026-05-27T05:45:54.228Z
+! Entries: 38168
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -26316,6 +26316,7 @@
 ||stats-real-clients.zentech.gr^$third-party
 ||stats-ssl.mdanderson.org^$third-party
 ||stats.0www.org^$third-party
+||stats.123c.vn^$third-party
 ||stats.1internet.tv^$third-party
 ||stats.4travel.jp^$third-party
 ||stats.aapt.com.au^$third-party
@@ -27401,6 +27402,7 @@
 ||subscriptionsbnk.wolterskluwerfs.com^$third-party
 ||subsequentstew.com^$third-party
 ||substation.confection.io^$third-party
+||success.act-on.com^$third-party
 ||success.azzure-it.com^$third-party
 ||success.benico.com^$third-party
 ||success.coface.com^$third-party
@@ -31477,6 +31479,7 @@
 ||trk.speedbumpsandhumps.com^$third-party
 ||trk.spsglobal.com^$third-party
 ||trk.squeezemassage.com^$third-party
+||trk.staging.123c.vn^$third-party
 ||trk.storyly.io^$third-party
 ||trk.supermarketnews.com^$third-party
 ||trk.tbivision.com^$third-party
@@ -32406,6 +32409,7 @@
 ||v12group.com^$third-party
 ||v16m-default.akamaized.net.iberostar.com^$third-party
 ||v2stats.bio.link^$third-party
+||v6analytics.htmedia.in.edgekey.net^$third-party
 ||va-endpoint.com^$third-party
 ||vahlnd.bogsfootwear.com^$third-party
 ||valdes.net.anwalt.de^$third-party
@@ -36262,6 +36266,8 @@
 ||mdn.allizom.net/pong/^
 ||mdstrm.com/js/lib/streammetrics.js^
 ||mdxprod.io/analytics.js^
+||me-qr.com/metrics/^
+||me-qr.com/statistic/collect/^
 ||media-imdb.com/twilight/?^
 ||media-lab.ai/ana-sentry.js^
 ||media-lab.ai/events^
