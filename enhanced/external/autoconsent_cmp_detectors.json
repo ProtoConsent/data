@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-23",
+  "version": "2026-05-27",
   "type": "cmp_detectors",
-  "generated": "2026-05-23T06:24:10.693Z",
+  "generated": "2026-05-27T07:50:11.681Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "af14c9b8ef822457",
-  "cmp_count": 296,
+  "autoconsent_tree_hash": "543c4a564074b4bf",
+  "cmp_count": 297,
   "detectors": {
     "abc": {
       "present": [
@@ -1347,6 +1347,17 @@
       ],
       "domains": [
         "linkedin.com"
+      ]
+    },
+    "lucozade_com": {
+      "present": [
+        "#cookiePopup"
+      ],
+      "showing": [
+        "#cookiePopup"
+      ],
+      "domains": [
+        "lucozade.com"
       ]
     },
     "macaron": {
