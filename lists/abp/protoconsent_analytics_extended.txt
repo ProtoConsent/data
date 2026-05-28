@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-05-27
-! Last modified: 2026-05-27T05:45:54.228Z
-! Entries: 38168
+! Version: 2026-05-28
+! Last modified: 2026-05-28T05:39:11.066Z
+! Entries: 38172
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -2452,6 +2452,7 @@
 ||ampltd.medal.tv^$third-party
 ||ampltd.top.gg^$third-party
 ||ampltd2.medal.tv^$third-party
+||ampscamp.net^$third-party
 ||ams-beacons.xumo.com^$third-party
 ||ams-pageview-public.s3.amazonaws.com^$third-party
 ||ams.lelong.com.my^$third-party
@@ -10595,7 +10596,6 @@
 ||heartbeat.pmd.444.hu^$third-party
 ||heatmap-events-collector.instapage.com^$third-party
 ||heatmap.it^$third-party
-||heatmaps.lcisoft.it^$third-party
 ||hebiichigo.com^$third-party
 ||hekhnn.turnkeyvr.com^$third-party
 ||helix.bitformations.ca^$third-party
@@ -13398,7 +13398,6 @@
 ||log.mofa.go.kr^$third-party
 ||log.molitv.cn^$third-party
 ||log.mp3.zing.vn^$third-party
-||log.netsoft2012.com^$third-party
 ||log.newsvine.com^$third-party
 ||log.ngaynay.vn^$third-party
 ||log.nguoimuanha.vn^$third-party
@@ -26234,7 +26233,6 @@
 ||stat.wolterskluwer.pl^$third-party
 ||stat.wolterskluwer.pt^$third-party
 ||stat.ws.126.net^$third-party
-||stat.xageek.com^$third-party
 ||stat.xgo.com.cn^$third-party
 ||stat.xunlei.com^$third-party
 ||stat.xywy.com^$third-party
@@ -27340,6 +27338,7 @@
 ||stracking.myomee.com^$third-party
 ||stracking.rogers.com^$third-party
 ||stracking.trutv.com^$third-party
+||strandedgame.com^$third-party
 ||strapi.clickjogos.com.br^$third-party
 ||strawberry.basf.com^$third-party
 ||stream-log.dditscdn.com^$third-party
@@ -27569,6 +27568,7 @@
 ||swasc.thecompanystore.com^$third-party
 ||swdced.open32.nl^$third-party
 ||sweb.ulta.com^$third-party
+||swebanalytics.acs.org^$third-party
 ||swebanalytics.degulesider.dk^$third-party
 ||swebanalytics.gulesider.no^$third-party
 ||swebanalytics.krak.dk^$third-party
@@ -33434,6 +33434,7 @@
 ||www-sadobe.anabuki.co.jp^$third-party
 ||www-smt.daiichisankyo-hc.co.jp^$third-party
 ||www.123-tracker.com^$third-party
+||www.52data-venture.com^$third-party
 ||www.acpprograms.org^$third-party
 ||www.activisionnews.com^$third-party
 ||www.adpinfo.com^$third-party
@@ -34449,6 +34450,9 @@
 ||app.box.com/app-api/split-proxy/api/metrics^
 ||app.box.com/gen204^
 ||app.carnow.com/dealers/track_visitor^
+||app.clickfunnels.com/assets/pushcrew.js^
+||app.clickfunnels.com/assets/userevents/application.js^
+||app.clickfunnels.com/cf.js^
 ||app.elitedomains.de/js/service/statistics.service.js^
 ||app.gnosispay.com/relay-gp-ph/^
 ||app.kulgacdn.com/js/script.js^

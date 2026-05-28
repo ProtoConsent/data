@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-05-27
-# Last modified: 2026-05-27T05:45:54.228Z
-# Entries: 5247
+# Version: 2026-05-28
+# Last modified: 2026-05-28T05:39:11.066Z
+# Entries: 5250
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -699,6 +699,7 @@
 0.0.0.0 app-tracking-gfa-collector.naver.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.optibase.io
+0.0.0.0 app.partnerboost.com
 0.0.0.0 app.pendo.io
 0.0.0.0 apple.www.letv.com
 0.0.0.0 applog.camera360.com
@@ -2028,7 +2029,6 @@
 0.0.0.0 heartbeat.pmd.444.hu
 0.0.0.0 heatmap-events-collector.instapage.com
 0.0.0.0 heatmap.it
-0.0.0.0 heatmaps.lcisoft.it
 0.0.0.0 helix.bitformations.ca
 0.0.0.0 hello.staticstuff.net
 0.0.0.0 hemnes.win
@@ -4172,6 +4172,7 @@
 0.0.0.0 svtrd.com
 0.0.0.0 sw88.abc.com
 0.0.0.0 sweb.ulta.com
+0.0.0.0 swebanalytics.acs.org
 0.0.0.0 swordgoose.com
 0.0.0.0 sy.ameba.jp
 0.0.0.0 sync.adap.tv
@@ -5092,6 +5093,7 @@
 0.0.0.0 webgozar.com
 0.0.0.0 webgozar.ir
 0.0.0.0 webhits.de
+0.0.0.0 webiqonline.com
 0.0.0.0 webleads-tracker.com
 0.0.0.0 weblist.de
 0.0.0.0 weblog.coupang.com
@@ -5162,6 +5164,7 @@
 0.0.0.0 woopra-ns.com
 0.0.0.0 woopra.com
 0.0.0.0 work.selecdoo.com
+0.0.0.0 workwithdrones.com
 0.0.0.0 worriednumber.com
 0.0.0.0 wpfc.ml
 0.0.0.0 wrapper.lemde.fr

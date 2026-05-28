@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Analytics Extended",
-  "version": "2026-05-27",
-  "generated": "2026-05-27T05:45:54.228Z",
+  "version": "2026-05-28",
+  "generated": "2026-05-28T05:39:11.066Z",
   "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -2451,6 +2451,7 @@
     "ampltd.medal.tv",
     "ampltd.top.gg",
     "ampltd2.medal.tv",
+    "ampscamp.net",
     "ams-beacons.xumo.com",
     "ams-pageview-public.s3.amazonaws.com",
     "ams.lelong.com.my",
@@ -10594,7 +10595,6 @@
     "heartbeat.pmd.444.hu",
     "heatmap-events-collector.instapage.com",
     "heatmap.it",
-    "heatmaps.lcisoft.it",
     "hebiichigo.com",
     "hekhnn.turnkeyvr.com",
     "helix.bitformations.ca",
@@ -13397,7 +13397,6 @@
     "log.mofa.go.kr",
     "log.molitv.cn",
     "log.mp3.zing.vn",
-    "log.netsoft2012.com",
     "log.newsvine.com",
     "log.ngaynay.vn",
     "log.nguoimuanha.vn",
@@ -26233,7 +26232,6 @@
     "stat.wolterskluwer.pl",
     "stat.wolterskluwer.pt",
     "stat.ws.126.net",
-    "stat.xageek.com",
     "stat.xgo.com.cn",
     "stat.xunlei.com",
     "stat.xywy.com",
@@ -27339,6 +27337,7 @@
     "stracking.myomee.com",
     "stracking.rogers.com",
     "stracking.trutv.com",
+    "strandedgame.com",
     "strapi.clickjogos.com.br",
     "strawberry.basf.com",
     "stream-log.dditscdn.com",
@@ -27568,6 +27567,7 @@
     "swasc.thecompanystore.com",
     "swdced.open32.nl",
     "sweb.ulta.com",
+    "swebanalytics.acs.org",
     "swebanalytics.degulesider.dk",
     "swebanalytics.gulesider.no",
     "swebanalytics.krak.dk",
@@ -33433,6 +33433,7 @@
     "www-sadobe.anabuki.co.jp",
     "www-smt.daiichisankyo-hc.co.jp",
     "www.123-tracker.com",
+    "www.52data-venture.com",
     "www.acpprograms.org",
     "www.activisionnews.com",
     "www.adpinfo.com",
@@ -34137,7 +34138,7 @@
     "zzqyxd.smartpozyczka.pl",
     "zzsqqx.shopjapan.co.jp"
   ],
-  "domain_count": 34130,
+  "domain_count": 34131,
   "paths": [
     "||01net.com/track/",
     "||1024tera.com/api/analytics?",
@@ -34451,6 +34452,9 @@
     "||app.box.com/app-api/split-proxy/api/metrics",
     "||app.box.com/gen204",
     "||app.carnow.com/dealers/track_visitor",
+    "||app.clickfunnels.com/assets/pushcrew.js",
+    "||app.clickfunnels.com/assets/userevents/application.js",
+    "||app.clickfunnels.com/cf.js",
     "||app.elitedomains.de/js/service/statistics.service.js",
     "||app.gnosispay.com/relay-gp-ph/",
     "||app.kulgacdn.com/js/script.js",
@@ -38178,5 +38182,5 @@
     "||zumper.com/events",
     "||zynga.com/track/"
   ],
-  "path_count": 4038
+  "path_count": 4041
 }

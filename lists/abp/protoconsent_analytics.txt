@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-05-27
-! Last modified: 2026-05-27T05:45:54.228Z
-! Entries: 9261
+! Version: 2026-05-28
+! Last modified: 2026-05-28T05:39:11.066Z
+! Entries: 9264
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -700,6 +700,7 @@
 ||app-tracking-gfa-collector.naver.com^$third-party
 ||app.adjust.com^$third-party
 ||app.optibase.io^$third-party
+||app.partnerboost.com^$third-party
 ||app.pendo.io^$third-party
 ||apple.www.letv.com^$third-party
 ||applog.camera360.com^$third-party
@@ -2029,7 +2030,6 @@
 ||heartbeat.pmd.444.hu^$third-party
 ||heatmap-events-collector.instapage.com^$third-party
 ||heatmap.it^$third-party
-||heatmaps.lcisoft.it^$third-party
 ||helix.bitformations.ca^$third-party
 ||hello.staticstuff.net^$third-party
 ||hemnes.win^$third-party
@@ -4173,6 +4173,7 @@
 ||svtrd.com^$third-party
 ||sw88.abc.com^$third-party
 ||sweb.ulta.com^$third-party
+||swebanalytics.acs.org^$third-party
 ||swordgoose.com^$third-party
 ||sy.ameba.jp^$third-party
 ||sync.adap.tv^$third-party
@@ -5093,6 +5094,7 @@
 ||webgozar.com^$third-party
 ||webgozar.ir^$third-party
 ||webhits.de^$third-party
+||webiqonline.com^$third-party
 ||webleads-tracker.com^$third-party
 ||weblist.de^$third-party
 ||weblog.coupang.com^$third-party
@@ -5163,6 +5165,7 @@
 ||woopra-ns.com^$third-party
 ||woopra.com^$third-party
 ||work.selecdoo.com^$third-party
+||workwithdrones.com^$third-party
 ||worriednumber.com^$third-party
 ||wpfc.ml^$third-party
 ||wrapper.lemde.fr^$third-party

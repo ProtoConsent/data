@@ -2,9 +2,9 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-27T05:45:54.228Z
+! Last modified: 2026-05-28T05:39:11.066Z
 ! Format: AdGuard
-! Entries: 827
+! Entries: 828
 !
 ||01e8b-7ffd2.api.pushwoosh.com^$third-party
 ||06cfa-f8925.api.pushwoosh.com^$third-party
@@ -375,6 +375,7 @@
 ||meebo.com^$third-party
 ||metadata.io^$third-party
 ||metrics-collector.tidio.co^$third-party
+||metrics-eu-green.cometchat.io^$third-party
 ||metrics-eu.cometchat.io^$third-party
 ||metrics-fe-ap1.hubspot.com^$third-party
 ||metrics-fe-na2.hubspot.com^$third-party
