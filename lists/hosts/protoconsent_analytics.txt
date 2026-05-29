@@ -1,7 +1,7 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-05-28
-# Last modified: 2026-05-28T05:39:11.066Z
+# Version: 2026-05-29
+# Last modified: 2026-05-29T05:42:57.083Z
 # Entries: 5250
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
@@ -61,7 +61,6 @@
 0.0.0.0 aa-metrics.jalan.net
 0.0.0.0 aa-metrics.recruit-card.jp
 0.0.0.0 aa-metrics.trip-ai.jp
-0.0.0.0 aa.analog.com
 0.0.0.0 aamt.nbcnews.com
 0.0.0.0 aamt.today.com
 0.0.0.0 aan.amazon.com
@@ -699,7 +698,6 @@
 0.0.0.0 app-tracking-gfa-collector.naver.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.optibase.io
-0.0.0.0 app.partnerboost.com
 0.0.0.0 app.pendo.io
 0.0.0.0 apple.www.letv.com
 0.0.0.0 applog.camera360.com
@@ -2384,6 +2382,7 @@
 0.0.0.0 log.nhandan.vn
 0.0.0.0 log.nhipcaudautu.vn
 0.0.0.0 log.nordot.jp
+0.0.0.0 log.ohou.se
 0.0.0.0 log.olark.com
 0.0.0.0 log.oto.com.vn
 0.0.0.0 log.particlenews.com
@@ -2465,6 +2464,7 @@
 0.0.0.0 logging.je-apps.com
 0.0.0.0 logging.pw.adn.cloud
 0.0.0.0 loggly.com
+0.0.0.0 logicsfort.com
 0.0.0.0 loglady.skypicker.com
 0.0.0.0 lognormal.net
 0.0.0.0 logrocket.com
@@ -4147,6 +4147,7 @@
 0.0.0.0 storeconfig.mistat.intl.xiaomi.com
 0.0.0.0 stormcontainertag.com
 0.0.0.0 stormgate.production.raptive.com
+0.0.0.0 strandedgame.com
 0.0.0.0 stream-log.dditscdn.com
 0.0.0.0 stream.corporatefinanceinstitute.com
 0.0.0.0 stream.datago.ru
@@ -5239,7 +5240,6 @@
 0.0.0.0 z492.ctinsider.com
 0.0.0.0 z680.beaumontenterprise.com
 0.0.0.0 za.zalo.me
-0.0.0.0 zampda.net
 0.0.0.0 zdbb.net
 0.0.0.0 zebestof.com
 0.0.0.0 zero.kz

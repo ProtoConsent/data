@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-05-28
-! Last modified: 2026-05-28T05:39:11.066Z
+! Version: 2026-05-29
+! Last modified: 2026-05-29T05:42:57.083Z
 ! Entries: 9264
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
@@ -62,7 +62,6 @@
 ||aa-metrics.jalan.net^$third-party
 ||aa-metrics.recruit-card.jp^$third-party
 ||aa-metrics.trip-ai.jp^$third-party
-||aa.analog.com^$third-party
 ||aamt.nbcnews.com^$third-party
 ||aamt.today.com^$third-party
 ||aan.amazon.com^$third-party
@@ -700,7 +699,6 @@
 ||app-tracking-gfa-collector.naver.com^$third-party
 ||app.adjust.com^$third-party
 ||app.optibase.io^$third-party
-||app.partnerboost.com^$third-party
 ||app.pendo.io^$third-party
 ||apple.www.letv.com^$third-party
 ||applog.camera360.com^$third-party
@@ -2385,6 +2383,7 @@
 ||log.nhandan.vn^$third-party
 ||log.nhipcaudautu.vn^$third-party
 ||log.nordot.jp^$third-party
+||log.ohou.se^$third-party
 ||log.olark.com^$third-party
 ||log.oto.com.vn^$third-party
 ||log.particlenews.com^$third-party
@@ -2466,6 +2465,7 @@
 ||logging.je-apps.com^$third-party
 ||logging.pw.adn.cloud^$third-party
 ||loggly.com^$third-party
+||logicsfort.com^$third-party
 ||loglady.skypicker.com^$third-party
 ||lognormal.net^$third-party
 ||logrocket.com^$third-party
@@ -4148,6 +4148,7 @@
 ||storeconfig.mistat.intl.xiaomi.com^$third-party
 ||stormcontainertag.com^$third-party
 ||stormgate.production.raptive.com^$third-party
+||strandedgame.com^$third-party
 ||stream-log.dditscdn.com^$third-party
 ||stream.corporatefinanceinstitute.com^$third-party
 ||stream.datago.ru^$third-party
@@ -5240,7 +5241,6 @@
 ||z492.ctinsider.com^$third-party
 ||z680.beaumontenterprise.com^$third-party
 ||za.zalo.me^$third-party
-||zampda.net^$third-party
 ||zdbb.net^$third-party
 ||zebestof.com^$third-party
 ||zero.kz^$third-party
