@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-29T05:42:57.083Z
+! Last modified: 2026-05-31T05:48:59.837Z
 ! Format: AdGuard
-! Entries: 9264
+! Entries: 9266
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -61,6 +61,7 @@
 ||aa-metrics.jalan.net^$third-party
 ||aa-metrics.recruit-card.jp^$third-party
 ||aa-metrics.trip-ai.jp^$third-party
+||aa.analog.com^$third-party
 ||aamt.nbcnews.com^$third-party
 ||aamt.today.com^$third-party
 ||aan.amazon.com^$third-party
@@ -1275,7 +1276,6 @@
 ||countok.de^$third-party
 ||countomat.com^$third-party
 ||cp.filext.com^$third-party
-||cp.official-coupons.com^$third-party
 ||cp.official-deals.co.uk^$third-party
 ||cpro.baidustatic.com^$third-party
 ||cpu-api.infor.pl^$third-party
@@ -1638,6 +1638,7 @@
 ||elderlytown.com^$third-party
 ||elegantboulevard.com^$third-party
 ||eloqua.com^$third-party
+||eloquatracking.iqvia.com^$third-party
 ||email-match.com^$third-party
 ||email-reflex.com^$third-party
 ||emailretargeting.com^$third-party
@@ -2018,6 +2019,7 @@
 ||harvester.cms.markiza.sk^$third-party
 ||hb.vhsrv.com^$third-party
 ||hc-analytics.idp.clogin.att.com^$third-party
+||hdicsm.autoscout24.be^$third-party
 ||health-metrics-api.setapp.com^$third-party
 ||heap-api.com^$third-party
 ||heap.drop.com^$third-party
@@ -3204,7 +3206,6 @@
 ||puls.lv^$third-party
 ||pulse.perfmetrics.netflix.com^$third-party
 ||pulse.shopflo.com^$third-party
-||pumpkin.abine.com^$third-party
 ||purebloom.net^$third-party
 ||push-api.topaz-analytics.com^$third-party
 ||pushd.netky.tech^$third-party
@@ -4891,6 +4892,7 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
+||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||trust.titanhq.com^$third-party
 ||trusted-collector-bk.tmocce.com^$third-party

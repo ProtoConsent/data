@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Analytics Extended",
-  "version": "2026-05-29",
-  "generated": "2026-05-29T05:42:57.083Z",
+  "version": "2026-05-31",
+  "generated": "2026-05-31T05:48:59.837Z",
   "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -195,6 +195,7 @@
     "a.bigtennetwork.com",
     "a.boredpanda.bio",
     "a.centrum.cz",
+    "a.cineflix.st",
     "a.ehc.com",
     "a.ekero.se",
     "a.electerious.com",
@@ -1520,6 +1521,7 @@
     "aa-metrics.salonboard.com",
     "aa-metrics.tabroom.jp",
     "aa-metrics.trip-ai.jp",
+    "aa.analog.com",
     "aa.athome.com",
     "aa.avvo.com",
     "aa.bathandbodyworks.com",
@@ -2398,6 +2400,7 @@
     "allinsurance.allinsure.ca",
     "allo-media.net",
     "alloy-web.zvuk.com",
+    "alloytitans.com",
     "alltracked.com",
     "allvideometrika.com",
     "alpha-collector-statistics.nhn-commerce.com",
@@ -4571,6 +4574,7 @@
     "batch.com",
     "batchgeo.com",
     "bats.video.yahoo.com",
+    "battleburst.com",
     "baynote.net",
     "baztrack.com",
     "bbagnw.sedaily.com",
@@ -6395,7 +6399,6 @@
     "cp.deltadentalwa.com",
     "cp.filext.com",
     "cp.ir-central.irco.com",
-    "cp.official-coupons.com",
     "cp.official-deals.co.uk",
     "cpa.hh.ru",
     "cpaevent.ru",
@@ -19386,7 +19389,6 @@
     "pulselog.com",
     "pulsemaps.com",
     "pumlmb.netcologne.de",
-    "pumpkin.abine.com",
     "punchtab.com",
     "purcartz.com",
     "purebloom.net",
@@ -31547,6 +31549,7 @@
     "truehits.in.th",
     "truehits.net",
     "truehits3.gits.net.th",
+    "truenat.bid",
     "trueselfkeys.com",
     "truffle.one",
     "trugaze.io",
@@ -31573,6 +31576,7 @@
     "ts.delfi.lt",
     "ts.popsugar.com",
     "ts.tradetracker.net",
+    "tsa.webex.com",
     "tsbkht.puritan.com",
     "tsbmkf.zonnebrillen.com",
     "tscounter.com",
@@ -34139,7 +34143,7 @@
     "zzqyxd.smartpozyczka.pl",
     "zzsqqx.shopjapan.co.jp"
   ],
-  "domain_count": 34132,
+  "domain_count": 34136,
   "paths": [
     "||01net.com/track/",
     "||1024tera.com/api/analytics?",
@@ -35510,6 +35514,7 @@
     "||fspark-ap.com/ft/analytics_log",
     "||ft.com/ingest?",
     "||ftimg.net/js/log.js?",
+    "||fubuki-umami.space/api/script.js",
     "||fudge.ai/metrics?",
     "||fuel-design.com/js/script.js",
     "||fullscreen.nz/v1/tracking/",
@@ -38183,5 +38188,5 @@
     "||zumper.com/events",
     "||zynga.com/track/"
   ],
-  "path_count": 4041
+  "path_count": 4042
 }

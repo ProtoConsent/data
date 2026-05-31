@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-05-29
-! Last modified: 2026-05-29T05:42:57.083Z
-! Entries: 38173
+! Version: 2026-05-31
+! Last modified: 2026-05-31T05:48:59.837Z
+! Entries: 38178
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -196,6 +196,7 @@
 ||a.bigtennetwork.com^$third-party
 ||a.boredpanda.bio^$third-party
 ||a.centrum.cz^$third-party
+||a.cineflix.st^$third-party
 ||a.ehc.com^$third-party
 ||a.ekero.se^$third-party
 ||a.electerious.com^$third-party
@@ -1521,6 +1522,7 @@
 ||aa-metrics.salonboard.com^$third-party
 ||aa-metrics.tabroom.jp^$third-party
 ||aa-metrics.trip-ai.jp^$third-party
+||aa.analog.com^$third-party
 ||aa.athome.com^$third-party
 ||aa.avvo.com^$third-party
 ||aa.bathandbodyworks.com^$third-party
@@ -2399,6 +2401,7 @@
 ||allinsurance.allinsure.ca^$third-party
 ||allo-media.net^$third-party
 ||alloy-web.zvuk.com^$third-party
+||alloytitans.com^$third-party
 ||alltracked.com^$third-party
 ||allvideometrika.com^$third-party
 ||alpha-collector-statistics.nhn-commerce.com^$third-party
@@ -4572,6 +4575,7 @@
 ||batch.com^$third-party
 ||batchgeo.com^$third-party
 ||bats.video.yahoo.com^$third-party
+||battleburst.com^$third-party
 ||baynote.net^$third-party
 ||baztrack.com^$third-party
 ||bbagnw.sedaily.com^$third-party
@@ -6396,7 +6400,6 @@
 ||cp.deltadentalwa.com^$third-party
 ||cp.filext.com^$third-party
 ||cp.ir-central.irco.com^$third-party
-||cp.official-coupons.com^$third-party
 ||cp.official-deals.co.uk^$third-party
 ||cpa.hh.ru^$third-party
 ||cpaevent.ru^$third-party
@@ -19387,7 +19390,6 @@
 ||pulselog.com^$third-party
 ||pulsemaps.com^$third-party
 ||pumlmb.netcologne.de^$third-party
-||pumpkin.abine.com^$third-party
 ||punchtab.com^$third-party
 ||purcartz.com^$third-party
 ||purebloom.net^$third-party
@@ -31548,6 +31550,7 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
+||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||truffle.one^$third-party
 ||trugaze.io^$third-party
@@ -31574,6 +31577,7 @@
 ||ts.delfi.lt^$third-party
 ||ts.popsugar.com^$third-party
 ||ts.tradetracker.net^$third-party
+||tsa.webex.com^$third-party
 ||tsbkht.puritan.com^$third-party
 ||tsbmkf.zonnebrillen.com^$third-party
 ||tscounter.com^$third-party
@@ -35508,6 +35512,7 @@
 ||fspark-ap.com/ft/analytics_log^
 ||ft.com/ingest?^
 ||ftimg.net/js/log.js?^
+||fubuki-umami.space/api/script.js^
 ||fudge.ai/metrics?^
 ||fuel-design.com/js/script.js^
 ||fullscreen.nz/v1/tracking/^
