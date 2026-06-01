@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-31T05:48:59.837Z
+! Last modified: 2026-06-01T06:22:39.657Z
 ! Format: AdGuard
-! Entries: 38178
+! Entries: 38175
 !
 ||0.myikas.com^$third-party
 ||0.net.easyjet.com^$third-party
@@ -2122,7 +2122,6 @@
 ||ads-trk.vidible.tv^$third-party
 ||ads.chaturbate.com^$third-party
 ||ads.dandelionchocolate.jp^$third-party
-||ads.scorecardresearch.com^$third-party
 ||adsapi.chartbeat.com^$third-party
 ||adsave.co^$third-party
 ||adschoom.com^$third-party
@@ -3252,6 +3251,7 @@
 ||analytics.ssmas.com^$third-party
 ||analytics.stanby.com^$third-party
 ||analytics.starmakerstudios.com^$third-party
+||analytics.steast.io^$third-party
 ||analytics.strangeloopnetworks.com^$third-party
 ||analytics.strapi.io^$third-party
 ||analytics.strava.com^$third-party
@@ -3481,7 +3481,6 @@
 ||analyticsresults.datev-karriereblog.de^$third-party
 ||analyticsresults.datev-magazin.de^$third-party
 ||analyticsresults.datev.com^$third-party
-||analyticsresults.datev.de^$third-party
 ||analyticsresults.dev.datev.de^$third-party
 ||analyticsresults.trialog-magazin.de^$third-party
 ||analyticssec.overwolf.com^$third-party
@@ -4651,7 +4650,6 @@
 ||beacon.rallydev.com^$third-party
 ||beacon.s.llnwi.net^$third-party
 ||beacon.samsclub.com^$third-party
-||beacon.scorecardresearch.com^$third-party
 ||beacon.searchspring.io^$third-party
 ||beacon.securestudies.com^$third-party
 ||beacon.sftoaa.com^$third-party
@@ -19389,6 +19387,7 @@
 ||pulselog.com^$third-party
 ||pulsemaps.com^$third-party
 ||pumlmb.netcologne.de^$third-party
+||pumpkin.abine.com^$third-party
 ||punchtab.com^$third-party
 ||purcartz.com^$third-party
 ||purebloom.net^$third-party
@@ -28074,7 +28073,6 @@
 ||t9h2.ricardocuisine.com^$third-party
 ||t9k3a.jeanpaulfortin.com^$third-party
 ||ta-collector.centurygame.com^$third-party
-||ta.sanook.com^$third-party
 ||ta.sbird.xyz^$third-party
 ||ta.trs.cn^$third-party
 ||taboolasyndication.com^$third-party
@@ -31549,7 +31547,6 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
-||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||truffle.one^$third-party
 ||trugaze.io^$third-party
@@ -31745,7 +31742,6 @@
 ||udm.ri7.scorecardresearch.com^$third-party
 ||udm.ri8.scorecardresearch.com^$third-party
 ||udm.ri9.scorecardresearch.com^$third-party
-||udm.scorecardresearch.com^$third-party
 ||udmmdl.dudalina.com.br^$third-party
 ||udonjl.coopdeli.jp^$third-party
 ||udr.uol.com.br^$third-party
@@ -31829,8 +31825,8 @@
 ||ulog.v6.ksapisrv.com^$third-party
 ||ultund.misterspex.nl^$third-party
 ||um.contentstudio.io^$third-party
+||umami.dev^$third-party
 ||umami.is^$third-party
-||umami.spencerdevs.xyz^$third-party
 ||umami.vidfast.pro^$third-party
 ||umami.wakarimasen.moe^$third-party
 ||umazvs.raybiotech.com^$third-party
@@ -37026,6 +37022,7 @@
 ||rtp.pt/common/js/convivaAppTracker.js^
 ||rtp.pt/rtp-sensor/^
 ||rudder-server-prd.arena.im/v1/track^
+||rudderstack.com/v1/track^
 ||rumble.com/l/^
 ||run.app/api/pixel-event^
 ||run.app/data.log^

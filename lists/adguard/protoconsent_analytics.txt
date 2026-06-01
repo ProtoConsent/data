@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-05-31T05:48:59.837Z
+! Last modified: 2026-06-01T06:22:39.657Z
 ! Format: AdGuard
-! Entries: 9266
+! Entries: 9264
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -45,6 +45,7 @@
 ||a.20minutes.fr^$third-party
 ||a.apkeditor.io^$third-party
 ||a.centrum.cz^$third-party
+||a.cineflix.st^$third-party
 ||a.emea01.idio.episerver.net^$third-party
 ||a.fox.com^$third-party
 ||a.getflowbox.com^$third-party
@@ -66,6 +67,7 @@
 ||aamt.today.com^$third-party
 ||aan.amazon.com^$third-party
 ||aanalytics.adelaide.edu.au^$third-party
+||ab-log.datahou.se^$third-party
 ||ab.blogs.es^$third-party
 ||ab.dns-finder.com^$third-party
 ||abcstats.com^$third-party
@@ -144,7 +146,6 @@
 ||ads-collector.luizalabs.com^$third-party
 ||ads-tracking.collectiveaudience.co^$third-party
 ||ads-trk.vidible.tv^$third-party
-||ads.scorecardresearch.com^$third-party
 ||adschoom.com^$third-party
 ||adskom.com^$third-party
 ||adslog.apexinnotech.com^$third-party
@@ -200,6 +201,7 @@
 ||alib.nine.com.au^$third-party
 ||alladvantage.com^$third-party
 ||alloy-web.zvuk.com^$third-party
+||alloytitans.com^$third-party
 ||allvideometrika.com^$third-party
 ||altema-log.com^$third-party
 ||altpool.pro^$third-party
@@ -659,7 +661,6 @@
 ||analyticsnew.overwolf.com^$third-party
 ||analyticsplusdev.clientify.net^$third-party
 ||analyticsq.com^$third-party
-||analyticsresults.datev.de^$third-party
 ||analyticssec.overwolf.com^$third-party
 ||analyticssystems.net^$third-party
 ||analyze-82dfgsi2.m-w.com^$third-party
@@ -800,6 +801,7 @@
 ||bat.bing.net^$third-party
 ||batch.com^$third-party
 ||bats.video.yahoo.com^$third-party
+||battleburst.com^$third-party
 ||baynote.net^$third-party
 ||bc.nhk.jp^$third-party
 ||bdash-cloud.com^$third-party
@@ -828,7 +830,6 @@
 ||beacon.radiko.jp^$third-party
 ||beacon.rallydev.com^$third-party
 ||beacon.samsclub.com^$third-party
-||beacon.scorecardresearch.com^$third-party
 ||beacon.searchspring.io^$third-party
 ||beacon.securestudies.com^$third-party
 ||beacon.sftoaa.com^$third-party
@@ -1638,7 +1639,6 @@
 ||elderlytown.com^$third-party
 ||elegantboulevard.com^$third-party
 ||eloqua.com^$third-party
-||eloquatracking.iqvia.com^$third-party
 ||email-match.com^$third-party
 ||email-reflex.com^$third-party
 ||emailretargeting.com^$third-party
@@ -1723,6 +1723,7 @@
 ||event.syndigo.cloud^$third-party
 ||event.webcollage.net^$third-party
 ||eventapi.libring.com^$third-party
+||eventcollectorv2-1131000179.us-east-1.elb.amazonaws.com^$third-party
 ||eventgateway.soundcloud.com^$third-party
 ||eventlog.chatlead.com^$third-party
 ||eventlog.gryphline.com^$third-party
@@ -2019,7 +2020,6 @@
 ||harvester.cms.markiza.sk^$third-party
 ||hb.vhsrv.com^$third-party
 ||hc-analytics.idp.clogin.att.com^$third-party
-||hdicsm.autoscout24.be^$third-party
 ||health-metrics-api.setapp.com^$third-party
 ||heap-api.com^$third-party
 ||heap.drop.com^$third-party
@@ -3105,6 +3105,7 @@
 ||pixeleze.com^$third-party
 ||pixelinteractivemedia.com^$third-party
 ||pixelpluses.com^$third-party
+||pixelpop.co^$third-party
 ||pixels.afcdn.com^$third-party
 ||pixels.ingbank.com.tr^$third-party
 ||pixels.livingsocial.com^$third-party
@@ -3206,6 +3207,7 @@
 ||puls.lv^$third-party
 ||pulse.perfmetrics.netflix.com^$third-party
 ||pulse.shopflo.com^$third-party
+||pumpkin.abine.com^$third-party
 ||purebloom.net^$third-party
 ||push-api.topaz-analytics.com^$third-party
 ||pushd.netky.tech^$third-party
@@ -4240,7 +4242,6 @@
 ||t4ft.de^$third-party
 ||t570.wiltonbulletin.com^$third-party
 ||t810.ctpost.com^$third-party
-||ta.sanook.com^$third-party
 ||ta.trs.cn^$third-party
 ||taboolasyndication.com^$third-party
 ||tag.atom.gamedistribution.com^$third-party
@@ -4892,7 +4893,6 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
-||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||trust.titanhq.com^$third-party
 ||trusted-collector-bk.tmocce.com^$third-party
@@ -4929,7 +4929,6 @@
 ||ucounter.ucoz.net^$third-party
 ||udgrbq.malwarebytes.com^$third-party
 ||udkcrj.com^$third-party
-||udm.scorecardresearch.com^$third-party
 ||ug4x1tagz.com^$third-party
 ||ugdturner.com^$third-party
 ||uh.nakanohito.jp^$third-party
@@ -4938,7 +4937,6 @@
 ||ulog.ksapisrv.com^$third-party
 ||ulog.kwai-pro.com^$third-party
 ||ulog.kwaipros.com^$third-party
-||umami.spencerdevs.xyz^$third-party
 ||umbel.com^$third-party
 ||umeng.com^$third-party
 ||umi.cloudful.de^$third-party

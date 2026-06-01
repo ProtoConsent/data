@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-05-31
-# Last modified: 2026-05-31T05:48:59.837Z
-# Entries: 5252
+# Version: 2026-06-01
+# Last modified: 2026-06-01T06:22:39.657Z
+# Entries: 5250
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -45,6 +45,7 @@
 0.0.0.0 a.20minutes.fr
 0.0.0.0 a.apkeditor.io
 0.0.0.0 a.centrum.cz
+0.0.0.0 a.cineflix.st
 0.0.0.0 a.emea01.idio.episerver.net
 0.0.0.0 a.fox.com
 0.0.0.0 a.getflowbox.com
@@ -66,6 +67,7 @@
 0.0.0.0 aamt.today.com
 0.0.0.0 aan.amazon.com
 0.0.0.0 aanalytics.adelaide.edu.au
+0.0.0.0 ab-log.datahou.se
 0.0.0.0 ab.blogs.es
 0.0.0.0 ab.dns-finder.com
 0.0.0.0 abcstats.com
@@ -144,7 +146,6 @@
 0.0.0.0 ads-collector.luizalabs.com
 0.0.0.0 ads-tracking.collectiveaudience.co
 0.0.0.0 ads-trk.vidible.tv
-0.0.0.0 ads.scorecardresearch.com
 0.0.0.0 adschoom.com
 0.0.0.0 adskom.com
 0.0.0.0 adslog.apexinnotech.com
@@ -200,6 +201,7 @@
 0.0.0.0 alib.nine.com.au
 0.0.0.0 alladvantage.com
 0.0.0.0 alloy-web.zvuk.com
+0.0.0.0 alloytitans.com
 0.0.0.0 allvideometrika.com
 0.0.0.0 altema-log.com
 0.0.0.0 altpool.pro
@@ -659,7 +661,6 @@
 0.0.0.0 analyticsnew.overwolf.com
 0.0.0.0 analyticsplusdev.clientify.net
 0.0.0.0 analyticsq.com
-0.0.0.0 analyticsresults.datev.de
 0.0.0.0 analyticssec.overwolf.com
 0.0.0.0 analyticssystems.net
 0.0.0.0 analyze-82dfgsi2.m-w.com
@@ -800,6 +801,7 @@
 0.0.0.0 bat.bing.net
 0.0.0.0 batch.com
 0.0.0.0 bats.video.yahoo.com
+0.0.0.0 battleburst.com
 0.0.0.0 baynote.net
 0.0.0.0 bc.nhk.jp
 0.0.0.0 bdash-cloud.com
@@ -828,7 +830,6 @@
 0.0.0.0 beacon.radiko.jp
 0.0.0.0 beacon.rallydev.com
 0.0.0.0 beacon.samsclub.com
-0.0.0.0 beacon.scorecardresearch.com
 0.0.0.0 beacon.searchspring.io
 0.0.0.0 beacon.securestudies.com
 0.0.0.0 beacon.sftoaa.com
@@ -1638,7 +1639,6 @@
 0.0.0.0 elderlytown.com
 0.0.0.0 elegantboulevard.com
 0.0.0.0 eloqua.com
-0.0.0.0 eloquatracking.iqvia.com
 0.0.0.0 email-match.com
 0.0.0.0 email-reflex.com
 0.0.0.0 emailretargeting.com
@@ -1723,6 +1723,7 @@
 0.0.0.0 event.syndigo.cloud
 0.0.0.0 event.webcollage.net
 0.0.0.0 eventapi.libring.com
+0.0.0.0 eventcollectorv2-1131000179.us-east-1.elb.amazonaws.com
 0.0.0.0 eventgateway.soundcloud.com
 0.0.0.0 eventlog.chatlead.com
 0.0.0.0 eventlog.gryphline.com
@@ -2019,7 +2020,6 @@
 0.0.0.0 harvester.cms.markiza.sk
 0.0.0.0 hb.vhsrv.com
 0.0.0.0 hc-analytics.idp.clogin.att.com
-0.0.0.0 hdicsm.autoscout24.be
 0.0.0.0 health-metrics-api.setapp.com
 0.0.0.0 heap-api.com
 0.0.0.0 heap.drop.com
@@ -3105,6 +3105,7 @@
 0.0.0.0 pixeleze.com
 0.0.0.0 pixelinteractivemedia.com
 0.0.0.0 pixelpluses.com
+0.0.0.0 pixelpop.co
 0.0.0.0 pixels.afcdn.com
 0.0.0.0 pixels.ingbank.com.tr
 0.0.0.0 pixels.livingsocial.com
@@ -3206,6 +3207,7 @@
 0.0.0.0 puls.lv
 0.0.0.0 pulse.perfmetrics.netflix.com
 0.0.0.0 pulse.shopflo.com
+0.0.0.0 pumpkin.abine.com
 0.0.0.0 purebloom.net
 0.0.0.0 push-api.topaz-analytics.com
 0.0.0.0 pushd.netky.tech
@@ -4240,7 +4242,6 @@
 0.0.0.0 t4ft.de
 0.0.0.0 t570.wiltonbulletin.com
 0.0.0.0 t810.ctpost.com
-0.0.0.0 ta.sanook.com
 0.0.0.0 ta.trs.cn
 0.0.0.0 taboolasyndication.com
 0.0.0.0 tag.atom.gamedistribution.com
@@ -4892,7 +4893,6 @@
 0.0.0.0 truehits.in.th
 0.0.0.0 truehits.net
 0.0.0.0 truehits3.gits.net.th
-0.0.0.0 truenat.bid
 0.0.0.0 trueselfkeys.com
 0.0.0.0 trust.titanhq.com
 0.0.0.0 trusted-collector-bk.tmocce.com
@@ -4929,7 +4929,6 @@
 0.0.0.0 ucounter.ucoz.net
 0.0.0.0 udgrbq.malwarebytes.com
 0.0.0.0 udkcrj.com
-0.0.0.0 udm.scorecardresearch.com
 0.0.0.0 ug4x1tagz.com
 0.0.0.0 ugdturner.com
 0.0.0.0 uh.nakanohito.jp
@@ -4938,7 +4937,6 @@
 0.0.0.0 ulog.ksapisrv.com
 0.0.0.0 ulog.kwai-pro.com
 0.0.0.0 ulog.kwaipros.com
-0.0.0.0 umami.spencerdevs.xyz
 0.0.0.0 umbel.com
 0.0.0.0 umeng.com
 0.0.0.0 umi.cloudful.de
