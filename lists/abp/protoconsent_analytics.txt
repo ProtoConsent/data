@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-06-01
-! Last modified: 2026-06-01T06:22:39.657Z
-! Entries: 9264
+! Version: 2026-06-02
+! Last modified: 2026-06-02T06:06:01.085Z
+! Entries: 9255
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -421,7 +421,6 @@
 ||analytics.gtflixtv.com^$third-party
 ||analytics.hardlightgames.com^$third-party
 ||analytics.hashnode.com^$third-party
-||analytics.haworth.com^$third-party
 ||analytics.hebela.vn^$third-party
 ||analytics.hub-js.com^$third-party
 ||analytics.idfnet.net^$third-party
@@ -558,7 +557,6 @@
 ||analytics.shorthand.com^$third-party
 ||analytics.shutterstock.com^$third-party
 ||analytics.silktide.com^$third-party
-||analytics.simplyhealth.co.uk^$third-party
 ||analytics.sitewit.com^$third-party
 ||analytics.skyscanner.net^$third-party
 ||analytics.slashdotmedia.com^$third-party
@@ -573,6 +571,7 @@
 ||analytics.ssmas.com^$third-party
 ||analytics.stanby.com^$third-party
 ||analytics.starmakerstudios.com^$third-party
+||analytics.steast.io^$third-party
 ||analytics.strangeloopnetworks.com^$third-party
 ||analytics.strava.com^$third-party
 ||analytics.studiodesignapp.com^$third-party
@@ -764,6 +763,7 @@
 ||audit.median.hu^$third-party
 ||audit.shaa.it^$third-party
 ||aurora-d3.herokuapp.com^$third-party
+||aurum.tirto.id^$third-party
 ||auto-ping.com^$third-party
 ||autoaudience.com^$third-party
 ||autoid.com^$third-party
@@ -1603,6 +1603,7 @@
 ||ea.millet.fr^$third-party
 ||ea.rentacar.fr^$third-party
 ||ea.venta-unica.com^$third-party
+||ea.vente-unique.be^$third-party
 ||ea.vente-unique.ch^$third-party
 ||ea.vente-unique.com^$third-party
 ||ea.warnerbros.fr^$third-party
@@ -2123,6 +2124,7 @@
 ||indicative.com^$third-party
 ||infinity-tracking.net^$third-party
 ||infinityid.condenastdigital.com^$third-party
+||info.calnexsol.com^$third-party
 ||informer.yandex.ru^$third-party
 ||informers.sinoptik.ua^$third-party
 ||infostroy.nnov.ru^$third-party
@@ -2515,7 +2517,6 @@
 ||m6r.eu^$third-party
 ||ma-tag.com^$third-party
 ||mab.chartbeat.com^$third-party
-||mabaya.com^$third-party
 ||madnet.ru^$third-party
 ||madrid.report.botm.transparentedge.io^$third-party
 ||magento-recs-sdk.adobe.net^$third-party
@@ -2587,7 +2588,6 @@
 ||metrica-yandex.com^$third-party
 ||metricreceiver.cellrebel.com^$third-party
 ||metrics-a.wbx2.com^$third-party
-||metrics-api.librato.com^$third-party
 ||metrics-broker.prod.p.tf1.fr^$third-party
 ||metrics-cbslocal-com.cdn.ampproject.org^$third-party
 ||metrics-config.icloud.com^$third-party
@@ -2665,7 +2665,6 @@
 ||metrics.ktvb.com^$third-party
 ||metrics.landolakes.com^$third-party
 ||metrics.lhj.com^$third-party
-||metrics.macys.com^$third-party
 ||metrics.makemytrip.com^$third-party
 ||metrics.mdstrm.com^$third-party
 ||metrics.media-amazon.com^$third-party
@@ -3106,7 +3105,6 @@
 ||pixeleze.com^$third-party
 ||pixelinteractivemedia.com^$third-party
 ||pixelpluses.com^$third-party
-||pixelpop.co^$third-party
 ||pixels.afcdn.com^$third-party
 ||pixels.ingbank.com.tr^$third-party
 ||pixels.livingsocial.com^$third-party
@@ -3214,7 +3212,6 @@
 ||pushd.netky.tech^$third-party
 ||pv.hd.sohu.com^$third-party
 ||pv.kuaizhan.com^$third-party
-||pvmax.net^$third-party
 ||pw.gigazine.net^$third-party
 ||px-intl.ucweb.com^$third-party
 ||px.dmp.zaloapp.com^$third-party
@@ -3751,7 +3748,6 @@
 ||smetrics.solarwinds.com^$third-party
 ||smetrics.sony.jp^$third-party
 ||smetrics.southwest.com^$third-party
-||smetrics.sportsmansguide.com^$third-party
 ||smetrics.stanfordhealthcare.org^$third-party
 ||smetrics.staples.com^$third-party
 ||smetrics.staplesadvantage.com^$third-party
@@ -3808,7 +3804,6 @@
 ||sofire.bdstatic.com^$third-party
 ||sofire.terabox.app^$third-party
 ||sokrati.com^$third-party
-||solutionshindsight.net^$third-party
 ||sombersea.com^$third-party
 ||sombersquirrel.com^$third-party
 ||sombersurprise.com^$third-party
@@ -3865,6 +3860,7 @@
 ||sstats.condenast.com^$third-party
 ||sstats.economist.com^$third-party
 ||sstats.teenvogue.com^$third-party
+||st.cdnco.us^$third-party
 ||st.hbrd.io^$third-party
 ||st.linkfire.com^$third-party
 ||st.mapleranks.com^$third-party
@@ -3881,7 +3877,6 @@
 ||stat.absolutist.com^$third-party
 ||stat.acca.it^$third-party
 ||stat.airdroid.com^$third-party
-||stat.apfgexfusion.com^$third-party
 ||stat.clichehosting.de^$third-party
 ||stat.clickfrog.ru^$third-party
 ||stat.cncenter.cz^$third-party
@@ -4025,7 +4020,6 @@
 ||stats.gioneemobile.net^$third-party
 ||stats.grafana.org^$third-party
 ||stats.habr.com^$third-party
-||stats.hara.vn^$third-party
 ||stats.harpercollins.com^$third-party
 ||stats.hitwebcloud.de^$third-party
 ||stats.how.wtf^$third-party
@@ -4160,7 +4154,6 @@
 ||stroeerdigitalmedia.de^$third-party
 ||stupendoussleet.com^$third-party
 ||sub2tech.com^$third-party
-||subsequentstew.com^$third-party
 ||success.act-on.com^$third-party
 ||sugar.zhihu.com^$third-party
 ||sugs.m.sm.cn^$third-party
@@ -4237,7 +4230,6 @@
 ||t.wayfair.com^$third-party
 ||t.wayfair.de^$third-party
 ||t.y8.com^$third-party
-||t1.trex.media^$third-party
 ||t2.hulu.com^$third-party
 ||t2.t2b.click^$third-party
 ||t4ft.de^$third-party
@@ -4379,6 +4371,7 @@
 ||thewhizproducts.com^$third-party
 ||thewise.com^$third-party
 ||thirdrespect.com^$third-party
+||threechurch.com^$third-party
 ||thtk.temu.com^$third-party
 ||ticklesign.com^$third-party
 ||tics.techdirt.com^$third-party
@@ -4551,6 +4544,7 @@
 ||track.wattpad.com^$third-party
 ||track.wesdk.co^$third-party
 ||track.wildblue.com^$third-party
+||track.yfret.com^$third-party
 ||track.yieldsoftware.com^$third-party
 ||track.youniversalmedia.com^$third-party
 ||track.zappos.com^$third-party
@@ -4917,7 +4911,6 @@
 ||typicalteeth.com^$third-party
 ||tyxo.bg^$third-party
 ||u-on.eu^$third-party
-||u5e.com^$third-party
 ||u652.myplainview.com^$third-party
 ||u927.sfgate.com^$third-party
 ||ua.indianexpress.com^$third-party
@@ -4978,7 +4971,6 @@
 ||userstats.shopee.vn^$third-party
 ||usr.interactiveone.com^$third-party
 ||usrpubtrk.com^$third-party
-||usstat.icocofun.com^$third-party
 ||utics.nodejibi.in^$third-party
 ||utiq.actu.fr^$third-party
 ||utiq.bfmtv.com^$third-party
@@ -4991,7 +4983,6 @@
 ||v-collector.dp.aws.charter.com^$third-party
 ||v.oui.sncf^$third-party
 ||v6analytics.htmedia.in.edgekey.net^$third-party
-||valencia-beacons.xumo.com^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vamaker.com^$third-party
 ||vanfireworks.com^$third-party

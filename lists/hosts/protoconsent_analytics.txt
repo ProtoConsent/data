@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-06-01
-# Last modified: 2026-06-01T06:22:39.657Z
-# Entries: 5250
+# Version: 2026-06-02
+# Last modified: 2026-06-02T06:06:01.085Z
+# Entries: 5241
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -420,7 +420,6 @@
 0.0.0.0 analytics.gtflixtv.com
 0.0.0.0 analytics.hardlightgames.com
 0.0.0.0 analytics.hashnode.com
-0.0.0.0 analytics.haworth.com
 0.0.0.0 analytics.hebela.vn
 0.0.0.0 analytics.hub-js.com
 0.0.0.0 analytics.idfnet.net
@@ -557,7 +556,6 @@
 0.0.0.0 analytics.shorthand.com
 0.0.0.0 analytics.shutterstock.com
 0.0.0.0 analytics.silktide.com
-0.0.0.0 analytics.simplyhealth.co.uk
 0.0.0.0 analytics.sitewit.com
 0.0.0.0 analytics.skyscanner.net
 0.0.0.0 analytics.slashdotmedia.com
@@ -572,6 +570,7 @@
 0.0.0.0 analytics.ssmas.com
 0.0.0.0 analytics.stanby.com
 0.0.0.0 analytics.starmakerstudios.com
+0.0.0.0 analytics.steast.io
 0.0.0.0 analytics.strangeloopnetworks.com
 0.0.0.0 analytics.strava.com
 0.0.0.0 analytics.studiodesignapp.com
@@ -763,6 +762,7 @@
 0.0.0.0 audit.median.hu
 0.0.0.0 audit.shaa.it
 0.0.0.0 aurora-d3.herokuapp.com
+0.0.0.0 aurum.tirto.id
 0.0.0.0 auto-ping.com
 0.0.0.0 autoaudience.com
 0.0.0.0 autoid.com
@@ -1602,6 +1602,7 @@
 0.0.0.0 ea.millet.fr
 0.0.0.0 ea.rentacar.fr
 0.0.0.0 ea.venta-unica.com
+0.0.0.0 ea.vente-unique.be
 0.0.0.0 ea.vente-unique.ch
 0.0.0.0 ea.vente-unique.com
 0.0.0.0 ea.warnerbros.fr
@@ -2122,6 +2123,7 @@
 0.0.0.0 indicative.com
 0.0.0.0 infinity-tracking.net
 0.0.0.0 infinityid.condenastdigital.com
+0.0.0.0 info.calnexsol.com
 0.0.0.0 informer.yandex.ru
 0.0.0.0 informers.sinoptik.ua
 0.0.0.0 infostroy.nnov.ru
@@ -2514,7 +2516,6 @@
 0.0.0.0 m6r.eu
 0.0.0.0 ma-tag.com
 0.0.0.0 mab.chartbeat.com
-0.0.0.0 mabaya.com
 0.0.0.0 madnet.ru
 0.0.0.0 madrid.report.botm.transparentedge.io
 0.0.0.0 magento-recs-sdk.adobe.net
@@ -2586,7 +2587,6 @@
 0.0.0.0 metrica-yandex.com
 0.0.0.0 metricreceiver.cellrebel.com
 0.0.0.0 metrics-a.wbx2.com
-0.0.0.0 metrics-api.librato.com
 0.0.0.0 metrics-broker.prod.p.tf1.fr
 0.0.0.0 metrics-cbslocal-com.cdn.ampproject.org
 0.0.0.0 metrics-config.icloud.com
@@ -2664,7 +2664,6 @@
 0.0.0.0 metrics.ktvb.com
 0.0.0.0 metrics.landolakes.com
 0.0.0.0 metrics.lhj.com
-0.0.0.0 metrics.macys.com
 0.0.0.0 metrics.makemytrip.com
 0.0.0.0 metrics.mdstrm.com
 0.0.0.0 metrics.media-amazon.com
@@ -3105,7 +3104,6 @@
 0.0.0.0 pixeleze.com
 0.0.0.0 pixelinteractivemedia.com
 0.0.0.0 pixelpluses.com
-0.0.0.0 pixelpop.co
 0.0.0.0 pixels.afcdn.com
 0.0.0.0 pixels.ingbank.com.tr
 0.0.0.0 pixels.livingsocial.com
@@ -3213,7 +3211,6 @@
 0.0.0.0 pushd.netky.tech
 0.0.0.0 pv.hd.sohu.com
 0.0.0.0 pv.kuaizhan.com
-0.0.0.0 pvmax.net
 0.0.0.0 pw.gigazine.net
 0.0.0.0 px-intl.ucweb.com
 0.0.0.0 px.dmp.zaloapp.com
@@ -3750,7 +3747,6 @@
 0.0.0.0 smetrics.solarwinds.com
 0.0.0.0 smetrics.sony.jp
 0.0.0.0 smetrics.southwest.com
-0.0.0.0 smetrics.sportsmansguide.com
 0.0.0.0 smetrics.stanfordhealthcare.org
 0.0.0.0 smetrics.staples.com
 0.0.0.0 smetrics.staplesadvantage.com
@@ -3807,7 +3803,6 @@
 0.0.0.0 sofire.bdstatic.com
 0.0.0.0 sofire.terabox.app
 0.0.0.0 sokrati.com
-0.0.0.0 solutionshindsight.net
 0.0.0.0 sombersea.com
 0.0.0.0 sombersquirrel.com
 0.0.0.0 sombersurprise.com
@@ -3864,6 +3859,7 @@
 0.0.0.0 sstats.condenast.com
 0.0.0.0 sstats.economist.com
 0.0.0.0 sstats.teenvogue.com
+0.0.0.0 st.cdnco.us
 0.0.0.0 st.hbrd.io
 0.0.0.0 st.linkfire.com
 0.0.0.0 st.mapleranks.com
@@ -3880,7 +3876,6 @@
 0.0.0.0 stat.absolutist.com
 0.0.0.0 stat.acca.it
 0.0.0.0 stat.airdroid.com
-0.0.0.0 stat.apfgexfusion.com
 0.0.0.0 stat.clichehosting.de
 0.0.0.0 stat.clickfrog.ru
 0.0.0.0 stat.cncenter.cz
@@ -4024,7 +4019,6 @@
 0.0.0.0 stats.gioneemobile.net
 0.0.0.0 stats.grafana.org
 0.0.0.0 stats.habr.com
-0.0.0.0 stats.hara.vn
 0.0.0.0 stats.harpercollins.com
 0.0.0.0 stats.hitwebcloud.de
 0.0.0.0 stats.how.wtf
@@ -4159,7 +4153,6 @@
 0.0.0.0 stroeerdigitalmedia.de
 0.0.0.0 stupendoussleet.com
 0.0.0.0 sub2tech.com
-0.0.0.0 subsequentstew.com
 0.0.0.0 success.act-on.com
 0.0.0.0 sugar.zhihu.com
 0.0.0.0 sugs.m.sm.cn
@@ -4236,7 +4229,6 @@
 0.0.0.0 t.wayfair.com
 0.0.0.0 t.wayfair.de
 0.0.0.0 t.y8.com
-0.0.0.0 t1.trex.media
 0.0.0.0 t2.hulu.com
 0.0.0.0 t2.t2b.click
 0.0.0.0 t4ft.de
@@ -4378,6 +4370,7 @@
 0.0.0.0 thewhizproducts.com
 0.0.0.0 thewise.com
 0.0.0.0 thirdrespect.com
+0.0.0.0 threechurch.com
 0.0.0.0 thtk.temu.com
 0.0.0.0 ticklesign.com
 0.0.0.0 tics.techdirt.com
@@ -4550,6 +4543,7 @@
 0.0.0.0 track.wattpad.com
 0.0.0.0 track.wesdk.co
 0.0.0.0 track.wildblue.com
+0.0.0.0 track.yfret.com
 0.0.0.0 track.yieldsoftware.com
 0.0.0.0 track.youniversalmedia.com
 0.0.0.0 track.zappos.com
@@ -4916,7 +4910,6 @@
 0.0.0.0 typicalteeth.com
 0.0.0.0 tyxo.bg
 0.0.0.0 u-on.eu
-0.0.0.0 u5e.com
 0.0.0.0 u652.myplainview.com
 0.0.0.0 u927.sfgate.com
 0.0.0.0 ua.indianexpress.com
@@ -4977,7 +4970,6 @@
 0.0.0.0 userstats.shopee.vn
 0.0.0.0 usr.interactiveone.com
 0.0.0.0 usrpubtrk.com
-0.0.0.0 usstat.icocofun.com
 0.0.0.0 utics.nodejibi.in
 0.0.0.0 utiq.actu.fr
 0.0.0.0 utiq.bfmtv.com
@@ -4990,7 +4982,6 @@
 0.0.0.0 v-collector.dp.aws.charter.com
 0.0.0.0 v.oui.sncf
 0.0.0.0 v6analytics.htmedia.in.edgekey.net
-0.0.0.0 valencia-beacons.xumo.com
 0.0.0.0 valuedopinions.co.uk
 0.0.0.0 vamaker.com
 0.0.0.0 vanfireworks.com
