@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics Extended
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-# Version: 2026-06-02
-# Last modified: 2026-06-02T06:06:01.085Z
-# Entries: 34123
+# Version: 2026-06-03
+# Last modified: 2026-06-03T06:19:59.920Z
+# Entries: 34140
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -16,10 +16,13 @@
 0.0.0.0 0sbm.consobaby.co.uk
 0.0.0.0 0stats.com
 0.0.0.0 0tfsd2rwwu3xjstb.edge41.testandtarget.omniture.com
+0.0.0.0 1.ftb.al
+0.0.0.0 10008919.pomelo.fashion
 0.0.0.0 1000mercis.com
 0.0.0.0 10079290.fluz.app
 0.0.0.0 100widgets.com
 0.0.0.0 1010data.com
+0.0.0.0 10298198.arch.sofi.org
 0.0.0.0 10298198.info.sofi.org
 0.0.0.0 10298198.m.sofi.org
 0.0.0.0 10298198.o.sofi.org
@@ -28,6 +31,7 @@
 0.0.0.0 105app.com
 0.0.0.0 10stepswp.advancedtech.com
 0.0.0.0 10xlaunch.ai
+0.0.0.0 11959579.fun.joyrun.com
 0.0.0.0 11b6n4ty2x3.taxliencode.com
 0.0.0.0 11ctch.com
 0.0.0.0 11nux.com
@@ -48,6 +52,14 @@
 0.0.0.0 176.net.jumia.ma
 0.0.0.0 18052925.im.intermiles.com
 0.0.0.0 18wosx.ru
+0.0.0.0 19035924.automated.almosafer.com
+0.0.0.0 19035924.email.almosafer.com
+0.0.0.0 19035924.loyalty.almosafer.com
+0.0.0.0 19035924.mktg.almosafer.com
+0.0.0.0 19035955.automated.tajawal.com
+0.0.0.0 19035955.email.tajawal.com
+0.0.0.0 19035955.loyalty.tajawal.com
+0.0.0.0 19035955.mktg.tajawal.com
 0.0.0.0 1909a8.satofull.jp
 0.0.0.0 1a715b8q5m3j.www.logology.co
 0.0.0.0 1a83092b2577f92bf593.proxy-us.posthog.com
@@ -81,6 +93,7 @@
 0.0.0.0 21udflra4wd.app-dev.cainthus.com
 0.0.0.0 22153974.branch.rocks
 0.0.0.0 2222.ro
+0.0.0.0 223f.pandasuite.io
 0.0.0.0 22find.com
 0.0.0.0 2467april2024.com
 0.0.0.0 247-inc.com
@@ -5459,6 +5472,7 @@
 0.0.0.0 cis.schibsted.com
 0.0.0.0 citrusad.net
 0.0.0.0 cityadstrack.com
+0.0.0.0 citydeal.net
 0.0.0.0 citypaketet.se
 0.0.0.0 cityua.net
 0.0.0.0 civicscience.com
@@ -5492,6 +5506,7 @@
 0.0.0.0 clcktrax.com
 0.0.0.0 clear.wallapop.com
 0.0.0.0 clearbitscripts.com
+0.0.0.0 clearclips.com
 0.0.0.0 cleartag.run
 0.0.0.0 cleverpush.com
 0.0.0.0 clevertap-prod.com
@@ -6043,6 +6058,7 @@
 0.0.0.0 confiaen.legalitas.com
 0.0.0.0 confiant-integrations.global.ssl.fastly.net
 0.0.0.0 confiant.msn.com
+0.0.0.0 confidence.dev
 0.0.0.0 config.parsely.com
 0.0.0.0 configure.adlermode.com
 0.0.0.0 confirm.ptvgroup.com
@@ -6398,6 +6414,7 @@
 0.0.0.0 cp.deltadentalwa.com
 0.0.0.0 cp.filext.com
 0.0.0.0 cp.ir-central.irco.com
+0.0.0.0 cp.official-coupons.com
 0.0.0.0 cp.official-deals.co.uk
 0.0.0.0 cpa.hh.ru
 0.0.0.0 cpaevent.ru
@@ -10475,7 +10492,6 @@
 0.0.0.0 guelvp.1111.com.tw
 0.0.0.0 guhyqz.hawesko.de
 0.0.0.0 guildalpha.com
-0.0.0.0 gulf.moneroocean.stream
 0.0.0.0 guq9.vente-unique.it
 0.0.0.0 gurgle.pcmag.com
 0.0.0.0 gurgle.spiceworks.com
@@ -10599,6 +10615,7 @@
 0.0.0.0 heartbeat.pmd.444.hu
 0.0.0.0 heatmap-events-collector.instapage.com
 0.0.0.0 heatmap.it
+0.0.0.0 heatmaps.lcisoft.it
 0.0.0.0 hebiichigo.com
 0.0.0.0 hekhnn.turnkeyvr.com
 0.0.0.0 helix.bitformations.ca
@@ -19435,7 +19452,6 @@
 0.0.0.0 px.marchex.io
 0.0.0.0 px.mountain.com
 0.0.0.0 px.owneriq.net
-0.0.0.0 px.srvcs.tumblr.com
 0.0.0.0 px.staticfiles.at
 0.0.0.0 px.wp.pl
 0.0.0.0 pxaction.com
@@ -19763,6 +19779,7 @@
 0.0.0.0 reach.ironmountain.com
 0.0.0.0 reach.terumo-bct.com
 0.0.0.0 reachforce.com
+0.0.0.0 reachhumans.com
 0.0.0.0 reachlocalservices.com
 0.0.0.0 reachmax.cn
 0.0.0.0 react-admin-telemetry.marmelab.com
@@ -26629,6 +26646,7 @@
 0.0.0.0 stats.handyvertrag.de
 0.0.0.0 stats.hanmaker.com
 0.0.0.0 stats.hannaandersson.com
+0.0.0.0 stats.hara.vn
 0.0.0.0 stats.harbauer.org
 0.0.0.0 stats.harpercollins.com
 0.0.0.0 stats.harrods.com
@@ -27791,7 +27809,6 @@
 0.0.0.0 t.castle.io
 0.0.0.0 t.cellcept.com
 0.0.0.0 t.centreinthesquare.com
-0.0.0.0 t.cfjump.com
 0.0.0.0 t.channeladvisor.com
 0.0.0.0 t.charlotte49ers.com
 0.0.0.0 t.chartwayarena.com

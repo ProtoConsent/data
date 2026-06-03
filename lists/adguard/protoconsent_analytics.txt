@@ -2,18 +2,25 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-06-02T06:06:01.085Z
+! Last modified: 2026-06-03T06:19:59.920Z
 ! Format: AdGuard
-! Entries: 9255
+! Entries: 9261
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
 ||103bees.com^$third-party
+||11nux.com^$third-party
+||123-counter.de^$third-party
+||123compteur.com^$third-party
 ||123count.com^$third-party
 ||123stat.com^$third-party
+||15gifts.com^$third-party
 ||1l-hit.mail.ru^$third-party
 ||1to1.bbva.com^$third-party
 ||200summit.com^$third-party
+||204st.us^$third-party
+||206solutions.com^$third-party
+||2222.ro^$third-party
 ||2467april2024.com^$third-party
 ||247-inc.com^$third-party
 ||2495may2024.com^$third-party
@@ -889,6 +896,7 @@
 ||bitclubnetwork.com^$third-party
 ||bizlog-gateway.myrealtrip.com^$third-party
 ||bizspring.net^$third-party
+||biztoolsbrief.com^$third-party
 ||bjcathay.com^$third-party
 ||blacktri-a.akamaihd.net^$third-party
 ||blockmetrics.com^$third-party
@@ -903,6 +911,7 @@
 ||bmmetrix.com^$third-party
 ||bmrg.reflected.net^$third-party
 ||bmwebm.org^$third-party
+||boardbumpers.com^$third-party
 ||boilingbeetle.com^$third-party
 ||bonnieradnetwork.se^$third-party
 ||bonuscake.ru^$third-party
@@ -1277,6 +1286,7 @@
 ||countok.de^$third-party
 ||countomat.com^$third-party
 ||cp.filext.com^$third-party
+||cp.official-coupons.com^$third-party
 ||cp.official-deals.co.uk^$third-party
 ||cpro.baidustatic.com^$third-party
 ||cpu-api.infor.pl^$third-party
@@ -1444,7 +1454,6 @@
 ||dapxl.com^$third-party
 ||dash.getsitecontrol.com^$third-party
 ||dashapi.chartbeat.com^$third-party
-||dashingdrop.com^$third-party
 ||data-collector.wefi.com^$third-party
 ||data.circulate.com^$third-party
 ||data.digitalks.az^$third-party
@@ -1602,7 +1611,6 @@
 ||ea.millet.fr^$third-party
 ||ea.rentacar.fr^$third-party
 ||ea.venta-unica.com^$third-party
-||ea.vente-unique.be^$third-party
 ||ea.vente-unique.ch^$third-party
 ||ea.vente-unique.com^$third-party
 ||ea.warnerbros.fr^$third-party
@@ -1733,6 +1741,7 @@
 ||events-collector-api.viacom.tech^$third-party
 ||events-collector.spot.im^$third-party
 ||events-endpoint.pointandplace.com^$third-party
+||events-ingestion-helpcenter.services.gorgias.help^$third-party
 ||events-ocu.zipify.com^$third-party
 ||events-tracker.deliveroo.net^$third-party
 ||events.air.tv^$third-party
@@ -1887,6 +1896,7 @@
 ||fyrsbckgi-c.global.ssl.fastly.net^$third-party
 ||g-stats.openhost.es^$third-party
 ||g.ign.com^$third-party
+||g10498469755.co^$third-party
 ||g1782759015.co^$third-party
 ||g1thub.com^$third-party
 ||g2insights-cdn.azureedge.net^$third-party
@@ -2006,7 +2016,6 @@
 ||gtopstats.com^$third-party
 ||gtrk.s3.amazonaws.com^$third-party
 ||guardedschool.com^$third-party
-||gulf.moneroocean.stream^$third-party
 ||guq9.vente-unique.it^$third-party
 ||gvisit.com^$third-party
 ||gwmtracking.com^$third-party
@@ -2030,6 +2039,7 @@
 ||heartbeat.pmd.444.hu^$third-party
 ||heatmap-events-collector.instapage.com^$third-party
 ||heatmap.it^$third-party
+||heatmaps.lcisoft.it^$third-party
 ||helix.bitformations.ca^$third-party
 ||hello.staticstuff.net^$third-party
 ||hemnes.win^$third-party
@@ -2123,7 +2133,6 @@
 ||indicative.com^$third-party
 ||infinity-tracking.net^$third-party
 ||infinityid.condenastdigital.com^$third-party
-||info.calnexsol.com^$third-party
 ||informer.yandex.ru^$third-party
 ||informers.sinoptik.ua^$third-party
 ||infostroy.nnov.ru^$third-party
@@ -2468,7 +2477,6 @@
 ||logging.je-apps.com^$third-party
 ||logging.pw.adn.cloud^$third-party
 ||loggly.com^$third-party
-||logicsfort.com^$third-party
 ||loglady.skypicker.com^$third-party
 ||lognormal.net^$third-party
 ||logrocket.com^$third-party
@@ -3217,7 +3225,6 @@
 ||px.marchex.io^$third-party
 ||px.mountain.com^$third-party
 ||px.owneriq.net^$third-party
-||px.srvcs.tumblr.com^$third-party
 ||px.staticfiles.at^$third-party
 ||px.wp.pl^$third-party
 ||pxi.pub^$third-party
@@ -4019,6 +4026,7 @@
 ||stats.gioneemobile.net^$third-party
 ||stats.grafana.org^$third-party
 ||stats.habr.com^$third-party
+||stats.hara.vn^$third-party
 ||stats.harpercollins.com^$third-party
 ||stats.hitwebcloud.de^$third-party
 ||stats.how.wtf^$third-party
@@ -4187,7 +4195,6 @@
 ||t.blog.livedoor.jp^$third-party
 ||t.buyist.app^$third-party
 ||t.castle.io^$third-party
-||t.cfjump.com^$third-party
 ||t.channeladvisor.com^$third-party
 ||t.commandbar.com^$third-party
 ||t.cpurls.net^$third-party
@@ -4360,7 +4367,6 @@
 ||terriblethumb.com^$third-party
 ||test.legitcode.ws^$third-party
 ||test.takedwn.ws^$third-party
-||testedtouch.com^$third-party
 ||testingmetriksbre.ru^$third-party
 ||tf.360.cn^$third-party
 ||tgknt.com^$third-party
