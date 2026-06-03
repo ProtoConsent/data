@@ -1,8 +1,8 @@
 {
-  "version": "2026-05-15",
-  "generated": "2026-05-15T06:47:43.182Z",
+  "version": "2026-06-03",
+  "generated": "2026-06-03T08:35:57.206Z",
   "type": "tracking_params",
-  "param_count": 314,
+  "param_count": 316,
   "params": [
     "Tcsack",
     "__hsfp",
@@ -229,6 +229,7 @@
     "rb_clickid",
     "recommended_by",
     "recommended_code",
+    "referrer=appmetrica_tracking_id",
     "rtkcid",
     "s_cid",
     "sms_click",
@@ -316,6 +317,7 @@
     "xtor",
     "yclid",
     "yj_r",
+    "ym_tracking_id",
     "ymid",
     "ysclid"
   ]

@@ -1,10 +1,10 @@
 {
-  "version": "2026-06-02",
+  "version": "2026-06-03",
   "type": "cmp_detectors",
-  "generated": "2026-06-02T08:16:00.261Z",
+  "generated": "2026-06-03T08:35:56.712Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "ebc2d5dba22466f3",
-  "cmp_count": 297,
+  "autoconsent_tree_hash": "f912494828f27c0f",
+  "cmp_count": 298,
   "detectors": {
     "abc": {
       "present": [
@@ -2026,6 +2026,14 @@
       ],
       "showing": [
         ".syno_cookie_element"
+      ]
+    },
+    "tagconcierge": {
+      "present": [
+        "#consent-banner-main"
+      ],
+      "showing": [
+        "#consent-banner-modal"
       ]
     },
     "takealot_com": {
