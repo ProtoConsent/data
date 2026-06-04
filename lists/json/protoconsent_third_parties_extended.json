@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
-  "version": "2026-06-03",
-  "generated": "2026-06-03T06:19:59.920Z",
+  "version": "2026-06-04",
+  "generated": "2026-06-04T06:11:11.236Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -213,7 +213,6 @@
     "cdn.bizible.com",
     "cdn.branch.io",
     "cdn.braze.eu",
-    "cdn.onesignal.com",
     "cdn.pardot.com",
     "cdn.pushwoosh.com",
     "cdn.socialannex.com",
@@ -509,7 +508,6 @@
     "sharedcount.com",
     "shareease.link",
     "sharefb.cnnd.vn",
-    "sharepointads.com",
     "sharetally.co",
     "sharethis.com",
     "sharpay.io",
@@ -536,6 +534,7 @@
     "sleeknote.com",
     "smile.io",
     "snackly.co",
+    "snippet.minute.ly",
     "snrtp-cdn.marketo.com",
     "snrtp1.marketo.com",
     "social-touch.com",
@@ -645,7 +644,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 638,
+  "domain_count": 637,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",

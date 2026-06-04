@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization Extended",
-  "version": "2026-05-26",
-  "generated": "2026-05-26T05:18:12.274Z",
+  "version": "2026-06-04",
+  "generated": "2026-06-04T06:11:11.236Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -193,7 +193,6 @@
     "boden-attracksdk.optimove.net",
     "boden-autracksdk.optimove.net",
     "boden-uktracksdk.optimove.net",
-    "bombora.com",
     "build.dynamicyield.com",
     "buzzfeed.amp.permutive.com",
     "californiapsychicstrack.optimove.net",
@@ -345,7 +344,6 @@
     "rtb2-useast.audienceads.io",
     "rtb2-useast.topshelfaudience.app",
     "sail-personalize.com",
-    "sailthru.com",
     "sb.monetate.net",
     "scarabresearch.com",
     "sdk-cdn.optimove.net",
@@ -406,7 +404,7 @@
     "xml.audiencedevelopers.com",
     "zeotap.com"
   ],
-  "domain_count": 399,
+  "domain_count": 397,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",
