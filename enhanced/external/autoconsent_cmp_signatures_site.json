@@ -1,10 +1,10 @@
 {
-  "version": "2026-06-03",
+  "version": "2026-06-05",
   "type": "cmp_site",
-  "generated": "2026-06-03T08:35:56.703Z",
+  "generated": "2026-06-05T07:53:51.657Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "f912494828f27c0f",
-  "cmp_count": 244,
+  "autoconsent_tree_hash": "d94044af0c2b3fcb",
+  "cmp_count": 246,
   "signatures": {
     "abconcerts_be": {
       "selector": "dialog.cookie-consent",
@@ -204,6 +204,19 @@
       "domains": [
         "aws.amazon.com"
       ]
+    },
+    "aylocookiebanner": {
+      "selector": "#cookie_consent_wrapper, #cookie_consent_min_wrapper, #manage_cookie_consent_modal",
+      "detectors": {
+        "present": [
+          "#cookie_consent_wrapper:not(.hideConsent)",
+          "#cookie_consent_wrapper #consent_accept_essential, #manage_cookie_consent_modal #modal_consent_accept_essential"
+        ],
+        "showing": [
+          "#cookie_consent_wrapper:not(.hideConsent)",
+          "#age_disclaimer_window,#ageDisclaimerWrapper"
+        ]
+      }
     },
     "badenwuerttemberg_de": {
       "selector": ".cookie-alert.t-dark",
@@ -1511,6 +1524,17 @@
         ]
       }
     },
+    "milesandmore": {
+      "selector": "dialog.cookieconsent__dialog",
+      "detectors": {
+        "present": [
+          ".cookieconsent__base[data-component=\"cookieconsent\"]"
+        ],
+        "showing": [
+          ".cookieconsent__buttonAcceptNecessary"
+        ]
+      }
+    },
     "moove": {
       "selector": "#moove_gdpr_cookie_info_bar",
       "detectors": {
@@ -1807,6 +1831,17 @@
         ],
         "showing": [
           "#pmc-pp-tou--notice"
+        ]
+      }
+    },
+    "policeuk": {
+      "selector": "#js-consent-banner",
+      "detectors": {
+        "present": [
+          "#js-consent-banner #js-cookie-reject-button"
+        ],
+        "showing": [
+          "#js-consent-banner #js-cookie-reject-button"
         ]
       }
     },
@@ -2735,17 +2770,6 @@
           "#cookies-use-alert"
         ]
       }
-    },
-    "youporn_com": {
-      "selector": ".euCookieModal, #js_euCookieModal",
-      "detectors": {
-        "present": [
-          ".euCookieModal"
-        ]
-      },
-      "domains": [
-        "youporn.com"
-      ]
     },
     "youtubedesktop": {
       "selector": "tp-yt-iron-overlay-backdrop.opened, ytd-consent-bump-v2-lightbox",

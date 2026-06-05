@@ -1,10 +1,10 @@
 {
-  "version": "2026-06-03",
+  "version": "2026-06-05",
   "type": "cmp_detectors",
-  "generated": "2026-06-03T08:35:56.712Z",
+  "generated": "2026-06-05T07:53:51.667Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "f912494828f27c0f",
-  "cmp_count": 298,
+  "autoconsent_tree_hash": "d94044af0c2b3fcb",
+  "cmp_count": 300,
   "detectors": {
     "abc": {
       "present": [
@@ -210,6 +210,16 @@
         ".axeptio_widget,.axeptio_mount"
       ],
       "showing": []
+    },
+    "aylocookiebanner": {
+      "present": [
+        "#cookie_consent_wrapper:not(.hideConsent)",
+        "#cookie_consent_wrapper #consent_accept_essential, #manage_cookie_consent_modal #modal_consent_accept_essential"
+      ],
+      "showing": [
+        "#cookie_consent_wrapper:not(.hideConsent)",
+        "#age_disclaimer_window,#ageDisclaimerWrapper"
+      ]
     },
     "badenwuerttemberg_de": {
       "present": [
@@ -1402,6 +1412,14 @@
         "#cookie-container"
       ]
     },
+    "milesandmore": {
+      "present": [
+        ".cookieconsent__base[data-component=\"cookieconsent\"]"
+      ],
+      "showing": [
+        ".cookieconsent__buttonAcceptNecessary"
+      ]
+    },
     "moneysavingexpert_com": {
       "present": [
         "dialog[data-testid=accept-our-cookies-dialog]"
@@ -1661,6 +1679,14 @@
       ],
       "showing": [
         "#pmc-pp-tou--notice"
+      ]
+    },
+    "policeuk": {
+      "present": [
+        "#js-consent-banner #js-cookie-reject-button"
+      ],
+      "showing": [
+        "#js-consent-banner #js-cookie-reject-button"
       ]
     },
     "pornhat": {
@@ -2538,15 +2564,6 @@
       ],
       "showing": [
         "#consent-page"
-      ]
-    },
-    "youporn_com": {
-      "present": [
-        ".euCookieModal"
-      ],
-      "showing": [],
-      "domains": [
-        "youporn.com"
       ]
     },
     "youtubedesktop": {
