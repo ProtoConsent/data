@@ -1,22 +1,30 @@
 # Title: ProtoConsent Personalization
 # Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)
-# Version: 2026-06-05
-# Last modified: 2026-06-05T05:52:02.836Z
-# Entries: 63
+# Version: 2026-06-06
+# Last modified: 2026-06-06T05:08:14.596Z
+# Entries: 80
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
 0.0.0.0 1plusx.com
+0.0.0.0 acxiom.com
 0.0.0.0 ad.crwdcntrl.net
+0.0.0.0 an.reflektion.com
 0.0.0.0 api.sail-personalize.com
+0.0.0.0 api.trueaudience.io
 0.0.0.0 async-px-eu.dynamicyield.com
 0.0.0.0 async-px.dynamicyield.com
+0.0.0.0 audience-pccw.viu.com
+0.0.0.0 audience.acpm.fr
 0.0.0.0 audigent.com
 0.0.0.0 barilliance.com
 0.0.0.0 barilliance.net
 0.0.0.0 bluekai.com
 0.0.0.0 blueshift.com
+0.0.0.0 bombora.com
+0.0.0.0 celebrus.com
 0.0.0.0 certona.com
+0.0.0.0 certona.net
 0.0.0.0 clearbit.com
 0.0.0.0 counter.personyze.com
 0.0.0.0 crwdcntrl.net
@@ -25,9 +33,13 @@
 0.0.0.0 dynamicyield.com
 0.0.0.0 emarsys.com
 0.0.0.0 emarsys.net
+0.0.0.0 events.launchdarkly.com
+0.0.0.0 events.split.io
 0.0.0.0 eyeota-sync.dotomi.com
 0.0.0.0 eyeota.com
 0.0.0.0 eyeota.net
+0.0.0.0 falcon.useinsider.com
+0.0.0.0 freshrelevance.com
 0.0.0.0 getblueshift.com
 0.0.0.0 granify.com
 0.0.0.0 hybrid.ai
@@ -36,6 +48,7 @@
 0.0.0.0 intentiq.com
 0.0.0.0 maxymiser.net
 0.0.0.0 mediarithmics.com
+0.0.0.0 mobile-events.eservice.emarsys.net
 0.0.0.0 monetate.com
 0.0.0.0 monetate.net
 0.0.0.0 movableink.com
@@ -48,6 +61,8 @@
 0.0.0.0 personalizer.io
 0.0.0.0 personyze.com
 0.0.0.0 px.dynamicyield.com
+0.0.0.0 rcom-eu.dynamicyield.com
+0.0.0.0 rcom.dynamicyield.com
 0.0.0.0 recombee.com
 0.0.0.0 richrelevance.com
 0.0.0.0 rlcdn.com
@@ -63,9 +78,11 @@
 0.0.0.0 ssd-bluekai-lon5.everesttech.net
 0.0.0.0 ssd-bluekai-or1.everesttech.net
 0.0.0.0 ssd-bluekai-va5.everesttech.net
+0.0.0.0 st-eu.dynamicyield.com
 0.0.0.0 st.dynamicyield.com
 0.0.0.0 tags.bluekai.com.edgekey.net
 0.0.0.0 tags.cmp.tail.digital
 0.0.0.0 tail.digital
+0.0.0.0 telemetry.split.io
 0.0.0.0 useinsider.com
 0.0.0.0 zeotap.com

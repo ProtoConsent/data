@@ -1,23 +1,31 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Personalization
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)
-! Version: 2026-06-05
-! Last modified: 2026-06-05T05:52:02.836Z
-! Entries: 76
+! Version: 2026-06-06
+! Last modified: 2026-06-06T05:08:14.596Z
+! Entries: 93
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
 ||1plusx.com^$third-party
+||acxiom.com^$third-party
 ||ad.crwdcntrl.net^$third-party
+||an.reflektion.com^$third-party
 ||api.sail-personalize.com^$third-party
+||api.trueaudience.io^$third-party
 ||async-px-eu.dynamicyield.com^$third-party
 ||async-px.dynamicyield.com^$third-party
+||audience-pccw.viu.com^$third-party
+||audience.acpm.fr^$third-party
 ||audigent.com^$third-party
 ||barilliance.com^$third-party
 ||barilliance.net^$third-party
 ||bluekai.com^$third-party
 ||blueshift.com^$third-party
+||bombora.com^$third-party
+||celebrus.com^$third-party
 ||certona.com^$third-party
+||certona.net^$third-party
 ||clearbit.com^$third-party
 ||counter.personyze.com^$third-party
 ||crwdcntrl.net^$third-party
@@ -26,9 +34,13 @@
 ||dynamicyield.com^$third-party
 ||emarsys.com^$third-party
 ||emarsys.net^$third-party
+||events.launchdarkly.com^$third-party
+||events.split.io^$third-party
 ||eyeota-sync.dotomi.com^$third-party
 ||eyeota.com^$third-party
 ||eyeota.net^$third-party
+||falcon.useinsider.com^$third-party
+||freshrelevance.com^$third-party
 ||getblueshift.com^$third-party
 ||granify.com^$third-party
 ||hybrid.ai^$third-party
@@ -37,6 +49,7 @@
 ||intentiq.com^$third-party
 ||maxymiser.net^$third-party
 ||mediarithmics.com^$third-party
+||mobile-events.eservice.emarsys.net^$third-party
 ||monetate.com^$third-party
 ||monetate.net^$third-party
 ||movableink.com^$third-party
@@ -49,6 +62,8 @@
 ||personalizer.io^$third-party
 ||personyze.com^$third-party
 ||px.dynamicyield.com^$third-party
+||rcom-eu.dynamicyield.com^$third-party
+||rcom.dynamicyield.com^$third-party
 ||recombee.com^$third-party
 ||richrelevance.com^$third-party
 ||rlcdn.com^$third-party
@@ -64,10 +79,12 @@
 ||ssd-bluekai-lon5.everesttech.net^$third-party
 ||ssd-bluekai-or1.everesttech.net^$third-party
 ||ssd-bluekai-va5.everesttech.net^$third-party
+||st-eu.dynamicyield.com^$third-party
 ||st.dynamicyield.com^$third-party
 ||tags.bluekai.com.edgekey.net^$third-party
 ||tags.cmp.tail.digital^$third-party
 ||tail.digital^$third-party
+||telemetry.split.io^$third-party
 ||useinsider.com^$third-party
 ||zeotap.com^$third-party
 ||ak.sail-horizon.com/^
