@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-06-06T05:08:14.596Z
+! Last modified: 2026-06-07T05:55:11.528Z
 ! Format: AdGuard
-! Entries: 9137
+! Entries: 9135
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -316,6 +316,7 @@
 ||analytics.aweber.com^$third-party
 ||analytics.bachtuongphat.com^$third-party
 ||analytics.baliusuperapp.xyz^$third-party
+||analytics.bauermedia.sk^$third-party
 ||analytics.belgacom.be^$third-party
 ||analytics.bestreviews.com^$third-party
 ||analytics.bigdata.samsung.com^$third-party
@@ -1045,7 +1046,6 @@
 ||clickshift.com^$third-party
 ||clickstream.sberbank.ru^$third-party
 ||clicktale.net^$third-party
-||clickthru.lefbc.com^$third-party
 ||clicktracker.iscan.nl^$third-party
 ||clicktracks.com^$third-party
 ||clickzs.com^$third-party
@@ -1811,11 +1811,13 @@
 ||feelwarmth.com^$third-party
 ||femalecook.com^$third-party
 ||fgip.rosehosting.com^$third-party
+||fi-analytics.mgsn.it^$third-party
 ||filament-stats.herokuapp.com^$third-party
 ||filitrac.com^$third-party
 ||filmoljupci.com^$third-party
 ||filter-eu.revantagex.com^$third-party
 ||filter.revantagex.com^$third-party
+||findyourdelight.com^$third-party
 ||fingerprinter-production.herokuapp.com^$third-party
 ||firebaselogging-pa.googleapis.com^$third-party
 ||firebaselogging.googleapis.com^$third-party
@@ -2576,7 +2578,6 @@
 ||metrics-us.cometchat.io^$third-party
 ||metrics.aa.com^$third-party
 ||metrics.accuweather.com^$third-party
-||metrics.adelaidenow.com.au^$third-party
 ||metrics.aetn.com^$third-party
 ||metrics.apartments.com^$third-party
 ||metrics.asos.com^$third-party
@@ -3605,8 +3606,6 @@
 ||smetrics.kay.com^$third-party
 ||smetrics.kbb.com^$third-party
 ||smetrics.kone.vn^$third-party
-||smetrics.latrobe.edu.au^$third-party
-||smetrics.legalandgeneral.com^$third-party
 ||smetrics.los40.com^$third-party
 ||smetrics.lululemon.com^$third-party
 ||smetrics.manheim.com^$third-party
@@ -3746,7 +3745,6 @@
 ||spylog.com^$third-party
 ||spylog.ru^$third-party
 ||squeezely.tech^$third-party
-||squishykiosk.com^$third-party
 ||src.freshmarketer.in^$third-party
 ||srepdata.usatoday.com^$third-party
 ||srtb.msn.com^$third-party

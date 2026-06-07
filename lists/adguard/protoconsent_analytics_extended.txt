@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-06-06T05:08:14.596Z
+! Last modified: 2026-06-07T05:55:11.528Z
 ! Format: AdGuard
-! Entries: 38066
+! Entries: 38064
 !
 ||0.myikas.com^$third-party
 ||0.net.easyjet.com^$third-party
@@ -5554,7 +5554,6 @@
 ||clicktale.net^$third-party
 ||clicktale.pantherssl.com^$third-party
 ||clicktalecdn.sslcs.cdngc.net^$third-party
-||clickthru.lefbc.com^$third-party
 ||clicktime.symantec.com^$third-party
 ||clicktracker.iscan.nl^$third-party
 ||clicktracks.com^$third-party
@@ -11090,6 +11089,7 @@
 ||images.e.mylanlabs.com^$third-party
 ||images.e.pcm.com^$third-party
 ||images.e.realtor.com^$third-party
+||images.e.royalmail.com^$third-party
 ||images.e.transunion.com^$third-party
 ||images.e.xtelligentmedia.com^$third-party
 ||images.e2.aig.com^$third-party
@@ -15637,7 +15637,6 @@
 ||metrics.activase.com^$third-party
 ||metrics.activecommunities.com^$third-party
 ||metrics.adacreisen.de^$third-party
-||metrics.adelaidenow.com.au^$third-party
 ||metrics.adiglobal.us^$third-party
 ||metrics.adobe.nb.com^$third-party
 ||metrics.adobe.nbprivatewealth.com^$third-party
@@ -23387,7 +23386,6 @@
 ||smetrics.latitudefinancial.com.au^$third-party
 ||smetrics.latitudepay.com^$third-party
 ||smetrics.latitudepay.com.au^$third-party
-||smetrics.latrobe.edu.au^$third-party
 ||smetrics.lazarediamond.jp^$third-party
 ||smetrics.lcbo.com^$third-party
 ||smetrics.ldproducts.com^$third-party
@@ -23395,7 +23393,6 @@
 ||smetrics.leasy.com^$third-party
 ||smetrics.leasy.dk^$third-party
 ||smetrics.leasy.se^$third-party
-||smetrics.legalandgeneral.com^$third-party
 ||smetrics.leisuretimepassport.com^$third-party
 ||smetrics.lenscrafters.ca^$third-party
 ||smetrics.leonardo.essilorluxottica.com^$third-party
@@ -25304,7 +25301,6 @@
 ||squidanalytics.com^$third-party
 ||squirrel.cividi.ch^$third-party
 ||squirrel.malaynahocker.com^$third-party
-||squishykiosk.com^$third-party
 ||sr-client-cfg.amplitude.com^$third-party
 ||sr-client-cfg.eu.amplitude.com^$third-party
 ||sr59t7wbx5.claricelin.com^$third-party
@@ -26730,7 +26726,6 @@
 ||stats.olark.com^$third-party
 ||stats.oliveoil.pro^$third-party
 ||stats.omahasteaks.com^$third-party
-||stats.oneinstaller.com^$third-party
 ||stats.onepagelove.com^$third-party
 ||stats.onetime.com^$third-party
 ||stats.online-convert.com^$third-party
@@ -35983,6 +35978,7 @@
 ||leguide.com/js/lgtrk-*.js^
 ||leipziger-stadtplan.com/t.gif^
 ||lemonde.fr/*.pa.js^
+||lemonde.fr/b9d29410eafefd859fb36add0cb64f9b4ad2138b^
 ||lemonde.fr/bucket/*/tagistan.^
 ||lemrock.com/v1/publishers/tracking/^
 ||lendingtree.com/analytics/^
@@ -36334,6 +36330,7 @@
 ||ncbi.nlm.nih.gov/core/pinger/pinger.js^
 ||ncregister.com/_swp_analytics?^
 ||ndmais.com.br/tracking-parceiros-ndmais/^
+||ndtv.in/estatic/hindi-fcm.js^
 ||neatorama.com/story/view/^
 ||needle.com/pageload?^
 ||needle.com/pageupdate?^
@@ -37450,6 +37447,7 @@
 ||thehackernews.com/ga/c^
 ||thehackernews.com/ga4/c^
 ||thehackernews.com/zscripts/^
+||thehealthsite.com/apstag.js^
 ||thehill.com/6zcfGH4h/init.js^
 ||thehour.com/413gkwMT/init.js^
 ||thekitchn.com/jAYekY18/init.js^
