@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-06-07
-# Last modified: 2026-06-07T05:55:11.528Z
-# Entries: 5121
+# Version: 2026-06-08
+# Last modified: 2026-06-08T06:10:51.174Z
+# Entries: 5113
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -103,7 +103,6 @@
 0.0.0.0 ad.aceplanet.co.kr
 0.0.0.0 ad.aloodo.com
 0.0.0.0 ad.daum.net
-0.0.0.0 ad7.bigmir.net
 0.0.0.0 ad7.com
 0.0.0.0 adactive.cz
 0.0.0.0 adap.tv
@@ -808,13 +807,11 @@
 0.0.0.0 beacon.errorception.com
 0.0.0.0 beacon.gtv-pub.com
 0.0.0.0 beacon.gutefrage.net
-0.0.0.0 beacon.my.salesforce.com
 0.0.0.0 beacon.nuskin.com
 0.0.0.0 beacon.panorama.ai
 0.0.0.0 beacon.peakhour.io
 0.0.0.0 beacon.qq.com
 0.0.0.0 beacon.radiko.jp
-0.0.0.0 beacon.rallydev.com
 0.0.0.0 beacon.samsclub.com
 0.0.0.0 beacon.searchspring.io
 0.0.0.0 beacon.securestudies.com
@@ -904,6 +901,7 @@
 0.0.0.0 brat-online.ro
 0.0.0.0 brcdn.com
 0.0.0.0 brdtest.com
+0.0.0.0 brdtnet.com
 0.0.0.0 brightdata.com
 0.0.0.0 brightdata.de
 0.0.0.0 brilig.com
@@ -935,7 +933,6 @@
 0.0.0.0 bzr.openai.com
 0.0.0.0 bzrcdn.openai.com
 0.0.0.0 c-rings.net
-0.0.0.0 c.amazinglybrilliant.com.au
 0.0.0.0 c.bazo.io
 0.0.0.0 c.bigmir.net
 0.0.0.0 c.hit.ua
@@ -1100,7 +1097,6 @@
 0.0.0.0 collect-eu.attraqt.io
 0.0.0.0 collect-v6.51.la
 0.0.0.0 collect.adplogger.no
-0.0.0.0 collect.adsorb.com
 0.0.0.0 collect.alphastream.io
 0.0.0.0 collect.analyse.lnearn.com
 0.0.0.0 collect.asics.com
@@ -1324,6 +1320,7 @@
 0.0.0.0 d-log.tv-asahi.co.jp
 0.0.0.0 d-markets.net
 0.0.0.0 d-stats.com
+0.0.0.0 d.adlpo.com
 0.0.0.0 d.haberler.com
 0.0.0.0 d.lilstts.com
 0.0.0.0 d.omsnative.de
@@ -1433,6 +1430,7 @@
 0.0.0.0 dapxl.com
 0.0.0.0 dash.getsitecontrol.com
 0.0.0.0 dashapi.chartbeat.com
+0.0.0.0 dashingdrop.com
 0.0.0.0 data-collector.wefi.com
 0.0.0.0 data.circulate.com
 0.0.0.0 data.digitalks.az
@@ -2398,7 +2396,6 @@
 0.0.0.0 log.spotify.com
 0.0.0.0 log.strawpoll.com
 0.0.0.0 log.strm.yandex.ru
-0.0.0.0 log.suddenclean.com
 0.0.0.0 log.sweepycleanplus.com
 0.0.0.0 log.tapatalk.com
 0.0.0.0 log.tapchimattran.vn
@@ -2589,7 +2586,6 @@
 0.0.0.0 metrics.biddertmz.com
 0.0.0.0 metrics.brightcove.com
 0.0.0.0 metrics.caixabank.es
-0.0.0.0 metrics.calgary.ca
 0.0.0.0 metrics.camsoda.com
 0.0.0.0 metrics.cbc.ca
 0.0.0.0 metrics.cbn.com
@@ -2616,6 +2612,7 @@
 0.0.0.0 metrics.gap.com
 0.0.0.0 metrics.geekwire.com
 0.0.0.0 metrics.gs-chat.com
+0.0.0.0 metrics.hackerrank.com.edgekey.net
 0.0.0.0 metrics.health.com
 0.0.0.0 metrics.hrblock.com
 0.0.0.0 metrics.icloud.com
@@ -3537,12 +3534,10 @@
 0.0.0.0 smetrics.atresplayer.com
 0.0.0.0 smetrics.att.com
 0.0.0.0 smetrics.autodesk.com
-0.0.0.0 smetrics.avalara.com
 0.0.0.0 smetrics.bankofamerica.com
 0.0.0.0 smetrics.bbb.org
 0.0.0.0 smetrics.bbva.es
 0.0.0.0 smetrics.bbva.mx
-0.0.0.0 smetrics.bcbsm.com
 0.0.0.0 smetrics.beatsbydre.com
 0.0.0.0 smetrics.bmc.com
 0.0.0.0 smetrics.bmo.com
@@ -3606,6 +3601,7 @@
 0.0.0.0 smetrics.kay.com
 0.0.0.0 smetrics.kbb.com
 0.0.0.0 smetrics.kone.vn
+0.0.0.0 smetrics.latrobe.edu.au
 0.0.0.0 smetrics.los40.com
 0.0.0.0 smetrics.lululemon.com
 0.0.0.0 smetrics.manheim.com
@@ -3617,11 +3613,9 @@
 0.0.0.0 smetrics.mcafee.com
 0.0.0.0 smetrics.metrobyt-mobile.com
 0.0.0.0 smetrics.mgmresorts.com
-0.0.0.0 smetrics.moodys.com
 0.0.0.0 smetrics.morganstanley.com
 0.0.0.0 smetrics.napaonline.com
 0.0.0.0 smetrics.nationwide.co.uk
-0.0.0.0 smetrics.newark.com
 0.0.0.0 smetrics.newbalance.com
 0.0.0.0 smetrics.nfl.com
 0.0.0.0 smetrics.ni.com
@@ -3672,7 +3666,6 @@
 0.0.0.0 smetrics.totalwine.com
 0.0.0.0 smetrics.toyota.com
 0.0.0.0 smetrics.tractorsupply.com
-0.0.0.0 smetrics.ttiinc.com
 0.0.0.0 smetrics.tv2.dk
 0.0.0.0 smetrics.ubi.com
 0.0.0.0 smetrics.uhc.com
@@ -4069,6 +4062,7 @@
 0.0.0.0 t.91syun.com
 0.0.0.0 t.9gag.com
 0.0.0.0 t.a3cloud.net
+0.0.0.0 t.adlpo.com
 0.0.0.0 t.auditedmedia.org.au
 0.0.0.0 t.bimvid.com
 0.0.0.0 t.blog.livedoor.jp
@@ -4246,6 +4240,7 @@
 0.0.0.0 terriblethumb.com
 0.0.0.0 test.legitcode.ws
 0.0.0.0 test.takedwn.ws
+0.0.0.0 testedtouch.com
 0.0.0.0 testingmetriksbre.ru
 0.0.0.0 tf.360.cn
 0.0.0.0 tgknt.com
@@ -4258,7 +4253,6 @@
 0.0.0.0 threechurch.com
 0.0.0.0 thtk.temu.com
 0.0.0.0 ticklesign.com
-0.0.0.0 tics.techdirt.com
 0.0.0.0 tiktok.tray.com.br
 0.0.0.0 tim.nextinpact.com
 0.0.0.0 timejs.game.163.com
@@ -4762,7 +4756,6 @@
 0.0.0.0 trk2-wtb.swaven.com
 0.0.0.0 trkapi.impact.com
 0.0.0.0 trkme.net
-0.0.0.0 trkr.shoppingminds.net
 0.0.0.0 trmads.eu
 0.0.0.0 truckstomatoes.com
 0.0.0.0 truehits.in.th
@@ -4862,7 +4855,6 @@
 0.0.0.0 uue2.destinia.ir
 0.0.0.0 v-collector.dp.aws.charter.com
 0.0.0.0 v.oui.sncf
-0.0.0.0 v6analytics.htmedia.in.edgekey.net
 0.0.0.0 valuedopinions.co.uk
 0.0.0.0 vamaker.com
 0.0.0.0 vanfireworks.com

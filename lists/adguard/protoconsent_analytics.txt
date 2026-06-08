@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-06-07T05:55:11.528Z
+! Last modified: 2026-06-08T06:10:51.174Z
 ! Format: AdGuard
-! Entries: 9135
+! Entries: 9127
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -103,7 +103,6 @@
 ||ad.aceplanet.co.kr^$third-party
 ||ad.aloodo.com^$third-party
 ||ad.daum.net^$third-party
-||ad7.bigmir.net^$third-party
 ||ad7.com^$third-party
 ||adactive.cz^$third-party
 ||adap.tv^$third-party
@@ -808,13 +807,11 @@
 ||beacon.errorception.com^$third-party
 ||beacon.gtv-pub.com^$third-party
 ||beacon.gutefrage.net^$third-party
-||beacon.my.salesforce.com^$third-party
 ||beacon.nuskin.com^$third-party
 ||beacon.panorama.ai^$third-party
 ||beacon.peakhour.io^$third-party
 ||beacon.qq.com^$third-party
 ||beacon.radiko.jp^$third-party
-||beacon.rallydev.com^$third-party
 ||beacon.samsclub.com^$third-party
 ||beacon.searchspring.io^$third-party
 ||beacon.securestudies.com^$third-party
@@ -904,6 +901,7 @@
 ||brat-online.ro^$third-party
 ||brcdn.com^$third-party
 ||brdtest.com^$third-party
+||brdtnet.com^$third-party
 ||brightdata.com^$third-party
 ||brightdata.de^$third-party
 ||brilig.com^$third-party
@@ -935,7 +933,6 @@
 ||bzr.openai.com^$third-party
 ||bzrcdn.openai.com^$third-party
 ||c-rings.net^$third-party
-||c.amazinglybrilliant.com.au^$third-party
 ||c.bazo.io^$third-party
 ||c.bigmir.net^$third-party
 ||c.hit.ua^$third-party
@@ -1100,7 +1097,6 @@
 ||collect-eu.attraqt.io^$third-party
 ||collect-v6.51.la^$third-party
 ||collect.adplogger.no^$third-party
-||collect.adsorb.com^$third-party
 ||collect.alphastream.io^$third-party
 ||collect.analyse.lnearn.com^$third-party
 ||collect.asics.com^$third-party
@@ -1324,6 +1320,7 @@
 ||d-log.tv-asahi.co.jp^$third-party
 ||d-markets.net^$third-party
 ||d-stats.com^$third-party
+||d.adlpo.com^$third-party
 ||d.haberler.com^$third-party
 ||d.lilstts.com^$third-party
 ||d.omsnative.de^$third-party
@@ -1433,6 +1430,7 @@
 ||dapxl.com^$third-party
 ||dash.getsitecontrol.com^$third-party
 ||dashapi.chartbeat.com^$third-party
+||dashingdrop.com^$third-party
 ||data-collector.wefi.com^$third-party
 ||data.circulate.com^$third-party
 ||data.digitalks.az^$third-party
@@ -2398,7 +2396,6 @@
 ||log.spotify.com^$third-party
 ||log.strawpoll.com^$third-party
 ||log.strm.yandex.ru^$third-party
-||log.suddenclean.com^$third-party
 ||log.sweepycleanplus.com^$third-party
 ||log.tapatalk.com^$third-party
 ||log.tapchimattran.vn^$third-party
@@ -2589,7 +2586,6 @@
 ||metrics.biddertmz.com^$third-party
 ||metrics.brightcove.com^$third-party
 ||metrics.caixabank.es^$third-party
-||metrics.calgary.ca^$third-party
 ||metrics.camsoda.com^$third-party
 ||metrics.cbc.ca^$third-party
 ||metrics.cbn.com^$third-party
@@ -2616,6 +2612,7 @@
 ||metrics.gap.com^$third-party
 ||metrics.geekwire.com^$third-party
 ||metrics.gs-chat.com^$third-party
+||metrics.hackerrank.com.edgekey.net^$third-party
 ||metrics.health.com^$third-party
 ||metrics.hrblock.com^$third-party
 ||metrics.icloud.com^$third-party
@@ -3537,12 +3534,10 @@
 ||smetrics.atresplayer.com^$third-party
 ||smetrics.att.com^$third-party
 ||smetrics.autodesk.com^$third-party
-||smetrics.avalara.com^$third-party
 ||smetrics.bankofamerica.com^$third-party
 ||smetrics.bbb.org^$third-party
 ||smetrics.bbva.es^$third-party
 ||smetrics.bbva.mx^$third-party
-||smetrics.bcbsm.com^$third-party
 ||smetrics.beatsbydre.com^$third-party
 ||smetrics.bmc.com^$third-party
 ||smetrics.bmo.com^$third-party
@@ -3606,6 +3601,7 @@
 ||smetrics.kay.com^$third-party
 ||smetrics.kbb.com^$third-party
 ||smetrics.kone.vn^$third-party
+||smetrics.latrobe.edu.au^$third-party
 ||smetrics.los40.com^$third-party
 ||smetrics.lululemon.com^$third-party
 ||smetrics.manheim.com^$third-party
@@ -3617,11 +3613,9 @@
 ||smetrics.mcafee.com^$third-party
 ||smetrics.metrobyt-mobile.com^$third-party
 ||smetrics.mgmresorts.com^$third-party
-||smetrics.moodys.com^$third-party
 ||smetrics.morganstanley.com^$third-party
 ||smetrics.napaonline.com^$third-party
 ||smetrics.nationwide.co.uk^$third-party
-||smetrics.newark.com^$third-party
 ||smetrics.newbalance.com^$third-party
 ||smetrics.nfl.com^$third-party
 ||smetrics.ni.com^$third-party
@@ -3672,7 +3666,6 @@
 ||smetrics.totalwine.com^$third-party
 ||smetrics.toyota.com^$third-party
 ||smetrics.tractorsupply.com^$third-party
-||smetrics.ttiinc.com^$third-party
 ||smetrics.tv2.dk^$third-party
 ||smetrics.ubi.com^$third-party
 ||smetrics.uhc.com^$third-party
@@ -4069,6 +4062,7 @@
 ||t.91syun.com^$third-party
 ||t.9gag.com^$third-party
 ||t.a3cloud.net^$third-party
+||t.adlpo.com^$third-party
 ||t.auditedmedia.org.au^$third-party
 ||t.bimvid.com^$third-party
 ||t.blog.livedoor.jp^$third-party
@@ -4246,6 +4240,7 @@
 ||terriblethumb.com^$third-party
 ||test.legitcode.ws^$third-party
 ||test.takedwn.ws^$third-party
+||testedtouch.com^$third-party
 ||testingmetriksbre.ru^$third-party
 ||tf.360.cn^$third-party
 ||tgknt.com^$third-party
@@ -4258,7 +4253,6 @@
 ||threechurch.com^$third-party
 ||thtk.temu.com^$third-party
 ||ticklesign.com^$third-party
-||tics.techdirt.com^$third-party
 ||tiktok.tray.com.br^$third-party
 ||tim.nextinpact.com^$third-party
 ||timejs.game.163.com^$third-party
@@ -4762,7 +4756,6 @@
 ||trk2-wtb.swaven.com^$third-party
 ||trkapi.impact.com^$third-party
 ||trkme.net^$third-party
-||trkr.shoppingminds.net^$third-party
 ||trmads.eu^$third-party
 ||truckstomatoes.com^$third-party
 ||truehits.in.th^$third-party
@@ -4862,7 +4855,6 @@
 ||uue2.destinia.ir^$third-party
 ||v-collector.dp.aws.charter.com^$third-party
 ||v.oui.sncf^$third-party
-||v6analytics.htmedia.in.edgekey.net^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vamaker.com^$third-party
 ||vanfireworks.com^$third-party

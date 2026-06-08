@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization Extended",
-  "version": "2026-06-06",
-  "generated": "2026-06-06T05:08:14.596Z",
+  "version": "2026-06-08",
+  "generated": "2026-06-08T06:10:51.174Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -54,7 +54,6 @@
     "100022219.collect.igodigital.com",
     "100022225.collect.igodigital.com",
     "100024523.collect.igodigital.com",
-    "100024742.collect.igodigital.com",
     "100025316.collect.igodigital.com",
     "100026228.collect.igodigital.com",
     "100027443.collect.igodigital.com",
@@ -406,7 +405,7 @@
     "xml.audiencedevelopers.com",
     "zeotap.com"
   ],
-  "domain_count": 399,
+  "domain_count": 398,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",

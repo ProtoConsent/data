@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
-  "version": "2026-06-07",
-  "generated": "2026-06-07T05:55:11.528Z",
+  "version": "2026-06-08",
+  "generated": "2026-06-08T06:10:51.174Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -49,6 +49,7 @@
     "a.klaviyo.com",
     "a12ff-4c09a.api.pushwoosh.com",
     "a1c62-495ab.api.pushwoosh.com",
+    "a6374-574ce.api.pushwoosh.com",
     "aajtak.pushwoosh.com",
     "ab-mknodepub.marketo.com",
     "ab023-deb30.api.pushwoosh.com",
@@ -385,6 +386,7 @@
     "metrics-fe-ap1.hubspot.com",
     "metrics-fe-na2.hubspot.com",
     "metrics-nobroker.cometchat.io",
+    "metrics-us-blue.cometchat.io",
     "metrics.api.drift.com",
     "micro.marketo.com",
     "mixi.co.jp",
@@ -644,7 +646,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 637,
+  "domain_count": 639,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",

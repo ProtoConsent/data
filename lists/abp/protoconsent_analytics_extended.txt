@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-06-07
-! Last modified: 2026-06-07T05:55:11.528Z
-! Entries: 38064
+! Version: 2026-06-08
+! Last modified: 2026-06-08T06:10:51.174Z
+! Entries: 38051
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -1734,7 +1734,6 @@
 ||act.pivotpointsecurity.com^$third-party
 ||act.wernerelectric.com^$third-party
 ||actie.athlon.com^$third-party
-||action-log.fighttrapper.in.net^$third-party
 ||action.advisorycloud.com^$third-party
 ||action.logixfiber.com^$third-party
 ||action.totalcompbuilder.com^$third-party
@@ -1833,7 +1832,6 @@
 ||ad.theatreacademy.jp^$third-party
 ||ad1.tone.ne.jp^$third-party
 ||ad5track.com^$third-party
-||ad7.bigmir.net^$third-party
 ||ad7.com^$third-party
 ||ada8-2.ampleur.jp^$third-party
 ||ada8.ampleur.jp^$third-party
@@ -4629,7 +4627,6 @@
 ||beacon.klm.com^$third-party
 ||beacon.kmi-us.com^$third-party
 ||beacon.lycos.com^$third-party
-||beacon.my.salesforce.com^$third-party
 ||beacon.nc-net.or.jp^$third-party
 ||beacon.necotracks.jp^$third-party
 ||beacon.nikkansports.com^$third-party
@@ -4638,7 +4635,6 @@
 ||beacon.peakhour.io^$third-party
 ||beacon.qq.com^$third-party
 ||beacon.radiko.jp^$third-party
-||beacon.rallydev.com^$third-party
 ||beacon.s.llnwi.net^$third-party
 ||beacon.samsclub.com^$third-party
 ||beacon.searchspring.io^$third-party
@@ -5068,7 +5064,6 @@
 ||c-o-u-n-t.com^$third-party
 ||c-rings.net^$third-party
 ||c-stat.eu^$third-party
-||c.amazinglybrilliant.com.au^$third-party
 ||c.arstechnica.com^$third-party
 ||c.bazo.io^$third-party
 ||c.bigmir.net^$third-party
@@ -5389,6 +5384,7 @@
 ||cf.overblog.com^$third-party
 ||cfapi.upstackdata.io^$third-party
 ||cfimage.moengage.com^$third-party
+||cfmediaview.com^$third-party
 ||cfrnyp.kars4kids.org^$third-party
 ||cfsaze.retailmenot.com^$third-party
 ||cftrack.com^$third-party
@@ -5791,7 +5787,6 @@
 ||collect-v6.51.la^$third-party
 ||collect.4gtv.tv^$third-party
 ||collect.adplogger.no^$third-party
-||collect.adsorb.com^$third-party
 ||collect.air1.com^$third-party
 ||collect.allianz-technology.ch^$third-party
 ||collect.allianz.ch^$third-party
@@ -13443,7 +13438,6 @@
 ||log.stickflow.xyz^$third-party
 ||log.strawpoll.com^$third-party
 ||log.strm.yandex.ru^$third-party
-||log.suddenclean.com^$third-party
 ||log.sv.pandora.tv^$third-party
 ||log.sweepycleanplus.com^$third-party
 ||log.tagtic.cn^$third-party
@@ -15802,7 +15796,6 @@
 ||metrics.cairnspost.com.au^$third-party
 ||metrics.caixabank.es^$third-party
 ||metrics.calbaptist.edu^$third-party
-||metrics.calgary.ca^$third-party
 ||metrics.calia.com^$third-party
 ||metrics.calif.aaa.com^$third-party
 ||metrics.calimera.com^$third-party
@@ -16131,6 +16124,7 @@
 ||metrics.gs-chat.com^$third-party
 ||metrics.guess.hk^$third-party
 ||metrics.hackerrank.com^$third-party
+||metrics.hackerrank.com.edgekey.net^$third-party
 ||metrics.handmark.com^$third-party
 ||metrics.happycolor.app^$third-party
 ||metrics.harborfreight.com^$third-party
@@ -22300,7 +22294,6 @@
 ||smetrics.automobilwoche.de^$third-party
 ||smetrics.autonews.com^$third-party
 ||smetrics.autotrader.com^$third-party
-||smetrics.avalara.com^$third-party
 ||smetrics.avancesenrespiratorio.com^$third-party
 ||smetrics.avastin-hcp.com^$third-party
 ||smetrics.avastin.com^$third-party
@@ -22380,7 +22373,6 @@
 ||smetrics.bbvaresearch.com^$third-party
 ||smetrics.bbvaseguros.mx^$third-party
 ||smetrics.bcbsks.com^$third-party
-||smetrics.bcbsm.com^$third-party
 ||smetrics.bcbsnc.com^$third-party
 ||smetrics.bcbsnd.com^$third-party
 ||smetrics.bd.dk^$third-party
@@ -23387,6 +23379,7 @@
 ||smetrics.latitudefinancial.com.au^$third-party
 ||smetrics.latitudepay.com^$third-party
 ||smetrics.latitudepay.com.au^$third-party
+||smetrics.latrobe.edu.au^$third-party
 ||smetrics.lazarediamond.jp^$third-party
 ||smetrics.lcbo.com^$third-party
 ||smetrics.ldproducts.com^$third-party
@@ -23626,7 +23619,6 @@
 ||smetrics.monetaleasing.cz^$third-party
 ||smetrics.moneymarketing.co.uk^$third-party
 ||smetrics.monsanto.com^$third-party
-||smetrics.moodys.com^$third-party
 ||smetrics.moony.com^$third-party
 ||smetrics.moosejaw.com^$third-party
 ||smetrics.morganstanley.com^$third-party
@@ -23720,7 +23712,6 @@
 ||smetrics.nettokom.de^$third-party
 ||smetrics.netxpress.biz^$third-party
 ||smetrics.new.wyndhamvrap.com^$third-party
-||smetrics.newark.com^$third-party
 ||smetrics.newbalance.com^$third-party
 ||smetrics.newequipment.com^$third-party
 ||smetrics.newfoundlandgrocerystores.ca^$third-party
@@ -24625,7 +24616,6 @@
 ||smetrics.trygghansa.se^$third-party
 ||smetrics.tsc.ca^$third-party
 ||smetrics.tsn.ca^$third-party
-||smetrics.ttiinc.com^$third-party
 ||smetrics.tudorwatch.com^$third-party
 ||smetrics.tui.co.uk^$third-party
 ||smetrics.tui.no^$third-party
@@ -28628,7 +28618,6 @@
 ||tickets.gs-warriors.com^$third-party
 ||ticklesign.com^$third-party
 ||tics.seeker.gg^$third-party
-||tics.techdirt.com^$third-party
 ||ticvui.alexandani.com^$third-party
 ||tidningsnatet.se^$third-party
 ||tiglck.technopolis.bg^$third-party
@@ -31414,7 +31403,6 @@
 ||trkjmp.com^$third-party
 ||trkme.net^$third-party
 ||trkpzz.dcinside.com^$third-party
-||trkr.shoppingminds.net^$third-party
 ||trmads.eu^$third-party
 ||trovo-tag.com^$third-party
 ||trpzjj.hrkgame.com^$third-party
@@ -32287,7 +32275,6 @@
 ||v12group.com^$third-party
 ||v16m-default.akamaized.net.iberostar.com^$third-party
 ||v2stats.bio.link^$third-party
-||v6analytics.htmedia.in.edgekey.net^$third-party
 ||va-endpoint.com^$third-party
 ||vahlnd.bogsfootwear.com^$third-party
 ||valdes.net.anwalt.de^$third-party
