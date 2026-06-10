@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization Extended",
-  "version": "2026-06-09",
-  "generated": "2026-06-09T05:19:38.843Z",
+  "version": "2026-06-10",
+  "generated": "2026-06-10T05:51:14.091Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -159,6 +159,7 @@
     "alx-api.exponea.com",
     "amp.permutive.com",
     "amway-api.exponea.com",
+    "an.reflektion.com",
     "analytics.bluekai.com",
     "api-bho.exponea.com",
     "api.eu1.exponea.com",
@@ -175,6 +176,7 @@
     "async-px.dynamicyield.com",
     "ats.rlcdn.com",
     "audience-pccw.viu.com",
+    "audience.acpm.fr",
     "audienceye.com",
     "audigent.com",
     "aws-api.sail-personalize.com",
@@ -401,7 +403,7 @@
     "xml.audiencedevelopers.com",
     "zeotap.com"
   ],
-  "domain_count": 394,
+  "domain_count": 396,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",
