@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-06-10
-# Last modified: 2026-06-10T05:51:14.091Z
-# Entries: 5122
+# Version: 2026-06-11
+# Last modified: 2026-06-11T06:08:22.356Z
+# Entries: 5124
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -11,6 +11,7 @@
 0.0.0.0 103bees.com
 0.0.0.0 123count.com
 0.0.0.0 123stat.com
+0.0.0.0 1freecounter.com
 0.0.0.0 1l-hit.mail.ru
 0.0.0.0 1to1.bbva.com
 0.0.0.0 200summit.com
@@ -78,7 +79,6 @@
 0.0.0.0 acc-hd.de
 0.0.0.0 accaii.com
 0.0.0.0 access-analyze.org
-0.0.0.0 accessintel.com
 0.0.0.0 accesstrade.net
 0.0.0.0 acclog001.shop-pro.jp
 0.0.0.0 acclog002.shop-pro.jp
@@ -686,7 +686,6 @@
 0.0.0.0 app-tracking-gfa-collector.naver.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.optibase.io
-0.0.0.0 app.partnerboost.com
 0.0.0.0 app.pendo.io
 0.0.0.0 apple.www.letv.com
 0.0.0.0 applog.camera360.com
@@ -937,6 +936,7 @@
 0.0.0.0 bzr.openai.com
 0.0.0.0 bzrcdn.openai.com
 0.0.0.0 c-rings.net
+0.0.0.0 c-stat.eu
 0.0.0.0 c.bazo.io
 0.0.0.0 c.bigmir.net
 0.0.0.0 c.hit.ua
@@ -959,6 +959,7 @@
 0.0.0.0 calvera-telemetry.polaris.me
 0.0.0.0 campaign.fbot.me
 0.0.0.0 canddi.com
+0.0.0.0 candid.zone
 0.0.0.0 capping.sirius.press
 0.0.0.0 caprofitx.com
 0.0.0.0 captify.co.uk
@@ -1073,6 +1074,7 @@
 0.0.0.0 cloudflareinsights.com
 0.0.0.0 cloudfront-labs.amazonaws.com
 0.0.0.0 cloudmetrics.xenforo.com
+0.0.0.0 cloverkeys.com
 0.0.0.0 cltgtstor001.blob.core.windows.net
 0.0.0.0 clustrmaps.com
 0.0.0.0 cm-exchange.toast.com
@@ -1175,7 +1177,6 @@
 0.0.0.0 comfortablecheese.com
 0.0.0.0 commerce.bing.com
 0.0.0.0 commercial-analytics-collector.news.co.uk
-0.0.0.0 commonalmanac.com
 0.0.0.0 company-target.com
 0.0.0.0 compteur.websiteout.net
 0.0.0.0 comscore.com
@@ -1243,7 +1244,6 @@
 0.0.0.0 counter.ok.ee
 0.0.0.0 counter.packa2.cz
 0.0.0.0 counter.powr.io
-0.0.0.0 counter.powweb.com
 0.0.0.0 counter.pr-cy.ru
 0.0.0.0 counter.rambler.ru
 0.0.0.0 counter.reddigital.ru
@@ -1433,7 +1433,6 @@
 0.0.0.0 dapxl.com
 0.0.0.0 dash.getsitecontrol.com
 0.0.0.0 dashapi.chartbeat.com
-0.0.0.0 dashingdrop.com
 0.0.0.0 data-collector.wefi.com
 0.0.0.0 data.circulate.com
 0.0.0.0 data.digitalks.az
@@ -2092,6 +2091,7 @@
 0.0.0.0 ihi.flowplayer.com
 0.0.0.0 iid-network.jp
 0.0.0.0 image.moengage.com
+0.0.0.0 imagebuffer.com
 0.0.0.0 immanalytics.com
 0.0.0.0 imp.go.sohu.com
 0.0.0.0 imp.optaim.com
@@ -2218,7 +2218,6 @@
 0.0.0.0 kv-analytics.kiotviet.vn
 0.0.0.0 l.typesquare.com
 0.0.0.0 l936.expressnews.com
-0.0.0.0 lackadaisicalkite.com
 0.0.0.0 laferia.cr
 0.0.0.0 laserveradedomaina.com
 0.0.0.0 launch-analytics-plugin.launchpotato.com
@@ -2579,6 +2578,7 @@
 0.0.0.0 metrics-us.cometchat.io
 0.0.0.0 metrics.aa.com
 0.0.0.0 metrics.accuweather.com
+0.0.0.0 metrics.adelaidenow.com.au
 0.0.0.0 metrics.aetn.com
 0.0.0.0 metrics.apartments.com
 0.0.0.0 metrics.asos.com
@@ -2729,6 +2729,7 @@
 0.0.0.0 mp.imgur.com
 0.0.0.0 mp.theepochtimes.com
 0.0.0.0 mparticle.com
+0.0.0.0 mpianalytics.com
 0.0.0.0 mplxtms.com
 0.0.0.0 mpstat.us
 0.0.0.0 mr-rank.de
@@ -3561,6 +3562,7 @@
 0.0.0.0 smetrics.consumerreports.org
 0.0.0.0 smetrics.correos.es
 0.0.0.0 smetrics.costacruise.com
+0.0.0.0 smetrics.costadelmar.com
 0.0.0.0 smetrics.costco.com
 0.0.0.0 smetrics.couponcabin.com
 0.0.0.0 smetrics.cox.com
@@ -3606,6 +3608,7 @@
 0.0.0.0 smetrics.kay.com
 0.0.0.0 smetrics.kbb.com
 0.0.0.0 smetrics.kone.vn
+0.0.0.0 smetrics.latrobe.edu.au
 0.0.0.0 smetrics.legalandgeneral.com
 0.0.0.0 smetrics.los40.com
 0.0.0.0 smetrics.lululemon.com
@@ -4247,7 +4250,6 @@
 0.0.0.0 terriblethumb.com
 0.0.0.0 test.legitcode.ws
 0.0.0.0 test.takedwn.ws
-0.0.0.0 testedtouch.com
 0.0.0.0 testingmetriksbre.ru
 0.0.0.0 tf.360.cn
 0.0.0.0 tgknt.com
@@ -4544,7 +4546,6 @@
 0.0.0.0 tracking-na.hawksearch.com
 0.0.0.0 tracking-rce.veeseo.com
 0.0.0.0 tracking-web.smobgame.com
-0.0.0.0 tracking.10gb.vn
 0.0.0.0 tracking.adactioninteractive.com
 0.0.0.0 tracking.adalyser.com
 0.0.0.0 tracking.ads.global-fashion-group.com
@@ -4768,6 +4769,7 @@
 0.0.0.0 truehits.in.th
 0.0.0.0 truehits.net
 0.0.0.0 truehits3.gits.net.th
+0.0.0.0 truenat.bid
 0.0.0.0 trueselfkeys.com
 0.0.0.0 trust.titanhq.com
 0.0.0.0 trusted-collector-bk.tmocce.com

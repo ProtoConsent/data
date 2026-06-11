@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-06-10
-! Last modified: 2026-06-10T05:51:14.091Z
-! Entries: 9136
+! Version: 2026-06-11
+! Last modified: 2026-06-11T06:08:22.356Z
+! Entries: 9138
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -12,6 +12,7 @@
 ||103bees.com^$third-party
 ||123count.com^$third-party
 ||123stat.com^$third-party
+||1freecounter.com^$third-party
 ||1l-hit.mail.ru^$third-party
 ||1to1.bbva.com^$third-party
 ||200summit.com^$third-party
@@ -79,7 +80,6 @@
 ||acc-hd.de^$third-party
 ||accaii.com^$third-party
 ||access-analyze.org^$third-party
-||accessintel.com^$third-party
 ||accesstrade.net^$third-party
 ||acclog001.shop-pro.jp^$third-party
 ||acclog002.shop-pro.jp^$third-party
@@ -687,7 +687,6 @@
 ||app-tracking-gfa-collector.naver.com^$third-party
 ||app.adjust.com^$third-party
 ||app.optibase.io^$third-party
-||app.partnerboost.com^$third-party
 ||app.pendo.io^$third-party
 ||apple.www.letv.com^$third-party
 ||applog.camera360.com^$third-party
@@ -938,6 +937,7 @@
 ||bzr.openai.com^$third-party
 ||bzrcdn.openai.com^$third-party
 ||c-rings.net^$third-party
+||c-stat.eu^$third-party
 ||c.bazo.io^$third-party
 ||c.bigmir.net^$third-party
 ||c.hit.ua^$third-party
@@ -960,6 +960,7 @@
 ||calvera-telemetry.polaris.me^$third-party
 ||campaign.fbot.me^$third-party
 ||canddi.com^$third-party
+||candid.zone^$third-party
 ||capping.sirius.press^$third-party
 ||caprofitx.com^$third-party
 ||captify.co.uk^$third-party
@@ -1074,6 +1075,7 @@
 ||cloudflareinsights.com^$third-party
 ||cloudfront-labs.amazonaws.com^$third-party
 ||cloudmetrics.xenforo.com^$third-party
+||cloverkeys.com^$third-party
 ||cltgtstor001.blob.core.windows.net^$third-party
 ||clustrmaps.com^$third-party
 ||cm-exchange.toast.com^$third-party
@@ -1176,7 +1178,6 @@
 ||comfortablecheese.com^$third-party
 ||commerce.bing.com^$third-party
 ||commercial-analytics-collector.news.co.uk^$third-party
-||commonalmanac.com^$third-party
 ||company-target.com^$third-party
 ||compteur.websiteout.net^$third-party
 ||comscore.com^$third-party
@@ -1244,7 +1245,6 @@
 ||counter.ok.ee^$third-party
 ||counter.packa2.cz^$third-party
 ||counter.powr.io^$third-party
-||counter.powweb.com^$third-party
 ||counter.pr-cy.ru^$third-party
 ||counter.rambler.ru^$third-party
 ||counter.reddigital.ru^$third-party
@@ -1434,7 +1434,6 @@
 ||dapxl.com^$third-party
 ||dash.getsitecontrol.com^$third-party
 ||dashapi.chartbeat.com^$third-party
-||dashingdrop.com^$third-party
 ||data-collector.wefi.com^$third-party
 ||data.circulate.com^$third-party
 ||data.digitalks.az^$third-party
@@ -2093,6 +2092,7 @@
 ||ihi.flowplayer.com^$third-party
 ||iid-network.jp^$third-party
 ||image.moengage.com^$third-party
+||imagebuffer.com^$third-party
 ||immanalytics.com^$third-party
 ||imp.go.sohu.com^$third-party
 ||imp.optaim.com^$third-party
@@ -2219,7 +2219,6 @@
 ||kv-analytics.kiotviet.vn^$third-party
 ||l.typesquare.com^$third-party
 ||l936.expressnews.com^$third-party
-||lackadaisicalkite.com^$third-party
 ||laferia.cr^$third-party
 ||laserveradedomaina.com^$third-party
 ||launch-analytics-plugin.launchpotato.com^$third-party
@@ -2580,6 +2579,7 @@
 ||metrics-us.cometchat.io^$third-party
 ||metrics.aa.com^$third-party
 ||metrics.accuweather.com^$third-party
+||metrics.adelaidenow.com.au^$third-party
 ||metrics.aetn.com^$third-party
 ||metrics.apartments.com^$third-party
 ||metrics.asos.com^$third-party
@@ -2730,6 +2730,7 @@
 ||mp.imgur.com^$third-party
 ||mp.theepochtimes.com^$third-party
 ||mparticle.com^$third-party
+||mpianalytics.com^$third-party
 ||mplxtms.com^$third-party
 ||mpstat.us^$third-party
 ||mr-rank.de^$third-party
@@ -3562,6 +3563,7 @@
 ||smetrics.consumerreports.org^$third-party
 ||smetrics.correos.es^$third-party
 ||smetrics.costacruise.com^$third-party
+||smetrics.costadelmar.com^$third-party
 ||smetrics.costco.com^$third-party
 ||smetrics.couponcabin.com^$third-party
 ||smetrics.cox.com^$third-party
@@ -3607,6 +3609,7 @@
 ||smetrics.kay.com^$third-party
 ||smetrics.kbb.com^$third-party
 ||smetrics.kone.vn^$third-party
+||smetrics.latrobe.edu.au^$third-party
 ||smetrics.legalandgeneral.com^$third-party
 ||smetrics.los40.com^$third-party
 ||smetrics.lululemon.com^$third-party
@@ -4248,7 +4251,6 @@
 ||terriblethumb.com^$third-party
 ||test.legitcode.ws^$third-party
 ||test.takedwn.ws^$third-party
-||testedtouch.com^$third-party
 ||testingmetriksbre.ru^$third-party
 ||tf.360.cn^$third-party
 ||tgknt.com^$third-party
@@ -4545,7 +4547,6 @@
 ||tracking-na.hawksearch.com^$third-party
 ||tracking-rce.veeseo.com^$third-party
 ||tracking-web.smobgame.com^$third-party
-||tracking.10gb.vn^$third-party
 ||tracking.adactioninteractive.com^$third-party
 ||tracking.adalyser.com^$third-party
 ||tracking.ads.global-fashion-group.com^$third-party
@@ -4769,6 +4770,7 @@
 ||truehits.in.th^$third-party
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
+||truenat.bid^$third-party
 ||trueselfkeys.com^$third-party
 ||trust.titanhq.com^$third-party
 ||trusted-collector-bk.tmocce.com^$third-party
