@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization",
-  "version": "2026-06-10",
-  "generated": "2026-06-10T05:51:14.091Z",
+  "version": "2026-06-12",
+  "generated": "2026-06-12T06:04:11.277Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -9,7 +9,6 @@
     "1plusx.com",
     "acxiom.com",
     "ad.crwdcntrl.net",
-    "an.reflektion.com",
     "api.sail-personalize.com",
     "api.trueaudience.io",
     "async-px-eu.dynamicyield.com",
@@ -87,7 +86,7 @@
     "useinsider.com",
     "zeotap.com"
   ],
-  "domain_count": 80,
+  "domain_count": 79,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",
