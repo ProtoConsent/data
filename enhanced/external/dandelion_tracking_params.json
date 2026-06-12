@@ -1,10 +1,18 @@
 {
-  "version": "2026-06-10",
-  "generated": "2026-06-10T07:54:43.731Z",
+  "version": "2026-06-12",
+  "generated": "2026-06-12T08:11:10.988Z",
   "type": "tracking_params_sites",
-  "domain_count": 891,
-  "param_count": 1839,
+  "domain_count": 892,
+  "param_count": 1842,
   "sites": {
+    "theepochtimes.com": [
+      "ea_med",
+      "ea_src"
+    ],
+    "oricon.co.jp": [
+      "ref",
+      "ref_cd"
+    ],
     "adguard-dns.io": [
       "clid"
     ],
@@ -259,9 +267,6 @@
     ],
     "urban-vpn.com": [
       "cid"
-    ],
-    "oricon.co.jp": [
-      "ref"
     ],
     "carviewform.yahoo.co.jp": [
       "src"
