@@ -2,18 +2,21 @@
 ! Title: ProtoConsent Third Parties
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)
 ! Version: 2026-06-13
-! Last modified: 2026-06-13T05:49:07.351Z
-! Entries: 391
+! Last modified: 2026-06-13T09:22:39.445Z
+! Entries: 404
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
 ||6sc.co^$third-party
+||a.klaviyo.com^$third-party
 ||abrtp1-cdn.marketo.com^$third-party
 ||abrtp1.marketo.com^$third-party
 ||addthis.com^$third-party
 ||addthiscdn.com^$third-party
 ||addthisedge.com^$third-party
 ||addtoany.com^$third-party
+||adshares.net^$third-party
+||alpaca.thesocialmedwork.com^$third-party
 ||amawidget.yutbr.com^$third-party
 ||analytics-egain.com^$third-party
 ||api.addthis.com^$third-party
@@ -83,6 +86,7 @@
 ||app-sn01.marketo.com^$third-party
 ||app.harasocial.com^$third-party
 ||app.marketo.com^$third-party
+||b.6sc.co^$third-party
 ||b2c-msm.marketo.com^$third-party
 ||blink.fra-01.braze.eu^$third-party
 ||boldchat.com^$third-party
@@ -97,6 +101,7 @@
 ||cdn.socialannex.com^$third-party
 ||chatbox-widget.botbanhang.vn^$third-party
 ||chimpstatic.com^$third-party
+||convertkit.com^$third-party
 ||count-server.sharethis.com^$third-party
 ||cp.pushwoosh.com^$third-party
 ||datasphere-sbsvc.sharethis.com^$third-party
@@ -106,6 +111,7 @@
 ||driftt.com^$third-party
 ||edge.addthis.com^$third-party
 ||edge.sharethis.com^$third-party
+||engagio.com^$third-party
 ||event.api.drift.com^$third-party
 ||event.wondershare.com^$third-party
 ||fast.a.klaviyo.com^$third-party
@@ -127,6 +133,7 @@
 ||lonrtp1-cdn.marketo.com^$third-party
 ||lonrtp1.marketo.com^$third-party
 ||marketo.com^$third-party
+||metadata.io^$third-party
 ||metrics.api.drift.com^$third-party
 ||mobile-campaigns.avast.com^$third-party
 ||munchkin.marketo.net^$third-party
@@ -135,10 +142,13 @@
 ||optinmonster.com^$third-party
 ||page.widget.zalo.me^$third-party
 ||pardot.com^$third-party
+||pi.pardot.com^$third-party
 ||platform-api.sharethis.com^$third-party
+||platform.linkedin.com^$third-party
 ||platform.twitter.com^$third-party
 ||post-log.pushwoosh.com^$third-party
 ||preitem.wshareit.com^$third-party
+||privy.com^$third-party
 ||pushengage.com^$third-party
 ||pushwoosh.com^$third-party
 ||q.addthis.com^$third-party
@@ -150,6 +160,7 @@
 ||screenshare.pics^$third-party
 ||sd.sharethis.com^$third-party
 ||seg.sharethis.com^$third-party
+||sendpulse.com^$third-party
 ||share.baidu.com^$third-party
 ||shareaholic.com^$third-party
 ||sharebang.com^$third-party
@@ -183,6 +194,7 @@
 ||videohub.tv^$third-party
 ||w.sharethis.com^$third-party
 ||wd-edge.sharethis.com^$third-party
+||weasel.sharethegoods.ca^$third-party
 ||wetter.pushwoosh.com^$third-party
 ||widget-api.dmm.co.jp^$third-party
 ||widget-api.dmm.com^$third-party
@@ -191,6 +203,7 @@
 ||widget.block4d.com^$third-party
 ||widget.chat.zalo.me^$third-party
 ||widget.headlines.pw^$third-party
+||widget.justwatch.com^$third-party
 ||widget.kyna.vn^$third-party
 ||widget.manychat.com^$third-party
 ||widget.marktjagd.de^$third-party

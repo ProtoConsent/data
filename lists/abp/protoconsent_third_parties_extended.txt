@@ -2,8 +2,8 @@
 ! Title: ProtoConsent Third Parties Extended
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Version: 2026-06-13
-! Last modified: 2026-06-13T05:49:07.351Z
-! Entries: 835
+! Last modified: 2026-06-13T09:22:39.445Z
+! Entries: 841
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -310,6 +310,7 @@
 ||ha-api.pushwoosh.com^$third-party
 ||ha.pushwoosh.com^$third-party
 ||haaretz.pushwoosh.com^$third-party
+||hackerfacebook.com^$third-party
 ||handll.com^$third-party
 ||hassaleh.iad-03.braze.com^$third-party
 ||hellobar.com^$third-party
@@ -341,6 +342,7 @@
 ||izar.iad-03.braze.com^$third-party
 ||j.6sc.co^$third-party
 ||jp.marketo.com^$third-party
+||js.driftt.com^$third-party
 ||js.hs-scripts.com^$third-party
 ||js.hubspot.com^$third-party
 ||jsoon.digitiminimi.com^$third-party
@@ -465,6 +467,7 @@
 ||qadynamics.marketo.com^$third-party
 ||qualified.com^$third-party
 ||rambler.pushwoosh.com^$third-party
+||reactandshare.com^$third-party
 ||realtime.services.disqus.com^$third-party
 ||recart.com^$third-party
 ||referralcandy.com^$third-party
@@ -570,8 +573,10 @@
 ||timbol.iad-03.braze.com^$third-party
 ||track-eu1.hubspot.com^$third-party
 ||tracking.hubspot.com^$third-party
+||tritondigital.com^$third-party
 ||truepush.com^$third-party
 ||truthsocial.com^$third-party
+||tweetriver.com^$third-party
 ||twimg.com^$third-party
 ||twitter.jp^$third-party
 ||uefa.pushwoosh.com^$third-party
@@ -632,6 +637,7 @@
 ||wistia.net^$third-party
 ||wonderpush.com^$third-party
 ||ws.sharethis.com^$third-party
+||ws.zoominfo.com^$third-party
 ||wshareit.com^$third-party
 ||wurren.iad-03.braze.com^$third-party
 ||www.academy.hubspot.com^$third-party
