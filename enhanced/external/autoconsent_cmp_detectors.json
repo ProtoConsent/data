@@ -1,10 +1,10 @@
 {
-  "version": "2026-06-09",
+  "version": "2026-06-13",
   "type": "cmp_detectors",
-  "generated": "2026-06-09T07:04:42.078Z",
+  "generated": "2026-06-13T07:35:39.803Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "383c92f9440a734d",
-  "cmp_count": 302,
+  "autoconsent_tree_hash": "56c3ffdfe2303831",
+  "cmp_count": 303,
   "detectors": {
     "abc": {
       "present": [
@@ -767,7 +767,7 @@
         "#didomi-host"
       ],
       "showing": [
-        "#didomi-popup, #didomi-notice, .didomi-popup-notice, .didomi-notice-banner, #didomi-host:not(:empty)"
+        "#didomi-popup, #didomi-notice, .didomi-popup-notice, .didomi-notice-banner, #didomi-host:not([aria-hidden=\"true\"]):not(:empty)"
       ]
     },
     "dji": {
@@ -2572,6 +2572,17 @@
       ],
       "showing": [
         ".disclaimer-opened #disclaimer-cookies"
+      ]
+    },
+    "yachtclubgames_com": {
+      "present": [
+        "div.cookie.flex.flex-wrap"
+      ],
+      "showing": [
+        "div.cookie.flex.flex-wrap"
+      ],
+      "domains": [
+        "yachtclubgames.com"
       ]
     },
     "yahoo": {

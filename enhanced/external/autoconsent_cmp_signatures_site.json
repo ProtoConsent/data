@@ -1,10 +1,10 @@
 {
-  "version": "2026-06-09",
+  "version": "2026-06-13",
   "type": "cmp_site",
-  "generated": "2026-06-09T07:04:42.067Z",
+  "generated": "2026-06-13T07:35:39.793Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "383c92f9440a734d",
-  "cmp_count": 247,
+  "autoconsent_tree_hash": "56c3ffdfe2303831",
+  "cmp_count": 248,
   "signatures": {
     "abconcerts_be": {
       "selector": "dialog.cookie-consent",
@@ -2781,6 +2781,20 @@
           "#cookies-use-alert"
         ]
       }
+    },
+    "yachtclubgames_com": {
+      "selector": "div.cookie.flex.flex-wrap",
+      "detectors": {
+        "present": [
+          "div.cookie.flex.flex-wrap"
+        ],
+        "showing": [
+          "div.cookie.flex.flex-wrap"
+        ]
+      },
+      "domains": [
+        "yachtclubgames.com"
+      ]
     },
     "youtubedesktop": {
       "selector": "tp-yt-iron-overlay-backdrop.opened, ytd-consent-bump-v2-lightbox",
