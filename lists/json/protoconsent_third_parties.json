@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties",
-  "version": "2026-06-12",
-  "generated": "2026-06-12T06:04:11.277Z",
+  "version": "2026-06-13",
+  "generated": "2026-06-13T05:49:07.351Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -195,6 +195,7 @@
     "widget.marktjagd.de",
     "widget.subiz.com",
     "widget.subiz.net",
+    "widget.subiz.xyz",
     "widget.weibo.com",
     "widgets.jutarnji.hr",
     "widgets.stackcommerce.com",
@@ -202,7 +203,7 @@
     "wisepops.com",
     "zoominfo.com"
   ],
-  "domain_count": 195,
+  "domain_count": 196,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",
