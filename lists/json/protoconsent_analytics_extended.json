@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Analytics Extended",
-  "version": "2026-09-06",
-  "generated": "2026-09-06T06:04:43.392Z",
+  "version": "2026-09-07",
+  "generated": "2026-09-07T06:13:00.264Z",
   "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -5463,6 +5463,7 @@
     "analytic.sbs.immo",
     "analytic.schwarzeck.com",
     "analytic.sdmdigital.id",
+    "analytic.services.e-uvt.ro",
     "analytic.servsystems.de",
     "analytic.siza.my",
     "analytic.smartecom.io",
@@ -20780,7 +20781,6 @@
     "beacon.kmi-us.com",
     "beacon.lycos.com",
     "beacon.mitremedia.org",
-    "beacon.my.salesforce.com",
     "beacon.nc-net.or.jp",
     "beacon.necotracks.jp",
     "beacon.nuskin.com",
@@ -20791,7 +20791,6 @@
     "beacon.qa.walmart.com",
     "beacon.qq.com",
     "beacon.radiko.jp",
-    "beacon.rallydev.com",
     "beacon.s.llnwi.net",
     "beacon.samsclub.com",
     "beacon.searchspring.io",
@@ -89997,6 +89996,7 @@
     "sbifpdbzb7.alphonso.tv",
     "sbikm.mercimamanboutique.com",
     "sbikq.nextlevelnailsmiami.com",
+    "sbisecuritiescoltd.tt.omtrdc.net",
     "sbjpsx.musthaving.co.kr",
     "sbmwgj.vidaxl.hu",
     "sbnation.coral.coralproject.net",
@@ -132216,6 +132216,7 @@
     "umami.ubports.com",
     "umami.ulv.io",
     "umami.unisontech.org",
+    "umami.unpliant.de",
     "umami.valolink.fi",
     "umami.ververv.com",
     "umami.vidcore.net",
@@ -137898,7 +137899,7 @@
     "zzz.capraprod.com",
     "zzzfba.thecolvinco.com"
   ],
-  "domain_count": 137891,
+  "domain_count": 137892,
   "paths": [
     "||01net.com/track/",
     "||1024tera.com/api/analytics?",
@@ -138241,6 +138242,7 @@
     "||aplus.qwen.ai/aplus.monitor.log_arrival_rate",
     "||app-bnkr.b-cdn.net/js/lv.js",
     "||app.abralytics.com/assets/tracker/index.js",
+    "||app.alhena.ai/analytics/",
     "||app.box.com/app-api/split-proxy/api/metrics",
     "||app.box.com/gen204",
     "||app.carnow.com/dealers/track_visitor",
@@ -138388,6 +138390,7 @@
     "||backend.academy.cs.cmu.edu/api/v0/event/",
     "||backend.alia-cloudflare.com/launcher/events/",
     "||backend.alia-cloudflare.com/user/events",
+    "||backend.alia-prod.com/launcher/events/",
     "||backend.leadconnectorhq.com/attribution_service/user_session_v3/update_session/",
     "||backend.leadconnectorhq.com/forms/form-survey-event",
     "||backend.verbolia.com/content/js/velw.min.js",
@@ -138979,6 +138982,7 @@
     "||desmos.com/analytics/js/",
     "||dev.to/fallback_activity_recorder",
     "||dev.visualwebsiteoptimizer.com/*/track-",
+    "||dev.visualwebsiteoptimizer.com/apm",
     "||dev.visualwebsiteoptimizer.com/ping_tpc.php",
     "||developer.mozilla.org/submit/",
     "||developers.miro.com/pageview",
@@ -142115,5 +142119,5 @@
     "||zumper.com/events",
     "||zynga.com/track/"
   ],
-  "path_count": 4214
+  "path_count": 4217
 }

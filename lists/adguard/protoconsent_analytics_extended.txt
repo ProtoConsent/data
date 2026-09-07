@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-09-06T06:04:43.392Z
+! Last modified: 2026-09-07T06:13:00.264Z
 ! Format: AdGuard
-! Entries: 142105
+! Entries: 142109
 !
 ||0.myikas.com^$third-party
 ||0.net.easyjet.com^$third-party
@@ -5463,6 +5463,7 @@
 ||analytic.sbs.immo^$third-party
 ||analytic.schwarzeck.com^$third-party
 ||analytic.sdmdigital.id^$third-party
+||analytic.services.e-uvt.ro^$third-party
 ||analytic.servsystems.de^$third-party
 ||analytic.siza.my^$third-party
 ||analytic.smartecom.io^$third-party
@@ -20780,7 +20781,6 @@
 ||beacon.kmi-us.com^$third-party
 ||beacon.lycos.com^$third-party
 ||beacon.mitremedia.org^$third-party
-||beacon.my.salesforce.com^$third-party
 ||beacon.nc-net.or.jp^$third-party
 ||beacon.necotracks.jp^$third-party
 ||beacon.nuskin.com^$third-party
@@ -20791,7 +20791,6 @@
 ||beacon.qa.walmart.com^$third-party
 ||beacon.qq.com^$third-party
 ||beacon.radiko.jp^$third-party
-||beacon.rallydev.com^$third-party
 ||beacon.s.llnwi.net^$third-party
 ||beacon.samsclub.com^$third-party
 ||beacon.searchspring.io^$third-party
@@ -89997,6 +89996,7 @@
 ||sbifpdbzb7.alphonso.tv^$third-party
 ||sbikm.mercimamanboutique.com^$third-party
 ||sbikq.nextlevelnailsmiami.com^$third-party
+||sbisecuritiescoltd.tt.omtrdc.net^$third-party
 ||sbjpsx.musthaving.co.kr^$third-party
 ||sbmwgj.vidaxl.hu^$third-party
 ||sbnation.coral.coralproject.net^$third-party
@@ -132216,6 +132216,7 @@
 ||umami.ubports.com^$third-party
 ||umami.ulv.io^$third-party
 ||umami.unisontech.org^$third-party
+||umami.unpliant.de^$third-party
 ||umami.valolink.fi^$third-party
 ||umami.ververv.com^$third-party
 ||umami.vidcore.net^$third-party
@@ -138238,6 +138239,7 @@
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate^
 ||app-bnkr.b-cdn.net/js/lv.js^
 ||app.abralytics.com/assets/tracker/index.js^
+||app.alhena.ai/analytics/^
 ||app.box.com/app-api/split-proxy/api/metrics^
 ||app.box.com/gen204^
 ||app.carnow.com/dealers/track_visitor^
@@ -138385,6 +138387,7 @@
 ||backend.academy.cs.cmu.edu/api/v0/event/^
 ||backend.alia-cloudflare.com/launcher/events/^
 ||backend.alia-cloudflare.com/user/events^
+||backend.alia-prod.com/launcher/events/^
 ||backend.leadconnectorhq.com/attribution_service/user_session_v3/update_session/^
 ||backend.leadconnectorhq.com/forms/form-survey-event^
 ||backend.verbolia.com/content/js/velw.min.js^
@@ -138976,6 +138979,7 @@
 ||desmos.com/analytics/js/^
 ||dev.to/fallback_activity_recorder^
 ||dev.visualwebsiteoptimizer.com/*/track-^
+||dev.visualwebsiteoptimizer.com/apm^
 ||dev.visualwebsiteoptimizer.com/ping_tpc.php^
 ||developer.mozilla.org/submit/^
 ||developers.miro.com/pageview^
