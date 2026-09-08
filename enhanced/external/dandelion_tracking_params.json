@@ -1,10 +1,17 @@
 {
-  "version": "2026-09-07",
-  "generated": "2026-09-07T08:37:43.171Z",
+  "version": "2026-09-08",
+  "generated": "2026-09-08T08:19:50.374Z",
   "type": "tracking_params_sites",
-  "domain_count": 929,
-  "param_count": 1916,
+  "domain_count": 931,
+  "param_count": 1918,
   "sites": {
+    "sponichi.co.jp": [
+      "nid",
+      "ref"
+    ],
+    "medal.tv": [
+      "invite"
+    ],
     "rumble.com": [
       "e9s",
       "sci"
@@ -2931,7 +2938,8 @@
       "ig_rid",
       "igsh",
       "igsi",
-      "short_redirect"
+      "short_redirect",
+      "stkn"
     ],
     "mediamarkt.com.tr": [
       "rbtc"

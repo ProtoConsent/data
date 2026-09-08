@@ -1,10 +1,10 @@
 {
-  "version": "2026-09-06",
+  "version": "2026-09-08",
   "type": "cmp_detectors",
-  "generated": "2026-09-06T08:07:02.135Z",
+  "generated": "2026-09-08T08:19:50.058Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "410668668c1eeadd",
-  "cmp_count": 363,
+  "autoconsent_tree_hash": "ead003446b30442e",
+  "cmp_count": 373,
   "detectors": {
     "aacookiebanner": {
       "present": [
@@ -1075,6 +1075,17 @@
         "epaas-consent-drawer-shell"
       ]
     },
+    "epidemicsound_com": {
+      "present": [
+        "#es-cookie-banner #es-consent-settings-btn"
+      ],
+      "showing": [
+        "#es-consent-settings-btn"
+      ],
+      "domains": [
+        "epidemicsound.com"
+      ]
+    },
     "escaparium_ca": {
       "present": [
         "div#klaro"
@@ -1291,6 +1302,14 @@
         "#overlay[role=dialog]"
       ]
     },
+    "godaddyprivacywidget": {
+      "present": [
+        "#gtm_privacy"
+      ],
+      "showing": [
+        "#gtm_privacy"
+      ]
+    },
     "google_com": {
       "present": [
         "a[href^=\"https://policies.google.com/technologies/cookies\"]"
@@ -1400,6 +1419,14 @@
       ],
       "showing": [
         "dialog[data-cookie-consent]:has([data-cookie-accept])"
+      ]
+    },
+    "hometogo": {
+      "present": [
+        "[data-test=\"cookie-consent-notification\"] [data-test=\"accept-button\"]"
+      ],
+      "showing": [
+        "[data-test=\"cookie-consent-notification\"]"
       ]
     },
     "hubspot": {
@@ -1608,6 +1635,14 @@
         ".modal-object--cookie [data-js-cookies-decline]"
       ]
     },
+    "lendable": {
+      "present": [
+        "[class*=\"CookiesBanner_cookies-banner\"] [class*=\"CookiesBanner_buttons\"] button"
+      ],
+      "showing": [
+        "[class*=\"CookiesBanner_cookies-banner\"]"
+      ]
+    },
     "lia": {
       "present": [
         ".lia-cookie-banner-alert"
@@ -1658,6 +1693,14 @@
       ],
       "showing": [
         "#macaron_cookie_box .macaronbtn"
+      ]
+    },
+    "maticrobotscom": {
+      "present": [
+        "section[aria-label=\"Cookie preferences\"]"
+      ],
+      "showing": [
+        "section[aria-label=\"Cookie preferences\"]"
       ]
     },
     "mcoconsent": {
@@ -2165,12 +2208,20 @@
         "raspberrypi.com"
       ]
     },
-    "readly": {
+    "rdcconcents": {
       "present": [
-        ".DialogHandlerContainer.visible:has(.cookie-dialog)"
+        "#concentBanner .rdc-save-preferences, #concentPopup .rdc-save-preferences"
       ],
       "showing": [
-        ".DialogHandlerContainer.visible:has(.cookie-dialog)"
+        "#concentBanner .rdc-save-preferences, #concentPopup .rdc-save-preferences"
+      ]
+    },
+    "readly": {
+      "present": [
+        ".DialogHandlerContainer.visible:has(.cookie-dialog), #cookiesStrip:has([data-testid='accept-cookies'])"
+      ],
+      "showing": [
+        ".DialogHandlerContainer.visible:has(.cookie-dialog), #cookiesStrip:has([data-testid='accept-cookies'])"
       ]
     },
     "realcookiebanner": {
@@ -2247,6 +2298,14 @@
       ],
       "showing": [
         ".cookies-banner-shown"
+      ]
+    },
+    "rugnl": {
+      "present": [
+        "#ConsentBar [data-js--cookie=\"cookies-accept-functional\"]"
+      ],
+      "showing": [
+        "#ConsentBar"
       ]
     },
     "rule34xxx": {
@@ -2792,7 +2851,17 @@
       "present": [
         "#cmp-app-container"
       ],
-      "showing": []
+      "showing": [
+        "#cmp-app-container"
+      ]
+    },
+    "tumblrcustomdomaingdprbanner": {
+      "present": [
+        "iframe.tmblr-iframe--gdpr-banner"
+      ],
+      "showing": [
+        "iframe.tmblr-iframe--gdpr-banner"
+      ]
     },
     "twcc": {
       "present": [
@@ -2900,12 +2969,32 @@
         "#js-pw-consent-wrapper [data-ta-id='pw-consent-rejectAllButton']"
       ]
     },
+    "venngage_com": {
+      "present": [
+        ".gdpr .gdpr_manage_cookies_button",
+        ".gdpr .gdpr_container"
+      ],
+      "showing": [
+        ".gdpr .gdpr_container"
+      ],
+      "domains": [
+        "venngage.com"
+      ]
+    },
     "vivenu": {
       "present": [
         "[data-slot=\"dialog-content\"] a[href*=\"vivenu.com/dataprivacy\"]"
       ],
       "showing": [
         "[data-slot=\"dialog-content\"] a[href*=\"vivenu.com/dataprivacy\"]"
+      ]
+    },
+    "vmock": {
+      "present": [
+        ".cookie-policy-modal .cookie-policy-details button.manage"
+      ],
+      "showing": [
+        ".cookie-policy-modal .cookie-policy-details button.manage"
       ]
     },
     "vodafone_de": {

@@ -1,10 +1,10 @@
 {
-  "version": "2026-09-06",
+  "version": "2026-09-08",
   "type": "cmp_site",
-  "generated": "2026-09-06T08:07:02.125Z",
+  "generated": "2026-09-08T08:19:50.048Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "410668668c1eeadd",
-  "cmp_count": 306,
+  "autoconsent_tree_hash": "ead003446b30442e",
+  "cmp_count": 316,
   "signatures": {
     "aacookiebanner": {
       "selector": "adc-cookie-banner",
@@ -1255,6 +1255,20 @@
         ]
       }
     },
+    "epidemicsound_com": {
+      "selector": "#es-cookie-banner",
+      "detectors": {
+        "present": [
+          "#es-cookie-banner #es-consent-settings-btn"
+        ],
+        "showing": [
+          "#es-consent-settings-btn"
+        ]
+      },
+      "domains": [
+        "epidemicsound.com"
+      ]
+    },
     "espacepersonnel_agircarrco_fr": {
       "selector": ".cdk-overlay-container",
       "detectors": {
@@ -1473,6 +1487,17 @@
         ]
       }
     },
+    "godaddyprivacywidget": {
+      "selector": "#gtm_privacy",
+      "detectors": {
+        "present": [
+          "#gtm_privacy"
+        ],
+        "showing": [
+          "#gtm_privacy"
+        ]
+      }
+    },
     "googlecookiebar": {
       "selector": ".glue-cookie-notification-bar",
       "detectors": {
@@ -1569,6 +1594,17 @@
         ],
         "showing": [
           "dialog[data-cookie-consent]:has([data-cookie-accept])"
+        ]
+      }
+    },
+    "hometogo": {
+      "selector": "[data-test=\"cookie-consent-notification\"]",
+      "detectors": {
+        "present": [
+          "[data-test=\"cookie-consent-notification\"] [data-test=\"accept-button\"]"
+        ],
+        "showing": [
+          "[data-test=\"cookie-consent-notification\"]"
         ]
       }
     },
@@ -1805,6 +1841,17 @@
         ]
       }
     },
+    "lendable": {
+      "selector": "[class*=\"CookiesBanner_cookies-banner\"]",
+      "detectors": {
+        "present": [
+          "[class*=\"CookiesBanner_cookies-banner\"] [class*=\"CookiesBanner_buttons\"] button"
+        ],
+        "showing": [
+          "[class*=\"CookiesBanner_cookies-banner\"]"
+        ]
+      }
+    },
     "lia": {
       "selector": ".lia-cookie-banner-alert",
       "detectors": {
@@ -1871,6 +1918,17 @@
         ],
         "showing": [
           "#macaron_cookie_box .macaronbtn"
+        ]
+      }
+    },
+    "maticrobotscom": {
+      "selector": "section[aria-label=\"Cookie preferences\"]",
+      "detectors": {
+        "present": [
+          "section[aria-label=\"Cookie preferences\"]"
+        ],
+        "showing": [
+          "section[aria-label=\"Cookie preferences\"]"
         ]
       }
     },
@@ -2427,14 +2485,25 @@
         ]
       }
     },
-    "readly": {
-      "selector": ".DialogHandlerContainer.visible:has(.cookie-dialog)",
+    "rdcconcents": {
+      "selector": "#concentBanner, #concentPopup",
       "detectors": {
         "present": [
-          ".DialogHandlerContainer.visible:has(.cookie-dialog)"
+          "#concentBanner .rdc-save-preferences, #concentPopup .rdc-save-preferences"
         ],
         "showing": [
-          ".DialogHandlerContainer.visible:has(.cookie-dialog)"
+          "#concentBanner .rdc-save-preferences, #concentPopup .rdc-save-preferences"
+        ]
+      }
+    },
+    "readly": {
+      "selector": ".DialogHandlerContainer.visible:has(.cookie-dialog), #cookiesStrip:has([data-testid='accept-cookies'])",
+      "detectors": {
+        "present": [
+          ".DialogHandlerContainer.visible:has(.cookie-dialog), #cookiesStrip:has([data-testid='accept-cookies'])"
+        ],
+        "showing": [
+          ".DialogHandlerContainer.visible:has(.cookie-dialog), #cookiesStrip:has([data-testid='accept-cookies'])"
         ]
       }
     },
@@ -2513,6 +2582,17 @@
         ],
         "showing": [
           ".cookies-banner-shown"
+        ]
+      }
+    },
+    "rugnl": {
+      "selector": "#ConsentBar",
+      "detectors": {
+        "present": [
+          "#ConsentBar [data-js--cookie=\"cookies-accept-functional\"]"
+        ],
+        "showing": [
+          "#ConsentBar"
         ]
       }
     },
@@ -3136,6 +3216,20 @@
       "detectors": {
         "present": [
           "#cmp-app-container"
+        ],
+        "showing": [
+          "#cmp-app-container"
+        ]
+      }
+    },
+    "tumblrcustomdomaingdprbanner": {
+      "selector": "iframe.tmblr-iframe--gdpr-banner",
+      "detectors": {
+        "present": [
+          "iframe.tmblr-iframe--gdpr-banner"
+        ],
+        "showing": [
+          "iframe.tmblr-iframe--gdpr-banner"
         ]
       }
     },
@@ -3240,6 +3334,32 @@
         ],
         "showing": [
           "#js-pw-consent-wrapper [data-ta-id='pw-consent-rejectAllButton']"
+        ]
+      }
+    },
+    "venngage_com": {
+      "selector": ".gdpr_container, .gdpr_modal_container",
+      "detectors": {
+        "present": [
+          ".gdpr .gdpr_manage_cookies_button",
+          ".gdpr .gdpr_container"
+        ],
+        "showing": [
+          ".gdpr .gdpr_container"
+        ]
+      },
+      "domains": [
+        "venngage.com"
+      ]
+    },
+    "vmock": {
+      "selector": ".cookie-policy-modal, .manage-cookies-modal",
+      "detectors": {
+        "present": [
+          ".cookie-policy-modal .cookie-policy-details button.manage"
+        ],
+        "showing": [
+          ".cookie-policy-modal .cookie-policy-details button.manage"
         ]
       }
     },
