@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties",
-  "version": "2026-09-06",
-  "generated": "2026-09-06T06:04:43.392Z",
+  "version": "2026-09-08",
+  "generated": "2026-09-08T06:05:04.310Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -195,7 +195,6 @@
     "sjrtp2.marketo.com",
     "sjrtp3-cdn.marketo.com",
     "sjrtp4-cdn.marketo.com",
-    "sjrtp4.marketo.com",
     "sjrtp5-cdn.marketo.com",
     "sjrtp5.marketo.com",
     "sjrtp6-cdn.marketo.com",
@@ -241,7 +240,7 @@
     "wonderpush.com",
     "zoominfo.com"
   ],
-  "domain_count": 234,
+  "domain_count": 233,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",

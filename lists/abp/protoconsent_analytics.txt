@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-09-07
-! Last modified: 2026-09-07T06:13:00.264Z
+! Version: 2026-09-08
+! Last modified: 2026-09-08T06:05:04.310Z
 ! Entries: 14352
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
@@ -18,7 +18,6 @@
 ||1freecounter.com^$third-party
 ||1l-hit.mail.ru^$third-party
 ||1to1.bbva.com^$third-party
-||200summit.com^$third-party
 ||2467april2024.com^$third-party
 ||247-inc.com^$third-party
 ||2495may2024.com^$third-party
@@ -2533,7 +2532,6 @@
 ||data.email.princess.com^$third-party
 ||data.email.realmadrid.com^$third-party
 ||data.emails.tesco.com^$third-party
-||data.emails1.santander.co.uk^$third-party
 ||data.emb-api.com^$third-party
 ||data.embeddables.com^$third-party
 ||data.emea.coca-cola.com^$third-party
@@ -2545,7 +2543,6 @@
 ||data.inbank.it^$third-party
 ||data.info.avianca.com^$third-party
 ||data.info.consumercellular.com^$third-party
-||data.info.lifemiles.com^$third-party
 ||data.info.xpi.com.br^$third-party
 ||data.inswa.coca-cola.com^$third-party
 ||data.jaytuckwell.com^$third-party
@@ -2556,7 +2553,6 @@
 ||data.m.philadelphiaeagles.com^$third-party
 ||data.m.shop.nhl.com^$third-party
 ||data.m.starbucks.com^$third-party
-||data.m.store.nba.com^$third-party
 ||data.madridista-free.realmadrid.com^$third-party
 ||data.marketing.nascar.com^$third-party
 ||data.mistat.india.xiaomi.com^$third-party
@@ -2980,6 +2976,7 @@
 ||epsilon.6sense.com^$third-party
 ||eq-beacon.stream.co.jp^$third-party
 ||eq-player-log.cdnext.stream.ne.jp^$third-party
+||eqsdv.everlane.com^$third-party
 ||eqy.link^$third-party
 ||era.easyvoyage.com^$third-party
 ||erate.co.il^$third-party
@@ -3619,6 +3616,7 @@
 ||gtm.humann.com^$third-party
 ||gtm.lercio.it^$third-party
 ||gtm.mandesager.dk^$third-party
+||gtm.marjosports.com.br^$third-party
 ||gtm.taginstall.com^$third-party
 ||gtm.tipranks.com^$third-party
 ||gtm.udemy.com^$third-party
@@ -4482,7 +4480,6 @@
 ||logcounter.com^$third-party
 ||logdy.com^$third-party
 ||logentries.com^$third-party
-||logger.bzu.kr^$third-party
 ||logger.co.kr^$third-party
 ||logger.goeuro.com^$third-party
 ||logger.kataweb.it^$third-party
@@ -5173,7 +5170,6 @@
 ||mqmja.jdsports.com^$third-party
 ||mr-rank.de^$third-party
 ||mr.homedepot.com^$third-party
-||mrnab.ringconcierge.com^$third-party
 ||mrpdata.net^$third-party
 ||ms-trackingapi.phenompeople.com^$third-party
 ||ms.dzen.ru^$third-party
@@ -7297,6 +7293,7 @@
 ||smetrics.kaiserpermanente.org^$third-party
 ||smetrics.kao.co.jp^$third-party
 ||smetrics.kao.com^$third-party
+||smetrics.karcher-futuretech.com^$third-party
 ||smetrics.karcher.com^$third-party
 ||smetrics.kawai-juku.ac.jp^$third-party
 ||smetrics.kay.com^$third-party
@@ -8660,6 +8657,7 @@
 ||t.hypers.com.cn^$third-party
 ||t.imgur.com^$third-party
 ||t.indeed.com^$third-party
+||t.janieandjack.com^$third-party
 ||t.jasper.ai^$third-party
 ||t.jobsyn.org^$third-party
 ||t.jossandmain.com^$third-party
@@ -8855,6 +8853,7 @@
 ||target.amica.com^$third-party
 ||target.bankofamerica.com^$third-party
 ||target.belairdirect.com^$third-party
+||target.bws.com.au^$third-party
 ||target.centerpointenergy.com^$third-party
 ||target.cisco.com^$third-party
 ||target.cox.com^$third-party
@@ -9849,6 +9848,7 @@
 ||utsssl.auction.co.kr^$third-party
 ||uue2.destinia.ir^$third-party
 ||uvzrtq.livingspaces.com^$third-party
+||uzahd.saatva.com^$third-party
 ||v-collector.dp.aws.charter.com^$third-party
 ||v.ipinfo.io^$third-party
 ||v.oui.sncf^$third-party
