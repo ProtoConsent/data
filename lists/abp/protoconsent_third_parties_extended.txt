@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Third Parties Extended
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-! Version: 2026-09-08
-! Last modified: 2026-09-08T06:05:04.310Z
-! Entries: 850
+! Version: 2026-09-09
+! Last modified: 2026-09-09T06:06:54.029Z
+! Entries: 852
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -535,6 +535,7 @@
 ||sjrtp3-cdn.marketo.com^$third-party
 ||sjrtp3.marketo.com^$third-party
 ||sjrtp4-cdn.marketo.com^$third-party
+||sjrtp4.marketo.com^$third-party
 ||sjrtp5-cdn.marketo.com^$third-party
 ||sjrtp5.marketo.com^$third-party
 ||sjrtp6-cdn.marketo.com^$third-party
@@ -547,6 +548,7 @@
 ||smile.io^$third-party
 ||snackly.co^$third-party
 ||snrtp-cdn.marketo.com^$third-party
+||snrtp1.marketo.com^$third-party
 ||social-touch.com^$third-party
 ||socialloginplus-apps.haravan.com^$third-party
 ||speedshare.app^$third-party

@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Analytics Extended",
-  "version": "2026-09-08",
-  "generated": "2026-09-08T06:05:04.310Z",
+  "version": "2026-09-09",
+  "generated": "2026-09-09T06:06:54.029Z",
   "description": "Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -20821,6 +20821,7 @@
     "beacon.qa.walmart.com",
     "beacon.qq.com",
     "beacon.radiko.jp",
+    "beacon.rallydev.com",
     "beacon.s.llnwi.net",
     "beacon.samsclub.com",
     "beacon.searchspring.io",
@@ -112413,6 +112414,7 @@
     "stat24.com",
     "stat24.ru",
     "stat3.airdroid.com",
+    "stat3.dlc.ovh",
     "statanalyticscdn.com",
     "statchecker.yandex.ru",
     "statclick.nate.com",
@@ -121538,6 +121540,7 @@
     "sunflaggroup.com",
     "sunios.de",
     "sunlightmetrics.b-cdn.net",
+    "sunnylettings.com",
     "sunovaa.com",
     "sunsentinelreports.com",
     "sunsetrvprk.hgmdanalytics7.com",
@@ -121629,6 +121632,7 @@
     "suscripciones.medios.puntoscolombia.com",
     "sushi-melt.net",
     "sushi-tsu.com",
+    "sushivolant.com",
     "suspectmark.com",
     "suspendseed.com",
     "sustainability.ricoh.co.za",
@@ -124512,6 +124516,7 @@
     "tech.softchoice.com",
     "tech.wellbots.fr",
     "techads.nazifshop.com",
+    "techcatcher.com",
     "techcntrl.com",
     "techconverter.com",
     "techfusionlabs.zeabur.app",
@@ -124520,6 +124525,7 @@
     "techite.com",
     "techlab-cdn.com",
     "techmarketingdemos.tt.omtrdc.net",
+    "techmix.net",
     "techmonkeypost.com",
     "technical.kyzen.com",
     "techno.technostorm.de",
@@ -133388,6 +133394,7 @@
     "v4gtm.lucascalado.com.br",
     "v4tpxg9m.com",
     "v5fsk8kjd.com",
+    "v6analytics.htmedia.in.edgekey.net",
     "v710.newyorkupstate.com",
     "v7fhugd.com",
     "v8hj3d6j.com",
@@ -137947,7 +137954,7 @@
     "zzz.capraprod.com",
     "zzzfba.thecolvinco.com"
   ],
-  "domain_count": 137940,
+  "domain_count": 137947,
   "paths": [
     "||01net.com/track/",
     "||1024tera.com/api/analytics?",
@@ -138248,6 +138255,7 @@
     "||api.invideo.io/v3/send_analytics_event",
     "||api.ipgeolocation.io/getip",
     "||api.iris.tv/update",
+    "||api.lightyear.com/v1/web-visit/pixel.png",
     "||api.litres.ru/tracker/",
     "||api.lr-in-prod.com/",
     "||api.mambasms.com/monitorEvent/",
@@ -142168,5 +142176,5 @@
     "||zumper.com/events",
     "||zynga.com/track/"
   ],
-  "path_count": 4218
+  "path_count": 4219
 }
