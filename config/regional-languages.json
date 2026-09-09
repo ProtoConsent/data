@@ -80,27 +80,27 @@
         "name": "EasyList China",
         "url": "https://easylist.to/",
         "slug": "easylist",
-        "blocking_version": "2026-09-08",
-        "blocking_domains": 6138,
+        "blocking_version": "2026-09-09",
+        "blocking_domains": 6149,
         "blocking_paths": 3698,
-        "cosmetic_version": "2026-09-08",
-        "cosmetic_generic": 1004,
+        "cosmetic_version": "2026-09-09",
+        "cosmetic_generic": 1005,
         "cosmetic_domain_rules": 7293,
-        "blocking_generated": "2026-09-08T08:19:54.503Z",
-        "cosmetic_generated": "2026-09-08T08:19:54.504Z"
+        "blocking_generated": "2026-09-09T08:23:00.978Z",
+        "cosmetic_generated": "2026-09-09T08:23:00.978Z"
       },
       {
         "name": "AdGuard Chinese",
         "url": "https://github.com/AdguardTeam/AdguardFilters",
         "slug": "adguard",
-        "blocking_version": "2026-09-08",
-        "blocking_domains": 6371,
+        "blocking_version": "2026-09-09",
+        "blocking_domains": 6382,
         "blocking_paths": 4051,
-        "cosmetic_version": "2026-09-08",
-        "cosmetic_generic": 1016,
-        "cosmetic_domain_rules": 8825,
-        "blocking_generated": "2026-09-08T08:19:54.537Z",
-        "cosmetic_generated": "2026-09-08T08:19:54.540Z"
+        "cosmetic_version": "2026-09-09",
+        "cosmetic_generic": 1017,
+        "cosmetic_domain_rules": 8827,
+        "blocking_generated": "2026-09-09T08:23:01.010Z",
+        "cosmetic_generated": "2026-09-09T08:23:01.013Z"
       }
     ]
   },
@@ -144,11 +144,11 @@
         "blocking_version": "2026-09-04",
         "blocking_domains": 324,
         "blocking_paths": 1263,
-        "cosmetic_version": "2026-09-04",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 397,
-        "cosmetic_domain_rules": 5253,
+        "cosmetic_domain_rules": 5254,
         "blocking_generated": "2026-09-04T08:13:36.063Z",
-        "cosmetic_generated": "2026-09-04T08:13:36.063Z"
+        "cosmetic_generated": "2026-09-09T08:23:04.591Z"
       },
       {
         "name": "AdGuard German",
@@ -157,11 +157,11 @@
         "blocking_version": "2026-09-08",
         "blocking_domains": 370,
         "blocking_paths": 1570,
-        "cosmetic_version": "2026-09-08",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 398,
-        "cosmetic_domain_rules": 9193,
+        "cosmetic_domain_rules": 9199,
         "blocking_generated": "2026-09-08T08:19:57.071Z",
-        "cosmetic_generated": "2026-09-08T08:19:57.072Z"
+        "cosmetic_generated": "2026-09-09T08:23:04.603Z"
       }
     ]
   },
@@ -197,11 +197,11 @@
         "blocking_version": "2026-09-04",
         "blocking_domains": 174,
         "blocking_paths": 452,
-        "cosmetic_version": "2026-09-08",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 92,
-        "cosmetic_domain_rules": 3965,
+        "cosmetic_domain_rules": 3972,
         "blocking_generated": "2026-09-04T08:13:38.779Z",
-        "cosmetic_generated": "2026-09-08T08:19:58.324Z"
+        "cosmetic_generated": "2026-09-09T08:23:06.735Z"
       }
     ]
   },
@@ -282,13 +282,13 @@
         "name": "AdGuard French",
         "url": "https://github.com/AdguardTeam/AdguardFilters",
         "slug": "adguard",
-        "blocking_version": "2026-09-06",
-        "blocking_domains": 5662,
-        "blocking_paths": 2521,
+        "blocking_version": "2026-09-09",
+        "blocking_domains": 5765,
+        "blocking_paths": 2523,
         "cosmetic_version": "2026-09-06",
         "cosmetic_generic": 1784,
         "cosmetic_domain_rules": 3053,
-        "blocking_generated": "2026-09-06T08:07:10.253Z",
+        "blocking_generated": "2026-09-09T08:23:09.954Z",
         "cosmetic_generated": "2026-09-06T08:07:10.253Z"
       }
     ]
@@ -375,27 +375,27 @@
         "name": "AdGuard Hindi",
         "url": "https://github.com/AdguardTeam/AdguardFilters",
         "slug": "adguard",
-        "blocking_version": "2026-09-04",
+        "blocking_version": "2026-09-09",
         "blocking_domains": 20,
-        "blocking_paths": 4084,
-        "cosmetic_version": "2026-09-04",
+        "blocking_paths": 4085,
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 0,
-        "cosmetic_domain_rules": 10762,
-        "blocking_generated": "2026-09-04T08:13:47.966Z",
-        "cosmetic_generated": "2026-09-04T08:13:47.968Z"
+        "cosmetic_domain_rules": 10765,
+        "blocking_generated": "2026-09-09T08:23:14.783Z",
+        "cosmetic_generated": "2026-09-09T08:23:14.785Z"
       },
       {
         "name": "IndianList",
         "url": "https://github.com/mediumkreation/IndianList",
         "slug": "indianlist",
-        "blocking_version": "2026-09-04",
+        "blocking_version": "2026-09-09",
         "blocking_domains": 20,
-        "blocking_paths": 4084,
-        "cosmetic_version": "2026-09-04",
+        "blocking_paths": 4085,
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 0,
-        "cosmetic_domain_rules": 10762,
-        "blocking_generated": "2026-09-04T08:13:47.998Z",
-        "cosmetic_generated": "2026-09-04T08:13:48.000Z"
+        "cosmetic_domain_rules": 10765,
+        "blocking_generated": "2026-09-09T08:23:14.817Z",
+        "cosmetic_generated": "2026-09-09T08:23:14.819Z"
       }
     ]
   },
@@ -415,13 +415,13 @@
         "name": "AdGuard Serbo-Croatian",
         "url": "https://github.com/AdguardTeam/AdguardFilters",
         "slug": "adguard",
-        "blocking_version": "2026-09-08",
-        "blocking_domains": 11806,
+        "blocking_version": "2026-09-09",
+        "blocking_domains": 11807,
         "blocking_paths": 190,
         "cosmetic_version": "2026-09-05",
         "cosmetic_generic": 294,
         "cosmetic_domain_rules": 1563,
-        "blocking_generated": "2026-09-08T08:20:08.626Z",
+        "blocking_generated": "2026-09-09T08:23:15.539Z",
         "cosmetic_generated": "2026-09-05T07:51:59.250Z"
       }
     ]
@@ -440,11 +440,11 @@
         "blocking_version": "2026-06-24",
         "blocking_domains": 155,
         "blocking_paths": 140,
-        "cosmetic_version": "2026-09-03",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 74,
-        "cosmetic_domain_rules": 1583,
+        "cosmetic_domain_rules": 1584,
         "blocking_generated": "2026-06-24T07:03:06.145Z",
-        "cosmetic_generated": "2026-09-03T08:17:43.669Z"
+        "cosmetic_generated": "2026-09-09T08:23:16.411Z"
       }
     ]
   },
@@ -462,11 +462,11 @@
         "blocking_version": "2026-08-31",
         "blocking_domains": 15,
         "blocking_paths": 304,
-        "cosmetic_version": "2026-09-03",
-        "cosmetic_generic": 3058,
-        "cosmetic_domain_rules": 5205,
+        "cosmetic_version": "2026-09-09",
+        "cosmetic_generic": 3067,
+        "cosmetic_domain_rules": 5208,
         "blocking_generated": "2026-08-31T10:05:25.668Z",
-        "cosmetic_generated": "2026-09-03T08:17:44.440Z"
+        "cosmetic_generated": "2026-09-09T08:23:16.886Z"
       }
     ]
   },
@@ -528,11 +528,11 @@
         "blocking_version": "2026-09-08",
         "blocking_domains": 421,
         "blocking_paths": 1029,
-        "cosmetic_version": "2026-09-08",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 141,
-        "cosmetic_domain_rules": 10541,
+        "cosmetic_domain_rules": 10546,
         "blocking_generated": "2026-09-08T08:20:12.102Z",
-        "cosmetic_generated": "2026-09-08T08:20:12.104Z"
+        "cosmetic_generated": "2026-09-09T08:23:19.484Z"
       }
     ]
   },
@@ -547,14 +547,14 @@
         "name": "AdGuard Korean",
         "url": "https://github.com/AdguardTeam/AdguardFilters",
         "slug": "adguard",
-        "blocking_version": "2026-09-08",
+        "blocking_version": "2026-09-09",
         "blocking_domains": 379,
-        "blocking_paths": 838,
-        "cosmetic_version": "2026-09-08",
+        "blocking_paths": 839,
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 84,
-        "cosmetic_domain_rules": 1936,
-        "blocking_generated": "2026-09-08T08:20:14.363Z",
-        "cosmetic_generated": "2026-09-08T08:20:14.363Z"
+        "cosmetic_domain_rules": 1948,
+        "blocking_generated": "2026-09-09T08:23:20.491Z",
+        "cosmetic_generated": "2026-09-09T08:23:20.491Z"
       },
       {
         "name": "List-KR",
@@ -727,13 +727,13 @@
         "name": "EasyList Polish",
         "url": "https://easylist.to/",
         "slug": "easylist",
-        "blocking_version": "2026-09-08",
+        "blocking_version": "2026-09-09",
         "blocking_domains": 36,
-        "blocking_paths": 350,
+        "blocking_paths": 351,
         "cosmetic_version": "2026-09-05",
         "cosmetic_generic": 20,
         "cosmetic_domain_rules": 4879,
-        "blocking_generated": "2026-09-08T08:20:18.911Z",
+        "blocking_generated": "2026-09-09T08:23:25.421Z",
         "cosmetic_generated": "2026-09-05T07:52:10.820Z"
       }
     ]
@@ -757,11 +757,11 @@
         "blocking_version": "2026-09-05",
         "blocking_domains": 62,
         "blocking_paths": 189,
-        "cosmetic_version": "2026-09-05",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 145,
-        "cosmetic_domain_rules": 1543,
+        "cosmetic_domain_rules": 1548,
         "blocking_generated": "2026-09-05T07:52:12.651Z",
-        "cosmetic_generated": "2026-09-05T07:52:12.651Z"
+        "cosmetic_generated": "2026-09-09T08:23:26.729Z"
       },
       {
         "name": "AdGuard Spanish/Portuguese",
@@ -770,11 +770,11 @@
         "blocking_version": "2026-09-04",
         "blocking_domains": 174,
         "blocking_paths": 452,
-        "cosmetic_version": "2026-09-08",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 92,
-        "cosmetic_domain_rules": 3965,
+        "cosmetic_domain_rules": 3972,
         "blocking_generated": "2026-09-04T08:14:05.744Z",
-        "cosmetic_generated": "2026-09-08T08:20:19.823Z"
+        "cosmetic_generated": "2026-09-09T08:23:26.733Z"
       }
     ]
   },
@@ -830,24 +830,24 @@
         "blocking_version": "2026-09-05",
         "blocking_domains": 1917,
         "blocking_paths": 2241,
-        "cosmetic_version": "2026-09-08",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 505,
-        "cosmetic_domain_rules": 11632,
+        "cosmetic_domain_rules": 11633,
         "blocking_generated": "2026-09-05T07:52:15.562Z",
-        "cosmetic_generated": "2026-09-08T08:20:21.547Z"
+        "cosmetic_generated": "2026-09-09T08:23:28.366Z"
       },
       {
         "name": "RU AdList",
         "url": "https://github.com/easylist/ruadlist",
         "slug": "ruadlist",
-        "blocking_version": "2026-09-08",
+        "blocking_version": "2026-09-09",
         "blocking_domains": 11684,
-        "blocking_paths": 3378,
-        "cosmetic_version": "2026-09-08",
+        "blocking_paths": 3379,
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 864,
-        "cosmetic_domain_rules": 16858,
-        "blocking_generated": "2026-09-08T08:20:21.596Z",
-        "cosmetic_generated": "2026-09-08T08:20:21.599Z"
+        "cosmetic_domain_rules": 16857,
+        "blocking_generated": "2026-09-09T08:23:28.411Z",
+        "cosmetic_generated": "2026-09-09T08:23:28.413Z"
       }
     ]
   },
@@ -865,11 +865,11 @@
         "blocking_version": "2026-09-05",
         "blocking_domains": 314,
         "blocking_paths": 248,
-        "cosmetic_version": "2026-09-04",
-        "cosmetic_generic": 302,
-        "cosmetic_domain_rules": 1104,
+        "cosmetic_version": "2026-09-09",
+        "cosmetic_generic": 303,
+        "cosmetic_domain_rules": 1105,
         "blocking_generated": "2026-09-05T07:52:16.552Z",
-        "cosmetic_generated": "2026-09-04T08:14:09.431Z"
+        "cosmetic_generated": "2026-09-09T08:23:28.844Z"
       }
     ]
   },
@@ -928,14 +928,14 @@
         "name": "AdGuard Turkish",
         "url": "https://github.com/AdguardTeam/AdguardFilters",
         "slug": "adguard",
-        "blocking_version": "2026-09-08",
+        "blocking_version": "2026-09-09",
         "blocking_domains": 214,
-        "blocking_paths": 806,
-        "cosmetic_version": "2026-09-08",
+        "blocking_paths": 808,
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 244,
-        "cosmetic_domain_rules": 4781,
-        "blocking_generated": "2026-09-08T08:20:23.325Z",
-        "cosmetic_generated": "2026-09-08T08:20:23.325Z"
+        "cosmetic_domain_rules": 4783,
+        "blocking_generated": "2026-09-09T08:23:30.462Z",
+        "cosmetic_generated": "2026-09-09T08:23:30.462Z"
       }
     ]
   },
@@ -972,14 +972,14 @@
         "name": "AdGuard Vietnamese",
         "url": "https://github.com/AdguardTeam/AdguardFilters",
         "slug": "adguard",
-        "blocking_version": "2026-09-08",
+        "blocking_version": "2026-09-09",
         "blocking_domains": 75,
         "blocking_paths": 93,
-        "cosmetic_version": "2026-09-08",
+        "cosmetic_version": "2026-09-09",
         "cosmetic_generic": 20,
         "cosmetic_domain_rules": 794,
-        "blocking_generated": "2026-09-08T08:20:24.608Z",
-        "cosmetic_generated": "2026-09-08T08:20:24.608Z"
+        "blocking_generated": "2026-09-09T08:23:31.069Z",
+        "cosmetic_generated": "2026-09-09T08:23:31.069Z"
       }
     ]
   }
