@@ -1,10 +1,19 @@
 {
-  "version": "2026-09-09",
-  "generated": "2026-09-09T08:22:57.807Z",
+  "version": "2026-09-10",
+  "generated": "2026-09-10T08:23:16.237Z",
   "type": "tracking_params_sites",
   "domain_count": 932,
   "param_count": 1919,
   "sites": {
+    "asahi.com": [
+      "cid",
+      "iref",
+      "oai",
+      "ref"
+    ],
+    "yomiuri.co.jp": [
+      "ref"
+    ],
     "sponichi.co.jp": [
       "nid",
       "ref"
@@ -1831,12 +1840,6 @@
       "Referer",
       "referer"
     ],
-    "donation.yahoo.co.jp": [
-      "cpt_c",
-      "cpt_m",
-      "cpt_n",
-      "cpt_s"
-    ],
     "tinkoff.ru": [
       "dsp_click_id"
     ],
@@ -2309,11 +2312,6 @@
     ],
     "japan.cnet.com": [
       "tag"
-    ],
-    "asahi.com": [
-      "cid",
-      "iref",
-      "ref"
     ],
     "cnn.co.jp": [
       "ref"
