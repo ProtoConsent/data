@@ -1,10 +1,18 @@
 {
-  "version": "2026-09-11",
-  "generated": "2026-09-11T08:18:07.680Z",
+  "version": "2026-09-12",
+  "generated": "2026-09-12T08:07:54.004Z",
   "type": "tracking_params_sites",
-  "domain_count": 933,
+  "domain_count": 934,
   "param_count": 1923,
   "sites": {
+    "canadapost-postescanada.ca": [
+      "abid",
+      "bid",
+      "rid"
+    ],
+    "minkara.carview.co.jp": [
+      "cid"
+    ],
     "note.com": [
       "external_position",
       "external_type",
@@ -4362,11 +4370,6 @@
     ],
     "store.epicgames.com": [
       "epic_creator_id"
-    ],
-    "canadapost-postescanada.ca": [
-      "abid",
-      "bid",
-      "rid"
     ],
     "ikea.com": [
       "f"
