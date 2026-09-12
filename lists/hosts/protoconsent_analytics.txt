@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-09-11
-# Last modified: 2026-09-11T06:08:58.596Z
-# Entries: 10353
+# Version: 2026-09-12
+# Last modified: 2026-09-12T05:57:46.795Z
+# Entries: 10358
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -271,7 +271,6 @@
 0.0.0.0 admetrics.events
 0.0.0.0 admile.ru
 0.0.0.0 admo.tv
-0.0.0.0 adnlb.sprayground.com
 0.0.0.0 adnxtr.com
 0.0.0.0 adobe-analytics-dc.belastingdienst.nl
 0.0.0.0 adobe-metrics.zionsbank.com
@@ -1526,7 +1525,6 @@
 0.0.0.0 belstat.nl
 0.0.0.0 benefitssense.com
 0.0.0.0 bento.agoda.com
-0.0.0.0 berg-6-82.com
 0.0.0.0 best-top.ro
 0.0.0.0 bestboundary.com
 0.0.0.0 bestclimbers.net
@@ -2530,6 +2528,7 @@
 0.0.0.0 data.email.princess.com
 0.0.0.0 data.email.realmadrid.com
 0.0.0.0 data.emails.tesco.com
+0.0.0.0 data.emails1.santander.co.uk
 0.0.0.0 data.emb-api.com
 0.0.0.0 data.embeddables.com
 0.0.0.0 data.emea.coca-cola.com
@@ -2552,6 +2551,7 @@
 0.0.0.0 data.m.philadelphiaeagles.com
 0.0.0.0 data.m.shop.nhl.com
 0.0.0.0 data.m.starbucks.com
+0.0.0.0 data.m.store.nba.com
 0.0.0.0 data.madridista-free.realmadrid.com
 0.0.0.0 data.marketing.nascar.com
 0.0.0.0 data.mistat.india.xiaomi.com
@@ -3831,6 +3831,7 @@
 0.0.0.0 idhtm.bb.com.br
 0.0.0.0 idio.co
 0.0.0.0 idntfy.ru
+0.0.0.0 idsequoia.ai
 0.0.0.0 idsmodules.com
 0.0.0.0 idstatus.sky.com
 0.0.0.0 ifnyop.priceline.com
@@ -4048,7 +4049,6 @@
 0.0.0.0 jdgtgb.kicker.de
 0.0.0.0 jdgtgb.t-online.de
 0.0.0.0 jeeng.com
-0.0.0.0 jelcp.igloocoolers.com
 0.0.0.0 jelly.mdhv.io
 0.0.0.0 jellyfish.therapieplatz-finden.de
 0.0.0.0 jhojz.killstar.com
@@ -4185,7 +4185,6 @@
 0.0.0.0 launch-analytics-plugin.launchpotato.com
 0.0.0.0 laurel.macrovision.com
 0.0.0.0 laurel.rovicorp.com
-0.0.0.0 lbdqs.yankeecandle.com
 0.0.0.0 lc-event.pixiv.net
 0.0.0.0 lcdsyj.daily.co.jp
 0.0.0.0 lciapi.ninthdecimal.com
@@ -5423,6 +5422,7 @@
 0.0.0.0 ogpzj.tumi.com
 0.0.0.0 ogt.jp
 0.0.0.0 ohmystats.com
+0.0.0.0 oiat.dow.com
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 oktopost.com
 0.0.0.0 ol-collector.quillbot.com
@@ -6062,7 +6062,6 @@
 0.0.0.0 qcvji.aliceandolivia.com
 0.0.0.0 qeigr.luluandgeorgia.com
 0.0.0.0 qfp.intuit.com
-0.0.0.0 qgdgj.bugmd.com
 0.0.0.0 qhtqr.mindbodygreen.com
 0.0.0.0 qhupdate.com
 0.0.0.0 qjnhs.teva.com
@@ -6604,6 +6603,7 @@
 0.0.0.0 secure.aiea6gaza.com
 0.0.0.0 secure.alea6badb.com
 0.0.0.0 secure.care5alea.com
+0.0.0.0 secure.cart8draw.com
 0.0.0.0 secure.clue6load.com
 0.0.0.0 secure.coup7cold.com
 0.0.0.0 secure.cuba7tilt.com
@@ -7092,6 +7092,7 @@
 0.0.0.0 smetrics.cnn.com
 0.0.0.0 smetrics.coca-cola.com
 0.0.0.0 smetrics.coca-colaentuhogar.com
+0.0.0.0 smetrics.coca-colastore.com
 0.0.0.0 smetrics.comenity.net
 0.0.0.0 smetrics.comms.westpac.co.nz
 0.0.0.0 smetrics.consumerreports.org
@@ -7234,6 +7235,7 @@
 0.0.0.0 smetrics.goinggoinggone.com
 0.0.0.0 smetrics.golfgalaxy.com
 0.0.0.0 smetrics.gomastercard.com.au
+0.0.0.0 smetrics.goodyear.com
 0.0.0.0 smetrics.grainger.com
 0.0.0.0 smetrics.grandandtoy.com
 0.0.0.0 smetrics.greatsouthernbank.com.au
@@ -7242,7 +7244,6 @@
 0.0.0.0 smetrics.grundfos.com
 0.0.0.0 smetrics.guaranteedrate.com
 0.0.0.0 smetrics.gvb.ch
-0.0.0.0 smetrics.h-dnet.com
 0.0.0.0 smetrics.ha.com
 0.0.0.0 smetrics.handelsbanken.se
 0.0.0.0 smetrics.harley-davidson.com
@@ -7663,6 +7664,7 @@
 0.0.0.0 smetrics.thoughtworks.com
 0.0.0.0 smetrics.three.co.uk
 0.0.0.0 smetrics.three.ie
+0.0.0.0 smetrics.thrivent.com
 0.0.0.0 smetrics.tiaa.org
 0.0.0.0 smetrics.ticket.se
 0.0.0.0 smetrics.ticketsatwork.com
@@ -7733,6 +7735,7 @@
 0.0.0.0 smetrics.vwfs.com
 0.0.0.0 smetrics.vwfs.de
 0.0.0.0 smetrics.vwfs.fr
+0.0.0.0 smetrics.vwfs.io
 0.0.0.0 smetrics.vwfs.it
 0.0.0.0 smetrics.waters.com
 0.0.0.0 smetrics.webex.com
@@ -8022,6 +8025,7 @@
 0.0.0.0 ssp.seznam.cz
 0.0.0.0 sspapi-prd.samsungrs.com
 0.0.0.0 sssjp.la-z-boy.com
+0.0.0.0 ssst.houstonpublicmedia.org
 0.0.0.0 sst.babypark.de
 0.0.0.0 sst.babypark.nl
 0.0.0.0 sst.brodo.com
@@ -8488,7 +8492,6 @@
 0.0.0.0 stnt.sky.at
 0.0.0.0 stnt.sky.de
 0.0.0.0 stocks-analytics-events.news.apple-dns.net
-0.0.0.0 stoen.solacebands.com
 0.0.0.0 storeconfig.mistat.intl.xiaomi.com
 0.0.0.0 stores-counters.wix.com
 0.0.0.0 stork.ibite.company
@@ -8927,6 +8930,7 @@
 0.0.0.0 td.caranddriver.com
 0.0.0.0 td.cosmopolitan.com
 0.0.0.0 td.countryliving.com
+0.0.0.0 td.deepsync.com
 0.0.0.0 td.delish.com
 0.0.0.0 td.elle.com
 0.0.0.0 td.esquire.com
@@ -9768,6 +9772,7 @@
 0.0.0.0 ucounter.ucoz.net
 0.0.0.0 udgrbq.malwarebytes.com
 0.0.0.0 udkcrj.com
+0.0.0.0 udrvvx.kabum.com.br
 0.0.0.0 uedkm.therange.co.uk
 0.0.0.0 uftis.vitaminshoppe.com
 0.0.0.0 ugdcxl.timeout.com

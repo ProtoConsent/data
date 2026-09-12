@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-09-11
-! Last modified: 2026-09-11T06:08:58.596Z
-! Entries: 14367
+! Version: 2026-09-12
+! Last modified: 2026-09-12T05:57:46.795Z
+! Entries: 14372
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -272,7 +272,6 @@
 ||admetrics.events^$third-party
 ||admile.ru^$third-party
 ||admo.tv^$third-party
-||adnlb.sprayground.com^$third-party
 ||adnxtr.com^$third-party
 ||adobe-analytics-dc.belastingdienst.nl^$third-party
 ||adobe-metrics.zionsbank.com^$third-party
@@ -1527,7 +1526,6 @@
 ||belstat.nl^$third-party
 ||benefitssense.com^$third-party
 ||bento.agoda.com^$third-party
-||berg-6-82.com^$third-party
 ||best-top.ro^$third-party
 ||bestboundary.com^$third-party
 ||bestclimbers.net^$third-party
@@ -2531,6 +2529,7 @@
 ||data.email.princess.com^$third-party
 ||data.email.realmadrid.com^$third-party
 ||data.emails.tesco.com^$third-party
+||data.emails1.santander.co.uk^$third-party
 ||data.emb-api.com^$third-party
 ||data.embeddables.com^$third-party
 ||data.emea.coca-cola.com^$third-party
@@ -2553,6 +2552,7 @@
 ||data.m.philadelphiaeagles.com^$third-party
 ||data.m.shop.nhl.com^$third-party
 ||data.m.starbucks.com^$third-party
+||data.m.store.nba.com^$third-party
 ||data.madridista-free.realmadrid.com^$third-party
 ||data.marketing.nascar.com^$third-party
 ||data.mistat.india.xiaomi.com^$third-party
@@ -3832,6 +3832,7 @@
 ||idhtm.bb.com.br^$third-party
 ||idio.co^$third-party
 ||idntfy.ru^$third-party
+||idsequoia.ai^$third-party
 ||idsmodules.com^$third-party
 ||idstatus.sky.com^$third-party
 ||ifnyop.priceline.com^$third-party
@@ -4049,7 +4050,6 @@
 ||jdgtgb.kicker.de^$third-party
 ||jdgtgb.t-online.de^$third-party
 ||jeeng.com^$third-party
-||jelcp.igloocoolers.com^$third-party
 ||jelly.mdhv.io^$third-party
 ||jellyfish.therapieplatz-finden.de^$third-party
 ||jhojz.killstar.com^$third-party
@@ -4186,7 +4186,6 @@
 ||launch-analytics-plugin.launchpotato.com^$third-party
 ||laurel.macrovision.com^$third-party
 ||laurel.rovicorp.com^$third-party
-||lbdqs.yankeecandle.com^$third-party
 ||lc-event.pixiv.net^$third-party
 ||lcdsyj.daily.co.jp^$third-party
 ||lciapi.ninthdecimal.com^$third-party
@@ -5424,6 +5423,7 @@
 ||ogpzj.tumi.com^$third-party
 ||ogt.jp^$third-party
 ||ohmystats.com^$third-party
+||oiat.dow.com^$third-party
 ||oimg.nbcuni.com^$third-party
 ||oktopost.com^$third-party
 ||ol-collector.quillbot.com^$third-party
@@ -6063,7 +6063,6 @@
 ||qcvji.aliceandolivia.com^$third-party
 ||qeigr.luluandgeorgia.com^$third-party
 ||qfp.intuit.com^$third-party
-||qgdgj.bugmd.com^$third-party
 ||qhtqr.mindbodygreen.com^$third-party
 ||qhupdate.com^$third-party
 ||qjnhs.teva.com^$third-party
@@ -6605,6 +6604,7 @@
 ||secure.aiea6gaza.com^$third-party
 ||secure.alea6badb.com^$third-party
 ||secure.care5alea.com^$third-party
+||secure.cart8draw.com^$third-party
 ||secure.clue6load.com^$third-party
 ||secure.coup7cold.com^$third-party
 ||secure.cuba7tilt.com^$third-party
@@ -7093,6 +7093,7 @@
 ||smetrics.cnn.com^$third-party
 ||smetrics.coca-cola.com^$third-party
 ||smetrics.coca-colaentuhogar.com^$third-party
+||smetrics.coca-colastore.com^$third-party
 ||smetrics.comenity.net^$third-party
 ||smetrics.comms.westpac.co.nz^$third-party
 ||smetrics.consumerreports.org^$third-party
@@ -7235,6 +7236,7 @@
 ||smetrics.goinggoinggone.com^$third-party
 ||smetrics.golfgalaxy.com^$third-party
 ||smetrics.gomastercard.com.au^$third-party
+||smetrics.goodyear.com^$third-party
 ||smetrics.grainger.com^$third-party
 ||smetrics.grandandtoy.com^$third-party
 ||smetrics.greatsouthernbank.com.au^$third-party
@@ -7243,7 +7245,6 @@
 ||smetrics.grundfos.com^$third-party
 ||smetrics.guaranteedrate.com^$third-party
 ||smetrics.gvb.ch^$third-party
-||smetrics.h-dnet.com^$third-party
 ||smetrics.ha.com^$third-party
 ||smetrics.handelsbanken.se^$third-party
 ||smetrics.harley-davidson.com^$third-party
@@ -7664,6 +7665,7 @@
 ||smetrics.thoughtworks.com^$third-party
 ||smetrics.three.co.uk^$third-party
 ||smetrics.three.ie^$third-party
+||smetrics.thrivent.com^$third-party
 ||smetrics.tiaa.org^$third-party
 ||smetrics.ticket.se^$third-party
 ||smetrics.ticketsatwork.com^$third-party
@@ -7734,6 +7736,7 @@
 ||smetrics.vwfs.com^$third-party
 ||smetrics.vwfs.de^$third-party
 ||smetrics.vwfs.fr^$third-party
+||smetrics.vwfs.io^$third-party
 ||smetrics.vwfs.it^$third-party
 ||smetrics.waters.com^$third-party
 ||smetrics.webex.com^$third-party
@@ -8023,6 +8026,7 @@
 ||ssp.seznam.cz^$third-party
 ||sspapi-prd.samsungrs.com^$third-party
 ||sssjp.la-z-boy.com^$third-party
+||ssst.houstonpublicmedia.org^$third-party
 ||sst.babypark.de^$third-party
 ||sst.babypark.nl^$third-party
 ||sst.brodo.com^$third-party
@@ -8489,7 +8493,6 @@
 ||stnt.sky.at^$third-party
 ||stnt.sky.de^$third-party
 ||stocks-analytics-events.news.apple-dns.net^$third-party
-||stoen.solacebands.com^$third-party
 ||storeconfig.mistat.intl.xiaomi.com^$third-party
 ||stores-counters.wix.com^$third-party
 ||stork.ibite.company^$third-party
@@ -8928,6 +8931,7 @@
 ||td.caranddriver.com^$third-party
 ||td.cosmopolitan.com^$third-party
 ||td.countryliving.com^$third-party
+||td.deepsync.com^$third-party
 ||td.delish.com^$third-party
 ||td.elle.com^$third-party
 ||td.esquire.com^$third-party
@@ -9769,6 +9773,7 @@
 ||ucounter.ucoz.net^$third-party
 ||udgrbq.malwarebytes.com^$third-party
 ||udkcrj.com^$third-party
+||udrvvx.kabum.com.br^$third-party
 ||uedkm.therange.co.uk^$third-party
 ||uftis.vitaminshoppe.com^$third-party
 ||ugdcxl.timeout.com^$third-party
