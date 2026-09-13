@@ -1,10 +1,15 @@
 {
-  "version": "2026-09-12",
-  "generated": "2026-09-12T08:07:54.004Z",
+  "version": "2026-09-13",
+  "generated": "2026-09-13T08:32:25.347Z",
   "type": "tracking_params_sites",
-  "domain_count": 934,
-  "param_count": 1923,
+  "domain_count": 935,
+  "param_count": 1924,
   "sites": {
+    "spotfund.com": [
+      "SFID",
+      "share_location",
+      "source"
+    ],
     "canadapost-postescanada.ca": [
       "abid",
       "bid",
@@ -4264,8 +4269,7 @@
       "slug"
     ],
     "avaaz.org": [
-      "copy",
-      "share_location"
+      "copy"
     ],
     "cloud.microsoft": [
       "origindomain"
