@@ -2,7 +2,7 @@
 ! Description: Advanced or non-cookie techniques to identify or track devices across sites or sessions (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-10-31T07:06:29.346Z
+! Last modified: 2026-11-01T07:40:46.566Z
 ! Format: AdGuard
 ! Entries: 11220
 !
@@ -4109,6 +4109,7 @@
 ||farmine.net^$third-party
 ||farmonarchy.com^$third-party
 ||farshake.com^$third-party
+||farsnails.com^$third-party
 ||fast-slots.fr^$third-party
 ||fast.adobe.demdex.net^$third-party
 ||fast.ancestry-mcsp.demdex.net^$third-party
@@ -6422,7 +6423,6 @@
 ||magicpool.co^$third-party
 ||magicslimnhatban.com^$third-party
 ||magicsoninlaw.com^$third-party
-||magictrack1.com^$third-party
 ||magisk.me^$third-party
 ||magiskapp.com^$third-party
 ||magiskmodule.com^$third-party

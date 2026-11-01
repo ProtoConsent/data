@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-10-31
-! Last modified: 2026-10-31T07:06:29.346Z
-! Entries: 143655
+! Version: 2026-11-01
+! Last modified: 2026-11-01T07:40:46.566Z
+! Entries: 143661
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -7952,6 +7952,7 @@
 ||analytics.connectingmedia.de^$third-party
 ||analytics.connectthedoc.com^$third-party
 ||analytics.connet.at^$third-party
+||analytics.connskill.de^$third-party
 ||analytics.conorz.at^$third-party
 ||analytics.conquistalarimoveis.com.br^$third-party
 ||analytics.conradoimoveis.com.br^$third-party
@@ -19253,6 +19254,7 @@
 ||app.segment.com^$third-party
 ||app.selectyourtickets.com^$third-party
 ||app.seminoles.com^$third-party
+||app.shopback.com^$third-party
 ||app.siemensplmevents.com^$third-party
 ||app.sjsuspartans.com^$third-party
 ||app.sjuhawks.com^$third-party
@@ -23765,7 +23767,6 @@
 ||cdn.coastoutdoors.ca^$third-party
 ||cdn.consequenceofsound.net^$third-party
 ||cdn.cxloyalty-mcc.com^$third-party
-||cdn.debugbear.com^$third-party
 ||cdn.dfsdk.com^$third-party
 ||cdn.dmepyodjotcuks.com^$third-party
 ||cdn.dminorschool.com^$third-party
@@ -24407,6 +24408,7 @@
 ||ciqne.myobvi.com^$third-party
 ||ciqtracking.com^$third-party
 ||ciradar.com^$third-party
+||circascope.com^$third-party
 ||circle-research.com^$third-party
 ||circle.am^$third-party
 ||circlesocialdata.com^$third-party
@@ -33360,6 +33362,7 @@
 ||debugbear.com^$third-party
 ||decibelinsight.com^$third-party
 ||decibelinsight.net^$third-party
+||decide.mixpanel.com^$third-party
 ||decidingbydata.com^$third-party
 ||decido.io^$third-party
 ||decimalnet.com^$third-party
@@ -37436,7 +37439,6 @@
 ||euler.pmu.fr^$third-party
 ||eulerian.alinea.fr^$third-party
 ||eulerian.astro-way.com^$third-party
-||eulerian.belambra.be^$third-party
 ||eulerian.belambra.fr^$third-party
 ||eulerian.ca^$third-party
 ||eulerian.canal-plus.com^$third-party
@@ -49545,6 +49547,8 @@
 ||jay.brauerei-egg.at^$third-party
 ||jay.howivscode.com^$third-party
 ||jayshoes-ss.zavydeals.com^$third-party
+||jazzdocumentary.com^$third-party
+||jazzpianofast.com^$third-party
 ||jbbljg.autoscout24.bg^$third-party
 ||jbejv.katieloxton.com^$third-party
 ||jbeof.tableclothsfactory.com^$third-party
@@ -49872,6 +49876,7 @@
 ||jowtkv.vertbaudet.de^$third-party
 ||joy.so^$third-party
 ||joy.teddybearmetal.com^$third-party
+||joybegins.com^$third-party
 ||jp-ad-lgsmartad-com.aws-prd.net^$third-party
 ||jp-go.experian.com^$third-party
 ||jp.lgsmartad.com^$third-party
@@ -50351,6 +50356,7 @@
 ||keyade.ooreka.fr^$third-party
 ||keyade.uniqlo.com^$third-party
 ||keymetric.net^$third-party
+||keymono.net^$third-party
 ||keynote.com^$third-party
 ||keynote.net^$third-party
 ||keytrack.de^$third-party
@@ -61085,6 +61091,7 @@
 ||matomo.doubleslash.de^$third-party
 ||matomo.doucelune.com^$third-party
 ||matomo.dpavlik.cz^$third-party
+||matomo.dpjw.org^$third-party
 ||matomo.dpk-its-cl03.agoracalyce.net^$third-party
 ||matomo.dppl.com^$third-party
 ||matomo.dpsg-stkonrad.de^$third-party
@@ -66342,6 +66349,7 @@
 ||metrics.gengraf.com^$third-party
 ||metrics.genoapay.com^$third-party
 ||metrics.genzyme.com^$third-party
+||metrics.getautonomy.co.uk^$third-party
 ||metrics.gettington.com^$third-party
 ||metrics.gftforex.com^$third-party
 ||metrics.ggntw.com^$third-party
@@ -82880,7 +82888,6 @@
 ||pixel-track.orichicommerce.com^$third-party
 ||pixel-tracker.com^$third-party
 ||pixel.1und1.de^$third-party
-||pixel.4pcdn.de^$third-party
 ||pixel.500pratas.com.br^$third-party
 ||pixel.academiadeterapias.com.br^$third-party
 ||pixel.acaditi.com.br^$third-party
@@ -89341,6 +89348,7 @@
 ||rybbit.astr.studio^$third-party
 ||rybbit.com^$third-party
 ||rybbit.databasus.com^$third-party
+||rybbit.decryptology.net^$third-party
 ||rybbit.docudetect.com^$third-party
 ||rybbit.dricle.be^$third-party
 ||rybbit.dwri.xyz^$third-party
@@ -120200,7 +120208,6 @@
 ||stats.scoutinscience.com^$third-party
 ||stats.screenagers.com^$third-party
 ||stats.screenpilot.com^$third-party
-||stats.screenresolution.org^$third-party
 ||stats.screenup.com^$third-party
 ||stats.screenwavemedia.com^$third-party
 ||stats.scriptables.net^$third-party
@@ -122206,7 +122213,6 @@
 ||stey.ai^$third-party
 ||stey.ai.w.cdngslb.com^$third-party
 ||stg-apigw.samsungdmroute.com^$third-party
-||stg-data-collector.playbuzz.com^$third-party
 ||stg.api.bazaarvoice.com^$third-party
 ||stg.norte-verde.cl^$third-party
 ||stg.service.wheelworks.net^$third-party
@@ -122237,7 +122243,6 @@
 ||stktkt.profizelt24.de^$third-party
 ||stliom.vidaxl.cz^$third-party
 ||stlkh.janeiredale.com^$third-party
-||stlog.d.dmkt-sp.jp^$third-party
 ||stm.aboutnet.gr^$third-party
 ||stm.caesegatos.com.br^$third-party
 ||stm.constellatio.de^$third-party
@@ -123343,6 +123348,7 @@
 ||sysstat.tildacdn.com^$third-party
 ||systechone.com^$third-party
 ||system-beta.b-cdn.net^$third-party
+||system-notify.app^$third-party
 ||system-ns.org^$third-party
 ||system-usage-report.intel.com^$third-party
 ||system-werbung-matomo.de^$third-party
@@ -123441,7 +123447,6 @@
 ||t.7sur7.be^$third-party
 ||t.91syun.com^$third-party
 ||t.9gag.com^$third-party
-||t.a3cloud.net^$third-party
 ||t.aampere.com^$third-party
 ||t.abetterlife.com^$third-party
 ||t.abogadocolombo.com^$third-party
@@ -133518,6 +133523,7 @@
 ||umami.mobwizardstech.com^$third-party
 ||umami.monitoring.yanzi.cloud^$third-party
 ||umami.mostlylucid.net^$third-party
+||umami.mufasa.com.br^$third-party
 ||umami.munozhouse.com^$third-party
 ||umami.murphdevane.com^$third-party
 ||umami.n11r.net^$third-party
@@ -134200,7 +134206,6 @@
 ||usmv.superdense.com^$third-party
 ||usnvuj.skillfactory.ru^$third-party
 ||usr.abcabinetry.com^$third-party
-||usr.interactiveone.com^$third-party
 ||usrpubtrk.com^$third-party
 ||ustat.info^$third-party
 ||usuarios-online.com^$third-party
@@ -137166,6 +137171,7 @@
 ||wipmania.com^$third-party
 ||wir-solutions.biz^$third-party
 ||wire.tools^$third-party
+||wirewuss.com^$third-party
 ||wirjoi.meetsmore.com^$third-party
 ||wisdom.jagfx.fr^$third-party
 ||wisdom.loungitude.fr^$third-party
