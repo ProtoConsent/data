@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-11-01
-! Last modified: 2026-11-01T07:40:46.566Z
-! Entries: 143661
+! Version: 2026-11-02
+! Last modified: 2026-11-02T07:48:37.797Z
+! Entries: 143680
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -6841,6 +6841,7 @@
 ||analytics.baxinvestimentos.com.br^$third-party
 ||analytics.bayerischer-wald.org^$third-party
 ||analytics.bayern-evangelisch.de^$third-party
+||analytics.bayerngamers.de^$third-party
 ||analytics.bayfield.dev^$third-party
 ||analytics.baygrape.com^$third-party
 ||analytics.bayreuth-goldener-hirsch.de^$third-party
@@ -11038,6 +11039,7 @@
 ||analytics.jobetage.com^$third-party
 ||analytics.jobnet.dk^$third-party
 ||analytics.jobphoning.com^$third-party
+||analytics.jobsin.brussels^$third-party
 ||analytics.jobsta.at^$third-party
 ||analytics.jodelapis.com^$third-party
 ||analytics.joegetaway.se^$third-party
@@ -14471,6 +14473,7 @@
 ||analytics.rotinanatural.com.br^$third-party
 ||analytics.rotoclone.zone^$third-party
 ||analytics.routemehome.org^$third-party
+||analytics.rover.io^$third-party
 ||analytics.rowe24.de^$third-party
 ||analytics.rowinski.net^$third-party
 ||analytics.roxor.me^$third-party
@@ -24574,6 +24577,7 @@
 ||clearcabbage.com^$third-party
 ||clearclips.com^$third-party
 ||clearcode.cc^$third-party
+||cleargit.com^$third-party
 ||clearspeed.com^$third-party
 ||cleartag.run^$third-party
 ||clearview.ai^$third-party
@@ -44434,6 +44438,7 @@
 ||gtm.t3x2r.com^$third-party
 ||gtm.tableofvisions.com^$third-party
 ||gtm.tadeclinicagem.com.br^$third-party
+||gtm.taginstall.com^$third-party
 ||gtm.tahaeshop.com^$third-party
 ||gtm.tahlili.sa^$third-party
 ||gtm.taigaconstrucao.com.br^$third-party
@@ -51054,6 +51059,7 @@
 ||ky.lgsmartad.com^$third-party
 ||kydcwp.landwirt.com^$third-party
 ||kygelf.ludwig-von-kapff.de^$third-party
+||kyjoyk.modoza.com^$third-party
 ||kyson.kakao.com^$third-party
 ||kyszhn.qvc.jp^$third-party
 ||kyujin2.hyn.co.jp^$third-party
@@ -56668,6 +56674,7 @@
 ||lockhart.logs.roku.com^$third-party
 ||lockview.cn^$third-party
 ||locotrack.net^$third-party
+||locowater.com^$third-party
 ||locust.ausrebellion.earth^$third-party
 ||lodjo.electrifyexpo.com^$third-party
 ||lodlww.carcon.co.jp^$third-party
@@ -58197,6 +58204,7 @@
 ||maissl.com^$third-party
 ||majdmw.gigasport.at^$third-party
 ||majesticmountainrange.com^$third-party
+||majorcleanup.net^$third-party
 ||makan.fr^$third-party
 ||makbti.bandofboats.com^$third-party
 ||make-a-difference.worldvision.dev.cjmadobe.com^$third-party
@@ -58248,6 +58256,7 @@
 ||mandrill.castingcollective.net^$third-party
 ||mandrill.hamptonbeach.live^$third-party
 ||mandrill.yellowfruit.co^$third-party
+||mangamad.com^$third-party
 ||mango.craigsguide.org^$third-party
 ||mango.cyberpowertools.com^$third-party
 ||mango.dignicy.com^$third-party
@@ -65643,6 +65652,7 @@
 ||metrics.bgastore.be^$third-party
 ||metrics.bhf.org.uk^$third-party
 ||metrics.biaxin.com^$third-party
+||metrics.biddertmz.com^$third-party
 ||metrics.bighospitalityexpo.co.uk^$third-party
 ||metrics.biglots.com^$third-party
 ||metrics.bikbok.com^$third-party
@@ -88486,6 +88496,7 @@
 ||revealmobile.com^$third-party
 ||revealytics.com^$third-party
 ||reveneer.moogsoft.com^$third-party
+||revengine-tracker.remp.dailymaverick.co.za^$third-party
 ||revenue-experts.com^$third-party
 ||revenuebump.com^$third-party
 ||revenuehunt.com^$third-party
@@ -113242,6 +113253,7 @@
 ||stat.schuleoberrueti.ch^$third-party
 ||stat.schultschik.de^$third-party
 ||stat.schweizerischer-mieterschutz.ch^$third-party
+||stat.scroogefrog.com^$third-party
 ||stat.scrum-glossar.de^$third-party
 ||stat.scuol.net^$third-party
 ||stat.sd.360.cn^$third-party
@@ -123744,6 +123756,7 @@
 ||t.genentech-access.com^$third-party
 ||t.georgiadogs.com^$third-party
 ||t.getletterpress.com^$third-party
+||t.ghostboard.io^$third-party
 ||t.giro.ch^$third-party
 ||t.glennrottmann.com^$third-party
 ||t.glewee.com^$third-party
@@ -124522,6 +124535,7 @@
 ||tag.perx.ru^$third-party
 ||tag.pluripharma.com.br^$third-party
 ||tag.poomang.com^$third-party
+||tag.prospectdesk.ai^$third-party
 ||tag.publiclands.com^$third-party
 ||tag.remailtarget.com^$third-party
 ||tag.rendeuetop.com.br^$third-party
@@ -130336,6 +130350,7 @@
 ||tracking.atea.fi^$third-party
 ||tracking.atemwegsliga.de^$third-party
 ||tracking.athlon.com^$third-party
+||tracking.atreemo.com^$third-party
 ||tracking.att.com^$third-party
 ||tracking.attackiq.com^$third-party
 ||tracking.attributy.com^$third-party
@@ -131112,6 +131127,7 @@
 ||tracking.pacharge.com^$third-party
 ||tracking.padelmarket.com^$third-party
 ||tracking.pandaros.com.tr^$third-party
+||tracking.pandoiq.com^$third-party
 ||tracking.panomax.com^$third-party
 ||tracking.parcelpending.com^$third-party
 ||tracking.passiveincomemastery.com^$third-party
@@ -131322,6 +131338,7 @@
 ||tracking.suebiads.com^$third-party
 ||tracking.summer.wisc.edu^$third-party
 ||tracking.summitmedia.co.uk^$third-party
+||tracking.swogo.net^$third-party
 ||tracking.sydostran.se^$third-party
 ||tracking.sydsvenskan.se^$third-party
 ||tracking.syncsketch.com^$third-party
@@ -131556,6 +131573,7 @@
 ||trackinginternal.ti.com^$third-party
 ||trackingio.com^$third-party
 ||trackinglabs.com^$third-party
+||trackinglibrary.prodperfect.com^$third-party
 ||trackinglrus.wolterskluwer.com^$third-party
 ||trackingmms.accenture.com^$third-party
 ||trackingmtrack.in^$third-party
@@ -139490,6 +139508,7 @@
 ||aemet.es/js/stats.js^
 ||aerlingus.com/ahktqsewxjhguuxe.js^
 ||aerzteblatt.de/inc/js/ga4.js^
+||affilialab.com/tracker.js^
 ||affirm.com/api/chrono/*/collect^
 ||affirm.com/api/v2/cookie_sent^
 ||affirm.com/api/v2/session/touch_track^

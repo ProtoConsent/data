@@ -2,7 +2,7 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-10-31T07:06:29.346Z
+! Last modified: 2026-11-02T07:48:37.797Z
 ! Format: AdGuard
 ! Entries: 416
 !
@@ -18,6 +18,7 @@
 ||alpaca.thesocialmedwork.com^$third-party
 ||amawidget.yutbr.com^$third-party
 ||analytics-egain.com^$third-party
+||api-v2.shareitgames.com^$third-party
 ||api.addthis.com^$third-party
 ||api.widget.zalo.me^$third-party
 ||api2.wshareit.com^$third-party
@@ -59,7 +60,6 @@
 ||app-sj03.marketo.com^$third-party
 ||app-sj05.marketo.com^$third-party
 ||app-sj06.marketo.com^$third-party
-||app-sj07.marketo.com^$third-party
 ||app-sj08.marketo.com^$third-party
 ||app-sj11.marketo.com^$third-party
 ||app-sj13.marketo.com^$third-party

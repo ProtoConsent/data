@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-11-01
-# Last modified: 2026-11-01T07:40:46.566Z
-# Entries: 10432
+# Version: 2026-11-02
+# Last modified: 2026-11-02T07:48:37.797Z
+# Entries: 10440
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -948,6 +948,7 @@ analytics.reliant.com
 analytics.rever.vn
 analytics.reyrey.net
 analytics.rogersmedia.com
+analytics.rover.io
 analytics.saikosoft.jp
 analytics.salesanalytics.io
 analytics.samsungknox.com
@@ -2776,7 +2777,6 @@ dls-account.di.atlas.samsung.com
 dls-ddc.dqa.samsung.com
 dlt-beacon.dynatrace-managed.com
 dlthst9q2beh8.cloudfront.net
-dlvai1.com
 dm-event.net
 dmanalytics1.com
 dmc1acwvwny3.cloudfront.net
@@ -2925,7 +2925,6 @@ ebiscosme.tamagokichi.com
 ebisstore.tamagokichi.com
 ec-concier.com
 ec-track.com
-ec.editmysite.com
 ec.moengage.com
 ec.thredup.com
 ec.walkme.com
@@ -3193,7 +3192,6 @@ events.yourcx.io
 eventsink.api.redbee.live
 eventsourcing.ms.harmo.me
 eventsproxy.gargantuan.futureplc.com
-eventtracking-log.services.video.ibm.com
 eviltracker.net
 evisitanalyst.com
 evnt.iol.it
@@ -3511,7 +3509,6 @@ geo.thehindu.com
 geo.wpforms.com
 geo.xcel.io
 geo.yahoo.com
-geoadnxs.com
 geobar.ziffdavisinternational.com
 geobeacon.ign.com
 geobytes.com
@@ -3608,7 +3605,6 @@ goldfish.shingle.fi
 goldfish.untitledspreadsheet.com
 golfinglounge.com
 gollum.monotote.com
-gomoxie.solutions
 goneviral.com
 goodandwild.com
 goodfoodtours.com
@@ -3679,6 +3675,7 @@ gtm.heritagepartscentre.com
 gtm.humann.com
 gtm.lercio.it
 gtm.mandesager.dk
+gtm.taginstall.com
 gtm.tipranks.com
 gtm.udemy.com
 gtm.vanmoof.com
@@ -4277,7 +4274,6 @@ leadintel.io
 leadintelligence.co.uk
 leadlab.click
 leadmanagerfx.com
-leadoo.com
 leads.radioedit.iheart.com
 leads.whatboxdigital.com
 leadsmonitor.io
@@ -4864,6 +4860,7 @@ metrics.baitorupro.com
 metrics.bangbros.com
 metrics.barclaycardus.com
 metrics.beyondwords.io
+metrics.biddertmz.com
 metrics.biletino.com
 metrics.biocompare.com
 metrics.bizjournals.com
@@ -6052,7 +6049,6 @@ prod-ue1-metrics.hingeprod.net
 prod.ew.srp.navigacloud.com
 prod.fennec.atp.fox
 prod.tahoe-analytics.publishers.advertising.a2z.com
-prodperfect.com
 producecopy.com
 production-tracking.riviu.co
 profiler-collector.dalyfeds.com
@@ -6147,7 +6143,6 @@ pxi.pub
 pxl.host
 pxl.indeed.com
 pxlad.io
-pxlclnmdecom-a.akamaihd.net
 pxlgnpgecom-a.akamaihd.net
 pxlsrv.net
 pylon.micstatic.com
@@ -6218,7 +6213,6 @@ radar.bayan.ir
 radar.imgsmail.ru
 radar.wizzo.media
 radarurl.com
-rail.bankofamerica.com
 rainbow-prod-jdlog.ldoverseas.com
 rainbownine.net
 rake.11st.co.kr
@@ -6343,6 +6337,7 @@ retrack.q-divisioncdn.de
 retrorays.com
 returnpath.net
 revcatch.com
+revengine-tracker.remp.dailymaverick.co.za
 revenueroll.com
 revi.rcs.it
 revlifter.io
@@ -6365,6 +6360,7 @@ rma.homedepot.com
 rmgdapfnccsharpprd.azurewebsites.net
 rmztc.bostonscally.com
 rnengage.com
+rnfytdve.batterionline.no
 rng-snp-003.com
 roadrunner.ausmv.com.au
 roas-service.store-services-prod.remarkable.com
@@ -6450,7 +6446,6 @@ rumt-zh.com
 runtrafficcliks.com
 rvfrm2005.com
 rvo-cohesion.healthline.com
-rvty.net
 rvv.emol.com
 rw.marchex.io
 rybbit.sg-app.com
@@ -6582,6 +6577,7 @@ sanalytics.ksta.de
 sanalytics.makro.pt
 sanalytics.metro.de
 sanalytics.ncaa.com
+sanalytics.radiobonn.de
 sanalytics.radioerft.de
 sanalytics.radiokoeln.de
 sanalytics.radioleverkusen.de
@@ -6629,6 +6625,7 @@ sc.holtsmilitarybank.co.uk
 sc.lacapitale.com
 sc.muji.net
 sc.natwest.com
+sc.nick.com
 sc.rbs.co.uk
 sc.sc-analytics.jp
 sc.vmware.com
@@ -6656,7 +6653,6 @@ scookies-adobe.kbcbrussels.be
 scorecardresearch.com
 scorpion.gamedao.co
 scounter.rambler.ru
-screeb.app
 scribe.wongnai.com
 script.hotjar.com
 scripts.dadata.com.br
@@ -6694,17 +6690,13 @@ secure-nz.imrworldwide.com
 secure-sg.imrworldwide.com
 secure-stats.pingdom.com
 secure-uk.imrworldwide.com
-secure.24-astute.com
 secure.365-bright-astute.com
 secure.365smartenterprising.com
-secure.365syndicate-smart.com
 secure.alea6badb.com
 secure.bait4role.com
 secure.care5alea.com
 secure.coup7cold.com
 secure.cuba7tilt.com
-secure.data-creativecompany.com
-secure.detailsinventivegroup.com
 secure.emeu0circ.com
 secure.etym6cero.com
 secure.gard4mass.com
@@ -6757,6 +6749,7 @@ secure.wauk1care.com
 secure.wild0army.com
 secureae-edge.ikea.com
 secureanalytic.com
+secureanalytics.avis.be
 secureanalytics.avis.de
 secureanalytics.avis.es
 secureanalytics.avis.fr
@@ -7430,6 +7423,7 @@ smetrics.lww.com
 smetrics.m1.com.sg
 smetrics.mabanque.bnpparibas
 smetrics.mackenzieinvestments.com
+smetrics.mandai.com
 smetrics.mandg.com
 smetrics.manheim.com
 smetrics.mann-filter.com
@@ -7471,6 +7465,7 @@ smetrics.michaelkors.fr
 smetrics.michaelkors.global
 smetrics.michaelkors.uk
 smetrics.miles-and-more.com
+smetrics.minisom.pt
 smetrics.miniusa.com
 smetrics.mitrelinen.co.uk
 smetrics.mitsubishi-motors.co.jp
@@ -7491,6 +7486,7 @@ smetrics.mphasis.com
 smetrics.msccrociere.it
 smetrics.msccruises.ch
 smetrics.msccruises.de
+smetrics.msccruzeiros.com.br
 smetrics.msg.com
 smetrics.multikino.pl
 smetrics.murata.com
@@ -8247,6 +8243,7 @@ stat.rare.ru
 stat.ringier.sk
 stat.rum.cdnvideo.ru
 stat.s.ee
+stat.scroogefrog.com
 stat.segitek.hu
 stat.sputnik.ru
 stat.stars.ru
@@ -8587,6 +8584,7 @@ streamsend.com
 stroeerdigitalmedia.de
 sts.marketingsuite.jp
 stt.dell.com
+stt.nvidia.com
 studioalkaline.com
 stupendoussleet.com
 sturgeon.patentfamily.com
@@ -8622,6 +8620,7 @@ svibeacon.onezapp.com
 svlu.net
 svmarketing.destinationtoronto.com
 svtrd.com
+sw88.24kitchen.pt
 sw88.24kitchen.rs
 sw88.abc.com
 sw88.disney.co.jp
@@ -8629,6 +8628,7 @@ sw88.disneynow.com
 sw88.disneyoutlet.co.uk
 sw88.disneyrewards.com
 sw88.disneystore.de
+sw88.freeform.com
 sw88.fxnetworks.com
 sw88.go.com
 sw88.nationalgeographic.com
@@ -8733,6 +8733,7 @@ t.fuzeon.com
 t.gazyva.com
 t.gene.com
 t.genentech-access.com
+t.ghostboard.io
 t.herceptin.com
 t.hypers.com.cn
 t.imgur.com
@@ -8831,6 +8832,7 @@ tag.mtrcs.samba.tv
 tag.myplay.com
 tag.nifty.com
 tag.perx.ru
+tag.prospectdesk.ai
 tag.rightmessage.com
 tag.rmp.rakuten.com
 tag.shopping-feed.com
@@ -8978,9 +8980,9 @@ taskanalytics.com
 tatpek.com
 tawdryson.com
 taxel.jp
-tazeros.com
 tbe.tom.ru
 tblcontent.com
+tbvjrd.gocase.com.br
 tc-log.mattel163.com
 tc2.hometogo.net
 tccd.douglas.at
@@ -9497,6 +9499,7 @@ tracking-app.diginetica.net
 tracking-live.kr3m.com
 tracking-na.hawksearch.com
 tracking-rce.veeseo.com
+tracking-sales-pop.carecart.io
 tracking-secure.csob.cz
 tracking-web.smobgame.com
 tracking.adactioninteractive.com
@@ -9515,6 +9518,7 @@ tracking.api.shoppinggives.com
 tracking.apprubeus.com.br
 tracking.apptrackerlink.com
 tracking.appwifi.com
+tracking.atreemo.com
 tracking.audio.thisisdax.com
 tracking.autoads.asia
 tracking.b-cdn.net
@@ -9614,6 +9618,7 @@ tracking.oe24.at
 tracking.offerista.com
 tracking.omniture.nt.se
 tracking.overwolf.com
+tracking.pandoiq.com
 tracking.peopleareeverything.com
 tracking.pepsicopartners.com
 tracking.plattformad.com
@@ -9648,7 +9653,9 @@ tracking.smartmeapp.com
 tracking.softwareprojects.com
 tracking.sokrati.com
 tracking.srv2.de
+tracking.ssab.com
 tracking.staff-start.com
+tracking.swogo.net
 tracking.sydsvenskan.se
 tracking.synthasite.net
 tracking.target2sell.com
@@ -9692,6 +9699,7 @@ trackingapi.meinprospekt.de
 trackingbr.zingplay.com
 trackingin.zingplay.com
 trackingio.com
+trackinglibrary.prodperfect.com
 trackingmms.accenture.com
 trackingsea.zingplay.com
 trackingsoft.com
