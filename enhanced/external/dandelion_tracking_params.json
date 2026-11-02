@@ -1,10 +1,16 @@
 {
-  "version": "2026-11-01",
-  "generated": "2026-11-01T10:47:25.314Z",
+  "version": "2026-11-02",
+  "generated": "2026-11-02T11:40:00.293Z",
   "type": "tracking_params_sites",
-  "domain_count": 999,
-  "param_count": 2036,
+  "domain_count": 1000,
+  "param_count": 2037,
   "sites": {
+    "1xlite-12669.pro": [
+      "click_id",
+      "pb",
+      "r",
+      "tag"
+    ],
     "auto.de": [
       "adgroupid",
       "campaign",
