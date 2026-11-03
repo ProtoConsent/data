@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-11-02
-! Last modified: 2026-11-02T07:48:37.797Z
-! Entries: 14454
+! Version: 2026-11-03
+! Last modified: 2026-11-03T08:02:14.104Z
+! Entries: 14456
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -246,7 +246,6 @@
 ||adbsmetrics.genesis.com^$third-party
 ||adbsmetrics.hyundai.com^$third-party
 ||adbsmetrics.kia.com^$third-party
-||adbsmetrics.koreanair.com^$third-party
 ||adbsmetrics.kt.com^$third-party
 ||adbsmetrics.lotterentacar.net^$third-party
 ||adbutter.net^$third-party
@@ -2546,6 +2545,7 @@
 ||data.a.nflshop.com^$third-party
 ||data.a.santanderopenacademy.com^$third-party
 ||data.abc.es^$third-party
+||data.accountsemea.coca-cola.com^$third-party
 ||data.americas.coca-cola.com^$third-party
 ||data.autocasion.com^$third-party
 ||data.brasil.santander.com.br^$third-party
@@ -2558,7 +2558,6 @@
 ||data.communications.manulife.ca^$third-party
 ||data.comunicaciones.bancoentrerios.net^$third-party
 ||data.cs.officedepot.com^$third-party
-||data.customermail.colruyt.be^$third-party
 ||data.deep-content.io^$third-party
 ||data.descubre.interbank.pe^$third-party
 ||data.digital.costco.ca^$third-party
@@ -3337,6 +3336,7 @@
 ||flixsyndication.net^$third-party
 ||floodprincipal.com^$third-party
 ||fls-na.amazon.com^$third-party
+||fluffybirds.com^$third-party
 ||flx1.com^$third-party
 ||flxpxl.com^$third-party
 ||flxr.myplan-c.com^$third-party
@@ -3483,7 +3483,6 @@
 ||gc.newsweek.com^$third-party
 ||gcp.fasthorse.workers.dev^$third-party
 ||gcprivacy.com^$third-party
-||gct.americanexpress.com^$third-party
 ||gdeslon.ru^$third-party
 ||gdm1.toner.fr^$third-party
 ||gecko.rrrelax.app^$third-party
@@ -4171,6 +4170,7 @@
 ||kctag.net^$third-party
 ||keen.io^$third-party
 ||keymetric.net^$third-party
+||keymono.net^$third-party
 ||keywordmax.com^$third-party
 ||kfvhn.oneractive.com^$third-party
 ||kilometrix.de^$third-party
@@ -4319,7 +4319,6 @@
 ||lilydreamer.com^$third-party
 ||limone.iltrovatore.it^$third-party
 ||limpet.pioneerlandscapingllc.com^$third-party
-||limpet.yago.dev^$third-party
 ||line1-log.biligame.net^$third-party
 ||linezing.com^$third-party
 ||link.bhvr.com^$third-party
@@ -5290,6 +5289,7 @@
 ||mule.pricelessai.com^$third-party
 ||multicounter.de^$third-party
 ||multifbpixels.website^$third-party
+||mundi.jcscreens.com^$third-party
 ||mushroomgods.com^$third-party
 ||mv.treehousei.com^$third-party
 ||mva1.maeva.com^$third-party
@@ -6006,7 +6006,6 @@
 ||pr.blogflux.com^$third-party
 ||pr.nss.netease.com^$third-party
 ||prairiedog.freemusic.com.au^$third-party
-||prairiedog.hashnode.com^$third-party
 ||prairiedog.health-improvement.uk^$third-party
 ||prairiedog.xview.us^$third-party
 ||prawn.lionsmouth.digital^$third-party
@@ -6818,6 +6817,7 @@
 ||serious-partners.com^$third-party
 ||server.adapta.org^$third-party
 ||server.classmates.com^$third-party
+||server.ybera.com^$third-party
 ||session.bugsnag.kindle.amazon.dev^$third-party
 ||session.timecommerce.net^$third-party
 ||sessioncam.com^$third-party
@@ -6963,6 +6963,7 @@
 ||skillpuppy.com^$third-party
 ||skink.asorman.io^$third-party
 ||skink.magnastar.net^$third-party
+||skinnytea.net^$third-party
 ||skunk.gameworkersolidarity.com^$third-party
 ||skyglue.com^$third-party
 ||skylightdata.com^$third-party
@@ -7357,7 +7358,6 @@
 ||smetrics.icicibank.com^$third-party
 ||smetrics.ifc.org^$third-party
 ||smetrics.illumina.com^$third-party
-||smetrics.infinitematerialsolutions.com^$third-party
 ||smetrics.inova.org^$third-party
 ||smetrics.insight.com^$third-party
 ||smetrics.intact.ca^$third-party
@@ -7411,6 +7411,7 @@
 ||smetrics.lenscrafters.ca^$third-party
 ||smetrics.lexus.com^$third-party
 ||smetrics.libertymutual.com^$third-party
+||smetrics.lidea.today^$third-party
 ||smetrics.lifestride.com^$third-party
 ||smetrics.lifetime.life^$third-party
 ||smetrics.lilly.com^$third-party
@@ -7507,6 +7508,7 @@
 ||smetrics.nettokom.de^$third-party
 ||smetrics.newark.com^$third-party
 ||smetrics.newbalance.com^$third-party
+||smetrics.newport.com^$third-party
 ||smetrics.nexmo.com^$third-party
 ||smetrics.nfl.com^$third-party
 ||smetrics.ni.com^$third-party
@@ -8152,7 +8154,6 @@
 ||sstats.www.o2.cz^$third-party
 ||sstm.ibs.it^$third-party
 ||sstm.lafeltrinelli.it^$third-party
-||sstrk.green-acres.fr^$third-party
 ||st-nlyss1.plala.or.jp^$third-party
 ||st.bahn.de^$third-party
 ||st.cdnco.us^$third-party
@@ -8570,6 +8571,7 @@
 ||stormgate.production.raptive.com^$third-party
 ||stp.gaffa.se^$third-party
 ||stpbt.softminkyblankets.com^$third-party
+||strack.allianz.at^$third-party
 ||strack.bestbuy.ca^$third-party
 ||strack.collegeboard.org^$third-party
 ||strack.concur.com^$third-party
@@ -10218,7 +10220,6 @@
 ||webtemsilcisi.com^$third-party
 ||webtrack.chd01.com^$third-party
 ||webtrack.pospal.cn^$third-party
-||webtracker.apicasystem.com^$third-party
 ||webtracking.fe.union-investment.de^$third-party
 ||webtraffic.executiveboard.com^$third-party
 ||webtrekk-asia.net^$third-party
@@ -10354,6 +10355,7 @@
 ||xanalytics.vip^$third-party
 ||xiti.com^$third-party
 ||xlisting.jp^$third-party
+||xljqqe.hsn.com^$third-party
 ||xlog-va.tiktokv.com^$third-party
 ||xlog.byteoversea.com^$third-party
 ||xlog.snssdk.com^$third-party
