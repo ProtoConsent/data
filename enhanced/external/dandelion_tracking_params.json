@@ -1,10 +1,24 @@
 {
-  "version": "2026-11-02",
-  "generated": "2026-11-02T11:40:00.293Z",
+  "version": "2026-11-03",
+  "generated": "2026-11-03T11:18:14.742Z",
   "type": "tracking_params_sites",
-  "domain_count": 1000,
-  "param_count": 2037,
+  "domain_count": 1003,
+  "param_count": 2039,
   "sites": {
+    "trck.norisbank.de": [
+      "kid",
+      "kidc",
+      "s_id"
+    ],
+    "dkb.de": [
+      "referer"
+    ],
+    "aktionen.consorsbank.de": [
+      "aid",
+      "cid",
+      "partnerId",
+      "trid"
+    ],
     "1xlite-12669.pro": [
       "click_id",
       "pb",
