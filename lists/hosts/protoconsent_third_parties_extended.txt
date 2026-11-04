@@ -1,8 +1,8 @@
 # Title: ProtoConsent Third Parties Extended
 # Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-# Version: 2026-11-03
-# Last modified: 2026-11-03T08:02:14.104Z
-# Entries: 636
+# Version: 2026-11-04
+# Last modified: 2026-11-04T07:37:02.685Z
+# Entries: 657
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -59,6 +59,7 @@
 0.0.0.0 abrtp2.marketo.com
 0.0.0.0 act-on.com
 0.0.0.0 activecampaign.com
+0.0.0.0 ad.metanetwork.com
 0.0.0.0 ad8a8-97460.api.pushwoosh.com
 0.0.0.0 addnow.com
 0.0.0.0 addthis.com
@@ -80,23 +81,32 @@
 0.0.0.0 api.widget.zalo.me
 0.0.0.0 api2.wshareit.com
 0.0.0.0 apollo.io
+0.0.0.0 app-ab01.marketo.com
 0.0.0.0 app-ab02.marketo.com
 0.0.0.0 app-ab03.marketo.com
 0.0.0.0 app-ab04.marketo.com
 0.0.0.0 app-ab05.marketo.com
 0.0.0.0 app-ab06.marketo.com
+0.0.0.0 app-ab07.marketo.com
+0.0.0.0 app-ab08.marketo.com
 0.0.0.0 app-ab09.marketo.com
 0.0.0.0 app-ab10.marketo.com
 0.0.0.0 app-ab11.marketo.com
+0.0.0.0 app-ab12.marketo.com
 0.0.0.0 app-ab13.marketo.com
 0.0.0.0 app-ab14.marketo.com
 0.0.0.0 app-ab15.marketo.com
 0.0.0.0 app-ab16.marketo.com
+0.0.0.0 app-ab17.marketo.com
+0.0.0.0 app-ab18.marketo.com
 0.0.0.0 app-ab19.marketo.com
 0.0.0.0 app-ab20.marketo.com
+0.0.0.0 app-ab21.marketo.com
+0.0.0.0 app-ab22.marketo.com
 0.0.0.0 app-ab23.marketo.com
 0.0.0.0 app-ab24.marketo.com
 0.0.0.0 app-ab25.marketo.com
+0.0.0.0 app-ab26.marketo.com
 0.0.0.0 app-ab28.marketo.com
 0.0.0.0 app-ab29.marketo.com
 0.0.0.0 app-ab30.marketo.com
@@ -105,15 +115,20 @@
 0.0.0.0 app-ab33.marketo.com
 0.0.0.0 app-ab34.marketo.com
 0.0.0.0 app-aba.marketo.com
+0.0.0.0 app-abb.marketo.com
 0.0.0.0 app-abc.marketo.com
+0.0.0.0 app-abd.marketo.com
 0.0.0.0 app-abj.marketo.com
+0.0.0.0 app-abk.marketo.com
 0.0.0.0 app-abm.marketo.com
 0.0.0.0 app-abq.marketo.com
+0.0.0.0 app-e.marketo.com
 0.0.0.0 app-lon02.marketo.com
 0.0.0.0 app-lon03.marketo.com
 0.0.0.0 app-lon04.marketo.com
 0.0.0.0 app-lon05.marketo.com
 0.0.0.0 app-lon06.marketo.com
+0.0.0.0 app-lon07.marketo.com
 0.0.0.0 app-lon08.marketo.com
 0.0.0.0 app-sj01.marketo.com
 0.0.0.0 app-sj02.marketo.com
@@ -121,12 +136,17 @@
 0.0.0.0 app-sj04.marketo.com
 0.0.0.0 app-sj05.marketo.com
 0.0.0.0 app-sj06.marketo.com
+0.0.0.0 app-sj07.marketo.com
 0.0.0.0 app-sj08.marketo.com
+0.0.0.0 app-sj09.marketo.com
+0.0.0.0 app-sj10.marketo.com
 0.0.0.0 app-sj11.marketo.com
 0.0.0.0 app-sj13.marketo.com
 0.0.0.0 app-sj14.marketo.com
 0.0.0.0 app-sj15.marketo.com
 0.0.0.0 app-sj16.marketo.com
+0.0.0.0 app-sj17.marketo.com
+0.0.0.0 app-sj19.marketo.com
 0.0.0.0 app-sj20.marketo.com
 0.0.0.0 app-sj21.marketo.com
 0.0.0.0 app-sj22.marketo.com
@@ -157,6 +177,7 @@
 0.0.0.0 autopilot.io
 0.0.0.0 b.6sc.co
 0.0.0.0 b2c-mlm.marketo.com
+0.0.0.0 b2c-msm.marketo.com
 0.0.0.0 ba.commentcamarche.net
 0.0.0.0 badge.facebook.com
 0.0.0.0 badges.instagram.com

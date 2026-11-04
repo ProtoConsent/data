@@ -2,12 +2,13 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-11-03T08:02:14.104Z
+! Last modified: 2026-11-04T07:37:02.685Z
 ! Format: AdGuard
-! Entries: 415
+! Entries: 453
 !
 ||6sc.co^$third-party
 ||a.klaviyo.com^$third-party
+||ab-mknodepub.marketo.com^$third-party
 ||abrtp1-cdn.marketo.com^$third-party
 ||abrtp1.marketo.com^$third-party
 ||addthis.com^$third-party
@@ -22,49 +23,72 @@
 ||api.addthis.com^$third-party
 ||api.widget.zalo.me^$third-party
 ||api2.wshareit.com^$third-party
+||app-ab01.marketo.com^$third-party
 ||app-ab02.marketo.com^$third-party
 ||app-ab03.marketo.com^$third-party
 ||app-ab04.marketo.com^$third-party
 ||app-ab05.marketo.com^$third-party
 ||app-ab06.marketo.com^$third-party
+||app-ab07.marketo.com^$third-party
+||app-ab08.marketo.com^$third-party
 ||app-ab09.marketo.com^$third-party
 ||app-ab10.marketo.com^$third-party
 ||app-ab11.marketo.com^$third-party
+||app-ab12.marketo.com^$third-party
 ||app-ab13.marketo.com^$third-party
 ||app-ab14.marketo.com^$third-party
 ||app-ab15.marketo.com^$third-party
 ||app-ab16.marketo.com^$third-party
+||app-ab17.marketo.com^$third-party
+||app-ab18.marketo.com^$third-party
 ||app-ab19.marketo.com^$third-party
 ||app-ab20.marketo.com^$third-party
+||app-ab21.marketo.com^$third-party
+||app-ab22.marketo.com^$third-party
 ||app-ab23.marketo.com^$third-party
 ||app-ab24.marketo.com^$third-party
 ||app-ab25.marketo.com^$third-party
+||app-ab26.marketo.com^$third-party
 ||app-ab28.marketo.com^$third-party
 ||app-ab29.marketo.com^$third-party
 ||app-ab30.marketo.com^$third-party
 ||app-ab31.marketo.com^$third-party
 ||app-ab32.marketo.com^$third-party
+||app-ab33.marketo.com^$third-party
 ||app-ab34.marketo.com^$third-party
 ||app-aba.marketo.com^$third-party
+||app-abb.marketo.com^$third-party
 ||app-abc.marketo.com^$third-party
+||app-abd.marketo.com^$third-party
 ||app-abj.marketo.com^$third-party
+||app-abk.marketo.com^$third-party
+||app-abm.marketo.com^$third-party
+||app-abq.marketo.com^$third-party
+||app-e.marketo.com^$third-party
 ||app-lon02.marketo.com^$third-party
 ||app-lon03.marketo.com^$third-party
 ||app-lon04.marketo.com^$third-party
 ||app-lon05.marketo.com^$third-party
 ||app-lon06.marketo.com^$third-party
+||app-lon07.marketo.com^$third-party
 ||app-lon08.marketo.com^$third-party
 ||app-sj01.marketo.com^$third-party
 ||app-sj02.marketo.com^$third-party
 ||app-sj03.marketo.com^$third-party
+||app-sj04.marketo.com^$third-party
 ||app-sj05.marketo.com^$third-party
 ||app-sj06.marketo.com^$third-party
+||app-sj07.marketo.com^$third-party
 ||app-sj08.marketo.com^$third-party
+||app-sj09.marketo.com^$third-party
+||app-sj10.marketo.com^$third-party
 ||app-sj11.marketo.com^$third-party
 ||app-sj13.marketo.com^$third-party
 ||app-sj14.marketo.com^$third-party
 ||app-sj15.marketo.com^$third-party
 ||app-sj16.marketo.com^$third-party
+||app-sj17.marketo.com^$third-party
+||app-sj19.marketo.com^$third-party
 ||app-sj20.marketo.com^$third-party
 ||app-sj21.marketo.com^$third-party
 ||app-sj22.marketo.com^$third-party
@@ -82,6 +106,7 @@
 ||app.harasocial.com^$third-party
 ||app.marketo.com^$third-party
 ||b.6sc.co^$third-party
+||b2c-msm.marketo.com^$third-party
 ||badge.facebook.com^$third-party
 ||blink.fra-01.braze.eu^$third-party
 ||boldchat.com^$third-party
@@ -92,6 +117,7 @@
 ||campaign-remp.444.hu^$third-party
 ||campaign.gitiho.com^$third-party
 ||campaign.nmobs.com^$third-party
+||cbcnewmedia.pushwoosh.com^$third-party
 ||cdn.onesignal.com^$third-party
 ||cdn.pushwoosh.com^$third-party
 ||cdn.socialannex.com^$third-party
@@ -138,8 +164,17 @@
 ||massrelevance.com^$third-party
 ||metadata.io^$third-party
 ||metrics.api.drift.com^$third-party
+||micro.marketo.com^$third-party
 ||mobile-campaigns.avast.com^$third-party
 ||munchkin.marketo.net^$third-party
+||na-ab19.marketo.com^$third-party
+||na-ab20.marketo.com^$third-party
+||na-ab25.marketo.com^$third-party
+||na-ab26.marketo.com^$third-party
+||na-ab33.marketo.com^$third-party
+||na-b.marketo.com^$third-party
+||na-g.marketo.com^$third-party
+||na-sj23.marketo.com^$third-party
 ||onesignal.com^$third-party
 ||opensharecount.com^$third-party
 ||optinmonster.com^$third-party
@@ -156,6 +191,7 @@
 ||pushengage.com^$third-party
 ||pushwoosh.com^$third-party
 ||q.addthis.com^$third-party
+||rambler.pushwoosh.com^$third-party
 ||referrer.disqus.com^$third-party
 ||remp-campaign.golem.de^$third-party
 ||richmedia.pushwoosh.com^$third-party
@@ -170,6 +206,7 @@
 ||sharefb.cnnd.vn^$third-party
 ||sharethis.com^$third-party
 ||simplesharebuttons.com^$third-party
+||sj-mknodepub.marketo.com^$third-party
 ||sjrtp-cdn.marketo.com^$third-party
 ||sjrtp1.marketo.com^$third-party
 ||sjrtp2-cdn.marketo.com^$third-party
@@ -191,6 +228,7 @@
 ||socialloginplus-apps.haravan.com^$third-party
 ||ssl.widgets.webengage.com^$third-party
 ||static-tracking.klaviyo.com^$third-party
+||sulake.pushwoosh.com^$third-party
 ||sync.sharethis.com^$third-party
 ||t.sharethis.com^$third-party
 ||tempest.services.disqus.com^$third-party
