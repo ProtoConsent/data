@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-04",
+  "version": "2026-11-05",
   "type": "cmp_detectors",
-  "generated": "2026-11-04T11:32:37.069Z",
+  "generated": "2026-11-05T11:29:39.380Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "8b79bfb6bb018c24",
+  "autoconsent_tree_hash": "fc373d845f91cce2",
   "cmp_count": 990,
   "detectors": {
     "123inkt": {
@@ -1716,6 +1716,14 @@
       ],
       "showing": [
         ".consent-studio [cs-role=consent-banner]"
+      ]
+    },
+    "consiliumeuropaeu": {
+      "present": [
+        "gsc-cookie-banner"
+      ],
+      "showing": [
+        "gsc-cookie-banner"
       ]
     },
     "controlgame": {
@@ -7886,6 +7894,14 @@
         ".cookie-notify:has(a[href*=\"cookies_policy\"]) > button.btn, .cookies-policy-block:has(a[href*=\"cookies_policy\"]) > button.btn, .header__cookie:has(a[href*=\"cookies_policy\"]) > button.btn"
       ]
     },
+    "typo3cookieconsent": {
+      "present": [
+        "#js-cookieconsent [data-cookieconsent-accept-none]"
+      ],
+      "showing": [
+        "#js-cookieconsent"
+      ]
+    },
     "tyreseeker": {
       "present": [
         "#cookieBanner #manage[data-bs-target='#cookieModalSettings']"
@@ -8386,13 +8402,6 @@
         "web.de"
       ]
     },
-    "webflow": {
-      "present": [],
-      "showing": [
-        ".fs-cc-components,[fs-cc=banner]",
-        ".fs-cc-components,[fs-cc=banner] [fs-cc=allow]"
-      ]
-    },
     "webrewind_com": {
       "present": [
         ".cookie-banner .btn-accept-selected"
@@ -8402,15 +8411,6 @@
       ],
       "domains": [
         "webrewind.com"
-      ]
-    },
-    "websale": {
-      "present": [
-        ".ws_useragreement4alls",
-        "[onclick^='ws_agreementcookies_set'], [onclick*='wsConsentDefault']"
-      ],
-      "showing": [
-        ":has(> .ws_useragreement4alls)"
       ]
     },
     "wp_dsgvo_tools": {

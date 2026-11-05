@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-04",
+  "version": "2026-11-05",
   "type": "cmp_site",
-  "generated": "2026-11-04T11:32:37.055Z",
+  "generated": "2026-11-05T11:29:39.367Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "8b79bfb6bb018c24",
+  "autoconsent_tree_hash": "fc373d845f91cce2",
   "cmp_count": 848,
   "signatures": {
     "123inkt": {
@@ -9056,6 +9056,17 @@
         ]
       }
     },
+    "typo3cookieconsent": {
+      "selector": "#js-cookieconsent",
+      "detectors": {
+        "present": [
+          "#js-cookieconsent [data-cookieconsent-accept-none]"
+        ],
+        "showing": [
+          "#js-cookieconsent"
+        ]
+      }
+    },
     "u12dataprotectionnotice": {
       "selector": ".u12-data-protection-notice",
       "detectors": {
@@ -9591,15 +9602,6 @@
         ],
         "showing": [
           "#cookie-notice .btn-configure"
-        ]
-      }
-    },
-    "webflow": {
-      "selector": ".fs-cc-components,[fs-cc=banner]",
-      "detectors": {
-        "showing": [
-          ".fs-cc-components,[fs-cc=banner]",
-          ".fs-cc-components,[fs-cc=banner] [fs-cc=allow]"
         ]
       }
     },
