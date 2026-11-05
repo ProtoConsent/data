@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
-  "version": "2026-11-04",
-  "generated": "2026-11-04T07:37:02.685Z",
+  "version": "2026-11-05",
+  "generated": "2026-11-05T08:00:13.099Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -59,7 +59,6 @@
     "abrtp2.marketo.com",
     "act-on.com",
     "activecampaign.com",
-    "ad.metanetwork.com",
     "ad8a8-97460.api.pushwoosh.com",
     "addnow.com",
     "addthis.com",
@@ -664,7 +663,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 657,
+  "domain_count": 656,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",
