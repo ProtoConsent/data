@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-05",
+  "version": "2026-11-07",
   "type": "cmp_detectors",
-  "generated": "2026-11-05T11:29:39.380Z",
+  "generated": "2026-11-07T10:40:17.173Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "fc373d845f91cce2",
+  "autoconsent_tree_hash": "9cbcbab662c30668",
   "cmp_count": 990,
   "detectors": {
     "123inkt": {
@@ -3737,6 +3737,22 @@
         "hl.co.uk"
       ]
     },
+    "hmgroupturbocookie": {
+      "present": [
+        ".cookie-consent-popup #banner-accept-btn"
+      ],
+      "showing": [
+        ".cookie-consent-popup"
+      ]
+    },
+    "hmrctrackingconsent": {
+      "present": [
+        ".cbanner-govuk-cookie-banner button[value=reject]"
+      ],
+      "showing": [
+        ".cbanner-govuk-cookie-banner button[value=reject]"
+      ]
+    },
     "holidaymedia": {
       "present": [
         "dialog[data-cookie-consent] [data-cookie-accept]"
@@ -4878,6 +4894,14 @@
       ],
       "showing": [
         "[data-testid=\"cookie-policy-dialog\"] [data-cookiebanner=\"accept_only_essential_button\"], [data-testid=\"cookie-policy-manage-dialog\"] [data-cookiebanner=\"accept_only_essential_button\"]"
+      ]
+    },
+    "metacookiedialogv2": {
+      "present": [
+        "xpath///div[@role='dialog' and @aria-modal='true']//div[following-sibling::div[@aria-hidden='true'][.//div[@role='button' and @aria-disabled='true']]]/div[@role='button' and @tabindex='0']"
+      ],
+      "showing": [
+        "xpath///div[@role='dialog' and @aria-modal='true']//div[following-sibling::div[@aria-hidden='true'][.//div[@role='button' and @aria-disabled='true']]]/div[@role='button' and @tabindex='0']"
       ]
     },
     "meteored": {
@@ -6356,6 +6380,22 @@
       ],
       "domains": [
         "reuma.nl"
+      ]
+    },
+    "reverb": {
+      "present": [
+        ".rc-notice a[href$='/cookies-policy']"
+      ],
+      "showing": [
+        ".rc-notice a[href$='/cookies-policy']"
+      ]
+    },
+    "reverbgdprnag": {
+      "present": [
+        ".gdpr-alert .gdpr-alert__close"
+      ],
+      "showing": [
+        ".gdpr-alert .gdpr-alert__overview"
       ]
     },
     "reviewsolicitors_co_uk": {
@@ -8359,58 +8399,6 @@
       ],
       "showing": [
         ".warning.warning--active:has(.warning__apply)"
-      ]
-    },
-    "warszawa19115_pl": {
-      "present": [
-        ".MuiDialog-root [role=dialog] img[src*=\"portalCKM-cookie-dialog\"]"
-      ],
-      "showing": [
-        ".MuiDialog-root [role=dialog] img[src*=\"portalCKM-cookie-dialog\"]"
-      ],
-      "domains": [
-        "warszawa19115.pl"
-      ]
-    },
-    "watchfinder": {
-      "present": [
-        "#cookie-notice .btn-configure",
-        "#modal_cookie-consent"
-      ],
-      "showing": [
-        "#cookie-notice .btn-configure"
-      ]
-    },
-    "wbdlegalterms": {
-      "present": [
-        "dialog#ltp-dialog, [id=\"id/ltp\"]",
-        "iframe[id^=\"ngxFrame\"][data-src]"
-      ],
-      "showing": [
-        "dialog#ltp-dialog[open], [id=\"id/ltp/banner\"]"
-      ]
-    },
-    "web_de": {
-      "present": [
-        "#save-all-pur",
-        "#reminder"
-      ],
-      "showing": [
-        "#reminder"
-      ],
-      "domains": [
-        "web.de"
-      ]
-    },
-    "webrewind_com": {
-      "present": [
-        ".cookie-banner .btn-accept-selected"
-      ],
-      "showing": [
-        ".cookie-banner .btn-accept-selected"
-      ],
-      "domains": [
-        "webrewind.com"
       ]
     },
     "wp_dsgvo_tools": {

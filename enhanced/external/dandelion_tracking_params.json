@@ -1,10 +1,13 @@
 {
-  "version": "2026-11-03",
-  "generated": "2026-11-03T11:18:14.742Z",
+  "version": "2026-11-07",
+  "generated": "2026-11-07T10:40:17.701Z",
   "type": "tracking_params_sites",
-  "domain_count": 1003,
-  "param_count": 2039,
+  "domain_count": 1005,
+  "param_count": 2042,
   "sites": {
+    "euronews.com": [
+      "webPushId"
+    ],
     "trck.norisbank.de": [
       "kid",
       "kidc",
@@ -4680,6 +4683,10 @@
     ],
     "entire.com": [
       "redirected_from"
+    ],
+    "oldphoneworks.com": [
+      "_su_rec",
+      "_su_rec_id"
     ],
     "ikea.com": [
       "f"

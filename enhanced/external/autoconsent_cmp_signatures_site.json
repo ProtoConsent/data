@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-05",
+  "version": "2026-11-07",
   "type": "cmp_site",
-  "generated": "2026-11-05T11:29:39.367Z",
+  "generated": "2026-11-07T10:40:17.160Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "fc373d845f91cce2",
-  "cmp_count": 848,
+  "autoconsent_tree_hash": "9cbcbab662c30668",
+  "cmp_count": 850,
   "signatures": {
     "123inkt": {
       "selector": ".c-simple-popup:has(.c-cookie-popup)",
@@ -4310,6 +4310,28 @@
         "hl.co.uk"
       ]
     },
+    "hmgroupturbocookie": {
+      "selector": ".cookie-consent-popup",
+      "detectors": {
+        "present": [
+          ".cookie-consent-popup #banner-accept-btn"
+        ],
+        "showing": [
+          ".cookie-consent-popup"
+        ]
+      }
+    },
+    "hmrctrackingconsent": {
+      "selector": ".cbanner-govuk-cookie-banner",
+      "detectors": {
+        "present": [
+          ".cbanner-govuk-cookie-banner button[value=reject]"
+        ],
+        "showing": [
+          ".cbanner-govuk-cookie-banner button[value=reject]"
+        ]
+      }
+    },
     "holidaymedia": {
       "selector": "dialog[data-cookie-consent]:has([data-cookie-accept])",
       "detectors": {
@@ -7250,6 +7272,17 @@
         "reuma.nl"
       ]
     },
+    "reverb": {
+      "selector": ".rc-notice:has(a[href$='/cookies-policy'])",
+      "detectors": {
+        "present": [
+          ".rc-notice a[href$='/cookies-policy']"
+        ],
+        "showing": [
+          ".rc-notice a[href$='/cookies-policy']"
+        ]
+      }
+    },
     "reviewsolicitors_co_uk": {
       "selector": "#cookiePopUp, #manageCookieSettingsPopUp",
       "detectors": {
@@ -9590,18 +9623,6 @@
         ],
         "showing": [
           ".warning.warning--active:has(.warning__apply)"
-        ]
-      }
-    },
-    "watchfinder": {
-      "selector": "#cookie-notice:has(.btn-configure)",
-      "detectors": {
-        "present": [
-          "#cookie-notice .btn-configure",
-          "#modal_cookie-consent"
-        ],
-        "showing": [
-          "#cookie-notice .btn-configure"
         ]
       }
     },
