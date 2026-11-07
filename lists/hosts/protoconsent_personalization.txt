@@ -1,15 +1,18 @@
 # Title: ProtoConsent Personalization
 # Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)
-# Version: 2026-11-06
-# Last modified: 2026-11-06T08:01:52.195Z
-# Entries: 98
+# Version: 2026-11-07
+# Last modified: 2026-11-07T07:19:54.266Z
+# Entries: 107
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
 0.0.0.0 1plusx.com
 0.0.0.0 acxiom.com
 0.0.0.0 ad.crwdcntrl.net
-0.0.0.0 an.reflektion.com
+0.0.0.0 ad.monetate.net
+0.0.0.0 af.monetate.net
+0.0.0.0 amp.permutive.com
+0.0.0.0 api.monetate.net
 0.0.0.0 api.rlcdn.com
 0.0.0.0 api.sail-personalize.com
 0.0.0.0 api.trueaudience.io
@@ -17,10 +20,11 @@
 0.0.0.0 apptegic.com
 0.0.0.0 async-px-eu.dynamicyield.com
 0.0.0.0 async-px.dynamicyield.com
+0.0.0.0 ats.rlcdn.com
 0.0.0.0 audience-pccw.viu.com
 0.0.0.0 audience.acpm.fr
-0.0.0.0 audienceye.com
 0.0.0.0 audigent.com
+0.0.0.0 aws-api.sail-personalize.com
 0.0.0.0 barilliance.com
 0.0.0.0 barilliance.net
 0.0.0.0 bluekai.com
@@ -33,13 +37,16 @@
 0.0.0.0 counter.personyze.com
 0.0.0.0 crwdcntrl.net
 0.0.0.0 cuebiq.com
+0.0.0.0 d.monetate.net
 0.0.0.0 di.rlcdn.com
 0.0.0.0 dmp.brand-display.com
 0.0.0.0 dmp.sbermarketing.ru
 0.0.0.0 dstillery.com
 0.0.0.0 dynamicyield.com
+0.0.0.0 ei.rlcdn.com
 0.0.0.0 emarsys.com
 0.0.0.0 emarsys.net
+0.0.0.0 engine.monetate.net
 0.0.0.0 epoq.de
 0.0.0.0 events.launchdarkly.com
 0.0.0.0 events.split.io
@@ -61,7 +68,6 @@
 0.0.0.0 maxymiser.net
 0.0.0.0 media.richrelevance.com
 0.0.0.0 mediarithmics.com
-0.0.0.0 mobile-events.eservice.emarsys.net
 0.0.0.0 monetate.com
 0.0.0.0 monetate.net
 0.0.0.0 movableink.com
@@ -86,8 +92,10 @@
 0.0.0.0 rlcdn.com
 0.0.0.0 sail-personalize.com
 0.0.0.0 sailthru.com
+0.0.0.0 sb.monetate.net
 0.0.0.0 scarabresearch.com
 0.0.0.0 sdk-cdn.optimove.net
+0.0.0.0 se.monetate.net
 0.0.0.0 segmentify.com
 0.0.0.0 semasio.com
 0.0.0.0 sirdata.com
@@ -102,5 +110,6 @@
 0.0.0.0 tags.cmp.tail.digital
 0.0.0.0 tail.digital
 0.0.0.0 telemetry.split.io
+0.0.0.0 tv.rlcdn.com
 0.0.0.0 useinsider.com
 0.0.0.0 zeotap.com

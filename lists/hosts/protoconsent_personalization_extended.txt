@@ -1,8 +1,8 @@
 # Title: ProtoConsent Personalization Extended
 # Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)
-# Version: 2026-11-06
-# Last modified: 2026-11-06T08:01:52.195Z
-# Entries: 406
+# Version: 2026-11-07
+# Last modified: 2026-11-07T07:19:54.266Z
+# Entries: 411
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -153,7 +153,6 @@
 0.0.0.0 alx-api.exponea.com
 0.0.0.0 amp.permutive.com
 0.0.0.0 amway-api.exponea.com
-0.0.0.0 an.reflektion.com
 0.0.0.0 analytics.bluekai.com
 0.0.0.0 analytics.rlcdn.com
 0.0.0.0 api-bho.exponea.com
@@ -236,6 +235,7 @@
 0.0.0.0 dynamicyield.com
 0.0.0.0 e.monetate.net
 0.0.0.0 ei.rlcdn.com
+0.0.0.0 ejp.rlcdn.com
 0.0.0.0 em.dynamicyield.com
 0.0.0.0 emarsys.com
 0.0.0.0 emarsys.net
@@ -286,6 +286,7 @@
 0.0.0.0 intentiq.com
 0.0.0.0 justjared.crwdcntrl.net
 0.0.0.0 kasamba-webtracksdk.optimove.net
+0.0.0.0 lb.mediarithmics.com
 0.0.0.0 log-dmp.suishenyun.cn
 0.0.0.0 lotame.com
 0.0.0.0 lottogotracksdk.optimove.net
@@ -295,7 +296,7 @@
 0.0.0.0 me-device-event-api-glb.gservice.emarsys.net
 0.0.0.0 media.richrelevance.com
 0.0.0.0 mediarithmics.com
-0.0.0.0 mobile-events.eservice.emarsys.net
+0.0.0.0 mn.rlcdn.com
 0.0.0.0 mobile-sdk-config.gservice.emarsys.net
 0.0.0.0 monetate.com
 0.0.0.0 monetate.net
@@ -380,6 +381,7 @@
 0.0.0.0 st-eu.dynamicyield.com
 0.0.0.0 st.dynamicyield.com
 0.0.0.0 static.audience.media
+0.0.0.0 static.mediarithmics.com
 0.0.0.0 static.scarabresearch.com
 0.0.0.0 stats.sirdata.com
 0.0.0.0 stats.sirdata.eu
@@ -387,6 +389,8 @@
 0.0.0.0 superficial.crwdcntrl.net
 0.0.0.0 surge.bombora.com
 0.0.0.0 sync.crwdcntrl.net
+0.0.0.0 t-ext-split.rlcdn.com
+0.0.0.0 t.rlcdn.com
 0.0.0.0 tags.bluekai.com.edgekey.net
 0.0.0.0 tags.cmp.tail.digital
 0.0.0.0 tags.crwdcntrl.net
@@ -399,6 +403,7 @@
 0.0.0.0 ui-analytics.gservice.emarsys.net
 0.0.0.0 uip.semasio.net
 0.0.0.0 uipglob.semasio.net
+0.0.0.0 uipus.semasio.net
 0.0.0.0 us-1.evergage.com
 0.0.0.0 us.optimove.net
 0.0.0.0 useinsider.com

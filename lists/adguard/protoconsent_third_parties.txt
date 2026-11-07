@@ -2,13 +2,12 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-11-06T08:01:52.195Z
+! Last modified: 2026-11-07T07:19:54.266Z
 ! Format: AdGuard
-! Entries: 388
+! Entries: 374
 !
 ||6sc.co^$third-party
 ||a.klaviyo.com^$third-party
-||abrtp1-cdn.marketo.com^$third-party
 ||abrtp1.marketo.com^$third-party
 ||addthis.com^$third-party
 ||addthiscdn.com^$third-party
@@ -31,8 +30,10 @@
 ||app-ab24.marketo.com^$third-party
 ||app-ab26.marketo.com^$third-party
 ||app-ab28.marketo.com^$third-party
+||app-ab29.marketo.com^$third-party
 ||app-ab30.marketo.com^$third-party
 ||app-ab31.marketo.com^$third-party
+||app-aba.marketo.com^$third-party
 ||app-abc.marketo.com^$third-party
 ||app-lon03.marketo.com^$third-party
 ||app-lon05.marketo.com^$third-party
@@ -53,7 +54,6 @@
 ||app-sji.marketo.com^$third-party
 ||app-sjn.marketo.com^$third-party
 ||app-sjo.marketo.com^$third-party
-||app-sjqe.marketo.com^$third-party
 ||app-sn01.marketo.com^$third-party
 ||app.harasocial.com^$third-party
 ||app.marketo.com^$third-party
@@ -68,11 +68,13 @@
 ||campaign-remp.444.hu^$third-party
 ||campaign.gitiho.com^$third-party
 ||campaign.nmobs.com^$third-party
+||cdn.branch.io^$third-party
 ||cdn.onesignal.com^$third-party
 ||cdn.pushwoosh.com^$third-party
 ||cdn.socialannex.com^$third-party
 ||chatbox-widget.botbanhang.vn^$third-party
 ||chimpstatic.com^$third-party
+||clusava.fra-01.braze.eu^$third-party
 ||count-server.sharethis.com^$third-party
 ||cp.pushwoosh.com^$third-party
 ||crossingshare.com^$third-party
@@ -94,7 +96,6 @@
 ||gotchosen.com^$third-party
 ||ha-api.pushwoosh.com^$third-party
 ||ha.pushwoosh.com^$third-party
-||haaretz.pushwoosh.com^$third-party
 ||hellobar.com^$third-party
 ||hubspot.com^$third-party
 ||hubspotlinks.com^$third-party
@@ -107,7 +108,6 @@
 ||l.sharethis.com^$third-party
 ||leadfeeder.com^$third-party
 ||links.services.disqus.com^$third-party
-||lonrtp1-cdn.marketo.com^$third-party
 ||lonrtp1.marketo.com^$third-party
 ||marketo.com^$third-party
 ||massrelevance.com^$third-party
@@ -120,7 +120,6 @@
 ||optinmonster.com^$third-party
 ||page.widget.zalo.me^$third-party
 ||pardot.com^$third-party
-||pd.sharethis.com^$third-party
 ||pi.pardot.com^$third-party
 ||platform-api.sharethis.com^$third-party
 ||platform.linkedin.com^$third-party
@@ -132,8 +131,6 @@
 ||pushwoosh.com^$third-party
 ||referrer.disqus.com^$third-party
 ||remp-campaign.golem.de^$third-party
-||richmedia.pushwoosh.com^$third-party
-||rtp-static.marketo.com^$third-party
 ||s.sharethis.com^$third-party
 ||screenshare.pics^$third-party
 ||sd.sharethis.com^$third-party
@@ -144,23 +141,14 @@
 ||sharefb.cnnd.vn^$third-party
 ||sharethis.com^$third-party
 ||simplesharebuttons.com^$third-party
-||sjrtp-cdn.marketo.com^$third-party
 ||sjrtp1.marketo.com^$third-party
-||sjrtp2-cdn.marketo.com^$third-party
 ||sjrtp2.marketo.com^$third-party
-||sjrtp3-cdn.marketo.com^$third-party
 ||sjrtp3.marketo.com^$third-party
-||sjrtp4-cdn.marketo.com^$third-party
 ||sjrtp4.marketo.com^$third-party
-||sjrtp5-cdn.marketo.com^$third-party
 ||sjrtp5.marketo.com^$third-party
-||sjrtp6-cdn.marketo.com^$third-party
 ||sjrtp6.marketo.com^$third-party
-||sjrtp7-cdn.marketo.com^$third-party
 ||sjrtp7.marketo.com^$third-party
-||sjrtp8-cdn.marketo.com^$third-party
 ||sjrtp8.marketo.com^$third-party
-||snrtp-cdn.marketo.com^$third-party
 ||snrtp1.marketo.com^$third-party
 ||socialloginplus-apps.haravan.com^$third-party
 ||ssl.widgets.webengage.com^$third-party
@@ -171,12 +159,10 @@
 ||tidio.co^$third-party
 ||track-eu1.hubspot.com^$third-party
 ||track-na2.hubspot.com^$third-party
-||uefa.pushwoosh.com^$third-party
 ||videohub.tv^$third-party
 ||w.sharethis.com^$third-party
 ||wd-edge.sharethis.com^$third-party
 ||weasel.sharethegoods.ca^$third-party
-||wetter.pushwoosh.com^$third-party
 ||widget-api.dmm.co.jp^$third-party
 ||widget-api.dmm.com^$third-party
 ||widget-view.dmm.co.jp^$third-party

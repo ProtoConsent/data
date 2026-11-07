@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Personalization Extended
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)
-! Version: 2026-11-06
-! Last modified: 2026-11-06T08:01:52.195Z
-! Entries: 421
+! Version: 2026-11-07
+! Last modified: 2026-11-07T07:19:54.266Z
+! Entries: 426
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -154,7 +154,6 @@
 ||alx-api.exponea.com^$third-party
 ||amp.permutive.com^$third-party
 ||amway-api.exponea.com^$third-party
-||an.reflektion.com^$third-party
 ||analytics.bluekai.com^$third-party
 ||analytics.rlcdn.com^$third-party
 ||api-bho.exponea.com^$third-party
@@ -237,6 +236,7 @@
 ||dynamicyield.com^$third-party
 ||e.monetate.net^$third-party
 ||ei.rlcdn.com^$third-party
+||ejp.rlcdn.com^$third-party
 ||em.dynamicyield.com^$third-party
 ||emarsys.com^$third-party
 ||emarsys.net^$third-party
@@ -287,6 +287,7 @@
 ||intentiq.com^$third-party
 ||justjared.crwdcntrl.net^$third-party
 ||kasamba-webtracksdk.optimove.net^$third-party
+||lb.mediarithmics.com^$third-party
 ||log-dmp.suishenyun.cn^$third-party
 ||lotame.com^$third-party
 ||lottogotracksdk.optimove.net^$third-party
@@ -296,7 +297,7 @@
 ||me-device-event-api-glb.gservice.emarsys.net^$third-party
 ||media.richrelevance.com^$third-party
 ||mediarithmics.com^$third-party
-||mobile-events.eservice.emarsys.net^$third-party
+||mn.rlcdn.com^$third-party
 ||mobile-sdk-config.gservice.emarsys.net^$third-party
 ||monetate.com^$third-party
 ||monetate.net^$third-party
@@ -381,6 +382,7 @@
 ||st-eu.dynamicyield.com^$third-party
 ||st.dynamicyield.com^$third-party
 ||static.audience.media^$third-party
+||static.mediarithmics.com^$third-party
 ||static.scarabresearch.com^$third-party
 ||stats.sirdata.com^$third-party
 ||stats.sirdata.eu^$third-party
@@ -388,6 +390,8 @@
 ||superficial.crwdcntrl.net^$third-party
 ||surge.bombora.com^$third-party
 ||sync.crwdcntrl.net^$third-party
+||t-ext-split.rlcdn.com^$third-party
+||t.rlcdn.com^$third-party
 ||tags.bluekai.com.edgekey.net^$third-party
 ||tags.cmp.tail.digital^$third-party
 ||tags.crwdcntrl.net^$third-party
@@ -400,6 +404,7 @@
 ||ui-analytics.gservice.emarsys.net^$third-party
 ||uip.semasio.net^$third-party
 ||uipglob.semasio.net^$third-party
+||uipus.semasio.net^$third-party
 ||us-1.evergage.com^$third-party
 ||us.optimove.net^$third-party
 ||useinsider.com^$third-party

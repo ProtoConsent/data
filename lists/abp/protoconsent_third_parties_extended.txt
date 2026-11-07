@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Third Parties Extended
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-! Version: 2026-11-06
-! Last modified: 2026-11-06T08:01:52.195Z
-! Entries: 818
+! Version: 2026-11-07
+! Last modified: 2026-11-07T07:19:54.266Z
+! Entries: 817
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -54,7 +54,6 @@
 ||aajtak.pushwoosh.com^$third-party
 ||ab-mknodepub.marketo.com^$third-party
 ||ab023-deb30.api.pushwoosh.com^$third-party
-||abrtp1-cdn.marketo.com^$third-party
 ||abrtp1.marketo.com^$third-party
 ||abrtp2-cdn.marketo.com^$third-party
 ||abrtp2.marketo.com^$third-party
@@ -98,6 +97,7 @@
 ||app-ab32.marketo.com^$third-party
 ||app-ab33.marketo.com^$third-party
 ||app-ab34.marketo.com^$third-party
+||app-aba.marketo.com^$third-party
 ||app-abc.marketo.com^$third-party
 ||app-abj.marketo.com^$third-party
 ||app-abm.marketo.com^$third-party
@@ -125,7 +125,6 @@
 ||app-sjl.marketo.com^$third-party
 ||app-sjn.marketo.com^$third-party
 ||app-sjo.marketo.com^$third-party
-||app-sjqe.marketo.com^$third-party
 ||app-sjst.marketo.com^$third-party
 ||app-sn01.marketo.com^$third-party
 ||app.harasocial.com^$third-party
@@ -204,6 +203,7 @@
 ||crossingshare.com^$third-party
 ||crowdynews.com^$third-party
 ||cursa.iad-03.braze.com^$third-party
+||customer.fra-01.braze.eu^$third-party
 ||customer.iad-03.braze.com^$third-party
 ||customer.io^$third-party
 ||d2786-8f9b1.api.pushwoosh.com^$third-party
@@ -308,6 +308,7 @@
 ||intercom.io^$third-party
 ||investors.marketo.com^$third-party
 ||ipv6.6sc.co^$third-party
+||istio.api.drift.com^$third-party
 ||iterable.com^$third-party
 ||izar.iad-03.braze.com^$third-party
 ||j.6sc.co^$third-party
@@ -337,7 +338,6 @@
 ||liveperson.net^$third-party
 ||log.storelocatorwidgets.com^$third-party
 ||lon-mknodepub.marketo.com^$third-party
-||lonrtp1-cdn.marketo.com^$third-party
 ||lonrtp1.marketo.com^$third-party
 ||loox.io^$third-party
 ||mail.ru^$third-party
@@ -349,6 +349,7 @@
 ||markerly.com^$third-party
 ||marketo.com^$third-party
 ||massrelevance.com^$third-party
+||media.dsp-prod.demandbase.com^$third-party
 ||media24.pushwoosh.com^$third-party
 ||meebo.com^$third-party
 ||metadata.io^$third-party
@@ -426,6 +427,7 @@
 ||postscript.io^$third-party
 ||powerreviews.com^$third-party
 ||preitem.wshareit.com^$third-party
+||presence.api.drift.com^$third-party
 ||preview.pardot.com^$third-party
 ||privy.com^$third-party
 ||pscp.tv^$third-party
@@ -445,16 +447,17 @@
 ||regor.iad-03.braze.com^$third-party
 ||remp-campaign.golem.de^$third-party
 ||resources.marketo.com^$third-party
+||rest.fra-01.braze.eu^$third-party
+||rest.fra-02.braze.eu^$third-party
 ||rest.iad-01.braze.com^$third-party
 ||rest.iad-03.braze.com^$third-party
 ||rest.sharethis.com^$third-party
 ||retainful.com^$third-party
 ||revsharecash.com^$third-party
 ||rge.pushwoosh.com^$third-party
-||richmedia.pushwoosh.com^$third-party
 ||rollworks.com^$third-party
 ||rotanev.iad-03.braze.com^$third-party
-||rtp-static.marketo.com^$third-party
+||s.dsp-prod.demandbase.com^$third-party
 ||s.sharethis.com^$third-party
 ||sagan.iad-03.braze.com^$third-party
 ||salesloft.com^$third-party
@@ -463,12 +466,16 @@
 ||screenshare.pics^$third-party
 ||scripts.demandbase.com^$third-party
 ||sd.sharethis.com^$third-party
+||sdk-tracking.fra-01.braze.eu^$third-party
+||sdk-tracking.fra-02.braze.eu^$third-party
 ||sdk.fra-01.braze.eu^$third-party
+||sdk.fra-02.braze.eu^$third-party
 ||sdk.iad-01.braze.com^$third-party
 ||sdk.iad-02.braze.com^$third-party
 ||sdk.iad-03.braze.com^$third-party
 ||sdk.iad-06.braze.com^$third-party
 ||sdk.iad-08.braze.com^$third-party
+||search-lax.addthis.com^$third-party
 ||search.addthis.com^$third-party
 ||seg.sharethis.com^$third-party
 ||seginus.iad-03.braze.com^$third-party
@@ -492,26 +499,18 @@
 ||simplesharebuttons.com^$third-party
 ||sirius.iad-03.braze.com^$third-party
 ||sj-mknodepub.marketo.com^$third-party
-||sjrtp-cdn.marketo.com^$third-party
 ||sjrtp1.marketo.com^$third-party
-||sjrtp2-cdn.marketo.com^$third-party
 ||sjrtp2.marketo.com^$third-party
-||sjrtp3-cdn.marketo.com^$third-party
 ||sjrtp3.marketo.com^$third-party
 ||sjrtp4-cdn.marketo.com^$third-party
 ||sjrtp4.marketo.com^$third-party
-||sjrtp5-cdn.marketo.com^$third-party
 ||sjrtp5.marketo.com^$third-party
-||sjrtp6-cdn.marketo.com^$third-party
 ||sjrtp6.marketo.com^$third-party
-||sjrtp7-cdn.marketo.com^$third-party
 ||sjrtp7.marketo.com^$third-party
-||sjrtp8-cdn.marketo.com^$third-party
 ||sjrtp8.marketo.com^$third-party
 ||sleeknote.com^$third-party
 ||smile.io^$third-party
 ||snackly.co^$third-party
-||snrtp-cdn.marketo.com^$third-party
 ||snrtp1.marketo.com^$third-party
 ||social-touch.com^$third-party
 ||socialloginplus-apps.haravan.com^$third-party
@@ -531,6 +530,7 @@
 ||sulake.pushwoosh.com^$third-party
 ||svonm.com^$third-party
 ||sync.sharethis.com^$third-party
+||t.dsp-prod.demandbase.com^$third-party
 ||t.sharethis.com^$third-party
 ||tag.demandbase.com^$third-party
 ||tali.iad-03.braze.com^$third-party
@@ -551,7 +551,6 @@
 ||tweetriver.com^$third-party
 ||twimg.com^$third-party
 ||twitter.jp^$third-party
-||uefa.pushwoosh.com^$third-party
 ||uk.marketo.com^$third-party
 ||unbounce.com^$third-party
 ||upsell.alphwidget.com^$third-party
@@ -574,7 +573,6 @@
 ||wd.sharethis.com^$third-party
 ||weasel.sharethegoods.ca^$third-party
 ||webpushr.com^$third-party
-||wetter.pushwoosh.com^$third-party
 ||widget-api.dmm.co.jp^$third-party
 ||widget-api.dmm.com^$third-party
 ||widget-social-proof-api.one.store^$third-party
@@ -631,6 +629,7 @@
 ||apis.google.com/js/platform.js^
 ||apis.google.com/js/plusone.js^
 ||app.getbeamer.com/js/^
+||arc.io/widget.min.js^
 ||assets.pinterest.com/js/pinit.js^
 ||assets.pinterest.com/pidget.html^
 ||autodealer.co.za/inc/widget/^
