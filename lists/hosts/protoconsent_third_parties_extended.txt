@@ -1,8 +1,8 @@
 # Title: ProtoConsent Third Parties Extended
 # Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-# Version: 2026-11-07
-# Last modified: 2026-11-07T07:19:54.266Z
-# Entries: 615
+# Version: 2026-11-08
+# Last modified: 2026-11-08T07:30:51.177Z
+# Entries: 628
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -53,6 +53,7 @@
 0.0.0.0 aajtak.pushwoosh.com
 0.0.0.0 ab-mknodepub.marketo.com
 0.0.0.0 ab023-deb30.api.pushwoosh.com
+0.0.0.0 abrtp1-cdn.marketo.com
 0.0.0.0 abrtp1.marketo.com
 0.0.0.0 abrtp2-cdn.marketo.com
 0.0.0.0 abrtp2.marketo.com
@@ -96,7 +97,6 @@
 0.0.0.0 app-ab32.marketo.com
 0.0.0.0 app-ab33.marketo.com
 0.0.0.0 app-ab34.marketo.com
-0.0.0.0 app-aba.marketo.com
 0.0.0.0 app-abc.marketo.com
 0.0.0.0 app-abj.marketo.com
 0.0.0.0 app-abm.marketo.com
@@ -123,7 +123,7 @@
 0.0.0.0 app-sji.marketo.com
 0.0.0.0 app-sjl.marketo.com
 0.0.0.0 app-sjn.marketo.com
-0.0.0.0 app-sjo.marketo.com
+0.0.0.0 app-sjqe.marketo.com
 0.0.0.0 app-sjst.marketo.com
 0.0.0.0 app-sn01.marketo.com
 0.0.0.0 app.harasocial.com
@@ -337,6 +337,7 @@
 0.0.0.0 liveperson.net
 0.0.0.0 log.storelocatorwidgets.com
 0.0.0.0 lon-mknodepub.marketo.com
+0.0.0.0 lonrtp1-cdn.marketo.com
 0.0.0.0 lonrtp1.marketo.com
 0.0.0.0 loox.io
 0.0.0.0 mail.ru
@@ -454,8 +455,10 @@
 0.0.0.0 retainful.com
 0.0.0.0 revsharecash.com
 0.0.0.0 rge.pushwoosh.com
+0.0.0.0 richmedia.pushwoosh.com
 0.0.0.0 rollworks.com
 0.0.0.0 rotanev.iad-03.braze.com
+0.0.0.0 rtp-static.marketo.com
 0.0.0.0 s.dsp-prod.demandbase.com
 0.0.0.0 s.sharethis.com
 0.0.0.0 sagan.iad-03.braze.com
@@ -498,18 +501,26 @@
 0.0.0.0 simplesharebuttons.com
 0.0.0.0 sirius.iad-03.braze.com
 0.0.0.0 sj-mknodepub.marketo.com
+0.0.0.0 sjrtp-cdn.marketo.com
 0.0.0.0 sjrtp1.marketo.com
+0.0.0.0 sjrtp2-cdn.marketo.com
 0.0.0.0 sjrtp2.marketo.com
+0.0.0.0 sjrtp3-cdn.marketo.com
 0.0.0.0 sjrtp3.marketo.com
 0.0.0.0 sjrtp4-cdn.marketo.com
 0.0.0.0 sjrtp4.marketo.com
+0.0.0.0 sjrtp5-cdn.marketo.com
 0.0.0.0 sjrtp5.marketo.com
+0.0.0.0 sjrtp6-cdn.marketo.com
 0.0.0.0 sjrtp6.marketo.com
+0.0.0.0 sjrtp7-cdn.marketo.com
 0.0.0.0 sjrtp7.marketo.com
+0.0.0.0 sjrtp8-cdn.marketo.com
 0.0.0.0 sjrtp8.marketo.com
 0.0.0.0 sleeknote.com
 0.0.0.0 smile.io
 0.0.0.0 snackly.co
+0.0.0.0 snrtp-cdn.marketo.com
 0.0.0.0 snrtp1.marketo.com
 0.0.0.0 social-touch.com
 0.0.0.0 socialloginplus-apps.haravan.com
@@ -550,6 +561,7 @@
 0.0.0.0 tweetriver.com
 0.0.0.0 twimg.com
 0.0.0.0 twitter.jp
+0.0.0.0 uefa.pushwoosh.com
 0.0.0.0 uk.marketo.com
 0.0.0.0 unbounce.com
 0.0.0.0 upsell.alphwidget.com
@@ -572,6 +584,7 @@
 0.0.0.0 wd.sharethis.com
 0.0.0.0 weasel.sharethegoods.ca
 0.0.0.0 webpushr.com
+0.0.0.0 wetter.pushwoosh.com
 0.0.0.0 widget-api.dmm.co.jp
 0.0.0.0 widget-api.dmm.com
 0.0.0.0 widget-social-proof-api.one.store

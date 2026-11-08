@@ -1,8 +1,8 @@
 # Title: ProtoConsent Third Parties Extended
 # Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-# Version: 2026-11-07
-# Last modified: 2026-11-07T07:19:54.266Z
-# Entries: 615
+# Version: 2026-11-08
+# Last modified: 2026-11-08T07:30:51.177Z
+# Entries: 628
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -53,6 +53,7 @@ a6374-574ce.api.pushwoosh.com
 aajtak.pushwoosh.com
 ab-mknodepub.marketo.com
 ab023-deb30.api.pushwoosh.com
+abrtp1-cdn.marketo.com
 abrtp1.marketo.com
 abrtp2-cdn.marketo.com
 abrtp2.marketo.com
@@ -96,7 +97,6 @@ app-ab31.marketo.com
 app-ab32.marketo.com
 app-ab33.marketo.com
 app-ab34.marketo.com
-app-aba.marketo.com
 app-abc.marketo.com
 app-abj.marketo.com
 app-abm.marketo.com
@@ -123,7 +123,7 @@ app-sjh.marketo.com
 app-sji.marketo.com
 app-sjl.marketo.com
 app-sjn.marketo.com
-app-sjo.marketo.com
+app-sjqe.marketo.com
 app-sjst.marketo.com
 app-sn01.marketo.com
 app.harasocial.com
@@ -337,6 +337,7 @@ livechat.com
 liveperson.net
 log.storelocatorwidgets.com
 lon-mknodepub.marketo.com
+lonrtp1-cdn.marketo.com
 lonrtp1.marketo.com
 loox.io
 mail.ru
@@ -454,8 +455,10 @@ rest.sharethis.com
 retainful.com
 revsharecash.com
 rge.pushwoosh.com
+richmedia.pushwoosh.com
 rollworks.com
 rotanev.iad-03.braze.com
+rtp-static.marketo.com
 s.dsp-prod.demandbase.com
 s.sharethis.com
 sagan.iad-03.braze.com
@@ -498,18 +501,26 @@ shpg.org
 simplesharebuttons.com
 sirius.iad-03.braze.com
 sj-mknodepub.marketo.com
+sjrtp-cdn.marketo.com
 sjrtp1.marketo.com
+sjrtp2-cdn.marketo.com
 sjrtp2.marketo.com
+sjrtp3-cdn.marketo.com
 sjrtp3.marketo.com
 sjrtp4-cdn.marketo.com
 sjrtp4.marketo.com
+sjrtp5-cdn.marketo.com
 sjrtp5.marketo.com
+sjrtp6-cdn.marketo.com
 sjrtp6.marketo.com
+sjrtp7-cdn.marketo.com
 sjrtp7.marketo.com
+sjrtp8-cdn.marketo.com
 sjrtp8.marketo.com
 sleeknote.com
 smile.io
 snackly.co
+snrtp-cdn.marketo.com
 snrtp1.marketo.com
 social-touch.com
 socialloginplus-apps.haravan.com
@@ -550,6 +561,7 @@ truthsocial.com
 tweetriver.com
 twimg.com
 twitter.jp
+uefa.pushwoosh.com
 uk.marketo.com
 unbounce.com
 upsell.alphwidget.com
@@ -572,6 +584,7 @@ wd-edge.sharethis.com
 wd.sharethis.com
 weasel.sharethegoods.ca
 webpushr.com
+wetter.pushwoosh.com
 widget-api.dmm.co.jp
 widget-api.dmm.com
 widget-social-proof-api.one.store

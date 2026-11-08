@@ -2,9 +2,9 @@
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-11-07T07:19:54.266Z
+! Last modified: 2026-11-08T07:30:51.177Z
 ! Format: AdGuard
-! Entries: 817
+! Entries: 830
 !
 ||01e8b-7ffd2.api.pushwoosh.com^$third-party
 ||06cfa-f8925.api.pushwoosh.com^$third-party
@@ -53,6 +53,7 @@
 ||aajtak.pushwoosh.com^$third-party
 ||ab-mknodepub.marketo.com^$third-party
 ||ab023-deb30.api.pushwoosh.com^$third-party
+||abrtp1-cdn.marketo.com^$third-party
 ||abrtp1.marketo.com^$third-party
 ||abrtp2-cdn.marketo.com^$third-party
 ||abrtp2.marketo.com^$third-party
@@ -96,7 +97,6 @@
 ||app-ab32.marketo.com^$third-party
 ||app-ab33.marketo.com^$third-party
 ||app-ab34.marketo.com^$third-party
-||app-aba.marketo.com^$third-party
 ||app-abc.marketo.com^$third-party
 ||app-abj.marketo.com^$third-party
 ||app-abm.marketo.com^$third-party
@@ -123,7 +123,7 @@
 ||app-sji.marketo.com^$third-party
 ||app-sjl.marketo.com^$third-party
 ||app-sjn.marketo.com^$third-party
-||app-sjo.marketo.com^$third-party
+||app-sjqe.marketo.com^$third-party
 ||app-sjst.marketo.com^$third-party
 ||app-sn01.marketo.com^$third-party
 ||app.harasocial.com^$third-party
@@ -337,6 +337,7 @@
 ||liveperson.net^$third-party
 ||log.storelocatorwidgets.com^$third-party
 ||lon-mknodepub.marketo.com^$third-party
+||lonrtp1-cdn.marketo.com^$third-party
 ||lonrtp1.marketo.com^$third-party
 ||loox.io^$third-party
 ||mail.ru^$third-party
@@ -454,8 +455,10 @@
 ||retainful.com^$third-party
 ||revsharecash.com^$third-party
 ||rge.pushwoosh.com^$third-party
+||richmedia.pushwoosh.com^$third-party
 ||rollworks.com^$third-party
 ||rotanev.iad-03.braze.com^$third-party
+||rtp-static.marketo.com^$third-party
 ||s.dsp-prod.demandbase.com^$third-party
 ||s.sharethis.com^$third-party
 ||sagan.iad-03.braze.com^$third-party
@@ -498,18 +501,26 @@
 ||simplesharebuttons.com^$third-party
 ||sirius.iad-03.braze.com^$third-party
 ||sj-mknodepub.marketo.com^$third-party
+||sjrtp-cdn.marketo.com^$third-party
 ||sjrtp1.marketo.com^$third-party
+||sjrtp2-cdn.marketo.com^$third-party
 ||sjrtp2.marketo.com^$third-party
+||sjrtp3-cdn.marketo.com^$third-party
 ||sjrtp3.marketo.com^$third-party
 ||sjrtp4-cdn.marketo.com^$third-party
 ||sjrtp4.marketo.com^$third-party
+||sjrtp5-cdn.marketo.com^$third-party
 ||sjrtp5.marketo.com^$third-party
+||sjrtp6-cdn.marketo.com^$third-party
 ||sjrtp6.marketo.com^$third-party
+||sjrtp7-cdn.marketo.com^$third-party
 ||sjrtp7.marketo.com^$third-party
+||sjrtp8-cdn.marketo.com^$third-party
 ||sjrtp8.marketo.com^$third-party
 ||sleeknote.com^$third-party
 ||smile.io^$third-party
 ||snackly.co^$third-party
+||snrtp-cdn.marketo.com^$third-party
 ||snrtp1.marketo.com^$third-party
 ||social-touch.com^$third-party
 ||socialloginplus-apps.haravan.com^$third-party
@@ -550,6 +561,7 @@
 ||tweetriver.com^$third-party
 ||twimg.com^$third-party
 ||twitter.jp^$third-party
+||uefa.pushwoosh.com^$third-party
 ||uk.marketo.com^$third-party
 ||unbounce.com^$third-party
 ||upsell.alphwidget.com^$third-party
@@ -572,6 +584,7 @@
 ||wd.sharethis.com^$third-party
 ||weasel.sharethegoods.ca^$third-party
 ||webpushr.com^$third-party
+||wetter.pushwoosh.com^$third-party
 ||widget-api.dmm.co.jp^$third-party
 ||widget-api.dmm.com^$third-party
 ||widget-social-proof-api.one.store^$third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Personalization Extended
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)
-! Version: 2026-11-07
-! Last modified: 2026-11-07T07:19:54.266Z
-! Entries: 426
+! Version: 2026-11-08
+! Last modified: 2026-11-08T07:30:51.177Z
+! Entries: 428
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -154,6 +154,7 @@
 ||alx-api.exponea.com^$third-party
 ||amp.permutive.com^$third-party
 ||amway-api.exponea.com^$third-party
+||an.reflektion.com^$third-party
 ||analytics.bluekai.com^$third-party
 ||analytics.rlcdn.com^$third-party
 ||api-bho.exponea.com^$third-party
@@ -298,6 +299,7 @@
 ||media.richrelevance.com^$third-party
 ||mediarithmics.com^$third-party
 ||mn.rlcdn.com^$third-party
+||mobile-events.eservice.emarsys.net^$third-party
 ||mobile-sdk-config.gservice.emarsys.net^$third-party
 ||monetate.com^$third-party
 ||monetate.net^$third-party
