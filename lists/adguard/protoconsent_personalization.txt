@@ -2,7 +2,7 @@
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-11-08T07:30:51.177Z
+! Last modified: 2026-11-09T08:07:58.576Z
 ! Format: AdGuard
 ! Entries: 111
 !
@@ -17,6 +17,7 @@
 ||apptegic.com^$third-party
 ||async-px-eu.dynamicyield.com^$third-party
 ||async-px.dynamicyield.com^$third-party
+||ats.rlcdn.com^$third-party
 ||audience-pccw.viu.com^$third-party
 ||audience.acpm.fr^$third-party
 ||audienceye.com^$third-party
@@ -37,7 +38,6 @@
 ||dmp.brand-display.com^$third-party
 ||dmp.sbermarketing.ru^$third-party
 ||dstillery.com^$third-party
-||dynamicyield.com^$third-party
 ||emarsys.com^$third-party
 ||emarsys.net^$third-party
 ||epoq.de^$third-party
