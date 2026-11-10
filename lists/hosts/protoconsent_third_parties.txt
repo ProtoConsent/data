@@ -1,8 +1,8 @@
 # Title: ProtoConsent Third Parties
 # Description: Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)
-# Version: 2026-11-09
-# Last modified: 2026-11-09T08:07:58.576Z
-# Entries: 186
+# Version: 2026-11-10
+# Last modified: 2026-11-10T08:30:48.444Z
+# Entries: 187
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -28,7 +28,6 @@
 0.0.0.0 app-ab10.marketo.com
 0.0.0.0 app-ab11.marketo.com
 0.0.0.0 app-ab24.marketo.com
-0.0.0.0 app-ab26.marketo.com
 0.0.0.0 app-ab28.marketo.com
 0.0.0.0 app-ab31.marketo.com
 0.0.0.0 app-abc.marketo.com
@@ -78,6 +77,7 @@
 0.0.0.0 drift.com
 0.0.0.0 driftt.com
 0.0.0.0 edge.sharethis.com
+0.0.0.0 engagio.com
 0.0.0.0 event.api.drift.com
 0.0.0.0 event.wondershare.com
 0.0.0.0 fast.a.klaviyo.com
@@ -104,6 +104,7 @@
 0.0.0.0 lonrtp1-cdn.marketo.com
 0.0.0.0 lonrtp1.marketo.com
 0.0.0.0 marketo.com
+0.0.0.0 massrelevance.com
 0.0.0.0 metadata.io
 0.0.0.0 metrics.api.drift.com
 0.0.0.0 mobile-campaigns.avast.com

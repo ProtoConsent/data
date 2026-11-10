@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties",
-  "version": "2026-11-09",
-  "generated": "2026-11-09T08:07:58.576Z",
+  "version": "2026-11-10",
+  "generated": "2026-11-10T08:30:48.444Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -28,7 +28,6 @@
     "app-ab10.marketo.com",
     "app-ab11.marketo.com",
     "app-ab24.marketo.com",
-    "app-ab26.marketo.com",
     "app-ab28.marketo.com",
     "app-ab31.marketo.com",
     "app-abc.marketo.com",
@@ -78,6 +77,7 @@
     "drift.com",
     "driftt.com",
     "edge.sharethis.com",
+    "engagio.com",
     "event.api.drift.com",
     "event.wondershare.com",
     "fast.a.klaviyo.com",
@@ -104,6 +104,7 @@
     "lonrtp1-cdn.marketo.com",
     "lonrtp1.marketo.com",
     "marketo.com",
+    "massrelevance.com",
     "metadata.io",
     "metrics.api.drift.com",
     "mobile-campaigns.avast.com",
@@ -193,7 +194,7 @@
     "wonderpush.com",
     "zoominfo.com"
   ],
-  "domain_count": 186,
+  "domain_count": 187,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Personalization
 ! Description: Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)
-! Version: 2026-11-09
-! Last modified: 2026-11-09T08:07:58.576Z
-! Entries: 111
+! Version: 2026-11-10
+! Last modified: 2026-11-10T08:30:48.444Z
+! Entries: 112
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -39,6 +39,7 @@
 ||dmp.brand-display.com^$third-party
 ||dmp.sbermarketing.ru^$third-party
 ||dstillery.com^$third-party
+||dynamicyield.com^$third-party
 ||emarsys.com^$third-party
 ||emarsys.net^$third-party
 ||epoq.de^$third-party
