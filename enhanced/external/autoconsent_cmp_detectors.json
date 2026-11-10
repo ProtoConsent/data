@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-09",
+  "version": "2026-11-10",
   "type": "cmp_detectors",
-  "generated": "2026-11-09T12:05:02.531Z",
+  "generated": "2026-11-10T11:44:36.274Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "d4aac60b661f3b80",
+  "autoconsent_tree_hash": "484936221e4d6444",
   "cmp_count": 990,
   "detectors": {
     "123inkt": {
@@ -3075,9 +3075,11 @@
     },
     "facebook": {
       "present": [
+        "[role=\"dialog\"]:has(a[href*=\"/policies/cookies/\"]) div[aria-hidden=\"true\"] + div[role=\"button\"][tabindex=\"0\"]",
         "div[role=\"dialog\"][aria-modal=\"true\"]"
       ],
       "showing": [
+        "[role=\"dialog\"]:has(a[href*=\"/policies/cookies/\"]) div[aria-hidden=\"true\"] + div[role=\"button\"][tabindex=\"0\"]",
         "div[role=\"dialog\"][aria-modal=\"true\"]"
       ],
       "domains": [
