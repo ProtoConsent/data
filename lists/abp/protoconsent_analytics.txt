@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-11-10
-! Last modified: 2026-11-10T08:30:48.444Z
-! Entries: 14524
+! Version: 2026-11-11
+! Last modified: 2026-11-11T07:50:57.132Z
+! Entries: 14526
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -1794,6 +1794,7 @@
 ||analytics.dap-networks.de^$third-party
 ||analytics.data.lloydsbankinggroup.com^$third-party
 ||analytics.data.visenze.com^$third-party
+||analytics.datacite.org^$third-party
 ||analytics.datasavannah.com^$third-party
 ||analytics.datsoft.pro^$third-party
 ||analytics.dealmoon.com^$third-party
@@ -6105,6 +6106,7 @@
 ||mystat.it^$third-party
 ||mystats.nl^$third-party
 ||mytopf.com^$third-party
+||myusersonline.com^$third-party
 ||myvisitors.se^$third-party
 ||myweb3id.io^$third-party
 ||mywebstats.com.au^$third-party

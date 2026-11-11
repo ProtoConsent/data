@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-11-10
-! Last modified: 2026-11-10T08:30:48.444Z
-! Entries: 164871
+! Version: 2026-11-11
+! Last modified: 2026-11-11T07:50:57.132Z
+! Entries: 164882
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -12323,6 +12323,7 @@
 ||analytics.kureoxygen.com^$third-party
 ||analytics.kurisbeta.org^$third-party
 ||analytics.kurocore.com^$third-party
+||analytics.kursverwalter.de^$third-party
 ||analytics.kursyszkolenia.online^$third-party
 ||analytics.kurtgeiger.us^$third-party
 ||analytics.kustvader.se^$third-party
@@ -13637,6 +13638,7 @@
 ||analytics.multifocalspecialist.com^$third-party
 ||analytics.multimages.fr^$third-party
 ||analytics.multivariate.tech^$third-party
+||analytics.mumie.net^$third-party
 ||analytics.mummert.media^$third-party
 ||analytics.mummyfever.co.uk^$third-party
 ||analytics.mummystation.com^$third-party
@@ -14716,6 +14718,7 @@
 ||analytics.pingsalabim.com^$third-party
 ||analytics.pingupod.de^$third-party
 ||analytics.pink-city.com^$third-party
+||analytics.pinkup.mx^$third-party
 ||analytics.pinterest.com^$third-party
 ||analytics.pinvite.io^$third-party
 ||analytics.pinzweb.at^$third-party
@@ -57051,6 +57054,7 @@
 ||intl.payu.in^$third-party
 ||intl.up.w.xk.miui.com^$third-party
 ||intlsst.zagg.com^$third-party
+||intobuddy.com^$third-party
 ||intouch365.nl^$third-party
 ||intr.naymish.com^$third-party
 ||intrack.ir^$third-party
@@ -60335,6 +60339,7 @@
 ||lime.vitaminswift.com^$third-party
 ||lime.zaplamp.com^$third-party
 ||limelight.com^$third-party
+||limitowl.com^$third-party
 ||limmkg.com^$third-party
 ||limone.iltrovatore.it^$third-party
 ||limpet.eddiehinkle.com^$third-party
@@ -85135,6 +85140,7 @@
 ||mytrackcdn.com^$third-party
 ||mytrd.orion.at^$third-party
 ||myuserpilot.com^$third-party
+||myusersonline.com^$third-party
 ||myvisitorcounter.com^$third-party
 ||myvisitors.se^$third-party
 ||myw.business-unicorn.com^$third-party
@@ -101319,7 +101325,9 @@
 ||rubix.click^$third-party
 ||rubolite.ems-dental.com^$third-party
 ||rubouthunger.com^$third-party
+||rubwonders.com^$third-party
 ||ruby.ops.iec.ch^$third-party
+||rubymoonwinery.com^$third-party
 ||ruc-ngfts.lge.com^$third-party
 ||ruc.homeprv.lgtvcommon.com^$third-party
 ||ruc.nudge.lgtvcommon.com^$third-party
@@ -101477,6 +101485,7 @@
 ||rybbit.com^$third-party
 ||rybbit.databasus.com^$third-party
 ||rybbit.decryptology.net^$third-party
+||rybbit.derhuber.com^$third-party
 ||rybbit.docudetect.com^$third-party
 ||rybbit.dricle.be^$third-party
 ||rybbit.dwri.xyz^$third-party
@@ -103798,6 +103807,7 @@
 ||scriptstory.com^$third-party
 ||scripttags.jst.ai^$third-party
 ||scrolldata.com^$third-party
+||scrubchi.com^$third-party
 ||scrubswim.com^$third-party
 ||scs.allsecur.nl^$third-party
 ||scs.arcteryx.com^$third-party
@@ -160985,6 +160995,7 @@
 ||assets.trendii.com/pixel/main.js^
 ||assets.yumpu.com/release/*/tracking.js^
 ||assistant.watson.appdomain.cloud/analytics/^
+||astatic.ccmbg.com/hz.js^
 ||asterpix.com/tagcloudview/^
 ||astrologyanswers.com/gtmmetrics/^
 ||astroved.com/avdatavault/^
