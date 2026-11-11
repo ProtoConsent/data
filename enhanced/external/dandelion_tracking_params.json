@@ -1,10 +1,16 @@
 {
-  "version": "2026-11-10",
-  "generated": "2026-11-10T11:44:36.744Z",
+  "version": "2026-11-11",
+  "generated": "2026-11-11T11:26:13.792Z",
   "type": "tracking_params_sites",
   "domain_count": 1008,
-  "param_count": 2044,
+  "param_count": 2045,
   "sites": {
+    "zhihu.com": [
+      "hybrid_search_extra",
+      "hybrid_search_source",
+      "share_code",
+      "utm_psn"
+    ],
     "check24.de": [
       "source"
     ],
@@ -4071,11 +4077,6 @@
     ],
     "dhgate.com": [
       "f"
-    ],
-    "zhihu.com": [
-      "hybrid_search_extra",
-      "hybrid_search_source",
-      "share_code"
     ],
     "dzone.com": [
       "fromrel"
