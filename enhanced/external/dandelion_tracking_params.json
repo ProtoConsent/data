@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-11",
-  "generated": "2026-11-11T11:26:13.792Z",
+  "version": "2026-11-13",
+  "generated": "2026-11-13T11:30:24.436Z",
   "type": "tracking_params_sites",
   "domain_count": 1008,
-  "param_count": 2045,
+  "param_count": 2046,
   "sites": {
     "zhihu.com": [
       "hybrid_search_extra",
@@ -173,26 +173,6 @@
     ],
     "eiga.com": [
       "cid"
-    ],
-    "instagram.com": [
-      "click_source",
-      "cplk",
-      "dlrf",
-      "exln",
-      "ig_rid",
-      "igsh",
-      "igsi",
-      "mdxt",
-      "ndid",
-      "obrf",
-      "psln",
-      "rpxt",
-      "short_redirect",
-      "srtk",
-      "stkn",
-      "target_user_id",
-      "vrfl",
-      "xtok"
     ],
     "yahoo.com": [
       "ncid",
@@ -1974,7 +1954,8 @@
       "tracking_id"
     ],
     "kinopoisk.ru": [
-      "from_block"
+      "from_block",
+      "socialAlias"
     ],
     "bizhint.jp": [
       "trcd"
@@ -3181,6 +3162,26 @@
       "kls_sbp",
       "pfm",
       "prdPV"
+    ],
+    "instagram.com": [
+      "click_source",
+      "cplk",
+      "dlrf",
+      "exln",
+      "ig_rid",
+      "igsh",
+      "igsi",
+      "mdxt",
+      "ndid",
+      "obrf",
+      "psln",
+      "rpxt",
+      "short_redirect",
+      "srtk",
+      "stkn",
+      "target_user_id",
+      "vrfl",
+      "xtok"
     ],
     "mediamarkt.com.tr": [
       "rbtc"
