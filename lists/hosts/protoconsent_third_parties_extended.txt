@@ -1,8 +1,8 @@
 # Title: ProtoConsent Third Parties Extended
 # Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-# Version: 2026-11-12
-# Last modified: 2026-11-12T08:27:36.953Z
-# Entries: 630
+# Version: 2026-11-13
+# Last modified: 2026-11-13T08:08:56.230Z
+# Entries: 625
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -97,7 +97,6 @@
 0.0.0.0 app-ab32.marketo.com
 0.0.0.0 app-ab33.marketo.com
 0.0.0.0 app-ab34.marketo.com
-0.0.0.0 app-aba.marketo.com
 0.0.0.0 app-abc.marketo.com
 0.0.0.0 app-abj.marketo.com
 0.0.0.0 app-abm.marketo.com
@@ -112,6 +111,7 @@
 0.0.0.0 app-sj06.marketo.com
 0.0.0.0 app-sj07.marketo.com
 0.0.0.0 app-sj11.marketo.com
+0.0.0.0 app-sj13.marketo.com
 0.0.0.0 app-sj14.marketo.com
 0.0.0.0 app-sj15.marketo.com
 0.0.0.0 app-sj16.marketo.com
@@ -132,7 +132,6 @@
 0.0.0.0 app.marketo.com
 0.0.0.0 appdev.addthis.com
 0.0.0.0 asia.marketo.com
-0.0.0.0 askfm.pushwoosh.com
 0.0.0.0 assets.vidora.com
 0.0.0.0 atlas.iad-03.braze.com
 0.0.0.0 attentive.com
@@ -168,7 +167,6 @@
 0.0.0.0 c4de5-69f80.api.pushwoosh.com
 0.0.0.0 c6450-cea51.api.pushwoosh.com
 0.0.0.0 c947b-ef6ee.api.pushwoosh.com
-0.0.0.0 cache-07.pushwoosh.com
 0.0.0.0 cache-ha.pushwoosh.com
 0.0.0.0 caesar.iad-03.braze.com
 0.0.0.0 campaign-remp.444.hu
@@ -177,7 +175,6 @@
 0.0.0.0 campaignmonitor.com
 0.0.0.0 carinus.iad-03.braze.com
 0.0.0.0 cbcea-1f451.api.pushwoosh.com
-0.0.0.0 cbcnewmedia.pushwoosh.com
 0.0.0.0 cdn.bizible.com
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.braze.eu
@@ -276,7 +273,6 @@
 0.0.0.0 gravitec.net
 0.0.0.0 gudja.iad-02.braze.com
 0.0.0.0 h0.t.hubspotemail.net
-0.0.0.0 ha-api.pushwoosh.com
 0.0.0.0 ha.pushwoosh.com
 0.0.0.0 haaretz.pushwoosh.com
 0.0.0.0 hackerfacebook.com
@@ -425,7 +421,6 @@
 0.0.0.0 plusone.google.com
 0.0.0.0 polls.services.disqus.com
 0.0.0.0 poptin.com
-0.0.0.0 post-log.pushwoosh.com
 0.0.0.0 postscript.io
 0.0.0.0 powerreviews.com
 0.0.0.0 preitem.wshareit.com

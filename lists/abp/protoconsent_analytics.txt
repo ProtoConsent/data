@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-11-12
-! Last modified: 2026-11-12T08:27:36.953Z
-! Entries: 14820
+! Version: 2026-11-13
+! Last modified: 2026-11-13T08:08:56.230Z
+! Entries: 14835
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -1583,7 +1583,6 @@
 ||adlpo.com^$third-party
 ||admantx.com^$third-party
 ||admaxium.com^$third-party
-||admetric.io^$third-party
 ||admetrics.events^$third-party
 ||admile.ru^$third-party
 ||admo.tv^$third-party
@@ -1897,6 +1896,7 @@
 ||analytics.airindia.com^$third-party
 ||analytics.aklamio.com^$third-party
 ||analytics.akra.de^$third-party
+||analytics.aleop.eu^$third-party
 ||analytics.algolia.com^$third-party
 ||analytics.alvinchang.dev^$third-party
 ||analytics.amakings.com^$third-party
@@ -1972,6 +1972,7 @@
 ||analytics.cnd-motionmedia.de^$third-party
 ||analytics.cnnchile.com^$third-party
 ||analytics.cocolog-nifty.com^$third-party
+||analytics.codealpha.io^$third-party
 ||analytics.codigo.se^$third-party
 ||analytics.competitoor.com^$third-party
 ||analytics.consumerrights.wiki^$third-party
@@ -2043,6 +2044,7 @@
 ||analytics.files.fm^$third-party
 ||analytics.firespring.com^$third-party
 ||analytics.flexclip.com^$third-party
+||analytics.fneno.com^$third-party
 ||analytics.fontwerk.com^$third-party
 ||analytics.football360.ir^$third-party
 ||analytics.footballdb.com^$third-party
@@ -2094,6 +2096,7 @@
 ||analytics.ihg.com^$third-party
 ||analytics.ikyu.com^$third-party
 ||analytics.infio.cz^$third-party
+||analytics.infocelradios.com.br^$third-party
 ||analytics.infomaniak.com^$third-party
 ||analytics.infraloods.nl^$third-party
 ||analytics.innologica.com^$third-party
@@ -2262,6 +2265,7 @@
 ||analytics.schoolwires.com^$third-party
 ||analytics.scorpion.co^$third-party
 ||analytics.searchspring.net^$third-party
+||analytics.selfdevelopment.team^$third-party
 ||analytics.sen.go.kr^$third-party
 ||analytics.servogram.io^$third-party
 ||analytics.serwis500.pl^$third-party
@@ -2282,6 +2286,7 @@
 ||analytics.sixt.fr^$third-party
 ||analytics.sixt.jp^$third-party
 ||analytics.sixtmiddleeast.com^$third-party
+||analytics.sklb.cloud^$third-party
 ||analytics.skroutz.gr^$third-party
 ||analytics.skyscanner.net^$third-party
 ||analytics.slashdotmedia.com^$third-party
@@ -2349,6 +2354,7 @@
 ||analytics.trovit.com^$third-party
 ||analytics.trustwallet.com^$third-party
 ||analytics.trutv.com^$third-party
+||analytics.trynanobanana.io^$third-party
 ||analytics.tsoftapps.com^$third-party
 ||analytics.tufos.com.br^$third-party
 ||analytics.turk.pro^$third-party
@@ -2394,6 +2400,7 @@
 ||analytics.waifu2x.org^$third-party
 ||analytics.watchott.org^$third-party
 ||analytics.wavebox.io^$third-party
+||analytics.web60.ie^$third-party
 ||analytics.webflow.com^$third-party
 ||analytics.webfokus.no^$third-party
 ||analytics.webpushr.com^$third-party
@@ -4304,6 +4311,7 @@
 ||es-log.vietnamplus.vn^$third-party
 ||escalated.io^$third-party
 ||esearchvision.com^$third-party
+||esmg-pixel.vercel.app^$third-party
 ||esomniture.com^$third-party
 ||esoterictools.com^$third-party
 ||essayplanet.com^$third-party
@@ -5857,6 +5865,7 @@
 ||matomo.agaplesion.de^$third-party
 ||matomo.akbal.dev^$third-party
 ||matomo.aleo.agency^$third-party
+||matomo.alfaview.com^$third-party
 ||matomo.antee.cz^$third-party
 ||matomo.bantheme.xyz^$third-party
 ||matomo.bonus.direct^$third-party
@@ -5884,6 +5893,7 @@
 ||matomo.optisigns.com^$third-party
 ||matomo.passeportsante.net^$third-party
 ||matomo.podslink.net^$third-party
+||matomo.policum.berlin^$third-party
 ||matomo.pr.hamburg^$third-party
 ||matomo.promobil.de^$third-party
 ||matomo.protectli.com^$third-party
@@ -6917,6 +6927,7 @@
 ||plausible.ams.to^$third-party
 ||plausible.avris.it^$third-party
 ||plausible.bots.gg^$third-party
+||plausible.buildit-consulting.com^$third-party
 ||plausible.citynews.ovh^$third-party
 ||plausible.corsme.com^$third-party
 ||plausible.dragonfru.it^$third-party
@@ -7098,6 +7109,7 @@
 ||push7.jp^$third-party
 ||pushalert.co^$third-party
 ||pushd.netky.tech^$third-party
+||pv-track.pxtrkapp.com^$third-party
 ||pv.hd.sohu.com^$third-party
 ||pv.kuaizhan.com^$third-party
 ||pvd.to^$third-party
@@ -8737,6 +8749,7 @@
 ||stat.meitudata.com^$third-party
 ||stat.mixi.media^$third-party
 ||stat.mydaddy.cc^$third-party
+||stat.mypuls.app^$third-party
 ||stat.nate.com^$third-party
 ||stat.okko.tv^$third-party
 ||stat.ovh^$third-party
@@ -8827,6 +8840,7 @@
 ||stats.asp24.pl^$third-party
 ||stats.avast.com^$third-party
 ||stats.avito.ru^$third-party
+||stats.aztechsol.com^$third-party
 ||stats.badcode.be^$third-party
 ||stats.bbc.co.uk^$third-party
 ||stats.betternet.de^$third-party
@@ -8910,6 +8924,7 @@
 ||stats.itc.ua^$third-party
 ||stats.itweb.co.za^$third-party
 ||stats.ixarea.com^$third-party
+||stats.jacekslesicki.pl^$third-party
 ||stats.jibber.social^$third-party
 ||stats.jiosaavn.com^$third-party
 ||stats.jkdesa.com^$third-party

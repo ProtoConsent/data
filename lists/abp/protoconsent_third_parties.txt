@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Third Parties
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (curated - high-confidence sources)
-! Version: 2026-11-12
-! Last modified: 2026-11-12T08:27:36.953Z
-! Entries: 389
+! Version: 2026-11-13
+! Last modified: 2026-11-13T08:08:56.230Z
+! Entries: 387
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -34,7 +34,6 @@
 ||app-ab28.marketo.com^$third-party
 ||app-ab30.marketo.com^$third-party
 ||app-ab31.marketo.com^$third-party
-||app-aba.marketo.com^$third-party
 ||app-abc.marketo.com^$third-party
 ||app-lon03.marketo.com^$third-party
 ||app-lon05.marketo.com^$third-party
@@ -45,6 +44,7 @@
 ||app-sj06.marketo.com^$third-party
 ||app-sj07.marketo.com^$third-party
 ||app-sj11.marketo.com^$third-party
+||app-sj13.marketo.com^$third-party
 ||app-sj14.marketo.com^$third-party
 ||app-sj15.marketo.com^$third-party
 ||app-sj16.marketo.com^$third-party
@@ -94,7 +94,6 @@
 ||getsocial.io^$third-party
 ||glitter.services.disqus.com^$third-party
 ||gotchosen.com^$third-party
-||ha-api.pushwoosh.com^$third-party
 ||ha.pushwoosh.com^$third-party
 ||haaretz.pushwoosh.com^$third-party
 ||hellobar.com^$third-party
@@ -127,7 +126,6 @@
 ||platform-api.sharethis.com^$third-party
 ||platform.linkedin.com^$third-party
 ||platform.twitter.com^$third-party
-||post-log.pushwoosh.com^$third-party
 ||preitem.wshareit.com^$third-party
 ||privy.com^$third-party
 ||pushengage.com^$third-party

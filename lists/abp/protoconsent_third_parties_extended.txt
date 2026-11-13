@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Third Parties Extended
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-! Version: 2026-11-12
-! Last modified: 2026-11-12T08:27:36.953Z
-! Entries: 832
+! Version: 2026-11-13
+! Last modified: 2026-11-13T08:08:56.230Z
+! Entries: 827
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -98,7 +98,6 @@
 ||app-ab32.marketo.com^$third-party
 ||app-ab33.marketo.com^$third-party
 ||app-ab34.marketo.com^$third-party
-||app-aba.marketo.com^$third-party
 ||app-abc.marketo.com^$third-party
 ||app-abj.marketo.com^$third-party
 ||app-abm.marketo.com^$third-party
@@ -113,6 +112,7 @@
 ||app-sj06.marketo.com^$third-party
 ||app-sj07.marketo.com^$third-party
 ||app-sj11.marketo.com^$third-party
+||app-sj13.marketo.com^$third-party
 ||app-sj14.marketo.com^$third-party
 ||app-sj15.marketo.com^$third-party
 ||app-sj16.marketo.com^$third-party
@@ -133,7 +133,6 @@
 ||app.marketo.com^$third-party
 ||appdev.addthis.com^$third-party
 ||asia.marketo.com^$third-party
-||askfm.pushwoosh.com^$third-party
 ||assets.vidora.com^$third-party
 ||atlas.iad-03.braze.com^$third-party
 ||attentive.com^$third-party
@@ -169,7 +168,6 @@
 ||c4de5-69f80.api.pushwoosh.com^$third-party
 ||c6450-cea51.api.pushwoosh.com^$third-party
 ||c947b-ef6ee.api.pushwoosh.com^$third-party
-||cache-07.pushwoosh.com^$third-party
 ||cache-ha.pushwoosh.com^$third-party
 ||caesar.iad-03.braze.com^$third-party
 ||campaign-remp.444.hu^$third-party
@@ -178,7 +176,6 @@
 ||campaignmonitor.com^$third-party
 ||carinus.iad-03.braze.com^$third-party
 ||cbcea-1f451.api.pushwoosh.com^$third-party
-||cbcnewmedia.pushwoosh.com^$third-party
 ||cdn.bizible.com^$third-party
 ||cdn.branch.io^$third-party
 ||cdn.braze.eu^$third-party
@@ -277,7 +274,6 @@
 ||gravitec.net^$third-party
 ||gudja.iad-02.braze.com^$third-party
 ||h0.t.hubspotemail.net^$third-party
-||ha-api.pushwoosh.com^$third-party
 ||ha.pushwoosh.com^$third-party
 ||haaretz.pushwoosh.com^$third-party
 ||hackerfacebook.com^$third-party
@@ -426,7 +422,6 @@
 ||plusone.google.com^$third-party
 ||polls.services.disqus.com^$third-party
 ||poptin.com^$third-party
-||post-log.pushwoosh.com^$third-party
 ||postscript.io^$third-party
 ||powerreviews.com^$third-party
 ||preitem.wshareit.com^$third-party
