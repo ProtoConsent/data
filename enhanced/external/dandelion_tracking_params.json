@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-13",
-  "generated": "2026-11-13T11:30:24.436Z",
+  "version": "2026-11-14",
+  "generated": "2026-11-14T10:54:05.835Z",
   "type": "tracking_params_sites",
   "domain_count": 1008,
-  "param_count": 2046,
+  "param_count": 2045,
   "sites": {
     "zhihu.com": [
       "hybrid_search_extra",
@@ -4191,8 +4191,7 @@
     ],
     "bstn.com": [
       "indexName",
-      "objectID",
-      "queryID"
+      "objectID"
     ],
     "app.slack.com": [
       "entry_point"
