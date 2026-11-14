@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-11-13
-! Last modified: 2026-11-13T08:08:56.230Z
-! Entries: 14835
+! Version: 2026-11-14
+! Last modified: 2026-11-14T07:42:14.387Z
+! Entries: 14837
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -1898,6 +1898,7 @@
 ||analytics.akra.de^$third-party
 ||analytics.aleop.eu^$third-party
 ||analytics.algolia.com^$third-party
+||analytics.alvarezrosa.com^$third-party
 ||analytics.alvinchang.dev^$third-party
 ||analytics.amakings.com^$third-party
 ||analytics.amig.com^$third-party
@@ -4358,6 +4359,7 @@
 ||event-tracker.inditex.com^$third-party
 ||event-tracking.deliverr.com^$third-party
 ||event-tracking.hellohealthgroup.com^$third-party
+||event.airbridge.io^$third-party
 ||event.bblmw.com^$third-party
 ||event.collector.scopely.io^$third-party
 ||event.csdn.net^$third-party
@@ -8570,6 +8572,7 @@
 ||spea.eko.com^$third-party
 ||spearad.video^$third-party
 ||specialtypin.com^$third-party
+||speciesjewelry.com^$third-party
 ||spectrum.gettyimages.com^$third-party
 ||speedcount.de^$third-party
 ||speedcurve.com^$third-party
@@ -8731,7 +8734,6 @@
 ||stat.duokanbox.com^$third-party
 ||stat.eagleplatform.com^$third-party
 ||stat.fengniao.com^$third-party
-||stat.fly.codes^$third-party
 ||stat.funshion.net^$third-party
 ||stat.gc.my.games^$third-party
 ||stat.glaze.ai^$third-party

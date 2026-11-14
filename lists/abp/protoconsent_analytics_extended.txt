@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics Extended
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
-! Version: 2026-11-13
-! Last modified: 2026-11-13T08:08:56.230Z
-! Entries: 164960
+! Version: 2026-11-14
+! Last modified: 2026-11-14T07:42:14.387Z
+! Entries: 164981
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -6577,6 +6577,7 @@
 ||analytics.agoracalyce.com^$third-party
 ||analytics.agozet.com^$third-party
 ||analytics.agr-essen.de^$third-party
+||analytics.agraris.cloud^$third-party
 ||analytics.agrarticker.de^$third-party
 ||analytics.agravis.eu^$third-party
 ||analytics.agreeta.com^$third-party
@@ -7876,6 +7877,7 @@
 ||analytics.buavi.com^$third-party
 ||analytics.buchen-sie-mv.de^$third-party
 ||analytics.buchklub.at^$third-party
+||analytics.bucks.helixo.co^$third-party
 ||analytics.buckuhly.de^$third-party
 ||analytics.buddhismus-muenchen.de^$third-party
 ||analytics.budget-insight.com^$third-party
@@ -10884,6 +10886,7 @@
 ||analytics.habets.io^$third-party
 ||analytics.habitelar.com.br^$third-party
 ||analytics.habitsfirst.com^$third-party
+||analytics.hachez.de^$third-party
 ||analytics.hacks.codes^$third-party
 ||analytics.hadan-it.com^$third-party
 ||analytics.haeutle-it.de^$third-party
@@ -15461,6 +15464,7 @@
 ||analytics.restaurant.ink^$third-party
 ||analytics.resto4u.com^$third-party
 ||analytics.restoapps.eu^$third-party
+||analytics.restockd.app^$third-party
 ||analytics.retailhub.com.br^$third-party
 ||analytics.retailtech-blog.de^$third-party
 ||analytics.retarus.com^$third-party
@@ -26450,6 +26454,7 @@
 ||cdn.veozn3f.com^$third-party
 ||cdn.verityjocoonan.co^$third-party
 ||cdn.virtuoussoftware.com^$third-party
+||cdn.visits.dqapis.com^$third-party
 ||cdn.vmzqqmlpwwmazjnio.com^$third-party
 ||cdn.wannaspeak.com^$third-party
 ||cdn.watchingthat.net^$third-party
@@ -40761,6 +40766,7 @@
 ||edge.wealthprotectionresearch.com^$third-party
 ||edge.wearjoplins.com^$third-party
 ||edge.willitretaildisplay.com.au^$third-party
+||edge.wingify.net^$third-party
 ||edge.witprint.com.br^$third-party
 ||edge.wnetwork.com^$third-party
 ||edge.y108.ca^$third-party
@@ -45086,6 +45092,7 @@
 ||fpa-events.sunjournal.com^$third-party
 ||fpa-events.tampabay28.com^$third-party
 ||fpa-events.thedailybeast.com^$third-party
+||fpa-events.theintercept.com^$third-party
 ||fpa-events.thetrace.org^$third-party
 ||fpad.jp^$third-party
 ||fpadga.mcruises.ru^$third-party
@@ -71836,6 +71843,7 @@
 ||matomo.fourchette-et-bikini.fr^$third-party
 ||matomo.fra3.timi.cz^$third-party
 ||matomo.fragnebenan.com^$third-party
+||matomo.francecompetences.fr^$third-party
 ||matomo.franceschi.es^$third-party
 ||matomo.frankbold.org^$third-party
 ||matomo.franke-baustoffe.de^$third-party
@@ -85989,6 +85997,7 @@
 ||nextstat.com^$third-party
 ||nexttrend.com^$third-party
 ||nexus.ensighten.tiaa.org^$third-party
+||nexus.firecrown.com^$third-party
 ||nexus.gomule.com^$third-party
 ||nexus.mbna.ca^$third-party
 ||nexus.tdassurance.com^$third-party
@@ -86735,7 +86744,6 @@
 ||nwcqt.bellabubear.com^$third-party
 ||nwfkjx.gadventures.com^$third-party
 ||nwgo.tylertech.com^$third-party
-||nwm-iitk-ac-in-log.weebly.com^$third-party
 ||nwnyovsx.ourwunderland.com^$third-party
 ||nwo.ai^$third-party
 ||nwot.boxie24.com^$third-party
@@ -88172,6 +88180,7 @@
 ||otdor.theprofitlab.biz^$third-party
 ||otel-collector.lenta.tech^$third-party
 ||otel-edge.dashapi.com^$third-party
+||otel-gw.booking.com^$third-party
 ||otel-hfo.fareharbor.engineering^$third-party
 ||otel-mobile.doordash.com^$third-party
 ||otelrules.svc.static.microsoft^$third-party
@@ -100775,6 +100784,7 @@
 ||riskfactionsemail.com^$third-party
 ||riskfirst.com^$third-party
 ||riskid.security^$third-party
+||riskpoc.trip.com^$third-party
 ||riskpulse.com^$third-party
 ||ritorno.ru^$third-party
 ||rittmananalytics.com^$third-party
@@ -100988,6 +100998,7 @@
 ||rocketfuel.humanfirstdigital.agency^$third-party
 ||rocketinsights.de^$third-party
 ||rocketmonitor.com^$third-party
+||rocketserver.net^$third-party
 ||rocketsource.co^$third-party
 ||rocketsource.com^$third-party
 ||rockett.logs.roku.com^$third-party
@@ -101540,6 +101551,7 @@
 ||rxtolo.domiporta.pl^$third-party
 ||ry0.rythmefm.com^$third-party
 ||ry289qrj.vasafitness.com^$third-party
+||rybbit-analytics.livecounts.io^$third-party
 ||rybbit.102417.xyz^$third-party
 ||rybbit.astr.studio^$third-party
 ||rybbit.com^$third-party
@@ -118725,6 +118737,7 @@
 ||sparrow.collabwithpedal.com^$third-party
 ||sparrow.uitvaartzorg-vanraemdonck.be^$third-party
 ||sparrow.workingincontent.com^$third-party
+||spasmgame.com^$third-party
 ||spatialitics.com^$third-party
 ||spc.attackofthefanboy.com^$third-party
 ||spc.dotesports.com^$third-party
@@ -131210,7 +131223,6 @@
 ||stat.flozz.org^$third-party
 ||stat.flutterawesome.com^$third-party
 ||stat.fly-str.com^$third-party
-||stat.fly.codes^$third-party
 ||stat.foerschner-osteopathie.de^$third-party
 ||stat.fondatum.fi^$third-party
 ||stat.forret.com^$third-party
@@ -143810,6 +143822,7 @@
 ||tag.cygnetgroup.com^$third-party
 ||tag.datariver.ru^$third-party
 ||tag.dec-connect.decsuite.com^$third-party
+||tag.decentriq.com^$third-party
 ||tag.digops.sincro.io^$third-party
 ||tag.dipua.com.br^$third-party
 ||tag.discoverkidult.com^$third-party
@@ -145512,6 +145525,7 @@
 ||templetoninsights.com^$third-party
 ||tempo-client-metric-prod.s3.amazonaws.com^$third-party
 ||tempo.checkmate.live^$third-party
+||tempowraps.com^$third-party
 ||temptrack.highwaytransport.com^$third-party
 ||tempttalk.com^$third-party
 ||temsys.temsys.fr^$third-party
@@ -159578,6 +159592,7 @@
 ||yesss-a1at.mno.link^$third-party
 ||yesware.com^$third-party
 ||yeticoolerprod.uswe01.productrecs.episerver.net^$third-party
+||yetiminis.com^$third-party
 ||yewrcd.govoyages.com^$third-party
 ||yext-pixel.com^$third-party
 ||yextevents.com^$third-party
@@ -160906,6 +160921,7 @@
 ||api.ea3w.com/hits.js^
 ||api.fanmatics.com/event^
 ||api.ffm.to/sl/e/^
+||api.firecrown.com/v1/events^
 ||api.gist.ai/v1/analytics/track^
 ||api.gleap.io/sessions/ping^
 ||api.headliner.link/api/v1/b/receive^
@@ -161906,6 +161922,8 @@
 ||embed.reddit.com/svc/shreddit^
 ||emol.com/bt/ping^
 ||emrld.ltd/collect^
+||emrldco.com/collect^
+||emrldtp.cc/collect^
 ||endorsal.io/check/^
 ||enetres.net/StatisticsV1/^
 ||engagelab.com/ma-report/^
@@ -163829,6 +163847,7 @@
 ||sdk.getlimy.ai/p/limy-analytics.min.js^
 ||sdk.mdznconnect.com/data-collector/^
 ||sdk.mrf.io/statics/marfeel-sdk.js^
+||sdk.stackup-ai.com/collect^
 ||search.aol.com/beacon/^
 ||search.brave.com/api/feedback^
 ||search.brave.com/serp/v1/static/serp-js/telemetry/^
@@ -164196,6 +164215,7 @@
 ||stubhub.com/a/icph^
 ||studeersnel.nl/27m703Hm/init.js^
 ||studocu.com/27m703Hm/init.js^
+||stuff.co.nz/otel/^
 ||stuttgarter-nachrichten.de/cre-1.0/tracking/device.js^
 ||stylitics.com/api/engagements^
 ||stytch.com/sdk/v1/events^
@@ -164443,6 +164463,7 @@
 ||trip.com/bee/collect^
 ||trip.com/bf.gif?^
 ||tripcdn.com/bee/collect^
+||tripcdn.com/bf.gif^
 ||tritondigital.com/ondemand/impression?^
 ||trivago.com/tracking/^
 ||trjs.mediafin.be/loader/trmfn-loader.js^
