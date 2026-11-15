@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-11-14T07:42:14.387Z
+! Last modified: 2026-11-15T07:58:11.567Z
 ! Format: AdGuard
-! Entries: 14837
+! Entries: 14865
 !
 ||0.myikas.com^$third-party
 ||0stats.com^$third-party
@@ -1938,6 +1938,7 @@
 ||analytics.bonfire.com^$third-party
 ||analytics.boomerangtv.co.uk^$third-party
 ||analytics.brave.com^$third-party
+||analytics.bucks.helixo.co^$third-party
 ||analytics.bundesregierung.de^$third-party
 ||analytics.businessinsider.com^$third-party
 ||analytics.bydaniwp.dev^$third-party
@@ -2925,6 +2926,7 @@
 ||bluejay.postmediagroup.com^$third-party
 ||bluejay.schreinerei-virnich.de^$third-party
 ||bluejay.wearegray.com^$third-party
+||bluelp.2ask.blue.com.hk^$third-party
 ||blueoyster.click^$third-party
 ||bluepontoons.com^$third-party
 ||bm23.com^$third-party
@@ -3131,6 +3133,7 @@
 ||cdn.segment.com^$third-party
 ||cdn.seonintelligence.com^$third-party
 ||cdn.usefathom.com^$third-party
+||cdn.visits.dqapis.com^$third-party
 ||cdn1.skrill.com^$third-party
 ||cdnhst.xyz^$third-party
 ||cdnlogs.org^$third-party
@@ -3878,6 +3881,7 @@
 ||data-ssl.pnet.co.za^$third-party
 ||data-ssl.stepstone.be^$third-party
 ||data-ssl.stepstone.de^$third-party
+||data.2ask.blue.com.hk^$third-party
 ||data.abc.es^$third-party
 ||data.americas.coca-cola.com^$third-party
 ||data.circulate.com^$third-party
@@ -4214,6 +4218,7 @@
 ||edge.sheffieldfinancial.com^$third-party
 ||edge.truistmomentum.com^$third-party
 ||edge.truistsecurities.com^$third-party
+||edge.wingify.net^$third-party
 ||edgedc.falabella.com^$third-party
 ||ediemidnightzombies.com^$third-party
 ||edmanalytics.pandahall.com^$third-party
@@ -4963,6 +4968,7 @@
 ||heap.drop.com^$third-party
 ||heap.io^$third-party
 ||heapanalytics.com^$third-party
+||hearob.klix.ba^$third-party
 ||heartbeat-pearl.vercel.app^$third-party
 ||heartbeat.pmd.444.hu^$third-party
 ||heatmap-events-collector.instapage.com^$third-party
@@ -5115,6 +5121,7 @@
 ||ihi.flowplayer.com^$third-party
 ||iid-network.jp^$third-party
 ||ijogkae.churchserviceplanner.co.uk^$third-party
+||ilarh.dermstore.com^$third-party
 ||ilikeclick.com^$third-party
 ||image.moengage.com^$third-party
 ||imagebuffer.com^$third-party
@@ -5821,6 +5828,7 @@
 ||mandrill.castingcollective.net^$third-party
 ||mandrill.hamptonbeach.live^$third-party
 ||mandrill.yellowfruit.co^$third-party
+||mangamad.com^$third-party
 ||mantis-intelligence.com^$third-party
 ||maploco.com^$third-party
 ||marker.konograma.com^$third-party
@@ -5938,6 +5946,7 @@
 ||measure.vndirect.com.vn^$third-party
 ||measurementapi.com^$third-party
 ||measuring-pixel-service.alza.cz^$third-party
+||med.androderm.com^$third-party
 ||media-analytic.com^$third-party
 ||media-stat.mail.ru^$third-party
 ||media01.eu^$third-party
@@ -5950,6 +5959,7 @@
 ||mediav.com^$third-party
 ||mediaweaver.jp^$third-party
 ||mediego.com^$third-party
+||meds.androderm.com^$third-party
 ||medtargetsystem.com^$third-party
 ||meerkat.bigcrazylife.com^$third-party
 ||meerkat.inprivy.io^$third-party
@@ -6431,6 +6441,7 @@
 ||nex.163.com^$third-party
 ||nextsmarty.com^$third-party
 ||nextstat.com^$third-party
+||nexus.firecrown.com^$third-party
 ||nexx360.io^$third-party
 ||nexxtv-events.servicebus.windows.net^$third-party
 ||nf1nknlw.mateforevents.com^$third-party
@@ -7319,6 +7330,7 @@
 ||richmetrics.com^$third-party
 ||richstring.com^$third-party
 ||ringrevenue.com^$third-party
+||riskpoc.trip.com^$third-party
 ||rlog.9gag.com^$third-party
 ||rlogs.youdao.com^$third-party
 ||rma.homedepot.com^$third-party
@@ -7412,6 +7424,7 @@
 ||rvo-cohesion.healthline.com^$third-party
 ||rvv.emol.com^$third-party
 ||rw.marchex.io^$third-party
+||rybbit-analytics.livecounts.io^$third-party
 ||rybbit.sg-app.com^$third-party
 ||s-adobe.wacoal.jp^$third-party
 ||s-evt.rmp.rakuten.co.jp^$third-party
@@ -7591,16 +7604,25 @@
 ||secure-stats.pingdom.com^$third-party
 ||secure-uk.imrworldwide.com^$third-party
 ||secure.alea6badb.com^$third-party
+||secure.amos5lynn.com^$third-party
+||secure.aran9midi.com^$third-party
+||secure.burn5tilt.com^$third-party
+||secure.ches5sort.com^$third-party
 ||secure.emeu0circ.com^$third-party
 ||secure.etym6cero.com^$third-party
+||secure.gaza2lote.com^$third-party
 ||secure.hazy4cant.com^$third-party
 ||secure.hiss3lark.com^$third-party
 ||secure.ifbyphone.com^$third-party
 ||secure.kilo6alga.com^$third-party
 ||secure.late6year.com^$third-party
+||secure.line6agar.com^$third-party
+||secure.list1holp.com^$third-party
 ||secure.merchantadvantage.com^$third-party
 ||secure.neck6bake.com^$third-party
+||secure.pdxor02.com^$third-party
 ||secure.perk0mean.com^$third-party
+||secure.saon6harz.com^$third-party
 ||secure.statcounter.com^$third-party
 ||secure.tent0mown.com^$third-party
 ||secure.trust-guard.com^$third-party
@@ -7710,6 +7732,7 @@
 ||sgtm.tripping.com^$third-party
 ||sgtm.walbrook.ac.uk^$third-party
 ||sgtm.yubico.com^$third-party
+||sgw-analytics.panasonic.com^$third-party
 ||shared.65twenty.com^$third-party
 ||shark.rockyourlife.de^$third-party
 ||sharpspring.com^$third-party
@@ -7722,6 +7745,8 @@
 ||sheep.vaxstandby.com^$third-party
 ||sherlock-events-sampler.ebay.com^$third-party
 ||shield.sitelock.com^$third-party
+||shihuo-new.log.shihuocdn.cn^$third-party
+||shihuo.log.shihuocdn.cn^$third-party
 ||shinystat.com^$third-party
 ||shinystat.it^$third-party
 ||shockinggrass.com^$third-party
@@ -8082,6 +8107,7 @@
 ||smetrics.heathrowexpress.com^$third-party
 ||smetrics.herbalife.com^$third-party
 ||smetrics.heromotocorp.com^$third-party
+||smetrics.herschel.com.au^$third-party
 ||smetrics.hollandamerica.com^$third-party
 ||smetrics.hollisterco.com^$third-party
 ||smetrics.homeadvisor.com^$third-party
@@ -8163,6 +8189,7 @@
 ||smetrics.maxicoffee.de^$third-party
 ||smetrics.maximintegrated.com^$third-party
 ||smetrics.mcafee.com^$third-party
+||smetrics.mcdpromotion.ca^$third-party
 ||smetrics.mdlive.com^$third-party
 ||smetrics.medstarhealth.org^$third-party
 ||smetrics.memberdeals.com^$third-party
@@ -10567,6 +10594,7 @@
 ||web-trace.ksapisrv.com^$third-party
 ||web-vitals-script.leaderint.workers.dev^$third-party
 ||web.analytics.metrobyt-mobile.com^$third-party
+||web.collisionservices.com^$third-party
 ||web.email.farrow-ball.com^$third-party
 ||web.email.pizzaexpress.com^$third-party
 ||web.northwestern.nm.org^$third-party

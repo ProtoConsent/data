@@ -1,8 +1,8 @@
 # Title: ProtoConsent Analytics
 # Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-# Version: 2026-11-14
-# Last modified: 2026-11-14T07:42:14.387Z
-# Entries: 10823
+# Version: 2026-11-15
+# Last modified: 2026-11-15T07:58:11.567Z
+# Entries: 10851
 # Homepage: https://github.com/ProtoConsent/data
 # License: GPL-3.0-or-later
 #
@@ -1938,6 +1938,7 @@
 0.0.0.0 analytics.bonfire.com
 0.0.0.0 analytics.boomerangtv.co.uk
 0.0.0.0 analytics.brave.com
+0.0.0.0 analytics.bucks.helixo.co
 0.0.0.0 analytics.bundesregierung.de
 0.0.0.0 analytics.businessinsider.com
 0.0.0.0 analytics.bydaniwp.dev
@@ -2925,6 +2926,7 @@
 0.0.0.0 bluejay.postmediagroup.com
 0.0.0.0 bluejay.schreinerei-virnich.de
 0.0.0.0 bluejay.wearegray.com
+0.0.0.0 bluelp.2ask.blue.com.hk
 0.0.0.0 blueoyster.click
 0.0.0.0 bluepontoons.com
 0.0.0.0 bm23.com
@@ -3131,6 +3133,7 @@
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.seonintelligence.com
 0.0.0.0 cdn.usefathom.com
+0.0.0.0 cdn.visits.dqapis.com
 0.0.0.0 cdn1.skrill.com
 0.0.0.0 cdnhst.xyz
 0.0.0.0 cdnlogs.org
@@ -3878,6 +3881,7 @@
 0.0.0.0 data-ssl.pnet.co.za
 0.0.0.0 data-ssl.stepstone.be
 0.0.0.0 data-ssl.stepstone.de
+0.0.0.0 data.2ask.blue.com.hk
 0.0.0.0 data.abc.es
 0.0.0.0 data.americas.coca-cola.com
 0.0.0.0 data.circulate.com
@@ -4214,6 +4218,7 @@
 0.0.0.0 edge.sheffieldfinancial.com
 0.0.0.0 edge.truistmomentum.com
 0.0.0.0 edge.truistsecurities.com
+0.0.0.0 edge.wingify.net
 0.0.0.0 edgedc.falabella.com
 0.0.0.0 ediemidnightzombies.com
 0.0.0.0 edmanalytics.pandahall.com
@@ -4963,6 +4968,7 @@
 0.0.0.0 heap.drop.com
 0.0.0.0 heap.io
 0.0.0.0 heapanalytics.com
+0.0.0.0 hearob.klix.ba
 0.0.0.0 heartbeat-pearl.vercel.app
 0.0.0.0 heartbeat.pmd.444.hu
 0.0.0.0 heatmap-events-collector.instapage.com
@@ -5115,6 +5121,7 @@
 0.0.0.0 ihi.flowplayer.com
 0.0.0.0 iid-network.jp
 0.0.0.0 ijogkae.churchserviceplanner.co.uk
+0.0.0.0 ilarh.dermstore.com
 0.0.0.0 ilikeclick.com
 0.0.0.0 image.moengage.com
 0.0.0.0 imagebuffer.com
@@ -5821,6 +5828,7 @@
 0.0.0.0 mandrill.castingcollective.net
 0.0.0.0 mandrill.hamptonbeach.live
 0.0.0.0 mandrill.yellowfruit.co
+0.0.0.0 mangamad.com
 0.0.0.0 mantis-intelligence.com
 0.0.0.0 maploco.com
 0.0.0.0 marker.konograma.com
@@ -5938,6 +5946,7 @@
 0.0.0.0 measure.vndirect.com.vn
 0.0.0.0 measurementapi.com
 0.0.0.0 measuring-pixel-service.alza.cz
+0.0.0.0 med.androderm.com
 0.0.0.0 media-analytic.com
 0.0.0.0 media-stat.mail.ru
 0.0.0.0 media01.eu
@@ -5950,6 +5959,7 @@
 0.0.0.0 mediav.com
 0.0.0.0 mediaweaver.jp
 0.0.0.0 mediego.com
+0.0.0.0 meds.androderm.com
 0.0.0.0 medtargetsystem.com
 0.0.0.0 meerkat.bigcrazylife.com
 0.0.0.0 meerkat.inprivy.io
@@ -6431,6 +6441,7 @@
 0.0.0.0 nex.163.com
 0.0.0.0 nextsmarty.com
 0.0.0.0 nextstat.com
+0.0.0.0 nexus.firecrown.com
 0.0.0.0 nexx360.io
 0.0.0.0 nexxtv-events.servicebus.windows.net
 0.0.0.0 nf1nknlw.mateforevents.com
@@ -7319,6 +7330,7 @@
 0.0.0.0 richmetrics.com
 0.0.0.0 richstring.com
 0.0.0.0 ringrevenue.com
+0.0.0.0 riskpoc.trip.com
 0.0.0.0 rlog.9gag.com
 0.0.0.0 rlogs.youdao.com
 0.0.0.0 rma.homedepot.com
@@ -7412,6 +7424,7 @@
 0.0.0.0 rvo-cohesion.healthline.com
 0.0.0.0 rvv.emol.com
 0.0.0.0 rw.marchex.io
+0.0.0.0 rybbit-analytics.livecounts.io
 0.0.0.0 rybbit.sg-app.com
 0.0.0.0 s-adobe.wacoal.jp
 0.0.0.0 s-evt.rmp.rakuten.co.jp
@@ -7591,16 +7604,25 @@
 0.0.0.0 secure-stats.pingdom.com
 0.0.0.0 secure-uk.imrworldwide.com
 0.0.0.0 secure.alea6badb.com
+0.0.0.0 secure.amos5lynn.com
+0.0.0.0 secure.aran9midi.com
+0.0.0.0 secure.burn5tilt.com
+0.0.0.0 secure.ches5sort.com
 0.0.0.0 secure.emeu0circ.com
 0.0.0.0 secure.etym6cero.com
+0.0.0.0 secure.gaza2lote.com
 0.0.0.0 secure.hazy4cant.com
 0.0.0.0 secure.hiss3lark.com
 0.0.0.0 secure.ifbyphone.com
 0.0.0.0 secure.kilo6alga.com
 0.0.0.0 secure.late6year.com
+0.0.0.0 secure.line6agar.com
+0.0.0.0 secure.list1holp.com
 0.0.0.0 secure.merchantadvantage.com
 0.0.0.0 secure.neck6bake.com
+0.0.0.0 secure.pdxor02.com
 0.0.0.0 secure.perk0mean.com
+0.0.0.0 secure.saon6harz.com
 0.0.0.0 secure.statcounter.com
 0.0.0.0 secure.tent0mown.com
 0.0.0.0 secure.trust-guard.com
@@ -7710,6 +7732,7 @@
 0.0.0.0 sgtm.tripping.com
 0.0.0.0 sgtm.walbrook.ac.uk
 0.0.0.0 sgtm.yubico.com
+0.0.0.0 sgw-analytics.panasonic.com
 0.0.0.0 shared.65twenty.com
 0.0.0.0 shark.rockyourlife.de
 0.0.0.0 sharpspring.com
@@ -7722,6 +7745,8 @@
 0.0.0.0 sheep.vaxstandby.com
 0.0.0.0 sherlock-events-sampler.ebay.com
 0.0.0.0 shield.sitelock.com
+0.0.0.0 shihuo-new.log.shihuocdn.cn
+0.0.0.0 shihuo.log.shihuocdn.cn
 0.0.0.0 shinystat.com
 0.0.0.0 shinystat.it
 0.0.0.0 shockinggrass.com
@@ -8082,6 +8107,7 @@
 0.0.0.0 smetrics.heathrowexpress.com
 0.0.0.0 smetrics.herbalife.com
 0.0.0.0 smetrics.heromotocorp.com
+0.0.0.0 smetrics.herschel.com.au
 0.0.0.0 smetrics.hollandamerica.com
 0.0.0.0 smetrics.hollisterco.com
 0.0.0.0 smetrics.homeadvisor.com
@@ -8163,6 +8189,7 @@
 0.0.0.0 smetrics.maxicoffee.de
 0.0.0.0 smetrics.maximintegrated.com
 0.0.0.0 smetrics.mcafee.com
+0.0.0.0 smetrics.mcdpromotion.ca
 0.0.0.0 smetrics.mdlive.com
 0.0.0.0 smetrics.medstarhealth.org
 0.0.0.0 smetrics.memberdeals.com
@@ -10567,6 +10594,7 @@
 0.0.0.0 web-trace.ksapisrv.com
 0.0.0.0 web-vitals-script.leaderint.workers.dev
 0.0.0.0 web.analytics.metrobyt-mobile.com
+0.0.0.0 web.collisionservices.com
 0.0.0.0 web.email.farrow-ball.com
 0.0.0.0 web.email.pizzaexpress.com
 0.0.0.0 web.northwestern.nm.org
