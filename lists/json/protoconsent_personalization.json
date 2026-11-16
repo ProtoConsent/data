@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization",
-  "version": "2026-11-10",
-  "generated": "2026-11-10T08:30:48.444Z",
+  "version": "2026-11-16",
+  "generated": "2026-11-16T08:05:47.451Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (curated - high-confidence sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -43,7 +43,6 @@
     "emarsys.net",
     "epoq.de",
     "events.launchdarkly.com",
-    "events.split.io",
     "eyeota-sync.dotomi.com",
     "eyeota.com",
     "eyeota.net",
@@ -106,7 +105,7 @@
     "useinsider.com",
     "zeotap.com"
   ],
-  "domain_count": 99,
+  "domain_count": 98,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",

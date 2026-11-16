@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-11-15
-! Last modified: 2026-11-15T07:58:11.567Z
-! Entries: 14865
+! Version: 2026-11-16
+! Last modified: 2026-11-16T08:05:47.451Z
+! Entries: 14859
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -1562,6 +1562,7 @@
 ||addfreestats.com^$third-party
 ||addlog.thuvienphapluat.vn^$third-party
 ||adebis.bathclin.jp^$third-party
+||adebis.entetsu.co.jp^$third-party
 ||adebis.gfs-official.com^$third-party
 ||adebis.gfs.tokyo^$third-party
 ||adebis.toushi-up.com^$third-party
@@ -2175,6 +2176,7 @@
 ||analytics.mystream.com^$third-party
 ||analytics.namegulf.com^$third-party
 ||analytics.nastooh.ir^$third-party
+||analytics.natlawreview.com^$third-party
 ||analytics.navyfederal.org^$third-party
 ||analytics.neoogilvy.uy^$third-party
 ||analytics.newscred.com^$third-party
@@ -2400,7 +2402,6 @@
 ||analytics.vortexscans.com^$third-party
 ||analytics.wachanga.app^$third-party
 ||analytics.waifu2x.org^$third-party
-||analytics.watchott.org^$third-party
 ||analytics.wavebox.io^$third-party
 ||analytics.web60.ie^$third-party
 ||analytics.webflow.com^$third-party
@@ -2927,7 +2928,6 @@
 ||bluejay.postmediagroup.com^$third-party
 ||bluejay.schreinerei-virnich.de^$third-party
 ||bluejay.wearegray.com^$third-party
-||bluelp.2ask.blue.com.hk^$third-party
 ||blueoyster.click^$third-party
 ||bluepontoons.com^$third-party
 ||bm23.com^$third-party
@@ -3738,6 +3738,7 @@
 ||cya2.net^$third-party
 ||cybba.solutions^$third-party
 ||cyberanalytics.nl^$third-party
+||czx5eyk0exbhwp43ya.biz^$third-party
 ||d-log.asahi.co.jp^$third-party
 ||d-log.tv-asahi.co.jp^$third-party
 ||d-markets.net^$third-party
@@ -3875,6 +3876,7 @@
 ||dapxl.com^$third-party
 ||darngavel.com^$third-party
 ||dash.getsitecontrol.com^$third-party
+||dash.kryon.one^$third-party
 ||dashapi.chartbeat.com^$third-party
 ||dashingdrop.com^$third-party
 ||data-collector.wefi.com^$third-party
@@ -3882,7 +3884,6 @@
 ||data-ssl.pnet.co.za^$third-party
 ||data-ssl.stepstone.be^$third-party
 ||data-ssl.stepstone.de^$third-party
-||data.2ask.blue.com.hk^$third-party
 ||data.abc.es^$third-party
 ||data.americas.coca-cola.com^$third-party
 ||data.circulate.com^$third-party
@@ -5122,7 +5123,6 @@
 ||ihi.flowplayer.com^$third-party
 ||iid-network.jp^$third-party
 ||ijogkae.churchserviceplanner.co.uk^$third-party
-||ilarh.dermstore.com^$third-party
 ||ilikeclick.com^$third-party
 ||image.moengage.com^$third-party
 ||imagebuffer.com^$third-party
@@ -5337,6 +5337,7 @@
 ||justtrack.io^$third-party
 ||justwebcards.com^$third-party
 ||jwpltx.com^$third-party
+||jzq915.playmobil.com^$third-party
 ||k.brandalley.fr^$third-party
 ||k.flynas.com^$third-party
 ||k.hofmann.es^$third-party
@@ -5418,8 +5419,8 @@
 ||kunyu.csdn.net^$third-party
 ||kupona.de^$third-party
 ||kv-analytics.kiotviet.vn^$third-party
+||l.ca.ovhcloud.com^$third-party
 ||l.typesquare.com^$third-party
-||l.web.huya.com^$third-party
 ||l936.expressnews.com^$third-party
 ||l997.lmtonline.com^$third-party
 ||la2.vnecdn.net^$third-party
@@ -5947,7 +5948,6 @@
 ||measure.vndirect.com.vn^$third-party
 ||measurementapi.com^$third-party
 ||measuring-pixel-service.alza.cz^$third-party
-||med.androderm.com^$third-party
 ||media-analytic.com^$third-party
 ||media-stat.mail.ru^$third-party
 ||media01.eu^$third-party
@@ -5960,7 +5960,6 @@
 ||mediav.com^$third-party
 ||mediaweaver.jp^$third-party
 ||mediego.com^$third-party
-||meds.androderm.com^$third-party
 ||medtargetsystem.com^$third-party
 ||meerkat.bigcrazylife.com^$third-party
 ||meerkat.inprivy.io^$third-party
@@ -6693,7 +6692,6 @@
 ||pagesense.io^$third-party
 ||pagesocket.glam.com^$third-party
 ||pageviews.tray.com.br^$third-party
-||pagoda56.com^$third-party
 ||panda.kasika.io^$third-party
 ||panda.moritz-petersen.de^$third-party
 ||panda.mvhphotoproject.org^$third-party
@@ -6823,6 +6821,7 @@
 ||piwik.incms.net^$third-party
 ||piwik.itzbund.de^$third-party
 ||piwik.lwl.org^$third-party
+||piwik.micolombiadigital.gov.co^$third-party
 ||piwik.org^$third-party
 ||piwik.scnsoft.com^$third-party
 ||piwik.shc.eu^$third-party
@@ -7733,7 +7732,6 @@
 ||sgtm.tripping.com^$third-party
 ||sgtm.walbrook.ac.uk^$third-party
 ||sgtm.yubico.com^$third-party
-||sgw-analytics.panasonic.com^$third-party
 ||shared.65twenty.com^$third-party
 ||shark.rockyourlife.de^$third-party
 ||sharpspring.com^$third-party
@@ -8108,7 +8106,6 @@
 ||smetrics.heathrowexpress.com^$third-party
 ||smetrics.herbalife.com^$third-party
 ||smetrics.heromotocorp.com^$third-party
-||smetrics.herschel.com.au^$third-party
 ||smetrics.hollandamerica.com^$third-party
 ||smetrics.hollisterco.com^$third-party
 ||smetrics.homeadvisor.com^$third-party
@@ -8190,7 +8187,6 @@
 ||smetrics.maxicoffee.de^$third-party
 ||smetrics.maximintegrated.com^$third-party
 ||smetrics.mcafee.com^$third-party
-||smetrics.mcdpromotion.ca^$third-party
 ||smetrics.mdlive.com^$third-party
 ||smetrics.medstarhealth.org^$third-party
 ||smetrics.memberdeals.com^$third-party
@@ -9672,7 +9668,6 @@
 ||tr-romsp-unifyconfig.vivoglobal.com^$third-party
 ||tr-st-sl.vivoglobal.com^$third-party
 ||tr-vcode-od.vivoglobal.com^$third-party
-||tr.api.fanbyte.com^$third-party
 ||tr.attribuly.com^$third-party
 ||tr.brand-fresh.it^$third-party
 ||tr.bt.matrixspa.it^$third-party
@@ -10150,7 +10145,6 @@
 ||trackingapi.meinprospekt.de^$third-party
 ||trackingbr.zingplay.com^$third-party
 ||trackingin.zingplay.com^$third-party
-||trackingio.com^$third-party
 ||trackinglibrary.prodperfect.com^$third-party
 ||trackingmms.accenture.com^$third-party
 ||trackingsea.zingplay.com^$third-party

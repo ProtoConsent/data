@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization Extended",
-  "version": "2026-11-10",
-  "generated": "2026-11-10T08:30:48.444Z",
+  "version": "2026-11-16",
+  "generated": "2026-11-16T08:05:47.451Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -245,7 +245,6 @@
     "esi.amp.permutive.com",
     "events.launchdarkly.com",
     "events.personali.com",
-    "events.split.io",
     "eyeota-sync.dotomi.com",
     "eyeota.com",
     "eyeota.net",
@@ -420,7 +419,7 @@
     "xml.audiencedevelopers.com",
     "zeotap.com"
   ],
-  "domain_count": 413,
+  "domain_count": 412,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",
