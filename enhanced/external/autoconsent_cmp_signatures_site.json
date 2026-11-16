@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-13",
+  "version": "2026-11-16",
   "type": "cmp_site",
-  "generated": "2026-11-13T11:30:24.198Z",
+  "generated": "2026-11-16T12:01:05.880Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "8596a37d58931d70",
+  "autoconsent_tree_hash": "8c9968f3b9c0efe8",
   "cmp_count": 853,
   "signatures": {
     "123inkt": {
@@ -5390,6 +5390,17 @@
         ]
       }
     },
+    "jobmount": {
+      "selector": "#cookiesAlertMsg.cookies-alert",
+      "detectors": {
+        "present": [
+          "#cookiesAlertMsg.cookies-alert #cookies_alert_btn"
+        ],
+        "showing": [
+          "#cookiesAlertMsg.cookies-alert"
+        ]
+      }
+    },
     "johnlewis_com": {
       "selector": "div[class^=pecr-cookie-banner-]",
       "detectors": {
@@ -9639,17 +9650,6 @@
       "domains": [
         "teacherspensions.co.uk"
       ]
-    },
-    "tealium": {
-      "selector": "#__tealiumGDPRecModal,#__tealiumGDPRcpPrefs,#__tealiumImplicitmodal,#consent-layer",
-      "detectors": {
-        "present": [
-          "#__tealiumGDPRecModal *,#__tealiumGDPRcpPrefs *,#__tealiumImplicitmodal *"
-        ],
-        "showing": [
-          "#__tealiumGDPRecModal *,#__tealiumGDPRcpPrefs *,#__tealiumImplicitmodal *"
-        ]
-      }
     },
     "tumblr": {
       "selector": "#cmp-app-container",

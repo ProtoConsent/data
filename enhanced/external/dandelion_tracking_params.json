@@ -1,10 +1,19 @@
 {
-  "version": "2026-11-14",
-  "generated": "2026-11-14T10:54:05.835Z",
+  "version": "2026-11-16",
+  "generated": "2026-11-16T12:01:06.180Z",
   "type": "tracking_params_sites",
-  "domain_count": 1008,
-  "param_count": 2045,
+  "domain_count": 1011,
+  "param_count": 2051,
   "sites": {
+    "flugladen.de": [
+      "af",
+      "ci",
+      "cmp",
+      "ecmp",
+      "flow",
+      "subch",
+      "upsell"
+    ],
     "zhihu.com": [
       "hybrid_search_extra",
       "hybrid_search_source",
@@ -4697,6 +4706,12 @@
     ],
     "delta.com": [
       "mkcpgn"
+    ],
+    "suomalainen.com": [
+      "queryId"
+    ],
+    "wealthsimple.com": [
+      "ajs_aid"
     ],
     "ikea.com": [
       "f"

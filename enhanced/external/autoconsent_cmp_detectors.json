@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-13",
+  "version": "2026-11-16",
   "type": "cmp_detectors",
-  "generated": "2026-11-13T11:30:24.213Z",
+  "generated": "2026-11-16T12:01:05.895Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "8596a37d58931d70",
+  "autoconsent_tree_hash": "8c9968f3b9c0efe8",
   "cmp_count": 993,
   "detectors": {
     "123inkt": {
@@ -439,10 +439,10 @@
     },
     "anthropic": {
       "present": [
-        "div:has(> p > a[href='https://www.anthropic.com/legal/cookies'])"
+        "[data-testid='consent-banner']:has(a[href='https://www.anthropic.com/legal/cookies'])"
       ],
       "showing": [
-        "div:has(> p > a[href='https://www.anthropic.com/legal/cookies'])"
+        "[data-testid='consent-banner']:has(a[href='https://www.anthropic.com/legal/cookies'])"
       ]
     },
     "app_discuss_io": {
@@ -4684,6 +4684,14 @@
         "#jix-cookie-consent-modal"
       ]
     },
+    "jobmount": {
+      "present": [
+        "#cookiesAlertMsg.cookies-alert #cookies_alert_btn"
+      ],
+      "showing": [
+        "#cookiesAlertMsg.cookies-alert"
+      ]
+    },
     "jobtoday": {
       "present": [
         "[data-testid=modal_cookie-consent]"
@@ -8394,14 +8402,6 @@
       ],
       "domains": [
         "teacherspensions.co.uk"
-      ]
-    },
-    "tealium": {
-      "present": [
-        "#__tealiumGDPRecModal *,#__tealiumGDPRcpPrefs *,#__tealiumImplicitmodal *"
-      ],
-      "showing": [
-        "#__tealiumGDPRecModal *,#__tealiumGDPRcpPrefs *,#__tealiumImplicitmodal *"
       ]
     },
     "tiktok": {
