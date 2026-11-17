@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Analytics
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (curated - high-confidence sources)
-! Version: 2026-11-16
-! Last modified: 2026-11-16T08:05:47.451Z
-! Entries: 14859
+! Version: 2026-11-17
+! Last modified: 2026-11-17T09:19:50.658Z
+! Entries: 14864
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -3090,6 +3090,7 @@
 ||cartx.cloud^$third-party
 ||cashcount.com^$third-party
 ||caspionlog.appspot.com^$third-party
+||cast-imp.jtbc.co.kr^$third-party
 ||cast.imp.joins.com^$third-party
 ||cat.beunitedinchrist.com^$third-party
 ||cat.gfx.io^$third-party
@@ -4182,6 +4183,7 @@
 ||earthworm.elenabirkenwald.com^$third-party
 ||earthworm.makethemdebate.com^$third-party
 ||earthworm.mxdvl.com^$third-party
+||earthyfarm.com^$third-party
 ||earwig.architecturesofhiding.com^$third-party
 ||earwig.oofi.es^$third-party
 ||easter-analytics.com^$third-party
@@ -5421,6 +5423,7 @@
 ||kv-analytics.kiotviet.vn^$third-party
 ||l.ca.ovhcloud.com^$third-party
 ||l.typesquare.com^$third-party
+||l.web.huya.com^$third-party
 ||l936.expressnews.com^$third-party
 ||l997.lmtonline.com^$third-party
 ||la2.vnecdn.net^$third-party
@@ -6980,6 +6983,7 @@
 ||pocustrack.com^$third-party
 ||pointillist.com^$third-party
 ||pointmediatracker.com^$third-party
+||pointsshare.com^$third-party
 ||poisedpig.com^$third-party
 ||polaranalytics.com^$third-party
 ||polarbear.codeday.org^$third-party
@@ -7594,6 +7598,7 @@
 ||sealmetrics.com^$third-party
 ||seaotterplay.com^$third-party
 ||searchfeed.com^$third-party
+||searchitems.com^$third-party
 ||secmetrics.schaefer-shop.de^$third-party
 ||secretspiders.com^$third-party
 ||secu.hagerty.com^$third-party
@@ -8326,7 +8331,6 @@
 ||smetrics.samsung.com^$third-party
 ||smetrics.santander.co.uk^$third-party
 ||smetrics.sasktel.com^$third-party
-||smetrics.saudiairlines.com^$third-party
 ||smetrics.savethechildren.org.uk^$third-party
 ||smetrics.sbishinseibank.co.jp^$third-party
 ||smetrics.sbs.com.au^$third-party
@@ -10744,6 +10748,7 @@
 ||wstats.slashed.cloud^$third-party
 ||wt-eu02.net^$third-party
 ||wt-safetag.com^$third-party
+||wt.omnisendlink.com^$third-party
 ||wt.soundestlink.com^$third-party
 ||wt.viagogo.net^$third-party
 ||wtb-tag.mikmak.ai^$third-party

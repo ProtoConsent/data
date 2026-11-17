@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Third Parties Extended
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-! Version: 2026-11-16
-! Last modified: 2026-11-16T08:05:47.451Z
-! Entries: 824
+! Version: 2026-11-17
+! Last modified: 2026-11-17T09:19:50.658Z
+! Entries: 828
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -87,6 +87,7 @@
 ||app-ab06.marketo.com^$third-party
 ||app-ab09.marketo.com^$third-party
 ||app-ab14.marketo.com^$third-party
+||app-ab23.marketo.com^$third-party
 ||app-ab24.marketo.com^$third-party
 ||app-ab26.marketo.com^$third-party
 ||app-ab28.marketo.com^$third-party
@@ -109,6 +110,8 @@
 ||app-sj04.marketo.com^$third-party
 ||app-sj05.marketo.com^$third-party
 ||app-sj06.marketo.com^$third-party
+||app-sj07.marketo.com^$third-party
+||app-sj08.marketo.com^$third-party
 ||app-sj11.marketo.com^$third-party
 ||app-sj13.marketo.com^$third-party
 ||app-sj14.marketo.com^$third-party
@@ -123,9 +126,9 @@
 ||app-sji.marketo.com^$third-party
 ||app-sjl.marketo.com^$third-party
 ||app-sjn.marketo.com^$third-party
+||app-sjo.marketo.com^$third-party
 ||app-sjqe.marketo.com^$third-party
 ||app-sjst.marketo.com^$third-party
-||app-sn01.marketo.com^$third-party
 ||app.harasocial.com^$third-party
 ||app.marketo.com^$third-party
 ||appdev.addthis.com^$third-party
@@ -763,6 +766,7 @@
 ||outbrain.com/widgetOBUserSync/^
 ||pages.etoro.com/widgets/^
 ||patreon.com/becomePatronButton.bundle.js^
+||pcguide.com/wp-content/plugins/redefined-ads/^
 ||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/^
 ||people.com.cn/img/2020fenxiang/^
 ||pinterest.com/images/^

@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
-  "version": "2026-11-16",
-  "generated": "2026-11-16T08:05:47.451Z",
+  "version": "2026-11-17",
+  "generated": "2026-11-17T09:19:50.658Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -86,6 +86,7 @@
     "app-ab06.marketo.com",
     "app-ab09.marketo.com",
     "app-ab14.marketo.com",
+    "app-ab23.marketo.com",
     "app-ab24.marketo.com",
     "app-ab26.marketo.com",
     "app-ab28.marketo.com",
@@ -108,6 +109,8 @@
     "app-sj04.marketo.com",
     "app-sj05.marketo.com",
     "app-sj06.marketo.com",
+    "app-sj07.marketo.com",
+    "app-sj08.marketo.com",
     "app-sj11.marketo.com",
     "app-sj13.marketo.com",
     "app-sj14.marketo.com",
@@ -122,9 +125,9 @@
     "app-sji.marketo.com",
     "app-sjl.marketo.com",
     "app-sjn.marketo.com",
+    "app-sjo.marketo.com",
     "app-sjqe.marketo.com",
     "app-sjst.marketo.com",
-    "app-sn01.marketo.com",
     "app.harasocial.com",
     "app.marketo.com",
     "appdev.addthis.com",
@@ -629,7 +632,7 @@
     "yotpo.com",
     "zoominfo.com"
   ],
-  "domain_count": 622,
+  "domain_count": 625,
   "paths": [
     "||4399.com/plugins/tj/event?",
     "||adweek.com/wp-content/plugins/adw-parsley/",
@@ -765,6 +768,7 @@
     "||outbrain.com/widgetOBUserSync/",
     "||pages.etoro.com/widgets/",
     "||patreon.com/becomePatronButton.bundle.js",
+    "||pcguide.com/wp-content/plugins/redefined-ads/",
     "||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/",
     "||people.com.cn/img/2020fenxiang/",
     "||pinterest.com/images/",
@@ -834,5 +838,5 @@
     "||youtube.com/subscribe_widget",
     "||zextit.com/partners/"
   ],
-  "path_count": 202
+  "path_count": 203
 }
