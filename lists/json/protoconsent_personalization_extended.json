@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Personalization Extended",
-  "version": "2026-11-16",
-  "generated": "2026-11-16T08:05:47.451Z",
+  "version": "2026-11-18",
+  "generated": "2026-11-18T08:40:29.434Z",
   "description": "Content/UX personalization, recommendations, profiling and behavioural A/B testing (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -271,6 +271,7 @@
     "gvctracksdk.optimove.net",
     "gw-metadata.euc1.dynamicyield.com",
     "hearst.amp.permutive.com",
+    "huffingtonpost.crwdcntrl.net",
     "hybrid.ai",
     "id.crwdcntrl.net",
     "id.rlcdn.com",
@@ -419,7 +420,7 @@
     "xml.audiencedevelopers.com",
     "zeotap.com"
   ],
-  "domain_count": 412,
+  "domain_count": 413,
   "paths": [
     "||ak.sail-horizon.com/",
     "||bcp.crwdcntrl.net/",
