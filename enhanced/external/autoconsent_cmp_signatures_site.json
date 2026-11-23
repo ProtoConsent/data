@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-19",
+  "version": "2026-11-23",
   "type": "cmp_site",
-  "generated": "2026-11-19T12:06:36.411Z",
+  "generated": "2026-11-23T13:37:22.948Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "06ec78e1044c5fca",
-  "cmp_count": 845,
+  "autoconsent_tree_hash": "1f8c786dbab939ae",
+  "cmp_count": 846,
   "signatures": {
     "123inkt": {
       "selector": ".c-simple-popup:has(.c-cookie-popup)",
@@ -50,6 +50,17 @@
         ],
         "showing": [
           "div:has(> div > a[href*=\"law.2gis.\"][href*=\"/privacy/cookie\"])"
+        ]
+      }
+    },
+    "7plus": {
+      "selector": "#app > [class^='cookieContainer']",
+      "detectors": {
+        "present": [
+          "#app > [class^='cookieContainer'] [class*='acceptAndCloseButton']"
+        ],
+        "showing": [
+          "#app > [class^='cookieContainer'] [class*='acceptAndCloseButton']"
         ]
       }
     },
@@ -260,6 +271,17 @@
         ]
       }
     },
+    "advgrjp": {
+      "selector": "#cookie-agreement",
+      "detectors": {
+        "present": [
+          "#cookie-agreement .agreement-button input"
+        ],
+        "showing": [
+          "#cookie-agreement"
+        ]
+      }
+    },
     "aemet": {
       "selector": "#popup_cookies",
       "detectors": {
@@ -268,6 +290,17 @@
         ],
         "showing": [
           "#popup_cookies"
+        ]
+      }
+    },
+    "agentii_getsbet_ro": {
+      "selector": ".cc-window[aria-describedby=\"cookieconsent:desc\"]",
+      "detectors": {
+        "present": [
+          "script[src*=\"/js/cookieconsent.min.js\"]"
+        ],
+        "showing": [
+          ".cc-type-info[aria-describedby=\"cookieconsent:desc\"]:not(.cc-invisible) .cc-dismiss"
         ]
       }
     },
@@ -390,6 +423,17 @@
         ]
       }
     },
+    "alzacookiesinfo": {
+      "selector": ".cookies-info:has(.js-cookies-info-reject, .js-cookie-reject-all)",
+      "detectors": {
+        "present": [
+          ".cookies-info .js-cookies-info-reject, .cookies-info .js-cookie-reject-all"
+        ],
+        "showing": [
+          ".cookies-info .js-cookies-info-reject, .cookies-info .js-cookie-reject-all"
+        ]
+      }
+    },
     "amazon_com": {
       "selector": "#sp-cc-wrapper,[data-action=sp-cc],span[data-action=\"sp-cc\"][data-sp-cc*=\"rejectAllAction\"]",
       "detectors": {
@@ -437,6 +481,17 @@
         ]
       }
     },
+    "amgueddfacms": {
+      "selector": "#cookie_bar_container",
+      "detectors": {
+        "present": [
+          "#cookie_bar_container #cookie_bar_agree_button"
+        ],
+        "showing": [
+          "#cookie_bar_container"
+        ]
+      }
+    },
     "ancestry": {
       "selector": "#BannerRegion > #Banner_consent_0, #BannerRegion > #bannerOverlay",
       "detectors": {
@@ -472,6 +527,17 @@
       "domains": [
         "annunci69.it"
       ]
+    },
+    "anowavegtm": {
+      "selector": ".ec-gtm-cookie-directive",
+      "detectors": {
+        "present": [
+          ".ec-gtm-cookie-directive"
+        ],
+        "showing": [
+          ".ec-gtm-cookie-directive"
+        ]
+      }
     },
     "aoc_com": {
       "selector": ".privacy-popup",
@@ -509,6 +575,17 @@
         ]
       }
     },
+    "apteka911ua": {
+      "selector": ".cookie:has(> .cookie-head > .icon-cookie)",
+      "detectors": {
+        "present": [
+          ".cookie > .cookie-head > .icon-cookie"
+        ],
+        "showing": [
+          ".cookie:has(> .cookie-head > .icon-cookie)"
+        ]
+      }
+    },
     "aquasana_com": {
       "selector": "#consent-tracking",
       "detectors": {
@@ -541,6 +618,20 @@
           "bahf-cookie-disclaimer-dpl3"
         ]
       }
+    },
+    "artfund_org": {
+      "selector": ".cookie-banner",
+      "detectors": {
+        "present": [
+          ".cookie-banner .cookie-banner__button-column"
+        ],
+        "showing": [
+          ".cookie-banner.cookie-banner--visible"
+        ]
+      },
+      "domains": [
+        "artfund.org"
+      ]
     },
     "arto": {
       "selector": ".Dialog:has(.ConsentManager)",
@@ -1172,6 +1263,17 @@
         ]
       }
     },
+    "betssonfr": {
+      "selector": ".q-dialog:has(.cookiePopup)",
+      "detectors": {
+        "present": [
+          ".cookiePopup .cookiePopupStepOne"
+        ],
+        "showing": [
+          ".cookiePopup .cookiePopupStepOne"
+        ]
+      }
+    },
     "betterhelp": {
       "selector": "#cookie-banner[data-testid=cookie-banner], [data-testid=dialog-container-cookie-settings-modal]"
     },
@@ -1314,6 +1416,17 @@
         ],
         "showing": [
           ".authorize .lnk-disagree"
+        ]
+      }
+    },
+    "bladehq": {
+      "selector": ".message-accept-container",
+      "detectors": {
+        "present": [
+          ".message-accept-container[style*='flex'] .message-x"
+        ],
+        "showing": [
+          ".message-accept-container"
         ]
       }
     },
@@ -1540,6 +1653,17 @@
         "brandsforstudents.ch"
       ]
     },
+    "bravissimo": {
+      "selector": ".c-consent-modal__container",
+      "detectors": {
+        "present": [
+          ".c-consent-modal__container"
+        ],
+        "showing": [
+          ".c-consent-modal__container"
+        ]
+      }
+    },
     "breuninger": {
       "selector": ".keks-privacy-layer",
       "detectors": {
@@ -1562,6 +1686,18 @@
         ]
       }
     },
+    "bristangroup": {
+      "selector": ".cookie-banner:has(.cookie-banner--content-basic)",
+      "detectors": {
+        "present": [
+          ".cookie-banner .cookie-banner--content-basic",
+          ".cookie-banner #btn-necessary-cookie"
+        ],
+        "showing": [
+          ".cookie-banner.active #btn-necessary-cookie"
+        ]
+      }
+    },
     "bsgdprcookies": {
       "selector": "#bs-gdpr-cookies-modal",
       "detectors": {
@@ -1574,13 +1710,13 @@
       }
     },
     "bswhealth": {
-      "selector": "#bsw-consentCookie",
+      "selector": ".consent-banner",
       "detectors": {
         "present": [
-          "#bsw-consentCookie"
+          ".consent-banner .manage-cookies-btn"
         ],
         "showing": [
-          "#bsw-consentCookie .accept-btn"
+          ".consent-banner .manage-cookies-btn"
         ]
       }
     },
@@ -1739,6 +1875,28 @@
       "domains": [
         "canyon.com"
       ]
+    },
+    "captaincompliance": {
+      "selector": ".captain-compliance-modal-container",
+      "detectors": {
+        "present": [
+          ".captain-compliance-modal-container"
+        ],
+        "showing": [
+          ".captain-compliance-modal-container"
+        ]
+      }
+    },
+    "cardiffuniversity": {
+      "selector": "#cu-cookie-alert",
+      "detectors": {
+        "present": [
+          "#cu-cookie-alert #accept-cookie-message"
+        ],
+        "showing": [
+          "#cu-cookie-alert"
+        ]
+      }
     },
     "carlsberggroup": {
       "selector": "#cbgccp-cookies-banner",
@@ -1936,6 +2094,17 @@
         ]
       }
     },
+    "cgovcookiebanner": {
+      "selector": ".cgov-cookiebanner",
+      "detectors": {
+        "present": [
+          ".cgov-cookiebanner button[name=reject]"
+        ],
+        "showing": [
+          ".cgov-cookiebanner"
+        ]
+      }
+    },
     "chairish": {
       "selector": "#js-cookie-banner",
       "detectors": {
@@ -2086,6 +2255,17 @@
         ]
       }
     },
+    "civicgovukcookiecontrol": {
+      "selector": ".civic-govuk-cookiecontrol .cookie-banner",
+      "detectors": {
+        "present": [
+          ".civic-govuk-cookiecontrol .cookie-banner--main .cookie-banner-button--reject"
+        ],
+        "showing": [
+          ".civic-govuk-cookiecontrol .cookie-banner--main .cookie-banner-button--reject"
+        ]
+      }
+    },
     "civilservicejobsservicegovuk": {
       "selector": "#csr-cookie-message",
       "detectors": {
@@ -2132,6 +2312,17 @@
       "domains": [
         "clasohlson.com"
       ]
+    },
+    "classbento": {
+      "selector": "#gdpr-banner",
+      "detectors": {
+        "present": [
+          "#gdpr-banner #gdpr-essential-btn"
+        ],
+        "showing": [
+          "#gdpr-banner"
+        ]
+      }
     },
     "click_io": {
       "selector": "#cl-consent",
@@ -2260,6 +2451,17 @@
         ],
         "showing": [
           "#cookiesConsentBanner"
+        ]
+      }
+    },
+    "collectingcars": {
+      "selector": "#cookie-banner",
+      "detectors": {
+        "present": [
+          "#cookie-banner [data-clickid=cookiepopup_managecookies]"
+        ],
+        "showing": [
+          "#cookie-banner [data-clickid=cookiepopup_managecookies]"
         ]
       }
     },
@@ -2443,6 +2645,17 @@
         ]
       }
     },
+    "conscioussolutions": {
+      "selector": "#ccc-notify.cookie-bar",
+      "detectors": {
+        "present": [
+          "#ccc-notify.cookie-bar"
+        ],
+        "showing": [
+          "#ccc-notify.cookie-bar"
+        ]
+      }
+    },
     "consentaur": {
       "selector": "#consentaur-banner",
       "detectors": {
@@ -2473,6 +2686,28 @@
         ],
         "showing": [
           "._flo-consent-root ._flo-consent-modal:not(._flo-consent-modal-contextual)"
+        ]
+      }
+    },
+    "consentik": {
+      "selector": ".otCookiesNotification #cookies-wrapper",
+      "detectors": {
+        "present": [
+          ".otCookiesNotification #cookies-wrapper :is(#cookies-dismiss, #cookies-preferences)"
+        ],
+        "showing": [
+          ".otCookiesNotification #cookies-wrapper"
+        ]
+      }
+    },
+    "consentiknotice": {
+      "selector": ".otCookiesNotification #cookies-wrapper",
+      "detectors": {
+        "present": [
+          ".otCookiesNotification #cookies-wrapper:not(:has(#cookies-dismiss, #cookies-preferences)) #cookies-submit"
+        ],
+        "showing": [
+          ".otCookiesNotification #cookies-wrapper"
         ]
       }
     },
@@ -2573,6 +2808,17 @@
         ]
       }
     },
+    "cookiebannerrequiredonly": {
+      "selector": "#cookieBanner.cookie-banner",
+      "detectors": {
+        "present": [
+          "#cookieBanner.cookie-banner .cookie-actions button.btn-required-only"
+        ],
+        "showing": [
+          "#cookieBanner.cookie-banner"
+        ]
+      }
+    },
     "cookiebareu": {
       "selector": "#cookie-bar, #cookie-bar-prompt",
       "detectors": {
@@ -2649,7 +2895,7 @@
       "selector": "#cc-main",
       "detectors": {
         "present": [
-          "#cc-main"
+          "#cc-main .cm-wrapper"
         ],
         "showing": [
           "#cc-main .cm-wrapper"
@@ -2967,13 +3213,13 @@
       }
     },
     "cookiesjsr": {
-      "selector": ".cookiesjsr-banner.active",
+      "selector": ".cookiesjsr-banner.active, .cookiesjsr-banner--active",
       "detectors": {
         "present": [
           ".cookiesjsr-banner"
         ],
         "showing": [
-          ".cookiesjsr-banner.active"
+          ".cookiesjsr-banner.active, .cookiesjsr-banner--active"
         ]
       }
     },
@@ -3065,6 +3311,17 @@
         ]
       }
     },
+    "copaair": {
+      "selector": "[role=dialog]:has(img[src*=\"/assets/Cookies.svg\"])",
+      "detectors": {
+        "present": [
+          "[role=dialog]:has(img[src*=\"/assets/Cookies.svg\"])"
+        ],
+        "showing": [
+          "[role=dialog]:has(img[src*=\"/assets/Cookies.svg\"])"
+        ]
+      }
+    },
     "copaamerica": {
       "selector": "div.fixed.z-50.rounded-xl:has(> p > a[href*=\"privac\"]):has(> button.button-primary)",
       "detectors": {
@@ -3125,6 +3382,31 @@
           ".cookie-banner-alerts > div:has(button[aria-label=\"Accept\"])"
         ]
       }
+    },
+    "crocobet": {
+      "selector": "crc-main-cookie-consent, crc-m-cookie-consent",
+      "detectors": {
+        "present": [
+          "crc-main-cookie-consent [data-cy=\"cookie\"], crc-m-cookie-consent [data-cy=\"main\"]"
+        ],
+        "showing": [
+          "crc-main-cookie-consent [data-cy=\"cookie\"], crc-m-cookie-consent [data-cy=\"main\"]"
+        ]
+      }
+    },
+    "crosswater_co_uk": {
+      "selector": "div:has(> div > #rcc-confirm-button)",
+      "detectors": {
+        "present": [
+          "xpath///div[div/button[@id='rcc-confirm-button']]//button[normalize-space()='Cookie settings']"
+        ],
+        "showing": [
+          "xpath///div[div/button[@id='rcc-confirm-button']]//button[normalize-space()='Cookie settings']"
+        ]
+      },
+      "domains": [
+        "crosswater.co.uk"
+      ]
     },
     "crtm": {
       "selector": "#cookie-banner, #cookie-config-panel",
@@ -3335,6 +3617,17 @@
         ]
       }
     },
+    "detectoraero": {
+      "selector": ".public-map-notices .cookie-consent",
+      "detectors": {
+        "present": [
+          ".public-map-notices .cookie-consent"
+        ],
+        "showing": [
+          ".public-map-notices .cookie-consent"
+        ]
+      }
+    },
     "dfactorycookienotice": {
       "selector": "#cookie-notice",
       "detectors": {
@@ -3390,6 +3683,17 @@
         ]
       }
     },
+    "disturbia": {
+      "selector": "#cookie-banner",
+      "detectors": {
+        "present": [
+          "#cookie-banner.CookieBanner [data-action='show-settings']"
+        ],
+        "showing": [
+          "#cookie-banner.CookieBanner"
+        ]
+      }
+    },
     "djangogdprcookieconsent": {
       "selector": "#cc_modal_dialog, #cc_modal_window",
       "detectors": {
@@ -3436,6 +3740,17 @@
         ],
         "showing": [
           ".cookie-popup #cookie-popup-strictlyNecessary"
+        ]
+      }
+    },
+    "dobarkodcookiebanner": {
+      "selector": ".cookiebanner:has(> .cookiebanner-close)",
+      "detectors": {
+        "present": [
+          ".cookiebanner > .cookiebanner-close"
+        ],
+        "showing": [
+          ".cookiebanner > .cookiebanner-close"
         ]
       }
     },
@@ -3495,13 +3810,13 @@
       }
     },
     "dpgmedianl": {
-      "selector": "#pg-shadow-host-dom",
+      "selector": "#pg-dom-shadow-host",
       "detectors": {
         "present": [
-          "#pg-shadow-host-dom"
+          "#pg-dom-shadow-host"
         ],
         "showing": [
-          "#pg-shadow-host-dom"
+          "#pg-dom-shadow-host"
         ]
       }
     },
@@ -3775,6 +4090,20 @@
         ]
       }
     },
+    "energydashboard_co_uk": {
+      "selector": "div:has(> div > #rcc-confirm-button)",
+      "detectors": {
+        "present": [
+          "div:has(> div > #rcc-confirm-button) > div > button.btn-outline"
+        ],
+        "showing": [
+          "#rcc-confirm-button"
+        ]
+      },
+      "domains": [
+        "energydashboard.co.uk"
+      ]
+    },
     "england_nhs_uk": {
       "selector": ".cookie-banner-container",
       "detectors": {
@@ -4041,6 +4370,17 @@
         "evozen.fr"
       ]
     },
+    "exceedlms": {
+      "selector": "#gdpr-consent.consent",
+      "detectors": {
+        "present": [
+          "#gdpr-consent.consent #gdpr-consent__button.consent__close"
+        ],
+        "showing": [
+          "#gdpr-consent.consent"
+        ]
+      }
+    },
     "extracom": {
       "selector": "#cookieBanner.extra-cookie-banner, .c_extra-cookie-preference-popup",
       "detectors": {
@@ -4173,6 +4513,17 @@
         ],
         "showing": [
           "#cookie-advice.fv-cookie-advice"
+        ]
+      }
+    },
+    "fictionexpress": {
+      "selector": "#avisoCookies",
+      "detectors": {
+        "present": [
+          "#avisoCookies .cerrarAvisoCookies"
+        ],
+        "showing": [
+          "#avisoCookies"
         ]
       }
     },
@@ -4378,6 +4729,20 @@
         ]
       }
     },
+    "freak_no": {
+      "selector": ".cc-window[aria-describedby=\"cookieconsent:desc\"]",
+      "detectors": {
+        "present": [
+          ".cc-window[aria-describedby=\"cookieconsent:desc\"] .cc-deny"
+        ],
+        "showing": [
+          ".cc-window[aria-describedby=\"cookieconsent:desc\"]:not(.cc-invisible)"
+        ]
+      },
+      "domains": [
+        "freak.no"
+      ]
+    },
     "fuegodevida": {
       "selector": "#cookie-banner",
       "detectors": {
@@ -4386,6 +4751,17 @@
         ],
         "showing": [
           "#cookie-banner"
+        ]
+      }
+    },
+    "fundednext": {
+      "selector": "aside[role='dialog'][aria-label='This website uses cookies']",
+      "detectors": {
+        "present": [
+          "aside[role='dialog'][aria-label='This website uses cookies']"
+        ],
+        "showing": [
+          "aside[role='dialog'][aria-label='This website uses cookies']"
         ]
       }
     },
@@ -4407,6 +4783,20 @@
           ".cookies-block button"
         ]
       }
+    },
+    "furniture_com": {
+      "selector": "#consent-banner",
+      "detectors": {
+        "present": [
+          "#consent-banner #cookie-banner-text"
+        ],
+        "showing": [
+          "#consent-banner #cookie-banner-text"
+        ]
+      },
+      "domains": [
+        "furniture.com"
+      ]
     },
     "fusedeck": {
       "selector": ".fd-consent-main:has(#fd-unCheckAll)",
@@ -4666,6 +5056,20 @@
         ]
       }
     },
+    "globes_co_il": {
+      "selector": "#cookiesConfirmDiv"
+    },
+    "gmconsent": {
+      "selector": ".gmc-root",
+      "detectors": {
+        "present": [
+          ".gmc-root[role=dialog] [data-gmc]"
+        ],
+        "showing": [
+          ".gmc-root[role=dialog]"
+        ]
+      }
+    },
     "gmxpermission": {
       "selector": "#overlay.cmp",
       "detectors": {
@@ -4752,6 +5156,17 @@
         ],
         "showing": [
           ".glue-cookie-notification-bar"
+        ]
+      }
+    },
+    "gotrust": {
+      "selector": "#gotrust-cookie-banner",
+      "detectors": {
+        "present": [
+          "#gotrust-cookie-banner > div"
+        ],
+        "showing": [
+          "#gotrust-cookie-banner > div"
         ]
       }
     },
@@ -4929,6 +5344,17 @@
         ]
       }
     },
+    "hdscookieconsent": {
+      "selector": ".hds-cc__target",
+      "detectors": {
+        "present": [
+          ".hds-cc__target"
+        ],
+        "showing": [
+          ".hds-cc__target"
+        ]
+      }
+    },
     "headfi": {
       "selector": ".notices--bottom_fixer .js-notice[data-notice-id=\"1\"]",
       "detectors": {
@@ -4940,11 +5366,33 @@
         ]
       }
     },
+    "headfirstbristol": {
+      "selector": "#injected_cookie_notice",
+      "detectors": {
+        "present": [
+          "#injected_cookie_notice #reject_cookies"
+        ],
+        "showing": [
+          "#injected_cookie_notice #cook"
+        ]
+      }
+    },
     "healthlinemedia": {
       "selector": "#modal-host > div.no-hash > div.window-wrapper",
       "detectors": {
         "present": [
           "#modal-host > div.no-hash > div.window-wrapper, div[data-testid=qualtrics-container]"
+        ]
+      }
+    },
+    "healthysupplies": {
+      "selector": "#cookie_popup",
+      "detectors": {
+        "present": [
+          "#cookie_popup .cookie_buttons"
+        ],
+        "showing": [
+          "#cookie_popup .cookie_buttons"
         ]
       }
     },
@@ -4980,6 +5428,20 @@
           ".cookie-info a[href*=\"close-policy.cfm\"]"
         ]
       }
+    },
+    "helvy_co_uk": {
+      "selector": "aside[data-consent-card]",
+      "detectors": {
+        "present": [
+          "aside[data-consent-card]"
+        ],
+        "showing": [
+          "aside[data-consent-card]"
+        ]
+      },
+      "domains": [
+        "helvy.co.uk"
+      ]
     },
     "hemsol_se": {
       "selector": ".popup-background[data-popup='consent']",
@@ -5090,6 +5552,17 @@
         ]
       }
     },
+    "hollandwatchgroup": {
+      "selector": "[x-data^=\"App.CookieConsent\"]",
+      "detectors": {
+        "present": [
+          "[x-data^=\"App.CookieConsent\"] button[x-on\\:click=\"saveSettings();\"]"
+        ],
+        "showing": [
+          "[x-data^=\"App.CookieConsent\"] button[x-on\\:click=\"saveSettings();\"]"
+        ]
+      }
+    },
     "hometogo": {
       "selector": "[data-test=\"cookie-consent-notification\"]",
       "detectors": {
@@ -5142,6 +5615,28 @@
         ],
         "showing": [
           "#JOISH987_bar_holder"
+        ]
+      }
+    },
+    "hyperoptic": {
+      "selector": ".modal-overlay:has(.cookie-consent-initial)",
+      "detectors": {
+        "present": [
+          ".cookie-consent-initial"
+        ],
+        "showing": [
+          ".cookie-consent-initial"
+        ]
+      }
+    },
+    "hypovereinsbank": {
+      "selector": ".uccb",
+      "detectors": {
+        "present": [
+          ".uccb .uccb__accept-selection"
+        ],
+        "showing": [
+          ".uccb .uccb__wrapper"
         ]
       }
     },
@@ -5325,6 +5820,17 @@
         ]
       }
     },
+    "incogni": {
+      "selector": "aside[data-testid=cookie-consent-wrapper]",
+      "detectors": {
+        "present": [
+          "aside[data-testid=cookie-consent-wrapper]"
+        ],
+        "showing": [
+          "aside[data-testid=cookie-consent-wrapper]"
+        ]
+      }
+    },
     "incomit": {
       "selector": "cookie-consent-element",
       "detectors": {
@@ -5477,6 +5983,20 @@
         "ipkobiznes.pl"
       ]
     },
+    "islamqa_org": {
+      "selector": "#cookie-law-info-bar, #cookie-law-bg, .cli-popupbar-overlay, #ez-cookie-dialog-wrapper",
+      "detectors": {
+        "present": [
+          "#cookie-law-info-bar, #ez-cookie-dialog-wrapper"
+        ],
+        "showing": [
+          "#cookie-law-info-bar, #ez-cookie-dialog-wrapper"
+        ]
+      },
+      "domains": [
+        "islamqa.org"
+      ]
+    },
     "islingtoncouncil": {
       "selector": ".m-cookie-banner[data-id=\"cookie-banner\"]",
       "detectors": {
@@ -5499,6 +6019,20 @@
         ]
       }
     },
+    "itemsatis_com": {
+      "selector": "#cookieConsent",
+      "detectors": {
+        "present": [
+          "#cookieConsent [data-cc-save]"
+        ],
+        "showing": [
+          "#cookieConsent .cookie-consent"
+        ]
+      },
+      "domains": [
+        "itemsatis.com"
+      ]
+    },
     "iubendarti": {
       "selector": "#iubenda-cs-banner",
       "detectors": {
@@ -5518,6 +6052,17 @@
         ],
         "showing": [
           "#iworks_cookie_notice"
+        ]
+      }
+    },
+    "ixocookieprompt": {
+      "selector": "#cookieprompt",
+      "detectors": {
+        "present": [
+          "#cookieprompt #cookieAllow"
+        ],
+        "showing": [
+          "#cookieprompt"
         ]
       }
     },
@@ -5753,8 +6298,47 @@
         ]
       }
     },
+    "kela_fi": {
+      "selector": "#kela-cookie-banner",
+      "detectors": {
+        "present": [
+          "#kela-cookie-banner"
+        ],
+        "showing": [
+          "#kela-cookie-banner"
+        ]
+      },
+      "domains": [
+        "kela.fi"
+      ]
+    },
+    "kenstechtips": {
+      "selector": ".cookie-alert:has(> .cookie-alert-container)",
+      "detectors": {
+        "present": [
+          ".cookie-alert .cookie-alert-container .accept-cookies"
+        ],
+        "showing": [
+          ".cookie-alert.show .accept-cookies"
+        ]
+      }
+    },
     "ketch": {
       "selector": "#lanyard_root div[role='dialog'], #ketch-banner, #ketch-modal"
+    },
+    "keurig_com": {
+      "selector": "#cookies-banner",
+      "detectors": {
+        "present": [
+          "#cookies-banner"
+        ],
+        "showing": [
+          "#cookies-banner"
+        ]
+      },
+      "domains": [
+        "keurig.com"
+      ]
     },
     "kickstarter_com": {
       "selector": "#react-consent-modal",
@@ -5892,6 +6476,17 @@
         ],
         "showing": [
           ".consentForm__root"
+        ]
+      }
+    },
+    "krillion_to": {
+      "selector": ".bandeau-cookies",
+      "detectors": {
+        "present": [
+          ".bandeau-cookies .bandeau-cookies-choix"
+        ],
+        "showing": [
+          ".bandeau-cookies"
         ]
       }
     },
@@ -6088,6 +6683,17 @@
         "latrobe.edu.au"
       ]
     },
+    "lawhive": {
+      "selector": "div.fixed.bottom-4:has(> div > button > img[alt='close-black'])",
+      "detectors": {
+        "present": [
+          "xpath///div[contains(@class,'fixed')][.//img[@alt='close-black']][.//button[contains(., 'Manage settings')]]"
+        ],
+        "showing": [
+          "xpath///div[contains(@class,'fixed')][.//img[@alt='close-black']][.//button[contains(., 'Manage settings')]]"
+        ]
+      }
+    },
     "lawwwing": {
       "selector": "#lw-widget-root #lw-banner",
       "detectors": {
@@ -6096,6 +6702,17 @@
         ],
         "showing": [
           "#lw-widget-root #lw-banner.lw-banner-visible"
+        ]
+      }
+    },
+    "laxd": {
+      "selector": ".vpXfb2ak",
+      "detectors": {
+        "present": [
+          ".vpXfb2ak button[name=\"gdpr_agree_btn\"]"
+        ],
+        "showing": [
+          ".vpXfb2ak"
         ]
       }
     },
@@ -6162,6 +6779,17 @@
       "domains": [
         "lenta.ru"
       ]
+    },
+    "lessonup": {
+      "selector": "#cookie-modal",
+      "detectors": {
+        "present": [
+          "#cookie-modal [class*='CookieModal_changeCookies']"
+        ],
+        "showing": [
+          "#cookie-modal [class*='CookieModal_popup']"
+        ]
+      }
     },
     "leukhuisnl": {
       "selector": "#cookieNotice",
@@ -6272,6 +6900,17 @@
         ],
         "showing": [
           "#p_p_id_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_"
+        ]
+      }
+    },
+    "ligonier": {
+      "selector": "div:has(> form[action$='/api/enable-cookie-consent'])",
+      "detectors": {
+        "present": [
+          "form[action$='/api/enable-cookie-consent'] button[name='accept-gdpr']"
+        ],
+        "showing": [
+          "form[action$='/api/enable-cookie-consent'] button[name='accept-gdpr']"
         ]
       }
     },
@@ -6410,6 +7049,17 @@
         ]
       }
     },
+    "madeiramadeira": {
+      "selector": "div.pos_fixed:has(> button[aria-label=\"Concordar e fechar\"])",
+      "detectors": {
+        "present": [
+          "div.pos_fixed > button[aria-label=\"Concordar e fechar\"]"
+        ],
+        "showing": [
+          "div.pos_fixed > button[aria-label=\"Concordar e fechar\"]"
+        ]
+      }
+    },
     "magefan": {
       "selector": "dialog.mf-cookie-modal-container",
       "detectors": {
@@ -6443,6 +7093,18 @@
         ]
       }
     },
+    "managecookiemodal": {
+      "selector": ".cookie-consent-banner",
+      "detectors": {
+        "present": [
+          ".cookie-consent-banner #cookieBanner .manage-cookies",
+          "#manage-cookie-modal #cookie_settings_form"
+        ],
+        "showing": [
+          ".cookie-consent-banner #cookieBanner"
+        ]
+      }
+    },
     "mango": {
       "selector": "#cookies-banner",
       "detectors": {
@@ -6462,6 +7124,17 @@
         ],
         "showing": [
           ".DlgCGU .DlgCGUBtn"
+        ]
+      }
+    },
+    "marriottnotice": {
+      "selector": "#notice-popup",
+      "detectors": {
+        "present": [
+          "#notice-popup #close-btn-notice, #notice-popup #close-btn-universal"
+        ],
+        "showing": [
+          "#notice-popup .notice.show"
         ]
       }
     },
@@ -6539,6 +7212,17 @@
         ],
         "showing": [
           ".privacy-license-bar"
+        ]
+      }
+    },
+    "mccoysguide": {
+      "selector": ".cookie-container:has(#cookieSaveBtn)",
+      "detectors": {
+        "present": [
+          ".cookie-container #cookieSaveBtn"
+        ],
+        "showing": [
+          ".cookie-container #cookieSaveBtn"
         ]
       }
     },
@@ -7057,6 +7741,17 @@
         ]
       }
     },
+    "myfooddiary": {
+      "selector": ".cookie-banner",
+      "detectors": {
+        "present": [
+          ".cookie-banner button.btn-dismiss-cookie-banner"
+        ],
+        "showing": [
+          ".cookie-banner button.btn-dismiss-cookie-banner"
+        ]
+      }
+    },
     "myjobquote": {
       "selector": ".cookie-new-bg",
       "detectors": {
@@ -7065,6 +7760,39 @@
         ],
         "showing": [
           "#cookie-popup-short"
+        ]
+      }
+    },
+    "nationwidevehiclecontracts": {
+      "selector": ".cookie-consent",
+      "detectors": {
+        "present": [
+          ".cookie-consent [data-cookie-allow-all]"
+        ],
+        "showing": [
+          ".cookie-consent [data-cookie-allow-all]"
+        ]
+      }
+    },
+    "naturalintelligence": {
+      "selector": "#cookiesDashboard,#cookieConsent.tc-privacy-override",
+      "detectors": {
+        "present": [
+          "#cookiesDashboard #preferences_consent_top_modal,#cookieConsent #cookie_top_setting_btn"
+        ],
+        "showing": [
+          "#cookiesDashboard,#cookieConsent"
+        ]
+      }
+    },
+    "naturalnews": {
+      "selector": ".PrivacyNotice:has(.PrivacyAccept)",
+      "detectors": {
+        "present": [
+          ".PrivacyNotice .PrivacyContent .PrivacyAccept"
+        ],
+        "showing": [
+          ".PrivacyNotice .PrivacyContent .PrivacyAccept"
         ]
       }
     },
@@ -7150,6 +7878,17 @@
       "domains": [
         "netbeat.de"
       ]
+    },
+    "nfl": {
+      "selector": "#onetrust-banner-sdk",
+      "detectors": {
+        "present": [
+          "body[class*='nfl-is-'] #onetrust-banner-sdk"
+        ],
+        "showing": [
+          "#onetrust-banner-sdk"
+        ]
+      }
     },
     "nhm_ac_uk": {
       "selector": "[data-show-cookie-banner=\"true\"], [data-show-cookie-banner-overlay=\"true\"]",
@@ -7250,6 +7989,17 @@
         ],
         "showing": [
           ".govpl.cookie-bar-container:not(.cookie-bar-hide) .cookiebar-close"
+        ]
+      }
+    },
+    "noon": {
+      "selector": "[class*=\"_wrapper_\"]:has(> [class*=\"_expandedContent_\"] #essential-cookie)",
+      "detectors": {
+        "present": [
+          "[class*=\"_wrapper_\"]:has(> [class*=\"_expandedContent_\"] #essential-cookie)"
+        ],
+        "showing": [
+          "[class*=\"_wrapper_\"]:has(> [class*=\"_expandedContent_\"] #essential-cookie)"
         ]
       }
     },
@@ -7416,6 +8166,20 @@
         ]
       }
     },
+    "odia_ig_com_br": {
+      "selector": "#policy-cookies-banner",
+      "detectors": {
+        "present": [
+          "#policy-cookies-banner [onclick*='acceptLGPD']"
+        ],
+        "showing": [
+          "#policy-cookies-banner"
+        ]
+      },
+      "domains": [
+        "odia.ig.com.br"
+      ]
+    },
     "oechsle": {
       "selector": "#cookie-banner, .cookie-modal__overlay",
       "detectors": {
@@ -7556,6 +8320,17 @@
         ]
       }
     },
+    "opconsentmanager": {
+      "selector": "#ocm-container.ocm-container--banner",
+      "detectors": {
+        "present": [
+          "#ocm-container.ocm-container--banner .ocm-button--continue"
+        ],
+        "showing": [
+          "#ocm-container.ocm-container--banner"
+        ]
+      }
+    },
     "openai": {
       "selector": "[aria-labelledby=cookieConsentTitle]",
       "detectors": {
@@ -7569,6 +8344,17 @@
       "domains": [
         "openai.com"
       ]
+    },
+    "opencartgoogleconsentv2": {
+      "selector": "#google-consent-mode",
+      "detectors": {
+        "present": [
+          "#google-consent-mode #consent-window-accept"
+        ],
+        "showing": [
+          "#google-consent-mode #google-consent-mode-window"
+        ]
+      }
     },
     "opera_com": {
       "selector": "#cookie-consent",
@@ -7772,6 +8558,28 @@
         ]
       }
     },
+    "paperlesspost": {
+      "selector": "[data-testid='cookie-consent-banner-notice'], [data-testid='cookie-consent-banner-eea']",
+      "detectors": {
+        "present": [
+          "[data-testid='cookie-consent-banner-notice'], [data-testid='cookie-consent-banner-eea']"
+        ],
+        "showing": [
+          "[data-testid='cookie-consent-banner-notice'], [data-testid='cookie-consent-banner-eea']"
+        ]
+      }
+    },
+    "passengercookieoptin": {
+      "selector": ".cookie-opt-in[data-cookie-role='cookie-message']",
+      "detectors": {
+        "present": [
+          "[data-cookie-role='cookie-message'] [data-cookie-role='close-and-disallow']"
+        ],
+        "showing": [
+          "[data-cookie-role='cookie-message']"
+        ]
+      }
+    },
     "passle": {
       "selector": "#passle-cookie-control-container #cookie-control",
       "detectors": {
@@ -7863,6 +8671,20 @@
         ]
       }
     },
+    "peda_net": {
+      "selector": ".systemmessages .cookieconsent",
+      "detectors": {
+        "present": [
+          ".systemmessages .cookieconsent button.dismiss"
+        ],
+        "showing": [
+          ".systemmessages .cookieconsent"
+        ]
+      },
+      "domains": [
+        "peda.net"
+      ]
+    },
     "pekao24": {
       "selector": "pekao-cookies",
       "detectors": {
@@ -7899,6 +8721,17 @@
         "peppes.no"
       ]
     },
+    "peterchristian": {
+      "selector": "[data-id=\"consent-cookies\"]",
+      "detectors": {
+        "present": [
+          "[data-id=\"consent-cookies\"]"
+        ],
+        "showing": [
+          "[data-id=\"consent-cookies\"]"
+        ]
+      }
+    },
     "pfrongovpl": {
       "selector": "#cookies-info",
       "detectors": {
@@ -7918,6 +8751,17 @@
         ],
         "showing": [
           ".cookie-consent-popup .cookie-consent-accept"
+        ]
+      }
+    },
+    "pieeye": {
+      "selector": ".pieeye-consent-container",
+      "detectors": {
+        "present": [
+          ".pieeye-consent-container iframe"
+        ],
+        "showing": [
+          ".pieeye-consent-container iframe"
         ]
       }
     },
@@ -7991,6 +8835,17 @@
         ]
       }
     },
+    "playdoit_mx": {
+      "selector": ".notifications .notification-root:has(a[href*='aboutcookies.org'])",
+      "detectors": {
+        "present": [
+          ".notifications .notification-root:has(a[href*='aboutcookies.org'])"
+        ],
+        "showing": [
+          ".notifications .notification-root:has(a[href*='aboutcookies.org'])"
+        ]
+      }
+    },
     "plazavea": {
       "selector": "#cookies-consent",
       "detectors": {
@@ -8050,13 +8905,15 @@
       }
     },
     "pmcprivacybanner": {
-      "selector": "aside[aria-labelledby=\"pmc-privacy-banner-heading\"]",
+      "selector": "aside[aria-labelledby=\"pmc-privacy-banner-heading\"], aside[class*=\"PrivacyPolicyBannerstyles__PrivacyBannerRoot\"]",
       "detectors": {
         "present": [
-          "aside[aria-labelledby=\"pmc-privacy-banner-heading\"]"
+          "aside[aria-labelledby=\"pmc-privacy-banner-heading\"], aside[class*=\"PrivacyPolicyBannerstyles__PrivacyBannerRoot\"]",
+          "#onetrust-consent-sdk",
+          "#onetrust-banner-sdk"
         ],
         "showing": [
-          "aside[aria-labelledby=\"pmc-privacy-banner-heading\"]"
+          "aside[aria-labelledby=\"pmc-privacy-banner-heading\"], aside[class*=\"PrivacyPolicyBannerstyles__PrivacyBannerRoot\"]"
         ]
       }
     },
@@ -8195,6 +9052,17 @@
         ]
       }
     },
+    "prestigeflowers": {
+      "selector": "#cookies_banner",
+      "detectors": {
+        "present": [
+          "#cookies_banner #save-cookies"
+        ],
+        "showing": [
+          "#cookies_banner"
+        ]
+      }
+    },
     "pride_com": {
       "selector": ".gdpr-wrapper",
       "detectors": {
@@ -8298,6 +9166,20 @@
         ]
       }
     },
+    "profootballmania_com": {
+      "selector": "#pfm-consent",
+      "detectors": {
+        "present": [
+          "#pfm-consent[data-pfm-consent-root]"
+        ],
+        "showing": [
+          "#pfm-consent [data-pfm-consent-main-actions]"
+        ]
+      },
+      "domains": [
+        "profootballmania.com"
+      ]
+    },
     "progorod": {
       "selector": "[class*=\"notifycation_notifycation__\"]",
       "detectors": {
@@ -8372,6 +9254,17 @@
         ],
         "showing": [
           "#cookieConsentContainer"
+        ]
+      }
+    },
+    "pvh": {
+      "selector": ".ReactModalPortal:has([data-testid='CookieNotice-main-wrapper'])",
+      "detectors": {
+        "present": [
+          "[data-testid='CookieNotice-main-wrapper'] [data-testid='reject-cookies-pvh-button']"
+        ],
+        "showing": [
+          "[data-testid='CookieNotice-main-wrapper']"
         ]
       }
     },
@@ -8485,6 +9378,17 @@
         ]
       }
     },
+    "rctcookiesmodal": {
+      "selector": ".rct-cookies-modal-trigger > div",
+      "detectors": {
+        "present": [
+          ".rct-cookies-modal-trigger > div"
+        ],
+        "showing": [
+          ".rct-cookies-modal-trigger > div"
+        ]
+      }
+    },
     "rdcconcents": {
       "selector": "#concentBanner, #concentPopup",
       "detectors": {
@@ -8530,6 +9434,20 @@
           "div[consent-skip-blocker=\"1\"][id][data-bg] > dialog > div > div > div > div > div > a[role=button][id]"
         ]
       }
+    },
+    "realfoods_co_uk": {
+      "selector": "#coPo",
+      "detectors": {
+        "present": [
+          "#coPo #settingsButton"
+        ],
+        "showing": [
+          "#coPo"
+        ]
+      },
+      "domains": [
+        "realfoods.co.uk"
+      ]
     },
     "realme": {
       "selector": ".r-cookie, #cookies .cookies-pop-up",
@@ -8614,896 +9532,6 @@
         ],
         "showing": [
           "#cookie-banner"
-        ]
-      }
-    },
-    "reuma_nl": {
-      "selector": ".cookiebar",
-      "detectors": {
-        "present": [
-          ".cookiebar .cookiebar__button"
-        ],
-        "showing": [
-          ".cookiebar .cookiebar__button"
-        ]
-      },
-      "domains": [
-        "reuma.nl"
-      ]
-    },
-    "reverb": {
-      "selector": ".rc-notice:has(a[href$='/cookies-policy'])",
-      "detectors": {
-        "present": [
-          ".rc-notice a[href$='/cookies-policy']"
-        ],
-        "showing": [
-          ".rc-notice a[href$='/cookies-policy']"
-        ]
-      }
-    },
-    "reviewsolicitors_co_uk": {
-      "selector": "#cookiePopUp, #manageCookieSettingsPopUp",
-      "detectors": {
-        "present": [
-          "#cookiePopUp[data-control=cookies]"
-        ],
-        "showing": [
-          "#cookiePopUp"
-        ]
-      },
-      "domains": [
-        "reviewsolicitors.co.uk"
-      ]
-    },
-    "riacom": {
-      "selector": ".gdpr-wrapper > .gdpr",
-      "detectors": {
-        "present": [
-          ".gdpr-wrapper > .gdpr .button-icon.close button"
-        ],
-        "showing": [
-          ".gdpr-wrapper > .gdpr"
-        ]
-      }
-    },
-    "rijksoverheidnotificationbar": {
-      "selector": "#notification-bar:has(> #close-notification[aria-label=\"Sluit de cookiebanner\"])",
-      "detectors": {
-        "present": [
-          "#notification-bar > #close-notification[aria-label=\"Sluit de cookiebanner\"]"
-        ],
-        "showing": [
-          "#notification-bar"
-        ]
-      }
-    },
-    "rinkabyrorse": {
-      "selector": "#cookie_container",
-      "detectors": {
-        "present": [
-          "#cookie_container #accept_cookies_btn"
-        ],
-        "showing": [
-          "#cookie_container"
-        ]
-      }
-    },
-    "rittal": {
-      "selector": ".cookie-overlay",
-      "detectors": {
-        "present": [
-          ".cookie-overlay .cookie-consent .cc-controls"
-        ],
-        "showing": [
-          ".cookie-overlay .cookie-consent .cc-controls"
-        ]
-      }
-    },
-    "rogforum_asus_com": {
-      "selector": "#cookie-policy-info",
-      "detectors": {
-        "present": [
-          "#cookie-policy-info"
-        ],
-        "showing": [
-          "#cookie-policy-info"
-        ]
-      },
-      "domains": [
-        "rogforum.asus.com"
-      ]
-    },
-    "roll20": {
-      "selector": "#gdpr-notification",
-      "detectors": {
-        "present": [
-          "#gdpr-notification #banner-link-preferences"
-        ],
-        "showing": [
-          "#gdpr-notification"
-        ]
-      }
-    },
-    "routeinn": {
-      "selector": ".cookie-consent",
-      "detectors": {
-        "present": [
-          ".cookie-consent .cookie-close"
-        ],
-        "showing": [
-          ".cookie-consent.is-show .cookie-close"
-        ]
-      }
-    },
-    "rspb_org_uk": {
-      "selector": "rspb-cookie-banner",
-      "detectors": {
-        "present": [
-          "rspb-cookie-banner"
-        ],
-        "showing": [
-          "rspb-cookie-banner"
-        ]
-      },
-      "domains": [
-        "rspb.org.uk"
-      ]
-    },
-    "rt": {
-      "selector": ".cookies-banner-shown",
-      "detectors": {
-        "present": [
-          ".cookies-banner-shown"
-        ],
-        "showing": [
-          ".cookies-banner-shown"
-        ]
-      }
-    },
-    "rugnl": {
-      "selector": "#ConsentBar",
-      "detectors": {
-        "present": [
-          "#ConsentBar [data-js--cookie=\"cookies-accept-functional\"]"
-        ],
-        "showing": [
-          "#ConsentBar"
-        ]
-      }
-    },
-    "rule34xxx": {
-      "selector": "#gdprconsent.gdprcontainer",
-      "detectors": {
-        "present": [
-          "#gdprconsent.gdprcontainer"
-        ],
-        "showing": [
-          "#gdprconsent.gdprcontainer"
-        ]
-      }
-    },
-    "rutjes": {
-      "selector": "#cookiebanner",
-      "detectors": {
-        "present": [
-          "script[src*='consent.cookiebot.com/uc.js']"
-        ],
-        "showing": [
-          "#cookiebanner #DeclineAll"
-        ]
-      }
-    },
-    "rwsapp": {
-      "selector": ".rws-app > .cookie-modal",
-      "detectors": {
-        "present": [
-          ".rws-app > .cookie-modal"
-        ],
-        "showing": [
-          ".rws-app > .cookie-modal"
-        ]
-      }
-    },
-    "rwthmoodle": {
-      "selector": "#cookie-container",
-      "detectors": {
-        "present": [
-          "#cookie-container #cookie-confirm-btn"
-        ],
-        "showing": [
-          "#cookie-container"
-        ]
-      }
-    },
-    "ryanair": {
-      "selector": "#cookie-popup-with-overlay",
-      "detectors": {
-        "present": [
-          "#cookie-popup-with-overlay"
-        ],
-        "showing": [
-          "#cookie-popup-with-overlay"
-        ]
-      }
-    },
-    "sachsencookiebar": {
-      "selector": "#xcm-bar.xcm-bar",
-      "detectors": {
-        "present": [
-          "#xcm-bar.xcm-bar #xcm-btn"
-        ],
-        "showing": [
-          "#xcm-bar.xcm-bar:not(.xcm-bar-hide)"
-        ]
-      }
-    },
-    "samsung_com": {
-      "selector": "div.cookie-bar",
-      "detectors": {
-        "present": [
-          "div.cookie-bar"
-        ],
-        "showing": [
-          "div.cookie-bar"
-        ]
-      },
-      "domains": [
-        "samsung.com"
-      ]
-    },
-    "sandstudiocookietip": {
-      "selector": "#mode-cookie-tip",
-      "detectors": {
-        "present": [
-          "#mode-cookie-tip .cookie-tip-close"
-        ],
-        "showing": [
-          "#mode-cookie-tip"
-        ]
-      }
-    },
-    "sankeidigital": {
-      "selector": "#consent-wrapper",
-      "detectors": {
-        "present": [
-          "#consent-wrapper > .button-container > button.close"
-        ],
-        "showing": [
-          "#consent-wrapper > .button-container > button.close"
-        ]
-      }
-    },
-    "sanook": {
-      "selector": ".ConsentBanner",
-      "detectors": {
-        "present": [
-          ".ConsentBanner .buttonGroup button.setting"
-        ],
-        "showing": [
-          ".ConsentBanner .buttonGroup"
-        ]
-      }
-    },
-    "santatsu_jp": {
-      "selector": ".cookie:has(.js-cookie-close)",
-      "detectors": {
-        "present": [
-          "html.show-cookie .cookie .js-cookie-close"
-        ],
-        "showing": [
-          "html.show-cookie .cookie .js-cookie-close"
-        ]
-      },
-      "domains": [
-        "santatsu.jp"
-      ]
-    },
-    "saosorgpl": {
-      "selector": "#cookie-window, #cookie-message",
-      "detectors": {
-        "present": [
-          "#cookie-window #cookie-preview-accept"
-        ],
-        "showing": [
-          "#cookie-window"
-        ]
-      }
-    },
-    "sarmady": {
-      "selector": "#fg-consent-banner, #ff-consent-banner",
-      "detectors": {
-        "present": [
-          "[id$=\"-consent-banner\"] .consent-checkbox[data-key=\"ad_storage\"]",
-          "[id$=\"-consent-banner\"] #consent-reject-all"
-        ],
-        "showing": [
-          "[id$=\"-consent-banner\"] #consent-reject-all"
-        ]
-      }
-    },
-    "sas": {
-      "selector": "dialog[aria-labelledby='cookie-dialog-title']:has(#deny-consent-button)",
-      "detectors": {
-        "present": [
-          "dialog[aria-labelledby='cookie-dialog-title'] #deny-consent-button"
-        ],
-        "showing": [
-          "dialog[aria-labelledby='cookie-dialog-title'][open]"
-        ]
-      }
-    },
-    "saturdaysnyc": {
-      "selector": "#popup-notice",
-      "detectors": {
-        "present": [
-          "#popup-notice .popup__close"
-        ],
-        "showing": [
-          "#popup-notice"
-        ]
-      }
-    },
-    "savills": {
-      "selector": ".sv-cookie-management__banner",
-      "detectors": {
-        "present": [
-          ".sv-cookie-management__banner"
-        ],
-        "showing": [
-          ".sv-cookie-management__banner.sv--visible"
-        ]
-      }
-    },
-    "scb_se": {
-      "selector": "#kakrutan",
-      "detectors": {
-        "present": [
-          "#kakrutan scb-button[value='inget']"
-        ],
-        "showing": [
-          "#kakrutan"
-        ]
-      },
-      "domains": [
-        "scb.se"
-      ]
-    },
-    "sccookiebanner": {
-      "selector": "#scCookieBanner:has(.sc-cookie-reject)",
-      "detectors": {
-        "present": [
-          "#scCookieBanner .sc-cookie-reject"
-        ],
-        "showing": [
-          "#scCookieBanner"
-        ]
-      }
-    },
-    "schadefonds": {
-      "selector": ".cc-window[aria-describedby=\"cookieconsent:desc\"]",
-      "detectors": {
-        "present": [
-          ".cc-window.cc-type-info[aria-describedby=\"cookieconsent:desc\"] .cc-dismiss"
-        ],
-        "showing": [
-          ".cc-window.cc-type-info[aria-describedby=\"cookieconsent:desc\"] .cc-dismiss"
-        ]
-      }
-    },
-    "schuurmanschoenen": {
-      "selector": ".js-cookie-modal",
-      "detectors": {
-        "present": [
-          ".js-cookie-modal [data-cookie-button-type=\"rejectCookies\"]"
-        ],
-        "showing": [
-          ".js-cookie-modal.show-modal"
-        ]
-      }
-    },
-    "scmp": {
-      "selector": "[data-qa=\"GDPRBanner-Container\"]"
-    },
-    "scotlandpoliceuk": {
-      "selector": "#panelAsk",
-      "detectors": {
-        "present": [
-          "#panelAsk #btnAcceptAllCookies"
-        ],
-        "showing": [
-          "#panelAsk #btnAcceptAllCookies"
-        ]
-      }
-    },
-    "scottishgovernmentdesignsystem": {
-      "selector": "[data-module=\"ds-cookie-notification\"]",
-      "detectors": {
-        "present": [
-          "[data-module=\"ds-cookie-notification\"] .js-accept-essential-cookies"
-        ],
-        "showing": [
-          "[data-module=\"ds-cookie-notification\"] .js-accept-essential-cookies"
-        ]
-      }
-    },
-    "sdait": {
-      "selector": "#content-alert-cookie",
-      "detectors": {
-        "present": [
-          "#content-alert-cookie #truste-consent-required2"
-        ],
-        "showing": [
-          "#content-alert-cookie #truste-consent-required2"
-        ]
-      }
-    },
-    "securitigpcflyout": {
-      "selector": ".f-cmp-flyout-wrapper .f-gpc-banner",
-      "detectors": {
-        "present": [
-          ".f-cmp-flyout-wrapper .f-gpc-banner .f-banner-close-btn"
-        ],
-        "showing": [
-          ".f-cmp-flyout-wrapper .f-gpc-banner"
-        ]
-      }
-    },
-    "sedlakgdprcookie": {
-      "selector": "#gdpr-cookie",
-      "detectors": {
-        "present": [
-          "#gdpr-cookie .js-allow-required"
-        ],
-        "showing": [
-          "#gdpr-cookie .js-allow-required"
-        ]
-      }
-    },
-    "segsocial": {
-      "selector": "#cookieContainer #cookies",
-      "detectors": {
-        "present": [
-          "#cookieContainer #cookies .cookies_inner button[onclick*='Rechazar']"
-        ],
-        "showing": [
-          "#cookieContainer #cookies .cookies_inner button[onclick*='Rechazar']"
-        ]
-      }
-    },
-    "seniorweb": {
-      "selector": "#cookie-info",
-      "detectors": {
-        "present": [
-          "#cookie-info"
-        ],
-        "showing": [
-          "#cookie-info"
-        ]
-      }
-    },
-    "seriagroup": {
-      "selector": ".l-cookie.js-cookie",
-      "detectors": {
-        "present": [
-          ".l-cookie.js-cookie button"
-        ],
-        "showing": [
-          ".l-cookie.js-cookie.is-show"
-        ]
-      }
-    },
-    "serpstatcom": {
-      "selector": ".cookie-consent[data-cookieconsent], .gdpr-tab",
-      "detectors": {
-        "present": [
-          ".cookie-consent[data-cookieconsent], .gdpr-tab #gdpr_tab_content"
-        ],
-        "showing": [
-          ".cookie-consent[data-cookieconsent], .gdpr-tab #gdpr_tab_content"
-        ]
-      }
-    },
-    "service2school": {
-      "selector": ".cookie-banner-mount-point, #hs-eu-cookie-confirmation",
-      "detectors": {
-        "present": [
-          ".cookie-banner-mount-point section[aria-label='Cookie banner'] button.accept"
-        ],
-        "showing": [
-          ".cookie-banner-mount-point section[aria-label='Cookie banner']"
-        ]
-      }
-    },
-    "setgrouppdpa": {
-      "selector": ".cookies-pdpa.fixed-bottom",
-      "detectors": {
-        "present": [
-          ".cookies-pdpa.fixed-bottom .btn-submit-pdpa"
-        ],
-        "showing": [
-          ".cookies-pdpa.fixed-bottom"
-        ]
-      }
-    },
-    "setupad": {
-      "selector": ".stpd_cmp_wrapper",
-      "detectors": {
-        "present": [
-          ".stpd_cmp_wrapper .stpd_cmp_form"
-        ],
-        "showing": [
-          ".stpd_cmp_wrapper .stpd_cmp_form"
-        ]
-      }
-    },
-    "sex_com": {
-      "selector": "[class*=\"cookie-consent-required\"]",
-      "detectors": {
-        "present": [
-          "html[data-cookie-consent-required] [data-testid=\"accept-all-cookie-button\"]"
-        ],
-        "showing": [
-          "[data-testid=\"accept-all-cookie-button\"]"
-        ]
-      },
-      "domains": [
-        "sex.com"
-      ]
-    },
-    "sexlog": {
-      "selector": ".lgpd-tooltip",
-      "detectors": {
-        "present": [
-          ".lgpd-tooltip .lgpd-tooltip__button"
-        ],
-        "showing": [
-          ".lgpd-tooltip"
-        ]
-      }
-    },
-    "sfanytime": {
-      "selector": "[data-testid=\"cookie-banner\"]",
-      "detectors": {
-        "present": [
-          "[data-testid=\"cookie-banner\"]"
-        ],
-        "showing": [
-          "[data-testid=\"cookie-banner\"]"
-        ]
-      }
-    },
-    "sgcookies": {
-      "selector": "#sg-cookiesBar #cookies-bar",
-      "detectors": {
-        "present": [
-          "#sg-cookiesBar #cookies-bar"
-        ],
-        "showing": [
-          "#sg-cookiesBar",
-          "#sg-cookiesBar #cookies-bar"
-        ]
-      }
-    },
-    "shein_com": {
-      "selector": "body > div[class*=_shein_privacy]",
-      "detectors": {
-        "present": [
-          "body > div[class*=_shein_privacy] > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(3)"
-        ],
-        "showing": [
-          "body > div[class*=_shein_privacy] > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(3)"
-        ]
-      },
-      "domains": [
-        "shein.com"
-      ]
-    },
-    "shimanobike": {
-      "selector": ".cmp-cookies-notification",
-      "detectors": {
-        "present": [
-          ".cmp-cookies-notification .cmp-cookies-notification__btn-cookie-accept"
-        ],
-        "showing": [
-          ".cmp-cookies-notification"
-        ]
-      }
-    },
-    "shinden_pl": {
-      "selector": "#cookie-bar",
-      "detectors": {
-        "present": [
-          "#cookie-bar .cb-enable,[class^=\"app_gdpr--\"] button"
-        ],
-        "showing": [
-          "#cookie-bar .cb-enable,[class^=\"app_gdpr--\"] button"
-        ]
-      },
-      "domains": [
-        "shinden.pl"
-      ]
-    },
-    "shoezone": {
-      "selector": "#pnlCookieAcceptance",
-      "detectors": {
-        "present": [
-          "#pnlCookieAcceptance #divCookiesManage"
-        ],
-        "showing": [
-          "#pnlCookieAcceptance"
-        ]
-      }
-    },
-    "shoper": {
-      "selector": ".consents-modal",
-      "detectors": {
-        "present": [
-          ".consents-modal__footer consents-accept-necessary"
-        ],
-        "showing": [
-          ".consents-modal__footer consents-accept-necessary"
-        ]
-      }
-    },
-    "shopgold": {
-      "selector": "#InfoCookieTlo, #CookieOknoUstawien",
-      "detectors": {
-        "present": [
-          "#InfoCookie.DolnaInformacjaCookie, #InfoCookieIntegracje.DolnaInformacjaCookie"
-        ]
-      }
-    },
-    "shopify": {
-      "selector": "#shopify-pc__banner",
-      "detectors": {
-        "present": [
-          "#shopify-pc__banner"
-        ],
-        "showing": [
-          "#shopify-pc__banner"
-        ]
-      }
-    },
-    "shopifydux": {
-      "selector": "#dux-privacy",
-      "detectors": {
-        "present": [
-          "#dux-privacy [data-component-name=\"reject\"]"
-        ],
-        "showing": [
-          "#dux-privacy:not([style*=\"opacity: 0\"]) [data-component-name=\"reject\"]"
-        ]
-      }
-    },
-    "shopquarters": {
-      "selector": "#shopify-pc__banner",
-      "detectors": {
-        "present": [
-          "aside[x-data=\"cookieConsent\"]"
-        ],
-        "showing": [
-          "#shopify-pc__banner, aside[x-data=\"cookieConsent\"] > div.opacity-100"
-        ]
-      }
-    },
-    "shopware": {
-      "selector": ".cookie-permission-container[data-cookie-permission]",
-      "detectors": {
-        "present": [
-          ".cookie-permission-container[data-cookie-permission] .js-cookie-configuration-button"
-        ],
-        "showing": [
-          ".cookie-permission-container[data-cookie-permission]"
-        ]
-      }
-    },
-    "shouldianswer": {
-      "selector": "footer.pageFooter #cookieBanner.cookieBanner",
-      "detectors": {
-        "present": [
-          "footer.pageFooter #cookieBanner.cookieBanner"
-        ],
-        "showing": [
-          "footer.pageFooter #cookieBanner.cookieBanner.visible"
-        ]
-      }
-    },
-    "showroomprive": {
-      "selector": "#popinCookies .panelSimple, #cookieWrapper #popinCookies",
-      "detectors": {
-        "present": [
-          "#popinCookies #disagree_button, #cookieWrapper #popinCookies > [onclick*='refuse_all']"
-        ],
-        "showing": [
-          "#popinCookies.fadeInDown #disagree_button, #cookieWrapper #popinCookies > [onclick*='refuse_all']"
-        ]
-      }
-    },
-    "shueishagigaviewer": {
-      "selector": ".js-top-modal-window-container",
-      "detectors": {
-        "present": [
-          ".js-top-modal-window-container .modal-link[href*='shueisha.co.jp/privacy']"
-        ],
-        "showing": [
-          ".js-top-modal-window-container .js-top-modal-content"
-        ]
-      }
-    },
-    "shueishahpplus": {
-      "selector": ":is(#cookieBanner, .fixed_cookie_banner):has(a[href*='shueisha.co.jp/privacy'])",
-      "detectors": {
-        "present": [
-          ":is(#cookieBanner, .fixed_cookie_banner):has(a[href*='shueisha.co.jp/privacy']) :is(#cookieBannerCloseButton, .cookieBannerCloseButton)"
-        ],
-        "showing": [
-          ":is(#cookieBanner, .fixed_cookie_banner):has(a[href*='shueisha.co.jp/privacy'])"
-        ]
-      }
-    },
-    "sianit": {
-      "selector": "section.cookie-banner",
-      "detectors": {
-        "present": [
-          "section.cookie-banner .cookie-content > .btn-toolbar"
-        ],
-        "showing": [
-          "section.cookie-banner"
-        ]
-      }
-    },
-    "sicredi": {
-      "selector": "#sicredi-cookies-root .banner-container",
-      "detectors": {
-        "present": [
-          "#sicredi-cookies-root"
-        ],
-        "showing": [
-          "#sicredi-cookies-root [data-testid=\"banner\"]"
-        ]
-      }
-    },
-    "silktide": {
-      "selector": "#silktide-banner, #silktide-backdrop",
-      "detectors": {
-        "present": [
-          "#silktide-banner"
-        ],
-        "showing": [
-          "#silktide-banner"
-        ]
-      }
-    },
-    "simplehumancom": {
-      "selector": "custom-cookie-consent#cookieBubble.banner-show",
-      "detectors": {
-        "present": [
-          "custom-cookie-consent#cookieBubble #configureBtn"
-        ],
-        "showing": [
-          "custom-cookie-consent#cookieBubble.banner-show #configureBtn"
-        ]
-      }
-    },
-    "simpleviewcookiebanner": {
-      "selector": ".contentRender_name_plugins_common_cookie_banner, .contentRender_name_plugins_common_gdpr_banner",
-      "detectors": {
-        "present": [
-          ".contentRender_name_plugins_common_cookie_banner [data-sv-close-banner], .contentRender_name_plugins_common_gdpr_banner [data-sv-close-banner]"
-        ],
-        "showing": [
-          ".contentRender_name_plugins_common_cookie_banner > :has([data-sv-close-banner]), .contentRender_name_plugins_common_gdpr_banner > :has([data-sv-close-banner])"
-        ]
-      }
-    },
-    "simyonl": {
-      "selector": "[data-testid=\"cookie-wall\"]",
-      "detectors": {
-        "present": [
-          "[data-testid=\"cookie-wall\"]"
-        ],
-        "showing": [
-          "[data-testid=\"cookie-wall\"]"
-        ]
-      }
-    },
-    "sitecoreprivacywarning": {
-      "selector": ".privacy-warning.permisive",
-      "detectors": {
-        "present": [
-          ".privacy-warning.permisive .close"
-        ],
-        "showing": [
-          ".privacy-warning.permisive"
-        ]
-      }
-    },
-    "sitenotificationscookieusage": {
-      "selector": "[data-t=\"site-notifications\"] [data-notice-key=\"cookie_usage\"]",
-      "detectors": {
-        "present": [
-          "[data-t=\"site-notifications\"] [data-notice-key=\"cookie_usage\"]"
-        ],
-        "showing": [
-          "[data-t=\"site-notifications\"] [data-notice-key=\"cookie_usage\"]"
-        ]
-      }
-    },
-    "siteparksitekit": {
-      "selector": ".SP-CookieUsageNotification",
-      "detectors": {
-        "present": [
-          ".SP-CookieUsageNotification"
-        ],
-        "showing": [
-          ".SP-CookieUsageNotification"
-        ]
-      }
-    },
-    "sitevision": {
-      "selector": ".sv-cookie-consent-banner",
-      "detectors": {
-        "present": [
-          ".sv-cookie-consent-banner"
-        ],
-        "showing": [
-          ".sv-cookie-consent-banner"
-        ]
-      }
-    },
-    "sitevisioncookieconsent": {
-      "selector": ".sv-cookie-consent-modal",
-      "detectors": {
-        "present": [
-          ".sv-cookie-consent-modal"
-        ],
-        "showing": [
-          ".sv-cookie-consent-modal"
-        ]
-      }
-    },
-    "sitevisioniwcookie": {
-      "selector": ".sv-iw-cookie #cookie-banner",
-      "detectors": {
-        "present": [
-          ".sv-iw-cookie #cookie-banner"
-        ],
-        "showing": [
-          ".sv-iw-cookie #cookie-banner"
-        ]
-      }
-    },
-    "skatteverketse": {
-      "selector": "skv-cookie-banner",
-      "detectors": {
-        "present": [
-          "skv-cookie-banner"
-        ],
-        "showing": [
-          "skv-cookie-banner"
-        ]
-      }
-    },
-    "skogforsk": {
-      "selector": ".block-cookie:has(.cookiebtns #cookie-required)",
-      "detectors": {
-        "present": [
-          ".block-cookie .cookiebtns #cookie-required"
-        ],
-        "showing": [
-          ".block-cookie .cookiebtns #cookie-required"
-        ]
-      }
-    },
-    "skovborghoghcookies": {
-      "selector": ".cookiePopup:has(#cookies .cookieWrapper)",
-      "detectors": {
-        "present": [
-          ".cookiePopup #cookies .cookie-actions .cookie-btn.deny"
-        ],
-        "showing": [
-          ".cookiePopup #cookies .cookieWrapper"
         ]
       }
     },
