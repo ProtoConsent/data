@@ -2,9 +2,9 @@
 ! Description: Measurement, statistics and usage analytics, even when not directly linked to marketing (extended - all sources)
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
-! Last modified: 2026-11-24T11:07:27.282Z
+! Last modified: 2026-11-25T09:57:33.392Z
 ! Format: AdGuard
-! Entries: 165281
+! Entries: 165286
 !
 ||0.myikas.com^$third-party
 ||0.net.easyjet.com^$third-party
@@ -8876,6 +8876,7 @@
 ||analytics.dankschee.de^$third-party
 ||analytics.dannb.org^$third-party
 ||analytics.danny.film^$third-party
+||analytics.dannyb.co^$third-party
 ||analytics.dansicht-media.de^$third-party
 ||analytics.dantech-services.com.proxy-https-01.verticalaxion.com^$third-party
 ||analytics.danvilleky.gov^$third-party
@@ -9154,6 +9155,7 @@
 ||analytics.dicide.de^$third-party
 ||analytics.dickekreativ.de^$third-party
 ||analytics.dicode.fi^$third-party
+||analytics.did.kr^$third-party
 ||analytics.die-ostfriesische.de^$third-party
 ||analytics.die-partei-dortmund.de^$third-party
 ||analytics.die-partei-nrw.de^$third-party
@@ -9503,6 +9505,7 @@
 ||analytics.ecobim.io^$third-party
 ||analytics.ecobnb.net^$third-party
 ||analytics.ecoland.de^$third-party
+||analytics.ecompanion.io^$third-party
 ||analytics.econjobmarket.org^$third-party
 ||analytics.ecoportale.net^$third-party
 ||analytics.ecosia.org^$third-party
@@ -26293,7 +26296,6 @@
 ||cdi.liqid.com^$third-party
 ||cdid.trip.com^$third-party
 ||cdj.screenprotech.com^$third-party
-||cdjbf8trk.com^$third-party
 ||cdjhcf.hometogo.es^$third-party
 ||cdkvgy.cotswoldoutdoor.us^$third-party
 ||cdl.lvsafe.io^$third-party
@@ -33061,7 +33063,6 @@
 ||daasity.com^$third-party
 ||dab.woodcarver.pl^$third-party
 ||dabu.askmediagroup.com^$third-party
-||dacounter.com^$third-party
 ||dadalytics.it^$third-party
 ||dadi.technology^$third-party
 ||dadispapi.gmarket.co.kr^$third-party
@@ -57832,6 +57833,7 @@
 ||ivhbtu.gade.co.il^$third-party
 ||iviea.hotelcollectionofficial.com.br^$third-party
 ||ivmwbl.hear.com^$third-party
+||ivoryandcrow.com^$third-party
 ||ivpvb.sunriverhoney.com^$third-party
 ||ivqoc.eatzeats.com^$third-party
 ||ivrnfvlcgubm.www.cefirates.com^$third-party
@@ -88428,7 +88430,6 @@
 ||our365mail.com^$third-party
 ||ourdreamersai.com^$third-party
 ||ourlnk.com^$third-party
-||ournet-analytics.com^$third-party
 ||oursprivacy.com^$third-party
 ||ourstats.de^$third-party
 ||ourstatssrv.com^$third-party
@@ -101514,8 +101515,6 @@
 ||rtb-config.samsungads.com^$third-party
 ||rtb-stats.com^$third-party
 ||rtb-trk4.linkedin.com^$third-party
-||rtb-uswest-v4.strongmetrics.io^$third-party
-||rtb-uswest.strongmetrics.io^$third-party
 ||rtb.adgrx.com.tech.akadns.net^$third-party
 ||rtb.loopa.net.au^$third-party
 ||rtb.mts.ru^$third-party
@@ -146302,6 +146301,7 @@
 ||tinystat.ir^$third-party
 ||tioztp.unisportstore.nl^$third-party
 ||tippcom01.tipp24.com^$third-party
+||tips.delt.io^$third-party
 ||tipstats.onepagelove.com^$third-party
 ||tiptip.tipmanager.net^$third-party
 ||tipuh.themillionroses.com^$third-party
@@ -153872,7 +153872,6 @@
 ||ug-ad-lgsmartad-com.aws-prd.net^$third-party
 ||ug.lgsmartad.com^$third-party
 ||ug.urban-goddess.com^$third-party
-||ug4x1tagz.com^$third-party
 ||ugamsolutions.com^$third-party
 ||ugdcxl.timeout.com^$third-party
 ||ugdcxl.timeout.com.hk^$third-party
@@ -154144,6 +154143,7 @@
 ||umami.cerbero.cc^$third-party
 ||umami.cestlavie.moe^$third-party
 ||umami.chilli.be^$third-party
+||umami.chkn.computer^$third-party
 ||umami.cklph.dev^$third-party
 ||umami.cleverapps.io^$third-party
 ||umami.cloudhq.net.au^$third-party
@@ -154519,6 +154519,7 @@
 ||uniqodo.com^$third-party
 ||unique-stats.nl^$third-party
 ||unique.flyingvgroup.com^$third-party
+||uniqueness.greenmangaming.com^$third-party
 ||united-infos.net^$third-party
 ||united-rewards.com^$third-party
 ||unitedcreation.de^$third-party
@@ -162481,6 +162482,7 @@
 ||gettapeads.com/stat/^
 ||gg-unleash-prod.azurewebsites.net/proxy/client/metrics^
 ||gg.asuracomic.net/api/views/collect^
+||gg.deals/scripts/track-gtm.js^
 ||ghacks.net/statics/px.gif^
 ||gianteagle.com/webevents/^
 ||gias.jd.com/js/td.js^
@@ -162568,6 +162570,7 @@
 ||grabnetworks.com/ping?^
 ||grafana.net/collect/^
 ||graphcomment.com/api/thread/*/stats^
+||greynoise.io/nvhc9u4gxsagNjY3ZGQ0MGViYjgwOTVlODlmMjc1NjM5/^
 ||grok.com/_data/v1/a/^
 ||grok.com/_data/v1/events^
 ||grok.com/_data/v1/experiment/exposure^
@@ -164157,6 +164160,7 @@
 ||secure.planetrugby.com/tag/^
 ||secure.teamtalk.com/tag/^
 ||secure.tennis365.com/tag/^
+||secure.valnetinc.com/discover^
 ||secureprovide1.com/*=tracking^
 ||secureserver.net/t/^
 ||security.giokko.ru/cookie.php^
@@ -164675,6 +164679,7 @@
 ||tiktokv.com/web/report?^
 ||tiktokv.us/monitor_browser/^
 ||tildacdn.com/pixel.png^
+||tiles.openfreemap.org/planet^
 ||time.is/img/nod.png^
 ||timejs.game.easebar.com/bad_report?^
 ||timejs.game.easebar.com/report?^

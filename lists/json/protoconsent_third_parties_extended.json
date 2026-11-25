@@ -1,7 +1,7 @@
 {
   "name": "ProtoConsent Third Parties Extended",
-  "version": "2026-11-20",
-  "generated": "2026-11-20T08:42:34.086Z",
+  "version": "2026-11-25",
+  "generated": "2026-11-25T09:57:33.392Z",
   "description": "Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)",
   "homepage": "https://github.com/ProtoConsent/data",
   "license": "GPL-3.0-or-later",
@@ -681,6 +681,8 @@
     "||almasryalyoum.com/scripts/sharing.js",
     "||api.dappier.com/app/widget/logwidgetevent",
     "||api.getdrip.com/",
+    "||api.sided.co/embed/registerDebateEvent",
+    "||api.sided.co/embed/updateSession",
     "||apis.google.com/js/platform.js",
     "||apis.google.com/js/plusone.js",
     "||app.getbeamer.com/js/",
@@ -881,5 +883,5 @@
     "||youtube.com/subscribe_widget",
     "||zextit.com/partners/"
   ],
-  "path_count": 204
+  "path_count": 206
 }

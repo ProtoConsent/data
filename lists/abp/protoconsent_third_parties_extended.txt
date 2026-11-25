@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ProtoConsent Third Parties Extended
 ! Description: Sharing or combining data with third parties, partners or group companies beyond the core service (extended - all sources)
-! Version: 2026-11-20
-! Last modified: 2026-11-20T08:42:34.086Z
-! Entries: 871
+! Version: 2026-11-25
+! Last modified: 2026-11-25T09:57:33.392Z
+! Entries: 873
 ! Homepage: https://github.com/ProtoConsent/data
 ! License: GPL-3.0-or-later
 !
@@ -679,6 +679,8 @@
 ||almasryalyoum.com/scripts/sharing.js^
 ||api.dappier.com/app/widget/logwidgetevent^
 ||api.getdrip.com/^
+||api.sided.co/embed/registerDebateEvent^
+||api.sided.co/embed/updateSession^
 ||apis.google.com/js/platform.js^
 ||apis.google.com/js/plusone.js^
 ||app.getbeamer.com/js/^
