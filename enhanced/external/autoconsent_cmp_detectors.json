@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-25",
+  "version": "2026-11-26",
   "type": "cmp_detectors",
-  "generated": "2026-11-25T13:29:10.347Z",
+  "generated": "2026-11-26T13:07:03.487Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "3ec255bd769a87ef",
-  "cmp_count": 992,
+  "autoconsent_tree_hash": "aba43581d5698fa1",
+  "cmp_count": 993,
   "detectors": {
     "123inkt": {
       "present": [
@@ -309,6 +309,14 @@
         "aliexpress.com"
       ]
     },
+    "alkaconmercury": {
+      "present": [
+        "#privacy-policy-banner"
+      ],
+      "showing": [
+        "#privacy-policy-banner .banner"
+      ]
+    },
     "allaboutjapan": {
       "present": [
         ".cookie-message .cookie-agree"
@@ -542,12 +550,6 @@
         "#arb-cookie-banner-section"
       ]
     },
-    "arbeitsagentur": {
-      "present": [
-        "bahf-cookie-disclaimer-dpl3"
-      ],
-      "showing": []
-    },
     "arena_ai": {
       "present": [
         "xpath///div[@role='dialog'][.//h2[normalize-space(.)='This website uses cookies']]"
@@ -628,6 +630,14 @@
         "#divCookieInfo"
       ]
     },
+    "aspnetcorecookieconsent": {
+      "present": [
+        "#cookieConsent:not(dialog):has(button[data-cookie-string]):not(:has(button:not([data-cookie-string])))"
+      ],
+      "showing": [
+        "#cookieConsent:not(dialog):has(button[data-cookie-string]):not(:has(button:not([data-cookie-string])))"
+      ]
+    },
     "asrock": {
       "present": [
         "#AcceptCookies2 #MrktConfirm"
@@ -658,14 +668,6 @@
       ],
       "showing": [
         "div.nvcookies[data-nvcookies]:not(.nvcookies--hide)"
-      ]
-    },
-    "athlinkscom": {
-      "present": [
-        "#footer-container ~ div"
-      ],
-      "showing": [
-        "#footer-container > div"
       ]
     },
     "atomstore": {
@@ -2497,6 +2499,14 @@
         "cookiecode-banner"
       ]
     },
+    "cookieconfirm": {
+      "present": [
+        "#cc-consent-banner"
+      ],
+      "showing": [
+        "#cc-consent-banner .cc-b"
+      ]
+    },
     "cookieconsent2": {
       "present": [
         "#cc--main #cc_div, #cc_div #s-cnt",
@@ -2516,6 +2526,14 @@
       ],
       "showing": [
         "#cc-main .cm-wrapper"
+      ]
+    },
+    "cookieconsentio": {
+      "present": [
+        "#cookie-consent-shadow-bg #cookie-consent-io-main"
+      ],
+      "showing": [
+        "#cookie-consent-shadow-bg #cookie-consent-io-main"
       ]
     },
     "cookieconsentroot": {
@@ -2575,6 +2593,14 @@
       ],
       "showing": [
         "#cookieFooter"
+      ]
+    },
+    "cookieformiframe": {
+      "present": [
+        "iframe[src*=cookie]"
+      ],
+      "showing": [
+        "iframe[src*=cookie]"
       ]
     },
     "cookiehub": {
@@ -3184,12 +3210,28 @@
         ".public-map-notices .cookie-consent"
       ]
     },
+    "deventerschouwburg": {
+      "present": [
+        "#cookie-consent.cookiemodal [data-consent-settings]"
+      ],
+      "showing": [
+        "#cookie-consent.cookiemodal .cookiemodal__panel"
+      ]
+    },
     "dfactorycookienotice": {
       "present": [
         "#cookie-notice :is(#cn-refuse-cookie, #cn-close-notice)"
       ],
       "showing": [
         "#cookie-notice.cookie-notice-visible #cn-notice-buttons"
+      ]
+    },
+    "dgmcookiepopup": {
+      "present": [
+        "#cookie-popup.info-popup #more-info-button"
+      ],
+      "showing": [
+        "#cookie-popup .grey-main"
       ]
     },
     "dhbbank": {
@@ -4501,6 +4543,14 @@
         "gemini.google.com"
       ]
     },
+    "genebase": {
+      "present": [
+        "#gb-cookies #gb-cookies-non"
+      ],
+      "showing": [
+        "#gb-cookies"
+      ]
+    },
     "generalitatcatalunya": {
       "present": [
         "gov-core-cookies .cl-cookies__bar"
@@ -4895,6 +4945,25 @@
         "shb-cookie-consent [data-testid=\"CookieConsent_modal\"]"
       ]
     },
+    "handyman_nl": {
+      "present": [
+        ".cookie-popup #frm-cookiebanner"
+      ],
+      "showing": [
+        ".cookie-popup.cookie-content"
+      ],
+      "domains": [
+        "handyman.nl"
+      ]
+    },
+    "hdkcookiebar": {
+      "present": [
+        ".cookiebar .cookiebar__accept-all"
+      ],
+      "showing": [
+        ".cookiebar .cookiebar__accept-all"
+      ]
+    },
     "hdscookieconsent": {
       "present": [
         ".hds-cc__target"
@@ -5177,6 +5246,14 @@
       ],
       "domains": [
         "hyrabostad.se"
+      ]
+    },
+    "hyvacookieconsentmodal": {
+      "present": [
+        "[x-data=cookieConsentModal] [elementtiming=cookie-consent-customize]"
+      ],
+      "showing": [
+        "[x-data=cookieConsentModal] [elementtiming=cookie-consent-customize]"
       ]
     },
     "ibanez": {
@@ -5941,6 +6018,14 @@
         "[data-cy=\"kn-consent-sheet\"]"
       ]
     },
+    "kodixcookieconsent": {
+      "present": [
+        "#kcc-modal #kcc-btn-accept"
+      ],
+      "showing": [
+        "#kcc-modal:not(.kcc-hidden)"
+      ]
+    },
     "kolibricookiewidget": {
       "present": [
         "body.kolibri [data-testid=\"cookie-widget\"]"
@@ -6199,6 +6284,14 @@
       ],
       "domains": [
         "lenta.ru"
+      ]
+    },
+    "lesanimalstrackingconsent": {
+      "present": [
+        ".tracking-consent.tracking-message #tracking-consent-close"
+      ],
+      "showing": [
+        ".tracking-consent.tracking-message:not(.tracking-consent-hide)"
       ]
     },
     "lessonup": {
@@ -6521,10 +6614,10 @@
     },
     "mango": {
       "present": [
-        "#cookies-banner [class*=\"CookiesFooter-module\"]"
+        "#cookies-banner [class*=\"_cookiesNotice\"] [class*=\"_cookiesFooter\"]"
       ],
       "showing": [
-        "#cookies-banner [class*=\"CookiesFooter-module\"]"
+        "#cookies-banner [class*=\"_cookiesNotice\"] [class*=\"_cookiesFooter\"]"
       ]
     },
     "mareeinfo": {
@@ -6702,7 +6795,7 @@
         ".pp-cookies-item-switch .andes-ui-switch"
       ],
       "showing": [
-        ".pp-cookies-item-switch .andes-ui-switch:not(.andes-ui-switch--disabled)"
+        ".pp-cookies-item-switch .andes-ui-switch"
       ]
     },
     "mercadolibresubdomain": {
@@ -7756,6 +7849,14 @@
         "#consent-manager-modal [role=dialog]"
       ]
     },
+    "orionconsent": {
+      "present": [
+        "div[data-orion-consent]"
+      ],
+      "showing": [
+        "div[data-orion-consent]"
+      ]
+    },
     "orthinform_de": {
       "present": [
         "#cookie a.close"
@@ -7945,6 +8046,14 @@
       ],
       "showing": [
         "#overlay > .gdprBackgound"
+      ]
+    },
+    "pcbway": {
+      "present": [
+        ".cookies-pop-alert .js-agree-all"
+      ],
+      "showing": [
+        ".cookies-pop-alert"
       ]
     },
     "pcloud": {
@@ -8218,6 +8327,14 @@
         "[data-testid=cookie-consent-bar-desktop], [data-testid=cookie-consent-bar-mobile]"
       ]
     },
+    "podiumcadeaukaart": {
+      "present": [
+        "#cookieBar a.btn-text"
+      ],
+      "showing": [
+        "#cookieBar.fixed"
+      ]
+    },
     "poki": {
       "present": [
         "#notification-stack header:has([style*='ui-icons-lock.svg']) button"
@@ -8232,119 +8349,6 @@
       ],
       "showing": [
         "#js-consent-banner #js-cookie-reject-button"
-      ]
-    },
-    "polisense": {
-      "present": [
-        "#cookie-consent.c-cookie-banner .c-cookie-banner__quickform"
-      ],
-      "showing": [
-        "#cookie-consent.c-cookie-banner"
-      ]
-    },
-    "popupsmartcookienotice": {
-      "present": [
-        "#spopupCont #poper #cookie-btn.spopupbtnok"
-      ],
-      "showing": [
-        "#spopupCont #poper"
-      ]
-    },
-    "pornhat": {
-      "present": [
-        ".cookiesBanner .wrapper-cookies"
-      ],
-      "showing": [
-        ".cookiesBanner .wrapper-cookies"
-      ]
-    },
-    "pornhub_com": {
-      "present": [
-        "#cookieBanner #cookieBannerContent, #globalCookieBanner"
-      ],
-      "showing": [
-        "#cookieBanner #cookieBannerContent, #globalCookieBanner"
-      ],
-      "domains": [
-        "pornhub.com"
-      ]
-    },
-    "pornhubcompactcookiebanner": {
-      "present": [
-        "#cookieBanner.cbShort .cbCloseButton"
-      ],
-      "showing": [
-        "#cookieBanner.cbShort .cbCloseButton"
-      ]
-    },
-    "pornpics_de": {
-      "present": [
-        "#cookie-form"
-      ],
-      "showing": [
-        "#cookie-form"
-      ],
-      "domains": [
-        "pornpics.de"
-      ]
-    },
-    "posthog": {
-      "present": [
-        "xpath///li[contains(@class, 'ToastRoot')][contains(., 'cookie banner')]"
-      ],
-      "showing": [
-        "xpath///li[contains(@class, 'ToastRoot')][contains(., 'cookie banner')]"
-      ]
-    },
-    "posthog_com": {
-      "present": [
-        "xpath///li[contains(@class,'ToastRoot')][contains(., 'cookie banner')]"
-      ],
-      "showing": [
-        "xpath///li[contains(@class,'ToastRoot')][contains(., 'cookie banner')]"
-      ],
-      "domains": [
-        "posthog.com"
-      ]
-    },
-    "postnl": {
-      "present": [
-        "pnl-cookie-wall-widget"
-      ],
-      "showing": [
-        "pnl-cookie-wall-widget"
-      ]
-    },
-    "pracapl": {
-      "present": [
-        "#cookiesPopup button.MuiButton-outlined"
-      ],
-      "showing": [
-        "#cookiesPopup button.MuiButton-outlined"
-      ]
-    },
-    "praktikertjanst": {
-      "present": [
-        "#tc-consent #tc-banner"
-      ],
-      "showing": [
-        "#tc-banner .tc-accept-btn"
-      ]
-    },
-    "prestashopadvancedcookiebanner": {
-      "present": [
-        "#acb-banner #acb-accept-all-button"
-      ],
-      "showing": [
-        "#acb-banner"
-      ]
-    },
-    "prestigeflowers": {
-      "present": [
-        "#cookies_banner #save-cookies"
-      ],
-      "showing": [
-        "#cookies_banner"
       ]
     },
     "tiktok": {
