@@ -1,9 +1,9 @@
 {
-  "version": "2026-11-26",
+  "version": "2026-11-27",
   "type": "cmp_detectors",
-  "generated": "2026-11-26T13:07:03.487Z",
+  "generated": "2026-11-27T13:05:20.612Z",
   "source": "Autoconsent (duckduckgo/autoconsent) MPL-2.0",
-  "autoconsent_tree_hash": "aba43581d5698fa1",
+  "autoconsent_tree_hash": "f1165de7815b6ec3",
   "cmp_count": 993,
   "detectors": {
     "123inkt": {
@@ -350,14 +350,6 @@
       ],
       "showing": [
         "#kvkk"
-      ]
-    },
-    "alzacookiesinfo": {
-      "present": [
-        ".cookies-info .js-cookies-info-reject, .cookies-info .js-cookie-reject-all"
-      ],
-      "showing": [
-        ".cookies-info .js-cookies-info-reject, .cookies-info .js-cookie-reject-all"
       ]
     },
     "amastygdpr": {
@@ -3987,14 +3979,6 @@
         "#gdpr-consent.consent"
       ]
     },
-    "expressvpn": {
-      "present": [
-        "#shadowHost"
-      ],
-      "showing": [
-        "#shadowHost"
-      ]
-    },
     "extracom": {
       "present": [
         "#cookieBanner.extra-cookie-banner"
@@ -5864,6 +5848,14 @@
         ".content-container.gdpr-banner, .content-container.non-gdpr-banner"
       ]
     },
+    "kapeusercentrics": {
+      "present": [
+        "#shadowHost"
+      ],
+      "showing": [
+        "#shadowHost"
+      ]
+    },
     "kartverket": {
       "present": [
         "button[aria-label^=\"Tilpass informasjonskap\"]"
@@ -6273,17 +6265,6 @@
       ],
       "showing": [
         "section[aria-label=\"Cookie banner\"]"
-      ]
-    },
-    "lenta_ru": {
-      "present": [
-        ".js-cookies-notification .js-cookies-confirm"
-      ],
-      "showing": [
-        ".js-cookies-notification._active .js-cookies-confirm"
-      ],
-      "domains": [
-        "lenta.ru"
       ]
     },
     "lesanimalstrackingconsent": {
@@ -8349,6 +8330,25 @@
       ],
       "showing": [
         "#js-consent-banner #js-cookie-reject-button"
+      ]
+    },
+    "polisense": {
+      "present": [
+        "#cookie-consent.c-cookie-banner .c-cookie-banner__quickform"
+      ],
+      "showing": [
+        "#cookie-consent.c-cookie-banner"
+      ]
+    },
+    "politie_nl": {
+      "present": [
+        "#cookie-bar .button-group pwc-button[appearance=\"secondary\"]"
+      ],
+      "showing": [
+        "#cookie-bar"
+      ],
+      "domains": [
+        "politie.nl"
       ]
     },
     "tiktok": {
